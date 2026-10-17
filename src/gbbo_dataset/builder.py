@@ -10,6 +10,7 @@ from typing import Any
 import pandas as pd
 from pydantic import ValidationError
 
+from gbbo_dataset.geocoding import export_bakers_geojson, lookup_hometown
 from gbbo_dataset.models import Baker, Episode, Performance
 
 logging.basicConfig(
@@ -80,9 +81,18 @@ def build_datasets(
         for raw in items:
             b_id = raw.get("baker_id", "")
             if b_id in existing_bakers:
-                for k in ["gender", "image_url"]:
+                for k in [
+                    "gender",
+                    "image_url",
+                    "latitude",
+                    "longitude",
+                    "country",
+                    "county_region",
+                ]:
                     if raw.get(k) is None and existing_bakers[b_id].get(k) is not None:
                         raw[k] = existing_bakers[b_id][k]
+            if raw.get("hometown") and raw.get("latitude") is None:
+                raw.update(lookup_hometown(raw.get("hometown")))
             try:
                 baker = Baker.model_validate(raw)
                 bakers_map[baker.baker_id] = baker
@@ -180,6 +190,8 @@ def build_datasets(
         df_bakers = pd.DataFrame(bakers_list)
         df_bakers.to_csv(processed_dir / "bakers.csv", index=False)
         df_bakers.to_parquet(processed_dir / "bakers.parquet", index=False)
+        export_bakers_geojson(bakers_list, output_path=processed_dir / "bakers.geojson")
+
     if episodes_list:
         df_episodes = pd.DataFrame(episodes_list)
         df_episodes.to_csv(processed_dir / "episodes.csv", index=False)

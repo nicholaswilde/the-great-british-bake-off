@@ -1,4 +1,4 @@
-"""Baker Profiles view: Baker headshot, demographics, dish catalog, and challenge history."""
+"""Baker Profiles view: Baker headshot, demographics, dish catalog, and geographic distribution."""
 
 from __future__ import annotations
 
@@ -8,11 +8,11 @@ import streamlit as st
 
 
 def render_baker_profiles(data: dict[str, pd.DataFrame]) -> None:
-    """Render the baker profile and challenge catalog page."""
-    st.title("👩‍🍳 Baker Profiles & Challenge History")
+    """Render the baker profile, challenge catalog, and geographic distribution page."""
+    st.title("👩‍🍳 Baker Profiles & Geography")
     st.markdown(
         "Inspect individual baker biographies, official portraits, signature recipes, "
-        "blind technical rankings, showstopper centerpieces, and episode-by-episode outcomes."
+        "blind technical rankings, showstopper centerpieces, and nationwide geographic distribution."
     )
 
     bakers = data.get("bakers", pd.DataFrame())
@@ -23,6 +23,24 @@ def render_baker_profiles(data: dict[str, pd.DataFrame]) -> None:
         st.warning("No baker demographic data available.")
         return
 
+    view_mode = st.radio(
+        "Profile View Mode",
+        ["👤 Individual Baker Profile", "🗺️ Baker Geography & UK Map"],
+        horizontal=True,
+    )
+
+    if view_mode == "👤 Individual Baker Profile":
+        _render_individual_baker(bakers, performances, episodes)
+    else:
+        _render_baker_geography(bakers)
+
+
+def _render_individual_baker(
+    bakers: pd.DataFrame,
+    performances: pd.DataFrame,
+    episodes: pd.DataFrame,
+) -> None:
+    """Render single baker biographical breakdown and challenge trajectory."""
     # 1. Filters (Series & Baker Selection)
     col_s, col_b = st.columns([1, 2])
     with col_s:
@@ -94,7 +112,12 @@ def render_baker_profiles(data: dict[str, pd.DataFrame]) -> None:
             f"**Age**: `{int(baker_info['age']) if pd.notna(baker_info.get('age')) else 'N/A'}`"
         )
         st.markdown(f"**Occupation**: `{baker_info.get('occupation', 'N/A')}`")
-        st.markdown(f"**Hometown**: `{baker_info.get('hometown', 'N/A')}`")
+
+        # Regional & geographic details
+        country = baker_info.get("country", "")
+        region = baker_info.get("county_region", "")
+        geo_str = f" ({region}, {country})" if region and country else ""
+        st.markdown(f"**Hometown**: `{baker_info.get('hometown', 'N/A')}`{geo_str}")
 
         m1, m2, m3 = st.columns(3)
         with m1:
@@ -185,3 +208,172 @@ def render_baker_profiles(data: dict[str, pd.DataFrame]) -> None:
             st.dataframe(
                 pd.DataFrame(display_rows), use_container_width=True, hide_index=True
             )
+
+
+def _render_baker_geography(bakers: pd.DataFrame) -> None:
+    """Render interactive UK map and geographic demographics analytics."""
+    st.subheader("🗺️ Great British Bake Off — Nationwide Baker Geography")
+    st.markdown(
+        "Explore the regional provenance of all 204 bakers across England, Scotland, "
+        "Wales, and Northern Ireland. Filter by series or inspect aggregate regional representation."
+    )
+
+    # Coords check
+    has_coords = (
+        "latitude" in bakers.columns
+        and "longitude" in bakers.columns
+        and bakers["latitude"].notna().any()
+    )
+
+    if not has_coords:
+        st.warning("No geographic coordinates found in baker records.")
+        return
+
+    geo_bakers = bakers.dropna(subset=["latitude", "longitude"]).copy()
+
+    # Filter by series
+    col1, _col2 = st.columns([2, 4])
+    with col1:
+        series_choices = ["All Series (1–17)"] + [
+            f"Series {s}" for s in sorted(geo_bakers["series_number"].unique().tolist())
+        ]
+        chosen_series = st.selectbox("Filter Series Map", options=series_choices)
+
+    if chosen_series != "All Series (1–17)":
+        s_num = int(chosen_series.split()[1])
+        display_df = geo_bakers[geo_bakers["series_number"] == s_num]
+    else:
+        display_df = geo_bakers
+
+    # Metrics Row
+    m1, m2, m3, m4 = st.columns(4)
+    with m1:
+        st.metric("Mapped Bakers", len(display_df))
+    with m2:
+        countries_count = (
+            display_df["country"].nunique() if "country" in display_df.columns else 0
+        )
+        st.metric("Countries Represented", countries_count)
+    with m3:
+        top_region = (
+            display_df["county_region"].value_counts().index[0]
+            if "county_region" in display_df.columns
+            and not display_df["county_region"].empty
+            else "N/A"
+        )
+        st.metric("Top County / Region", top_region)
+    with m4:
+        champs = (
+            int((display_df["overall_placement"] == 1).sum())
+            if "overall_placement" in display_df.columns
+            else 0
+        )
+        st.metric("Champions", champs)
+
+    # Interactive Map
+    st.markdown("##### 📍 Interactive Hometown Location Map")
+    map_data = display_df[["latitude", "longitude"]].copy()
+    st.map(map_data, zoom=5)
+
+    st.divider()
+
+    # Regional Distributions
+    st.subheader("📊 Regional Provenance & Representation")
+    c_left, c_right = st.columns(2)
+
+    with c_left:
+        st.markdown("##### Bakers by Country")
+        if "country" in display_df.columns:
+            country_counts = (
+                display_df["country"].value_counts().reset_index(name="Baker Count")
+            )
+            country_counts.columns = ["Country", "Baker Count"]
+
+            c_chart = (
+                alt.Chart(country_counts)
+                .mark_bar()
+                .encode(
+                    x=alt.X("Baker Count:Q", title="Number of Bakers"),
+                    y=alt.Y("Country:N", sort="-x", title=None),
+                    color=alt.Color(
+                        "Country:N",
+                        scale=alt.Scale(
+                            domain=[
+                                "England",
+                                "Scotland",
+                                "Wales",
+                                "Northern Ireland",
+                                "Overseas",
+                            ],
+                            range=[
+                                "#cba6f7",
+                                "#89b4fa",
+                                "#a6e3a1",
+                                "#fab387",
+                                "#f38ba8",
+                            ],
+                        ),
+                        legend=None,
+                    ),
+                    tooltip=["Country", "Baker Count"],
+                )
+                .properties(height=260)
+            )
+            st.altair_chart(c_chart, use_container_width=True)
+
+    with c_right:
+        st.markdown("##### Top 10 Counties & Regions")
+        if "county_region" in display_df.columns:
+            region_counts = (
+                display_df["county_region"]
+                .value_counts()
+                .head(10)
+                .reset_index(name="Baker Count")
+            )
+            region_counts.columns = ["County / Region", "Baker Count"]
+
+            r_chart = (
+                alt.Chart(region_counts)
+                .mark_bar(color="#89b4fa")
+                .encode(
+                    x=alt.X("Baker Count:Q", title="Number of Bakers"),
+                    y=alt.Y("County / Region:N", sort="-x", title=None),
+                    tooltip=["County / Region", "Baker Count"],
+                )
+                .properties(height=260)
+            )
+            st.altair_chart(r_chart, use_container_width=True)
+
+    # Regional Table
+    st.divider()
+    st.markdown("##### 🏛️ County & Regional Breakdown Table")
+    if "county_region" in display_df.columns:
+        summary_rows = []
+        for r_name, group in display_df.groupby("county_region"):
+            c_name = group["country"].iloc[0] if "country" in group.columns else "UK"
+            total = len(group)
+            wins = (
+                int((group["overall_placement"] == 1).sum())
+                if "overall_placement" in group.columns
+                else 0
+            )
+            finalists = (
+                int((group["overall_placement"] <= 3).sum())
+                if "overall_placement" in group.columns
+                else 0
+            )
+            summary_rows.append(
+                {
+                    "County / Region": r_name,
+                    "Country": c_name,
+                    "Total Bakers": total,
+                    "Finalists (Top 3)": finalists,
+                    "Champions (1st)": wins,
+                }
+            )
+
+        sum_df = pd.DataFrame(summary_rows).sort_values(
+            by=["Total Bakers", "Champions (1st)"], ascending=[False, False]
+        )
+
+        st.dataframe(sum_df, use_container_width=True, hide_index=True)

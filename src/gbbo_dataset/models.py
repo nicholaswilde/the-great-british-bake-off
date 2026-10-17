@@ -60,6 +60,19 @@ class Baker(BaseModel):
     image_url: str | None = Field(
         default=None, description="URL link to official baker headshot photo"
     )
+    latitude: float | None = Field(
+        default=None, description="Hometown latitude coordinate (WGS84)"
+    )
+    longitude: float | None = Field(
+        default=None, description="Hometown longitude coordinate (WGS84)"
+    )
+    country: str | None = Field(
+        default=None,
+        description="Hometown country (England, Scotland, Wales, Northern Ireland, Overseas)",
+    )
+    county_region: str | None = Field(
+        default=None, description="Hometown county or administrative region"
+    )
 
     @classmethod
     def generate_baker_id(cls, series_number: int, name: str) -> str:

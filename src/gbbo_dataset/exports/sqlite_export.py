@@ -55,8 +55,13 @@ SCHEMA_STATEMENTS = [
         hometown TEXT,
         overall_placement REAL,
         image_url TEXT,
+        latitude REAL,
+        longitude REAL,
+        country TEXT,
+        county_region TEXT,
         FOREIGN KEY (series_number) REFERENCES seasons(series_number)
     );
+
     """,
     """
     CREATE TABLE IF NOT EXISTS episodes (

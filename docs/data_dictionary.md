@@ -38,7 +38,12 @@ erDiagram
         string hometown "Hometown or residence"
         int overall_placement "Final rank in series (1 = Winner)"
         string image_url "Official headshot photograph URL"
+        float latitude "Hometown latitude coordinate (WGS84)"
+        float longitude "Hometown longitude coordinate (WGS84)"
+        string country "Hometown country (England, Scotland, Wales, Northern Ireland, Overseas)"
+        string county_region "Hometown county or administrative region"
     }
+
 
     EPISODES {
         string episode_id PK "Canonical ID: s{series:02d}e{episode:02d}"
@@ -108,6 +113,7 @@ Contestant demographic profiles, biographical details, and final season finish r
   - `data/processed/bakers.json`
   - `data/processed/bakers.csv`
   - `data/processed/bakers.parquet`
+  - `data/processed/bakers.geojson`
   - `data/processed/arrow/bakers.arrow`
   - `data/processed/r/bakers.rds`
   - SQLite table: `bakers` in `data/processed/gbbo.db`
@@ -123,6 +129,11 @@ Contestant demographic profiles, biographical details, and final season finish r
 | `hometown` | `TEXT` | Yes | Town, city, or county of residence | `"Bradford"` |
 | `overall_placement` | `INTEGER` | Yes | Final series placement rank (`1` = Winner, `2`–`3` = Runners-up) | `1` |
 | `image_url` | `TEXT` | Yes | Official headshot photograph URL | `"https://..."` |
+| `latitude` | `FLOAT` | Yes | WGS84 geographic latitude coordinate | `53.7960` |
+| `longitude` | `FLOAT` | Yes | WGS84 geographic longitude coordinate | `-1.7594` |
+| `country` | `TEXT` | Yes | Hometown country (England, Scotland, Wales, Northern Ireland, Overseas) | `"England"` |
+| `county_region` | `TEXT` | Yes | Hometown administrative county or region | `"West Yorkshire"` |
+
 
 ---
 

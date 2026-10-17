@@ -149,9 +149,27 @@ def test_render_baker_profiles_view():
     mock_data = _get_mock_datasets()
     with (
         patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.radio", return_value="👤 Individual Baker Profile"),
         patch("streamlit.selectbox", side_effect=[1, "Edd Kimber"]),
     ):
         render_baker_profiles(mock_data)
+
+
+def test_render_baker_profiles_geography_view():
+    """Test baker profiles geography and map view."""
+    mock_data = _get_mock_datasets()
+    mock_data["bakers"]["latitude"] = [53.7960]
+    mock_data["bakers"]["longitude"] = [-1.7594]
+    mock_data["bakers"]["country"] = ["England"]
+    mock_data["bakers"]["county_region"] = ["West Yorkshire"]
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.radio", return_value="🗺️ Baker Geography & UK Map"),
+        patch("streamlit.selectbox", return_value="All Series (1–17)"),
+        patch("streamlit.map") as mock_map,
+    ):
+        render_baker_profiles(mock_data)
+        mock_map.assert_called_once()
 
 
 def test_render_challenge_analytics_view():

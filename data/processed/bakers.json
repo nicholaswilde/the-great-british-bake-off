@@ -8,7 +8,11 @@
     "occupation": "Debt collector for Yorkshire Bank",
     "hometown": "Bradford",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_4_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_4_450-450x450.jpg",
+    "latitude": 53.796,
+    "longitude": -1.7594,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s01_ruth",
@@ -19,7 +23,11 @@
     "occupation": "Retail manager/Housewife",
     "hometown": "Pointon",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_6_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_6_450-450x450.jpg",
+    "latitude": 52.8711,
+    "longitude": -0.3478,
+    "country": "England",
+    "county_region": "Lincolnshire"
   },
   {
     "baker_id": "s01_miranda",
@@ -30,7 +38,11 @@
     "occupation": "Food buyer for Marks & Spencer",
     "hometown": "Midhurst",
     "overall_placement": 3,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_5_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_5_450-450x450.jpg",
+    "latitude": 50.9856,
+    "longitude": -0.7397,
+    "country": "England",
+    "county_region": "West Sussex"
   },
   {
     "baker_id": "s01_jasminder",
@@ -41,7 +53,11 @@
     "occupation": "Assistant Credit Control Manager",
     "hometown": "Birmingham",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_2_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_2_450-450x450.jpg",
+    "latitude": 52.4862,
+    "longitude": -1.8904,
+    "country": "England",
+    "county_region": "West Midlands"
   },
   {
     "baker_id": "s01_david",
@@ -52,7 +68,11 @@
     "occupation": "Entrepreneur",
     "hometown": "Milton Keynes",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_10_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_10_450-450x450.jpg",
+    "latitude": 52.0406,
+    "longitude": -0.7594,
+    "country": "England",
+    "county_region": "Buckinghamshire"
   },
   {
     "baker_id": "s01_jonathan",
@@ -63,7 +83,11 @@
     "occupation": "Research Analyst",
     "hometown": "St Albans",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_3_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_3_450-450x450.jpg",
+    "latitude": 51.752,
+    "longitude": -0.3397,
+    "country": "England",
+    "county_region": "Hertfordshire"
   },
   {
     "baker_id": "s01_annetha",
@@ -74,7 +98,11 @@
     "occupation": "Midwife",
     "hometown": "Essex",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_8_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_8_450-450x450.jpg",
+    "latitude": 51.7719,
+    "longitude": 0.4431,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s01_louise",
@@ -85,7 +113,11 @@
     "occupation": "Police Officer",
     "hometown": "Manchester",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_7_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_7_450-450x450.jpg",
+    "latitude": 53.4808,
+    "longitude": -2.2426,
+    "country": "England",
+    "county_region": "Greater Manchester"
   },
   {
     "baker_id": "s01_lea",
@@ -96,7 +128,11 @@
     "occupation": "Retired",
     "hometown": "Midlothian",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_9_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_9_450-450x450.jpg",
+    "latitude": 55.845,
+    "longitude": -3.1,
+    "country": "Scotland",
+    "county_region": "Midlothian"
   },
   {
     "baker_id": "s01_mark",
@@ -107,7 +143,11 @@
     "occupation": "Bus Driver",
     "hometown": "South Wales",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_1_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_1_450-450x450.jpg",
+    "latitude": 51.6214,
+    "longitude": -3.9436,
+    "country": "Wales",
+    "county_region": "South Wales"
   },
   {
     "baker_id": "s02_joanne",
@@ -118,7 +158,11 @@
     "occupation": "Housewife",
     "hometown": "Ongar",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/joanne-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/joanne-detail-370x299.jpg",
+    "latitude": 51.7067,
+    "longitude": 0.245,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s02_holly",
@@ -129,7 +173,11 @@
     "occupation": "Advertising executive",
     "hometown": "Leicester",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/holly-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/holly-detail-370x299.jpg",
+    "latitude": 52.6369,
+    "longitude": -1.1398,
+    "country": "England",
+    "county_region": "Leicestershire"
   },
   {
     "baker_id": "s02_maryanne",
@@ -140,7 +188,11 @@
     "occupation": "Housewife",
     "hometown": "Kidderminster",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/mary-anne-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/mary-anne-detail-370x299.jpg",
+    "latitude": 52.3885,
+    "longitude": -2.249,
+    "country": "England",
+    "county_region": "Worcestershire"
   },
   {
     "baker_id": "s02_janet",
@@ -151,7 +203,11 @@
     "occupation": "Teacher of Modern Languages",
     "hometown": "Formby",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/janet-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/janet-detail-370x299.jpg",
+    "latitude": 53.5572,
+    "longitude": -3.0644,
+    "country": "England",
+    "county_region": "Merseyside"
   },
   {
     "baker_id": "s02_yasmin",
@@ -162,7 +218,11 @@
     "occupation": "Childminder",
     "hometown": "West Kirby",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/yasmin-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/yasmin-detail-370x299.jpg",
+    "latitude": 53.3725,
+    "longitude": -3.1839,
+    "country": "England",
+    "county_region": "Merseyside"
   },
   {
     "baker_id": "s02_jason",
@@ -173,7 +233,11 @@
     "occupation": "Civil Engineering Student",
     "hometown": "Croydon",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/jason-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/jason-detail-370x299.jpg",
+    "latitude": 51.3762,
+    "longitude": -0.0982,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s02_robert",
@@ -184,7 +248,11 @@
     "occupation": "Photographer",
     "hometown": "London",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/robert-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/robert-detail-370x299.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s02_ben",
@@ -195,7 +263,11 @@
     "occupation": "Graphic Designer",
     "hometown": "Northampton",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ben-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ben-detail-370x299.jpg",
+    "latitude": 52.2405,
+    "longitude": -0.9027,
+    "country": "England",
+    "county_region": "Northamptonshire"
   },
   {
     "baker_id": "s02_ian",
@@ -206,7 +278,11 @@
     "occupation": "Fundraiser for English Heritage",
     "hometown": "Dunstable",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ian-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ian-detail-370x299.jpg",
+    "latitude": 51.886,
+    "longitude": -0.521,
+    "country": "England",
+    "county_region": "Bedfordshire"
   },
   {
     "baker_id": "s02_urvashi",
@@ -217,7 +293,11 @@
     "occupation": "Head of Marketing",
     "hometown": "Enfield",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/urvashi-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/urvashi-detail-370x299.jpg",
+    "latitude": 51.6517,
+    "longitude": -0.0792,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s02_simon",
@@ -228,7 +308,11 @@
     "occupation": "Rugby Coach",
     "hometown": "Norfolk",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/simon-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/simon-detail-370x299.jpg",
+    "latitude": 52.6309,
+    "longitude": 1.2974,
+    "country": "England",
+    "county_region": "Norfolk"
   },
   {
     "baker_id": "s02_keith",
@@ -239,7 +323,11 @@
     "occupation": "House husband",
     "hometown": "Arlesey",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/keith-detail-370x299.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/keith-detail-370x299.jpg",
+    "latitude": 52.0167,
+    "longitude": -0.2667,
+    "country": "England",
+    "county_region": "Bedfordshire"
   },
   {
     "baker_id": "s03_john",
@@ -250,7 +338,11 @@
     "occupation": "Law student",
     "hometown": "Wigan, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/john-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/john-large1-370x300.jpg",
+    "latitude": 53.545,
+    "longitude": -2.6325,
+    "country": "England",
+    "county_region": "Greater Manchester"
   },
   {
     "baker_id": "s03_brendan",
@@ -261,7 +353,11 @@
     "occupation": "Recruitment consultant",
     "hometown": "Sutton Coldfield, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/brendan-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/brendan-large1-370x300.jpg",
+    "latitude": 52.563,
+    "longitude": -1.822,
+    "country": "England",
+    "county_region": "West Midlands"
   },
   {
     "baker_id": "s03_james",
@@ -272,7 +368,11 @@
     "occupation": "Medical student",
     "hometown": "Hillswick, Scotland",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/james-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/james-large1-370x300.jpg",
+    "latitude": 60.4764,
+    "longitude": -1.4925,
+    "country": "Scotland",
+    "county_region": "Shetland"
   },
   {
     "baker_id": "s03_danny",
@@ -283,7 +383,11 @@
     "occupation": "Intensive care consultant",
     "hometown": "Sheffield, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/danny-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/danny-large1-370x300.jpg",
+    "latitude": 53.3811,
+    "longitude": -1.4701,
+    "country": "England",
+    "county_region": "South Yorkshire"
   },
   {
     "baker_id": "s03_cathryn",
@@ -294,7 +398,11 @@
     "occupation": "Shop assistant",
     "hometown": "Pease Pottage, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/cathryn-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/cathryn-large1-370x300.jpg",
+    "latitude": 51.085,
+    "longitude": -0.2036,
+    "country": "England",
+    "county_region": "West Sussex"
   },
   {
     "baker_id": "s03_ryan",
@@ -305,7 +413,11 @@
     "occupation": "Photographer",
     "hometown": "Bristol, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ryan-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ryan-large1-370x300.jpg",
+    "latitude": 51.4545,
+    "longitude": -2.5879,
+    "country": "England",
+    "county_region": "Bristol"
   },
   {
     "baker_id": "s03_sarahjane",
@@ -316,7 +428,11 @@
     "occupation": "Vicar's wife",
     "hometown": "Bewbush, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/sarah-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/sarah-large1-370x300.jpg",
+    "latitude": 51.1042,
+    "longitude": -0.2222,
+    "country": "England",
+    "county_region": "West Sussex"
   },
   {
     "baker_id": "s03_manisha",
@@ -327,7 +443,11 @@
     "occupation": "Nursery nurse",
     "hometown": "Leicester, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/manisha-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/manisha-large1-370x300.jpg",
+    "latitude": 52.6369,
+    "longitude": -1.1398,
+    "country": "England",
+    "county_region": "Leicestershire"
   },
   {
     "baker_id": "s03_stuart",
@@ -338,7 +458,11 @@
     "occupation": "PE teacher",
     "hometown": "Lichfield, England",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/stuart-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/stuart-large1-370x300.jpg",
+    "latitude": 52.6835,
+    "longitude": -1.8265,
+    "country": "England",
+    "county_region": "Staffordshire"
   },
   {
     "baker_id": "s03_victoria",
@@ -349,7 +473,11 @@
     "occupation": "CEO of the charity Plantlife",
     "hometown": "Somerset, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/victoria-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/victoria-large1-370x300.jpg",
+    "latitude": 51.1,
+    "longitude": -3.0,
+    "country": "England",
+    "county_region": "Somerset"
   },
   {
     "baker_id": "s03_peter",
@@ -360,7 +488,11 @@
     "occupation": "Sales manager",
     "hometown": "Windsor, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/peter-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/peter-large1-370x300.jpg",
+    "latitude": 51.4839,
+    "longitude": -0.6044,
+    "country": "England",
+    "county_region": "Berkshire"
   },
   {
     "baker_id": "s03_natasha",
@@ -371,7 +503,11 @@
     "occupation": "Midwife",
     "hometown": "Tamworth, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/natasha-large1-370x300.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/natasha-large1-370x300.jpg",
+    "latitude": 52.634,
+    "longitude": -1.6959,
+    "country": "England",
+    "county_region": "Staffordshire"
   },
   {
     "baker_id": "s04_frances",
@@ -382,7 +518,11 @@
     "occupation": "Children's Clothes Designer",
     "hometown": "Market Harborough, Leicestershire",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_11_450-1-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_11_450-1-450x450.jpg",
+    "latitude": 52.4776,
+    "longitude": -0.9213,
+    "country": "England",
+    "county_region": "Leicestershire"
   },
   {
     "baker_id": "s04_kimberley",
@@ -393,7 +533,11 @@
     "occupation": "Psychologist",
     "hometown": "London",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_6_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_6_450-450x450.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s04_ruby",
@@ -404,7 +548,11 @@
     "occupation": "History of Art and Philosophy Student",
     "hometown": "Southend, Essex",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_9_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_9_450-450x450.jpg",
+    "latitude": 51.5459,
+    "longitude": 0.7077,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s04_beca",
@@ -415,7 +563,11 @@
     "occupation": "Military Wives' Choir Singer",
     "hometown": "Aldershot, Hampshire",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_2_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_2_450-450x450.jpg",
+    "latitude": 51.2484,
+    "longitude": -0.7645,
+    "country": "England",
+    "county_region": "Hampshire"
   },
   {
     "baker_id": "s04_christine",
@@ -426,7 +578,11 @@
     "occupation": "Director of an engraving company",
     "hometown": "Didcot, Oxfordshire",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_3_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_3_450-450x450.jpg",
+    "latitude": 51.6061,
+    "longitude": -1.2422,
+    "country": "England",
+    "county_region": "Oxfordshire"
   },
   {
     "baker_id": "s04_glenn",
@@ -437,7 +593,11 @@
     "occupation": "English Teacher",
     "hometown": "Teignmouth, Devon",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_1_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_1_450-450x450.jpg",
+    "latitude": 50.5475,
+    "longitude": -3.4961,
+    "country": "England",
+    "county_region": "Devon"
   },
   {
     "baker_id": "s04_howard",
@@ -448,7 +608,11 @@
     "occupation": "Council Worker",
     "hometown": "Sheffield",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_13_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_13_450-450x450.jpg",
+    "latitude": 53.3811,
+    "longitude": -1.4701,
+    "country": "England",
+    "county_region": "South Yorkshire"
   },
   {
     "baker_id": "s04_robert",
@@ -459,7 +623,11 @@
     "occupation": "Space Satellite Designer",
     "hometown": "Melbourn, Cambridgeshire",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_12_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_12_450-450x450.jpg",
+    "latitude": 52.0833,
+    "longitude": 0.0167,
+    "country": "England",
+    "county_region": "Cambridgeshire"
   },
   {
     "baker_id": "s04_ali",
@@ -470,7 +638,11 @@
     "occupation": "Charity worker",
     "hometown": "Saltley, Birmingham",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_5_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_5_450-450x450.jpg",
+    "latitude": 52.4897,
+    "longitude": -1.86,
+    "country": "England",
+    "county_region": "West Midlands"
   },
   {
     "baker_id": "s04_deborah",
@@ -481,7 +653,11 @@
     "occupation": "Dentist",
     "hometown": "Peterborough",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_4_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_4_450-450x450.jpg",
+    "latitude": 52.5726,
+    "longitude": -0.2427,
+    "country": "England",
+    "county_region": "Cambridgeshire"
   },
   {
     "baker_id": "s04_mark",
@@ -492,7 +668,11 @@
     "occupation": "Carpenter and Kitchen Fitter",
     "hometown": "Milton Keynes",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_10_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_10_450-450x450.jpg",
+    "latitude": 52.0406,
+    "longitude": -0.7594,
+    "country": "England",
+    "county_region": "Buckinghamshire"
   },
   {
     "baker_id": "s04_lucy",
@@ -503,7 +683,11 @@
     "occupation": "Horticulturist",
     "hometown": "Grimsby, Lincolnshire",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_7_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_7_450-450x450.jpg",
+    "latitude": 53.5667,
+    "longitude": -0.0833,
+    "country": "England",
+    "county_region": "Lincolnshire"
   },
   {
     "baker_id": "s04_toby",
@@ -514,7 +698,11 @@
     "occupation": "Web Programmer",
     "hometown": "Reading, Berkshire",
     "overall_placement": 13,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_8_450-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_8_450-450x450.jpg",
+    "latitude": 51.4543,
+    "longitude": -0.9781,
+    "country": "England",
+    "county_region": "Berkshire"
   },
   {
     "baker_id": "s05_nancy",
@@ -525,7 +713,11 @@
     "occupation": "Retired Practice Manager",
     "hometown": "Barton-upon-Humber, Lincolnshire",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/NANCY-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/NANCY-320-370x304.jpg",
+    "latitude": 53.6833,
+    "longitude": -0.4333,
+    "country": "England",
+    "county_region": "Lincolnshire"
   },
   {
     "baker_id": "s05_luis",
@@ -536,7 +728,11 @@
     "occupation": "Graphic Designer",
     "hometown": "Poynton, Cheshire",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/LUIS-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/LUIS-320-370x304.jpg",
+    "latitude": 53.3486,
+    "longitude": -2.1228,
+    "country": "England",
+    "county_region": "Cheshire"
   },
   {
     "baker_id": "s05_richard",
@@ -547,7 +743,11 @@
     "occupation": "Builder",
     "hometown": "Mill Hill, London",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/RICHARD-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/RICHARD-320-370x304.jpg",
+    "latitude": 51.6167,
+    "longitude": -0.2333,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s05_chetna",
@@ -558,7 +758,11 @@
     "occupation": "Fashion Designer",
     "hometown": "Broadstairs, Kent",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/CHETNA-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/CHETNA-320-370x304.jpg",
+    "latitude": 51.3589,
+    "longitude": 1.4397,
+    "country": "England",
+    "county_region": "Kent"
   },
   {
     "baker_id": "s05_martha",
@@ -569,7 +773,11 @@
     "occupation": "Student",
     "hometown": "Ascot, Berkshire",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/MARTHA-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/MARTHA-320-370x304.jpg",
+    "latitude": 51.4116,
+    "longitude": -0.6766,
+    "country": "England",
+    "county_region": "Berkshire"
   },
   {
     "baker_id": "s05_kate",
@@ -580,7 +788,11 @@
     "occupation": "Furniture Restorer",
     "hometown": "Brighton, East Sussex",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/KATE-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/KATE-320-370x304.jpg",
+    "latitude": 50.8225,
+    "longitude": -0.1372,
+    "country": "England",
+    "county_region": "East Sussex"
   },
   {
     "baker_id": "s05_norman",
@@ -591,7 +803,11 @@
     "occupation": "Retired Naval Officer",
     "hometown": "Portknockie, Moray",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/NORMAN-320-370x307.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/NORMAN-320-370x307.jpg",
+    "latitude": 57.7031,
+    "longitude": -2.8601,
+    "country": "Scotland",
+    "county_region": "Moray"
   },
   {
     "baker_id": "s05_diana",
@@ -602,7 +818,11 @@
     "occupation": "Women's Institute (WI) Judge",
     "hometown": "Alkington, Shropshire",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/DIANA%E2%80%93320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/DIANA%E2%80%93320-370x304.jpg",
+    "latitude": 52.9167,
+    "longitude": -2.7167,
+    "country": "England",
+    "county_region": "Shropshire"
   },
   {
     "baker_id": "s05_iain",
@@ -613,7 +833,11 @@
     "occupation": "Construction Engineer",
     "hometown": "London/Belfast",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/IAIN-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/IAIN-320-370x304.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s05_jordan",
@@ -624,7 +848,11 @@
     "occupation": "IT Manager",
     "hometown": "Sneinton, Nottingham",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/JORDAN-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/JORDAN-320-370x304.jpg",
+    "latitude": 52.9525,
+    "longitude": -1.1306,
+    "country": "England",
+    "county_region": "Nottinghamshire"
   },
   {
     "baker_id": "s05_enwezor",
@@ -635,7 +863,11 @@
     "occupation": "Business Consultant",
     "hometown": "Portsmouth, Hampshire",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/ENWEZOR-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/ENWEZOR-320-370x304.jpg",
+    "latitude": 50.8167,
+    "longitude": -1.0833,
+    "country": "England",
+    "county_region": "Hampshire"
   },
   {
     "baker_id": "s05_claire",
@@ -646,7 +878,11 @@
     "occupation": "Speech Therapist",
     "hometown": "Ashton upon Mersey, Trafford",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/CLAIRE-320-370x304.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/CLAIRE-320-370x304.jpg",
+    "latitude": 53.4328,
+    "longitude": -2.3333,
+    "country": "England",
+    "county_region": "Greater Manchester"
   },
   {
     "baker_id": "s06_nadiya",
@@ -657,7 +893,11 @@
     "occupation": "Full-time Mother",
     "hometown": "Leeds / Luton",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_12_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_12_450-370x370.jpg",
+    "latitude": 53.8008,
+    "longitude": -1.5491,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s06_ian",
@@ -668,7 +908,11 @@
     "occupation": "Travel Photographer",
     "hometown": "Great Wilbraham, Cambridgeshire",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_9_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_9_450-370x370.jpg",
+    "latitude": 52.1936,
+    "longitude": 0.2558,
+    "country": "England",
+    "county_region": "Cambridgeshire"
   },
   {
     "baker_id": "s06_tamal",
@@ -679,7 +923,11 @@
     "occupation": "Trainee Anaesthetist",
     "hometown": "Manchester",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_3_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_3_450-370x370.jpg",
+    "latitude": 53.4808,
+    "longitude": -2.2426,
+    "country": "England",
+    "county_region": "Greater Manchester"
   },
   {
     "baker_id": "s06_flora",
@@ -690,7 +938,11 @@
     "occupation": "Art Gallery Assistant",
     "hometown": "Dunkeld, Perth and Kinross",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_8_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_8_450-370x370.jpg",
+    "latitude": 56.5647,
+    "longitude": -3.5855,
+    "country": "Scotland",
+    "county_region": "Perth and Kinross"
   },
   {
     "baker_id": "s06_paul",
@@ -701,7 +953,11 @@
     "occupation": "Prison Governor",
     "hometown": "Swansea, Wales",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_6_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_6_450-370x370.jpg",
+    "latitude": 51.6214,
+    "longitude": -3.9436,
+    "country": "Wales",
+    "county_region": "Swansea"
   },
   {
     "baker_id": "s06_mat",
@@ -712,7 +968,11 @@
     "occupation": "Firefighter",
     "hometown": "London",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_11_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_11_450-370x370.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s06_alvin",
@@ -723,7 +983,11 @@
     "occupation": "Nurse",
     "hometown": "Bracknell, Berkshire",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_1_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_1_450-370x370.jpg",
+    "latitude": 51.4167,
+    "longitude": -0.75,
+    "country": "England",
+    "county_region": "Berkshire"
   },
   {
     "baker_id": "s06_ugn",
@@ -734,7 +998,11 @@
     "occupation": "PA and Administrator",
     "hometown": "Woodford, London / Vilkaviškis, Lithuania",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_2_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_2_450-370x370.jpg",
+    "latitude": 51.6044,
+    "longitude": 0.0242,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s06_sandy",
@@ -745,7 +1013,11 @@
     "occupation": "Child Welfare Officer",
     "hometown": "Yeadon, West Yorkshire",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_5_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_5_450-370x370.jpg",
+    "latitude": 53.8644,
+    "longitude": -1.6881,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s06_dorret",
@@ -756,7 +1028,11 @@
     "occupation": "Accountant",
     "hometown": "Penwortham, Lancashire",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_7_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_7_450-370x370.jpg",
+    "latitude": 53.7486,
+    "longitude": -2.7247,
+    "country": "England",
+    "county_region": "Lancashire"
   },
   {
     "baker_id": "s06_marie",
@@ -767,7 +1043,11 @@
     "occupation": "Retired",
     "hometown": "Auchterarder, Perthshire",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_10_450-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_10_450-370x370.jpg",
+    "latitude": 56.2974,
+    "longitude": -3.7088,
+    "country": "Scotland",
+    "county_region": "Perthshire"
   },
   {
     "baker_id": "s06_stu",
@@ -778,7 +1058,11 @@
     "occupation": "Professional Musician",
     "hometown": "Guildford, Surrey",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_4_450-1-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_4_450-1-370x370.jpg",
+    "latitude": 51.2362,
+    "longitude": -0.5704,
+    "country": "England",
+    "county_region": "Surrey"
   },
   {
     "baker_id": "s07_candice",
@@ -789,7 +1073,11 @@
     "occupation": "PE teacher",
     "hometown": "Barton-Le-Clay, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/candace-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/candace-450x450.jpg",
+    "latitude": 51.9667,
+    "longitude": -0.4286,
+    "country": "England",
+    "county_region": "Bedfordshire"
   },
   {
     "baker_id": "s07_andrew",
@@ -800,7 +1088,11 @@
     "occupation": "Aerospace engineer",
     "hometown": "Holywood, Northern Ireland",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/andrew-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/andrew-450x450.jpg",
+    "latitude": 54.6369,
+    "longitude": -5.8447,
+    "country": "Northern Ireland",
+    "county_region": "County Down"
   },
   {
     "baker_id": "s07_jane",
@@ -811,7 +1103,11 @@
     "occupation": "Garden designer",
     "hometown": "Beckenham, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/jane-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/jane-450x450.jpg",
+    "latitude": 51.4083,
+    "longitude": -0.0333,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s07_selasi",
@@ -822,7 +1118,11 @@
     "occupation": "Client service associate",
     "hometown": "London, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/selasi-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/selasi-450x450.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s07_benjamina",
@@ -833,7 +1133,11 @@
     "occupation": "Teaching assistant",
     "hometown": "South London, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/benjamina-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/benjamina-450x450.jpg",
+    "latitude": 51.45,
+    "longitude": -0.1,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s07_tom",
@@ -844,7 +1148,11 @@
     "occupation": "Project engagement manager",
     "hometown": "Rochdale, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/tom-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/tom-450x450.jpg",
+    "latitude": 53.6167,
+    "longitude": -2.15,
+    "country": "England",
+    "county_region": "Greater Manchester"
   },
   {
     "baker_id": "s07_rav",
@@ -855,7 +1163,11 @@
     "occupation": "Student support",
     "hometown": "Erith, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/rav-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/rav-450x450.jpg",
+    "latitude": 51.4819,
+    "longitude": 0.1772,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s07_valerie",
@@ -866,7 +1178,11 @@
     "occupation": "Semi-retired, Substitute teacher",
     "hometown": "Yeovil, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/val-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/val-450x450.jpg",
+    "latitude": 50.9416,
+    "longitude": -2.6322,
+    "country": "England",
+    "county_region": "Somerset"
   },
   {
     "baker_id": "s07_kate",
@@ -877,7 +1193,11 @@
     "occupation": "Nurse",
     "hometown": "Brooke, England",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/kate-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/kate-450x450.jpg",
+    "latitude": 52.5333,
+    "longitude": 1.3667,
+    "country": "England",
+    "county_region": "Norfolk"
   },
   {
     "baker_id": "s07_michael",
@@ -888,7 +1208,11 @@
     "occupation": "Student",
     "hometown": "Durham, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/michael-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/michael-450x450.jpg",
+    "latitude": 54.7761,
+    "longitude": -1.5733,
+    "country": "England",
+    "county_region": "County Durham"
   },
   {
     "baker_id": "s07_louise",
@@ -899,7 +1223,11 @@
     "occupation": "Hairdresser",
     "hometown": "Cardiff, Wales",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/louise-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/louise-450x450.jpg",
+    "latitude": 51.4816,
+    "longitude": -3.1791,
+    "country": "Wales",
+    "county_region": "Cardiff"
   },
   {
     "baker_id": "s07_lee",
@@ -910,7 +1238,11 @@
     "occupation": "Pastor",
     "hometown": "Bolton, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/lee-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/lee-450x450.jpg",
+    "latitude": 53.5769,
+    "longitude": -2.4282,
+    "country": "England",
+    "county_region": "Greater Manchester"
   },
   {
     "baker_id": "s08_sophie",
@@ -921,7 +1253,11 @@
     "occupation": "Former Army Officer and Trainee Stunt Woman",
     "hometown": "West Molesey, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Sophie-1162_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Sophie-1162_l-450x450.jpg",
+    "latitude": 51.4,
+    "longitude": -0.3667,
+    "country": "England",
+    "county_region": "Surrey"
   },
   {
     "baker_id": "s08_kate",
@@ -932,7 +1268,11 @@
     "occupation": "Health and Safety Inspector",
     "hometown": "Merseyside, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Kate-1135_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Kate-1135_l-450x450.jpg",
+    "latitude": 53.4084,
+    "longitude": -2.9916,
+    "country": "England",
+    "county_region": "Merseyside"
   },
   {
     "baker_id": "s08_steven",
@@ -943,7 +1283,11 @@
     "occupation": "Marketer",
     "hometown": "Watford, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Steven-987_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Steven-987_l-450x450.jpg",
+    "latitude": 51.6565,
+    "longitude": -0.3903,
+    "country": "England",
+    "county_region": "Hertfordshire"
   },
   {
     "baker_id": "s08_stacey",
@@ -954,7 +1298,11 @@
     "occupation": "Former School Teacher",
     "hometown": "Radlett, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Stacey-1201_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Stacey-1201_l-450x450.jpg",
+    "latitude": 51.6833,
+    "longitude": -0.3167,
+    "country": "England",
+    "county_region": "Hertfordshire"
   },
   {
     "baker_id": "s08_liam",
@@ -965,7 +1313,11 @@
     "occupation": "Student",
     "hometown": "North London, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Liam-959_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Liam-959_l-450x450.jpg",
+    "latitude": 51.5833,
+    "longitude": -0.1333,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s08_chuenyan",
@@ -976,7 +1328,11 @@
     "occupation": "Laboratory Research Scientist",
     "hometown": "North London, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Yan-928_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Yan-928_l-450x450.jpg",
+    "latitude": 51.5833,
+    "longitude": -0.1333,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s08_julia",
@@ -987,7 +1343,11 @@
     "occupation": "Aviation Broker",
     "hometown": "Crawley, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Julia-860_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Julia-860_l-450x450.jpg",
+    "latitude": 51.113,
+    "longitude": -0.1831,
+    "country": "England",
+    "county_region": "West Sussex"
   },
   {
     "baker_id": "s08_james",
@@ -998,7 +1358,11 @@
     "occupation": "Banker",
     "hometown": "Brentwood, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-James-1045_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-James-1045_l-450x450.jpg",
+    "latitude": 51.6206,
+    "longitude": 0.3056,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s08_tom",
@@ -1009,7 +1373,11 @@
     "occupation": "Architect",
     "hometown": "Edinburgh, Scotland",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Tom-890_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Tom-890_l-450x450.jpg",
+    "latitude": 55.9533,
+    "longitude": -3.1883,
+    "country": "Scotland",
+    "county_region": "Edinburgh"
   },
   {
     "baker_id": "s08_flo",
@@ -1020,7 +1388,11 @@
     "occupation": "Retired",
     "hometown": "Merseyside, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Flo-1074_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Flo-1074_l-450x450.jpg",
+    "latitude": 53.4084,
+    "longitude": -2.9916,
+    "country": "England",
+    "county_region": "Merseyside"
   },
   {
     "baker_id": "s08_chris",
@@ -1031,7 +1403,11 @@
     "occupation": "Software Developer",
     "hometown": "Bristol, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Chris-1105_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Chris-1105_l-450x450.jpg",
+    "latitude": 51.4545,
+    "longitude": -2.5879,
+    "country": "England",
+    "county_region": "Bristol"
   },
   {
     "baker_id": "s08_peter",
@@ -1042,7 +1418,11 @@
     "occupation": "IT Programme Manager",
     "hometown": "Southend, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Peter-1016_l-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Peter-1016_l-450x450.jpg",
+    "latitude": 51.5459,
+    "longitude": 0.7077,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s09_rahul",
@@ -1053,7 +1433,11 @@
     "occupation": "Research scientist",
     "hometown": "Rotherham, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-10-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-10-370x370.jpg",
+    "latitude": 53.43,
+    "longitude": -1.357,
+    "country": "England",
+    "county_region": "South Yorkshire"
   },
   {
     "baker_id": "s09_kimjoy",
@@ -1064,7 +1448,11 @@
     "occupation": "Mental health specialist",
     "hometown": "Leeds, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-6-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-6-370x370.jpg",
+    "latitude": 53.8008,
+    "longitude": -1.5491,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s09_ruby",
@@ -1075,7 +1463,11 @@
     "occupation": "Project manager",
     "hometown": "London, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-370x370.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s09_briony",
@@ -1086,7 +1478,11 @@
     "occupation": "Stay at home parent",
     "hometown": "Bristol, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-5-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-5-370x370.jpg",
+    "latitude": 51.4545,
+    "longitude": -2.5879,
+    "country": "England",
+    "county_region": "Bristol"
   },
   {
     "baker_id": "s09_manon",
@@ -1097,7 +1493,11 @@
     "occupation": "Software project manager",
     "hometown": "London, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-3-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-3-370x370.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s09_jon",
@@ -1108,7 +1508,11 @@
     "occupation": "Blood courier",
     "hometown": "Newport, Wales",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-8-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-8-370x370.jpg",
+    "latitude": 51.5842,
+    "longitude": -2.9977,
+    "country": "Wales",
+    "county_region": "Newport"
   },
   {
     "baker_id": "s09_dan",
@@ -1119,7 +1523,11 @@
     "occupation": "Stay at home parent",
     "hometown": "London, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-7-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-7-370x370.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s09_karen",
@@ -1130,7 +1538,11 @@
     "occupation": "In-store sampling assistant",
     "hometown": "Wakefield, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-9-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-9-370x370.jpg",
+    "latitude": 53.6833,
+    "longitude": -1.4964,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s09_terry",
@@ -1141,7 +1553,11 @@
     "occupation": "Retired air steward",
     "hometown": "West Midlands, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-11-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-11-370x370.jpg",
+    "latitude": 52.4862,
+    "longitude": -1.8904,
+    "country": "England",
+    "county_region": "West Midlands"
   },
   {
     "baker_id": "s09_antony",
@@ -1152,7 +1568,11 @@
     "occupation": "Banker",
     "hometown": "London, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-4-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-4-370x370.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s09_luke",
@@ -1163,7 +1583,11 @@
     "occupation": "Civil servant/house and techno DJ",
     "hometown": "Sheffield, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-1-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-1-370x370.jpg",
+    "latitude": 53.3811,
+    "longitude": -1.4701,
+    "country": "England",
+    "county_region": "South Yorkshire"
   },
   {
     "baker_id": "s09_imelda",
@@ -1174,7 +1598,11 @@
     "occupation": "Countryside recreation officer",
     "hometown": "County Tyrone, Northern Ireland",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-2-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-2-370x370.jpg",
+    "latitude": 54.6042,
+    "longitude": -7.0944,
+    "country": "Northern Ireland",
+    "county_region": "County Tyrone"
   },
   {
     "baker_id": "s10_david",
@@ -1185,7 +1613,11 @@
     "occupation": "International health adviser",
     "hometown": "Whitby, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-David-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-David-1080-450x450.jpg",
+    "latitude": 54.4858,
+    "longitude": -0.6206,
+    "country": "England",
+    "county_region": "North Yorkshire"
   },
   {
     "baker_id": "s10_alice",
@@ -1196,7 +1628,11 @@
     "occupation": "Geography teacher",
     "hometown": "Essex, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Alice-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Alice-1080-450x450.jpg",
+    "latitude": 51.7719,
+    "longitude": 0.4431,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s10_steph",
@@ -1207,7 +1643,11 @@
     "occupation": "Shop assistant",
     "hometown": "Chester, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Steph-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Steph-1080-450x450.jpg",
+    "latitude": 53.1905,
+    "longitude": -2.8917,
+    "country": "England",
+    "county_region": "Cheshire"
   },
   {
     "baker_id": "s10_rosie",
@@ -1218,7 +1658,11 @@
     "occupation": "Veterinary surgeon",
     "hometown": "Somerset, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Rosie-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Rosie-1080-450x450.jpg",
+    "latitude": 51.1,
+    "longitude": -3.0,
+    "country": "England",
+    "county_region": "Somerset"
   },
   {
     "baker_id": "s10_henry",
@@ -1229,7 +1673,11 @@
     "occupation": "Student",
     "hometown": "Durham, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10_Henry-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10_Henry-1080-450x450.jpg",
+    "latitude": 54.7761,
+    "longitude": -1.5733,
+    "country": "England",
+    "county_region": "County Durham"
   },
   {
     "baker_id": "s10_michael",
@@ -1240,7 +1688,11 @@
     "occupation": "Theatre manager/fitness instructor",
     "hometown": "Stratford-upon-Avon, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Michael-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Michael-1080-450x450.jpg",
+    "latitude": 52.1917,
+    "longitude": -1.7083,
+    "country": "England",
+    "county_region": "Warwickshire"
   },
   {
     "baker_id": "s10_priya",
@@ -1251,7 +1703,11 @@
     "occupation": "Marketing consultant",
     "hometown": "Leicester, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Priya-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Priya-1080-450x450.jpg",
+    "latitude": 52.6369,
+    "longitude": -1.1398,
+    "country": "England",
+    "county_region": "Leicestershire"
   },
   {
     "baker_id": "s10_helena",
@@ -1262,7 +1718,11 @@
     "occupation": "Online project manager",
     "hometown": "Leeds, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Helena-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Helena-1080-450x450.jpg",
+    "latitude": 53.8008,
+    "longitude": -1.5491,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s10_michelle",
@@ -1273,7 +1733,11 @@
     "occupation": "Print shop administrator",
     "hometown": "Tenby, Wales",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Michelle-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Michelle-1080-450x450.jpg",
+    "latitude": 51.672,
+    "longitude": -4.704,
+    "country": "Wales",
+    "county_region": "Pembrokeshire"
   },
   {
     "baker_id": "s10_phil",
@@ -1284,7 +1748,11 @@
     "occupation": "HGV driver",
     "hometown": "Rainham, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Phil-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Phil-1080-450x450.jpg",
+    "latitude": 51.5167,
+    "longitude": 0.1833,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s10_amelia",
@@ -1295,7 +1763,11 @@
     "occupation": "Fashion designer",
     "hometown": "Halifax, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Amelia-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Amelia-1080-450x450.jpg",
+    "latitude": 53.7258,
+    "longitude": -1.8631,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s10_jamie",
@@ -1306,7 +1778,11 @@
     "occupation": "Part-time waiter",
     "hometown": "Surrey, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Jamie-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Jamie-1080-450x450.jpg",
+    "latitude": 51.25,
+    "longitude": -0.4167,
+    "country": "England",
+    "county_region": "Surrey"
   },
   {
     "baker_id": "s10_dan",
@@ -1317,7 +1793,11 @@
     "occupation": "Support worker",
     "hometown": "Rotherham, England",
     "overall_placement": 13,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Dan-1080-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Dan-1080-450x450.jpg",
+    "latitude": 53.43,
+    "longitude": -1.357,
+    "country": "England",
+    "county_region": "South Yorkshire"
   },
   {
     "baker_id": "s11_peter",
@@ -1328,7 +1808,11 @@
     "occupation": "Accounting & finance student",
     "hometown": "Edinburgh, Scotland",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Peter-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Peter-450x450.jpg",
+    "latitude": 55.9533,
+    "longitude": -3.1883,
+    "country": "Scotland",
+    "county_region": "Edinburgh"
   },
   {
     "baker_id": "s11_dave",
@@ -1339,7 +1823,11 @@
     "occupation": "Armoured security guard",
     "hometown": "Waterlooville, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Dave-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Dave-450x450.jpg",
+    "latitude": 50.88,
+    "longitude": -1.03,
+    "country": "England",
+    "county_region": "Hampshire"
   },
   {
     "baker_id": "s11_laura",
@@ -1350,7 +1838,11 @@
     "occupation": "Digital manager",
     "hometown": "Gravesend, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Laura-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Laura-450x450.jpg",
+    "latitude": 51.4417,
+    "longitude": 0.3686,
+    "country": "England",
+    "county_region": "Kent"
   },
   {
     "baker_id": "s11_hermine",
@@ -1361,7 +1853,11 @@
     "occupation": "Accountant",
     "hometown": "London, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Hermine-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Hermine-450x450.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s11_marc",
@@ -1372,7 +1868,11 @@
     "occupation": "Bronze resin sculptor",
     "hometown": "St Eval, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Marc-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Marc-450x450.jpg",
+    "latitude": 50.48,
+    "longitude": -4.9814,
+    "country": "England",
+    "county_region": "Cornwall"
   },
   {
     "baker_id": "s11_lottie",
@@ -1383,7 +1883,11 @@
     "occupation": "Pantomime producer",
     "hometown": "West Sussex, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Lottie1-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Lottie1-450x450.jpg",
+    "latitude": 50.9167,
+    "longitude": -0.5,
+    "country": "England",
+    "county_region": "West Sussex"
   },
   {
     "baker_id": "s11_mark",
@@ -1394,7 +1898,11 @@
     "occupation": "Project manager",
     "hometown": "Portadown, Northern Ireland",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Mark-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Mark-450x450.jpg",
+    "latitude": 54.4206,
+    "longitude": -6.4444,
+    "country": "Northern Ireland",
+    "county_region": "County Armagh"
   },
   {
     "baker_id": "s11_linda",
@@ -1405,7 +1913,11 @@
     "occupation": "Retirement living team leader",
     "hometown": "Bexhill-on-Sea, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Linda-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Linda-450x450.jpg",
+    "latitude": 50.8444,
+    "longitude": 0.4686,
+    "country": "England",
+    "county_region": "East Sussex"
   },
   {
     "baker_id": "s11_sura",
@@ -1416,7 +1928,11 @@
     "occupation": "Hospital pharmacy dispenser",
     "hometown": "London, England",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Sura-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Sura-450x450.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s11_rowan",
@@ -1427,7 +1943,11 @@
     "occupation": "Music teacher",
     "hometown": "Pershore, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Rowan-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Rowan-450x450.jpg",
+    "latitude": 52.1122,
+    "longitude": -2.08,
+    "country": "England",
+    "county_region": "Worcestershire"
   },
   {
     "baker_id": "s11_makbul",
@@ -1438,7 +1958,11 @@
     "occupation": "Accountant",
     "hometown": "Manchester, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Mak-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Mak-450x450.jpg",
+    "latitude": 53.4808,
+    "longitude": -2.2426,
+    "country": "England",
+    "county_region": "Greater Manchester"
   },
   {
     "baker_id": "s11_loriea",
@@ -1449,7 +1973,11 @@
     "occupation": "Diagnostic radiographer",
     "hometown": "Durham, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Loriea-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Loriea-450x450.jpg",
+    "latitude": 54.7761,
+    "longitude": -1.5733,
+    "country": "England",
+    "county_region": "County Durham"
   },
   {
     "baker_id": "s12_giuseppe",
@@ -1460,7 +1988,11 @@
     "occupation": "Chief engineer",
     "hometown": "Bristol, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/GUISEPPE-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/GUISEPPE-450x450.jpg",
+    "latitude": 51.4545,
+    "longitude": -2.5879,
+    "country": "England",
+    "county_region": "Bristol"
   },
   {
     "baker_id": "s12_chigs",
@@ -1471,7 +2003,11 @@
     "occupation": "Sales manager",
     "hometown": "Leicester, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/CHIGS-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/CHIGS-450x450.jpg",
+    "latitude": 52.6369,
+    "longitude": -1.1398,
+    "country": "England",
+    "county_region": "Leicestershire"
   },
   {
     "baker_id": "s12_crystelle",
@@ -1482,7 +2018,11 @@
     "occupation": "Client relationship manager",
     "hometown": "London, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/CRYSTELLE-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/CRYSTELLE-450x450.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s12_jrgen",
@@ -1493,7 +2033,11 @@
     "occupation": "Physicist",
     "hometown": "Brighton, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/JURGEN-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/JURGEN-450x450.jpg",
+    "latitude": 50.8225,
+    "longitude": -0.1372,
+    "country": "England",
+    "county_region": "East Sussex"
   },
   {
     "baker_id": "s12_lizzie",
@@ -1504,7 +2048,11 @@
     "occupation": "Car production operative",
     "hometown": "Liverpool, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/LIZZIE-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/LIZZIE-450x450.jpg",
+    "latitude": 53.4084,
+    "longitude": -2.9916,
+    "country": "England",
+    "county_region": "Merseyside"
   },
   {
     "baker_id": "s12_george",
@@ -1515,7 +2063,11 @@
     "occupation": "Shared lives coordinator",
     "hometown": "London, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/GEORGE-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/GEORGE-450x450.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s12_amanda",
@@ -1526,7 +2078,11 @@
     "occupation": "Metropolitan Police detective",
     "hometown": "London, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/AMANDA-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/AMANDA-450x450.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s12_freya",
@@ -1537,7 +2093,11 @@
     "occupation": "Student",
     "hometown": "Scarborough, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/FREYA-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/FREYA-450x450.jpg",
+    "latitude": 54.2831,
+    "longitude": -0.4042,
+    "country": "England",
+    "county_region": "North Yorkshire"
   },
   {
     "baker_id": "s12_maggie",
@@ -1548,7 +2108,11 @@
     "occupation": "Retired nurse and midwife",
     "hometown": "Poole, England",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/MAGGIE-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/MAGGIE-450x450.jpg",
+    "latitude": 50.7161,
+    "longitude": -1.9858,
+    "country": "England",
+    "county_region": "Dorset"
   },
   {
     "baker_id": "s12_rochica",
@@ -1559,7 +2123,11 @@
     "occupation": "Junior HR business partner",
     "hometown": "Birmingham, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/ROCHICA-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/ROCHICA-450x450.jpg",
+    "latitude": 52.4862,
+    "longitude": -1.8904,
+    "country": "England",
+    "county_region": "West Midlands"
   },
   {
     "baker_id": "s12_jairzinho",
@@ -1570,7 +2138,11 @@
     "occupation": "Head of Finance",
     "hometown": "London, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/JAIRZENO-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/JAIRZENO-450x450.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s12_tom",
@@ -1581,7 +2153,11 @@
     "occupation": "Software developer",
     "hometown": "Maidstone, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/TOM-450x450.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/TOM-450x450.jpg",
+    "latitude": 51.272,
+    "longitude": 0.529,
+    "country": "England",
+    "county_region": "Kent"
   },
   {
     "baker_id": "s13_syabira",
@@ -1592,7 +2168,11 @@
     "occupation": "Cardiovascular research associate",
     "hometown": "London, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-370x370.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-370x370.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s13_abdul",
@@ -1603,7 +2183,11 @@
     "occupation": "Electronics engineer",
     "hometown": "London, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-24-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-24-scaled-450x450-1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s13_nelsandro",
@@ -1614,7 +2198,11 @@
     "occupation": "Nanny",
     "hometown": "London, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-35-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-35-450x450-1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s13_janusz",
@@ -1625,7 +2213,11 @@
     "occupation": "Personal assistant to head teacher",
     "hometown": "East Sussex, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-75-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-75-450x450-1.jpg",
+    "latitude": 50.9167,
+    "longitude": 0.25,
+    "country": "England",
+    "county_region": "East Sussex"
   },
   {
     "baker_id": "s13_marietherese",
@@ -1636,7 +2228,11 @@
     "occupation": "Architectural assistant",
     "hometown": "London, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-12-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-12-450x450-1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s13_kevin",
@@ -1647,7 +2243,11 @@
     "occupation": "Music teacher",
     "hometown": "Lanarkshire, Scotland",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-38-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-38-450x450-1.jpg",
+    "latitude": 55.6731,
+    "longitude": -3.7837,
+    "country": "Scotland",
+    "county_region": "Lanarkshire"
   },
   {
     "baker_id": "s13_dawn",
@@ -1658,7 +2258,11 @@
     "occupation": "IT manager",
     "hometown": "Bedfordshire, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-28-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-28-450x450-1.jpg",
+    "latitude": 52.1386,
+    "longitude": -0.4667,
+    "country": "England",
+    "county_region": "Bedfordshire"
   },
   {
     "baker_id": "s13_carole",
@@ -1669,7 +2273,11 @@
     "occupation": "Supermarket cashier",
     "hometown": "Dorset, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-40-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-40-450x450-1.jpg",
+    "latitude": 50.7483,
+    "longitude": -2.3381,
+    "country": "England",
+    "county_region": "Dorset"
   },
   {
     "baker_id": "s13_james",
@@ -1680,7 +2288,11 @@
     "occupation": "Nuclear scientist",
     "hometown": "Cumbria, England",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-65-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-65-450x450-1.jpg",
+    "latitude": 54.5772,
+    "longitude": -2.7975,
+    "country": "England",
+    "county_region": "Cumbria"
   },
   {
     "baker_id": "s13_rebecca",
@@ -1691,7 +2303,11 @@
     "occupation": "Masters student",
     "hometown": "County Antrim, Northern Ireland",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-22-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-22-450x450-1.jpg",
+    "latitude": 54.8636,
+    "longitude": -6.2085,
+    "country": "Northern Ireland",
+    "county_region": "County Antrim"
   },
   {
     "baker_id": "s13_maisam",
@@ -1702,7 +2318,11 @@
     "occupation": "Student and sales assistant",
     "hometown": "Manchester, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-92-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-92-450x450-1.jpg",
+    "latitude": 53.4808,
+    "longitude": -2.2426,
+    "country": "England",
+    "county_region": "Greater Manchester"
   },
   {
     "baker_id": "s13_will",
@@ -1713,7 +2333,11 @@
     "occupation": "Former charity director",
     "hometown": "London, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-15-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-15-450x450-1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s14_matty",
@@ -1724,7 +2348,11 @@
     "occupation": "PE and science teacher",
     "hometown": "Cambridgeshire, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3160-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3160-scaled-450x450-1.jpg",
+    "latitude": 52.2053,
+    "longitude": 0.1218,
+    "country": "England",
+    "county_region": "Cambridgeshire"
   },
   {
     "baker_id": "s14_dan",
@@ -1735,7 +2363,11 @@
     "occupation": "Civil engineering resource planner",
     "hometown": "Cheshire, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3110-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3110-scaled-450x450-1.jpg",
+    "latitude": 53.2326,
+    "longitude": -2.6103,
+    "country": "England",
+    "county_region": "Cheshire"
   },
   {
     "baker_id": "s14_josh",
@@ -1746,7 +2378,11 @@
     "occupation": "Chemical biology post-doctoral research associate",
     "hometown": "Leicestershire, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3373-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3373-scaled-450x450-1.jpg",
+    "latitude": 52.6369,
+    "longitude": -1.1398,
+    "country": "England",
+    "county_region": "Leicestershire"
   },
   {
     "baker_id": "s14_tasha",
@@ -1757,7 +2393,11 @@
     "occupation": "Children's charity participation officer",
     "hometown": "Bristol, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3191-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3191-scaled-450x450-1.jpg",
+    "latitude": 51.4545,
+    "longitude": -2.5879,
+    "country": "England",
+    "county_region": "Bristol"
   },
   {
     "baker_id": "s14_cristy",
@@ -1768,7 +2408,11 @@
     "occupation": "Personal assistant",
     "hometown": "London, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3407-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3407-scaled-450x450-1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s14_saku",
@@ -1779,7 +2423,11 @@
     "occupation": "Intelligence analyst",
     "hometown": "Herefordshire, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3448-Large-450x450-1.jpeg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3448-Large-450x450-1.jpeg",
+    "latitude": 52.0564,
+    "longitude": -2.7156,
+    "country": "England",
+    "county_region": "Herefordshire"
   },
   {
     "baker_id": "s14_dana",
@@ -1790,7 +2438,11 @@
     "occupation": "Database administrator",
     "hometown": "Essex, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3278-Large-450x450-1.jpeg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3278-Large-450x450-1.jpeg",
+    "latitude": 51.7719,
+    "longitude": 0.4431,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s14_nicky",
@@ -1801,7 +2453,11 @@
     "occupation": "Retired cabin crew and pet-therapy charity volunteer",
     "hometown": "Shropshire, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3246-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3246-scaled-450x450-1.jpg",
+    "latitude": 52.614,
+    "longitude": -2.7303,
+    "country": "England",
+    "county_region": "Shropshire"
   },
   {
     "baker_id": "s14_rowan",
@@ -1812,7 +2468,11 @@
     "occupation": "English literature student",
     "hometown": "West Yorkshire, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3221-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3221-scaled-450x450-1.jpg",
+    "latitude": 53.75,
+    "longitude": -1.75,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s14_abbi",
@@ -1823,7 +2483,11 @@
     "occupation": "Delivery driver",
     "hometown": "Cumbria, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3144-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3144-scaled-450x450-1.jpg",
+    "latitude": 54.5772,
+    "longitude": -2.7975,
+    "country": "England",
+    "county_region": "Cumbria"
   },
   {
     "baker_id": "s14_keith",
@@ -1834,7 +2498,11 @@
     "occupation": "Chartered accountant",
     "hometown": "Hampshire, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3342-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3342-scaled-450x450-1.jpg",
+    "latitude": 51.0572,
+    "longitude": -1.3081,
+    "country": "England",
+    "county_region": "Hampshire"
   },
   {
     "baker_id": "s14_amos",
@@ -1845,7 +2513,11 @@
     "occupation": "Deli and grocery manager",
     "hometown": "London, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3312-scaled-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3312-scaled-450x450-1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s15_georgie",
@@ -1856,7 +2528,11 @@
     "occupation": "Paediatric nurse",
     "hometown": "Carmarthen, Wales",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-georgie-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-georgie-450x450-1.jpg",
+    "latitude": 51.8576,
+    "longitude": -4.3121,
+    "country": "Wales",
+    "county_region": "Carmarthenshire"
   },
   {
     "baker_id": "s15_christiaan",
@@ -1867,7 +2543,11 @@
     "occupation": "Menswear designer",
     "hometown": "London, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-christiaan-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-christiaan-450x450-1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s15_dylan",
@@ -1878,7 +2558,11 @@
     "occupation": "Retail assistant",
     "hometown": "Aylesbury, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-dylan-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-dylan-450x450-1.jpg",
+    "latitude": 51.8167,
+    "longitude": -0.8125,
+    "country": "England",
+    "county_region": "Buckinghamshire"
   },
   {
     "baker_id": "s15_gill",
@@ -1889,7 +2573,11 @@
     "occupation": "Senior category manager",
     "hometown": "Lancashire, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-gill-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-gill-450x450-1.jpg",
+    "latitude": 53.8636,
+    "longitude": -2.6644,
+    "country": "England",
+    "county_region": "Lancashire"
   },
   {
     "baker_id": "s15_illiyin",
@@ -1900,7 +2588,11 @@
     "occupation": "Birth trauma specialist midwife",
     "hometown": "Norfolk, England",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-illiyin-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-illiyin-450x450-1.jpg",
+    "latitude": 52.6309,
+    "longitude": 1.2974,
+    "country": "England",
+    "county_region": "Norfolk"
   },
   {
     "baker_id": "s15_sumayah",
@@ -1911,7 +2603,11 @@
     "occupation": "Gap Year student",
     "hometown": "Lancashire, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-sumayah-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-sumayah-450x450-1.jpg",
+    "latitude": 53.8636,
+    "longitude": -2.6644,
+    "country": "England",
+    "county_region": "Lancashire"
   },
   {
     "baker_id": "s15_nelly",
@@ -1922,7 +2618,11 @@
     "occupation": "Palliative care assistant",
     "hometown": "Dorset, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-nelly-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-nelly-450x450-1.jpg",
+    "latitude": 50.7483,
+    "longitude": -2.3381,
+    "country": "England",
+    "county_region": "Dorset"
   },
   {
     "baker_id": "s15_andy",
@@ -1933,7 +2633,11 @@
     "occupation": "Car mechanic",
     "hometown": "Romford, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-andy-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-andy-450x450-1.jpg",
+    "latitude": 51.576,
+    "longitude": 0.1819,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s15_mike",
@@ -1944,7 +2648,11 @@
     "occupation": "Farm manager",
     "hometown": "Wiltshire, England",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-mike-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-mike-450x450-1.jpg",
+    "latitude": 51.35,
+    "longitude": -1.9167,
+    "country": "England",
+    "county_region": "Wiltshire"
   },
   {
     "baker_id": "s15_john",
@@ -1955,7 +2663,11 @@
     "occupation": "Directorate support manager",
     "hometown": "West Midlands, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-john-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-john-450x450-1.jpg",
+    "latitude": 52.4862,
+    "longitude": -1.8904,
+    "country": "England",
+    "county_region": "West Midlands"
   },
   {
     "baker_id": "s15_hazel",
@@ -1966,7 +2678,11 @@
     "occupation": "Retired nail technician",
     "hometown": "Kent, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-hazel-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-hazel-450x450-1.jpg",
+    "latitude": 51.2787,
+    "longitude": 0.5217,
+    "country": "England",
+    "county_region": "Kent"
   },
   {
     "baker_id": "s15_jeff",
@@ -1977,7 +2693,11 @@
     "occupation": "Retired university lecturer",
     "hometown": "West Yorkshire, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-jeff-450x450-1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-jeff-450x450-1.jpg",
+    "latitude": 53.75,
+    "longitude": -1.75,
+    "country": "England",
+    "county_region": "West Yorkshire"
   },
   {
     "baker_id": "s16_jasmine",
@@ -1988,7 +2708,11 @@
     "occupation": "Medical student",
     "hometown": "London, England",
     "overall_placement": 1,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ja.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ja.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s16_aaron",
@@ -1999,7 +2723,11 @@
     "occupation": "Senior systems architect",
     "hometown": "Stoke-on-Trent, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Aa.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Aa.jpg",
+    "latitude": 53.0027,
+    "longitude": -2.1794,
+    "country": "England",
+    "county_region": "Staffordshire"
   },
   {
     "baker_id": "s16_thomas",
@@ -2010,7 +2738,11 @@
     "occupation": "Creative entrepreneur",
     "hometown": "London, England",
     "overall_placement": 2,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Tom.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Tom.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s16_toby",
@@ -2021,7 +2753,11 @@
     "occupation": "Business development executive",
     "hometown": "Warwickshire, England",
     "overall_placement": 4,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Tob.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Tob.jpg",
+    "latitude": 52.3,
+    "longitude": -1.5833,
+    "country": "England",
+    "county_region": "Warwickshire"
   },
   {
     "baker_id": "s16_iain",
@@ -2032,7 +2768,11 @@
     "occupation": "Software engineer",
     "hometown": "Belfast, Northern Ireland",
     "overall_placement": 5,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ia.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ia.jpg",
+    "latitude": 54.5973,
+    "longitude": -5.9301,
+    "country": "Northern Ireland",
+    "county_region": "Belfast"
   },
   {
     "baker_id": "s16_lesley",
@@ -2043,7 +2783,11 @@
     "occupation": "Hairdresser",
     "hometown": "Kent, England",
     "overall_placement": 6,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Les.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Les.jpg",
+    "latitude": 51.2787,
+    "longitude": 0.5217,
+    "country": "England",
+    "county_region": "Kent"
   },
   {
     "baker_id": "s16_nataliia",
@@ -2054,7 +2798,11 @@
     "occupation": "Office assistant",
     "hometown": "East Yorkshire, England",
     "overall_placement": 7,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Nat.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Nat.jpg",
+    "latitude": 53.85,
+    "longitude": -0.4333,
+    "country": "England",
+    "county_region": "East Riding of Yorkshire"
   },
   {
     "baker_id": "s16_nadia",
@@ -2065,7 +2813,11 @@
     "occupation": "Hairdresser",
     "hometown": "Liverpool, England",
     "overall_placement": 8,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Nad.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Nad.jpg",
+    "latitude": 53.4084,
+    "longitude": -2.9916,
+    "country": "England",
+    "county_region": "Merseyside"
   },
   {
     "baker_id": "s16_jessika",
@@ -2076,7 +2828,11 @@
     "occupation": "Service designer",
     "hometown": "London, England",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Je.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Je.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s16_carol",
@@ -2087,7 +2843,11 @@
     "occupation": "Bridal designer",
     "hometown": "Essex, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Pui.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Pui.jpg",
+    "latitude": 51.7719,
+    "longitude": 0.4431,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s16_leighton",
@@ -2098,7 +2858,11 @@
     "occupation": "Software delivery manager",
     "hometown": "Surrey, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Lei.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Lei.jpg",
+    "latitude": 51.25,
+    "longitude": -0.4167,
+    "country": "England",
+    "county_region": "Surrey"
   },
   {
     "baker_id": "s16_hassan",
@@ -2109,7 +2873,11 @@
     "occupation": "Analytical research & development scientist",
     "hometown": "Rotherham, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ha.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ha.jpg",
+    "latitude": 53.43,
+    "longitude": -1.357,
+    "country": "England",
+    "county_region": "South Yorkshire"
   },
   {
     "baker_id": "s17_nikki",
@@ -2120,7 +2888,11 @@
     "occupation": "Advertising post-producer",
     "hometown": "London, England",
     "overall_placement": 9,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/NIKKI-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/NIKKI-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s17_molly",
@@ -2131,7 +2903,11 @@
     "occupation": "Accessibility coordinator",
     "hometown": "London, England",
     "overall_placement": 10,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MOLLY-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MOLLY-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s17_shannon",
@@ -2142,7 +2918,11 @@
     "occupation": "Project planner & scheduler",
     "hometown": "Gloucestershire, England",
     "overall_placement": 11,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/SHANNON-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/SHANNON-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.8644,
+    "longitude": -2.2381,
+    "country": "England",
+    "county_region": "Gloucestershire"
   },
   {
     "baker_id": "s17_danni",
@@ -2153,7 +2933,11 @@
     "occupation": "HGV service centre administrator",
     "hometown": "Dorset, England",
     "overall_placement": 12,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/DANNI-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/DANNI-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 50.7483,
+    "longitude": -2.3381,
+    "country": "England",
+    "county_region": "Dorset"
   },
   {
     "baker_id": "s17_clara",
@@ -2164,7 +2948,11 @@
     "occupation": "Marketing graduate",
     "hometown": "Hertfordshire, England",
     "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.8098,
+    "longitude": -0.2377,
+    "country": "England",
+    "county_region": "Hertfordshire"
   },
   {
     "baker_id": "s17_yannis",
@@ -2175,7 +2963,11 @@
     "occupation": "Paediatric doctor",
     "hometown": "London, England",
     "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/YANNIS-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/YANNIS-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s17_elizabeth",
@@ -2186,7 +2978,11 @@
     "occupation": "NHS hospital discharge lead",
     "hometown": "London, England",
     "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
   },
   {
     "baker_id": "s17_gabe",
@@ -2197,7 +2993,11 @@
     "occupation": "Artist & drag king",
     "hometown": "West Midlands, England",
     "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GABE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GABE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 52.4862,
+    "longitude": -1.8904,
+    "country": "England",
+    "county_region": "West Midlands"
   },
   {
     "baker_id": "s17_gary",
@@ -2208,7 +3008,11 @@
     "occupation": "Retired garment technologist",
     "hometown": "Nottinghamshire, England",
     "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GARY-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GARY-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 53.1,
+    "longitude": -1.0,
+    "country": "England",
+    "county_region": "Nottinghamshire"
   },
   {
     "baker_id": "s17_mo",
@@ -2219,7 +3023,11 @@
     "occupation": "Law student",
     "hometown": "West Midlands, England",
     "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MO-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MO-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 52.4862,
+    "longitude": -1.8904,
+    "country": "England",
+    "county_region": "West Midlands"
   },
   {
     "baker_id": "s17_moyin",
@@ -2230,7 +3038,11 @@
     "occupation": "Political economy student",
     "hometown": "Essex, England",
     "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MOYIN-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MOYIN-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.7719,
+    "longitude": 0.4431,
+    "country": "England",
+    "county_region": "Essex"
   },
   {
     "baker_id": "s17_tom",
@@ -2241,6 +3053,10 @@
     "occupation": "Hairdresser",
     "hometown": "Halifax, West Yorkshire, England",
     "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/TOM-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/TOM-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 53.7258,
+    "longitude": -1.8631,
+    "country": "England",
+    "county_region": "West Yorkshire"
   }
 ]

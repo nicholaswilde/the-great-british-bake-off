@@ -22,6 +22,7 @@ from gbbo_dataset.exports import (
 )
 from gbbo_dataset.exports.packaging import ReleasePackager
 from gbbo_dataset.gap_auditor import DatasetGapAuditor
+from gbbo_dataset.geocoding import export_bakers_geojson
 from gbbo_dataset.importers.rayofdata import (
     DEFAULT_RAY_DATA_DIR,
     run_enrichment,
@@ -254,6 +255,30 @@ def export_sqlite_cmd(
     console.print(f"[bold blue]Exporting tables to SQLite ({db_path})...[/bold blue]")
     out = export_to_sqlite(processed_dir=processed_dir, db_path=db_path)
     console.print(f"[green]✓ Successfully exported SQLite database to {out}[/green]")
+
+
+@app.command("export-geojson")
+def export_geojson_cmd(
+    processed_dir: Path = typer.Option(
+        Path("data/processed"),
+        "--processed-dir",
+        "-p",
+        help="Directory with processed tables",
+    ),
+    output_file: Path = typer.Option(
+        Path("data/processed/bakers.geojson"),
+        "--output-file",
+        "-o",
+        help="Path to output GeoJSON file",
+    ),
+) -> None:
+    """Export baker hometown coordinates to standard GeoJSON."""
+    console.print(
+        "[bold blue]Exporting GBBO baker hometown coordinates to GeoJSON...[/bold blue]"
+    )
+    bakers_path = processed_dir / "bakers.json"
+    out = export_bakers_geojson(output_path=output_file, bakers_json_path=bakers_path)
+    console.print(f"[green]✓ Exported GeoJSON dataset to {out}[/green]")
 
 
 @app.command("export-arrow")

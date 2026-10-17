@@ -114,13 +114,20 @@ tasks:
     cmds:
       - uv run gbbo export-ai {{.CLI_ARGS}}
 
+  export:geojson:
+    desc: Export baker hometown coordinates to standard GeoJSON (data/processed/bakers.geojson)
+    cmds:
+      - uv run gbbo export-geojson {{.CLI_ARGS}}
+
   export:all:
-    desc: Export datasets across all formats (SQLite, Arrow IPC, Parquet, R, AI corpora)
+    desc: Export datasets across all formats (SQLite, Arrow IPC, Parquet, R, AI corpora, GeoJSON)
     cmds:
       - task: export:sqlite
       - task: export:arrow
       - task: export:r
       - task: export:ai
+      - task: export:geojson
+
 
   eval:benchmark:
     desc: Run evaluation on The Great British Bake Off AI benchmark suite

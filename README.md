@@ -17,10 +17,12 @@ A comprehensive tidy dataset and AI training corpus for the television series **
 
 - **Tidy Relational Tables:** Master tables for `seasons`, `bakers`, `episodes`, and `performances` validated against Pydantic schemas.
 - **Rich Demographics & Metadata:** Enriched with headshot photos, age, hometown, occupation, challenge timings, and Hollywood Handshakes.
-- **Multi-Format Serialization:** Exportable to JSON, CSV, Apache Parquet, Apache Arrow IPC, unified SQLite (`gbbo.db`), and native R formats (`.rds`, `.rda`).
+- **Multi-Format Serialization:** Exportable to JSON, CSV, Apache Parquet, Apache Arrow IPC, GeoJSON (`bakers.geojson`), unified SQLite (`gbbo.db`), and native R formats (`.rds`, `.rda`).
 - **AI Training Corpora:** Pre-formatted conversational instruction tuning datasets (Chat SFT JSONL), RAG knowledge corpus, and evaluation benchmark suite.
+- **Geographic Intelligence:** Geocoded WGS84 coordinates and UK administrative regions across all 204 bakers with interactive map visualizations and GeoJSON export.
 - **Empirical Predictive Modeling:** Data-driven probabilistic forecasts for weekly Star Baker contenders, elimination risks, and overall series winners calibrated across 16 historical series.
-- **Interactive Web Dashboard:** Streamlit application for exploratory data analysis, contestant trajectory tracking, challenge analytics, and empirical outcome predictions & forecasting.
+- **Interactive Web Dashboard:** Streamlit application for exploratory data analysis, contestant trajectory tracking, challenge analytics, UK baker geography, and empirical outcome predictions & forecasting.
+
 
 ---
 
@@ -142,7 +144,7 @@ task gaps:report
 ### 7. Export Multi-Format Datasets & AI Corpora
 
 ```bash
-# Export all formats (SQLite, Arrow IPC, Parquet, R, AI corpora)
+# Export all formats (SQLite, Arrow IPC, Parquet, R, AI corpora, GeoJSON)
 task export:all
 
 # Or individual formats:
@@ -150,6 +152,8 @@ task export:sqlite
 task export:arrow
 task export:r
 task export:ai
+task export:geojson
+
 ```
 
 ### 8. Interactive Streamlit Dashboard

@@ -5,7 +5,7 @@
 \alias{bakers}
 \title{Bakers in The Great British Bake Off}
 \format{
-A data frame with 204 rows and 9 variables:
+A data frame with 204 rows and 13 variables:
 \describe{
   \item{baker_id}{Unique alphanumeric baker identifier (format: s{series}_{first_name})}
   \item{series_number}{Series number (integer)}
@@ -14,6 +14,10 @@ A data frame with 204 rows and 9 variables:
   \item{gender}{Gender of the baker ('M', 'F', 'NB')}
   \item{occupation}{Stated occupation of the baker}
   \item{hometown}{City and region of permanent residence}
+  \item{latitude}{Geographic latitude coordinate of baker hometown (decimal degrees)}
+  \item{longitude}{Geographic longitude coordinate of baker hometown (decimal degrees)}
+  \item{country}{Constituent country or sovereign nation of baker hometown}
+  \item{county_region}{Administrative county or geographic region of baker hometown}
   \item{overall_placement}{Final rank in the series (1 = Winner)}
   \item{image_url}{URL link to official baker headshot photo}
 }

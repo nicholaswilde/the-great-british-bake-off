@@ -19,10 +19,18 @@ def test_baker_model_valid():
         occupation="Debt collector",
         hometown="Bradford",
         overall_placement=1,
+        latitude=53.7960,
+        longitude=-1.7594,
+        country="England",
+        county_region="West Yorkshire",
     )
     assert baker.baker_id == "s01_edward"
     assert baker.series_number == 1
     assert baker.overall_placement == 1
+    assert baker.latitude == 53.7960
+    assert baker.longitude == -1.7594
+    assert baker.country == "England"
+    assert baker.county_region == "West Yorkshire"
 
 
 def test_baker_model_invalid_series():
