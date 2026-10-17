@@ -55,6 +55,12 @@ tasks:
       - task: eval:benchmark
       - task: check
 
+  # Visualizations & Brand Assets
+  images:
+    desc: Generate publication data visualisations and hex branding assets (dev/images/)
+    cmds:
+      - uv run --with matplotlib --with seaborn --with pillow --with pandas python dev/scripts/generate_images.py
+
   # Dataset Completeness & Gap Auditing
   gaps:
     desc: Audit dataset completeness and print missing cell metrics

@@ -1,4 +1,4 @@
-# :cake: The Great British Bake Off Dataset & AI Training Corpus :pie:
+# :cake: The Great British Bake Off Dataset & AI Training Corpus :pie: <img src="dev/images/thegreatbritishbakeoff hex.png" align="right" height="240" alt="thegreatbritishbakeoff hex sticker" />
 
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-great-british-bake-off/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-great-british-bake-off/actions/workflows/ci.yml)
 [![Task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
@@ -61,6 +61,7 @@ the-great-british-bake-off/
 ├── scripts/            # Backward-compatible script shims
 ├── tests/              # Pytest test suite
 ├── docs/               # Data dictionary, gap reports, and predictions ledger
+├── dev/                # Data visualizations, brand assets, and generator scripts
 ├── AGENTS.md           # Agent operating instructions
 ├── pyproject.toml      # Managed by uv
 ├── Taskfile.yml        # Task automation definitions
@@ -223,6 +224,63 @@ task check
 > **Exploratory Notebook**: Check out [`notebooks/gbbo_exploration.ipynb`](notebooks/gbbo_exploration.ipynb) for a starter Jupyter notebook covering statistical analysis, Hollywood Handshake frequencies, technical rank correlations, and SQL querying.
 >
 > **TidyTuesday Community Kit**: See [`tidytuesday/`](tidytuesday/) for R data cleaning scripts, exploratory visualizations, and submission templates.
+
+---
+
+## :bar_chart: Data Visualizations & Exploratory Analysis
+
+Inspired by [`doehm/alone`](https://github.com/doehm/alone), the repository includes publication-quality visualizations and exploratory analyses generated from the historical tidy tables. All figures are rendered at 300 DPI and stored in [`dev/images/`](dev/images/):
+
+### Baker Survival Curves Across Episodes
+
+Step-down baker progression curves across Episodes 1–10 by age demographic bracket (Under 30, 30–49, 50+) alongside an inset distribution of total episodes reached:
+
+<p align="center">
+  <img src="dev/images/survival.png" width="95%" alt="Baker Survival Curves Across Episodes" />
+</p>
+
+### Most Featured Flavors & Signature Ingredients
+
+Total challenge appearances across 1,200+ signature and showstopper bakes spanning Series 1–15, highlighting classic cocoa, warm citrus, and berry profiles:
+
+<p align="center">
+  <img src="dev/images/items.png" width="70%" alt="Most Featured Flavors & Signature Ingredients" />
+</p>
+
+### Baker Age Distributions by Finish Placement
+
+Boxplot distributions and jittered individual baker data comparing championship winners and podium finalists against semifinalist, mid-pack, and early exit tiers:
+
+<p align="center">
+  <img src="dev/images/boxplots.png" width="95%" alt="Baker Age Distributions by Finish Placement" />
+</p>
+
+### Baker Gender Dynamics & Performance
+
+Empirical distributions of challenge accolades (Technical Wins, Star Bakers, Hollywood Handshakes), championship win shares, and finale conversion rates comparing male and female bakers across 204 bakers:
+
+<p align="center">
+  <img src="dev/images/gender_performance.png" width="95%" alt="Baker Gender Dynamics & Performance" />
+</p>
+
+### Hollywood Handshake Frequency Across Broadcast Eras
+
+Historical evolution of Paul Hollywood's handshake from rare critique in early BBC years (Ryan Chong in S3) through peak "Handshake Inflation" in Series 9, to modern calibration on Channel 4:
+
+<p align="center">
+  <img src="dev/images/handshakes_evolution.png" width="95%" alt="Hollywood Handshake Frequency Across Broadcast Eras" />
+</p>
+
+### Technical Challenge Mastery & Finale Conversion
+
+Career technical challenge rank percentile distributions and Star Baker honors forecasting progression and qualification for the championship finale:
+
+<p align="center">
+  <img src="dev/images/technical_performance.png" width="95%" alt="Technical Challenge Mastery & Finale Conversion" />
+</p>
+
+> [!TIP]
+> All figures and branding assets can be generated or customized via `task images` (or `python dev/scripts/generate_images.py`).
 
 ---
 
