@@ -1,0 +1,200 @@
+[
+  {
+    "recipe_id": "s01e01_victoria_sandwich",
+    "series_number": 1,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Victoria Sandwich",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Victoria_Sandwich",
+    "judging_notes": "Classic Mary Berry recipe judged for even rise and light sponge.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s01e02_scones",
+    "series_number": 1,
+    "episode_number": 2,
+    "challenge_type": "Technical",
+    "dish_name": "Scones",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Scones",
+    "judging_notes": "Judged for golden crust, soft crumb, and height.",
+    "difficulty": "Easy"
+  },
+  {
+    "recipe_id": "s02e01_technical_signature_challenge",
+    "series_number": 2,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Technical Signature Challenge",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Technical_Signature_Challenge",
+    "judging_notes": "Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s03e01_technical_signature_challenge",
+    "series_number": 3,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Technical Signature Challenge",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Technical_Signature_Challenge",
+    "judging_notes": "Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s04e02_english_muffins",
+    "series_number": 4,
+    "episode_number": 2,
+    "challenge_type": "Technical",
+    "dish_name": "English Muffins",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/English_Muffins",
+    "judging_notes": "Required even griddling and open interior holes.",
+    "difficulty": "Hard"
+  },
+  {
+    "recipe_id": "s05e04_baked_alaska",
+    "series_number": 5,
+    "episode_number": 4,
+    "challenge_type": "Showstopper",
+    "dish_name": "Baked Alaska",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Baked_Alaska",
+    "judging_notes": "Meringue browned exterior encasing frozen ice cream core.",
+    "difficulty": "Extreme"
+  },
+  {
+    "recipe_id": "s05e04_tiramisu_cake",
+    "series_number": 5,
+    "episode_number": 4,
+    "challenge_type": "Technical",
+    "dish_name": "Tiramisu Cake",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Tiramisu_Cake",
+    "judging_notes": "Mary Berry's coffee-infused Italian layered dessert.",
+    "difficulty": "Hard"
+  },
+  {
+    "recipe_id": "s06e01_technical_signature_challenge",
+    "series_number": 6,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Technical Signature Challenge",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Technical_Signature_Challenge",
+    "judging_notes": "Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s07e01_technical_signature_challenge",
+    "series_number": 7,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Technical Signature Challenge",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Technical_Signature_Challenge",
+    "judging_notes": "Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s08e01_technical_signature_challenge",
+    "series_number": 8,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Technical Signature Challenge",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Technical_Signature_Challenge",
+    "judging_notes": "Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s09e03_naan_bread",
+    "series_number": 9,
+    "episode_number": 3,
+    "challenge_type": "Technical",
+    "dish_name": "Naan Bread",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Naan_Bread",
+    "judging_notes": "Cooked on upside-down karahi over open flames.",
+    "difficulty": "Hard"
+  },
+  {
+    "recipe_id": "s10e07_sicilian_cassatelle",
+    "series_number": 10,
+    "episode_number": 7,
+    "challenge_type": "Technical",
+    "dish_name": "Sicilian Cassatelle",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Sicilian_Cassatelle",
+    "judging_notes": "Deep fried ricotta crescent pastries.",
+    "difficulty": "Very Hard"
+  },
+  {
+    "recipe_id": "s11e01_technical_signature_challenge",
+    "series_number": 11,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Technical Signature Challenge",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Technical_Signature_Challenge",
+    "judging_notes": "Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s12e10_belgian_buns",
+    "series_number": 12,
+    "episode_number": 10,
+    "challenge_type": "Technical",
+    "dish_name": "Belgian Buns",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Belgian_Buns",
+    "judging_notes": "Enriched yeast dough coils topped with fondant and cherries.",
+    "difficulty": "Hard"
+  },
+  {
+    "recipe_id": "s13e01_technical_signature_challenge",
+    "series_number": 13,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Technical Signature Challenge",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Technical_Signature_Challenge",
+    "judging_notes": "Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s14e04_chocolate_torte",
+    "series_number": 14,
+    "episode_number": 4,
+    "challenge_type": "Technical",
+    "dish_name": "Chocolate Torte",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Chocolate_Torte",
+    "judging_notes": "Flourless torte requiring immaculate chocolate tempering.",
+    "difficulty": "Hard"
+  },
+  {
+    "recipe_id": "s15e01_battenberg_cake",
+    "series_number": 15,
+    "episode_number": 1,
+    "challenge_type": "Technical",
+    "dish_name": "Battenberg Cake",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Battenberg_Cake",
+    "judging_notes": "Checked pink and yellow sponge wrapped in marzipan.",
+    "difficulty": "Moderate"
+  },
+  {
+    "recipe_id": "s15e02_custard_creams",
+    "series_number": 15,
+    "episode_number": 2,
+    "challenge_type": "Technical",
+    "dish_name": "Custard Creams",
+    "baker_name": null,
+    "recipe_url": "https://gbbo.fandom.com/wiki/Custard_Creams",
+    "judging_notes": "Embossed sandwich biscuits with piped vanilla buttercream.",
+    "difficulty": "Moderate"
+  }
+]

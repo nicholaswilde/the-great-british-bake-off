@@ -1,0 +1,54 @@
+{
+  "series_number": 15,
+  "subreddit": "GreatBritishBakeOff",
+  "discussions": [
+    {
+      "thread_id": "s15e01_greatbritishbakeoff",
+      "subreddit": "GreatBritishBakeOff",
+      "series_number": 15,
+      "episode_number": 1,
+      "title": "[Episode Discussion] Series 15 Episode 1: Cake Week",
+      "author": "mod_baker",
+      "score": 620,
+      "upvote_ratio": 0.99,
+      "num_comments": 285,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s15e01_cake_week/",
+      "top_comments": [
+        {
+          "comment_id": "c_s15e01_1",
+          "author": "sponge_whiz",
+          "score": 95,
+          "body": "So glad Bake Off is back! The mini illusion cakes showstopper was a brilliant concept."
+        },
+        {
+          "comment_id": "c_s15e01_2",
+          "author": "tent_newbie",
+          "score": 62,
+          "body": "Alison and Noel have such effortless chemistry. Dylan's flavors were so inventive."
+        }
+      ],
+      "sentiment_label": "Positive"
+    },
+    {
+      "thread_id": "s15e02_greatbritishbakeoff",
+      "subreddit": "GreatBritishBakeOff",
+      "series_number": 15,
+      "episode_number": 2,
+      "title": "[Episode Discussion] Series 15 Episode 2: Biscuit Week",
+      "author": "mod_baker",
+      "score": 540,
+      "upvote_ratio": 0.98,
+      "num_comments": 230,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s15e02_biscuit_week/",
+      "top_comments": [
+        {
+          "comment_id": "c_s15e02_1",
+          "author": "wafer_builder",
+          "score": 82,
+          "body": "Those biscuit puppet theatres were jaw-dropping. Proper engineering in the tent!"
+        }
+      ],
+      "sentiment_label": "Positive"
+    }
+  ]
+}

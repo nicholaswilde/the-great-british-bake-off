@@ -1,0 +1,33 @@
+{
+  "series_number": 9,
+  "lore": [
+    {
+      "lore_id": "s09e03_lore",
+      "series_number": 9,
+      "episode_number": 3,
+      "theme": "Bread",
+      "famous_quotes": [
+        "Style over substance.",
+        "A handshake is not given lightly."
+      ],
+      "star_baker_runner_up": "Rahul",
+      "notable_moments": [
+        "Terry creates an emotional tribute Eiffel Tower showstopper."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_9)"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "s09e03_naan_bread",
+      "series_number": 9,
+      "episode_number": 3,
+      "challenge_type": "Technical",
+      "dish_name": "Naan Bread",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Naan_Bread",
+      "judging_notes": "Cooked on upside-down karahi over open flames.",
+      "difficulty": "Hard"
+    }
+  ]
+}

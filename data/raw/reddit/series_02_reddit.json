@@ -1,0 +1,27 @@
+{
+  "series_number": 2,
+  "subreddit": "GreatBritishBakeOff",
+  "discussions": [
+    {
+      "thread_id": "s02e01_greatbritishbakeoff",
+      "subreddit": "GreatBritishBakeOff",
+      "series_number": 2,
+      "episode_number": 1,
+      "title": "[Episode Discussion] Series 2 Episode 1",
+      "author": "bakeoff_community",
+      "score": 250,
+      "upvote_ratio": 0.98,
+      "num_comments": 120,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s02e01_disc/",
+      "top_comments": [
+        {
+          "comment_id": "c_s02e01_1",
+          "author": "baker_fan",
+          "score": 45,
+          "body": "Great start to Series 2! The tent feels wonderful as always."
+        }
+      ],
+      "sentiment_label": "Positive"
+    }
+  ]
+}

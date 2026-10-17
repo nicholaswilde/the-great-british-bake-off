@@ -1,0 +1,58 @@
+{
+  "series_number": 15,
+  "lore": [
+    {
+      "lore_id": "s15e01_lore",
+      "series_number": 15,
+      "episode_number": 1,
+      "theme": "Cake",
+      "famous_quotes": [
+        "Welcome to the tent!",
+        "A sponge so light it defies gravity."
+      ],
+      "star_baker_runner_up": "Dylan",
+      "notable_moments": [
+        "First week of Series 15 featuring Battenberg cakes and mini illusion cakes."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_15)"
+    },
+    {
+      "lore_id": "s15e02_lore",
+      "series_number": 15,
+      "episode_number": 2,
+      "theme": "Biscuits",
+      "famous_quotes": [
+        "Crunch, crumb, and character."
+      ],
+      "star_baker_runner_up": "Georgie",
+      "notable_moments": [
+        "Intricate biscuit puppet theaters and wafer towers."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_15)"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "s15e01_battenberg_cake",
+      "series_number": 15,
+      "episode_number": 1,
+      "challenge_type": "Technical",
+      "dish_name": "Battenberg Cake",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Battenberg_Cake",
+      "judging_notes": "Checked pink and yellow sponge wrapped in marzipan.",
+      "difficulty": "Moderate"
+    },
+    {
+      "recipe_id": "s15e02_custard_creams",
+      "series_number": 15,
+      "episode_number": 2,
+      "challenge_type": "Technical",
+      "dish_name": "Custard Creams",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Custard_Creams",
+      "judging_notes": "Embossed sandwich biscuits with piped vanilla buttercream.",
+      "difficulty": "Moderate"
+    }
+  ]
+}

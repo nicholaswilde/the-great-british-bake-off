@@ -3,7 +3,16 @@
 import pytest
 from pydantic import ValidationError
 
-from gbbo_dataset.models import Baker, Episode, Performance, ResultEnum
+from gbbo_dataset.models import (
+    Baker,
+    Episode,
+    FandomLore,
+    FandomRecipe,
+    Performance,
+    RedditComment,
+    RedditDiscussion,
+    ResultEnum,
+)
 
 
 def test_baker_model_valid():
@@ -76,3 +85,37 @@ def test_performance_model_valid():
     )
     assert perf.result == ResultEnum.STAR_BAKER
     assert perf.hollywood_handshake is True
+
+
+def test_fandom_and_reddit_models():
+    """Test Fandom and Reddit model instantiation and canonical ID generation."""
+    r_id = FandomRecipe.generate_recipe_id(15, 1, "Battenberg Cake")
+    assert r_id == "s15e01_battenberg_cake"
+    recipe = FandomRecipe(
+        recipe_id=r_id,
+        series_number=15,
+        episode_number=1,
+        dish_name="Battenberg Cake",
+    )
+    assert recipe.challenge_type == "Technical"
+
+    l_id = FandomLore.generate_lore_id(5, 4)
+    assert l_id == "s05e04_lore"
+    lore = FandomLore(
+        lore_id=l_id,
+        series_number=5,
+        episode_number=4,
+        famous_quotes=["No one likes a soggy bottom."],
+    )
+    assert len(lore.famous_quotes) == 1
+
+    comment = RedditComment(comment_id="c1", author="fan", score=10, body="Great bake!")
+    disc = RedditDiscussion(
+        thread_id="t1",
+        series_number=1,
+        episode_number=1,
+        title="Discussion",
+        permalink="/r/test",
+        top_comments=[comment],
+    )
+    assert disc.top_comments[0].body == "Great bake!"

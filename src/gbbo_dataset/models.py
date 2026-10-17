@@ -174,3 +174,116 @@ class Performance(BaseModel):
                 self.episode_id, self.baker_id
             )
         return self
+
+
+class FandomRecipe(BaseModel):
+    """Technical challenge recipe or signature bake metadata from Bake Off Fandom wiki."""
+
+    model_config = ConfigDict(extra="ignore", str_strip_whitespace=True)
+
+    recipe_id: str = Field(
+        ...,
+        description="Unique recipe identifier (format: s{series}e{episode}_{slug})",
+    )
+    series_number: int = Field(..., ge=1, description="Series / Season number")
+    episode_number: int = Field(..., ge=1, description="Episode number within series")
+    challenge_type: str = Field(
+        default="Technical",
+        description="Challenge type (Technical, Signature, Showstopper)",
+    )
+    dish_name: str = Field(..., description="Name of the recipe or bake")
+    baker_name: str | None = Field(
+        default=None, description="Baker name if applicable (for signature/showstopper)"
+    )
+    recipe_url: str | None = Field(
+        default=None, description="URL link to official recipe or Fandom page"
+    )
+    judging_notes: str | None = Field(
+        default=None, description="Judge commentary or key technical criteria"
+    )
+    difficulty: str | None = Field(
+        default=None, description="Relative difficulty or technical hurdle"
+    )
+
+    @classmethod
+    def generate_recipe_id(
+        cls, series_number: int, episode_number: int, dish_name: str
+    ) -> str:
+        """Generate canonical recipe_id: s{series:02d}e{episode:02d}_{slug}."""
+        slug = re.sub(r"[^a-z0-9]+", "_", dish_name.lower()).strip("_")
+        return f"s{series_number:02d}e{episode_number:02d}_{slug}"
+
+
+class FandomLore(BaseModel):
+    """Episode lore, judging quotes, and tent trivia from Bake Off Fandom wiki."""
+
+    model_config = ConfigDict(extra="ignore", str_strip_whitespace=True)
+
+    lore_id: str = Field(
+        ...,
+        description="Unique lore identifier (format: s{series}e{episode}_lore)",
+    )
+    series_number: int = Field(..., ge=1, description="Series / Season number")
+    episode_number: int = Field(..., ge=1, description="Episode number within series")
+    theme: str | None = Field(
+        default=None, description="Episode theme (e.g. Cake Week)"
+    )
+    famous_quotes: list[str] = Field(
+        default_factory=list,
+        description="Notable judging or tent quotes (e.g. 'soggy bottom')",
+    )
+    star_baker_runner_up: str | None = Field(
+        default=None, description="Contestant highlighted as runner-up for Star Baker"
+    )
+    notable_moments: list[str] = Field(
+        default_factory=list,
+        description="Notable tent moments, accidents, or memorable interactions",
+    )
+    source_url: str | None = Field(default=None, description="Fandom wiki source URL")
+
+    @classmethod
+    def generate_lore_id(cls, series_number: int, episode_number: int) -> str:
+        """Generate canonical lore_id: s{series:02d}e{episode:02d}_lore."""
+        return f"s{series_number:02d}e{episode_number:02d}_lore"
+
+
+class RedditComment(BaseModel):
+    """Top community comment from episode discussion thread."""
+
+    model_config = ConfigDict(extra="ignore", str_strip_whitespace=True)
+
+    comment_id: str = Field(..., description="Reddit comment ID")
+    author: str = Field(default="[deleted]", description="Reddit username")
+    score: int = Field(default=0, description="Comment upvote score")
+    body: str = Field(..., description="Comment text body")
+
+
+class RedditDiscussion(BaseModel):
+    """Reddit episode discussion thread and sentiment metadata."""
+
+    model_config = ConfigDict(extra="ignore", str_strip_whitespace=True)
+
+    thread_id: str = Field(
+        ..., description="Reddit submission ID (e.g. t3_xyz123 or xyz123)"
+    )
+    subreddit: str = Field(default="GreatBritishBakeOff", description="Subreddit name")
+    series_number: int = Field(..., ge=1, description="Series / Season number")
+    episode_number: int = Field(..., ge=1, description="Episode number within series")
+    title: str = Field(..., description="Discussion thread title")
+    author: str = Field(default="[deleted]", description="Thread submitter")
+    score: int = Field(default=0, description="Thread score / net upvotes")
+    upvote_ratio: float = Field(
+        default=1.0, ge=0.0, le=1.0, description="Upvote ratio (0.0 to 1.0)"
+    )
+    num_comments: int = Field(
+        default=0, ge=0, description="Total number of comments in thread"
+    )
+    permalink: str = Field(..., description="Permalink URL to thread")
+    top_comments: list[RedditComment] = Field(
+        default_factory=list,
+        description="Top community reaction comments",
+    )
+    sentiment_label: str | None = Field(
+        default=None,
+        description="Aggregated reaction sentiment (Positive, Mixed, Critical)",
+    )

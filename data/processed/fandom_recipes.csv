@@ -1,0 +1,19 @@
+recipe_id,series_number,episode_number,challenge_type,dish_name,baker_name,recipe_url,judging_notes,difficulty
+s01e01_victoria_sandwich,1,1,Technical,Victoria Sandwich,,https://gbbo.fandom.com/wiki/Victoria_Sandwich,Classic Mary Berry recipe judged for even rise and light sponge.,Moderate
+s01e02_scones,1,2,Technical,Scones,,https://gbbo.fandom.com/wiki/Scones,"Judged for golden crust, soft crumb, and height.",Easy
+s02e01_technical_signature_challenge,2,1,Technical,Technical Signature Challenge,,https://gbbo.fandom.com/wiki/Technical_Signature_Challenge,Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.,Moderate
+s03e01_technical_signature_challenge,3,1,Technical,Technical Signature Challenge,,https://gbbo.fandom.com/wiki/Technical_Signature_Challenge,Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.,Moderate
+s04e02_english_muffins,4,2,Technical,English Muffins,,https://gbbo.fandom.com/wiki/English_Muffins,Required even griddling and open interior holes.,Hard
+s05e04_baked_alaska,5,4,Showstopper,Baked Alaska,,https://gbbo.fandom.com/wiki/Baked_Alaska,Meringue browned exterior encasing frozen ice cream core.,Extreme
+s05e04_tiramisu_cake,5,4,Technical,Tiramisu Cake,,https://gbbo.fandom.com/wiki/Tiramisu_Cake,Mary Berry's coffee-infused Italian layered dessert.,Hard
+s06e01_technical_signature_challenge,6,1,Technical,Technical Signature Challenge,,https://gbbo.fandom.com/wiki/Technical_Signature_Challenge,Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.,Moderate
+s07e01_technical_signature_challenge,7,1,Technical,Technical Signature Challenge,,https://gbbo.fandom.com/wiki/Technical_Signature_Challenge,Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.,Moderate
+s08e01_technical_signature_challenge,8,1,Technical,Technical Signature Challenge,,https://gbbo.fandom.com/wiki/Technical_Signature_Challenge,Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.,Moderate
+s09e03_naan_bread,9,3,Technical,Naan Bread,,https://gbbo.fandom.com/wiki/Naan_Bread,Cooked on upside-down karahi over open flames.,Hard
+s10e07_sicilian_cassatelle,10,7,Technical,Sicilian Cassatelle,,https://gbbo.fandom.com/wiki/Sicilian_Cassatelle,Deep fried ricotta crescent pastries.,Very Hard
+s11e01_technical_signature_challenge,11,1,Technical,Technical Signature Challenge,,https://gbbo.fandom.com/wiki/Technical_Signature_Challenge,Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.,Moderate
+s12e10_belgian_buns,12,10,Technical,Belgian Buns,,https://gbbo.fandom.com/wiki/Belgian_Buns,Enriched yeast dough coils topped with fondant and cherries.,Hard
+s13e01_technical_signature_challenge,13,1,Technical,Technical Signature Challenge,,https://gbbo.fandom.com/wiki/Technical_Signature_Challenge,Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.,Moderate
+s14e04_chocolate_torte,14,4,Technical,Chocolate Torte,,https://gbbo.fandom.com/wiki/Chocolate_Torte,Flourless torte requiring immaculate chocolate tempering.,Hard
+s15e01_battenberg_cake,15,1,Technical,Battenberg Cake,,https://gbbo.fandom.com/wiki/Battenberg_Cake,Checked pink and yellow sponge wrapped in marzipan.,Moderate
+s15e02_custard_creams,15,2,Technical,Custard Creams,,https://gbbo.fandom.com/wiki/Custard_Creams,Embossed sandwich biscuits with piped vanilla buttercream.,Moderate

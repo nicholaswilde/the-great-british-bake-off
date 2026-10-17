@@ -1,0 +1,247 @@
+[
+  {
+    "lore_id": "s01e01_lore",
+    "series_number": 1,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "famous_quotes": [
+      "Baking is a science and an art.",
+      "Precision is everything in the tent."
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "First ever technical challenge: Victoria Sandwich."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_1)"
+  },
+  {
+    "lore_id": "s01e02_lore",
+    "series_number": 1,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "famous_quotes": [
+      "A good biscuit must have a clean snap."
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "Contestants challenged to bake traditional Scottish shortbread."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_1)"
+  },
+  {
+    "lore_id": "s02e01_lore",
+    "series_number": 2,
+    "episode_number": 1,
+    "theme": "Series 2 Premiere",
+    "famous_quotes": [
+      "On your marks, get set, bake!"
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "Bakers enter the tent for Series 2."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_2)"
+  },
+  {
+    "lore_id": "s03e01_lore",
+    "series_number": 3,
+    "episode_number": 1,
+    "theme": "Series 3 Premiere",
+    "famous_quotes": [
+      "On your marks, get set, bake!"
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "Bakers enter the tent for Series 3."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_3)"
+  },
+  {
+    "lore_id": "s04e02_lore",
+    "series_number": 4,
+    "episode_number": 2,
+    "theme": "Bread",
+    "famous_quotes": [
+      "Underproved and overbaked.",
+      "Paul tests the bread by tapping the base."
+    ],
+    "star_baker_runner_up": "Paul",
+    "notable_moments": [
+      "Howard's custard was accidentally used by Deborah (Custardgate)."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_4)"
+  },
+  {
+    "lore_id": "s05e04_lore",
+    "series_number": 5,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "famous_quotes": [
+      "No one likes a soggy bottom.",
+      "It's completely melted."
+    ],
+    "star_baker_runner_up": "Chetna",
+    "notable_moments": [
+      "Baked Alaska incident resulting in Iain's withdrawal (Bingate)."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_5)"
+  },
+  {
+    "lore_id": "s06e01_lore",
+    "series_number": 6,
+    "episode_number": 1,
+    "theme": "Series 6 Premiere",
+    "famous_quotes": [
+      "On your marks, get set, bake!"
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "Bakers enter the tent for Series 6."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_6)"
+  },
+  {
+    "lore_id": "s07e01_lore",
+    "series_number": 7,
+    "episode_number": 1,
+    "theme": "Series 7 Premiere",
+    "famous_quotes": [
+      "On your marks, get set, bake!"
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "Bakers enter the tent for Series 7."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_7)"
+  },
+  {
+    "lore_id": "s08e01_lore",
+    "series_number": 8,
+    "episode_number": 1,
+    "theme": "Series 8 Premiere",
+    "famous_quotes": [
+      "On your marks, get set, bake!"
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "Bakers enter the tent for Series 8."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_8)"
+  },
+  {
+    "lore_id": "s09e03_lore",
+    "series_number": 9,
+    "episode_number": 3,
+    "theme": "Bread",
+    "famous_quotes": [
+      "Style over substance.",
+      "A handshake is not given lightly."
+    ],
+    "star_baker_runner_up": "Rahul",
+    "notable_moments": [
+      "Terry creates an emotional tribute Eiffel Tower showstopper."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_9)"
+  },
+  {
+    "lore_id": "s10e07_lore",
+    "series_number": 10,
+    "episode_number": 7,
+    "theme": "Festivals",
+    "famous_quotes": [
+      "Pure Hollywood handshake material.",
+      "Steph takes her fourth Star Baker."
+    ],
+    "star_baker_runner_up": "Alice",
+    "notable_moments": [
+      "Steph dominates the week with spiced festival buns."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_10)"
+  },
+  {
+    "lore_id": "s11e01_lore",
+    "series_number": 11,
+    "episode_number": 1,
+    "theme": "Series 11 Premiere",
+    "famous_quotes": [
+      "On your marks, get set, bake!"
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "Bakers enter the tent for Series 11."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_11)"
+  },
+  {
+    "lore_id": "s12e10_lore",
+    "series_number": 12,
+    "episode_number": 10,
+    "theme": "The Final",
+    "famous_quotes": [
+      "An Italian triumph.",
+      "Giuseppe's oven door failed during the final."
+    ],
+    "star_baker_runner_up": "Chigs",
+    "notable_moments": [
+      "Giuseppe overcomes oven failure to take the championship title."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_12)"
+  },
+  {
+    "lore_id": "s13e01_lore",
+    "series_number": 13,
+    "episode_number": 1,
+    "theme": "Series 13 Premiere",
+    "famous_quotes": [
+      "On your marks, get set, bake!"
+    ],
+    "star_baker_runner_up": null,
+    "notable_moments": [
+      "Bakers enter the tent for Series 13."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_13)"
+  },
+  {
+    "lore_id": "s14e04_lore",
+    "series_number": 14,
+    "episode_number": 4,
+    "theme": "Chocolate",
+    "famous_quotes": [
+      "Glossy temper and feather-light ganache."
+    ],
+    "star_baker_runner_up": "Dan",
+    "notable_moments": [
+      "Matty secures Star Baker with silky chocolate showstopper."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_14)"
+  },
+  {
+    "lore_id": "s15e01_lore",
+    "series_number": 15,
+    "episode_number": 1,
+    "theme": "Cake",
+    "famous_quotes": [
+      "Welcome to the tent!",
+      "A sponge so light it defies gravity."
+    ],
+    "star_baker_runner_up": "Dylan",
+    "notable_moments": [
+      "First week of Series 15 featuring Battenberg cakes and mini illusion cakes."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_15)"
+  },
+  {
+    "lore_id": "s15e02_lore",
+    "series_number": 15,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "famous_quotes": [
+      "Crunch, crumb, and character."
+    ],
+    "star_baker_runner_up": "Georgie",
+    "notable_moments": [
+      "Intricate biscuit puppet theaters and wafer towers."
+    ],
+    "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_15)"
+  }
+]

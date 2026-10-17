@@ -1,0 +1,33 @@
+{
+  "series_number": 5,
+  "subreddit": "GreatBritishBakeOff",
+  "discussions": [
+    {
+      "thread_id": "s05e04_greatbritishbakeoff",
+      "subreddit": "GreatBritishBakeOff",
+      "series_number": 5,
+      "episode_number": 4,
+      "title": "[Episode Discussion] Series 5 Episode 4: Desserts (Bingate)",
+      "author": "dessert_fanatic",
+      "score": 1289,
+      "upvote_ratio": 0.94,
+      "num_comments": 540,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s05e04_bingate/",
+      "top_comments": [
+        {
+          "comment_id": "c_s05e04_1",
+          "author": "iain_justice",
+          "score": 310,
+          "body": "Throwing the Baked Alaska in the bin was heartbreaking. 40 seconds out of the freezer!"
+        },
+        {
+          "comment_id": "c_s05e04_2",
+          "author": "tent_detective",
+          "score": 195,
+          "body": "Sue Perkins handled the situation so gracefully, but what a tragic week."
+        }
+      ],
+      "sentiment_label": "Critical"
+    }
+  ]
+}

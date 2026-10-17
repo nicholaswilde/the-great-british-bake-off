@@ -1,0 +1,17 @@
+thread_id,subreddit,series_number,episode_number,title,author,score,upvote_ratio,num_comments,permalink,sentiment_label,top_comment_count
+s01e01_greatbritishbakeoff,GreatBritishBakeOff,1,1,[Episode Discussion] Series 1 Episode 1: Cakes,baking_enthusiast,142,0.98,45,https://reddit.com/r/GreatBritishBakeOff/comments/s01e01_cakes/,Positive,2
+s02e01_greatbritishbakeoff,GreatBritishBakeOff,2,1,[Episode Discussion] Series 2 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s02e01_disc/,Positive,1
+s03e01_greatbritishbakeoff,GreatBritishBakeOff,3,1,[Episode Discussion] Series 3 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s03e01_disc/,Positive,1
+s04e02_greatbritishbakeoff,GreatBritishBakeOff,4,2,[Episode Discussion] Series 4 Episode 2: Bread Week,tent_watcher,412,0.96,184,https://reddit.com/r/GreatBritishBakeOff/comments/s04e02_bread/,Mixed,2
+s05e04_greatbritishbakeoff,GreatBritishBakeOff,5,4,[Episode Discussion] Series 5 Episode 4: Desserts (Bingate),dessert_fanatic,1289,0.94,540,https://reddit.com/r/GreatBritishBakeOff/comments/s05e04_bingate/,Critical,2
+s06e01_greatbritishbakeoff,GreatBritishBakeOff,6,1,[Episode Discussion] Series 6 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s06e01_disc/,Positive,1
+s07e01_greatbritishbakeoff,GreatBritishBakeOff,7,1,[Episode Discussion] Series 7 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s07e01_disc/,Positive,1
+s08e01_greatbritishbakeoff,GreatBritishBakeOff,8,1,[Episode Discussion] Series 8 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s08e01_disc/,Positive,1
+s09e10_greatbritishbakeoff,GreatBritishBakeOff,9,10,[Episode Discussion] Series 9 Episode 10: The Grand Final,bakeoff_fan,875,0.97,412,https://reddit.com/r/GreatBritishBakeOff/comments/s09e10_final/,Positive,2
+s10e01_greatbritishbakeoff,GreatBritishBakeOff,10,1,[Episode Discussion] Series 10 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s10e01_disc/,Positive,1
+s11e01_greatbritishbakeoff,GreatBritishBakeOff,11,1,[Episode Discussion] Series 11 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s11e01_disc/,Positive,1
+s12e10_greatbritishbakeoff,GreatBritishBakeOff,12,10,[Episode Discussion] Series 12 Episode 10: The Final,flour_power,930,0.98,360,https://reddit.com/r/GreatBritishBakeOff/comments/s12e10_final/,Positive,2
+s13e01_greatbritishbakeoff,GreatBritishBakeOff,13,1,[Episode Discussion] Series 13 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s13e01_disc/,Positive,1
+s14e01_greatbritishbakeoff,GreatBritishBakeOff,14,1,[Episode Discussion] Series 14 Episode 1,bakeoff_community,250,0.98,120,https://reddit.com/r/GreatBritishBakeOff/comments/s14e01_disc/,Positive,1
+s15e01_greatbritishbakeoff,GreatBritishBakeOff,15,1,[Episode Discussion] Series 15 Episode 1: Cake Week,mod_baker,620,0.99,285,https://reddit.com/r/GreatBritishBakeOff/comments/s15e01_cake_week/,Positive,2
+s15e02_greatbritishbakeoff,GreatBritishBakeOff,15,2,[Episode Discussion] Series 15 Episode 2: Biscuit Week,mod_baker,540,0.98,230,https://reddit.com/r/GreatBritishBakeOff/comments/s15e02_biscuit_week/,Positive,1

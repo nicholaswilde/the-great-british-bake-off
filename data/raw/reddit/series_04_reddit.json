@@ -1,0 +1,33 @@
+{
+  "series_number": 4,
+  "subreddit": "GreatBritishBakeOff",
+  "discussions": [
+    {
+      "thread_id": "s04e02_greatbritishbakeoff",
+      "subreddit": "GreatBritishBakeOff",
+      "series_number": 4,
+      "episode_number": 2,
+      "title": "[Episode Discussion] Series 4 Episode 2: Bread Week",
+      "author": "tent_watcher",
+      "score": 412,
+      "upvote_ratio": 0.96,
+      "num_comments": 184,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s04e02_bread/",
+      "top_comments": [
+        {
+          "comment_id": "c_s04e02_1",
+          "author": "custard_truther",
+          "score": 88,
+          "body": "Did Deborah really just use Howard's custard?! Custardgate has officially commenced!"
+        },
+        {
+          "comment_id": "c_s04e02_2",
+          "author": "sourdough_sam",
+          "score": 42,
+          "body": "Paul Hollywood's critique on English muffins was brutal but fair."
+        }
+      ],
+      "sentiment_label": "Mixed"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "series_number": 11,
+  "subreddit": "GreatBritishBakeOff",
+  "discussions": [
+    {
+      "thread_id": "s11e01_greatbritishbakeoff",
+      "subreddit": "GreatBritishBakeOff",
+      "series_number": 11,
+      "episode_number": 1,
+      "title": "[Episode Discussion] Series 11 Episode 1",
+      "author": "bakeoff_community",
+      "score": 250,
+      "upvote_ratio": 0.98,
+      "num_comments": 120,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s11e01_disc/",
+      "top_comments": [
+        {
+          "comment_id": "c_s11e01_1",
+          "author": "baker_fan",
+          "score": 45,
+          "body": "Great start to Series 11! The tent feels wonderful as always."
+        }
+      ],
+      "sentiment_label": "Positive"
+    }
+  ]
+}

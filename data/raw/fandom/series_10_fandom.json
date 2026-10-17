@@ -1,0 +1,33 @@
+{
+  "series_number": 10,
+  "lore": [
+    {
+      "lore_id": "s10e07_lore",
+      "series_number": 10,
+      "episode_number": 7,
+      "theme": "Festivals",
+      "famous_quotes": [
+        "Pure Hollywood handshake material.",
+        "Steph takes her fourth Star Baker."
+      ],
+      "star_baker_runner_up": "Alice",
+      "notable_moments": [
+        "Steph dominates the week with spiced festival buns."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_10)"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "s10e07_sicilian_cassatelle",
+      "series_number": 10,
+      "episode_number": 7,
+      "challenge_type": "Technical",
+      "dish_name": "Sicilian Cassatelle",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Sicilian_Cassatelle",
+      "judging_notes": "Deep fried ricotta crescent pastries.",
+      "difficulty": "Very Hard"
+    }
+  ]
+}

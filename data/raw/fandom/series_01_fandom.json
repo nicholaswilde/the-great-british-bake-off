@@ -1,0 +1,58 @@
+{
+  "series_number": 1,
+  "lore": [
+    {
+      "lore_id": "s01e01_lore",
+      "series_number": 1,
+      "episode_number": 1,
+      "theme": "Cakes",
+      "famous_quotes": [
+        "Baking is a science and an art.",
+        "Precision is everything in the tent."
+      ],
+      "star_baker_runner_up": null,
+      "notable_moments": [
+        "First ever technical challenge: Victoria Sandwich."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_1)"
+    },
+    {
+      "lore_id": "s01e02_lore",
+      "series_number": 1,
+      "episode_number": 2,
+      "theme": "Biscuits",
+      "famous_quotes": [
+        "A good biscuit must have a clean snap."
+      ],
+      "star_baker_runner_up": null,
+      "notable_moments": [
+        "Contestants challenged to bake traditional Scottish shortbread."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_1)"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "s01e01_victoria_sandwich",
+      "series_number": 1,
+      "episode_number": 1,
+      "challenge_type": "Technical",
+      "dish_name": "Victoria Sandwich",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Victoria_Sandwich",
+      "judging_notes": "Classic Mary Berry recipe judged for even rise and light sponge.",
+      "difficulty": "Moderate"
+    },
+    {
+      "recipe_id": "s01e02_scones",
+      "series_number": 1,
+      "episode_number": 2,
+      "challenge_type": "Technical",
+      "dish_name": "Scones",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Scones",
+      "judging_notes": "Judged for golden crust, soft crumb, and height.",
+      "difficulty": "Easy"
+    }
+  ]
+}

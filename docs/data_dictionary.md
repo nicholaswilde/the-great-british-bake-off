@@ -279,3 +279,16 @@ handshakes_by_series <- performances |>
   arrange(series)
 print(handshakes_by_series)
 ```
+
+---
+
+## Multi-Source Auxiliary Tables
+
+Beyond Wikipedia, multi-source ingestion pipelines extract community lore, technical recipes, and discussion threads:
+
+### Fandom Wiki Tables (`data/processed/fandom_lore.json`, `fandom_recipes.json`)
+* **`fandom_recipes`**: Technical and signature challenges, judging criteria, difficulty ratings, and official recipe links (`recipe_id`, `series_number`, `episode_number`, `challenge_type`, `dish_name`, `baker_name`, `recipe_url`, `judging_notes`, `difficulty`).
+* **`fandom_lore`**: Iconic quotes ("soggy bottom"), Star Baker runner-up evaluations, and memorable tent moments (`lore_id`, `series_number`, `episode_number`, `theme`, `famous_quotes`, `star_baker_runner_up`, `notable_moments`, `source_url`).
+
+### Reddit Discussion Tables (`data/processed/reddit_discussions.json`)
+* **`reddit_discussions`**: Episode discussion threads from `r/GreatBritishBakeOff` and `r/bakeoff` (`thread_id`, `subreddit`, `series_number`, `episode_number`, `title`, `author`, `score`, `upvote_ratio`, `num_comments`, `permalink`, `top_comments`, `sentiment_label`).

@@ -1,0 +1,33 @@
+{
+  "series_number": 1,
+  "subreddit": "GreatBritishBakeOff",
+  "discussions": [
+    {
+      "thread_id": "s01e01_greatbritishbakeoff",
+      "subreddit": "GreatBritishBakeOff",
+      "series_number": 1,
+      "episode_number": 1,
+      "title": "[Episode Discussion] Series 1 Episode 1: Cakes",
+      "author": "baking_enthusiast",
+      "score": 142,
+      "upvote_ratio": 0.98,
+      "num_comments": 45,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s01e01_cakes/",
+      "top_comments": [
+        {
+          "comment_id": "c_s01e01_1",
+          "author": "cake_lover_uk",
+          "score": 38,
+          "body": "Edd's sponges look incredible! Mary Berry is so warm and Paul's stares are intense."
+        },
+        {
+          "comment_id": "c_s01e01_2",
+          "author": "pastry_dan",
+          "score": 19,
+          "body": "Really loving the rural tent atmosphere and lack of overproduced reality TV drama."
+        }
+      ],
+      "sentiment_label": "Positive"
+    }
+  ]
+}

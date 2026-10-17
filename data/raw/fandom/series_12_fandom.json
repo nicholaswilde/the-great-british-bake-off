@@ -1,0 +1,33 @@
+{
+  "series_number": 12,
+  "lore": [
+    {
+      "lore_id": "s12e10_lore",
+      "series_number": 12,
+      "episode_number": 10,
+      "theme": "The Final",
+      "famous_quotes": [
+        "An Italian triumph.",
+        "Giuseppe's oven door failed during the final."
+      ],
+      "star_baker_runner_up": "Chigs",
+      "notable_moments": [
+        "Giuseppe overcomes oven failure to take the championship title."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_12)"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "s12e10_belgian_buns",
+      "series_number": 12,
+      "episode_number": 10,
+      "challenge_type": "Technical",
+      "dish_name": "Belgian Buns",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Belgian_Buns",
+      "judging_notes": "Enriched yeast dough coils topped with fondant and cherries.",
+      "difficulty": "Hard"
+    }
+  ]
+}

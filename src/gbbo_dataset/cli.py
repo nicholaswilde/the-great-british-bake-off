@@ -23,10 +23,12 @@ from gbbo_dataset.exports import (
 from gbbo_dataset.exports.packaging import ReleasePackager
 from gbbo_dataset.gap_auditor import DatasetGapAuditor
 from gbbo_dataset.geocoding import export_bakers_geojson
+from gbbo_dataset.importers.fandom import scrape_all_fandom, scrape_fandom_series
 from gbbo_dataset.importers.rayofdata import (
     DEFAULT_RAY_DATA_DIR,
     run_enrichment,
 )
+from gbbo_dataset.importers.reddit import scrape_all_reddit, scrape_reddit_series
 from gbbo_dataset.predictor import run_predict_cli
 from gbbo_dataset.scraper import scrape_series
 from gbbo_dataset.validator import DatasetValidator
@@ -113,6 +115,110 @@ def scrape(
 
     console.print(
         f"[bold green]Scraping complete: {successes} succeeded, {failures} skipped/failed.[/bold green]"
+    )
+
+
+@app.command("scrape-fandom")
+def scrape_fandom_cmd(
+    series: int | None = typer.Option(
+        None,
+        "--series",
+        "-s",
+        help="Specific GBBO series to scrape (default: all 1-15)",
+    ),
+    raw_dir: Path = typer.Option(
+        Path("data/raw/fandom"), "--raw-dir", help="Directory for raw Fandom JSON"
+    ),
+    processed_dir: Path = typer.Option(
+        Path("data/processed"), "--processed-dir", help="Target processed directory"
+    ),
+    offline: bool = typer.Option(
+        False, "--offline", help="Use offline curated lore and recipes cache"
+    ),
+) -> None:
+    """Extract technical recipes, judging quotes, and tent lore from Fandom wiki."""
+    if series is not None:
+        console.print(
+            f"[bold blue]Scraping Fandom wiki for Series {series}...[/bold blue]"
+        )
+        try:
+            res = scrape_fandom_series(series, raw_dir=raw_dir, offline=offline)
+            console.print(
+                f"[green]✓ Series {series:02d}: {len(res.get('lore', []))} lore items, "
+                f"{len(res.get('recipes', []))} recipes extracted.[/green]"
+            )
+        except Exception as e:
+            console.print(
+                f"[red]✗ Failed to scrape Fandom for Series {series}: {e}[/red]"
+            )
+            raise typer.Exit(code=1) from e
+        return
+
+    console.print(
+        "[bold blue]Scraping Fandom wiki across Series 1 to 15...[/bold blue]"
+    )
+    summary = scrape_all_fandom(
+        raw_dir=raw_dir, processed_dir=processed_dir, offline=offline
+    )
+    console.print(
+        f"[bold green]✓ Fandom extraction complete: {summary['lore_count']} lore records, "
+        f"{summary['recipe_count']} recipes exported to {processed_dir}.[/bold green]"
+    )
+
+
+@app.command("scrape-reddit")
+def scrape_reddit_cmd(
+    series: int | None = typer.Option(
+        None,
+        "--series",
+        "-s",
+        help="Specific GBBO series to scrape (default: all 1-15)",
+    ),
+    subreddit: str = typer.Option(
+        "GreatBritishBakeOff",
+        "--subreddit",
+        help="Target subreddit (e.g. GreatBritishBakeOff or bakeoff)",
+    ),
+    raw_dir: Path = typer.Option(
+        Path("data/raw/reddit"), "--raw-dir", help="Directory for raw Reddit JSON"
+    ),
+    processed_dir: Path = typer.Option(
+        Path("data/processed"), "--processed-dir", help="Target processed directory"
+    ),
+    offline: bool = typer.Option(
+        False, "--offline", help="Use offline curated community discussion archive"
+    ),
+) -> None:
+    """Ingest episode discussion threads, scores, and reaction sentiment from Reddit."""
+    if series is not None:
+        console.print(
+            f"[bold blue]Scraping Reddit r/{subreddit} for Series {series}...[/bold blue]"
+        )
+        try:
+            res = scrape_reddit_series(
+                series, subreddit=subreddit, raw_dir=raw_dir, offline=offline
+            )
+            console.print(
+                f"[green]✓ Series {series:02d}: {len(res.get('discussions', []))} discussion threads ingested.[/green]"
+            )
+        except Exception as e:
+            console.print(
+                f"[red]✗ Failed to ingest Reddit for Series {series}: {e}[/red]"
+            )
+            raise typer.Exit(code=1) from e
+        return
+
+    console.print(
+        f"[bold blue]Ingesting Reddit r/{subreddit} discussions across Series 1 to 15...[/bold blue]"
+    )
+    summary = scrape_all_reddit(
+        raw_dir=raw_dir,
+        processed_dir=processed_dir,
+        subreddit=subreddit,
+        offline=offline,
+    )
+    console.print(
+        f"[bold green]✓ Reddit ingestion complete: {summary['discussion_count']} discussion threads exported to {processed_dir}.[/bold green]"
     )
 
 

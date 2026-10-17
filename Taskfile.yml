@@ -35,6 +35,23 @@ tasks:
     cmds:
       - uv run gbbo scrape {{.CLI_ARGS}}
 
+  scrape:fandom:
+    desc: Scrape GBBO Fandom wiki lore, technical recipes, and judging quotes
+    cmds:
+      - uv run gbbo scrape-fandom {{.CLI_ARGS}}
+
+  scrape:reddit:
+    desc: Ingest Reddit episode discussion threads and community sentiment
+    cmds:
+      - uv run gbbo scrape-reddit {{.CLI_ARGS}}
+
+  scrape:all:
+    desc: Run all multi-source scrapers (Wikipedia, Fandom, Reddit)
+    cmds:
+      - task: scrape
+      - task: scrape:fandom
+      - task: scrape:reddit
+
   build:
     desc: Aggregate and validate raw data into processed datasets
     cmds:

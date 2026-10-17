@@ -1,0 +1,44 @@
+{
+  "series_number": 5,
+  "lore": [
+    {
+      "lore_id": "s05e04_lore",
+      "series_number": 5,
+      "episode_number": 4,
+      "theme": "Desserts",
+      "famous_quotes": [
+        "No one likes a soggy bottom.",
+        "It's completely melted."
+      ],
+      "star_baker_runner_up": "Chetna",
+      "notable_moments": [
+        "Baked Alaska incident resulting in Iain's withdrawal (Bingate)."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_5)"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "s05e04_baked_alaska",
+      "series_number": 5,
+      "episode_number": 4,
+      "challenge_type": "Showstopper",
+      "dish_name": "Baked Alaska",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Baked_Alaska",
+      "judging_notes": "Meringue browned exterior encasing frozen ice cream core.",
+      "difficulty": "Extreme"
+    },
+    {
+      "recipe_id": "s05e04_tiramisu_cake",
+      "series_number": 5,
+      "episode_number": 4,
+      "challenge_type": "Technical",
+      "dish_name": "Tiramisu Cake",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Tiramisu_Cake",
+      "judging_notes": "Mary Berry's coffee-infused Italian layered dessert.",
+      "difficulty": "Hard"
+    }
+  ]
+}

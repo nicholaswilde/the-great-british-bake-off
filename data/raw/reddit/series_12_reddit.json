@@ -1,0 +1,33 @@
+{
+  "series_number": 12,
+  "subreddit": "GreatBritishBakeOff",
+  "discussions": [
+    {
+      "thread_id": "s12e10_greatbritishbakeoff",
+      "subreddit": "GreatBritishBakeOff",
+      "series_number": 12,
+      "episode_number": 10,
+      "title": "[Episode Discussion] Series 12 Episode 10: The Final",
+      "author": "flour_power",
+      "score": 930,
+      "upvote_ratio": 0.98,
+      "num_comments": 360,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s12e10_final/",
+      "top_comments": [
+        {
+          "comment_id": "c_s12e10_1",
+          "author": "giuseppe_praise",
+          "score": 210,
+          "body": "Giuseppe won despite the oven door breaking! Such a gentleman and true baking scholar."
+        },
+        {
+          "comment_id": "c_s12e10_2",
+          "author": "chigs_journey",
+          "score": 140,
+          "body": "Chigs only started baking in lockdown and reached the final! Incredible talent."
+        }
+      ],
+      "sentiment_label": "Positive"
+    }
+  ]
+}

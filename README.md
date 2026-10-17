@@ -96,7 +96,24 @@ uv run gbbo scrape --series 1
 uv run gbbo scrape --start 1 --end 17
 ```
 
-### 3. Build & Validate Datasets
+### 3. Multi-Source Ingestion (Fandom Wiki & Reddit)
+
+```bash
+# Scrape Fandom wiki lore, technical recipes, and judging quotes
+task scrape:fandom
+# Or via CLI
+uv run gbbo scrape-fandom
+
+# Ingest Reddit episode discussions and fan sentiment
+task scrape:reddit
+# Or via CLI
+uv run gbbo scrape-reddit
+
+# Run all multi-source scrapers
+task scrape:all
+```
+
+### 4. Build & Validate Datasets
 
 ```bash
 task build

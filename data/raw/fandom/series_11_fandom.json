@@ -1,0 +1,32 @@
+{
+  "series_number": 11,
+  "lore": [
+    {
+      "lore_id": "s11e01_lore",
+      "series_number": 11,
+      "episode_number": 1,
+      "theme": "Series 11 Premiere",
+      "famous_quotes": [
+        "On your marks, get set, bake!"
+      ],
+      "star_baker_runner_up": null,
+      "notable_moments": [
+        "Bakers enter the tent for Series 11."
+      ],
+      "source_url": "https://gbbo.fandom.com/wiki/The_Great_British_Bake_Off_(Series_11)"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "s11e01_technical_signature_challenge",
+      "series_number": 11,
+      "episode_number": 1,
+      "challenge_type": "Technical",
+      "dish_name": "Technical Signature Challenge",
+      "baker_name": null,
+      "recipe_url": "https://gbbo.fandom.com/wiki/Technical_Signature_Challenge",
+      "judging_notes": "Judged blindly by Paul Hollywood and Prue Leith / Mary Berry.",
+      "difficulty": "Moderate"
+    }
+  ]
+}
