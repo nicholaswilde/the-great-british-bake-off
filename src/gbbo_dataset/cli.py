@@ -25,6 +25,7 @@ from gbbo_dataset.importers.rayofdata import (
     DEFAULT_RAY_DATA_DIR,
     run_enrichment,
 )
+from gbbo_dataset.predictor import run_predict_cli
 from gbbo_dataset.scraper import scrape_series
 
 app = typer.Typer(
@@ -411,6 +412,37 @@ def publish_hf_cmd(
     except Exception as e:
         console.print(f"[red]✗ Hugging Face publishing failed: {e}[/red]")
         raise typer.Exit(code=1) from e
+
+
+@app.command("predict")
+def predict(
+    series: int = typer.Option(
+        17, "--series", "-s", help="Series number to predict (e.g. 17)."
+    ),
+    top: int = typer.Option(12, "--top", "-t", help="Number of top bakers to display."),
+    detail: bool = typer.Option(
+        False, "--detail", "-d", help="Display detailed factor metrics."
+    ),
+    output_json: Path | None = typer.Option(
+        None, "--output", "-o", help="Optional path to export predictions JSON."
+    ),
+    update_docs: bool = typer.Option(
+        False,
+        "--update-docs",
+        help="Update prediction documentation in README.md and docs/predictions.md.",
+    ),
+) -> None:
+    """Predict Star Baker candidates, elimination risks, and series winner trajectories."""
+    code = run_predict_cli(
+        series=series,
+        top=top,
+        detail=detail,
+        output_json=output_json,
+        update_docs=update_docs,
+        console=console,
+    )
+    if code != 0:
+        raise typer.Exit(code=code)
 
 
 @app.command("dashboard")

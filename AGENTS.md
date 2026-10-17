@@ -33,6 +33,7 @@ Agents can invoke the following skills located in `.agents/skills/`:
 - `gbbo-scrape-wiki`: Scrapes Wikipedia for series summaries, bakers, challenge bakes, technical ranks, and eliminations.
 - `gbbo-dataset-builder`: Compiles raw data into validated tidy tables (`bakers.json`, `episodes.json`, `performances.json`) and CSVs.
 - `gbbo-gap-audit`: Audits dataset completeness, calculates missing cell rates, and exports gap reports.
+- `gbbo-predict`: Runs empirical predictive engine for Star Baker candidates, elimination risks, and series trajectories.
 - `cavecrew`, `caveman`, `caveman-*`: Ultra-compressed communication and review modes.
 - `ponytail`, `ponytail-*`: Minimalist, lazy senior dev and YAGNI discipline.
 - `karpathy-guidelines`: AI engineer principles and practices.

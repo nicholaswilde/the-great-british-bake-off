@@ -73,6 +73,17 @@ tasks:
     cmds:
       - uv run gbbo stats {{.CLI_ARGS}}
 
+  # Empirical Predictive Modeling Engine
+  predict:
+    desc: Run empirical predictive modeling engine for in-progress series
+    cmds:
+      - uv run gbbo predict {{.CLI_ARGS}}
+
+  predict:update:
+    desc: Run predictive engine and update documentation (docs/predictions.md and README.md)
+    cmds:
+      - uv run gbbo predict --update-docs {{.CLI_ARGS}}
+
   # Multi-Format Serialization & Exports
   export:sqlite:
     desc: Export processed tables into a unified SQLite database (data/processed/gbbo.db)

@@ -138,6 +138,30 @@ task check
 
 ---
 
+## :crystal_ball: Empirical Series Predictions
+
+<!-- GBBO_PREDICTIONS_START -->
+### :trophy: Live Empirical Predictions (Series 17 - After Episode 4)
+
+Probabilistic forecasts computed via multi-factor empirical modeling calibrated against 16 historical GBBO series. See [docs/predictions.md](docs/predictions.md) for full weekly trajectory ledgers and outcome accuracy tracking.
+
+| Rank | Baker | Age | Avg Tech % | Handshakes | Star Bakers | Next Star Baker | Next Elim Risk | Win Prob | Finale Prob |
+| :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | **Tom Whittaker** | 25 | 71.1% | 0 | 2 | **26.7%** | 4.4% | **30.6%** | **87.7%** |
+| 2 | **Mo Mahir** | 21 | 72.8% | 0 | 1 | **11.7%** | 8.4% | **15.7%** | **52.2%** |
+| 3 | **Clara Satchell-Silva** | 24 | 55.5% | 0 | 1 | **14.4%** | 7.1% | **14.1%** | **44.9%** |
+| 4 | **Moyin Odeniran** | 22 | 58.8% | 1 | 0 | **12.2%** | 8.5% | **11.0%** | **38.2%** |
+| 5 | **Gabe Capes** | 32 | 84.1% | 0 | 0 | **15.6%** | 8.5% | **10.5%** | **42.0%** |
+| 6 | **Elizabeth 'Connie' Lewis** | 63 | 63.6% | 0 | 0 | **8.7%** | 13.9% | **6.8%** | **29.0%** |
+| 7 | **Dr. Yannis Ali** | 28 | 28.6% | 0 | 0 | **5.9%** | 23.8% | **6.3%** | **20.8%** |
+| 8 | **Gary Harding** | 67 | 30.2% | 0 | 0 | **4.9%** | 25.4% | **5.1%** | **18.3%** |
+
+> [!NOTE]
+> Predictions update automatically after each broadcast episode via `task predict:update` or `uv run gbbo predict --update-docs`. See [docs/predictions.md](docs/predictions.md) for all historical episode snapshots.
+<!-- GBBO_PREDICTIONS_END -->
+
+---
+
 ## :clap: Acknowledgments & Credits
 
 Special credit and gratitude to:

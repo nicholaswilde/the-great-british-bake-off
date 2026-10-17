@@ -27,6 +27,7 @@ def test_cli_help():
     assert "export-sqlite" in result.stdout
     assert "export-arrow" in result.stdout
     assert "export-r" in result.stdout
+    assert "predict" in result.stdout
 
 
 def test_cli_stats():
