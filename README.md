@@ -1,94 +1,173 @@
-# The Great British Bake Off Dataset
+# :cake: The Great British Bake Off Dataset & AI Training Corpus :pie:
 
-A comprehensive tidy dataset and AI training corpus for the television series **The Great British Bake Off** (**GBBO**), broadcast as *The Great British Baking Show* in North America.
+[![Task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
+[![Python](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![uv](https://img.shields.io/badge/uv-Managed-purple?style=for-the-badge&logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge&logo=apache)](LICENSE)
 
-## Tech Stack
-* **Language:** Python 3.12+
-* **Dependency Management:** [`uv`](https://docs.astral.sh/uv/)
-* **Task Runner:** [`go-task`](https://taskfile.dev/) (`Taskfile.yml`)
-* **Libraries:** `beautifulsoup4`, `lxml`, `pandas`, `pydantic`, `requests`
-* **Data Formats:** JSON and CSV (in `data/processed/`)
+A comprehensive tidy dataset and AI training corpus for the television series **[The Great British Bake Off](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off)** (**GBBO**), broadcast as *The Great British Baking Show* in North America.
 
-## Project Structure
+> [!WARNING]
+> This project is currently in a `v0.X.X` development stage. Features and configurations are subject to change, and breaking changes may be introduced at any time.
+
+---
+
+## :sparkles: Features
+
+- **Tidy Relational Tables:** Master tables for `seasons`, `bakers`, `episodes`, and `performances` validated against Pydantic schemas.
+- **Rich Demographics & Metadata:** Enriched with headshot photos, age, hometown, occupation, challenge timings, and Hollywood Handshakes.
+- **Multi-Format Serialization:** Exportable to JSON, CSV, Apache Parquet, Apache Arrow IPC, unified SQLite (`gbbo.db`), and native R formats (`.rds`, `.rda`).
+- **AI Training Corpora:** Pre-formatted conversational instruction tuning datasets (Chat SFT JSONL), RAG knowledge corpus, and evaluation benchmark suite.
+- **Empirical Predictive Modeling:** Data-driven probabilistic forecasts for weekly Star Baker contenders, elimination risks, and overall series winners calibrated across 16 historical series.
+- **Interactive Web Dashboard:** Streamlit application for exploratory data analysis, contestant trajectory tracking, and challenge analytics.
+
+---
+
+## :hammer_and_wrench: Tech Stack
+
+- **Language:** Python 3.12+
+- **Dependency Management:** [`uv`](https://docs.astral.sh/uv/)
+- **Task Runner:** [`go-task`](https://taskfile.dev/) (`Taskfile.yml`)
+- **Libraries:** `beautifulsoup4`, `lxml`, `pandas`, `pydantic`, `pyarrow`, `requests`, `rich`, `streamlit`, `typer`
+- **Data Formats:** JSON, CSV, Parquet, Arrow IPC, SQLite, RDS/RDA
+
+---
+
+## :file_folder: Project Structure
+
 ```text
 the-great-british-bake-off/
 ├── .agents/
 │   ├── rules/          # Workspace rules (RTK, Serena, GBBO terminology, etc.)
-│   └── skills/         # Workspace skills (gbbo-scrape-wiki, gbbo-dataset-builder, etc.)
+│   └── skills/         # Workspace skills (gbbo-scrape-wiki, gbbo-dataset-builder, gbbo-predict, etc.)
 ├── data/
 │   ├── raw/            # Scraped Wikipedia series JSON files
-│   └── processed/      # Validated master datasets (bakers, episodes, performances, seasons)
+│   ├── processed/      # Validated master datasets (bakers, episodes, performances, seasons)
+│   └── predictions/    # Weekly series forecasting snapshots
 ├── src/
 │   └── gbbo_dataset/   # Core Python library and Typer CLI (gbbo)
 │       ├── models.py       # Pydantic schemas (Baker, Episode, Performance, Season)
 │       ├── scraper.py      # Wikipedia extraction and cleaner
 │       ├── builder.py      # Data aggregation, validation, and export
+│       ├── predictor.py    # Empirical predictive modeling engine
 │       ├── gap_auditor.py  # Completeness and null rate auditor
+│       ├── exports.py      # Multi-format serialization & AI corpora exports
 │       ├── importers/      # External dataset integrations (RayofData)
 │       └── cli.py          # Unified CLI dispatcher (gbbo)
+├── notebooks/          # Exploratory Jupyter starter notebooks
+├── tidytuesday/        # R4DS TidyTuesday data cleaning & exploration kit
 ├── scripts/            # Backward-compatible script shims
 ├── tests/              # Pytest test suite
+├── docs/               # Data dictionary, gap reports, and predictions ledger
 ├── AGENTS.md           # Agent operating instructions
 ├── pyproject.toml      # Managed by uv
 ├── Taskfile.yml        # Task automation definitions
 ├── _typos.toml         # Spellchecker configuration
+├── CITATION.cff        # Citation File Format specification
+├── .zenodo.json        # Zenodo archival DOI configuration
 └── README.md
 ```
 
-## Quick Start
+---
+
+## :rocket: Quick Start
 
 ### 1. Setup Environment
+
 ```bash
 task setup
 ```
 
 ### 2. Scrape Wikipedia Data
+
 ```bash
 # Scrape Series 1
 task scrape -- --series 1
+
 # Or directly via CLI
 uv run gbbo scrape --series 1
 
-# Or scrape multiple series
+# Scrape multiple series (1 to 17)
 uv run gbbo scrape --start 1 --end 17
 ```
 
 ### 3. Build & Validate Datasets
+
 ```bash
 task build
 # Or via CLI
 uv run gbbo build
 ```
 
-This compiles raw files in `data/raw/` into validated tidy tables in `data/processed/`:
+Compiles raw files in `data/raw/` into validated tidy tables in `data/processed/`:
 - `bakers.json` & `bakers.csv`
 - `episodes.json` & `episodes.csv`
 - `performances.json` & `performances.csv`
 
 ### 4. Enrich Dataset (Demographics, Handshakes, Streaming)
+
 ```bash
 task enrich:ray
 # Or via CLI
 uv run gbbo enrich
 ```
 
-### 5. Inspect Dataset Stats
+### 5. Run Empirical Predictive Engine
+
 ```bash
-task stats
+# Run real-time predictions for in-progress series (Series 17)
+task predict
+
+# Update predictions documentation and ledger snapshots
+task predict:update
 # Or via CLI
-uv run gbbo stats
+uv run gbbo predict --update-docs
 ```
 
-### 6. Run Quality Checks & Tests
+### 6. Inspect Dataset Stats & Gaps
+
+```bash
+# Row count statistics
+task stats
+
+# Completeness & gap audit
+task gaps
+task gaps:detail
+task gaps:report
+```
+
+### 7. Export Multi-Format Datasets & AI Corpora
+
+```bash
+# Export all formats (SQLite, Arrow IPC, Parquet, R, AI corpora)
+task export:all
+
+# Or individual formats:
+task export:sqlite
+task export:arrow
+task export:r
+task export:ai
+```
+
+### 8. Interactive Streamlit Dashboard
+
+```bash
+task dashboard
+```
+
+### 9. Run Quality Checks & Tests
+
 ```bash
 # Run pytest test suite
 task test
 
-# Run complete quality suite (formatting, linting, spellcheck, tests)
+# Run complete verification suite (formatting, linting, spellcheck, tests)
 task check
 ```
 
-## Data Schemas
+---
+
+## :card_index_dividers: Data Schemas
 
 ### Season
 - `series_number` (int): Series number (1–17+)
@@ -136,6 +215,13 @@ task check
 - `at_risk` (bool): Whether baker was in the bottom / at risk of elimination
 - `absent` (bool): Whether baker was absent from episode due to illness
 
+> [!NOTE]
+> **Comprehensive Documentation**: See the [Data Dictionary & Relational Schema](docs/data_dictionary.md) for full column specifications, data types, nullability, primary/foreign keys, and Entity-Relationship diagrams across all 4 tables.
+>
+> **Exploratory Notebook**: Check out [`notebooks/gbbo_exploration.ipynb`](notebooks/gbbo_exploration.ipynb) for a starter Jupyter notebook covering statistical analysis, Hollywood Handshake frequencies, technical rank correlations, and SQL querying.
+>
+> **TidyTuesday Community Kit**: See [`tidytuesday/`](tidytuesday/) for R data cleaning scripts, exploratory visualizations, and submission templates.
+
 ---
 
 ## :crystal_ball: Empirical Series Predictions
@@ -170,10 +256,36 @@ Special credit and gratitude to:
 
 ---
 
+## :handshake: Contributing
+
+Contributions, bug reports, and suggestions are welcome! Please open an issue or pull request.
+
+---
+
+## :bookmark: Citation
+
+If you use this dataset, companion R package, or AI training corpus in your research or coursework, please cite it as:
+
+```bibtex
+@misc{wilde_gbbo_2026,
+  author       = {Nicholas Wilde},
+  title        = {The Great British Bake Off Dataset & AI Training Corpus},
+  year         = {2026},
+  version      = {0.1.0},
+  url          = {https://github.com/nicholaswilde/the-great-british-bake-off}
+}
+```
+
+Or see [`CITATION.cff`](CITATION.cff) and [`.zenodo.json`](.zenodo.json).
+
+---
+
 ## :balance_scale: License
 
-[Apache License 2.0](LICENSE)
+​[Apache License 2.0](LICENSE)
 
 ## :writing_hand: Author
 
-This project was started in 2026 by [Nicholas Wilde](https://github.com/nicholaswilde/).
+​This project was started in 2026 by [Nicholas Wilde][2].
+
+[2]: <https://github.com/nicholaswilde/>

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset, companion R package, or AI training corpus in your research or coursework, please cite it as below."
+title: "The Great British Bake Off Dataset & AI Training Corpus"
+abstract: "A comprehensive tidy dataset and AI training corpus for the television series The Great British Bake Off (GBBO), covering 17 series across relational tables, SQLite database, Apache Arrow, native R formats, and instruction-tuning corpora."
+type: dataset
+version: 0.1.0
+date-released: "2026-10-17"
+license: Apache-2.0
+repository-code: "https://github.com/nicholaswilde/the-great-british-bake-off"
+url: "https://github.com/nicholaswilde/the-great-british-bake-off"
+authors:
+  - family-names: "Wilde"
+    given-names: "Nicholas"
+    email: "nicholas@nicholaswilde.io"
+keywords:
+  - "the-great-british-bake-off"
+  - "great-british-baking-show"
+  - "gbbo"
+  - "reality-tv"
+  - "television"
+  - "baking"
+  - "dataset"
+  - "tidy-data"
+  - "tidytuesday"
+  - "data-science"
+  - "r-package"
+  - "parquet"
+  - "sqlite"
+  - "arrow"
+  - "ai-training"
+  - "rag"
+  - "llm"
