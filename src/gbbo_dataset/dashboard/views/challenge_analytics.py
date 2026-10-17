@@ -6,6 +6,8 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+from gbbo_dataset.nlp_flavors import calculate_flavor_statistics
+
 
 def render_challenge_analytics(data: dict[str, pd.DataFrame]) -> None:
     """Render challenge analytics and theme explorer."""
@@ -80,7 +82,98 @@ def render_challenge_analytics(data: dict[str, pd.DataFrame]) -> None:
 
     st.divider()
 
-    # 2. Recipe & Flavor Search Engine
+    # 2. NLP Flavor Profiles & Style Classifications
+    st.subheader("🍓 NLP Flavor Profiles & Bake Styles")
+    st.caption(
+        "Structured NLP extraction across 1,200+ signature and showstopper dish descriptions, "
+        "identifying flavor taxonomy, bake styles, and outcome correlations."
+    )
+
+    if not performances.empty:
+        stats = calculate_flavor_statistics(performances)
+
+        col_f1, col_f2 = st.columns([1, 1])
+        with col_f1:
+            st.markdown("**Top Flavor Families**")
+            flavors_df = pd.DataFrame(
+                list(stats["flavor_counts"].items()),
+                columns=["Flavor Family", "Bake Count"],
+            ).head(10)
+            if not flavors_df.empty:
+                flavor_chart = (
+                    alt.Chart(flavors_df)
+                    .mark_bar(cornerRadius=6, color="#a6e3a1")
+                    .encode(
+                        x=alt.X("Bake Count:Q"),
+                        y=alt.Y("Flavor Family:N", sort="-x"),
+                        tooltip=["Flavor Family", "Bake Count"],
+                    )
+                    .properties(height=280)
+                )
+                st.altair_chart(flavor_chart, use_container_width=True)
+
+        with col_f2:
+            st.markdown("**Top Bake Styles & Techniques**")
+            styles_df = pd.DataFrame(
+                list(stats["style_counts"].items()),
+                columns=["Bake Category", "Bake Count"],
+            ).head(8)
+            if not styles_df.empty:
+                style_chart = (
+                    alt.Chart(styles_df)
+                    .mark_bar(cornerRadius=6, color="#cba6f7")
+                    .encode(
+                        x=alt.X("Bake Count:Q"),
+                        y=alt.Y("Bake Category:N", sort="-x"),
+                        tooltip=["Bake Category", "Bake Count"],
+                    )
+                    .properties(height=280)
+                )
+                st.altair_chart(style_chart, use_container_width=True)
+
+        # Flavor-outcome rates
+        col_r1, col_r2 = st.columns([1, 1])
+        with col_r1:
+            st.markdown("**🤝 Highest Hollywood Handshake Rates (%)**")
+            hs_df = pd.DataFrame(
+                list(stats["handshake_rates"].items()),
+                columns=["Flavor Family", "Handshake Rate (%)"],
+            ).head(8)
+            if not hs_df.empty:
+                hs_chart = (
+                    alt.Chart(hs_df)
+                    .mark_bar(cornerRadius=6, color="#f9e2af")
+                    .encode(
+                        x=alt.X("Handshake Rate (%):Q"),
+                        y=alt.Y("Flavor Family:N", sort="-x"),
+                        tooltip=["Flavor Family", "Handshake Rate (%)"],
+                    )
+                    .properties(height=260)
+                )
+                st.altair_chart(hs_chart, use_container_width=True)
+
+        with col_r2:
+            st.markdown("**⭐ Highest Star Baker Conversion Rates (%)**")
+            sb_df = pd.DataFrame(
+                list(stats["star_baker_rates"].items()),
+                columns=["Flavor Family", "Star Baker Rate (%)"],
+            ).head(8)
+            if not sb_df.empty:
+                sb_chart = (
+                    alt.Chart(sb_df)
+                    .mark_bar(cornerRadius=6, color="#f38ba8")
+                    .encode(
+                        x=alt.X("Star Baker Rate (%):Q"),
+                        y=alt.Y("Flavor Family:N", sort="-x"),
+                        tooltip=["Flavor Family", "Star Baker Rate (%)"],
+                    )
+                    .properties(height=260)
+                )
+                st.altair_chart(sb_chart, use_container_width=True)
+
+    st.divider()
+
+    # 3. Recipe & Flavor Search Engine
     st.subheader("🔍 Flavor & Recipe Search Engine")
     st.caption(
         "Search across 1,200+ signature and showstopper dishes for specific flavors, ingredients, or techniques."

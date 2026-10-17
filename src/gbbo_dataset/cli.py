@@ -29,6 +29,7 @@ from gbbo_dataset.importers.rayofdata import (
     run_enrichment,
 )
 from gbbo_dataset.importers.reddit import scrape_all_reddit, scrape_reddit_series
+from gbbo_dataset.nlp_flavors import run_nlp_flavor_pipeline
 from gbbo_dataset.predictor import run_predict_cli
 from gbbo_dataset.scraper import scrape_series
 from gbbo_dataset.validator import DatasetValidator
@@ -761,6 +762,62 @@ def package_cmd(
     console.print(
         f"[bold green]✓ Successfully packaged assets in {output_dir}[/bold green]"
     )
+
+
+@app.command("extract-flavors")
+def extract_flavors_cmd(
+    processed_dir: Path = typer.Option(
+        Path("data/processed"),
+        "--processed-dir",
+        help="Directory with processed tables",
+    ),
+    output_file: str = typer.Option(
+        "bakes_nlp.json",
+        "--output",
+        "-o",
+        help="Target output filename for NLP enriched bakes",
+    ),
+) -> None:
+    """Extract flavor taxonomy, styles, and outcome statistics from 1,200+ bakes."""
+    console.print(
+        "[bold blue]Extracting NLP flavor profiles and bake styles...[/bold blue]"
+    )
+    try:
+        res = run_nlp_flavor_pipeline(
+            processed_dir=processed_dir, output_file=output_file
+        )
+        stats = res["stats"]
+
+        table_flavors = Table(title="Top 10 Flavor Families across GBBO")
+        table_flavors.add_column("Flavor Family", style="bold cyan")
+        table_flavors.add_column("Bake Count", justify="right", style="magenta")
+        table_flavors.add_column("Handshake Rate", justify="right", style="yellow")
+        table_flavors.add_column("Star Baker Rate", justify="right", style="green")
+
+        hs_rates = stats.get("handshake_rates", {})
+        star_rates = stats.get("star_baker_rates", {})
+
+        for flavor, count in list(stats["flavor_counts"].items())[:10]:
+            hs_rate = f"{hs_rates.get(flavor, 0.0):.1f}%"
+            sb_rate = f"{star_rates.get(flavor, 0.0):.1f}%"
+            table_flavors.add_row(flavor, str(count), hs_rate, sb_rate)
+
+        console.print(table_flavors)
+
+        table_styles = Table(title="Top Bake Categories & Techniques")
+        table_styles.add_column("Style Category", style="bold cyan")
+        table_styles.add_column("Bake Count", justify="right", style="magenta")
+
+        for style, count in list(stats["style_counts"].items())[:8]:
+            table_styles.add_row(style, str(count))
+
+        console.print(table_styles)
+        console.print(
+            f"[bold green]✓ NLP Extraction complete: {res['bakes_tagged']} bakes tagged into {processed_dir / output_file}[/bold green]"
+        )
+    except Exception as e:
+        console.print(f"[red]✗ NLP flavor extraction failed: {e}[/red]")
+        raise typer.Exit(code=1) from e
 
 
 if __name__ == "__main__":

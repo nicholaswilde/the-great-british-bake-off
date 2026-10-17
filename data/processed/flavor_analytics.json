@@ -1,0 +1,117 @@
+{
+  "flavor_counts": {
+    "chocolate": 266,
+    "citrus": 238,
+    "nutty": 220,
+    "berry": 207,
+    "orchard_fruit": 196,
+    "spice": 170,
+    "savory": 159,
+    "tropical": 122,
+    "caramel": 114,
+    "coffee_tea": 60,
+    "vanilla_dairy": 57,
+    "floral": 53,
+    "alcohol": 48
+  },
+  "style_counts": {
+    "cake_sponge": 407,
+    "bread": 263,
+    "tart_pie": 210,
+    "dessert_meringue": 208,
+    "biscuit_cookie": 155,
+    "pastry": 54
+  },
+  "handshake_rates": {
+    "spice": 5.3,
+    "citrus": 5.0,
+    "tropical": 4.9,
+    "caramel": 4.4,
+    "alcohol": 4.2,
+    "savory": 3.8,
+    "chocolate": 3.0,
+    "berry": 2.9,
+    "nutty": 2.7,
+    "orchard_fruit": 2.6,
+    "floral": 1.9,
+    "vanilla_dairy": 1.8,
+    "coffee_tea": 1.7
+  },
+  "star_baker_rates": {
+    "vanilla_dairy": 17.5,
+    "nutty": 15.9,
+    "floral": 15.1,
+    "coffee_tea": 15.0,
+    "caramel": 14.9,
+    "berry": 14.0,
+    "tropical": 13.9,
+    "savory": 13.8,
+    "citrus": 13.0,
+    "chocolate": 12.8,
+    "orchard_fruit": 11.7,
+    "spice": 10.6,
+    "alcohol": 8.3
+  },
+  "co_occurring_pairs": [
+    {
+      "pair": "chocolate + citrus",
+      "count": 84
+    },
+    {
+      "pair": "chocolate + nutty",
+      "count": 84
+    },
+    {
+      "pair": "berry + chocolate",
+      "count": 80
+    },
+    {
+      "pair": "berry + citrus",
+      "count": 79
+    },
+    {
+      "pair": "nutty + orchard_fruit",
+      "count": 71
+    },
+    {
+      "pair": "berry + nutty",
+      "count": 60
+    },
+    {
+      "pair": "citrus + spice",
+      "count": 56
+    },
+    {
+      "pair": "chocolate + orchard_fruit",
+      "count": 54
+    },
+    {
+      "pair": "citrus + nutty",
+      "count": 51
+    },
+    {
+      "pair": "chocolate + spice",
+      "count": 46
+    },
+    {
+      "pair": "nutty + spice",
+      "count": 42
+    },
+    {
+      "pair": "caramel + chocolate",
+      "count": 42
+    },
+    {
+      "pair": "orchard_fruit + spice",
+      "count": 41
+    },
+    {
+      "pair": "berry + orchard_fruit",
+      "count": 39
+    },
+    {
+      "pair": "caramel + nutty",
+      "count": 38
+    }
+  ]
+}

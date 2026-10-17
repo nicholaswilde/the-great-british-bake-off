@@ -126,7 +126,7 @@ Compiles raw files in `data/raw/` into validated tidy tables in `data/processed/
 - `episodes.json` & `episodes.csv`
 - `performances.json` & `performances.csv`
 
-### 4. Enrich Dataset (Demographics, Handshakes, Streaming)
+### 5. Enrich Dataset (Demographics, Handshakes, Streaming)
 
 ```bash
 task enrich:ray
@@ -134,7 +134,17 @@ task enrich:ray
 uv run gbbo enrich
 ```
 
-### 5. Run Empirical Predictive Engine
+### 6. NLP Flavor Profiles & Style Extraction
+
+```bash
+task nlp:flavors
+# Or via CLI
+uv run gbbo extract-flavors
+```
+
+Tags 1,200+ signature and showstopper dish descriptions across 13 flavor families and 6 bake styles, exporting `data/processed/bakes_nlp.json` and `flavor_analytics.json`.
+
+### 7. Run Empirical Predictive Engine
 
 ```bash
 # Run real-time predictions for in-progress series (Series 17)
@@ -146,7 +156,7 @@ task predict:update
 uv run gbbo predict --update-docs
 ```
 
-### 6. Inspect Dataset Stats & Gaps
+### 8. Inspect Dataset Stats & Gaps
 
 ```bash
 # Row count statistics
@@ -158,7 +168,7 @@ task gaps:detail
 task gaps:report
 ```
 
-### 7. Export Multi-Format Datasets & AI Corpora
+### 9. Export Multi-Format Datasets & AI Corpora
 
 ```bash
 # Export all formats (SQLite, Arrow IPC, Parquet, R, AI corpora, GeoJSON)
@@ -170,10 +180,9 @@ task export:arrow
 task export:r
 task export:ai
 task export:geojson
-
 ```
 
-### 8. Interactive Streamlit Dashboard
+### 10. Interactive Streamlit Dashboard
 
 Launch the interactive Streamlit dashboard to explore series summaries, baker profiles, challenge analytics, Hollywood Handshake tracking, and real-time predictions & what-if forecasting:
 
@@ -181,8 +190,7 @@ Launch the interactive Streamlit dashboard to explore series summaries, baker pr
 task dashboard
 ```
 
-
-### 9. Run Quality Checks & Tests
+### 11. Run Quality Checks & Tests
 
 ```bash
 # Run pytest test suite

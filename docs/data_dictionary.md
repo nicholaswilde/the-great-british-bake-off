@@ -292,3 +292,7 @@ Beyond Wikipedia, multi-source ingestion pipelines extract community lore, techn
 
 ### Reddit Discussion Tables (`data/processed/reddit_discussions.json`)
 * **`reddit_discussions`**: Episode discussion threads from `r/GreatBritishBakeOff` and `r/bakeoff` (`thread_id`, `subreddit`, `series_number`, `episode_number`, `title`, `author`, `score`, `upvote_ratio`, `num_comments`, `permalink`, `top_comments`, `sentiment_label`).
+
+### NLP Flavor Profile & Bake Style Tables (`data/processed/bakes_nlp.json`, `flavor_analytics.json`)
+* **`bakes_nlp`**: 1,203 performances enriched with extracted flavor taxonomy and bake styles (`performance_id`, `signature_flavors`, `signature_styles`, `showstopper_flavors`, `showstopper_styles`, `all_flavors`, `all_styles`).
+* **`flavor_analytics`**: Aggregated empirical metrics across 13 flavor families: bake counts, Hollywood Handshake conversion rates, Star Baker win rates, style breakdowns, and top flavor co-occurrence pairs.
