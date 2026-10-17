@@ -1,0 +1,24 @@
+# Docker Compose file for The Great British Bake Off Analytics Dashboard
+#
+# This file provides a standard configuration for deploying the GBBO
+# interactive Streamlit dashboard.
+
+services:
+  the-great-british-bake-off:
+    image: ghcr.io/nicholaswilde/the-great-british-bake-off:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: the-great-british-bake-off
+    ports:
+      - "8501:8501"
+    environment:
+      - TZ=UTC
+      - STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+      - STREAMLIT_SERVER_HEADLESS=true
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

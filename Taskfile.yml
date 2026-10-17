@@ -184,3 +184,30 @@ tasks:
       - task: format:check
       - task: lint
       - task: test
+
+  # Interactive Web Dashboard & Containerization
+  dashboard:
+    desc: Launch interactive Streamlit web dashboard
+    cmds:
+      - uv run gbbo dashboard {{.CLI_ARGS}}
+
+  docker:build:
+    desc: Build the GBBO dashboard Docker container image
+    cmds:
+      - docker build -t the-great-british-bake-off:latest .
+
+  docker:run:
+    desc: Run the GBBO dashboard Docker container
+    cmds:
+      - docker run --rm -p 8501:8501 the-great-british-bake-off:latest
+
+  docker:up:
+    desc: Start the GBBO dashboard service using Docker Compose
+    cmds:
+      - docker compose up -d
+
+  docker:down:
+    desc: Stop the GBBO dashboard service using Docker Compose
+    cmds:
+      - docker compose down
+

@@ -413,5 +413,51 @@ def publish_hf_cmd(
         raise typer.Exit(code=1) from e
 
 
+@app.command("dashboard")
+def dashboard(
+    port: int = typer.Option(8501, "--port", "-p", help="Port to run Streamlit on"),
+    host: str = typer.Option("0.0.0.0", "--host", "-h", help="Host interface to bind"),
+    browser: bool = typer.Option(
+        True, "--browser/--no-browser", help="Open browser on launch"
+    ),
+) -> None:
+    """Launch interactive Streamlit web dashboard for GBBO series, bakers, and challenges."""
+    import subprocess
+    import sys
+
+    try:
+        import streamlit  # noqa: F401
+    except ImportError:
+        console.print(
+            "[bold red]Streamlit is not installed.[/bold red]\n"
+            "Please install dashboard dependencies via:\n"
+            "  [cyan]uv add streamlit altair[/cyan]"
+        )
+        raise typer.Exit(code=1)
+
+    app_path = Path(__file__).resolve().parent / "dashboard" / "app.py"
+    cmd = [
+        sys.executable,
+        "-m",
+        "streamlit",
+        "run",
+        str(app_path),
+        "--server.port",
+        str(port),
+        "--server.address",
+        host,
+    ]
+    if not browser:
+        cmd.extend(["--server.headless", "true"])
+
+    console.print(
+        f"[bold green]Starting The Great British Bake Off Dashboard on http://{host}:{port}...[/bold green]"
+    )
+    try:
+        subprocess.run(cmd, check=True)
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Dashboard stopped.[/yellow]")
+
+
 if __name__ == "__main__":
     app()
