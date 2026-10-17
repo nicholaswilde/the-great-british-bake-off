@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s09_imelda",
+    "series_number": 9,
+    "name": "Imelda McCarron",
+    "age": 33,
+    "occupation": "Countryside recreation officer",
+    "hometown": "County Tyrone, Northern Ireland",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s09_luke",
+    "series_number": 9,
+    "name": "Luke Thompson",
+    "age": 30,
+    "occupation": "Civil servant/house and techno DJ",
+    "hometown": "Sheffield, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s09_antony",
+    "series_number": 9,
+    "name": "Antony Amourdoux",
+    "age": 30,
+    "occupation": "Banker",
+    "hometown": "London, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s09_karen",
+    "series_number": 9,
+    "name": "Karen Wright",
+    "age": 60,
+    "occupation": "In-store sampling assistant",
+    "hometown": "Wakefield, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th (tie)"
+  },
+  {
+    "baker_id": "s09_terry",
+    "series_number": 9,
+    "name": "Terry Hartill",
+    "age": 56,
+    "occupation": "Retired air steward",
+    "hometown": "West Midlands, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th (tie)"
+  },
+  {
+    "baker_id": "s09_dan",
+    "series_number": 9,
+    "name": "Dan Beasley-Harling",
+    "age": 36,
+    "occupation": "Stay at home parent",
+    "hometown": "London, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s09_jon",
+    "series_number": 9,
+    "name": "Jon Jenkins",
+    "age": 47,
+    "occupation": "Blood courier",
+    "hometown": "Newport, Wales",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s09_manon",
+    "series_number": 9,
+    "name": "Manon Lagrève",
+    "age": 26,
+    "occupation": "Software project manager",
+    "hometown": "London, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s09_briony",
+    "series_number": 9,
+    "name": "Briony Williams",
+    "age": 33,
+    "occupation": "Stay at home parent",
+    "hometown": "Bristol, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s09_kimjoy",
+    "series_number": 9,
+    "name": "Kim-Joy Hewlett",
+    "age": 27,
+    "occupation": "Mental health specialist",
+    "hometown": "Leeds, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s09_ruby",
+    "series_number": 9,
+    "name": "Ruby Bhogal",
+    "age": 29,
+    "occupation": "Project manager",
+    "hometown": "London, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s09_rahul",
+    "series_number": 9,
+    "name": "Rahul Mandal",
+    "age": 30,
+    "occupation": "Research scientist",
+    "hometown": "Rotherham, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

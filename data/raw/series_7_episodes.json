@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s07e01",
+    "series_number": 7,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2016-08-24"
+  },
+  {
+    "episode_id": "s07e02",
+    "series_number": 7,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2016-08-31"
+  },
+  {
+    "episode_id": "s07e03",
+    "series_number": 7,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2016-09-07"
+  },
+  {
+    "episode_id": "s07e04",
+    "series_number": 7,
+    "episode_number": 4,
+    "theme": "Batter",
+    "air_date": "2016-09-14"
+  },
+  {
+    "episode_id": "s07e05",
+    "series_number": 7,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2016-09-21"
+  },
+  {
+    "episode_id": "s07e06",
+    "series_number": 7,
+    "episode_number": 6,
+    "theme": "Botanical",
+    "air_date": "2016-09-28"
+  },
+  {
+    "episode_id": "s07e07",
+    "series_number": 7,
+    "episode_number": 7,
+    "theme": "Desserts",
+    "air_date": "2016-10-05"
+  },
+  {
+    "episode_id": "s07e08",
+    "series_number": 7,
+    "episode_number": 8,
+    "theme": "Tudor (Quarterfinals)",
+    "air_date": "2016-10-12"
+  },
+  {
+    "episode_id": "s07e09",
+    "series_number": 7,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2016-10-19"
+  },
+  {
+    "episode_id": "s07e10",
+    "series_number": 7,
+    "episode_number": 10,
+    "theme": "Royal Picnic (Final)",
+    "air_date": "2016-10-26"
+  }
+]

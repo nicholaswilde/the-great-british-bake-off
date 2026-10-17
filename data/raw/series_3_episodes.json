@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s03e01",
+    "series_number": 3,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2012-08-14"
+  },
+  {
+    "episode_id": "s03e02",
+    "series_number": 3,
+    "episode_number": 2,
+    "theme": "Bread",
+    "air_date": "2012-08-21"
+  },
+  {
+    "episode_id": "s03e03",
+    "series_number": 3,
+    "episode_number": 3,
+    "theme": "Tarts",
+    "air_date": "2012-08-28"
+  },
+  {
+    "episode_id": "s03e04",
+    "series_number": 3,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2012-09-04"
+  },
+  {
+    "episode_id": "s03e05",
+    "series_number": 3,
+    "episode_number": 5,
+    "theme": "Pies",
+    "air_date": "2012-09-11"
+  },
+  {
+    "episode_id": "s03e06",
+    "series_number": 3,
+    "episode_number": 6,
+    "theme": "Puddings",
+    "air_date": "2012-09-18"
+  },
+  {
+    "episode_id": "s03e07",
+    "series_number": 3,
+    "episode_number": 7,
+    "theme": "Sweet Dough",
+    "air_date": "2012-09-25"
+  },
+  {
+    "episode_id": "s03e08",
+    "series_number": 3,
+    "episode_number": 8,
+    "theme": "Biscuits",
+    "air_date": "2012-10-02"
+  },
+  {
+    "episode_id": "s03e09",
+    "series_number": 3,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinal)",
+    "air_date": "2012-10-09"
+  },
+  {
+    "episode_id": "s03e10",
+    "series_number": 3,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2012-10-16"
+  }
+]

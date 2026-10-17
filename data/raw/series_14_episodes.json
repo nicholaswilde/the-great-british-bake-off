@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s14e01",
+    "series_number": 14,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2023-09-26"
+  },
+  {
+    "episode_id": "s14e02",
+    "series_number": 14,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2023-10-03"
+  },
+  {
+    "episode_id": "s14e03",
+    "series_number": 14,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2023-10-10"
+  },
+  {
+    "episode_id": "s14e04",
+    "series_number": 14,
+    "episode_number": 4,
+    "theme": "Chocolate",
+    "air_date": "2023-10-18"
+  },
+  {
+    "episode_id": "s14e05",
+    "series_number": 14,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2023-10-24"
+  },
+  {
+    "episode_id": "s14e06",
+    "series_number": 14,
+    "episode_number": 6,
+    "theme": "Botanical",
+    "air_date": "2023-10-31"
+  },
+  {
+    "episode_id": "s14e07",
+    "series_number": 14,
+    "episode_number": 7,
+    "theme": "Desserts",
+    "air_date": "2023-11-07"
+  },
+  {
+    "episode_id": "s14e08",
+    "series_number": 14,
+    "episode_number": 8,
+    "theme": "Party (Quarterfinals)",
+    "air_date": "2023-11-14"
+  },
+  {
+    "episode_id": "s14e09",
+    "series_number": 14,
+    "episode_number": 9,
+    "theme": "Patisserie (Semifinal)",
+    "air_date": "2023-11-21"
+  },
+  {
+    "episode_id": "s14e10",
+    "series_number": 14,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2023-11-28"
+  }
+]

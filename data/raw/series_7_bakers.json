@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s07_lee",
+    "series_number": 7,
+    "name": "Lee Banfield",
+    "age": 67,
+    "occupation": "Pastor",
+    "hometown": "Bolton, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s07_louise",
+    "series_number": 7,
+    "name": "Louise Williams",
+    "age": 46,
+    "occupation": "Hairdresser",
+    "hometown": "Cardiff, Wales",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s07_michael",
+    "series_number": 7,
+    "name": "Michael Georgiou",
+    "age": 20,
+    "occupation": "Student",
+    "hometown": "Durham, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s07_kate",
+    "series_number": 7,
+    "name": "Kate Barmby",
+    "age": 37,
+    "occupation": "Nurse",
+    "hometown": "Brooke, England",
+    "overall_placement": 9,
+    "raw_placement_text": "9th"
+  },
+  {
+    "baker_id": "s07_valerie",
+    "series_number": 7,
+    "name": "Valerie \"Val\" Stones",
+    "age": 66,
+    "occupation": "Semi-retired, Substitute teacher",
+    "hometown": "Yeovil, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s07_rav",
+    "series_number": 7,
+    "name": "Rav Bansal",
+    "age": 28,
+    "occupation": "Student support",
+    "hometown": "Erith, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s07_tom",
+    "series_number": 7,
+    "name": "Tom Gilliford",
+    "age": 26,
+    "occupation": "Project engagement manager",
+    "hometown": "Rochdale, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s07_benjamina",
+    "series_number": 7,
+    "name": "Benjamina Ebuehi",
+    "age": 23,
+    "occupation": "Teaching assistant",
+    "hometown": "South London, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s07_selasi",
+    "series_number": 7,
+    "name": "Selasi Gbormittah",
+    "age": 30,
+    "occupation": "Client service associate",
+    "hometown": "London, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s07_andrew",
+    "series_number": 7,
+    "name": "Andrew Smyth",
+    "age": 25,
+    "occupation": "Aerospace engineer",
+    "hometown": "Holywood, Northern Ireland",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s07_jane",
+    "series_number": 7,
+    "name": "Jane Beedle",
+    "age": 61,
+    "occupation": "Garden designer",
+    "hometown": "Beckenham, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s07_candice",
+    "series_number": 7,
+    "name": "Candice Brown",
+    "age": 31,
+    "occupation": "PE teacher",
+    "hometown": "Barton-Le-Clay, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

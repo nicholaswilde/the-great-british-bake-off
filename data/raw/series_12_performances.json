@@ -1,0 +1,752 @@
+[
+  {
+    "performance_id": "s12e01_s12_amanda",
+    "baker_id": "s12_amanda",
+    "episode_id": "s12e01",
+    "signature_dish": "'Cherry Soldier' Mini Rolls",
+    "technical_rank": 12,
+    "showstopper_dish": "Elderflower & Lemon Surf Explosion",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e01",
+    "signature_dish": "Strawberries & Cream Mini Rolls",
+    "technical_rank": 11,
+    "showstopper_dish": "'Where it all Began'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e01",
+    "signature_dish": "'Chai and Chai Again' Mini Rolls",
+    "technical_rank": 8,
+    "showstopper_dish": "'Bouq-cake' of Flowers",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_freya",
+    "baker_id": "s12_freya",
+    "episode_id": "s12e01",
+    "signature_dish": "Vegan Lemon & Raspberry Mini Rolls",
+    "technical_rank": 2,
+    "showstopper_dish": "'Flower Potty'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_george",
+    "baker_id": "s12_george",
+    "episode_id": "s12e01",
+    "signature_dish": "Chocolate & Hazelnut Mini Rolls",
+    "technical_rank": 3,
+    "showstopper_dish": "Greek Table",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e01",
+    "signature_dish": "Easter Mini Rolls",
+    "technical_rank": 10,
+    "showstopper_dish": "'Jack and The Beanstalk'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_jairzeno",
+    "baker_id": "s12_jairzeno",
+    "episode_id": "s12e01",
+    "signature_dish": "Lime & Passion Fruit Mini Rolls",
+    "technical_rank": 9,
+    "showstopper_dish": "'Kick the Can' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e01",
+    "signature_dish": "Schwarzwald Mini Rolls",
+    "technical_rank": 6,
+    "showstopper_dish": "'Night Time Reading'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_lizzie",
+    "baker_id": "s12_lizzie",
+    "episode_id": "s12e01",
+    "signature_dish": "Zoo Mini Rolls",
+    "technical_rank": 4,
+    "showstopper_dish": "Nana's Peaches & Cream",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_maggie",
+    "baker_id": "s12_maggie",
+    "episode_id": "s12e01",
+    "signature_dish": "'Knit & Natter' Mini Rolls",
+    "technical_rank": 1,
+    "showstopper_dish": "Ice-cream Cornet",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_rochica",
+    "baker_id": "s12_rochica",
+    "episode_id": "s12e01",
+    "signature_dish": "Colin Rolls",
+    "technical_rank": 7,
+    "showstopper_dish": "Apple Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e01_s12_tom",
+    "baker_id": "s12_tom",
+    "episode_id": "s12e01",
+    "signature_dish": "Black Forest Mini Rolls",
+    "technical_rank": 5,
+    "showstopper_dish": "Classically Spectacular Showstopper",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_amanda",
+    "baker_id": "s12_amanda",
+    "episode_id": "s12e02",
+    "signature_dish": "'Open Sesame' Brandy Snaps",
+    "technical_rank": 4,
+    "showstopper_dish": "Carousel Rocking Horse",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e02",
+    "signature_dish": "'Espresso Martini' Brandy Snaps",
+    "technical_rank": 7,
+    "showstopper_dish": "Snooker Table",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e02",
+    "signature_dish": "'Apple of My P-eye' Brandy Snaps",
+    "technical_rank": 10,
+    "showstopper_dish": "Vanity Playset",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_freya",
+    "baker_id": "s12_freya",
+    "episode_id": "s12e02",
+    "signature_dish": "'Brandy Snapuccinos'",
+    "technical_rank": 3,
+    "showstopper_dish": "'Winnie'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_george",
+    "baker_id": "s12_george",
+    "episode_id": "s12e02",
+    "signature_dish": "Cypriot Brandy Snaps",
+    "technical_rank": 8,
+    "showstopper_dish": "'Paul & Prue Airlines'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e02",
+    "signature_dish": "Gianduja Snaps",
+    "technical_rank": 2,
+    "showstopper_dish": "Reversi Board Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_jairzeno",
+    "baker_id": "s12_jairzeno",
+    "episode_id": "s12e02",
+    "signature_dish": "Chocolate, Passion Fruit & Pineapple Brandy Snaps",
+    "technical_rank": 9,
+    "showstopper_dish": "Tall Ship",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e02",
+    "signature_dish": "'A Cup of Chai' Brandy Snaps",
+    "technical_rank": 1,
+    "showstopper_dish": "'Grandpa's Windmill'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_lizzie",
+    "baker_id": "s12_lizzie",
+    "episode_id": "s12e02",
+    "signature_dish": "Fast-Food Apple Pie Brandy Snaps",
+    "technical_rank": 6,
+    "showstopper_dish": "'Paint a Truck'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_maggie",
+    "baker_id": "s12_maggie",
+    "episode_id": "s12e02",
+    "signature_dish": "Blackcurrant Brandy Snaps",
+    "technical_rank": 5,
+    "showstopper_dish": "Beach Playset",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e02_s12_rochica",
+    "baker_id": "s12_rochica",
+    "episode_id": "s12e02",
+    "signature_dish": "Coffee Brandy Snaps",
+    "technical_rank": 11,
+    "showstopper_dish": "Gingerbread Pinball Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_amanda",
+    "baker_id": "s12_amanda",
+    "episode_id": "s12e03",
+    "signature_dish": "'Chasing Grainbows' Focaccia",
+    "technical_rank": 3,
+    "showstopper_dish": "'I Just FISH We Had More Time'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e03",
+    "signature_dish": "Spanish Cheesy Meaty Focaccia",
+    "technical_rank": 6,
+    "showstopper_dish": "Honey Milk Bread Picnic Basket",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e03",
+    "signature_dish": "Feta & Grape Focaccia with Fennel & Walnut",
+    "technical_rank": 9,
+    "showstopper_dish": "'Bready' for Sunday Roast",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_freya",
+    "baker_id": "s12_freya",
+    "episode_id": "s12e03",
+    "signature_dish": "Mexican Fajita Focaccia",
+    "technical_rank": 4,
+    "showstopper_dish": "'Under the Sea' Milk Bread Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_george",
+    "baker_id": "s12_george",
+    "episode_id": "s12e03",
+    "signature_dish": "Greek Inspired Focaccia",
+    "technical_rank": 7,
+    "showstopper_dish": "'The Very Hungry Koala'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e03",
+    "signature_dish": "'Breakfast in Gaeta' Focaccia",
+    "technical_rank": 1,
+    "showstopper_dish": "'Your Five-a-Day'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e03",
+    "signature_dish": "'Kipper-caccia' Focaccia",
+    "technical_rank": 5,
+    "showstopper_dish": "'The Baby'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_lizzie",
+    "baker_id": "s12_lizzie",
+    "episode_id": "s12e03",
+    "signature_dish": "'Final Furlong' Focaccia",
+    "technical_rank": 2,
+    "showstopper_dish": "Pig Banquet",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_maggie",
+    "baker_id": "s12_maggie",
+    "episode_id": "s12e03",
+    "signature_dish": "Classic Focaccia",
+    "technical_rank": 8,
+    "showstopper_dish": "'Things You'd Find in a Rock Pool'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e03_s12_rochica",
+    "baker_id": "s12_rochica",
+    "episode_id": "s12e03",
+    "signature_dish": "Roast Garlic Focaccia with Tomato, Feta & Pesto",
+    "technical_rank": 10,
+    "showstopper_dish": "Birdcage",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_amanda",
+    "baker_id": "s12_amanda",
+    "episode_id": "s12e04",
+    "signature_dish": "'Chocolate Pav-Love'",
+    "technical_rank": 8,
+    "showstopper_dish": "'Adam's Temptation' Imprimé Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e04",
+    "signature_dish": "Tropical Pavlova",
+    "technical_rank": 3,
+    "showstopper_dish": "Black Forest Imprimé Dessert",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e04",
+    "signature_dish": "'Kiwi Lime Pie' Pam-lova",
+    "technical_rank": 5,
+    "showstopper_dish": "'Una Piña Colada, Por Favor'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_freya",
+    "baker_id": "s12_freya",
+    "episode_id": "s12e04",
+    "signature_dish": "Peach Melba Vegan Pavlova",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate & Orange Imprimé Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_george",
+    "baker_id": "s12_george",
+    "episode_id": "s12e04",
+    "signature_dish": "Lemon Curd & Biscuit Cream Pavlova",
+    "technical_rank": 7,
+    "showstopper_dish": "Peanut Butter & Chocolate Imprimé Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e04",
+    "signature_dish": "'Every Day at the Beach' Pavlova",
+    "technical_rank": 4,
+    "showstopper_dish": "Red Fruit & Pistachio Imprimé Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e04",
+    "signature_dish": "'Passover Pavlova'",
+    "technical_rank": 1,
+    "showstopper_dish": "'Passtyme with Good Companye'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_lizzie",
+    "baker_id": "s12_lizzie",
+    "episode_id": "s12e04",
+    "signature_dish": "Easter Pavlova",
+    "technical_rank": 2,
+    "showstopper_dish": "Liverpool Skyline Imprimé Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e04_s12_maggie",
+    "baker_id": "s12_maggie",
+    "episode_id": "s12e04",
+    "signature_dish": "Traditional Pavlova",
+    "technical_rank": 9,
+    "showstopper_dish": "Paris Skyline Imprimé Dessert",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e05_s12_amanda",
+    "baker_id": "s12_amanda",
+    "episode_id": "s12e05",
+    "signature_dish": "Spritzgebäck & Glühweinplätzchen",
+    "technical_rank": 8,
+    "showstopper_dish": "Rum. Plum & Raisin Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e05_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e05",
+    "signature_dish": "Marzipan Hausfreunde & Almond Mandelhörnchen",
+    "technical_rank": 2,
+    "showstopper_dish": "Lemon & Mixed Peel Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e05_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e05",
+    "signature_dish": "Chocolate Engelsaugen & Pistachio Heidesand",
+    "technical_rank": 7,
+    "showstopper_dish": "Bavarian Brioche",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e05_s12_freya",
+    "baker_id": "s12_freya",
+    "episode_id": "s12e05",
+    "signature_dish": "Lebkuchen & Zimtsterne",
+    "technical_rank": 5,
+    "showstopper_dish": "Upside-down Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e05_s12_george",
+    "baker_id": "s12_george",
+    "episode_id": "s12e05",
+    "signature_dish": "Cherry Marzipan Biscuits & Aniseed Springerle",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate & Tahini Anniversary Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e05_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e05",
+    "signature_dish": "Bethmännchen & Italian Linzer Augen",
+    "technical_rank": 1,
+    "showstopper_dish": "Amarena Cherry Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e05_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e05",
+    "signature_dish": "Tee-Sterne & Milchkaffee-Gipfele",
+    "technical_rank": 4,
+    "showstopper_dish": "Beer Soaked Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e05_s12_lizzie",
+    "baker_id": "s12_lizzie",
+    "episode_id": "s12e05",
+    "signature_dish": "Mandelhörnchen & Cheeky Boys",
+    "technical_rank": 3,
+    "showstopper_dish": "Bavarian Fairy Tale",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e06_s12_amanda",
+    "baker_id": "s12_amanda",
+    "episode_id": "s12e06",
+    "signature_dish": "Sweet & Savoury Chouxnuts",
+    "technical_rank": 5,
+    "showstopper_dish": "'Fancy Terrine Pie'",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e06_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e06",
+    "signature_dish": "'Oo La La Chouxnuts'",
+    "technical_rank": 3,
+    "showstopper_dish": "'Leicester Pork Pie'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e06_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e06",
+    "signature_dish": "Mango Maracujá & Miso Caramel Chouxnuts",
+    "technical_rank": 2,
+    "showstopper_dish": "'Lily Nana's Pickle Cottage'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e06_s12_george",
+    "baker_id": "s12_george",
+    "episode_id": "s12e06",
+    "signature_dish": "Classic Chouxnuts",
+    "technical_rank": 6,
+    "showstopper_dish": "'Christmas Dinner'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e06_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e06",
+    "signature_dish": "Bellissima Chouxnuts",
+    "technical_rank": 4,
+    "showstopper_dish": "'Laura's Terrine Pie'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e06_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e06",
+    "signature_dish": "'Exotic Flavour & 70's Colour'",
+    "technical_rank": 1,
+    "showstopper_dish": "'Lunch in Freiburg'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e06_s12_lizzie",
+    "baker_id": "s12_lizzie",
+    "episode_id": "s12e06",
+    "signature_dish": "Caramel & Floral Chouxnuts",
+    "technical_rank": 7,
+    "showstopper_dish": "'Neptune Pie'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e07_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e07",
+    "signature_dish": "Chocolate, Coconut & Ginger Caramel Tart",
+    "technical_rank": 3,
+    "showstopper_dish": "'Caramel Mistake'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e07_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e07",
+    "signature_dish": "Apple, Pecan & Miso Caramel Tart",
+    "technical_rank": 4,
+    "showstopper_dish": "'Grandad Greg's Cactus Garden'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e07_s12_george",
+    "baker_id": "s12_george",
+    "episode_id": "s12e07",
+    "signature_dish": "Caramel Custard & Banana Tart",
+    "technical_rank": 6,
+    "showstopper_dish": "Salted Caramel Almond & Hazelnut Dacquoise",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e07_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e07",
+    "signature_dish": "Apricot & Hazelnut Caramel Tart",
+    "technical_rank": 1,
+    "showstopper_dish": "Salted Caramel & Praline Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e07_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e07",
+    "signature_dish": "Triple Nut Caramel Delight",
+    "technical_rank": 2,
+    "showstopper_dish": "'Caramel Contrasts'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e07_s12_lizzie",
+    "baker_id": "s12_lizzie",
+    "episode_id": "s12e07",
+    "signature_dish": "'My Tart Will Go On'",
+    "technical_rank": 5,
+    "showstopper_dish": "'Roses Really Smell Like Caramel'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e08_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e08",
+    "signature_dish": "Mum's Tropical Delight",
+    "technical_rank": 1,
+    "showstopper_dish": "Gluten-Free Red Velvet Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e08_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e08",
+    "signature_dish": "Tahini and Miso Coffee Ice Cream Sandwiches",
+    "technical_rank": 5,
+    "showstopper_dish": "'My Nana's Cascading Dress' Gluten-Free Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e08_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e08",
+    "signature_dish": "Ginger and Orange Ice Cream Sandwich",
+    "technical_rank": 2,
+    "showstopper_dish": "Gluten-Free Black Forest Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e08_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e08",
+    "signature_dish": "'Meet My Favourites'",
+    "technical_rank": 4,
+    "showstopper_dish": "Ultimate Gluten-Free Birthday Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e08_s12_lizzie",
+    "baker_id": "s12_lizzie",
+    "episode_id": "s12e08",
+    "signature_dish": "Best Thing About Walks",
+    "technical_rank": 3,
+    "showstopper_dish": "Gluten-Free ‘Extraordinary' Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e09_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e09",
+    "signature_dish": "Raspberry & Chocolate Slices",
+    "technical_rank": 4,
+    "showstopper_dish": "'The Apple Doesn't Fall Far from the Tree'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e09_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e09",
+    "signature_dish": "Yuzu, Coconut & Black Sesame Slices",
+    "technical_rank": 3,
+    "showstopper_dish": "'Tropical Wedding' Entremets",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e09_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e09",
+    "signature_dish": "Tiramisu Slices",
+    "technical_rank": 2,
+    "showstopper_dish": "'Leaning Tower of Pisa'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e09_s12_jrgen",
+    "baker_id": "s12_jrgen",
+    "episode_id": "s12e09",
+    "signature_dish": "Murder at the Opera",
+    "technical_rank": 1,
+    "showstopper_dish": "'Torii Gate in the Sea'",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e10_s12_chigs",
+    "baker_id": "s12_chigs",
+    "episode_id": "s12e10",
+    "signature_dish": "'Take Two'",
+    "technical_rank": 2,
+    "showstopper_dish": "Party Treats",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e10_s12_crystelle",
+    "baker_id": "s12_crystelle",
+    "episode_id": "s12e10",
+    "signature_dish": "Pistachio, Cardamom & Orange Carrot Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Crazy Tea Party",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s12e10_s12_giuseppe",
+    "baker_id": "s12_giuseppe",
+    "episode_id": "s12e10",
+    "signature_dish": "'Torta Camilla'",
+    "technical_rank": 3,
+    "showstopper_dish": "'What Is the Hatter with Me'",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  }
+]

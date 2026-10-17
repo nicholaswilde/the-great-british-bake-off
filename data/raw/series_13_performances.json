@@ -1,0 +1,762 @@
+[
+  {
+    "performance_id": "s13e01_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e01",
+    "signature_dish": "'Cake-y Cacti'",
+    "technical_rank": 6,
+    "showstopper_dish": "'Summer In Pakistan'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_carole",
+    "baker_id": "s13_carole",
+    "episode_id": "s13e01",
+    "signature_dish": "'To Bee or not to Bee'",
+    "technical_rank": 8,
+    "showstopper_dish": "'Little House In The Country'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_dawn",
+    "baker_id": "s13_dawn",
+    "episode_id": "s13e01",
+    "signature_dish": "Lime, Coconut & Tamarind Spring Cakes",
+    "technical_rank": 3,
+    "showstopper_dish": "'Nan's House'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_james",
+    "baker_id": "s13_james",
+    "episode_id": "s13e01",
+    "signature_dish": "Sticky Toffee Apple Candles",
+    "technical_rank": 12,
+    "showstopper_dish": "'Last House On The Loch'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e01",
+    "signature_dish": "Pistachio & Cherry Vodka Liquor Wuzetka",
+    "technical_rank": 7,
+    "showstopper_dish": "'Home Is Where The Flowers Grow'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_kevin",
+    "baker_id": "s13_kevin",
+    "episode_id": "s13e01",
+    "signature_dish": "Mini Persian Love Cakes",
+    "technical_rank": 4,
+    "showstopper_dish": "'Ba-Na-Na That's My Hame'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_maisam",
+    "baker_id": "s13_maisam",
+    "episode_id": "s13e01",
+    "signature_dish": "Pistachio Cakes with Raspberry Buttercream",
+    "technical_rank": 5,
+    "showstopper_dish": "'My Childhood Home'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_marietherese",
+    "baker_id": "s13_marietherese",
+    "episode_id": "s13e01",
+    "signature_dish": "'Mango Magic Mess'",
+    "technical_rank": 10,
+    "showstopper_dish": "'At My Mama's'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_rebecca",
+    "baker_id": "s13_rebecca",
+    "episode_id": "s13e01",
+    "signature_dish": "Hazelnut Mocha Latte Mini Cakes",
+    "technical_rank": 11,
+    "showstopper_dish": "'Piña Colada Cottage'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e01",
+    "signature_dish": "'A Bitesize of Love'",
+    "technical_rank": 2,
+    "showstopper_dish": "'Best Time Ever' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e01",
+    "signature_dish": "Coconut, Pandan & Caramel Mousse Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "'Happiest Childhood Memory'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e01_s13_will",
+    "baker_id": "s13_will",
+    "episode_id": "s13e01",
+    "signature_dish": "Ginger & Caramel Squares",
+    "technical_rank": 9,
+    "showstopper_dish": "'First London Family Home'",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e02",
+    "signature_dish": "'Fudgetastic Maca-Cones'",
+    "technical_rank": 11,
+    "showstopper_dish": "'Parrot-astic' Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_carole",
+    "baker_id": "s13_carole",
+    "episode_id": "s13e02",
+    "signature_dish": "'Just A Mouthful'",
+    "technical_rank": 4,
+    "showstopper_dish": "'Macaron Masquerade'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_dawn",
+    "baker_id": "s13_dawn",
+    "episode_id": "s13e02",
+    "signature_dish": "'Toy Shop Yarns'",
+    "technical_rank": 9,
+    "showstopper_dish": "'Baroque-Punk' Mask",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_james",
+    "baker_id": "s13_james",
+    "episode_id": "s13e02",
+    "signature_dish": "'Raccarons'",
+    "technical_rank": 2,
+    "showstopper_dish": "Menacing Mask",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e02",
+    "signature_dish": "Miniature Melons",
+    "technical_rank": 6,
+    "showstopper_dish": "Cubist Mask",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_kevin",
+    "baker_id": "s13_kevin",
+    "episode_id": "s13e02",
+    "signature_dish": "Mint Choc Trip",
+    "technical_rank": 8,
+    "showstopper_dish": "Mythical Mask",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_maisam",
+    "baker_id": "s13_maisam",
+    "episode_id": "s13e02",
+    "signature_dish": "Cute Carrots",
+    "technical_rank": 7,
+    "showstopper_dish": "Venetian Mask",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_marietherese",
+    "baker_id": "s13_marietherese",
+    "episode_id": "s13e02",
+    "signature_dish": "Baby Daisies",
+    "technical_rank": 5,
+    "showstopper_dish": "Masquerade",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_rebecca",
+    "baker_id": "s13_rebecca",
+    "episode_id": "s13e02",
+    "signature_dish": "'Wee Branstons'",
+    "technical_rank": 1,
+    "showstopper_dish": "Floral Fascinator",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e02",
+    "signature_dish": "'Cheat Day Treat'",
+    "technical_rank": 3,
+    "showstopper_dish": "Carnival Costume",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e02_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e02",
+    "signature_dish": "Satay Macarons",
+    "technical_rank": 10,
+    "showstopper_dish": "'Two Face, One Soul'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e03",
+    "signature_dish": "Did not compete",
+    "technical_rank": null,
+    "showstopper_dish": "Did not compete",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_carole",
+    "baker_id": "s13_carole",
+    "episode_id": "s13e03",
+    "signature_dish": "'Pizza Exceptional'",
+    "technical_rank": 8,
+    "showstopper_dish": "'Something Fishy' Smörgåstårta",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_dawn",
+    "baker_id": "s13_dawn",
+    "episode_id": "s13e03",
+    "signature_dish": "Tex-Mex Pizza",
+    "technical_rank": 6,
+    "showstopper_dish": "Chicken Souvlaki Smörgåstårta",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_james",
+    "baker_id": "s13_james",
+    "episode_id": "s13e03",
+    "signature_dish": "'It Does Belong!' Ham, Mushroom and Pineapple Pizza",
+    "technical_rank": 3,
+    "showstopper_dish": "'The Most Pandastic' Smörgåstårta",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e03",
+    "signature_dish": "Full English Breakfast Pizza",
+    "technical_rank": 1,
+    "showstopper_dish": "'Fish and Chip Shop' Smörgåstårta",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_kevin",
+    "baker_id": "s13_kevin",
+    "episode_id": "s13e03",
+    "signature_dish": "'Now Bring Us Some Figgy Pizza'",
+    "technical_rank": 7,
+    "showstopper_dish": "'I've Started So I'll Fin-ish' Smörgåstårta",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_marietherese",
+    "baker_id": "s13_marietherese",
+    "episode_id": "s13e03",
+    "signature_dish": "Sweet Rosemary Lamb Pizza",
+    "technical_rank": 2,
+    "showstopper_dish": "'Curvy Seafood' Smörgåstårta",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_rebecca",
+    "baker_id": "s13_rebecca",
+    "episode_id": "s13e03",
+    "signature_dish": "Did not compete",
+    "technical_rank": null,
+    "showstopper_dish": "Did not compete",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e03",
+    "signature_dish": "Sweet & Spicy Pizza",
+    "technical_rank": 4,
+    "showstopper_dish": "'Ultimate' Smörgåstårta",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e03_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e03",
+    "signature_dish": "Malaysian Prawn Sambal Pizza",
+    "technical_rank": 5,
+    "showstopper_dish": "Nasi Lemak Smörgåstårta",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e04",
+    "signature_dish": "Coconut & Raspberry Besos",
+    "technical_rank": 6,
+    "showstopper_dish": "'Day of the Dead' Tres Leches Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_carole",
+    "baker_id": "s13_carole",
+    "episode_id": "s13e04",
+    "signature_dish": "Orange & Anise Seed Pan Dulce",
+    "technical_rank": 10,
+    "showstopper_dish": "'Pastel de Chocolate Mexicano' Tres Leches Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_dawn",
+    "baker_id": "s13_dawn",
+    "episode_id": "s13e04",
+    "signature_dish": "'Dark Chocolate & Chilli Kick' Conchas",
+    "technical_rank": 5,
+    "showstopper_dish": "'Blooming' Tres Leches Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_james",
+    "baker_id": "s13_james",
+    "episode_id": "s13e04",
+    "signature_dish": "'Coffee Caramel Oyster' Conchas",
+    "technical_rank": 8,
+    "showstopper_dish": "Chocolate & Lime 'Many Leches' Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e04",
+    "signature_dish": "Cacti Conchas",
+    "technical_rank": 7,
+    "showstopper_dish": "'Fruity Horchata' Tres Leches Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_kevin",
+    "baker_id": "s13_kevin",
+    "episode_id": "s13e04",
+    "signature_dish": "'Sweet Breads are Made of These' Borrachitos",
+    "technical_rank": 4,
+    "showstopper_dish": "'Meci-Cocoa Pyramid' Tres Leches Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_marietherese",
+    "baker_id": "s13_marietherese",
+    "episode_id": "s13e04",
+    "signature_dish": "'Bella Naranja' Conchas",
+    "technical_rank": 1,
+    "showstopper_dish": "'Cocoa Flower Fiesta' Tres Leches Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_rebecca",
+    "baker_id": "s13_rebecca",
+    "episode_id": "s13e04",
+    "signature_dish": "Lemon Conchas",
+    "technical_rank": 9,
+    "showstopper_dish": "'Mexican Tiramisu' Tres Leches Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e04",
+    "signature_dish": "Filled Concha Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "'It's a Fiesta' Tres Leches Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e04_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e04",
+    "signature_dish": "Corn on the Cob Conchas",
+    "technical_rank": 2,
+    "showstopper_dish": "Sweetcorn & Cinnamon Tres Leches Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e05_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e05",
+    "signature_dish": "Fig & Date Puddings",
+    "technical_rank": 2,
+    "showstopper_dish": "'A Little Galaxy' Mousse Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e05_s13_carole",
+    "baker_id": "s13_carole",
+    "episode_id": "s13e05",
+    "signature_dish": "'My Little Beauties'",
+    "technical_rank": 6,
+    "showstopper_dish": "'Strawberry Fields'",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e05_s13_dawn",
+    "baker_id": "s13_dawn",
+    "episode_id": "s13e05",
+    "signature_dish": "'Traditional' Steamed Puddings",
+    "technical_rank": 7,
+    "showstopper_dish": "'Woodland' Mousse Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e05_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e05",
+    "signature_dish": "Piña Colada Puddings",
+    "technical_rank": 1,
+    "showstopper_dish": "‘Cake Within a Cake Surprise'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e05_s13_kevin",
+    "baker_id": "s13_kevin",
+    "episode_id": "s13e05",
+    "signature_dish": "Clootie Dumplings",
+    "technical_rank": 5,
+    "showstopper_dish": "'What The Dog Dug'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e05_s13_marietherese",
+    "baker_id": "s13_marietherese",
+    "episode_id": "s13e05",
+    "signature_dish": "Sticky Toffee Puddings",
+    "technical_rank": 3,
+    "showstopper_dish": "'Sunset Surprise'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e05_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e05",
+    "signature_dish": "Apple & Cherry Crumble Puddings",
+    "technical_rank": 4,
+    "showstopper_dish": "'It's a Mousse World'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e05_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e05",
+    "signature_dish": "Watermelon Steamed Puddings",
+    "technical_rank": 8,
+    "showstopper_dish": "'Bee Positive'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e06_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e06",
+    "signature_dish": "Bonfire Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "Witches Lantern",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e06_s13_dawn",
+    "baker_id": "s13_dawn",
+    "episode_id": "s13e06",
+    "signature_dish": "'Ukrainian Sharlotka'",
+    "technical_rank": 5,
+    "showstopper_dish": "'A Cat in a Fancy Hat' Lantern",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e06_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e06",
+    "signature_dish": "'Mum's Apple Cake'",
+    "technical_rank": 2,
+    "showstopper_dish": "'Halloween Horror Movie Popcorn' Lantern",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e06_s13_kevin",
+    "baker_id": "s13_kevin",
+    "episode_id": "s13e06",
+    "signature_dish": "'Apple Bobbing'",
+    "technical_rank": 3,
+    "showstopper_dish": "'Arachna-FOMO' Lantern",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e06_s13_marietherese",
+    "baker_id": "s13_marietherese",
+    "episode_id": "s13e06",
+    "signature_dish": "Classic Apple & Walnut Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "'Spoooooky' Lantern",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e06_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e06",
+    "signature_dish": "Creepy Apple Crumble Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "'Dead Disco Ball' Lantern",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e06_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e06",
+    "signature_dish": "'Witch Apple'",
+    "technical_rank": 1,
+    "showstopper_dish": "'Itsy Bitsy Spider' Lantern",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e07_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e07",
+    "signature_dish": "Cherry, Orange & Pistachio Floating Islands",
+    "technical_rank": 4,
+    "showstopper_dish": "Peach & Raspberry Mille-feuille",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e07_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e07",
+    "signature_dish": "'Morning Vanilla Latte' Floating Islands",
+    "technical_rank": 5,
+    "showstopper_dish": "'Neapolitan' Custard Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e07_s13_kevin",
+    "baker_id": "s13_kevin",
+    "episode_id": "s13e07",
+    "signature_dish": "'Everything's Coming Up Roses' Floating Islands",
+    "technical_rank": 3,
+    "showstopper_dish": "'My Honey Valentine' Custard Gateau",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e07_s13_marietherese",
+    "baker_id": "s13_marietherese",
+    "episode_id": "s13e07",
+    "signature_dish": "'Blueberry Lagoon' Floating Islands",
+    "technical_rank": 2,
+    "showstopper_dish": "'The Promised Land' Custard Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e07_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e07",
+    "signature_dish": "Cherry, Almond & Hazelnut Floating Island",
+    "technical_rank": 1,
+    "showstopper_dish": "'Tribute to a Friend' Custard Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e07_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e07",
+    "signature_dish": "Mojito Floating Islands",
+    "technical_rank": 6,
+    "showstopper_dish": "'Piña Coladas Anyone?' Custard Gateau",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e08_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e08",
+    "signature_dish": "Coconut and Berry Vol-au-Vents",
+    "technical_rank": 3,
+    "showstopper_dish": "'Adventures of a Pie-rate' Pie Scene",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e08_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e08",
+    "signature_dish": "'Strawberries & Cream' Vol-au-Vents",
+    "technical_rank": 2,
+    "showstopper_dish": "'The Very Hungry Sausage Dog' Pie Scene",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e08_s13_marietherese",
+    "baker_id": "s13_marietherese",
+    "episode_id": "s13e08",
+    "signature_dish": "'Summertime Fine' Vol-au-Vents",
+    "technical_rank": 5,
+    "showstopper_dish": "'Spicy Twinkling Stars' Pie Scene",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e08_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e08",
+    "signature_dish": "'Key-Lime' Vol-au-Vents",
+    "technical_rank": 1,
+    "showstopper_dish": "Caterpillar Pie Scene",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e08_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e08",
+    "signature_dish": "'Citrus Dreams' Vol-au-Vents",
+    "technical_rank": 4,
+    "showstopper_dish": "'Jack and the Beanstalk' Pie Scene",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e09_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e09",
+    "signature_dish": "'Pistachio Tiramisu' Mini-Charlottes",
+    "technical_rank": 2,
+    "showstopper_dish": "'To the Stars!' Krokan",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e09_s13_janusz",
+    "baker_id": "s13_janusz",
+    "episode_id": "s13e09",
+    "signature_dish": "'Plums in Chocolate' Mini-Charlottes",
+    "technical_rank": 3,
+    "showstopper_dish": "'Brighton Pride' Krokan",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e09_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e09",
+    "signature_dish": "'Caramel Nutty' Mini-Charlottes",
+    "technical_rank": 4,
+    "showstopper_dish": "'Where it Started to How it's Going' Krokan",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e09_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e09",
+    "signature_dish": "'Peanut & Berries' Mini-Charlottes",
+    "technical_rank": 1,
+    "showstopper_dish": "'The DNA in You' Krokan",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e10_s13_abdul",
+    "baker_id": "s13_abdul",
+    "episode_id": "s13e10",
+    "signature_dish": "Summer Picnic",
+    "technical_rank": 1,
+    "showstopper_dish": "'It's All About The Bees' Edible Sculpture",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e10_s13_nelsandro",
+    "baker_id": "s13_nelsandro",
+    "episode_id": "s13e10",
+    "signature_dish": "Summer Picnic",
+    "technical_rank": 3,
+    "showstopper_dish": "'The World From Different Angles' Edible Sculpture",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s13e10_s13_syabira",
+    "baker_id": "s13_syabira",
+    "episode_id": "s13e10",
+    "signature_dish": "Summer Picnic",
+    "technical_rank": 2,
+    "showstopper_dish": "'This is My Home' Edible Sculpture",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  }
+]

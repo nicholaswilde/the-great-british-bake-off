@@ -1,0 +1,146 @@
+# https://taskfile.dev
+version: '3'
+
+dotenv: ['.env']
+
+vars:
+  PYTHON_FILES: src tests scripts
+
+tasks:
+  default:
+    desc: List all available tasks
+    cmds:
+      - task --list
+    silent: true
+
+  # Dependency & Environment Management
+  setup:
+    desc: Setup environment and sync dependencies
+    cmds:
+      - uv sync --all-extras
+
+  sync:
+    desc: Sync dependencies including all extras via uv
+    cmds:
+      - uv sync --all-extras
+
+  lock:
+    desc: Lock project dependencies via uv
+    cmds:
+      - uv lock
+
+  # Scrape & Build Pipelines
+  scrape:
+    desc: Scrape Wikipedia tables for GBBO series
+    cmds:
+      - uv run gbbo scrape {{.CLI_ARGS}}
+
+  build:
+    desc: Aggregate and validate raw data into processed datasets
+    cmds:
+      - uv run gbbo build {{.CLI_ARGS}}
+
+  enrich:ray:
+    desc: Enrich processed datasets with demographics, handshakes, and streaming data from RayofData
+    cmds:
+      - uv run gbbo enrich {{.CLI_ARGS}}
+
+  pipeline:
+    desc: Run scraper, build dataset, and run verification checks
+    cmds:
+      - task: scrape
+      - task: build
+      - task: check
+
+  # Dataset Completeness & Gap Auditing
+  gaps:
+    desc: Audit dataset completeness and print missing cell metrics
+    cmds:
+      - uv run gbbo gaps {{.CLI_ARGS}}
+
+  gaps:detail:
+    desc: Print detailed column-level and series breakdown of dataset gaps
+    cmds:
+      - uv run gbbo gaps --detail {{.CLI_ARGS}}
+
+  gaps:report:
+    desc: Export markdown dataset gap report to docs/dataset_gaps.md
+    cmds:
+      - uv run gbbo gaps --detail --export-md docs/dataset_gaps.md
+
+  stats:
+    desc: Display row count statistics for all processed tables
+    cmds:
+      - uv run gbbo stats {{.CLI_ARGS}}
+
+  # Testing & Coverage
+  test:
+    desc: Run pytest test suite
+    cmds:
+      - uv run --extra dev pytest {{.CLI_ARGS}}
+
+  test:coverage:
+    desc: Run pytest test suite with code coverage
+    cmds:
+      - uv run --extra dev pytest --cov=gbbo_dataset --cov-report=term-missing --cov-report=xml --cov-report=lcov {{.CLI_ARGS}}
+
+  coverage:report:
+    desc: Generate HTML test coverage report
+    cmds:
+      - uv run --extra dev pytest --cov=gbbo_dataset --cov-report=html
+
+  # Code Quality & Formatting
+  lint:
+    desc: Lint Python code with ruff and check spelling with typos
+    cmds:
+      - task: lint:py
+      - task: spellcheck
+
+  lint:fix:
+    desc: Lint and fix issues with ruff and typos
+    cmds:
+      - task: lint:py:fix
+      - task: spellcheck:fix
+
+  lint:py:
+    desc: Lint Python source code with ruff
+    cmds:
+      - uv run ruff check {{.PYTHON_FILES}} {{.CLI_ARGS}}
+
+  lint:py:fix:
+    desc: Lint and fix issues with ruff
+    cmds:
+      - uv run ruff check --fix {{.PYTHON_FILES}} {{.CLI_ARGS}}
+
+  format:
+    desc: Format Python code with ruff
+    cmds:
+      - uv run ruff format {{.PYTHON_FILES}} {{.CLI_ARGS}}
+
+  format:check:
+    desc: Check formatting with ruff without modifying files
+    cmds:
+      - uv run ruff format --check {{.PYTHON_FILES}}
+
+  spellcheck:
+    desc: Check spelling across repository with typos
+    cmds:
+      - typos {{.CLI_ARGS}}
+
+  spellcheck:fix:
+    desc: Fix spelling errors with typos automatically
+    cmds:
+      - typos --write-changes {{.CLI_ARGS}}
+
+  spellcheck-file:
+    desc: Check spelling on a specific file (e.g. task spellcheck-file FILE=path)
+    cmds:
+      - typos {{.FILE}}
+
+  # Complete Pre-commit Verification
+  check:
+    desc: Run complete verification suite (format check, lint, spellcheck, and tests)
+    cmds:
+      - task: format:check
+      - task: lint
+      - task: test

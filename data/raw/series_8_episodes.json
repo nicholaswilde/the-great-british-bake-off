@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s08e01",
+    "series_number": 8,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2017-08-29"
+  },
+  {
+    "episode_id": "s08e02",
+    "series_number": 8,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2017-09-05"
+  },
+  {
+    "episode_id": "s08e03",
+    "series_number": 8,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2017-09-12"
+  },
+  {
+    "episode_id": "s08e04",
+    "series_number": 8,
+    "episode_number": 4,
+    "theme": "Caramel",
+    "air_date": "2017-09-19"
+  },
+  {
+    "episode_id": "s08e05",
+    "series_number": 8,
+    "episode_number": 5,
+    "theme": "Puddings",
+    "air_date": "2017-09-26"
+  },
+  {
+    "episode_id": "s08e06",
+    "series_number": 8,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2017-10-03"
+  },
+  {
+    "episode_id": "s08e07",
+    "series_number": 8,
+    "episode_number": 7,
+    "theme": "Italian",
+    "air_date": "2017-10-10"
+  },
+  {
+    "episode_id": "s08e08",
+    "series_number": 8,
+    "episode_number": 8,
+    "theme": "Forgotten Bakes (Quarterfinals)",
+    "air_date": "2017-10-17"
+  },
+  {
+    "episode_id": "s08e09",
+    "series_number": 8,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2017-10-24"
+  },
+  {
+    "episode_id": "s08e10",
+    "series_number": 8,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2017-10-31"
+  }
+]

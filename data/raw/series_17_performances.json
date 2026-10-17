@@ -1,0 +1,452 @@
+[
+  {
+    "performance_id": "s17e01_s17_clara",
+    "baker_id": "s17_clara",
+    "episode_id": "s17e01",
+    "signature_dish": "\"Taste of Two Homes\" Chocolate Stout Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "\"Impression of Me\" Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_elizabeth",
+    "baker_id": "s17_elizabeth",
+    "episode_id": "s17e01",
+    "signature_dish": "\"Jamaican Dragon\" Chocolate Stout Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate & Berry Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_danni",
+    "baker_id": "s17_danni",
+    "episode_id": "s17e01",
+    "signature_dish": "\"I'm a Little Cakey, Port & Stout\" Chocolate Stout Cake",
+    "technical_rank": 11,
+    "showstopper_dish": "'Pixel Perfect Patch' Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_gabe",
+    "baker_id": "s17_gabe",
+    "episode_id": "s17e01",
+    "signature_dish": "\"Pint & Peanuts with Dad\" Chocolate Stout Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "\"Blu Romantic\" Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_gary",
+    "baker_id": "s17_gary",
+    "episode_id": "s17e01",
+    "signature_dish": "\"My Uncle Guiness\" Chocolate Stout Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "\"Home at the Stables\" Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_mo",
+    "baker_id": "s17_mo",
+    "episode_id": "s17e01",
+    "signature_dish": "Peanut & Caramel Chocolate Stout Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Lemon & Blueberry Portrait Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_molly",
+    "baker_id": "s17_molly",
+    "episode_id": "s17e01",
+    "signature_dish": "Spiced Chocolate Stout Cake",
+    "technical_rank": 12,
+    "showstopper_dish": "Lemon & Mango Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_moyin",
+    "baker_id": "s17_moyin",
+    "episode_id": "s17e01",
+    "signature_dish": "Nigerian Chocolate Stout Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "\"Head of Heritage\" Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_nikki",
+    "baker_id": "s17_nikki",
+    "episode_id": "s17e01",
+    "signature_dish": "Blackberry & Malt Mascarpone Chocolate Stout Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "\"Sunflower Serenity\" Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_shannon",
+    "baker_id": "s17_shannon",
+    "episode_id": "s17e01",
+    "signature_dish": "\"Enchanted Black Forest\" Chocolate Stout Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "Did not compete",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_tom",
+    "baker_id": "s17_tom",
+    "episode_id": "s17e01",
+    "signature_dish": "\"Tipsy Cherry\" Chocolate Stout Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "\"My Favourite Cartoon\" Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e01_s17_yannis",
+    "baker_id": "s17_yannis",
+    "episode_id": "s17e01",
+    "signature_dish": "\"Sacher Symphony\" Chocolate Stout Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "\"The Pointillism Canvas\" Portrait Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_clara",
+    "baker_id": "s17_clara",
+    "episode_id": "s17e02",
+    "signature_dish": "'Til Tiramisu Do Us Part",
+    "technical_rank": 10,
+    "showstopper_dish": "\"Euro Summer\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_elizabeth",
+    "baker_id": "s17_elizabeth",
+    "episode_id": "s17e02",
+    "signature_dish": "\"Chocolate & Banana\" Cookies",
+    "technical_rank": 1,
+    "showstopper_dish": "\"Jamaican Flag\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_danni",
+    "baker_id": "s17_danni",
+    "episode_id": "s17e02",
+    "signature_dish": "\"SnickerSnickerdoodle\" Cookies",
+    "technical_rank": 11,
+    "showstopper_dish": "\"LOVELETTER.TXT.VSB\" Biscuit Mosaic",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_gabe",
+    "baker_id": "s17_gabe",
+    "episode_id": "s17e02",
+    "signature_dish": "Almond & Sour Cherry Cookies",
+    "technical_rank": 6,
+    "showstopper_dish": "\"Uncle Tom's Garden\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_gary",
+    "baker_id": "s17_gary",
+    "episode_id": "s17e02",
+    "signature_dish": "\"Choccies from Heaven\" Cookies",
+    "technical_rank": 12,
+    "showstopper_dish": "\"Memory Clock\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_mo",
+    "baker_id": "s17_mo",
+    "episode_id": "s17e02",
+    "signature_dish": "Lemon Meringue Cookies",
+    "technical_rank": 2,
+    "showstopper_dish": "\"Toucan\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_molly",
+    "baker_id": "s17_molly",
+    "episode_id": "s17e02",
+    "signature_dish": "Chocolate & Hazelnut Cookies",
+    "technical_rank": 7,
+    "showstopper_dish": "\"Disability Pride\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_moyin",
+    "baker_id": "s17_moyin",
+    "episode_id": "s17e02",
+    "signature_dish": "\"Moriyike's Miso Caramel\" Cookies",
+    "technical_rank": 4,
+    "showstopper_dish": "\"Golden Horizon\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_nikki",
+    "baker_id": "s17_nikki",
+    "episode_id": "s17e02",
+    "signature_dish": "\"Tom's Favourite Chocolate Bar\" Cookies",
+    "technical_rank": 9,
+    "showstopper_dish": "\"Liccle Ray of Sunflower\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_shannon",
+    "baker_id": "s17_shannon",
+    "episode_id": "s17e02",
+    "signature_dish": "\"Strawberries, Cream & Centre Court Dreams\" Cookies",
+    "technical_rank": 5,
+    "showstopper_dish": "\"Hidden Harvest Path\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_tom",
+    "baker_id": "s17_tom",
+    "episode_id": "s17e02",
+    "signature_dish": "\"Nordic Crunch\" Cookies",
+    "technical_rank": 3,
+    "showstopper_dish": "\"Burn Book\" Biscuit Mosaic",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e02_s17_yannis",
+    "baker_id": "s17_yannis",
+    "episode_id": "s17e02",
+    "signature_dish": "\"Street Chai\" Cookies",
+    "technical_rank": 8,
+    "showstopper_dish": "\"Norfolk Broads Reflections\" Biscuit Mosaic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_clara",
+    "baker_id": "s17_clara",
+    "episode_id": "s17e03",
+    "signature_dish": "'Honky Tonk' Cheesecake",
+    "technical_rank": 3,
+    "showstopper_dish": "'Piña Couture Handbag' Showstopper",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_elizabeth",
+    "baker_id": "s17_elizabeth",
+    "episode_id": "s17e03",
+    "signature_dish": "Ginger and Lemon Basque Cheesecake",
+    "technical_rank": 6,
+    "showstopper_dish": "'Mother of the Bride' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_gabe",
+    "baker_id": "s17_gabe",
+    "episode_id": "s17e03",
+    "signature_dish": "'You're Coconuts' Cheesecake",
+    "technical_rank": 1,
+    "showstopper_dish": "'Crown It' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_gary",
+    "baker_id": "s17_gary",
+    "episode_id": "s17e03",
+    "signature_dish": "'Cherry Lake' Cheesecake",
+    "technical_rank": 8,
+    "showstopper_dish": "'Bobilicious Hat' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_mo",
+    "baker_id": "s17_mo",
+    "episode_id": "s17e03",
+    "signature_dish": "Cardamom & Strawberry Cheesecake",
+    "technical_rank": 2,
+    "showstopper_dish": "'Angel Wings' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_molly",
+    "baker_id": "s17_molly",
+    "episode_id": "s17e03",
+    "signature_dish": "Raspberry Cheesecake",
+    "technical_rank": 10,
+    "showstopper_dish": "'Floral Blossom Cap' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_moyin",
+    "baker_id": "s17_moyin",
+    "episode_id": "s17e03",
+    "signature_dish": "Orange Basque Cheesecake",
+    "technical_rank": 5,
+    "showstopper_dish": "'Lambeth Top Hat' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_nikki",
+    "baker_id": "s17_nikki",
+    "episode_id": "s17e03",
+    "signature_dish": "'Cherry Bakewell' Cheesecake",
+    "technical_rank": 4,
+    "showstopper_dish": "'Mojito Sombrero' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_shannon",
+    "baker_id": "s17_shannon",
+    "episode_id": "s17e03",
+    "signature_dish": "'The Naughty Bailey' Cheesecake",
+    "technical_rank": 11,
+    "showstopper_dish": "'The Fairy Wings of the Painted Brook' Showstopper",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_tom",
+    "baker_id": "s17_tom",
+    "episode_id": "s17e03",
+    "signature_dish": "'Alex's Fave Flavours' Cheesecake",
+    "technical_rank": 7,
+    "showstopper_dish": "'Serving Dolly's Wig' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e03_s17_yannis",
+    "baker_id": "s17_yannis",
+    "episode_id": "s17e03",
+    "signature_dish": "Honey, Fig & Walnet Käsekuchen",
+    "technical_rank": 9,
+    "showstopper_dish": "'Bengali Groom's Crown' Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_clara",
+    "baker_id": "s17_clara",
+    "episode_id": "s17e04",
+    "signature_dish": "Thai Basil and Garlic Bread",
+    "technical_rank": 2,
+    "showstopper_dish": "\"Crowned in Fruit & Spice\" Bread Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_elizabeth",
+    "baker_id": "s17_elizabeth",
+    "episode_id": "s17e04",
+    "signature_dish": "Garlic Star Bread",
+    "technical_rank": 5,
+    "showstopper_dish": "\"Easter Bread Basket\" Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_gabe",
+    "baker_id": "s17_gabe",
+    "episode_id": "s17e04",
+    "signature_dish": "Monday Night Pizza Garlic Bread",
+    "technical_rank": 1,
+    "showstopper_dish": "\"Summer Solstice Party\" Bread Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_gary",
+    "baker_id": "s17_gary",
+    "episode_id": "s17e04",
+    "signature_dish": "Cheesy Tear and Share Garlic Bread",
+    "technical_rank": 9,
+    "showstopper_dish": "\"Christmas Time\" Festive Bread Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_mo",
+    "baker_id": "s17_mo",
+    "episode_id": "s17e04",
+    "signature_dish": "Naga Garlic Bread",
+    "technical_rank": 6,
+    "showstopper_dish": "\"Eid Night Babka & Milk Bread\" Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_molly",
+    "baker_id": "s17_molly",
+    "episode_id": "s17e04",
+    "signature_dish": "Braided Tear and Share Garlic Bread",
+    "technical_rank": 7,
+    "showstopper_dish": "\"Harvest Festival Basket\" Bread Display",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_moyin",
+    "baker_id": "s17_moyin",
+    "episode_id": "s17e04",
+    "signature_dish": "Pesto Garlic Bread",
+    "technical_rank": 3,
+    "showstopper_dish": "\"Christmas Across Borders\" Bread Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_nikki",
+    "baker_id": "s17_nikki",
+    "episode_id": "s17e04",
+    "signature_dish": "Cheesy Pesto Tear and Share Garlic Bread",
+    "technical_rank": null,
+    "showstopper_dish": "Did not compete",
+    "result": "WITHDREW",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_tom",
+    "baker_id": "s17_tom",
+    "episode_id": "s17e04",
+    "signature_dish": "Roasted Garlic and Cheddar Garlic bread",
+    "technical_rank": 4,
+    "showstopper_dish": "\"The Great Gonk\" Bread Display",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e04_s17_yannis",
+    "baker_id": "s17_yannis",
+    "episode_id": "s17e04",
+    "signature_dish": "Great Garlic Globe",
+    "technical_rank": 8,
+    "showstopper_dish": "\"Viennese Winter Market\" Bread Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  }
+]

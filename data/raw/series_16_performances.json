@@ -1,0 +1,752 @@
+[
+  {
+    "performance_id": "s16e01_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e01",
+    "signature_dish": "'Pure (But No) Honey' Swiss Roll",
+    "technical_rank": 4,
+    "showstopper_dish": "'Pastel Paradiso' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_hassan",
+    "baker_id": "s16_hassan",
+    "episode_id": "s16e01",
+    "signature_dish": "Chocolate, Coffee & Caramel Swiss Roll",
+    "technical_rank": 10,
+    "showstopper_dish": "'Japanese Bamboo Forest' Landscape Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_iain",
+    "baker_id": "s16_iain",
+    "episode_id": "s16e01",
+    "signature_dish": "'Fift-Queen's University' Swiss Roll",
+    "technical_rank": 8,
+    "showstopper_dish": "'It's All Downhill From Here' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e01",
+    "signature_dish": "Lemon & Raspberry Swiss Roll",
+    "technical_rank": 9,
+    "showstopper_dish": "'Scottish Highland' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_jessika",
+    "baker_id": "s16_jessika",
+    "episode_id": "s16e01",
+    "signature_dish": "Coconut & Grapefruit Swiss Roll",
+    "technical_rank": 2,
+    "showstopper_dish": "'Birthday Morning' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_leighton",
+    "baker_id": "s16_leighton",
+    "episode_id": "s16e01",
+    "signature_dish": "'Amalfi Coast Lemon Glade' Swiss Roll",
+    "technical_rank": 6,
+    "showstopper_dish": "'The Green, Green Grass of Home' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_lesley",
+    "baker_id": "s16_lesley",
+    "episode_id": "s16e01",
+    "signature_dish": "'Lemons & Daisies' Swiss Roll",
+    "technical_rank": 5,
+    "showstopper_dish": "'Dad's Bob Ross' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_nadia",
+    "baker_id": "s16_nadia",
+    "episode_id": "s16e01",
+    "signature_dish": "'Cherry Amour' Swiss Roll",
+    "technical_rank": 7,
+    "showstopper_dish": "'My Island Dream' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_nataliia",
+    "baker_id": "s16_nataliia",
+    "episode_id": "s16e01",
+    "signature_dish": "'Ukrainian Passion Petal' Swiss Roll",
+    "technical_rank": 3,
+    "showstopper_dish": "'Ukraine' Landscape Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_carol",
+    "baker_id": "s16_carol",
+    "episode_id": "s16e01",
+    "signature_dish": "Lemon & Matcha Swiss Roll",
+    "technical_rank": 11,
+    "showstopper_dish": "'Hong Kong Lion Rock' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e01",
+    "signature_dish": "Rhubarb & Custard Swiss Roll",
+    "technical_rank": 1,
+    "showstopper_dish": "'PB and J-acob's Ladder' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e01_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e01",
+    "signature_dish": "'Tartan' Swiss Roll",
+    "technical_rank": 12,
+    "showstopper_dish": "'Icelandic' Landscape Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e02",
+    "signature_dish": "'Mini Winnies' Slice & Bake Biscuits",
+    "technical_rank": 8,
+    "showstopper_dish": "'Sugar in Spring' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_iain",
+    "baker_id": "s16_iain",
+    "episode_id": "s16e02",
+    "signature_dish": "'Mince Pie Cat-astrophe' Slice & Bake Biscuits",
+    "technical_rank": 5,
+    "showstopper_dish": "'If I Could Turn-table Back Time' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e02",
+    "signature_dish": "'Sail Around the World' Slice & Bake Biscuits",
+    "technical_rank": 4,
+    "showstopper_dish": "'Our Favourite Scottish Summers' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_jessika",
+    "baker_id": "s16_jessika",
+    "episode_id": "s16e02",
+    "signature_dish": "'Egg-cellent Brunch' Slice & Bake Biscuits",
+    "technical_rank": 7,
+    "showstopper_dish": "'Trails and Tales' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_leighton",
+    "baker_id": "s16_leighton",
+    "episode_id": "s16e02",
+    "signature_dish": "'Orange Slices of Delight' Slice & Bake Biscuits",
+    "technical_rank": 10,
+    "showstopper_dish": "'Piano Memories' Biscuit Time Capsule",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_lesley",
+    "baker_id": "s16_lesley",
+    "episode_id": "s16e02",
+    "signature_dish": "'Cupcake' Slice & Bake Biscuits",
+    "technical_rank": 9,
+    "showstopper_dish": "'Happy Memories' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_nadia",
+    "baker_id": "s16_nadia",
+    "episode_id": "s16e02",
+    "signature_dish": "'Amma's Avos' Slice & Bake Biscuits",
+    "technical_rank": 2,
+    "showstopper_dish": "'Picnic Basket' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_nataliia",
+    "baker_id": "s16_nataliia",
+    "episode_id": "s16e02",
+    "signature_dish": "'Yorkshire Welcome' Slice & Bake Biscuits",
+    "technical_rank": 3,
+    "showstopper_dish": "'A Slice of Life' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_carol",
+    "baker_id": "s16_carol",
+    "episode_id": "s16e02",
+    "signature_dish": "'Year of the Ox' Slice & Bake Biscuits",
+    "technical_rank": 11,
+    "showstopper_dish": "'Jumbo Boat' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e02",
+    "signature_dish": "'Bex's Breakfast' Slice & Bake Biscuits",
+    "technical_rank": 1,
+    "showstopper_dish": "'Treasure Chest' Biscuit Time Capsule",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e02_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e02",
+    "signature_dish": "'Hagia Sophia' Slice & Bake Biscuits",
+    "technical_rank": 6,
+    "showstopper_dish": "'Granny's Cottage' Biscuit Time Capsule",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e03",
+    "signature_dish": "'Not For Everyone' Monkey Bread",
+    "technical_rank": 3,
+    "showstopper_dish": "'Flowers in Paradise' Sweet Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_iain",
+    "baker_id": "s16_iain",
+    "episode_id": "s16e03",
+    "signature_dish": "'Irish Cheese Board' Monkey Bread",
+    "technical_rank": 6,
+    "showstopper_dish": "'It's A Samhain-derful Time of the Year' Sweet Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e03",
+    "signature_dish": "'Mediterranean Mezze' Monkey Bread",
+    "technical_rank": 1,
+    "showstopper_dish": "'Midsummer Flower Crown' Sweet Bread",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_jessika",
+    "baker_id": "s16_jessika",
+    "episode_id": "s16e03",
+    "signature_dish": "'Picnic Season' Monkey Bread",
+    "technical_rank": 7,
+    "showstopper_dish": "'Rain, Dance, Celebration' Sweet Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_lesley",
+    "baker_id": "s16_lesley",
+    "episode_id": "s16e03",
+    "signature_dish": "'Family Favourite' Monkey Bread",
+    "technical_rank": 9,
+    "showstopper_dish": "'Korovai' Sweet Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_nadia",
+    "baker_id": "s16_nadia",
+    "episode_id": "s16e03",
+    "signature_dish": "Italian Monkey Bread",
+    "technical_rank": 2,
+    "showstopper_dish": "'Gâteaux de Mariage de Rêve' Sweet Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_nataliia",
+    "baker_id": "s16_nataliia",
+    "episode_id": "s16e03",
+    "signature_dish": "'Family Table' Monkey Bread",
+    "technical_rank": 8,
+    "showstopper_dish": "'Three Generations Korovai' Sweet Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_carol",
+    "baker_id": "s16_carol",
+    "episode_id": "s16e03",
+    "signature_dish": "'Festival Basin' Monkey Bread",
+    "technical_rank": 10,
+    "showstopper_dish": "'Coconut Cocktail Wedding' Sweet Bread",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e03",
+    "signature_dish": "'Tre Scimmie (Three Monkeys)' Monkey Bread",
+    "technical_rank": 4,
+    "showstopper_dish": "'The Bread That Stolle Christmas' Sweet Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e03_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e03",
+    "signature_dish": "'French Dègustation' Monkey Bread",
+    "technical_rank": 5,
+    "showstopper_dish": "'Cinnamon Tower' Sweet Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e04",
+    "signature_dish": "'Lat Snacks' Flapjacks",
+    "technical_rank": 2,
+    "showstopper_dish": "'Four Hour Relay: Bake Edition' Summer Fête Stall",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_iain",
+    "baker_id": "s16_iain",
+    "episode_id": "s16e04",
+    "signature_dish": "'Banana Jacks' Flapjacks",
+    "technical_rank": 3,
+    "showstopper_dish": "'The Auld' Summer Fête Stall",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e04",
+    "signature_dish": "Raspberry, Chocolate and Hazelnut Flapjacks",
+    "technical_rank": 1,
+    "showstopper_dish": "'My Favourite Games' Summer Fête Stall",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_jessika",
+    "baker_id": "s16_jessika",
+    "episode_id": "s16e04",
+    "signature_dish": "'Red Wine Rendezvous' Flapjacks",
+    "technical_rank": 7,
+    "showstopper_dish": "'Prehistoric Pantry' Summer Fête Stall",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_lesley",
+    "baker_id": "s16_lesley",
+    "episode_id": "s16e04",
+    "signature_dish": "'Dan's Cherry Bakewell' Flapjacks",
+    "technical_rank": 5,
+    "showstopper_dish": "'Happy Memories of the 70's' Summer Fête Stall",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_nadia",
+    "baker_id": "s16_nadia",
+    "episode_id": "s16e04",
+    "signature_dish": "Cherry and Coconut Flapjacks",
+    "technical_rank": 9,
+    "showstopper_dish": "'Traditional Bake Sale' Summer Fête Stall",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_nataliia",
+    "baker_id": "s16_nataliia",
+    "episode_id": "s16e04",
+    "signature_dish": "'First Day' Flapjacks",
+    "technical_rank": 8,
+    "showstopper_dish": "'Rucksack Memories' Summer Fête Stall",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e04",
+    "signature_dish": "'Carrot Patch' Flapjacks",
+    "technical_rank": 4,
+    "showstopper_dish": "'Schooldays' Summer Fête Stall",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e04_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e04",
+    "signature_dish": "Apple Crumble Flapjacks",
+    "technical_rank": 6,
+    "showstopper_dish": "'Cocknowle' Summer Fête Stall",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e05_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e05",
+    "signature_dish": "'Caramel Tiramoussiato' Mousse Cups",
+    "technical_rank": 3,
+    "showstopper_dish": "'Pianola Grande' Chocolate Fondue",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e05_s16_iain",
+    "baker_id": "s16_iain",
+    "episode_id": "s16e05",
+    "signature_dish": "'Kriek Craic' Mousse Cups",
+    "technical_rank": 7,
+    "showstopper_dish": "'Glenariff Park' Chocolate Fondue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e05_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e05",
+    "signature_dish": "Chocolate Praline Mousse Cups",
+    "technical_rank": 2,
+    "showstopper_dish": "'Chocolate Tree' Chocolate Fondue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e05_s16_lesley",
+    "baker_id": "s16_lesley",
+    "episode_id": "s16e05",
+    "signature_dish": "'Tiramisu' Mousse Cups",
+    "technical_rank": 1,
+    "showstopper_dish": "'Death by Chocolate' Chocolate Fondue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e05_s16_nadia",
+    "baker_id": "s16_nadia",
+    "episode_id": "s16e05",
+    "signature_dish": "'Summer Strawberry' Delight Mousse Cups",
+    "technical_rank": 8,
+    "showstopper_dish": "'Ladies Day' Chocolate Fondue",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e05_s16_nataliia",
+    "baker_id": "s16_nataliia",
+    "episode_id": "s16e05",
+    "signature_dish": "'Granny's Garden' Mousse Cups",
+    "technical_rank": 6,
+    "showstopper_dish": "'Last Day of Pompeii' Chocolate Fondue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e05_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e05",
+    "signature_dish": "Chocolate Orange Mousse Cups",
+    "technical_rank": 5,
+    "showstopper_dish": "'Campsite Delight' Chocolate Fondue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e05_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e05",
+    "signature_dish": "'Tiramousoooo' Chocolate Mousse Cups",
+    "technical_rank": 4,
+    "showstopper_dish": "'Ocean Scene' Chocolate Fondue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e06_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e06",
+    "signature_dish": "'Jamaican Beef Patty' Savoury Plait",
+    "technical_rank": 7,
+    "showstopper_dish": "'No One Gnomes' Sculpted Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e06_s16_iain",
+    "baker_id": "s16_iain",
+    "episode_id": "s16e06",
+    "signature_dish": "'Irish Stew-sage Roll' Savoury Plait",
+    "technical_rank": 2,
+    "showstopper_dish": "'Giant's Causeway' Sculpted Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e06_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e06",
+    "signature_dish": "'Aunt Pom's Sausage Roll' Savoury Plait",
+    "technical_rank": 1,
+    "showstopper_dish": "'The Orchard' Sculpted Tart",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e06_s16_lesley",
+    "baker_id": "s16_lesley",
+    "episode_id": "s16e06",
+    "signature_dish": "'Dad's Favourite' Savoury Plait",
+    "technical_rank": 3,
+    "showstopper_dish": "'Mabel's Bumblebee' Sculpted Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e06_s16_nataliia",
+    "baker_id": "s16_nataliia",
+    "episode_id": "s16e06",
+    "signature_dish": "'Kyiv in a Crust' Savoury Plait",
+    "technical_rank": 5,
+    "showstopper_dish": "Swan Sculpted Tart",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e06_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e06",
+    "signature_dish": "'Sivell Place' Savoury Plait",
+    "technical_rank": 4,
+    "showstopper_dish": "'Rollercoast-tart' Sculpted Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e06_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e06",
+    "signature_dish": "'Hong Kong Sausage Roll' Savoury Plait",
+    "technical_rank": 6,
+    "showstopper_dish": "'Risalamande' Sculpted Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e07_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e07",
+    "signature_dish": "'Almost Mont Blanc' Meringue Pies",
+    "technical_rank": 2,
+    "showstopper_dish": "'Kitsune Sundae' Vacherin Glacé",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e07_s16_iain",
+    "baker_id": "s16_iain",
+    "episode_id": "s16e07",
+    "signature_dish": "'Lucky Rhubarb' Meringue Pies",
+    "technical_rank": 1,
+    "showstopper_dish": "'Bingate Redemption' Vacherin Glacé",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e07_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e07",
+    "signature_dish": "Raspberry & Passion Fruit Meringue Pies",
+    "technical_rank": 4,
+    "showstopper_dish": "'Scallop Shell' Vacherin Glacé",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e07_s16_lesley",
+    "baker_id": "s16_lesley",
+    "episode_id": "s16e07",
+    "signature_dish": "Lemon & Raspberry Meringue Pies",
+    "technical_rank": 6,
+    "showstopper_dish": "'Wedding Cake' Vacherin Glacé",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e07_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e07",
+    "signature_dish": "'Apple Lattice' Meringue Pies",
+    "technical_rank": 3,
+    "showstopper_dish": "'Mango Tree' Vacherin Glacé",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e07_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e07",
+    "signature_dish": "Rhubarb & Strawberry Meringue Pies",
+    "technical_rank": 5,
+    "showstopper_dish": "'Family Forage' Vacherin Glacé",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e08_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e08",
+    "signature_dish": "'Basque in Sake' Cheesecake",
+    "technical_rank": 5,
+    "showstopper_dish": "'Trifle Haters' Trifle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e08_s16_iain",
+    "baker_id": "s16_iain",
+    "episode_id": "s16e08",
+    "signature_dish": "'Christmas Box' Basque Cheesecake",
+    "technical_rank": 2,
+    "showstopper_dish": "'Triflemina' Trifle",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e08_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e08",
+    "signature_dish": "Mango and Passion Fruit Basque Cheesecake",
+    "technical_rank": 4,
+    "showstopper_dish": "Strawberry and Lemon Trifle",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e08_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e08",
+    "signature_dish": "White Chocolate and Passion Fruit Basque Cheesecake",
+    "technical_rank": 3,
+    "showstopper_dish": "'Nanny Mo's' Sherry Trifle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e08_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e08",
+    "signature_dish": "Black Sesame & Lemon Curd Basque Cheesecake",
+    "technical_rank": 1,
+    "showstopper_dish": "'Greek' Trifle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e09_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e09",
+    "signature_dish": "'Puddings Reimagined' Cream Horns",
+    "technical_rank": 3,
+    "showstopper_dish": "'Sloth' Macaron Centerpiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e09_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e09",
+    "signature_dish": "Mocha & Raspberry Pistachio Cream Horns",
+    "technical_rank": 1,
+    "showstopper_dish": "'Christmas Tree' Macaron Centerpiece",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e09_s16_toby",
+    "baker_id": "s16_toby",
+    "episode_id": "s16e09",
+    "signature_dish": "Chocolate, Coffee & Lemon Meringue Pie Cream Horns",
+    "technical_rank": 4,
+    "showstopper_dish": "'Crate of Lemons' Macaron Centerpiece",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e09_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e09",
+    "signature_dish": "Chocolate Orange & Lemon Raspberry Cream Horns",
+    "technical_rank": 2,
+    "showstopper_dish": "'The Beehive' Macaron Centerpiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e10_s16_aaron",
+    "baker_id": "s16_aaron",
+    "episode_id": "s16e10",
+    "signature_dish": "Pear & Rhubarb Iced Finger Buns",
+    "technical_rank": 2,
+    "showstopper_dish": "'Final Tea Party' Table Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e10_s16_jasmine",
+    "baker_id": "s16_jasmine",
+    "episode_id": "s16e10",
+    "signature_dish": "Apricot & Strawberry Iced Finger Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "'Summer Celebration' Table Cake",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s16e10_s16_thomas",
+    "baker_id": "s16_thomas",
+    "episode_id": "s16e10",
+    "signature_dish": "Piña Colada & Hot Dog Iced Finger Buns",
+    "technical_rank": 1,
+    "showstopper_dish": "'All Roads Lead To The Tent' Table Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

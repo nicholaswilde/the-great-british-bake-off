@@ -1,0 +1,752 @@
+[
+  {
+    "performance_id": "s11e01_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e01",
+    "signature_dish": "Chocolate Espresso Martini Battenberg",
+    "technical_rank": 9,
+    "showstopper_dish": "'Three Flavours of Tom DeLonge'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e01",
+    "signature_dish": "Chocolate & Orange Battenberg",
+    "technical_rank": 5,
+    "showstopper_dish": "'Ode to Lupita'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e01",
+    "signature_dish": "'Celebration of Summer' Battenberg",
+    "technical_rank": 6,
+    "showstopper_dish": "Lemon & Elderflower Freddie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_linda",
+    "baker_id": "s11_linda",
+    "episode_id": "s11e01",
+    "signature_dish": "Ambulance Battenberg",
+    "technical_rank": 12,
+    "showstopper_dish": "Lemon & Orange Bob Marley",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_loriea",
+    "baker_id": "s11_loriea",
+    "episode_id": "s11e01",
+    "signature_dish": "'Hot Summer's Day Treats' Battenberg",
+    "technical_rank": 10,
+    "showstopper_dish": "'Flavours of Jamaica' A Tribute to Miss Lou",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_lottie",
+    "baker_id": "s11_lottie",
+    "episode_id": "s11e01",
+    "signature_dish": "Rhubarb and Custard Battenberg",
+    "technical_rank": 4,
+    "showstopper_dish": "Coconut & Lime Louis Theroux",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_makbul",
+    "baker_id": "s11_makbul",
+    "episode_id": "s11e01",
+    "signature_dish": "East India Battenberg",
+    "technical_rank": 8,
+    "showstopper_dish": "Tribute to Bill Bryson",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_marc",
+    "baker_id": "s11_marc",
+    "episode_id": "s11e01",
+    "signature_dish": "Bittersweet Battenberg",
+    "technical_rank": 11,
+    "showstopper_dish": "Chocolate & Vanilla Ziggy",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_mark",
+    "baker_id": "s11_mark",
+    "episode_id": "s11e01",
+    "signature_dish": "Turkish Bazaar Inspired Battenberg",
+    "technical_rank": 7,
+    "showstopper_dish": "'Origin-ger of the Species' by Charles Darwin",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e01",
+    "signature_dish": "Gluten Free Chocolate & Orange Battenberg",
+    "technical_rank": 2,
+    "showstopper_dish": "'In Honour of Sir Chris'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_rowan",
+    "baker_id": "s11_rowan",
+    "episode_id": "s11e01",
+    "signature_dish": "'The Magic Flute' Battenberg",
+    "technical_rank": 3,
+    "showstopper_dish": "'Let Them Eat Cake' A Tribute To Marie Antoinette",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e01_s11_sura",
+    "baker_id": "s11_sura",
+    "episode_id": "s11e01",
+    "signature_dish": "Lemon and Orange Battenberg",
+    "technical_rank": 1,
+    "showstopper_dish": "'Ode to Attenborough'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e02",
+    "signature_dish": "Feathered Chocolate Mango Florentines",
+    "technical_rank": 1,
+    "showstopper_dish": "'Waiting for Tacos'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e02",
+    "signature_dish": "Mango and Coconut Florentines",
+    "technical_rank": 5,
+    "showstopper_dish": "Sakura Tea Set",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e02",
+    "signature_dish": "Salted Caramel Florentines",
+    "technical_rank": 7,
+    "showstopper_dish": "Celebration Afternoon Tea",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_linda",
+    "baker_id": "s11_linda",
+    "episode_id": "s11e02",
+    "signature_dish": "Flower Topped Florentines",
+    "technical_rank": 4,
+    "showstopper_dish": "'High Tea in Amsterdam'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_lottie",
+    "baker_id": "s11_lottie",
+    "episode_id": "s11e02",
+    "signature_dish": "Quarantine Florentines",
+    "technical_rank": 8,
+    "showstopper_dish": "Viking Victuals",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_makbul",
+    "baker_id": "s11_makbul",
+    "episode_id": "s11e02",
+    "signature_dish": "Mango and Cumin Florentines",
+    "technical_rank": 3,
+    "showstopper_dish": "Indian Chai Service",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_marc",
+    "baker_id": "s11_marc",
+    "episode_id": "s11e02",
+    "signature_dish": "Ginger, Cherry and Pistachio Florentines",
+    "technical_rank": 9,
+    "showstopper_dish": "Morning Coffee 'n' Toast",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_mark",
+    "baker_id": "s11_mark",
+    "episode_id": "s11e02",
+    "signature_dish": "Mango Lassi Florentines",
+    "technical_rank": 2,
+    "showstopper_dish": "Ethiopian Coffee Ceremony",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e02",
+    "signature_dish": "Sticky Toffee Florentines",
+    "technical_rank": 10,
+    "showstopper_dish": "Biscuit Burns Supper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_rowan",
+    "baker_id": "s11_rowan",
+    "episode_id": "s11e02",
+    "signature_dish": "Waistcoat Florentines",
+    "technical_rank": 11,
+    "showstopper_dish": "'Worse Things Happen At Sea'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e02_s11_sura",
+    "baker_id": "s11_sura",
+    "episode_id": "s11e02",
+    "signature_dish": "Sohan Florentines",
+    "technical_rank": 6,
+    "showstopper_dish": "Speculaas Ramadan Tea Time",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e03",
+    "signature_dish": "Chilli Chocolate & Cheesy Bacon Soda Breads",
+    "technical_rank": 9,
+    "showstopper_dish": "'Grateful For My Home and Little Family'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e03",
+    "signature_dish": "My Favourite Flavours Soda Bread",
+    "technical_rank": 7,
+    "showstopper_dish": "A Journey Back to France",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e03",
+    "signature_dish": "Nana Peg's Nicely Spiced & Cherrylicious Soda Breads",
+    "technical_rank": 6,
+    "showstopper_dish": "Showstopping Musical Theatre Inspired Showstopper",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_linda",
+    "baker_id": "s11_linda",
+    "episode_id": "s11e03",
+    "signature_dish": "Bara Cyflym Quick Bread",
+    "technical_rank": 1,
+    "showstopper_dish": "'Fruits of our Labour' Black Olive Bread & Tiger Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_lottie",
+    "baker_id": "s11_lottie",
+    "episode_id": "s11e03",
+    "signature_dish": "Blueberry Breakfast & Summertime Soda Breads",
+    "technical_rank": 5,
+    "showstopper_dish": "My House In Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_marc",
+    "baker_id": "s11_marc",
+    "episode_id": "s11e03",
+    "signature_dish": "Cornish Soda Breads",
+    "technical_rank": 2,
+    "showstopper_dish": "The Dharma Wheel Bread Sheaf",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_mark",
+    "baker_id": "s11_mark",
+    "episode_id": "s11e03",
+    "signature_dish": "Sausage & Stout Sodas",
+    "technical_rank": 3,
+    "showstopper_dish": "Orchard County Bread with Sweet Apple and Savoury Wild Garlic",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e03",
+    "signature_dish": "Black Pudding & Ginger Beer Soda Breads",
+    "technical_rank": 4,
+    "showstopper_dish": "Edinburgh Cityscape Bread Plaque",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_rowan",
+    "baker_id": "s11_rowan",
+    "episode_id": "s11e03",
+    "signature_dish": "Flavours of Italy",
+    "technical_rank": 10,
+    "showstopper_dish": "Worcestershire Pear Tree",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e03_s11_sura",
+    "baker_id": "s11_sura",
+    "episode_id": "s11e03",
+    "signature_dish": "Middle Eastern Inspired Soda Breads",
+    "technical_rank": 8,
+    "showstopper_dish": "Mama's Tomato Vine Harvest Loaf",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e04",
+    "signature_dish": "Honeycomb Explosion Brownies",
+    "technical_rank": 8,
+    "showstopper_dish": "Strawberry Splash White Chocolate Fraisier Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e04",
+    "signature_dish": "Raspberry, White Chocolate & Pistachio Brownies",
+    "technical_rank": 5,
+    "showstopper_dish": "Lemon & White Chocolate Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e04",
+    "signature_dish": "Salted Caramel Brownie S'mores",
+    "technical_rank": 2,
+    "showstopper_dish": "Chocolate Heaven Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_linda",
+    "baker_id": "s11_linda",
+    "episode_id": "s11e04",
+    "signature_dish": "'Treats of Christmas Past'",
+    "technical_rank": 1,
+    "showstopper_dish": "English Rose Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_lottie",
+    "baker_id": "s11_lottie",
+    "episode_id": "s11e04",
+    "signature_dish": "'Have Your Cake and Eat It' Brownies",
+    "technical_rank": 9,
+    "showstopper_dish": "Nana and Papa's Sapphire Anniversary Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_marc",
+    "baker_id": "s11_marc",
+    "episode_id": "s11e04",
+    "signature_dish": "Praline Brownies",
+    "technical_rank": 6,
+    "showstopper_dish": "White Chocolate & Raspberry Buttercream Celebration Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_mark",
+    "baker_id": "s11_mark",
+    "episode_id": "s11e04",
+    "signature_dish": "'Gimmie S'more' Brownies",
+    "technical_rank": 3,
+    "showstopper_dish": "'A Baking Show Birthday'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e04",
+    "signature_dish": "Upside Down Brownies",
+    "technical_rank": 4,
+    "showstopper_dish": "Graduation Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e04_s11_sura",
+    "baker_id": "s11_sura",
+    "episode_id": "s11e04",
+    "signature_dish": "Double Chocolate Marshmallow Brownies",
+    "technical_rank": 7,
+    "showstopper_dish": "Strawberry & White Chocolate Celebration Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e05_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e05",
+    "signature_dish": "Thai Basil Chicken Pasties",
+    "technical_rank": 5,
+    "showstopper_dish": "Chocolate, Mango and Lime Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e05_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e05",
+    "signature_dish": "Moroccan Tagine Pasties",
+    "technical_rank": 2,
+    "showstopper_dish": "Lime Confit & Lemon Meringue Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e05_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e05",
+    "signature_dish": "Proper Tasty Pasties",
+    "technical_rank": 6,
+    "showstopper_dish": "Kent Garden Tart",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e05_s11_linda",
+    "baker_id": "s11_linda",
+    "episode_id": "s11e05",
+    "signature_dish": "Spicy Indian Pasties",
+    "technical_rank": 8,
+    "showstopper_dish": "Gypsy Tart",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e05_s11_lottie",
+    "baker_id": "s11_lottie",
+    "episode_id": "s11e05",
+    "signature_dish": "Toad-In-The-Hole-Less Pasties",
+    "technical_rank": 4,
+    "showstopper_dish": "Apple Tree Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e05_s11_marc",
+    "baker_id": "s11_marc",
+    "episode_id": "s11e05",
+    "signature_dish": "Cornish Fish Pasties",
+    "technical_rank": 7,
+    "showstopper_dish": "Posh Apple & Blackberry Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e05_s11_mark",
+    "baker_id": "s11_mark",
+    "episode_id": "s11e05",
+    "signature_dish": "Aloo Gobi & Paneer Pasties",
+    "technical_rank": 3,
+    "showstopper_dish": "Mes-SAGE in a Bottle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e05_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e05",
+    "signature_dish": "Kedgeree Pasties",
+    "technical_rank": 1,
+    "showstopper_dish": "Blackberry & Lemon Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e06_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e06",
+    "signature_dish": "Chicken Shaped Katsu Curry Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "Matcha Shiba Inu Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e06_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e06",
+    "signature_dish": "Chicken Nikuman Panda Buns",
+    "technical_rank": 4,
+    "showstopper_dish": "Strawberry Cherry Blossom Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e06_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e06",
+    "signature_dish": "Piggy Pork Belly Buns",
+    "technical_rank": 7,
+    "showstopper_dish": "Upside Down Pineapple Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e06_s11_lottie",
+    "baker_id": "s11_lottie",
+    "episode_id": "s11e06",
+    "signature_dish": "Cheeseburger Steamed Buns",
+    "technical_rank": 2,
+    "showstopper_dish": "'Into the Japanese Woods'",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e06_s11_marc",
+    "baker_id": "s11_marc",
+    "episode_id": "s11e06",
+    "signature_dish": "'Hmmmm Dhal' Steamed Buns",
+    "technical_rank": 6,
+    "showstopper_dish": "Hamish the Dog Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e06_s11_mark",
+    "baker_id": "s11_mark",
+    "episode_id": "s11e06",
+    "signature_dish": "Burger Buns",
+    "technical_rank": 5,
+    "showstopper_dish": "'Avo Baby'",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e06_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e06",
+    "signature_dish": "Lamb Steamed Buns",
+    "technical_rank": 1,
+    "showstopper_dish": "Dizzy the Shuttlecock",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e07_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e07",
+    "signature_dish": "Novel Quiches",
+    "technical_rank": 6,
+    "showstopper_dish": "'Tiramisu'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e07_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e07",
+    "signature_dish": "Classic Quiches",
+    "technical_rank": 1,
+    "showstopper_dish": "Holiday Ice Cream Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e07_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e07",
+    "signature_dish": "Pea & Pizza Quiches",
+    "technical_rank": 4,
+    "showstopper_dish": "'Death by Chocolate'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e07_s11_lottie",
+    "baker_id": "s11_lottie",
+    "episode_id": "s11e07",
+    "signature_dish": "English Breakfast & Summer Salad Quiches",
+    "technical_rank": 5,
+    "showstopper_dish": "'80's Mix Tape'",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e07_s11_marc",
+    "baker_id": "s11_marc",
+    "episode_id": "s11e07",
+    "signature_dish": "Cornish Quiches",
+    "technical_rank": 3,
+    "showstopper_dish": "Retro Ice Cream Parlour",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e07_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e07",
+    "signature_dish": "Thai Curry and Salmon Quiches",
+    "technical_rank": 2,
+    "showstopper_dish": "'Christmas Cake Surprise'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e08_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e08",
+    "signature_dish": "'Celebration of Citrus' Cheesecakes",
+    "technical_rank": 5,
+    "showstopper_dish": "Newquay Beach Scene",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e08_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e08",
+    "signature_dish": "Passion Fruit Cheesecakes",
+    "technical_rank": 3,
+    "showstopper_dish": "Chocolate and Raspberry Mousse Jelly Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e08_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e08",
+    "signature_dish": "Passion Fruit Cheesecakes",
+    "technical_rank": 1,
+    "showstopper_dish": "'Flower Power' Koi Jelly Art Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e08_s11_marc",
+    "baker_id": "s11_marc",
+    "episode_id": "s11e08",
+    "signature_dish": "New York Style Vanilla and Mascarpone Cheesecakes",
+    "technical_rank": 2,
+    "showstopper_dish": "Apple Jelly with Chocolate and Strawberry Mousse",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e08_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e08",
+    "signature_dish": "Lime & Ginger Cheesecakes",
+    "technical_rank": 4,
+    "showstopper_dish": "Snow Globe Jelly Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e09_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e09",
+    "signature_dish": "Honey Tequila, Mango & Passion Fruit Savarins",
+    "technical_rank": 3,
+    "showstopper_dish": "Celebration of Chocolate Cube Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e09_s11_hermine",
+    "baker_id": "s11_hermine",
+    "episode_id": "s11e09",
+    "signature_dish": "Crème et Abricot Baba au Rhum",
+    "technical_rank": 2,
+    "showstopper_dish": "'The Best of Hermine' Cube Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e09_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e09",
+    "signature_dish": "Poached Pineapple, Kiwi & Passion Fruit Rum Babas",
+    "technical_rank": 4,
+    "showstopper_dish": "Black Forest Cube Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e09_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e09",
+    "signature_dish": "Strawberry & Elderflower Babas",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate, Raspberry & Pistachio Cube Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e10_s11_dave",
+    "baker_id": "s11_dave",
+    "episode_id": "s11e10",
+    "signature_dish": "'Caramel Latte' Custard Slice",
+    "technical_rank": 1,
+    "showstopper_dish": "Tower to Redemption",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e10_s11_laura",
+    "baker_id": "s11_laura",
+    "episode_id": "s11e10",
+    "signature_dish": "Yuzu Custard Slice",
+    "technical_rank": 3,
+    "showstopper_dish": "Rainbow Dessert Tower",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s11e10_s11_peter",
+    "baker_id": "s11_peter",
+    "episode_id": "s11e10",
+    "signature_dish": "Cranachan Custard Slice",
+    "technical_rank": 2,
+    "showstopper_dish": "Bonkers Baking Show Bubble Cake",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  }
+]

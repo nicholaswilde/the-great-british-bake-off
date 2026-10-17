@@ -1,0 +1,58 @@
+[
+  {
+    "episode_id": "s02e01",
+    "series_number": 2,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2011-08-16"
+  },
+  {
+    "episode_id": "s02e02",
+    "series_number": 2,
+    "episode_number": 2,
+    "theme": "Tarts",
+    "air_date": "2011-08-23"
+  },
+  {
+    "episode_id": "s02e03",
+    "series_number": 2,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2011-08-30"
+  },
+  {
+    "episode_id": "s02e04",
+    "series_number": 2,
+    "episode_number": 4,
+    "theme": "Biscuits",
+    "air_date": "2011-09-06"
+  },
+  {
+    "episode_id": "s02e05",
+    "series_number": 2,
+    "episode_number": 5,
+    "theme": "Pies",
+    "air_date": "2011-09-13"
+  },
+  {
+    "episode_id": "s02e06",
+    "series_number": 2,
+    "episode_number": 6,
+    "theme": "Desserts (Quarterfinals)",
+    "air_date": "2011-09-20"
+  },
+  {
+    "episode_id": "s02e07",
+    "series_number": 2,
+    "episode_number": 7,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2011-09-27"
+  },
+  {
+    "episode_id": "s02e08",
+    "series_number": 2,
+    "episode_number": 8,
+    "theme": "Final",
+    "air_date": "2011-10-04"
+  }
+]

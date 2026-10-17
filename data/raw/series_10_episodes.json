@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s10e01",
+    "series_number": 10,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2019-08-27"
+  },
+  {
+    "episode_id": "s10e02",
+    "series_number": 10,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2019-09-03"
+  },
+  {
+    "episode_id": "s10e03",
+    "series_number": 10,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2019-09-10"
+  },
+  {
+    "episode_id": "s10e04",
+    "series_number": 10,
+    "episode_number": 4,
+    "theme": "Dairy",
+    "air_date": "2019-09-17"
+  },
+  {
+    "episode_id": "s10e05",
+    "series_number": 10,
+    "episode_number": 5,
+    "theme": "The Roaring Twenties",
+    "air_date": "2019-09-24"
+  },
+  {
+    "episode_id": "s10e06",
+    "series_number": 10,
+    "episode_number": 6,
+    "theme": "Desserts",
+    "air_date": "2019-10-01"
+  },
+  {
+    "episode_id": "s10e07",
+    "series_number": 10,
+    "episode_number": 7,
+    "theme": "Festivals",
+    "air_date": "2019-10-08"
+  },
+  {
+    "episode_id": "s10e08",
+    "series_number": 10,
+    "episode_number": 8,
+    "theme": "Pastry (Quarterfinals)",
+    "air_date": "2019-10-15"
+  },
+  {
+    "episode_id": "s10e09",
+    "series_number": 10,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinal)",
+    "air_date": "2019-10-22"
+  },
+  {
+    "episode_id": "s10e10",
+    "series_number": 10,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2019-10-29"
+  }
+]

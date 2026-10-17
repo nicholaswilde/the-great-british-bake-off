@@ -1,0 +1,752 @@
+[
+  {
+    "performance_id": "s07e01_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e01",
+    "signature_dish": "Lemon and Rosemary Drizzle Cake",
+    "technical_rank": 12,
+    "showstopper_dish": "'Ultimate Indulgence' Mirror Glaze Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_benjamina",
+    "baker_id": "s07_benjamina",
+    "episode_id": "s07e01",
+    "signature_dish": "Pistachio, Cardamom and Lemon Drizzle Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "White Chocolate Mirror Glaze with Salted Praline Buttercream",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e01",
+    "signature_dish": "Raspberry and Rhubarb Drizzle Custard Bundt Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "Mirror Mirror On The Wall, Who Is The Shiniest Cake Of Them All?",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e01",
+    "signature_dish": "Lemon and Poppy Seed Drizzle Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "Chocolate Orange Mirror Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_kate",
+    "baker_id": "s07_kate",
+    "episode_id": "s07e01",
+    "signature_dish": "Berry Best Apple and Bramble Drizzle Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "One Swallow Does Not Make A Summer Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_lee",
+    "baker_id": "s07_lee",
+    "episode_id": "s07e01",
+    "signature_dish": "St. Clements Orange and Lemon Drizzle Cake",
+    "technical_rank": 11,
+    "showstopper_dish": "Strawberry Surprise Mirror Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_louise",
+    "baker_id": "s07_louise",
+    "episode_id": "s07e01",
+    "signature_dish": "Orange Liqueur and Lemonade Drizzle Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "White Chocolate Trifle Mirror Glaze Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_michael",
+    "baker_id": "s07_michael",
+    "episode_id": "s07e01",
+    "signature_dish": "Lime, Ginger and Honey Drizzle Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "Matcha Tea Chocolate Mirror Glaze",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_rav",
+    "baker_id": "s07_rav",
+    "episode_id": "s07e01",
+    "signature_dish": "Ginger Spice Yuzu Drizzle Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "Colombian Mocha Mirror Glaze Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e01",
+    "signature_dish": "Citrus and Spice Drizzle Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Raspberry, Sloe and White Chocolate Mirror Glaze Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_tom",
+    "baker_id": "s07_tom",
+    "episode_id": "s07e01",
+    "signature_dish": "G&T Drizzle Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "Black Forest Broken Mirror",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e01_s07_val",
+    "baker_id": "s07_val",
+    "episode_id": "s07e01",
+    "signature_dish": "Mum's Orange and Lemon Drizzle",
+    "technical_rank": 10,
+    "showstopper_dish": "Chocolate Sponge with Four Fruit Frosting",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e02",
+    "signature_dish": "Beehive Biscuits",
+    "technical_rank": 4,
+    "showstopper_dish": "Punting in Cambridge",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_benjamina",
+    "baker_id": "s07_benjamina",
+    "episode_id": "s07e02",
+    "signature_dish": "Bouquet Biscuits",
+    "technical_rank": 3,
+    "showstopper_dish": "New York, New York",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e02",
+    "signature_dish": "Salted Caramel, Chocolate Iced Shiny Hearts",
+    "technical_rank": 8,
+    "showstopper_dish": "Gingerbread Pub with Sticky Ginger Carpet",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e02",
+    "signature_dish": "Flower Pot Iced Biscuits",
+    "technical_rank": 2,
+    "showstopper_dish": "Hastings Old Town Fishing Net Shops and Boat",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_kate",
+    "baker_id": "s07_kate",
+    "episode_id": "s07e02",
+    "signature_dish": "\"A Biscuit for the Broads\"",
+    "technical_rank": 1,
+    "showstopper_dish": "\"I Promise I will do my best\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_louise",
+    "baker_id": "s07_louise",
+    "episode_id": "s07e02",
+    "signature_dish": "Baa Bara Brith Biscuits",
+    "technical_rank": 10,
+    "showstopper_dish": "Gingerbread Wedding",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_michael",
+    "baker_id": "s07_michael",
+    "episode_id": "s07e02",
+    "signature_dish": "Malt, Chocolate and Orange Iced \"Beer\" Biscuits",
+    "technical_rank": 9,
+    "showstopper_dish": "Trip to See Santa in Lapland",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_rav",
+    "baker_id": "s07_rav",
+    "episode_id": "s07e02",
+    "signature_dish": "Union Jack Bunting Biscuits",
+    "technical_rank": 6,
+    "showstopper_dish": "Gingerbread Christmas Fairground",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e02",
+    "signature_dish": "\"Wheelie Hot Iced Biscuits\"",
+    "technical_rank": 11,
+    "showstopper_dish": "Stained Glass Window Gingerbread Church",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_tom",
+    "baker_id": "s07_tom",
+    "episode_id": "s07e02",
+    "signature_dish": "Chai Frappelatteccino Biscuits",
+    "technical_rank": 7,
+    "showstopper_dish": "Tom and Pod's Near Death Experience",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e02_s07_val",
+    "baker_id": "s07_val",
+    "episode_id": "s07e02",
+    "signature_dish": "Sunday Treat Iced Ice Cream Cone Biscuits",
+    "technical_rank": 5,
+    "showstopper_dish": "From Holland to New York via Yorkshire",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e03",
+    "signature_dish": "Chocolate Barmbrack Bread",
+    "technical_rank": 2,
+    "showstopper_dish": "Braided Harvest Bread Basket",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_benjamina",
+    "baker_id": "s07_benjamina",
+    "episode_id": "s07e03",
+    "signature_dish": "Chocolate, Tahini and Almond Babka",
+    "technical_rank": 6,
+    "showstopper_dish": "Braided Bread Heart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e03",
+    "signature_dish": "Chocolate, Salted Caramel & Pecan Brittle Brioche Bread",
+    "technical_rank": 3,
+    "showstopper_dish": "Italian Light and Dark Rye Twist",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e03",
+    "signature_dish": "Chocolate and Cranberry Couronne",
+    "technical_rank": 9,
+    "showstopper_dish": "Chorizo and Chilli Flower with Parmesan and Pesto Centre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_kate",
+    "baker_id": "s07_kate",
+    "episode_id": "s07e03",
+    "signature_dish": "Cobbled Loaf",
+    "technical_rank": 8,
+    "showstopper_dish": "The Corn Maiden",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_michael",
+    "baker_id": "s07_michael",
+    "episode_id": "s07e03",
+    "signature_dish": "Chocolate and Chilli Swirl Plait",
+    "technical_rank": 7,
+    "showstopper_dish": "Cypriot Dove and Olive Branch Plaited Loaf with Houmous",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_rav",
+    "baker_id": "s07_rav",
+    "episode_id": "s07e03",
+    "signature_dish": "Chocolate, Cardamom and Hazelnut Loaf",
+    "technical_rank": 10,
+    "showstopper_dish": "Three Tier Diwali Bread Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e03",
+    "signature_dish": "Chocolate, Orange and Cinnamon Bread",
+    "technical_rank": 5,
+    "showstopper_dish": "Bedouin Escape Tear and Share Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_tom",
+    "baker_id": "s07_tom",
+    "episode_id": "s07e03",
+    "signature_dish": "Chocolate Orange and Chilli Swirl Bread",
+    "technical_rank": 4,
+    "showstopper_dish": "Jörmungandr and Mjölnir",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e03_s07_val",
+    "baker_id": "s07_val",
+    "episode_id": "s07e03",
+    "signature_dish": "Double Chocolate Cinnamon Twist Loaf",
+    "technical_rank": 1,
+    "showstopper_dish": "\"And They All Went Into The Ark To Get Out Of The Rain\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e04",
+    "signature_dish": "Yorkshire 'Tapas' Puddings",
+    "technical_rank": 4,
+    "showstopper_dish": "Churros Window Box",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_benjamina",
+    "baker_id": "s07_benjamina",
+    "episode_id": "s07e04",
+    "signature_dish": "Red Onion Chutney, Brie and Bacon Yorkshire Puddings",
+    "technical_rank": 1,
+    "showstopper_dish": "Tropical Churros",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e04",
+    "signature_dish": "Yorkshire Wellingtons",
+    "technical_rank": 2,
+    "showstopper_dish": "Two-Way Peanut Butter Churros",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e04",
+    "signature_dish": "Meat and Two Veg Yorkshires",
+    "technical_rank": 3,
+    "showstopper_dish": "Pistachio and White Chocolate Churros",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_kate",
+    "baker_id": "s07_kate",
+    "episode_id": "s07e04",
+    "signature_dish": "Christmas Dinner Compromise",
+    "technical_rank": 7,
+    "showstopper_dish": "Hot Cross Bunny Churros",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_rav",
+    "baker_id": "s07_rav",
+    "episode_id": "s07e04",
+    "signature_dish": "Thai Tofu Panang Yorkshires",
+    "technical_rank": 9,
+    "showstopper_dish": "Three Dip Matcha Pistachio Churros",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e04",
+    "signature_dish": "Perfect Sunday Roast Accompaniment",
+    "technical_rank": 8,
+    "showstopper_dish": "Lemon and Anise Churros",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_tom",
+    "baker_id": "s07_tom",
+    "episode_id": "s07e04",
+    "signature_dish": "West Yorkshire Fusion Puddings",
+    "technical_rank": 5,
+    "showstopper_dish": "Fennel Churros Snake In The Grass",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e04_s07_val",
+    "baker_id": "s07_val",
+    "episode_id": "s07e04",
+    "signature_dish": "Mum's Chilli Yorkshire Puddings",
+    "technical_rank": 6,
+    "showstopper_dish": "Orange Chocolate Churros",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e05_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e05",
+    "signature_dish": "Mum and Dad's Breakfast Pastries",
+    "technical_rank": 6,
+    "showstopper_dish": "Spicy Chorizo Squash Parcels Baklava Bites",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e05_s07_benjamina",
+    "baker_id": "s07_benjamina",
+    "episode_id": "s07e05",
+    "signature_dish": "'Good Morning America' Swirls Peanut Butter and Banana Pinwheels",
+    "technical_rank": 5,
+    "showstopper_dish": "Plantain and Spinach Samosas Chai Pear Cups",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e05_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e05",
+    "signature_dish": "Danish Pastry Croque Monsieur Kites Cinnamon Apple, Vanilla Crème Rose Danish",
+    "technical_rank": 2,
+    "showstopper_dish": "Sausage, Black Pudding and Apple Rounds Banoffee Whiskey Cups",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e05_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e05",
+    "signature_dish": "Orange Pain au Raisin Raspberry, Chocolate and Almond Danish",
+    "technical_rank": 1,
+    "showstopper_dish": "Roquefort, Fig and Walnut Parcels Cherry and Chocolate Cones",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e05_s07_rav",
+    "baker_id": "s07_rav",
+    "episode_id": "s07e05",
+    "signature_dish": "Cinnamon Swirls Pecan, Walnut and Maple Plaits",
+    "technical_rank": 8,
+    "showstopper_dish": "Chinese Style Prawn Filo Tartlets Spiced White Chocolate and Hazelnut Samosas",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e05_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e05",
+    "signature_dish": "Rhubarb, Mango and Ginger Plait Pineapple and Coconut Pinwheels",
+    "technical_rank": 3,
+    "showstopper_dish": "Parma Ham, Asparagus and Cheese Filo Cigars Coffee Cream Filo Cups",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e05_s07_tom",
+    "baker_id": "s07_tom",
+    "episode_id": "s07e05",
+    "signature_dish": "Mega Breakfast Bonanzas (Granola Spirals and Wheat Foldovers)",
+    "technical_rank": 4,
+    "showstopper_dish": "Yin and Yang Amuse-bouche",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e05_s07_val",
+    "baker_id": "s07_val",
+    "episode_id": "s07e05",
+    "signature_dish": "Pecan and Maple Syrup Pinwheels Apple, Sultana and Cinnamon Swirls",
+    "technical_rank": 7,
+    "showstopper_dish": "Caramelised Red Onion, Goats Cheese Tartlets Mincemeat and Apple Spiced Parcels",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e06_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e06",
+    "signature_dish": "Tangy Lime and Ginger Meringue Pie",
+    "technical_rank": 6,
+    "showstopper_dish": "Spring Elderflower Trio",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e06_s07_benjamina",
+    "baker_id": "s07_benjamina",
+    "episode_id": "s07e06",
+    "signature_dish": "Grapefruit and Ginger Meringue Pie",
+    "technical_rank": 2,
+    "showstopper_dish": "Floral Tea Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e06_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e06",
+    "signature_dish": "Lime, Coconut and Lemongrass Sugar Meringue Pie",
+    "technical_rank": 5,
+    "showstopper_dish": "Four Seasons Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e06_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e06",
+    "signature_dish": "Lime and Coconut Meringue Pie",
+    "technical_rank": 4,
+    "showstopper_dish": "Three Tier Orange Cake with a Floral Chocolate Collar",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e06_s07_rav",
+    "baker_id": "s07_rav",
+    "episode_id": "s07e06",
+    "signature_dish": "Mandarin Margarita Meringue Pie",
+    "technical_rank": 3,
+    "showstopper_dish": "Blossom Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e06_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e06",
+    "signature_dish": "Grapefruit, Orange and Mint Meringue Pie",
+    "technical_rank": 7,
+    "showstopper_dish": "Three Tiered Ombré Floral Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e06_s07_tom",
+    "baker_id": "s07_tom",
+    "episode_id": "s07e06",
+    "signature_dish": "Blood Orange Halloween Pumpkin Pie",
+    "technical_rank": 1,
+    "showstopper_dish": "Floral Tea Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e07_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e07",
+    "signature_dish": "Tropical Holiday Roulade",
+    "technical_rank": 1,
+    "showstopper_dish": "Childhood Ice Cream Mousse Cakes",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e07_s07_benjamina",
+    "baker_id": "s07_benjamina",
+    "episode_id": "s07e07",
+    "signature_dish": "Piña Colada Roulade",
+    "technical_rank": 3,
+    "showstopper_dish": "Apple Crumble Mousse Cake Chocolate Coffee Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e07_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e07",
+    "signature_dish": "Crowd Pleaser Roulade",
+    "technical_rank": 2,
+    "showstopper_dish": "Blackberry and Raspberry Bubbles After Dinner Mousse",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e07_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e07",
+    "signature_dish": "Chocolate and Hazelnut Roulade",
+    "technical_rank": 4,
+    "showstopper_dish": "Chocolate, Coffee, and Vanilla Joconde Cakes Blackcurrant and Vanilla Ombré Mousses",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e07_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e07",
+    "signature_dish": "Summer Picnic Roulade",
+    "technical_rank": 6,
+    "showstopper_dish": "Lemon, Raspberry and Passionfruit and Chocolate and Mint Mini Mousse Cakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e07_s07_tom",
+    "baker_id": "s07_tom",
+    "episode_id": "s07e07",
+    "signature_dish": "Millionaire's Roulade",
+    "technical_rank": 5,
+    "showstopper_dish": "Hipster Picnic",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e08_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e08",
+    "signature_dish": "Da Vinci Inspired Geared Pies",
+    "technical_rank": 2,
+    "showstopper_dish": "Jousting Knights Marchpane",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e08_s07_benjamina",
+    "baker_id": "s07_benjamina",
+    "episode_id": "s07e08",
+    "signature_dish": "Mexican Adventure",
+    "technical_rank": 4,
+    "showstopper_dish": "Tudor Garden",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e08_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e08",
+    "signature_dish": "Cheesy Cheeky Fish Pies",
+    "technical_rank": 1,
+    "showstopper_dish": "Peacock",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e08_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e08",
+    "signature_dish": "Tudor Rose Pies",
+    "technical_rank": 5,
+    "showstopper_dish": "Swans",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e08_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e08",
+    "signature_dish": "Bouquet of Flowers",
+    "technical_rank": 3,
+    "showstopper_dish": "Fruity Tudor Marchpane",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e09_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e09",
+    "signature_dish": "Cheesy Elephant Ears Herby Treble Clefs",
+    "technical_rank": 2,
+    "showstopper_dish": "Philharmonic Fondants",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e09_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e09",
+    "signature_dish": "Red Onion, Cambozola and Walnut Palmiers Mushroom, Streaky Bacon, and Parmesan Palmiers",
+    "technical_rank": 3,
+    "showstopper_dish": "Chocolate Praline Fondant Fancies Cherry Bakewell Fondant Fancies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e09_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e09",
+    "signature_dish": "Pesto and Sundried Tomato Palmiers Goats Cheese, Olive and Parma Ham Palmiers",
+    "technical_rank": 1,
+    "showstopper_dish": "Pistachio and Raspberry Fondant Fancies Lemon Curd Surprise Fondant Fancies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e09_s07_selasi",
+    "baker_id": "s07_selasi",
+    "episode_id": "s07e09",
+    "signature_dish": "Sundried Tomato, Onion, Peppers and Parmesan Palmiers Salmon, Spinach and Mushroom Palmiers",
+    "technical_rank": 4,
+    "showstopper_dish": "Lime and Ginger Fondant Fancies Pink Velvet and Raspberry Prosecco Fondant Fancies",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e10_s07_andrew",
+    "baker_id": "s07_andrew",
+    "episode_id": "s07e10",
+    "signature_dish": "Crunchy Caramel Cassis Crown",
+    "technical_rank": 1,
+    "showstopper_dish": "Family and Friends' Favourites Picnic",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e10_s07_candice",
+    "baker_id": "s07_candice",
+    "episode_id": "s07e10",
+    "signature_dish": "Queen Victoria's Mango and Strawberry Crown",
+    "technical_rank": 2,
+    "showstopper_dish": "Picnic for Pearly Kings and Queens",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s07e10_s07_jane",
+    "baker_id": "s07_jane",
+    "episode_id": "s07e10",
+    "signature_dish": "Red, White and Blue Meringue Crown",
+    "technical_rank": 3,
+    "showstopper_dish": "Family Favourites Feast",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

@@ -1,0 +1,762 @@
+[
+  {
+    "performance_id": "s15e01_s15_andy",
+    "baker_id": "s15_andy",
+    "episode_id": "s15e01",
+    "signature_dish": "'My First Bake' Loaf Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "'It's an Overnight Job' Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e01",
+    "signature_dish": "'Umami Apple' Loaf Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "'Sweet Seams are Made With This' Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e01",
+    "signature_dish": "'Sticky Rice' Loaf Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "'Canopic Jar' Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e01",
+    "signature_dish": "Vanilla & Chocolate Marble Loaf Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "'Fanny the Chicken' Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e01",
+    "signature_dish": "'It's All V's Fault' Loaf Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "Crown Green Bowling Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_hazel",
+    "baker_id": "s15_hazel",
+    "episode_id": "s15e01",
+    "signature_dish": "'Raspberry Surprise' Loaf Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "'Handbag' Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_illiyin",
+    "baker_id": "s15_illiyin",
+    "episode_id": "s15e01",
+    "signature_dish": "'Cinnamon Roll' Loaf Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "Vase Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_jeff",
+    "baker_id": "s15_jeff",
+    "episode_id": "s15e01",
+    "signature_dish": "'Guiding Star' Loaf Cake",
+    "technical_rank": null,
+    "showstopper_dish": "Did not compete",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_john",
+    "baker_id": "s15_john",
+    "episode_id": "s15e01",
+    "signature_dish": "Cherry & Chocolate Marble Loaf Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "'The Perfect Brunch' Illusion Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_mike",
+    "baker_id": "s15_mike",
+    "episode_id": "s15e01",
+    "signature_dish": "Lemon and Linseed Loaf Cake",
+    "technical_rank": 11,
+    "showstopper_dish": "'My Favourite Cake & Books' Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_nelly",
+    "baker_id": "s15_nelly",
+    "episode_id": "s15e01",
+    "signature_dish": "Coconut Loaf Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "'Retro 90's Shoes' Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e01_s15_sumayah",
+    "baker_id": "s15_sumayah",
+    "episode_id": "s15e01",
+    "signature_dish": "'Halwa Surprise' Loaf Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "'Pato the Duck' Illusion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_andy",
+    "baker_id": "s15_andy",
+    "episode_id": "s15e02",
+    "signature_dish": "'PB & J' Viennese Whirls",
+    "technical_rank": 10,
+    "showstopper_dish": "'If Pigs Could Fly' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e02",
+    "signature_dish": "Floral Viennese Whirls",
+    "technical_rank": 6,
+    "showstopper_dish": "'Finding Home' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e02",
+    "signature_dish": "'Campfire Cookie' Viennese Whirls",
+    "technical_rank": 11,
+    "showstopper_dish": "'Rabbit In The Moon' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e02",
+    "signature_dish": "Rhubarb & Custard Viennese Whirls",
+    "technical_rank": 9,
+    "showstopper_dish": "‘Welsh Festival' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e02",
+    "signature_dish": "'Two Desserts' Viennese Whirls",
+    "technical_rank": 4,
+    "showstopper_dish": "'The Gingerbread Man' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_hazel",
+    "baker_id": "s15_hazel",
+    "episode_id": "s15e02",
+    "signature_dish": "Coffee Viennese Whirls",
+    "technical_rank": 5,
+    "showstopper_dish": "'Punch & Judy' Biscuit Puppet Theatre",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_illiyin",
+    "baker_id": "s15_illiyin",
+    "episode_id": "s15e02",
+    "signature_dish": "Pistachio & White Chocolate Viennese Whirls",
+    "technical_rank": 8,
+    "showstopper_dish": "'Strawberry Fields Forever' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_jeff",
+    "baker_id": "s15_jeff",
+    "episode_id": "s15e02",
+    "signature_dish": "'What's The Matter? Are You Not Feeling Well?' Viennese Whirls",
+    "technical_rank": null,
+    "showstopper_dish": "Withdrew",
+    "result": "WITHDREW",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_john",
+    "baker_id": "s15_john",
+    "episode_id": "s15e02",
+    "signature_dish": "Irish Cream & Coffee Viennese Whirls",
+    "technical_rank": 2,
+    "showstopper_dish": "'Welsh Adventures' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_mike",
+    "baker_id": "s15_mike",
+    "episode_id": "s15e02",
+    "signature_dish": "Malted Brown Butter & Raspberry Viennese Whirls",
+    "technical_rank": 1,
+    "showstopper_dish": "'Go Farming' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_nelly",
+    "baker_id": "s15_nelly",
+    "episode_id": "s15e02",
+    "signature_dish": "'My First Dog' Viennese Whirls",
+    "technical_rank": 7,
+    "showstopper_dish": "'Forest Dance' Biscuit Puppet Theatre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e02_s15_sumayah",
+    "baker_id": "s15_sumayah",
+    "episode_id": "s15e02",
+    "signature_dish": "Cheese & Blackberry Viennese Whirls",
+    "technical_rank": 3,
+    "showstopper_dish": "'Enchanted Garden' Biscuit Puppet Theatre",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_andy",
+    "baker_id": "s15_andy",
+    "episode_id": "s15e03",
+    "signature_dish": "'Maisie's Mini Salami' Savoury Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "'New York, Neeeeeeew Yoooork' Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e03",
+    "signature_dish": "Mushroom and Sage Pesto Savoury Buns",
+    "technical_rank": 8,
+    "showstopper_dish": "'Wildflower Delights' Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e03",
+    "signature_dish": "Gochujang & Garlic Savoury Buns",
+    "technical_rank": 10,
+    "showstopper_dish": "'Cat' Cornucopia",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e03",
+    "signature_dish": "'Pesto Brunch' Savoury Buns",
+    "technical_rank": 7,
+    "showstopper_dish": "'My Favourite Things' Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e03",
+    "signature_dish": "Bury Black Pudding Savoury Buns",
+    "technical_rank": 5,
+    "showstopper_dish": "'All Day Holiday' Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_illiyin",
+    "baker_id": "s15_illiyin",
+    "episode_id": "s15e03",
+    "signature_dish": "Jamaican Brown Chicken Savoury Buns",
+    "technical_rank": 4,
+    "showstopper_dish": "Bread Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_john",
+    "baker_id": "s15_john",
+    "episode_id": "s15e03",
+    "signature_dish": "'Yamas!' Savoury Buns",
+    "technical_rank": 9,
+    "showstopper_dish": "'Horn of Pride' Cornucopia",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_mike",
+    "baker_id": "s15_mike",
+    "episode_id": "s15e03",
+    "signature_dish": "'Baaa-o' Savoury Buns",
+    "technical_rank": 6,
+    "showstopper_dish": "'Zeus's Horn' Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_nelly",
+    "baker_id": "s15_nelly",
+    "episode_id": "s15e03",
+    "signature_dish": "'Ethnic Harmony' Savoury Buns",
+    "technical_rank": 1,
+    "showstopper_dish": "Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e03_s15_sumayah",
+    "baker_id": "s15_sumayah",
+    "episode_id": "s15e03",
+    "signature_dish": "'Sunflower' Savoury Buns",
+    "technical_rank": 2,
+    "showstopper_dish": "'Friendship & Family' Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_andy",
+    "baker_id": "s15_andy",
+    "episode_id": "s15e04",
+    "signature_dish": "'A Bit Of A Fix' Caramel Biscuits",
+    "technical_rank": 9,
+    "showstopper_dish": "'Lonely Tree' Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e04",
+    "signature_dish": "'Spiced Nut Stroopwafels' Caramel Biscuits",
+    "technical_rank": 2,
+    "showstopper_dish": "'Tropicaramel' Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e04",
+    "signature_dish": "'Oats With Pineapple' Caramel Biscuits",
+    "technical_rank": 5,
+    "showstopper_dish": "Lemon Honey & Ginger Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e04",
+    "signature_dish": "'Favourite Chocolate Bar' Caramel Biscuits",
+    "technical_rank": 1,
+    "showstopper_dish": "'Glass Rose Mirror' Mousse Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e04",
+    "signature_dish": "'Fruit and Nut Millionaire' Caramel Biscuits",
+    "technical_rank": 8,
+    "showstopper_dish": "'Sticky Toffee' Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_illiyin",
+    "baker_id": "s15_illiyin",
+    "episode_id": "s15e04",
+    "signature_dish": "'Almond Florentine' Caramel Biscuits",
+    "technical_rank": 4,
+    "showstopper_dish": "Caramel And White Chocolate Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_mike",
+    "baker_id": "s15_mike",
+    "episode_id": "s15e04",
+    "signature_dish": "'Dad's Favourite' Caramel Biscuits",
+    "technical_rank": 7,
+    "showstopper_dish": "Coffee Popcorn Mousse Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_nelly",
+    "baker_id": "s15_nelly",
+    "episode_id": "s15e04",
+    "signature_dish": "'Good Old Times' Caramel Biscuits",
+    "technical_rank": 6,
+    "showstopper_dish": "'Behind Every Great Woman' Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e04_s15_sumayah",
+    "baker_id": "s15_sumayah",
+    "episode_id": "s15e04",
+    "signature_dish": "Sesame Hibiscus Caramel Biscuits",
+    "technical_rank": 3,
+    "showstopper_dish": "'Banoffee Pecan' Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e05_s15_andy",
+    "baker_id": "s15_andy",
+    "episode_id": "s15e05",
+    "signature_dish": "'Nan's Sweets' Frangipane Tarts",
+    "technical_rank": 7,
+    "showstopper_dish": "'All You Need Is Love' Paris-Brest",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e05_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e05",
+    "signature_dish": "Cashew & Black Sesame Frangipane Tarts",
+    "technical_rank": 2,
+    "showstopper_dish": "Orange & Pecan Paris-Brest",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e05_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e05",
+    "signature_dish": "Coffee and Dark Chocolate Frangipane Tarts",
+    "technical_rank": 1,
+    "showstopper_dish": "'Contrasts of Tea' Paris-Brest",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e05_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e05",
+    "signature_dish": "'Almond Bakewell' Frangipane Tarts",
+    "technical_rank": 6,
+    "showstopper_dish": "Pistachio and Raspberry Paris-Brest",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e05_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e05",
+    "signature_dish": "Pistachio & Blueberry Frangipane Tarts",
+    "technical_rank": 8,
+    "showstopper_dish": "Lemon & Thyme Paris-Brest",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e05_s15_illiyin",
+    "baker_id": "s15_illiyin",
+    "episode_id": "s15e05",
+    "signature_dish": "'Taste of the Tropics' Frangipane Tarts",
+    "technical_rank": 5,
+    "showstopper_dish": "'Crown of Nuttiness' Paris-Brest",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e05_s15_nelly",
+    "baker_id": "s15_nelly",
+    "episode_id": "s15e05",
+    "signature_dish": "'Iceberg' Frangipane Tarts",
+    "technical_rank": 3,
+    "showstopper_dish": "Pistachio Paris-Brest",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e05_s15_sumayah",
+    "baker_id": "s15_sumayah",
+    "episode_id": "s15e05",
+    "signature_dish": "Raspberry & Coconut Frangipane Tarts",
+    "technical_rank": 4,
+    "showstopper_dish": "'Tree of Life' Paris-Brest",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e06_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e06",
+    "signature_dish": "'Forest Cano-Pie'",
+    "technical_rank": 6,
+    "showstopper_dish": "'Roots of Samhain' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e06_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e06",
+    "signature_dish": "Autumnal Apple Pie",
+    "technical_rank": 4,
+    "showstopper_dish": "Diwali Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e06_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e06",
+    "signature_dish": "Pumpkin & Pecan Pie",
+    "technical_rank": 2,
+    "showstopper_dish": "'Tree Trunk Scene' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e06_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e06",
+    "signature_dish": "Blackberry & Apple 'Windy Day' Pie",
+    "technical_rank": 7,
+    "showstopper_dish": "Bonfire 'Parrot' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e06_s15_illiyin",
+    "baker_id": "s15_illiyin",
+    "episode_id": "s15e06",
+    "signature_dish": "Autumnal Fruit Pie",
+    "technical_rank": 1,
+    "showstopper_dish": "'Day of the Dead' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e06_s15_nelly",
+    "baker_id": "s15_nelly",
+    "episode_id": "s15e06",
+    "signature_dish": "‘Out in Nature’ Pie",
+    "technical_rank": 5,
+    "showstopper_dish": "'Woman in Autumn' Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e06_s15_sumayah",
+    "baker_id": "s15_sumayah",
+    "episode_id": "s15e06",
+    "signature_dish": "Butternut & Pecan Pie",
+    "technical_rank": 3,
+    "showstopper_dish": "'Autumn Leaves' Harvest Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e07_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e07",
+    "signature_dish": "'Smell The Roses' Meringue Nests",
+    "technical_rank": 3,
+    "showstopper_dish": "'Memphis Milano' Tiramisu",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e07_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e07",
+    "signature_dish": "'Coconut Illusion' Meringue Nests",
+    "technical_rank": 1,
+    "showstopper_dish": "'Concrete Box' Tiramisu",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e07_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e07",
+    "signature_dish": "'Aunty Meryl's' Plum Meringue Nests",
+    "technical_rank": 2,
+    "showstopper_dish": "'Old Italian' Tiramisu",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e07_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e07",
+    "signature_dish": "'Just Peachy' Meringue Nests",
+    "technical_rank": 4,
+    "showstopper_dish": "'Coconut Latte Charlotte Russe' Tiramisu",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e07_s15_illiyin",
+    "baker_id": "s15_illiyin",
+    "episode_id": "s15e07",
+    "signature_dish": "Piña Colada Meringue Nests",
+    "technical_rank": 5,
+    "showstopper_dish": "'Jewelry Box' Tiramisu",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e07_s15_sumayah",
+    "baker_id": "s15_sumayah",
+    "episode_id": "s15e07",
+    "signature_dish": "'Pomegranate & Plenty More' Meringue Nests",
+    "technical_rank": 6,
+    "showstopper_dish": "'Batik Mousse Cake' Tiramisu",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e08_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e08",
+    "signature_dish": "'I Got Choux Babe' Profiterole Stack",
+    "technical_rank": 2,
+    "showstopper_dish": "Lemon, Hazelnut and Advocaat '70s Gâteau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e08_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e08",
+    "signature_dish": "'Sci-Fi' Profiterole Stack",
+    "technical_rank": 3,
+    "showstopper_dish": "Mint Chocolate '70s Gâteau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e08_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e08",
+    "signature_dish": "'Tribute to Freddie' Profiterole Stack",
+    "technical_rank": 1,
+    "showstopper_dish": "Vintage Black Forest '70s Gâteau",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e08_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e08",
+    "signature_dish": "'70s Christmas Tree' Profiterole Stack",
+    "technical_rank": 5,
+    "showstopper_dish": "'Geoff's Cafe' '70s Gâteau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e08_s15_illiyin",
+    "baker_id": "s15_illiyin",
+    "episode_id": "s15e08",
+    "signature_dish": "'Ode to the '70s Afro' Profiterole Stack",
+    "technical_rank": 4,
+    "showstopper_dish": "'Peach Melba' '70s Gâteau",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e09_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e09",
+    "signature_dish": "Rhubarb and Saffron Danish & Za'atar and Gruyère Swirls",
+    "technical_rank": 3,
+    "showstopper_dish": "'Sorrento Citrus' Entremets",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e09_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e09",
+    "signature_dish": "Hazelnut & Cinnamon Croissants",
+    "technical_rank": 1,
+    "showstopper_dish": "Avocado and Orange Entremets",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e09_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e09",
+    "signature_dish": "Coffee and Hazelnut Pinwheels & Chocolate Pain Suisse",
+    "technical_rank": 4,
+    "showstopper_dish": "'Market Box Fruits' Entremets",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e09_s15_gill",
+    "baker_id": "s15_gill",
+    "episode_id": "s15e09",
+    "signature_dish": "'Pain Au Sausage Sandwich' and Banana & Custard Pastries",
+    "technical_rank": 2,
+    "showstopper_dish": "'Pick Your Own Car Keys' Entremets",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e10_s15_christiaan",
+    "baker_id": "s15_christiaan",
+    "episode_id": "s15e10",
+    "signature_dish": "Curry & Coconut Scones",
+    "technical_rank": 1,
+    "showstopper_dish": "'Sculpted Summer' Hanging Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e10_s15_dylan",
+    "baker_id": "s15_dylan",
+    "episode_id": "s15e10",
+    "signature_dish": "Strawberry & Salmon Scones",
+    "technical_rank": 3,
+    "showstopper_dish": "'Colours of Murano' Hanging Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s15e10_s15_georgie",
+    "baker_id": "s15_georgie",
+    "episode_id": "s15e10",
+    "signature_dish": "'Afternoon Tea' Scones",
+    "technical_rank": 2,
+    "showstopper_dish": "'Summer Garden Celebration' Hanging Cake",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s15e01",
+    "series_number": 15,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2024-09-24"
+  },
+  {
+    "episode_id": "s15e02",
+    "series_number": 15,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2024-10-01"
+  },
+  {
+    "episode_id": "s15e03",
+    "series_number": 15,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2024-10-08"
+  },
+  {
+    "episode_id": "s15e04",
+    "series_number": 15,
+    "episode_number": 4,
+    "theme": "Caramel",
+    "air_date": "2024-10-15"
+  },
+  {
+    "episode_id": "s15e05",
+    "series_number": 15,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2024-10-22"
+  },
+  {
+    "episode_id": "s15e06",
+    "series_number": 15,
+    "episode_number": 6,
+    "theme": "Autumn",
+    "air_date": "2024-10-29"
+  },
+  {
+    "episode_id": "s15e07",
+    "series_number": 15,
+    "episode_number": 7,
+    "theme": "Desserts",
+    "air_date": "2024-11-05"
+  },
+  {
+    "episode_id": "s15e08",
+    "series_number": 15,
+    "episode_number": 8,
+    "theme": "The '70s (Quarterfinals)",
+    "air_date": "2024-11-12"
+  },
+  {
+    "episode_id": "s15e09",
+    "series_number": 15,
+    "episode_number": 9,
+    "theme": "Patisserie (Semifinal)",
+    "air_date": "2024-11-19"
+  },
+  {
+    "episode_id": "s15e10",
+    "series_number": 15,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2024-11-26"
+  }
+]

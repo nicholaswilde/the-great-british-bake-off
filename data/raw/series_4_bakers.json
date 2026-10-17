@@ -1,0 +1,132 @@
+[
+  {
+    "baker_id": "s04_ali",
+    "series_number": 4,
+    "name": "Ali Imdad",
+    "age": 25,
+    "occupation": "Charity worker",
+    "hometown": "Saltley, Birmingham",
+    "overall_placement": 9,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_beca",
+    "series_number": 4,
+    "name": "Beca Lyne-Pirkis",
+    "age": 31,
+    "occupation": "Military Wives' Choir Singer",
+    "hometown": "Aldershot, Hampshire",
+    "overall_placement": 4,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_christine",
+    "series_number": 4,
+    "name": "Christine Wallace",
+    "age": 66,
+    "occupation": "Director of an engraving company",
+    "hometown": "Didcot, Oxfordshire",
+    "overall_placement": 5,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_deborah",
+    "series_number": 4,
+    "name": "Deborah Manger",
+    "age": 51,
+    "occupation": "Dentist",
+    "hometown": "Peterborough",
+    "overall_placement": 10,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_frances",
+    "series_number": 4,
+    "name": "Frances Quinn",
+    "age": 31,
+    "occupation": "Children's Clothes Designer",
+    "hometown": "Market Harborough, Leicestershire",
+    "overall_placement": 1,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_glenn",
+    "series_number": 4,
+    "name": "Glenn Cosby",
+    "age": 37,
+    "occupation": "English Teacher",
+    "hometown": "Teignmouth, Devon",
+    "overall_placement": 6,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_howard",
+    "series_number": 4,
+    "name": "Howard Middleton",
+    "age": 51,
+    "occupation": "Council Worker",
+    "hometown": "Sheffield",
+    "overall_placement": 7,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_kimberley",
+    "series_number": 4,
+    "name": "Kimberley Wilson",
+    "age": 30,
+    "occupation": "Psychologist",
+    "hometown": "London",
+    "overall_placement": 2,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_lucy",
+    "series_number": 4,
+    "name": "Lucy Bellamy",
+    "age": 38,
+    "occupation": "Horticulturist",
+    "hometown": "Grimsby, Lincolnshire",
+    "overall_placement": 12,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_mark",
+    "series_number": 4,
+    "name": "Mark Onley",
+    "age": 37,
+    "occupation": "Carpenter and Kitchen Fitter",
+    "hometown": "Milton Keynes",
+    "overall_placement": 11,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_robert",
+    "series_number": 4,
+    "name": "Robert Smart",
+    "age": 54,
+    "occupation": "Space Satellite Designer",
+    "hometown": "Melbourn, Cambridgeshire",
+    "overall_placement": 8,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_ruby",
+    "series_number": 4,
+    "name": "Ruby Tandoh",
+    "age": 20,
+    "occupation": "History of Art and Philosophy Student",
+    "hometown": "Southend, Essex",
+    "overall_placement": 2,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s04_toby",
+    "series_number": 4,
+    "name": "Toby Waterworth",
+    "age": 30,
+    "occupation": "Web Programmer",
+    "hometown": "Reading, Berkshire",
+    "overall_placement": 13,
+    "raw_placement_text": null
+  }
+]

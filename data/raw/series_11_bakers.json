@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s11_loriea",
+    "series_number": 11,
+    "name": "Loriea Campbell-Clarey",
+    "age": 27,
+    "occupation": "Diagnostic radiographer",
+    "hometown": "Durham, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s11_makbul",
+    "series_number": 11,
+    "name": "Makbul \"Mak\" Patel",
+    "age": 51,
+    "occupation": "Accountant",
+    "hometown": "Manchester, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s11_rowan",
+    "series_number": 11,
+    "name": "Rowan Williams",
+    "age": 55,
+    "occupation": "Music teacher",
+    "hometown": "Pershore, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s11_sura",
+    "series_number": 11,
+    "name": "Sura Mitib",
+    "age": 31,
+    "occupation": "Hospital pharmacy dispenser",
+    "hometown": "London, England",
+    "overall_placement": 9,
+    "raw_placement_text": "9th"
+  },
+  {
+    "baker_id": "s11_linda",
+    "series_number": 11,
+    "name": "Linda Rayfield",
+    "age": 61,
+    "occupation": "Retirement living team leader",
+    "hometown": "Bexhill-on-Sea, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s11_mark",
+    "series_number": 11,
+    "name": "Mark Lutton",
+    "age": 32,
+    "occupation": "Project manager",
+    "hometown": "Portadown, Northern Ireland",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s11_lottie",
+    "series_number": 11,
+    "name": "Lottie Bedlow",
+    "age": 31,
+    "occupation": "Pantomime producer",
+    "hometown": "West Sussex, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s11_marc",
+    "series_number": 11,
+    "name": "Marc Elliott",
+    "age": 51,
+    "occupation": "Bronze resin sculptor",
+    "hometown": "St Eval, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s11_hermine",
+    "series_number": 11,
+    "name": "Hermine Dossou",
+    "age": 39,
+    "occupation": "Accountant",
+    "hometown": "London, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s11_dave",
+    "series_number": 11,
+    "name": "Dave Friday",
+    "age": 30,
+    "occupation": "Armoured security guard",
+    "hometown": "Waterlooville, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s11_laura",
+    "series_number": 11,
+    "name": "Laura Adlington",
+    "age": 31,
+    "occupation": "Digital manager",
+    "hometown": "Gravesend, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s11_peter",
+    "series_number": 11,
+    "name": "Peter Sawkins",
+    "age": 20,
+    "occupation": "Accounting & finance student",
+    "hometown": "Edinburgh, Scotland",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

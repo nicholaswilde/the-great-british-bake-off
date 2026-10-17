@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s09e01",
+    "series_number": 9,
+    "episode_number": 1,
+    "theme": "Biscuits",
+    "air_date": "2018-08-28"
+  },
+  {
+    "episode_id": "s09e02",
+    "series_number": 9,
+    "episode_number": 2,
+    "theme": "Cakes",
+    "air_date": "2018-09-04"
+  },
+  {
+    "episode_id": "s09e03",
+    "series_number": 9,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2018-09-11"
+  },
+  {
+    "episode_id": "s09e04",
+    "series_number": 9,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2018-09-18"
+  },
+  {
+    "episode_id": "s09e05",
+    "series_number": 9,
+    "episode_number": 5,
+    "theme": "Spice",
+    "air_date": "2018-09-25"
+  },
+  {
+    "episode_id": "s09e06",
+    "series_number": 9,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2018-10-02"
+  },
+  {
+    "episode_id": "s09e07",
+    "series_number": 9,
+    "episode_number": 7,
+    "theme": "Vegan",
+    "air_date": "2018-10-09"
+  },
+  {
+    "episode_id": "s09e08",
+    "series_number": 9,
+    "episode_number": 8,
+    "theme": "Danish (Quarterfinals)",
+    "air_date": "2018-10-16"
+  },
+  {
+    "episode_id": "s09e09",
+    "series_number": 9,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2018-10-23"
+  },
+  {
+    "episode_id": "s09e10",
+    "series_number": 9,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2018-10-30"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "performance_id": "s01e01_s01_annetha",
+    "baker_id": "s01_annetha",
+    "episode_id": "s01e01",
+    "signature_dish": "Light Jamaican Black Cake with Strawberries and Cream",
+    "technical_rank": 2,
+    "showstopper_dish": "Chocolate Cake with Cigarellos, Fresh Fruit, and Cream",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_david",
+    "baker_id": "s01_david",
+    "episode_id": "s01e01",
+    "signature_dish": "Chocolate Orange Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "Black Forest Floor Gateau with Chocolate Leaves, Fallen Fruit, and Chocolate Mushrooms",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_edd",
+    "baker_id": "s01_edd",
+    "episode_id": "s01e01",
+    "signature_dish": "Caramel Cinnamon and Banana Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_jasminder",
+    "baker_id": "s01_jasminder",
+    "episode_id": "s01e01",
+    "signature_dish": "Fresh Mango and Passion Fruit Hummingbird Cake",
+    "technical_rank": null,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_jonathan",
+    "baker_id": "s01_jonathan",
+    "episode_id": "s01e01",
+    "signature_dish": "Carrot Cake with Lime and Cream Cheese Icing",
+    "technical_rank": 9,
+    "showstopper_dish": "Three Tiered Chocolate Cake with Almond and Cherry",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_lea",
+    "baker_id": "s01_lea",
+    "episode_id": "s01e01",
+    "signature_dish": "Cranberry and Pistachio Cake with Orange Flower Water Icing",
+    "technical_rank": 10,
+    "showstopper_dish": "Raspberries and Cream Chocolate Cake with Chocolate-Dipped Fresh Fruit",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_louise",
+    "baker_id": "s01_louise",
+    "episode_id": "s01e01",
+    "signature_dish": "Carrot and Orange Cake",
+    "technical_rank": null,
+    "showstopper_dish": "Never Fail Chocolate Sponge Cake, with Fresh Fruit",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_mark",
+    "baker_id": "s01_mark",
+    "episode_id": "s01e01",
+    "signature_dish": "Sticky Marmalade Tea Loaf",
+    "technical_rank": null,
+    "showstopper_dish": "Heart-shaped Chocolate and Beetroot Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_miranda",
+    "baker_id": "s01_miranda",
+    "episode_id": "s01e01",
+    "signature_dish": "Triple Layered Brownie Meringue Cake with Raspberry Cream",
+    "technical_rank": 8,
+    "showstopper_dish": "Three Tiered Chocolate Fudge Cake with Handmade Chocolate Button Decorations",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e01_s01_ruth",
+    "baker_id": "s01_ruth",
+    "episode_id": "s01e01",
+    "signature_dish": "Lemon Drizzle Cake with Fresh Cream and freshly made Lemon Curd",
+    "technical_rank": null,
+    "showstopper_dish": "Classic Chocolate Sponge wrapped in a Chocolate Collar topped with Handmade White and Dark Chocolate Truffles",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e02_s01_annetha",
+    "baker_id": "s01_annetha",
+    "episode_id": "s01e02",
+    "signature_dish": "Rose Petal Shortbread",
+    "technical_rank": 7,
+    "showstopper_dish": "Pink Swirl Macarons Eclairs",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e02_s01_david",
+    "baker_id": "s01_david",
+    "episode_id": "s01e02",
+    "signature_dish": "Cheddar Cheese and Fresh Rosemary Biscuits",
+    "technical_rank": 8,
+    "showstopper_dish": "Choux Pastry Swans Plain Meringues",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e02_s01_edd",
+    "baker_id": "s01_edd",
+    "episode_id": "s01e02",
+    "signature_dish": "Oatmeal Raisin Cookies",
+    "technical_rank": 6,
+    "showstopper_dish": "Pink Macarons Passion Fruit Meringues",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e02_s01_jasminder",
+    "baker_id": "s01_jasminder",
+    "episode_id": "s01e02",
+    "signature_dish": "Millionaires' Shortbread",
+    "technical_rank": 2,
+    "showstopper_dish": "Meringues with Chocolate and Space Dust Coffee Flavoured Eclairs",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e02_s01_jonathan",
+    "baker_id": "s01_jonathan",
+    "episode_id": "s01e02",
+    "signature_dish": "Honey and Candied Ginger Cookies",
+    "technical_rank": 1,
+    "showstopper_dish": "Meringues with Whiskey Cream and Chocolate",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e02_s01_louise",
+    "baker_id": "s01_louise",
+    "episode_id": "s01e02",
+    "signature_dish": "Stained Glass Window Shortbread",
+    "technical_rank": 4,
+    "showstopper_dish": "Strawberry, Mint, and Cream Meringue Baskets Chocolate Eclairs Orange, Yellow and Pink Macarons",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e02_s01_miranda",
+    "baker_id": "s01_miranda",
+    "episode_id": "s01e02",
+    "signature_dish": "Fresh Vanilla Biscuits with Royal Icing",
+    "technical_rank": 3,
+    "showstopper_dish": "Pistachio Macarons",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e02_s01_ruth",
+    "baker_id": "s01_ruth",
+    "episode_id": "s01e02",
+    "signature_dish": "Peanut Shortbread with Salted Peanut Caramel",
+    "technical_rank": 5,
+    "showstopper_dish": "Almond Macaron with Violet Buttercream Raspberries and Cream Eclairs",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e03_s01_david",
+    "baker_id": "s01_david",
+    "episode_id": "s01e03",
+    "signature_dish": "Chilli Bread",
+    "technical_rank": 4,
+    "showstopper_dish": "Walnut and Seed Roll Red Berry and Almond Bun Tomato and Herb Rolls",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e03_s01_edd",
+    "baker_id": "s01_edd",
+    "episode_id": "s01e03",
+    "signature_dish": "Olive Bread",
+    "technical_rank": 1,
+    "showstopper_dish": "Tomato, Mozzarella, and Chorizo Rolls Chelsea Buns Hot Cross Buns",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e03_s01_jasminder",
+    "baker_id": "s01_jasminder",
+    "episode_id": "s01e03",
+    "signature_dish": "Focaccia",
+    "technical_rank": 5,
+    "showstopper_dish": "Mango and Sultana Buns Pain au Chocolat with Mars Bars Tutti Frutti Wheels with Jelly Tots Tomato and Cheese Rolls",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e03_s01_jonathan",
+    "baker_id": "s01_jonathan",
+    "episode_id": "s01e03",
+    "signature_dish": "Anchovy, Sweet Paprika and Oregano Bread",
+    "technical_rank": 6,
+    "showstopper_dish": "Sticky Lemon Honey Buns Olive and Anchovy Rolls Sun-Dried Tomato and Fresh Herb Rolls Stilton, Walnut and Braeburn Apple Rolls Cinnamon, Cardamom, and Sultana Chelsea Buns with Icing",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e03_s01_miranda",
+    "baker_id": "s01_miranda",
+    "episode_id": "s01e03",
+    "signature_dish": "Walnut and Apricot Bread",
+    "technical_rank": 3,
+    "showstopper_dish": "Lemon Iced Buns Chocolate and Orange Buns Cranberry Buns with Icing Sugar",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e03_s01_ruth",
+    "baker_id": "s01_ruth",
+    "episode_id": "s01e03",
+    "signature_dish": "Maple and Pecan Bread",
+    "technical_rank": 2,
+    "showstopper_dish": "Chocolate and Orange Panettone Cranberry Bagels",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e04_s01_david",
+    "baker_id": "s01_david",
+    "episode_id": "s01e04",
+    "signature_dish": "Pear and Walnut Pudding",
+    "technical_rank": 5,
+    "showstopper_dish": "Apple and Blackberry Crumble Rhubarb and Orange Betty Suet Pear",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e04_s01_edd",
+    "baker_id": "s01_edd",
+    "episode_id": "s01e04",
+    "signature_dish": "Apple and Plum Pudding",
+    "technical_rank": 3,
+    "showstopper_dish": "Apple and Cinnamon Crumble Nutella Banana Brioche Bread Pudding Rhubarb and Strawberry Suet Layer",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e04_s01_jasminder",
+    "baker_id": "s01_jasminder",
+    "episode_id": "s01e04",
+    "signature_dish": "Sticky Toffee Pudding",
+    "technical_rank": 2,
+    "showstopper_dish": "Bread and Butter Pudding Treacle Suet Pudding with Fresh Fruit Apple and Pineapple Crumble",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e04_s01_miranda",
+    "baker_id": "s01_miranda",
+    "episode_id": "s01e04",
+    "signature_dish": "Sticky Toffee Pudding",
+    "technical_rank": 1,
+    "showstopper_dish": "Queen of Puddings Chocolate Pear Roly Poly Strawberry and Rhubarb Crumble",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e04_s01_ruth",
+    "baker_id": "s01_ruth",
+    "episode_id": "s01e04",
+    "signature_dish": "Peach and Blueberry Boy Bait",
+    "technical_rank": 4,
+    "showstopper_dish": "Apple and Ginger Crumble Rhubarb Suet Pudding Cherry Queen of Puddings",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e05_s01_edd",
+    "baker_id": "s01_edd",
+    "episode_id": "s01e05",
+    "signature_dish": "Chicken, Ham, Leek and Tarragon Pie",
+    "technical_rank": 2,
+    "showstopper_dish": "Almond Sweet Tart with Ginger and Chocolate Yorkshire Curd Tart Chickpea and Salami Pâté Red and Yellow Pepper Tart Asparagus Gruyere Quiche",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e05_s01_jasminder",
+    "baker_id": "s01_jasminder",
+    "episode_id": "s01e05",
+    "signature_dish": "Chicken and Mushroom Pie",
+    "technical_rank": 4,
+    "showstopper_dish": "Jaggery Tart Fruit and Custard Tart Thai Chili and Red Onion Canapés Duck in Plum Sauce Canapés Salmon and Prawn Canapés",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e05_s01_miranda",
+    "baker_id": "s01_miranda",
+    "episode_id": "s01e05",
+    "signature_dish": "Summery Salmon, Cod and Prawn Fish Pie",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate Pastry filled with Orange Cheesecake Chocolate Pastry filled with Milk Chocolate Ganache Strawberry Tart with Red Currant Glaze Cheesy Crab Bites Broad Bean and Tomato Pastry Hearts Pancetta and Leek Risotto Canapés",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e05_s01_ruth",
+    "baker_id": "s01_ruth",
+    "episode_id": "s01e05",
+    "signature_dish": "Minced Beef Pie",
+    "technical_rank": 3,
+    "showstopper_dish": "Raspberry and Dark Chocolate Tart Creme Patisserie and Cherry Tart Citrus Curd Tart with Creme Brulee Top Roasted Tomato Canapés Asparagus Pastry Twirls",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e06_s01_edd",
+    "baker_id": "s01_edd",
+    "episode_id": "s01e06",
+    "signature_dish": "Cinnamon and Banana Cakes",
+    "technical_rank": null,
+    "showstopper_dish": "Chocolate and Ginger Tarts Lemon Scones with Passion Fruit Curd Raspberry Choux Buns Finger Sandwiches",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e06_s01_miranda",
+    "baker_id": "s01_miranda",
+    "episode_id": "s01e06",
+    "signature_dish": "Lemon Cupcakes",
+    "technical_rank": null,
+    "showstopper_dish": "—N/a",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s01e06_s01_ruth",
+    "baker_id": "s01_ruth",
+    "episode_id": "s01e06",
+    "signature_dish": "Mint, Ginger and Blackberry Cakes",
+    "technical_rank": null,
+    "showstopper_dish": "Red Pepper and Cheese Quiche Tarts Sultana Scones Vanilla and Lemon Choux Buns Finger Sandwiches",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

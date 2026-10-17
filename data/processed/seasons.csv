@@ -1,0 +1,18 @@
+series_number,year,winner,hosts,judges,network,pbs_season,netflix_collection,roku_season,location
+1,2010,Edd,"['Mel Giedroyc', 'Sue Perkins']","['Mary Berry', 'Paul Hollywood']",BBC Two,,,1.0,Various
+2,2011,Jo,"['Mel Giedroyc', 'Sue Perkins']","['Mary Berry', 'Paul Hollywood']",BBC Two,,,2.0,"Valentines Mansion, London, UK"
+3,2012,John,"['Mel Giedroyc', 'Sue Perkins']","['Mary Berry', 'Paul Hollywood']",BBC Two,5.0,,3.0,"Harptree Court, Bristol, UK"
+4,2013,Frances,"['Mel Giedroyc', 'Sue Perkins']","['Mary Berry', 'Paul Hollywood']",BBC Two,2.0,,4.0,"Harptree Court, Bristol, UK"
+5,2014,Nancy,"['Mel Giedroyc', 'Sue Perkins']","['Mary Berry', 'Paul Hollywood']",BBC One,1.0,,5.0,"Welford Park, Newbury, UK"
+6,2015,Nadiya,"['Mel Giedroyc', 'Sue Perkins']","['Mary Berry', 'Paul Hollywood']",BBC One,3.0,,6.0,"Welford Park, Newbury, UK"
+7,2016,Candice,"['Mel Giedroyc', 'Sue Perkins']","['Mary Berry', 'Paul Hollywood']",BBC One,4.0,,7.0,"Welford Park, Newbury, UK"
+8,2017,Sophie,"['Noel Fielding', 'Sandi Toksvig']","['Paul Hollywood', 'Prue Leith']",Channel 4,,5.0,,"Welford Park, Newbury, UK"
+9,2018,Rahul,"['Noel Fielding', 'Sandi Toksvig']","['Paul Hollywood', 'Prue Leith']",Channel 4,,6.0,,"Welford Park, Newbury, UK"
+10,2019,DavidA,"['Noel Fielding', 'Sandi Toksvig']","['Paul Hollywood', 'Prue Leith']",Channel 4,,7.0,,"Welford Park, Newbury, UK"
+11,2020,PeterS,"['Matt Lucas', 'Noel Fielding']","['Paul Hollywood', 'Prue Leith']",Channel 4,,8.0,,"Down Hall, Bishop's Stortford, UK"
+12,2021,Giuseppe,"['Matt Lucas', 'Noel Fielding']","['Paul Hollywood', 'Prue Leith']",Channel 4,,9.0,,"Down Hall, Bishop's Stortford, UK"
+13,2022,Syabira,"['Matt Lucas', 'Noel Fielding']","['Paul Hollywood', 'Prue Leith']",Channel 4,,10.0,,"Welford Park, Newbury, UK"
+14,2023,Matty,"['Alison Hammond', 'Noel Fielding']","['Paul Hollywood', 'Prue Leith']",Channel 4,,11.0,,"Welford Park, Newbury, UK"
+15,2024,Georgie Grasso,"['Alison Hammond', 'Noel Fielding']","['Paul Hollywood', 'Prue Leith']",Channel 4,,12.0,,"Welford Park, Berkshire"
+16,2025,Jasmine Mitchell,"['Alison Hammond', 'Noel Fielding']","['Paul Hollywood', 'Prue Leith']",Channel 4,,13.0,,"Welford Park, Berkshire"
+17,2026,,"['Alison Hammond', 'Noel Fielding']","['Nigella Lawson', 'Paul Hollywood']",Channel 4,,,,"Welford Park, Berkshire"

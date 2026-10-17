@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s08_peter",
+    "series_number": 8,
+    "name": "Peter Abatan",
+    "age": 52,
+    "occupation": "IT Programme Manager",
+    "hometown": "Southend, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s08_chris",
+    "series_number": 8,
+    "name": "Chris Geiger",
+    "age": 50,
+    "occupation": "Software Developer",
+    "hometown": "Bristol, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s08_flo",
+    "series_number": 8,
+    "name": "Flo Atkins",
+    "age": 71,
+    "occupation": "Retired",
+    "hometown": "Merseyside, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s08_tom",
+    "series_number": 8,
+    "name": "Tom Hetherington",
+    "age": 29,
+    "occupation": "Architect",
+    "hometown": "Edinburgh, Scotland",
+    "overall_placement": 9,
+    "raw_placement_text": "9th"
+  },
+  {
+    "baker_id": "s08_james",
+    "series_number": 8,
+    "name": "James Hillery",
+    "age": 46,
+    "occupation": "Banker",
+    "hometown": "Brentwood, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s08_julia",
+    "series_number": 8,
+    "name": "Julia Chernogorova",
+    "age": 21,
+    "occupation": "Aviation Broker",
+    "hometown": "Crawley, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s08_chuenyan",
+    "series_number": 8,
+    "name": "Chuen-Yan \"Yan\" Tsou",
+    "age": 46,
+    "occupation": "Laboratory Research Scientist",
+    "hometown": "North London, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s08_liam",
+    "series_number": 8,
+    "name": "Liam Charles",
+    "age": 19,
+    "occupation": "Student",
+    "hometown": "North London, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s08_stacey",
+    "series_number": 8,
+    "name": "Stacey Hart",
+    "age": 42,
+    "occupation": "Former School Teacher",
+    "hometown": "Radlett, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s08_kate",
+    "series_number": 8,
+    "name": "Kate Lyon",
+    "age": 29,
+    "occupation": "Health and Safety Inspector",
+    "hometown": "Merseyside, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s08_steven",
+    "series_number": 8,
+    "name": "Steven Carter-Bailey",
+    "age": 34,
+    "occupation": "Marketer",
+    "hometown": "Watford, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s08_sophie",
+    "series_number": 8,
+    "name": "Sophie Faldo",
+    "age": 33,
+    "occupation": "Former Army Officer and Trainee Stunt Woman",
+    "hometown": "West Molesey, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

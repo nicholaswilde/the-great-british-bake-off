@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s13e01",
+    "series_number": 13,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2022-09-13"
+  },
+  {
+    "episode_id": "s13e02",
+    "series_number": 13,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2022-09-20"
+  },
+  {
+    "episode_id": "s13e03",
+    "series_number": 13,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2022-09-27"
+  },
+  {
+    "episode_id": "s13e04",
+    "series_number": 13,
+    "episode_number": 4,
+    "theme": "Mexican",
+    "air_date": "2022-10-04"
+  },
+  {
+    "episode_id": "s13e05",
+    "series_number": 13,
+    "episode_number": 5,
+    "theme": "Desserts",
+    "air_date": "2022-10-11"
+  },
+  {
+    "episode_id": "s13e06",
+    "series_number": 13,
+    "episode_number": 6,
+    "theme": "Halloween",
+    "air_date": "2022-10-18"
+  },
+  {
+    "episode_id": "s13e07",
+    "series_number": 13,
+    "episode_number": 7,
+    "theme": "Custard",
+    "air_date": "2022-10-25"
+  },
+  {
+    "episode_id": "s13e08",
+    "series_number": 13,
+    "episode_number": 8,
+    "theme": "Pastry (Quarterfinals)",
+    "air_date": "2022-11-01"
+  },
+  {
+    "episode_id": "s13e09",
+    "series_number": 13,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2022-11-08"
+  },
+  {
+    "episode_id": "s13e10",
+    "series_number": 13,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2022-11-15"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s02_keith",
+    "series_number": 2,
+    "name": "Keith Batsford",
+    "age": 31,
+    "occupation": "House husband",
+    "hometown": "Arlesey",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s02_simon",
+    "series_number": 2,
+    "name": "Simon Blackwell",
+    "age": 31,
+    "occupation": "Rugby Coach",
+    "hometown": "Norfolk",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s02_ian",
+    "series_number": 2,
+    "name": "Ian Vallance",
+    "age": 40,
+    "occupation": "Fundraiser for English Heritage",
+    "hometown": "Dunstable",
+    "overall_placement": 9,
+    "raw_placement_text": "9th (tie)"
+  },
+  {
+    "baker_id": "s02_urvashi",
+    "series_number": 2,
+    "name": "Urvashi Roe",
+    "age": 40,
+    "occupation": "Head of Marketing",
+    "hometown": "Enfield",
+    "overall_placement": 9,
+    "raw_placement_text": "9th (tie)"
+  },
+  {
+    "baker_id": "s02_ben",
+    "series_number": 2,
+    "name": "Ben Frazer",
+    "age": 31,
+    "occupation": "Graphic Designer",
+    "hometown": "Northampton",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s02_jason",
+    "series_number": 2,
+    "name": "Jason White",
+    "age": 19,
+    "occupation": "Civil Engineering Student",
+    "hometown": "Croydon",
+    "overall_placement": 6,
+    "raw_placement_text": "6th (tie)"
+  },
+  {
+    "baker_id": "s02_robert",
+    "series_number": 2,
+    "name": "Robert Billington",
+    "age": 25,
+    "occupation": "Photographer",
+    "hometown": "London",
+    "overall_placement": 6,
+    "raw_placement_text": "6th (tie)"
+  },
+  {
+    "baker_id": "s02_yasmin",
+    "series_number": 2,
+    "name": "Yasmin Limbert",
+    "age": 43,
+    "occupation": "Childminder",
+    "hometown": "West Kirby",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s02_janet",
+    "series_number": 2,
+    "name": "Janet Basu",
+    "age": 63,
+    "occupation": "Teacher of Modern Languages",
+    "hometown": "Formby",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s02_holly",
+    "series_number": 2,
+    "name": "Holly Bell",
+    "age": 31,
+    "occupation": "Advertising executive",
+    "hometown": "Leicester",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s02_maryanne",
+    "series_number": 2,
+    "name": "Mary-Anne Boermans",
+    "age": 45,
+    "occupation": "Housewife",
+    "hometown": "Kidderminster",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s02_joanne",
+    "series_number": 2,
+    "name": "Joanne \"Jo\" Wheatley",
+    "age": 41,
+    "occupation": "Housewife",
+    "hometown": "Ongar",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s14_amos",
+    "series_number": 14,
+    "name": "Amos Lilley",
+    "age": 43,
+    "occupation": "Deli and grocery manager",
+    "hometown": "London, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s14_keith",
+    "series_number": 14,
+    "name": "Keith Barron",
+    "age": 60,
+    "occupation": "Chartered accountant",
+    "hometown": "Hampshire, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s14_abbi",
+    "series_number": 14,
+    "name": "Abbi Lawson",
+    "age": 27,
+    "occupation": "Delivery driver",
+    "hometown": "Cumbria, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s14_nicky",
+    "series_number": 14,
+    "name": "Nicky Laceby",
+    "age": 52,
+    "occupation": "Retired cabin crew and pet-therapy charity volunteer",
+    "hometown": "Shropshire, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th (tie)"
+  },
+  {
+    "baker_id": "s14_rowan",
+    "series_number": 14,
+    "name": "Rowan Claughton",
+    "age": 21,
+    "occupation": "English literature student",
+    "hometown": "West Yorkshire, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th (tie)"
+  },
+  {
+    "baker_id": "s14_dana",
+    "series_number": 14,
+    "name": "Dana Conway",
+    "age": 25,
+    "occupation": "Database administrator",
+    "hometown": "Essex, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s14_saku",
+    "series_number": 14,
+    "name": "Saku Chandrasekara",
+    "age": 50,
+    "occupation": "Intelligence analyst",
+    "hometown": "Herefordshire, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s14_cristy",
+    "series_number": 14,
+    "name": "Cristy Sharp",
+    "age": 33,
+    "occupation": "Personal assistant",
+    "hometown": "London, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s14_tasha",
+    "series_number": 14,
+    "name": "Tasha Stones",
+    "age": 27,
+    "occupation": "Children's charity participation officer",
+    "hometown": "Bristol, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s14_dan",
+    "series_number": 14,
+    "name": "Dan Hunter",
+    "age": 42,
+    "occupation": "Civil engineering resource planner",
+    "hometown": "Cheshire, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s14_josh",
+    "series_number": 14,
+    "name": "Josh Smalley",
+    "age": 27,
+    "occupation": "Chemical biology post-doctoral research associate",
+    "hometown": "Leicestershire, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s14_matty",
+    "series_number": 14,
+    "name": "Matty Edgell",
+    "age": 28,
+    "occupation": "PE and science teacher",
+    "hometown": "Cambridgeshire, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

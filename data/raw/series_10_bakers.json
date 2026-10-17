@@ -1,0 +1,132 @@
+[
+  {
+    "baker_id": "s10_dan",
+    "series_number": 10,
+    "name": "Dan Chambers",
+    "age": 32,
+    "occupation": "Support worker",
+    "hometown": "Rotherham, England",
+    "overall_placement": 13,
+    "raw_placement_text": "13th"
+  },
+  {
+    "baker_id": "s10_jamie",
+    "series_number": 10,
+    "name": "Jamie Finn",
+    "age": 20,
+    "occupation": "Part-time waiter",
+    "hometown": "Surrey, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s10_amelia",
+    "series_number": 10,
+    "name": "Amelia Le Bruin",
+    "age": 24,
+    "occupation": "Fashion designer",
+    "hometown": "Halifax, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s10_phil",
+    "series_number": 10,
+    "name": "Phil Thorne",
+    "age": 56,
+    "occupation": "HGV driver",
+    "hometown": "Rainham, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s10_helena",
+    "series_number": 10,
+    "name": "Helena Garcia",
+    "age": 40,
+    "occupation": "Online project manager",
+    "hometown": "Leeds, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th (tie)"
+  },
+  {
+    "baker_id": "s10_michelle",
+    "series_number": 10,
+    "name": "Michelle Evans-Fecci",
+    "age": 35,
+    "occupation": "Print shop administrator",
+    "hometown": "Tenby, Wales",
+    "overall_placement": 8,
+    "raw_placement_text": "8th (tie)"
+  },
+  {
+    "baker_id": "s10_priya",
+    "series_number": 10,
+    "name": "Priya O'Shea",
+    "age": 34,
+    "occupation": "Marketing consultant",
+    "hometown": "Leicester, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s10_michael",
+    "series_number": 10,
+    "name": "Michael Chakraverty",
+    "age": 26,
+    "occupation": "Theatre manager/fitness instructor",
+    "hometown": "Stratford-upon-Avon, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s10_henry",
+    "series_number": 10,
+    "name": "Henry Bird",
+    "age": 20,
+    "occupation": "Student",
+    "hometown": "Durham, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s10_rosie",
+    "series_number": 10,
+    "name": "Rosie Brandreth-Poynter",
+    "age": 28,
+    "occupation": "Veterinary surgeon",
+    "hometown": "Somerset, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s10_alice",
+    "series_number": 10,
+    "name": "Alice Fevronia",
+    "age": 28,
+    "occupation": "Geography teacher",
+    "hometown": "Essex, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s10_steph",
+    "series_number": 10,
+    "name": "Steph Blackwell",
+    "age": 28,
+    "occupation": "Shop assistant",
+    "hometown": "Chester, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s10_david",
+    "series_number": 10,
+    "name": "David Atherton",
+    "age": 36,
+    "occupation": "International health adviser",
+    "hometown": "Whitby, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

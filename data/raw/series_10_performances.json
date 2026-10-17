@@ -1,0 +1,802 @@
+[
+  {
+    "performance_id": "s10e01_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e01",
+    "signature_dish": "Gingerbread Fruit Cake Wreath",
+    "technical_rank": 5,
+    "showstopper_dish": "Like a Child in a Sweetshop Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_amelia",
+    "baker_id": "s10_amelia",
+    "episode_id": "s10e01",
+    "signature_dish": "Christmas Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Carousel Birthday Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e01",
+    "signature_dish": "Squishy Squashy Fruit Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "Snakey Birthday Cakey",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_dan",
+    "baker_id": "s10_dan",
+    "episode_id": "s10e01",
+    "signature_dish": "Jamaican Rum Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "Pirate Island Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_helena",
+    "baker_id": "s10_helena",
+    "episode_id": "s10e01",
+    "signature_dish": "Fruit Bat Cake",
+    "technical_rank": 12,
+    "showstopper_dish": "Away with the Fairies Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_henry",
+    "baker_id": "s10_henry",
+    "episode_id": "s10e01",
+    "signature_dish": "Wood Street Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Secret Woodland Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_jamie",
+    "baker_id": "s10_jamie",
+    "episode_id": "s10e01",
+    "signature_dish": "Easter Simnel Cake",
+    "technical_rank": 13,
+    "showstopper_dish": "Salted Caramel Schnauzer Birthday Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_michael",
+    "baker_id": "s10_michael",
+    "episode_id": "s10e01",
+    "signature_dish": "Cup of Chai Cake",
+    "technical_rank": 11,
+    "showstopper_dish": "Treasure Chest Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_michelle",
+    "baker_id": "s10_michelle",
+    "episode_id": "s10e01",
+    "signature_dish": "Bara Brith Teulu Ni (Our Family's Bara Brith)",
+    "technical_rank": 6,
+    "showstopper_dish": "Tŷ Tylwyth Teg (Fairy House Cake)",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_phil",
+    "baker_id": "s10_phil",
+    "episode_id": "s10e01",
+    "signature_dish": "Spiced Fruit Cake with Rum Glaze",
+    "technical_rank": 8,
+    "showstopper_dish": "Retro Rocket Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_priya",
+    "baker_id": "s10_priya",
+    "episode_id": "s10e01",
+    "signature_dish": "Sunshine Fruit Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "Once Upon a Time Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e01",
+    "signature_dish": "Spicy Chai Loaf",
+    "technical_rank": 2,
+    "showstopper_dish": "Magical Jungle Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e01_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e01",
+    "signature_dish": "Great Grandma's Fruit Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "A Sundae on the Beach Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e02",
+    "signature_dish": "Honeycomb Peanut Mallow Bars",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate and Coconut New Zealand Lamb",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_amelia",
+    "baker_id": "s10_amelia",
+    "episode_id": "s10e02",
+    "signature_dish": "Pistachio, Almond & Raisin Nougat Biscuit Bars",
+    "technical_rank": 9,
+    "showstopper_dish": "Swimming with Dolphins",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e02",
+    "signature_dish": "Coco-nutty Chocolate Bars",
+    "technical_rank": 2,
+    "showstopper_dish": "Wedding Spray",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_helena",
+    "baker_id": "s10_helena",
+    "episode_id": "s10e02",
+    "signature_dish": "Wicked Witch Fingers",
+    "technical_rank": 12,
+    "showstopper_dish": "Caught in a Spider's Web",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_henry",
+    "baker_id": "s10_henry",
+    "episode_id": "s10e02",
+    "signature_dish": "Coffee, Cardamom & Hazelnut Bars",
+    "technical_rank": 6,
+    "showstopper_dish": "Chapel Organ",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_jamie",
+    "baker_id": "s10_jamie",
+    "episode_id": "s10e02",
+    "signature_dish": "Cherry Caramel Shortbread Biscuit Bars",
+    "technical_rank": 11,
+    "showstopper_dish": "Biscuit Guitar",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_michael",
+    "baker_id": "s10_michael",
+    "episode_id": "s10e02",
+    "signature_dish": "Lemon & Rosemary Biscuit Bars",
+    "technical_rank": 4,
+    "showstopper_dish": "Hamish the Highland Cow",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_michelle",
+    "baker_id": "s10_michelle",
+    "episode_id": "s10e02",
+    "signature_dish": "Bakewell Bars",
+    "technical_rank": 8,
+    "showstopper_dish": "Dewi y Ddraig Cymraeg – Dewi the Welsh Dragon",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_phil",
+    "baker_id": "s10_phil",
+    "episode_id": "s10e02",
+    "signature_dish": "Orange, Cranberry & White Chocolate Fudge Bars",
+    "technical_rank": 3,
+    "showstopper_dish": "Tina the Tortoise",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_priya",
+    "baker_id": "s10_priya",
+    "episode_id": "s10e02",
+    "signature_dish": "Ruby Barfi Biscuit Bars",
+    "technical_rank": 7,
+    "showstopper_dish": "The Beast of Rocky Mountain",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e02",
+    "signature_dish": "Virgin Mojito Biscuit Bars",
+    "technical_rank": 5,
+    "showstopper_dish": "My Favourite Chicken – A Celebration of Legs",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e02_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e02",
+    "signature_dish": "Chocolate, Caramel Macchiato Biscuit Bars",
+    "technical_rank": 10,
+    "showstopper_dish": "Ginger the Cat",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e03",
+    "signature_dish": "Baklava Tear & Share",
+    "technical_rank": 7,
+    "showstopper_dish": "Global Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_amelia",
+    "baker_id": "s10_amelia",
+    "episode_id": "s10e03",
+    "signature_dish": "Chorizo Brunch Tear & Share",
+    "technical_rank": 11,
+    "showstopper_dish": "Caterpillar Transformation",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e03",
+    "signature_dish": "Cinnamon Swirl Tear & Share",
+    "technical_rank": 2,
+    "showstopper_dish": "Trio of African Masks",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_helena",
+    "baker_id": "s10_helena",
+    "episode_id": "s10e03",
+    "signature_dish": "Frosted Cinnamon and Pecan Tear & Share",
+    "technical_rank": 8,
+    "showstopper_dish": "Every Bread is Halloween",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_henry",
+    "baker_id": "s10_henry",
+    "episode_id": "s10e03",
+    "signature_dish": "Chicken and Pesto Tear & Share",
+    "technical_rank": 1,
+    "showstopper_dish": "Herb Garden",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_michael",
+    "baker_id": "s10_michael",
+    "episode_id": "s10e03",
+    "signature_dish": "Keralan Star Bread Tear & Share",
+    "technical_rank": 6,
+    "showstopper_dish": "Mediterranean Camp Fire",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_michelle",
+    "baker_id": "s10_michelle",
+    "episode_id": "s10e03",
+    "signature_dish": "Noson Caws (Cheese Night)",
+    "technical_rank": 5,
+    "showstopper_dish": "Gardd Ni (Our Garden)",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_phil",
+    "baker_id": "s10_phil",
+    "episode_id": "s10e03",
+    "signature_dish": "Pancetta and Cheese Focaccia Tear & Share",
+    "technical_rank": 10,
+    "showstopper_dish": "Winner's Wreath",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_priya",
+    "baker_id": "s10_priya",
+    "episode_id": "s10e03",
+    "signature_dish": "Smokey Jalapeño Tear & Share",
+    "technical_rank": 4,
+    "showstopper_dish": "Bird Boules",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e03",
+    "signature_dish": "Chilli and Manchego Tear & Share",
+    "technical_rank": 9,
+    "showstopper_dish": "Bread Safari",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e03_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e03",
+    "signature_dish": "Sun-Dried Tomato and Pesto Star Tear & Share",
+    "technical_rank": 3,
+    "showstopper_dish": "Hand-Tied Bouquet of Flowers",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e04",
+    "signature_dish": "Leafy Yoghurt Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "Afternoon Tea",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e04",
+    "signature_dish": "A Kick of Limoncello Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "Flavours of India Mishti",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_helena",
+    "baker_id": "s10_helena",
+    "episode_id": "s10e04",
+    "signature_dish": "Ghost Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "Ye Olde English Sweet Shoppe Mishti",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_henry",
+    "baker_id": "s10_henry",
+    "episode_id": "s10e04",
+    "signature_dish": "Ode to a German Breakfast Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "Seaside Mishti",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_michael",
+    "baker_id": "s10_michael",
+    "episode_id": "s10e04",
+    "signature_dish": "Cheesecake Surprise",
+    "technical_rank": 7,
+    "showstopper_dish": "Flag of India Mishti",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_michelle",
+    "baker_id": "s10_michelle",
+    "episode_id": "s10e04",
+    "signature_dish": "Homely Rhubarb Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "Home Comforts Mishti",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_phil",
+    "baker_id": "s10_phil",
+    "episode_id": "s10e04",
+    "signature_dish": "Trucking Lovely Rose Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "A Corner of My Garden Mishti",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_priya",
+    "baker_id": "s10_priya",
+    "episode_id": "s10e04",
+    "signature_dish": "Choc-chip Banana Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "Flavours of My Childhood Mishti",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e04",
+    "signature_dish": "A Good Dose of Limoncello Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Cocktails & Canapés Mishti",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e04_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e04",
+    "signature_dish": "Answer to Everything Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Pink and Pretty Mishti",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e05",
+    "signature_dish": "Chocolate & Orange Custard Pies",
+    "technical_rank": 6,
+    "showstopper_dish": "Piña Colada Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e05",
+    "signature_dish": "Fancy Custards",
+    "technical_rank": 9,
+    "showstopper_dish": "Amaretto Sour Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_helena",
+    "baker_id": "s10_helena",
+    "episode_id": "s10e05",
+    "signature_dish": "Lemon and Lavender Pies",
+    "technical_rank": 1,
+    "showstopper_dish": "Vampire's Kiss Raspberry Vodka Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_henry",
+    "baker_id": "s10_henry",
+    "episode_id": "s10e05",
+    "signature_dish": "1920's Pies",
+    "technical_rank": 3,
+    "showstopper_dish": "White Russian Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_michael",
+    "baker_id": "s10_michael",
+    "episode_id": "s10e05",
+    "signature_dish": "Mango, Lime & Ginger Pies",
+    "technical_rank": 8,
+    "showstopper_dish": "Brambling Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_michelle",
+    "baker_id": "s10_michelle",
+    "episode_id": "s10e05",
+    "signature_dish": "Blueberry & White Chocolate Crème Brûlée Pies",
+    "technical_rank": 7,
+    "showstopper_dish": "My Little Sister the Dancing Queen's Piña Colada Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_priya",
+    "baker_id": "s10_priya",
+    "episode_id": "s10e05",
+    "signature_dish": "Lemon & Raspberry Ripple Pies",
+    "technical_rank": 2,
+    "showstopper_dish": "Meena Colada Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e05",
+    "signature_dish": "Little Blackberry Pies",
+    "technical_rank": 5,
+    "showstopper_dish": "White Russian Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e05_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e05",
+    "signature_dish": "Zesty Citrus Custard Pies",
+    "technical_rank": 4,
+    "showstopper_dish": "Sour Lime Piña Colada Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e06_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e06",
+    "signature_dish": "Black Forest Meringue",
+    "technical_rank": 1,
+    "showstopper_dish": "Tiramisu Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e06_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e06",
+    "signature_dish": "Spiced Meringue Surprise",
+    "technical_rank": 2,
+    "showstopper_dish": "Delightful Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e06_s10_henry",
+    "baker_id": "s10_henry",
+    "episode_id": "s10e06",
+    "signature_dish": "Towering Meringue Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Bonfire Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e06_s10_michael",
+    "baker_id": "s10_michael",
+    "episode_id": "s10e06",
+    "signature_dish": "Dark Chocolate Meringue Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "Black Forest Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e06_s10_priya",
+    "baker_id": "s10_priya",
+    "episode_id": "s10e06",
+    "signature_dish": "Family Favourite",
+    "technical_rank": 7,
+    "showstopper_dish": "Summer Fruit Bombe",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e06_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e06",
+    "signature_dish": "Layers of Lime and Raspberry",
+    "technical_rank": 5,
+    "showstopper_dish": "Ruby Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e06_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e06",
+    "signature_dish": "Eton Mess",
+    "technical_rank": 3,
+    "showstopper_dish": "Mirror Bombe",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e07_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e07",
+    "signature_dish": "Lemon, Blueberry & Almond Hot Cross Buns",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate, Orange and Salted Caramel Kaleidoscope Sarawak Style Layered Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e07_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e07",
+    "signature_dish": "Kozunak Plaits",
+    "technical_rank": 2,
+    "showstopper_dish": "Sarawak Style Layer Cake Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e07_s10_henry",
+    "baker_id": "s10_henry",
+    "episode_id": "s10e07",
+    "signature_dish": "Chocolate Kardemummabullar",
+    "technical_rank": 3,
+    "showstopper_dish": "Elegant Present Box",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e07_s10_michael",
+    "baker_id": "s10_michael",
+    "episode_id": "s10e07",
+    "signature_dish": "Figgy Pudding Hot Cross Buns",
+    "technical_rank": 5,
+    "showstopper_dish": "Jamaican Mule Sarawak Style Layer Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e07_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e07",
+    "signature_dish": "Mardi Gras Finnish Semlor Peacock Festival Buns",
+    "technical_rank": 1,
+    "showstopper_dish": "Rainbow Sarawak Style Layer Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e07_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e07",
+    "signature_dish": "Zest and Spice Hot Cross Buns",
+    "technical_rank": 4,
+    "showstopper_dish": "Orange and Chai Spiced Revitalise Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e08_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e08",
+    "signature_dish": "Leek, Apple & Goat's Cheese Tarte Tatin",
+    "technical_rank": 3,
+    "showstopper_dish": "Apple Tree House Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e08_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e08",
+    "signature_dish": "Caramelly Carroty Tarte Tatin",
+    "technical_rank": 1,
+    "showstopper_dish": "Whitby Fish Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e08_s10_henry",
+    "baker_id": "s10_henry",
+    "episode_id": "s10e08",
+    "signature_dish": "Crab, Tomato & New Potato Tarte Tatin",
+    "technical_rank": 5,
+    "showstopper_dish": "Chandelier Picnic Pie",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e08_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e08",
+    "signature_dish": "Shallot, Aubergine & Goat's Cheese Spiced Tarte Tatin",
+    "technical_rank": 2,
+    "showstopper_dish": "Rapunzel's Tower",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e08_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e08",
+    "signature_dish": "Caramelised Onion & Goat's Cheese Tarte Tatin",
+    "technical_rank": 4,
+    "showstopper_dish": "Curried Chickpea & Potato Carousel Pie",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e09_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e09",
+    "signature_dish": "Mocha, Hazelnut & Orange Domed Tarts",
+    "technical_rank": 4,
+    "showstopper_dish": "Save Our Oceans",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e09_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e09",
+    "signature_dish": "Aperitif Domed Tarts",
+    "technical_rank": 2,
+    "showstopper_dish": "Greenhouse Growing Moss",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e09_s10_rosie",
+    "baker_id": "s10_rosie",
+    "episode_id": "s10e09",
+    "signature_dish": "Lemon, Raspberry & Mint Domed Tarts",
+    "technical_rank": 1,
+    "showstopper_dish": "Time with Family",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e09_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e09",
+    "signature_dish": "Raspberry, Lemon & White Chocolate Domed Tarts",
+    "technical_rank": 3,
+    "showstopper_dish": "A Night at the Opera",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e10_s10_alice",
+    "baker_id": "s10_alice",
+    "episode_id": "s10e10",
+    "signature_dish": "Chocolate, Pear, Ginger and Maple Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "End of the School Year Celebration Picnic",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e10_s10_david",
+    "baker_id": "s10_david",
+    "episode_id": "s10e10",
+    "signature_dish": "Chocolate, Armagnac and Prune Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Peachy Pic-Nik",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s10e10_s10_steph",
+    "baker_id": "s10_steph",
+    "episode_id": "s10e10",
+    "signature_dish": "Black Forest Chocolate Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "Picnic in the Park",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

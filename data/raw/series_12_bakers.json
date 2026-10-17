@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s12_tom",
+    "series_number": 12,
+    "name": "Tom Fletcher",
+    "age": 28,
+    "occupation": "Software developer",
+    "hometown": "Maidstone, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s12_jairzinho",
+    "series_number": 12,
+    "name": "Jairzinho Parris",
+    "age": 51,
+    "occupation": "Head of Finance",
+    "hometown": "London, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s12_rochica",
+    "series_number": 12,
+    "name": "Rochica Copeland",
+    "age": 27,
+    "occupation": "Junior HR business partner",
+    "hometown": "Birmingham, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s12_maggie",
+    "series_number": 12,
+    "name": "Maggie Richardson",
+    "age": 70,
+    "occupation": "Retired nurse and midwife",
+    "hometown": "Poole, England",
+    "overall_placement": 9,
+    "raw_placement_text": "9th"
+  },
+  {
+    "baker_id": "s12_freya",
+    "series_number": 12,
+    "name": "Freya Cox",
+    "age": 19,
+    "occupation": "Student",
+    "hometown": "Scarborough, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s12_amanda",
+    "series_number": 12,
+    "name": "Amanda Georgiou",
+    "age": 56,
+    "occupation": "Metropolitan Police detective",
+    "hometown": "London, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s12_george",
+    "series_number": 12,
+    "name": "George Aristidou",
+    "age": 34,
+    "occupation": "Shared lives coordinator",
+    "hometown": "London, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s12_lizzie",
+    "series_number": 12,
+    "name": "Lizzie Acker",
+    "age": 28,
+    "occupation": "Car production operative",
+    "hometown": "Liverpool, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s12_jrgen",
+    "series_number": 12,
+    "name": "Jürgen Krauss",
+    "age": 56,
+    "occupation": "Physicist",
+    "hometown": "Brighton, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s12_chigs",
+    "series_number": 12,
+    "name": "Chigs Parmar",
+    "age": 40,
+    "occupation": "Sales manager",
+    "hometown": "Leicester, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s12_crystelle",
+    "series_number": 12,
+    "name": "Crystelle Pereira",
+    "age": 26,
+    "occupation": "Client relationship manager",
+    "hometown": "London, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s12_giuseppe",
+    "series_number": 12,
+    "name": "Giuseppe Dell'Anno",
+    "age": 45,
+    "occupation": "Chief engineer",
+    "hometown": "Bristol, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

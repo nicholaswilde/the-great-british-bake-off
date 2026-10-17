@@ -1,0 +1,782 @@
+[
+  {
+    "performance_id": "s04e01_s04_ali",
+    "baker_id": "s04_ali",
+    "episode_id": "s04e01",
+    "signature_dish": "Rose and Pistachio Cake",
+    "technical_rank": 11,
+    "showstopper_dish": "Chocolate, Raspberry and Passion Fruit Engagement Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e01",
+    "signature_dish": "Grapefruit Sandwich Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "Chocolate Cherry Indulgence",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_christine",
+    "baker_id": "s04_christine",
+    "episode_id": "s04e01",
+    "signature_dish": "Strawberry, Vanilla and Rosewater Summer Basket",
+    "technical_rank": 3,
+    "showstopper_dish": "Chocolate and Orange 'Fripperous' Hat Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_deborah",
+    "baker_id": "s04_deborah",
+    "episode_id": "s04e01",
+    "signature_dish": "Pineapple Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "'Coffee Time'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e01",
+    "signature_dish": "Giant Jam Sandwich",
+    "technical_rank": 7,
+    "showstopper_dish": "Secret Squirrel Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_glenn",
+    "baker_id": "s04_glenn",
+    "episode_id": "s04e01",
+    "signature_dish": "Strawberries and Cream Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Almond and Espresso Chocolate Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_howard",
+    "baker_id": "s04_howard",
+    "episode_id": "s04e01",
+    "signature_dish": "Passion Fruit and Coconut Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "Black Forest Revisited",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e01",
+    "signature_dish": "Blood Orange Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "Chocolate, Raspberry & Basil Layer Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_lucy",
+    "baker_id": "s04_lucy",
+    "episode_id": "s04e01",
+    "signature_dish": "Timperley Early Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "Thyme 'Wildwood' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_mark",
+    "baker_id": "s04_mark",
+    "episode_id": "s04e01",
+    "signature_dish": "Lemon and Poppy Seed Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "Chocolate Monster",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_robert",
+    "baker_id": "s04_robert",
+    "episode_id": "s04e01",
+    "signature_dish": "Pecan and Apple Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Raspberry Chocolate Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e01",
+    "signature_dish": "Rhubarb and Custard Sandwich Cake",
+    "technical_rank": 12,
+    "showstopper_dish": "Chocolate and Ginger Night Sky Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e01_s04_toby",
+    "baker_id": "s04_toby",
+    "episode_id": "s04e01",
+    "signature_dish": "Spiced and Iced Carrot Cake",
+    "technical_rank": 13,
+    "showstopper_dish": "Two Tiered Chocolate Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_ali",
+    "baker_id": "s04_ali",
+    "episode_id": "s04e02",
+    "signature_dish": "Italian Grissini",
+    "technical_rank": 9,
+    "showstopper_dish": "Sweet and Savoury Yin Yang Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e02",
+    "signature_dish": "Fennel and Chilli Breadsticks",
+    "technical_rank": 11,
+    "showstopper_dish": "Five Strand Christmas Wreath",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_christine",
+    "baker_id": "s04_christine",
+    "episode_id": "s04e02",
+    "signature_dish": "Mediterranean Breadsticks with Oregano",
+    "technical_rank": 4,
+    "showstopper_dish": "Double Plaited Loaf",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_deborah",
+    "baker_id": "s04_deborah",
+    "episode_id": "s04e02",
+    "signature_dish": "Fennel and Chili Breadsticks",
+    "technical_rank": 8,
+    "showstopper_dish": "Walnut Fleur Loaf",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e02",
+    "signature_dish": "Giant Matchsticks",
+    "technical_rank": 2,
+    "showstopper_dish": "Sailor's Knot",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_glenn",
+    "baker_id": "s04_glenn",
+    "episode_id": "s04e02",
+    "signature_dish": "Rosemary and Parmesan Grissini",
+    "technical_rank": 7,
+    "showstopper_dish": "Harvest Crown",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_howard",
+    "baker_id": "s04_howard",
+    "episode_id": "s04e02",
+    "signature_dish": "Moroccan Breadsticks",
+    "technical_rank": 10,
+    "showstopper_dish": "Picasso Sun Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e02",
+    "signature_dish": "Nigella Seed and Parmesan Breadsticks",
+    "technical_rank": 1,
+    "showstopper_dish": "Peace Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_lucy",
+    "baker_id": "s04_lucy",
+    "episode_id": "s04e02",
+    "signature_dish": "Grissini with Salt",
+    "technical_rank": 12,
+    "showstopper_dish": "Roasted Tomato Bread",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_mark",
+    "baker_id": "s04_mark",
+    "episode_id": "s04e02",
+    "signature_dish": "Rosemary & Raisin Breadsticks",
+    "technical_rank": 6,
+    "showstopper_dish": "Sage & Garlic Plait",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_robert",
+    "baker_id": "s04_robert",
+    "episode_id": "s04e02",
+    "signature_dish": "Twisty Rye Bread Sticks",
+    "technical_rank": 5,
+    "showstopper_dish": "Tribute Loaf",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e02_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e02",
+    "signature_dish": "Mexican Breadsticks",
+    "technical_rank": 3,
+    "showstopper_dish": "White Chocolate and Orange Peacock Bread",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_ali",
+    "baker_id": "s04_ali",
+    "episode_id": "s04e03",
+    "signature_dish": "Coconut, Raspberry and Lemon Meringue Trifle",
+    "technical_rank": 5,
+    "showstopper_dish": "Vanilla Latte Mini Cakes Lime & Mint Shortbread Pops",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e03",
+    "signature_dish": "Orange and Ginger Trifle",
+    "technical_rank": 10,
+    "showstopper_dish": "Limoncello and Blueberry Bursts Millionaire Shortbread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_christine",
+    "baker_id": "s04_christine",
+    "episode_id": "s04e03",
+    "signature_dish": "Caribbean Pina Colada Trifle",
+    "technical_rank": 4,
+    "showstopper_dish": "Ninety Niners Sachertorte Parcels",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_deborah",
+    "baker_id": "s04_deborah",
+    "episode_id": "s04e03",
+    "signature_dish": "Tropical TrifleA",
+    "technical_rank": 9,
+    "showstopper_dish": "Canelé Cherry and Chocolate Cakes Rose Cookies",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e03",
+    "signature_dish": "Apple and Blackberry Crumble Trifle",
+    "technical_rank": 8,
+    "showstopper_dish": "'Ballet Bites' Ginger Nutcrackers Sugar Plum Fairy Cakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_glenn",
+    "baker_id": "s04_glenn",
+    "episode_id": "s04e03",
+    "signature_dish": "Raspberry and Almond Trifle",
+    "technical_rank": 1,
+    "showstopper_dish": "Billionaire Bouchées Orange Financiers",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_howard",
+    "baker_id": "s04_howard",
+    "episode_id": "s04e03",
+    "signature_dish": "Caramel and Apple TrifleA",
+    "technical_rank": 7,
+    "showstopper_dish": "Black Coffee and Cardamom Cakes White Stilton and Pear Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e03",
+    "signature_dish": "Peach, Almond and Ginger Trifle",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate Pistachio Financiers Lemon Bergamot Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_mark",
+    "baker_id": "s04_mark",
+    "episode_id": "s04e03",
+    "signature_dish": "Ginger, Mango and Passion Fruit Trifle",
+    "technical_rank": 11,
+    "showstopper_dish": "Rose and Pistachio Macarons Chocolate and Raspberry Bites",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_robert",
+    "baker_id": "s04_robert",
+    "episode_id": "s04e03",
+    "signature_dish": "Rhubarb and Orange Trifle",
+    "technical_rank": 2,
+    "showstopper_dish": "Almond Friands Turón Macarons",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e03_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e03",
+    "signature_dish": "Desert Island Trifle",
+    "technical_rank": 3,
+    "showstopper_dish": "Lemon Shortbread and White Chocolate Seashells Blackberry and Chocolate Layer Cakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_ali",
+    "baker_id": "s04_ali",
+    "episode_id": "s04e04",
+    "signature_dish": "Apple and Ginger Pie with a Pecan and Walnut Shortcrust Pastry",
+    "technical_rank": 8,
+    "showstopper_dish": "Orange, Cardamom and Date M'Hanncha",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e04",
+    "signature_dish": "Mamgu's Cherry-Apple Tart",
+    "technical_rank": 2,
+    "showstopper_dish": "Moroccan Vegetable Filo Feast",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_christine",
+    "baker_id": "s04_christine",
+    "episode_id": "s04e04",
+    "signature_dish": "Granny Rogers' Apple, Plum & Cinnamon Country Pie",
+    "technical_rank": 7,
+    "showstopper_dish": "Roasted Vegetable Filo Pie with Feta Cheese",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e04",
+    "signature_dish": "Peach Pie In the Sky",
+    "technical_rank": 1,
+    "showstopper_dish": "Cherry Tree Baklava Filo Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_glenn",
+    "baker_id": "s04_glenn",
+    "episode_id": "s04e04",
+    "signature_dish": "Apple & Maple Syrup Pie",
+    "technical_rank": 9,
+    "showstopper_dish": "Spanakopita",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_howard",
+    "baker_id": "s04_howard",
+    "episode_id": "s04e04",
+    "signature_dish": "Apple Pie with Sage Pastry",
+    "technical_rank": 5,
+    "showstopper_dish": "Fresh Fig and Feta Filo Flan",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e04",
+    "signature_dish": "Pecan and Rosemary Caramel Apple Pie",
+    "technical_rank": 4,
+    "showstopper_dish": "Chicken, Bacon and Butternut Squash Pie",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_robert",
+    "baker_id": "s04_robert",
+    "episode_id": "s04e04",
+    "signature_dish": "Apple and Pear Pie with Thyme",
+    "technical_rank": 3,
+    "showstopper_dish": "Spanakopita with St George's Mushrooms",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e04_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e04",
+    "signature_dish": "Apple and Marzipan Pie",
+    "technical_rank": 6,
+    "showstopper_dish": "Rose, Almond and Raspberry Filo Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e05_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e05",
+    "signature_dish": "Chocolate, Cherry and Hazelnut Brownies",
+    "technical_rank": 5,
+    "showstopper_dish": "Tiered Macaron and Sugar Dough Biscuit Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e05_s04_christine",
+    "baker_id": "s04_christine",
+    "episode_id": "s04e05",
+    "signature_dish": "Mixed Berry and Almond Crumble Traybake",
+    "technical_rank": 1,
+    "showstopper_dish": "Shortbread Bavarian Clock Tower",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e05_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e05",
+    "signature_dish": "Millionaire Banoffee Bonus",
+    "technical_rank": 3,
+    "showstopper_dish": "Biscuit Buttons and Beads",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e05_s04_glenn",
+    "baker_id": "s04_glenn",
+    "episode_id": "s04e05",
+    "signature_dish": "Apricot and Pistachio Tiffin",
+    "technical_rank": 2,
+    "showstopper_dish": "Shortbread and Macaron Helter-Skelter",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e05_s04_howard",
+    "baker_id": "s04_howard",
+    "episode_id": "s04e05",
+    "signature_dish": "Breakfast Traybake",
+    "technical_rank": 8,
+    "showstopper_dish": "Japanese Pagoda Tea Tower",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e05_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e05",
+    "signature_dish": "Cherry and Almond Bakewell Florentine Slice",
+    "technical_rank": 7,
+    "showstopper_dish": "Black and White Viennese Biscuit Stack",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e05_s04_robert",
+    "baker_id": "s04_robert",
+    "episode_id": "s04e05",
+    "signature_dish": "Blueberry & Orange Traybake",
+    "technical_rank": 4,
+    "showstopper_dish": "Orange and Lemon Biscuit Dalek",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e05_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e05",
+    "signature_dish": "Blackberry and Lemon Bakewell Slice",
+    "technical_rank": 6,
+    "showstopper_dish": "'Dropped Ice Cream' Biscuit Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e06_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e06",
+    "signature_dish": "Bara Brith",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate and Rum-Soaked Prune Brioches Cardamom Spiced Lemon Iced Buns",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e06_s04_christine",
+    "baker_id": "s04_christine",
+    "episode_id": "s04e06",
+    "signature_dish": "Oxford Nutty Fruit Loaf",
+    "technical_rank": 4,
+    "showstopper_dish": "Schnecken Buns Vanilla Custard Skolebrød",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e06_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e06",
+    "signature_dish": "Chai Tea Loaf",
+    "technical_rank": 2,
+    "showstopper_dish": "Hot Cross Brioches Rhubarb and Custard Kolaches",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e06_s04_glenn",
+    "baker_id": "s04_glenn",
+    "episode_id": "s04e06",
+    "signature_dish": "Devonshire Panettone",
+    "technical_rank": 5,
+    "showstopper_dish": "Almond and Apricot Brioches Sticky Caramel Kanelbullen",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e06_s04_howard",
+    "baker_id": "s04_howard",
+    "episode_id": "s04e06",
+    "signature_dish": "Date & Hemp Yorkshire Loaf",
+    "technical_rank": 7,
+    "showstopper_dish": "Peachy Buns German Baumschnecken",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e06_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e06",
+    "signature_dish": "Chai Spiced Ginger and Date Tea Loaf",
+    "technical_rank": 3,
+    "showstopper_dish": "Double Chocolate and Hazelnut Brioches Danish Kanelsnurrer",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e06_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e06",
+    "signature_dish": "Citrus Tea Loaf",
+    "technical_rank": 1,
+    "showstopper_dish": "Twisted Swedish Kanelbullar Saffron St. Lucia Buns",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e07_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e07",
+    "signature_dish": "Spring Lamb and Vegetable Suet Pudding with Redcurrant Gravy",
+    "technical_rank": 1,
+    "showstopper_dish": "Nectarine and Frangipane Squares Chocolate and Hazelnut Vol-au-vents Strawberries and Cream Mille-feuille",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e07_s04_christine",
+    "baker_id": "s04_christine",
+    "episode_id": "s04e07",
+    "signature_dish": "Spotted Dick 'With a Kick' and Vanilla Custard Ice Cream",
+    "technical_rank": 6,
+    "showstopper_dish": "Eccles Cakes Fresh Fruit Baskets Lemon Cream Eton Mess Mille-feuille",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e07_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e07",
+    "signature_dish": "Figgy Roll-y Poly Pudding with Caramelised Walnut and Honey Ice-Cream",
+    "technical_rank": 5,
+    "showstopper_dish": "French Framboise Cream Horns Sheet Music Mille-feuille Bass Clef Palmiers",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e07_s04_glenn",
+    "baker_id": "s04_glenn",
+    "episode_id": "s04e07",
+    "signature_dish": "Prune and Armagnac Pudding with Boozy Butterscotch Sauce",
+    "technical_rank": 3,
+    "showstopper_dish": "Caramelised Apple and Marzipan Tartlets Chocolate Elephant Ears Passion Fruit Mille-feuille",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e07_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e07",
+    "signature_dish": "Barberry and Apple Spotted Dick with Maple Syrup and White Chocolate Custard",
+    "technical_rank": 4,
+    "showstopper_dish": "Pear, Malt and Butterscotch Mille-feuille Blackberry and Lemon Verbena Crème Brûlee Custard Tarts Fig, Orange and Thyme Galette",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e07_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e07",
+    "signature_dish": "Plum Jam Roly Poly with Ginger Ice Cream",
+    "technical_rank": 2,
+    "showstopper_dish": "Raspberry and Passion Fruit Mille-feuille Caramelised Apple Lattice Portuguese Custard Tarts",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e08_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e08",
+    "signature_dish": "Potato, Spelt and Rosemary Focaccia",
+    "technical_rank": 4,
+    "showstopper_dish": "Spiced Butternut Squash and Pecan 'Cheese' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e08_s04_christine",
+    "baker_id": "s04_christine",
+    "episode_id": "s04e08",
+    "signature_dish": "Multi-Seeded Loaf with Pumpkin, Sesame and Sunflower Seeds",
+    "technical_rank": 5,
+    "showstopper_dish": "Sweet Potato Guitar with Passion Fruit Icing and Marshmallow Fondant",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e08_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e08",
+    "signature_dish": "'Chelsea Flour Show' Bun Bouquet",
+    "technical_rank": 3,
+    "showstopper_dish": "Hidden Carrot Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e08_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e08",
+    "signature_dish": "Wild Garlic Pesto and Parma Ham Spelt Loaf",
+    "technical_rank": 2,
+    "showstopper_dish": "Butternut Squash and Spice Cake Toadstool House",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e08_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e08",
+    "signature_dish": "Mango and Nigella Seed Spelt Cob",
+    "technical_rank": 1,
+    "showstopper_dish": "Carrot Cake and Pistachio Garden Plot",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e09_s04_beca",
+    "baker_id": "s04_beca",
+    "episode_id": "s04e09",
+    "signature_dish": "Stilton and Walnut Macarons Beetroot and Salmon Choux Puffs Welsh Rarebit Tartlets",
+    "technical_rank": 3,
+    "showstopper_dish": "Banoffee Opera Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e09_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e09",
+    "signature_dish": "Légume Canapés: Chantenay Carrots Choux Pastry Tomatoes Cauliflower Cheese Scones",
+    "technical_rank": 2,
+    "showstopper_dish": "Great British Soap Opera Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e09_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e09",
+    "signature_dish": "Pea Purée Tarts Crab and Wasabi Profiteroles Steamed Buns with Barbecue Chicken",
+    "technical_rank": 1,
+    "showstopper_dish": "Passion Fruit and Lime Opera Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e09_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e09",
+    "signature_dish": "Beetroot Jelly on Poppy Seed Biscuits Spinach, Parmesan and Egg Tartlets Choux Buns with Goat's Cheese and Caramelised Onions",
+    "technical_rank": 4,
+    "showstopper_dish": "Chocolate, Almond Praline and Saffron Opera Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e10_s04_frances",
+    "baker_id": "s04_frances",
+    "episode_id": "s04e10",
+    "signature_dish": "Rainbow Picnic Pie",
+    "technical_rank": 3,
+    "showstopper_dish": "Midsummer Night's Dream Wedding Cake",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e10_s04_kimberley",
+    "baker_id": "s04_kimberley",
+    "episode_id": "s04e10",
+    "signature_dish": "Chicken and Pig Pie",
+    "technical_rank": 1,
+    "showstopper_dish": "Languages of Love Wedding Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s04e10_s04_ruby",
+    "baker_id": "s04_ruby",
+    "episode_id": "s04e10",
+    "signature_dish": "Picnic Basket Pie",
+    "technical_rank": 2,
+    "showstopper_dish": "Raspberry, Lemon and Passion Fruit Wedding Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

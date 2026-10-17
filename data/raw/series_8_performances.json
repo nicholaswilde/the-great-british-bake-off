@@ -1,0 +1,752 @@
+[
+  {
+    "performance_id": "s08e01_s08_chris",
+    "baker_id": "s08_chris",
+    "episode_id": "s08e01",
+    "signature_dish": "Tropical Fresh Fruit Cake",
+    "technical_rank": 12,
+    "showstopper_dish": "'Raised Pork Pie and Egg Surprise' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_flo",
+    "baker_id": "s08_flo",
+    "episode_id": "s08e01",
+    "signature_dish": "Citrus Layer Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "'One in a Melon' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_james",
+    "baker_id": "s08_james",
+    "episode_id": "s08e01",
+    "signature_dish": "Orange, Rhubarb & Ginger Crumble Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "'Mock-accino and Croissant' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_julia",
+    "baker_id": "s08_julia",
+    "episode_id": "s08e01",
+    "signature_dish": "Courgette and Lemon Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "'Russian Doll' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e01",
+    "signature_dish": "Moroccan Strawberry and Rose Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "'Chocolate Terrarium' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_liam",
+    "baker_id": "s08_liam",
+    "episode_id": "s08e01",
+    "signature_dish": "Apple and Almond Crumble Maple Loaf",
+    "technical_rank": 8,
+    "showstopper_dish": "'Stackin' Sunday' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_peter",
+    "baker_id": "s08_peter",
+    "episode_id": "s08e01",
+    "signature_dish": "Coconut Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "'Bread on a Breadboard' Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e01",
+    "signature_dish": "Pineapple and Coconut Sandwich Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "'Champagne Bottle and Bucket' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e01",
+    "signature_dish": "Granny Smith Apple and Walnut Cake",
+    "technical_rank": 11,
+    "showstopper_dish": "'Black Evening Clutch Bag' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e01",
+    "signature_dish": "Bonfire Night Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "'A Baker's Lunch' Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_tom",
+    "baker_id": "s08_tom",
+    "episode_id": "s08e01",
+    "signature_dish": "Gilded Pear and Cardamom Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "'Stack of Books' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e01_s08_yan",
+    "baker_id": "s08_yan",
+    "episode_id": "s08e01",
+    "signature_dish": "Windfall Apple Crumble Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "'Banana-ramen' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_chris",
+    "baker_id": "s08_chris",
+    "episode_id": "s08e02",
+    "signature_dish": "Chocolate Chia Seed Biscuits with Whisky Caramel Filling",
+    "technical_rank": 11,
+    "showstopper_dish": "'The Great British Sail Off' Game",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_flo",
+    "baker_id": "s08_flo",
+    "episode_id": "s08e02",
+    "signature_dish": "Gin Jam Butties",
+    "technical_rank": 10,
+    "showstopper_dish": "'Pick My Bones' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_james",
+    "baker_id": "s08_james",
+    "episode_id": "s08e02",
+    "signature_dish": "Rhubarb and Custard Whirls",
+    "technical_rank": 3,
+    "showstopper_dish": "'Coppit' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_julia",
+    "baker_id": "s08_julia",
+    "episode_id": "s08e02",
+    "signature_dish": "Middle Eastern Delight Sandwich Biscuits",
+    "technical_rank": 4,
+    "showstopper_dish": "'A British Baking' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e02",
+    "signature_dish": "Coconut Seashells for a Titanic Afternoon Tea",
+    "technical_rank": 8,
+    "showstopper_dish": "'Jungle' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_liam",
+    "baker_id": "s08_liam",
+    "episode_id": "s08e02",
+    "signature_dish": "Coffee Malted Pecan Shorties",
+    "technical_rank": 7,
+    "showstopper_dish": "'Classroom Classics' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e02",
+    "signature_dish": "Lemon Limoncino Sandwich Biscuits",
+    "technical_rank": 2,
+    "showstopper_dish": "'Snakes and Ladders' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e02",
+    "signature_dish": "Sparkly Chocolate and Marshmallow Fluff Cookies",
+    "technical_rank": 9,
+    "showstopper_dish": "'Get to School' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e02",
+    "signature_dish": "Amarpressi Biscuits",
+    "technical_rank": 6,
+    "showstopper_dish": "'Check Bake' Game",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_tom",
+    "baker_id": "s08_tom",
+    "episode_id": "s08e02",
+    "signature_dish": "Coffee and Amaretto Kisses",
+    "technical_rank": 5,
+    "showstopper_dish": "'Drain Pipes and Ladders' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e02_s08_yan",
+    "baker_id": "s08_yan",
+    "episode_id": "s08e02",
+    "signature_dish": "'Mrs. Marian's PB 'n' B' Biscuits",
+    "technical_rank": 1,
+    "showstopper_dish": "'Adventures in Bakeland' Game",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_flo",
+    "baker_id": "s08_flo",
+    "episode_id": "s08e03",
+    "signature_dish": "Cinnamon and Orange Teacakes",
+    "technical_rank": 7,
+    "showstopper_dish": "'Davy Jones' Locker' Bread Sculpture",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_james",
+    "baker_id": "s08_james",
+    "episode_id": "s08e03",
+    "signature_dish": "Nordic Teacakes",
+    "technical_rank": 9,
+    "showstopper_dish": "'Owl in the Woods' Bread Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_julia",
+    "baker_id": "s08_julia",
+    "episode_id": "s08e03",
+    "signature_dish": "Earl Grey Dried Fruit Teacakes",
+    "technical_rank": 2,
+    "showstopper_dish": "'The Snail Under a Mushroom' Bread Sculpture",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e03",
+    "signature_dish": "Blueberry Buns",
+    "technical_rank": 10,
+    "showstopper_dish": "'Kraken' Bread Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_liam",
+    "baker_id": "s08_liam",
+    "episode_id": "s08e03",
+    "signature_dish": "Jamaican Spiced Teacakes",
+    "technical_rank": 5,
+    "showstopper_dish": "'Kneadapolitan' Bread Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e03",
+    "signature_dish": "Tagine Teacakes",
+    "technical_rank": 6,
+    "showstopper_dish": "'Picnic Basket' Bread Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e03",
+    "signature_dish": "Cranberry and Cinnamon Teacakes",
+    "technical_rank": 1,
+    "showstopper_dish": "'Ascot Hat' Bread Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e03",
+    "signature_dish": "Madras Cocktail Teacakes",
+    "technical_rank": 3,
+    "showstopper_dish": "'The Bag I Knead' Bread Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_tom",
+    "baker_id": "s08_tom",
+    "episode_id": "s08e03",
+    "signature_dish": "Orange and Cranberry Teacakes",
+    "technical_rank": 4,
+    "showstopper_dish": "'Pink & Yellow Rose Centrepiece' Bread Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e03_s08_yan",
+    "baker_id": "s08_yan",
+    "episode_id": "s08e03",
+    "signature_dish": "'Mrs P's' Masala Chai Spiced Teacakes",
+    "technical_rank": 8,
+    "showstopper_dish": "'Basil the Vegetarian Dragon with his Pumpkin Hoard' Bread Sculpture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_james",
+    "baker_id": "s08_james",
+    "episode_id": "s08e04",
+    "signature_dish": "'Windy City' Millionaire Shortbreads",
+    "technical_rank": 2,
+    "showstopper_dish": "Nutty Caramel Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_julia",
+    "baker_id": "s08_julia",
+    "episode_id": "s08e04",
+    "signature_dish": "Pecan Salted Caramel Millionaire Shortbreads",
+    "technical_rank": 9,
+    "showstopper_dish": "Poppy Seed Caramel Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e04",
+    "signature_dish": "Salted Bay Caramel Millionaire Shortbreads",
+    "technical_rank": 6,
+    "showstopper_dish": "Sticky Toffee Apple Caramel Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_liam",
+    "baker_id": "s08_liam",
+    "episode_id": "s08e04",
+    "signature_dish": "Salted Peanut Butter Millionaire Shortbreads",
+    "technical_rank": 3,
+    "showstopper_dish": "White Layered Ginger Caramel Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e04",
+    "signature_dish": "Jaffa Millionaire Shortbreads",
+    "technical_rank": 4,
+    "showstopper_dish": "Bird's Nest Caramel Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e04",
+    "signature_dish": "Rum Salted Caramel Millionaire Shortbreads",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate and Coffee Caramel Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e04",
+    "signature_dish": "Orange Macadamia Nut Millionaire Shortbreads",
+    "technical_rank": 7,
+    "showstopper_dish": "Caramel Crown Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_tom",
+    "baker_id": "s08_tom",
+    "episode_id": "s08e04",
+    "signature_dish": "Stem Ginger Caramel Shortbreads",
+    "technical_rank": 5,
+    "showstopper_dish": "Hummingbird Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e04_s08_yan",
+    "baker_id": "s08_yan",
+    "episode_id": "s08e04",
+    "signature_dish": "'Lil' Red's Ginger and Nuts' Millionaire Shortbreads",
+    "technical_rank": 8,
+    "showstopper_dish": "Animals of the Rainforest Caramel Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e05_s08_james",
+    "baker_id": "s08_james",
+    "episode_id": "s08e05",
+    "signature_dish": "Orange and Ginger Steamed School Pudding",
+    "technical_rank": 7,
+    "showstopper_dish": "'The Missed Silver Jubilee' Trifle Terrine",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e05_s08_julia",
+    "baker_id": "s08_julia",
+    "episode_id": "s08e05",
+    "signature_dish": "Orange & Treacle Steamed School Pudding",
+    "technical_rank": 3,
+    "showstopper_dish": "'Opulent Ornament' Trifle Terrine",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e05_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e05",
+    "signature_dish": "'Mr Darcy's Steamy Lake Scene' Steamed School Pudding",
+    "technical_rank": 8,
+    "showstopper_dish": "'My Great Great Nan's' Raspberry Trifle Terrine",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e05_s08_liam",
+    "baker_id": "s08_liam",
+    "episode_id": "s08e05",
+    "signature_dish": "Cherries & Lemons that are 'Baked Well'",
+    "technical_rank": 2,
+    "showstopper_dish": "'Cheers Lads' Trifle Terrine",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e05_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e05",
+    "signature_dish": "Ginger, Fig and Honey Steamed School Pudding",
+    "technical_rank": 1,
+    "showstopper_dish": "Raspberry, Yuzu & White Chocolate Bûche Trifle Terrine",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e05_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e05",
+    "signature_dish": "Bakewell Tart Steamed School Pudding",
+    "technical_rank": 4,
+    "showstopper_dish": "Tropical Trifle Terrine",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e05_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e05",
+    "signature_dish": "Lemon & Blackcurrant Drizzle Steamed School Pudding",
+    "technical_rank": 5,
+    "showstopper_dish": "'From Across the Jelly Pond' Trifle Terrine",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e05_s08_yan",
+    "baker_id": "s08_yan",
+    "episode_id": "s08e05",
+    "signature_dish": "Mango Fruit Hat Steamed School Pudding",
+    "technical_rank": 6,
+    "showstopper_dish": "'Heart of a Hero' Trifle Terrine",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e06_s08_julia",
+    "baker_id": "s08_julia",
+    "episode_id": "s08e06",
+    "signature_dish": "'Pies from the Tree' Decorative Pies",
+    "technical_rank": 7,
+    "showstopper_dish": "'Special Occasion' Pie",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e06_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e06",
+    "signature_dish": "'Vegetarian Pie Faces' Decorative Pies",
+    "technical_rank": 5,
+    "showstopper_dish": "Potato Curry Pie with Mango & Chilli Glaze",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e06_s08_liam",
+    "baker_id": "s08_liam",
+    "episode_id": "s08e06",
+    "signature_dish": "'Standard FC' Decorative Pies",
+    "technical_rank": 4,
+    "showstopper_dish": "'Nan's Sunday Dinner' Pie",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e06_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e06",
+    "signature_dish": "'The Four Seasons' Decorative Pies",
+    "technical_rank": 2,
+    "showstopper_dish": "Game Pie with Glazed Forest Fruits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e06_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e06",
+    "signature_dish": "'Love Theme' Decorative Pies",
+    "technical_rank": 6,
+    "showstopper_dish": "Indian Hand Raised Pie with Mango",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e06_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e06",
+    "signature_dish": "'Fleetwood Mac' Decorative Pies",
+    "technical_rank": 3,
+    "showstopper_dish": "Christmas Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e06_s08_yan",
+    "baker_id": "s08_yan",
+    "episode_id": "s08e06",
+    "signature_dish": "'πr2' Decorative Pies",
+    "technical_rank": 1,
+    "showstopper_dish": "Chequerboard Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e07_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e07",
+    "signature_dish": "'Happy Hour' Cocktail Cannoli",
+    "technical_rank": 6,
+    "showstopper_dish": "'Flavour Fusion' Sfogliatelle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e07_s08_liam",
+    "baker_id": "s08_liam",
+    "episode_id": "s08e07",
+    "signature_dish": "'Just Doing Me' Cannoli",
+    "technical_rank": 2,
+    "showstopper_dish": "'Morning Delivery' Sfogliatelle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e07_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e07",
+    "signature_dish": "'Classics with a Twist' Cannoli",
+    "technical_rank": 3,
+    "showstopper_dish": "'Classics' Sfogliatelle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e07_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e07",
+    "signature_dish": "My All Time Favourite Desserts",
+    "technical_rank": 4,
+    "showstopper_dish": "Pastry Surprise",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e07_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e07",
+    "signature_dish": "Italian Style Cannoli",
+    "technical_rank": 1,
+    "showstopper_dish": "'Sicilian-style' Sfogliatelle",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e07_s08_yan",
+    "baker_id": "s08_yan",
+    "episode_id": "s08e07",
+    "signature_dish": "Cannoli Cocktails",
+    "technical_rank": 5,
+    "showstopper_dish": "Canadian Style Sfogliatelle",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e08_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e08",
+    "signature_dish": "Burrito Bedfordshire Clangers",
+    "technical_rank": 2,
+    "showstopper_dish": "'Liver Building Turret' Savoy Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e08_s08_liam",
+    "baker_id": "s08_liam",
+    "episode_id": "s08e08",
+    "signature_dish": "'Take Out' Bedfordshire Clangers",
+    "technical_rank": 5,
+    "showstopper_dish": "'Fort Wizardore' Savoy Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e08_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e08",
+    "signature_dish": "Char Siu & Banana Praline Bedfordshire Clangers",
+    "technical_rank": 4,
+    "showstopper_dish": "Citrus with Green Apple Croquembouche Savoy Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e08_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e08",
+    "signature_dish": "Camembert & Onion and Apple & Blueberry Bedfordshire Clangers",
+    "technical_rank": 3,
+    "showstopper_dish": "'Bright' Lemon & Orange Savoy Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e08_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e08",
+    "signature_dish": "'Mediterranean Medley' Bedfordshire Clangers",
+    "technical_rank": 1,
+    "showstopper_dish": "Chestnut Rum Savoy Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e09_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e09",
+    "signature_dish": "Bellini and Valencian Orange Choux Buns",
+    "technical_rank": 4,
+    "showstopper_dish": "'Rainbow' Meringue Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e09_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e09",
+    "signature_dish": "Strawberry & Rhubarb and Chestnut & Vanilla Choux Buns",
+    "technical_rank": 1,
+    "showstopper_dish": "'Tutu with Opera Filling' Meringue Centrepiece",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e09_s08_stacey",
+    "baker_id": "s08_stacey",
+    "episode_id": "s08e09",
+    "signature_dish": "'Choux-nicorn and Choux-moji' Choux Buns",
+    "technical_rank": 2,
+    "showstopper_dish": "'Flamingos in Love' Meringue Centrepiece",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e09_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e09",
+    "signature_dish": "Key Lime Cheesecake and Bakewell Tart Choux Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "'Some Air Over the Rainbow' Meringue Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e10_s08_kate",
+    "baker_id": "s08_kate",
+    "episode_id": "s08e10",
+    "signature_dish": "Roman Spelt, Coconut Kala Chana & Flower Breads",
+    "technical_rank": 3,
+    "showstopper_dish": "White Chocolate, Yuzu and Lychee Entremet",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e10_s08_sophie",
+    "baker_id": "s08_sophie",
+    "episode_id": "s08e10",
+    "signature_dish": "Spelt Boules, Mushroom Ciabatta & Orange Plaited Brioche",
+    "technical_rank": 2,
+    "showstopper_dish": "'Ode to the Honey Bee' Entremet",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s08e10_s08_steven",
+    "baker_id": "s08_steven",
+    "episode_id": "s08e10",
+    "signature_dish": "Spelt & Rye, Toasted Garlic & Fontina and Sweet Chocolate Breads",
+    "technical_rank": 1,
+    "showstopper_dish": "'Yin Yang' Entremet",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

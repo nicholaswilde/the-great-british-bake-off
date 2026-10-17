@@ -1,0 +1,742 @@
+[
+  {
+    "performance_id": "s05e01_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e01",
+    "signature_dish": "Cardamom, Pistachio and Coffee Swiss Roll",
+    "technical_rank": 3,
+    "showstopper_dish": "Tiered Victoria Sponges with Lemon Curd and Raspberry Cream",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_claire",
+    "baker_id": "s05_claire",
+    "episode_id": "s05e01",
+    "signature_dish": "Chocolatey Orangey Swiss Roll",
+    "technical_rank": 8,
+    "showstopper_dish": "Mini Chocolate and Cherry Cakes",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_diana",
+    "baker_id": "s05_diana",
+    "episode_id": "s05e01",
+    "signature_dish": "Mum's Sunday Tea Lemon Curd Swiss Roll",
+    "technical_rank": 5,
+    "showstopper_dish": "Chocolate Ganache Surprises",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_enwezor",
+    "baker_id": "s05_enwezor",
+    "episode_id": "s05e01",
+    "signature_dish": "Raspberry and Lemon Swiss Roll",
+    "technical_rank": 9,
+    "showstopper_dish": "Coffee and Walnut Battenberg Squares",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_iain",
+    "baker_id": "s05_iain",
+    "episode_id": "s05e01",
+    "signature_dish": "Apricot and Basil Swiss Roll with Mascarpone and White Chocolate Cream",
+    "technical_rank": 4,
+    "showstopper_dish": "Lemon Drizzle Cakes with Mascarpone Filling, Drizzled Icing and Candied Lemon",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_jordan",
+    "baker_id": "s05_jordan",
+    "episode_id": "s05e01",
+    "signature_dish": "Kawaii Frasier Swiss Roll",
+    "technical_rank": 12,
+    "showstopper_dish": "Lemon Drizzle Cakes with Blueberry and Lemon Curd",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_kate",
+    "baker_id": "s05_kate",
+    "episode_id": "s05e01",
+    "signature_dish": "Red Velvet and White Chocolate Swiss Roll",
+    "technical_rank": 6,
+    "showstopper_dish": "Mini Tiered Victoria Sponges",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e01",
+    "signature_dish": "Spanish Swiss Roll",
+    "technical_rank": 7,
+    "showstopper_dish": "Raspberry and Lemon Genoise Slices with Lemon Drizzles",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_martha",
+    "baker_id": "s05_martha",
+    "episode_id": "s05e01",
+    "signature_dish": "Tiramisu Swiss Roll",
+    "technical_rank": 2,
+    "showstopper_dish": "Mini Lemon and Thyme Drizzle Cakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e01",
+    "signature_dish": "Coffee and Hazelnut Swiss Roll",
+    "technical_rank": 1,
+    "showstopper_dish": "Jaffa Orange Cakes",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_norman",
+    "baker_id": "s05_norman",
+    "episode_id": "s05e01",
+    "signature_dish": "Black Forest Swiss Roll",
+    "technical_rank": 11,
+    "showstopper_dish": "Almond and Raspberry Mini Cakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e01_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e01",
+    "signature_dish": "Pistachio and Strawberry Swiss Roll",
+    "technical_rank": 10,
+    "showstopper_dish": "Miniature Coffee and Walnut Cakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e02",
+    "signature_dish": "Fenugreek and Carom Crackers",
+    "technical_rank": 8,
+    "showstopper_dish": "Day On The Beach",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_diana",
+    "baker_id": "s05_diana",
+    "episode_id": "s05e02",
+    "signature_dish": "Parmesan Triangles",
+    "technical_rank": 7,
+    "showstopper_dish": "Express, First Class",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_enwezor",
+    "baker_id": "s05_enwezor",
+    "episode_id": "s05e02",
+    "signature_dish": "Pumpkin and Sunflower Seed Savoury Biscuits",
+    "technical_rank": 9,
+    "showstopper_dish": "Space Adventure Moon Scene",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_iain",
+    "baker_id": "s05_iain",
+    "episode_id": "s05e02",
+    "signature_dish": "Za'atar and Fig Biscuits",
+    "technical_rank": 11,
+    "showstopper_dish": "Wild West Scene",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_jordan",
+    "baker_id": "s05_jordan",
+    "episode_id": "s05e02",
+    "signature_dish": "Sourdough, Parmesan and Chilli Biscuits",
+    "technical_rank": 6,
+    "showstopper_dish": "Monster Attack",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_kate",
+    "baker_id": "s05_kate",
+    "episode_id": "s05e02",
+    "signature_dish": "Parmesan and Apple Biscuits",
+    "technical_rank": 4,
+    "showstopper_dish": "Tea Time",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e02",
+    "signature_dish": "Black Olive and Rosemary Biscuits with Caramelised Onion Glaze",
+    "technical_rank": 3,
+    "showstopper_dish": "George Versus The Dragon",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_martha",
+    "baker_id": "s05_martha",
+    "episode_id": "s05e02",
+    "signature_dish": "Caramelised Onion and Goat's Cheese Sandwich Biscuits",
+    "technical_rank": 5,
+    "showstopper_dish": "Ski Village Scene",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e02",
+    "signature_dish": "Fennel and Rye Thins",
+    "technical_rank": 2,
+    "showstopper_dish": "Hansel and Gretel Scene",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_norman",
+    "baker_id": "s05_norman",
+    "episode_id": "s05e02",
+    "signature_dish": "Farthing Biscuits",
+    "technical_rank": 10,
+    "showstopper_dish": "Zulu Boats at Dawn",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e02_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e02",
+    "signature_dish": "Rosemary Seeded Crackers",
+    "technical_rank": 1,
+    "showstopper_dish": "Pirates!",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e03",
+    "signature_dish": "Onion and Pine Nut Rolls",
+    "technical_rank": 8,
+    "showstopper_dish": "Rolled and Filled Twin Loaf",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_diana",
+    "baker_id": "s05_diana",
+    "episode_id": "s05e03",
+    "signature_dish": "Rustic Picnic Rolls",
+    "technical_rank": 7,
+    "showstopper_dish": "Sharing Savoury Pinwheel",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_iain",
+    "baker_id": "s05_iain",
+    "episode_id": "s05e03",
+    "signature_dish": "Cranberry and Walnut Rye Bread Rolls",
+    "technical_rank": 9,
+    "showstopper_dish": "Moroccan Plaited with a Bessara Dip",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_jordan",
+    "baker_id": "s05_jordan",
+    "episode_id": "s05e03",
+    "signature_dish": "Rye and Spelt Bread Rolls",
+    "technical_rank": 10,
+    "showstopper_dish": "Strawberry Raspberry Cheesecake Brioche",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_kate",
+    "baker_id": "s05_kate",
+    "episode_id": "s05e03",
+    "signature_dish": "Orange and Cardamom Rye Bread Knots",
+    "technical_rank": 1,
+    "showstopper_dish": "Prosciutto, Olive & Coriander Bread",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e03",
+    "signature_dish": "Opposites Attract Rolls",
+    "technical_rank": 2,
+    "showstopper_dish": "Roscón de Reyes",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_martha",
+    "baker_id": "s05_martha",
+    "episode_id": "s05e03",
+    "signature_dish": "Date and Walnut Rye Rolls",
+    "technical_rank": 3,
+    "showstopper_dish": "Stuffed Sunflower Loaf",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e03",
+    "signature_dish": "Cider and Walnut Crusty Rolls",
+    "technical_rank": 5,
+    "showstopper_dish": "'Full English' Stromboli",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_norman",
+    "baker_id": "s05_norman",
+    "episode_id": "s05e03",
+    "signature_dish": "Rye Bread Rolls",
+    "technical_rank": 4,
+    "showstopper_dish": "Chicken and Roasted Vegetable Picnic Loaf",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e03_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e03",
+    "signature_dish": "Rye and Cranberry Rolls",
+    "technical_rank": 6,
+    "showstopper_dish": "Pesto Pinwheel",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e04",
+    "signature_dish": "Rhubarb, Strawberry and Orange Puddings",
+    "technical_rank": 3,
+    "showstopper_dish": "Mango, Raspberry and Coconut Baked Alaska",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_diana",
+    "baker_id": "s05_diana",
+    "episode_id": "s05e04",
+    "signature_dish": "Orange and Lemon Curd Pots",
+    "technical_rank": 9,
+    "showstopper_dish": "Raspberry Ripple Alaska Swan",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_iain",
+    "baker_id": "s05_iain",
+    "episode_id": "s05e04",
+    "signature_dish": "Chocolate, Lime and Raspberry Fondants",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate, Black Sesame Seed and Coffee Caramel Baked Alaska*",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_kate",
+    "baker_id": "s05_kate",
+    "episode_id": "s05e04",
+    "signature_dish": "Chocolate and Salted Caramel Molten Puddings",
+    "technical_rank": 7,
+    "showstopper_dish": "Pistachio, Raspberry and Chocolate Baked Alaska",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e04",
+    "signature_dish": "Pears in Puddings",
+    "technical_rank": 2,
+    "showstopper_dish": "Bakewell Alaska",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_martha",
+    "baker_id": "s05_martha",
+    "episode_id": "s05e04",
+    "signature_dish": "Peanut Butter Chocolate Fondants",
+    "technical_rank": 1,
+    "showstopper_dish": "Key Lime Baked Alaska",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e04",
+    "signature_dish": "Pistachio Puddings with Chocolate Sauce",
+    "technical_rank": 4,
+    "showstopper_dish": "Summer Pudding Alaska",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_norman",
+    "baker_id": "s05_norman",
+    "episode_id": "s05e04",
+    "signature_dish": "Mini Sticky Toffee Puddings",
+    "technical_rank": 8,
+    "showstopper_dish": "Baked Alaska with Strawberry Surprise",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e04_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e04",
+    "signature_dish": "Black Forest Chocolate Fondants",
+    "technical_rank": 5,
+    "showstopper_dish": "Tiramisu Baked Alaska",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e05_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e05",
+    "signature_dish": "Rice Custard Tart with Mangoes and Raspberries",
+    "technical_rank": 2,
+    "showstopper_dish": "Fusion Tiered Pies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e05_s05_diana",
+    "baker_id": "s05_diana",
+    "episode_id": "s05e05",
+    "signature_dish": "Withdrew",
+    "technical_rank": null,
+    "showstopper_dish": "Withdrew",
+    "result": "WITHDREW",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e05_s05_kate",
+    "baker_id": "s05_kate",
+    "episode_id": "s05e05",
+    "signature_dish": "Rhubarb and Custard Tart",
+    "technical_rank": 3,
+    "showstopper_dish": "Rhubarb, Prune and Apple Pies",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e05_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e05",
+    "signature_dish": "Tropical Manchester Tart",
+    "technical_rank": 6,
+    "showstopper_dish": "Four Fruity Seasons Tower",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e05_s05_martha",
+    "baker_id": "s05_martha",
+    "episode_id": "s05e05",
+    "signature_dish": "Pistachio, Apricot and Honey Custard Tart",
+    "technical_rank": 1,
+    "showstopper_dish": "Three Little Pigs Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e05_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e05",
+    "signature_dish": "Chocolate Crusted Passion Fruit Tart",
+    "technical_rank": 4,
+    "showstopper_dish": "Trio of Apple Pies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e05_s05_norman",
+    "baker_id": "s05_norman",
+    "episode_id": "s05e05",
+    "signature_dish": "Tarte au Citron",
+    "technical_rank": 5,
+    "showstopper_dish": "Pieful Tower",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e05_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e05",
+    "signature_dish": "Fig and Orange Tart",
+    "technical_rank": 7,
+    "showstopper_dish": "Three Course Autumn Pie Feast",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e06_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e06",
+    "signature_dish": "Orange Savarin with Cinnamon Cream",
+    "technical_rank": 2,
+    "showstopper_dish": "Almond Liqueur Dobos Torte with Chocolate Caramel Buttercream",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e06_s05_kate",
+    "baker_id": "s05_kate",
+    "episode_id": "s05e06",
+    "signature_dish": "Pecan, Chocolate and Sour Cherry Yeast Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "Trio of Dobos Tortes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e06_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e06",
+    "signature_dish": "Apple and Cinnamon Kugelhopf with Honeyed Apples",
+    "technical_rank": 3,
+    "showstopper_dish": "The Cage on the Rocky Hill",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e06_s05_martha",
+    "baker_id": "s05_martha",
+    "episode_id": "s05e06",
+    "signature_dish": "Dark Chocolate and Almond Liqueur Savarin",
+    "technical_rank": 4,
+    "showstopper_dish": "Chess-Themed Chocolate and Salted Caramel Dobos Torte",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e06_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e06",
+    "signature_dish": "Rum Punch Savarin with Coconut Cream and Tropical Fruits",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate and Caramel Dobos Torte",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e06_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e06",
+    "signature_dish": "Fruity Guglhupf with an Orange Glaze",
+    "technical_rank": 5,
+    "showstopper_dish": "Sugar Forest Dobos Torte",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e07_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e07",
+    "signature_dish": "Crispy Lentil Kachori",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate and Mango & Lemon Meringue Éclairs",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e07_s05_kate",
+    "baker_id": "s05_kate",
+    "episode_id": "s05e07",
+    "signature_dish": "Spinach and Paneer Spicy Samosa",
+    "technical_rank": 4,
+    "showstopper_dish": "Neapolitan & Lemon Meringue Éclairs",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e07_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e07",
+    "signature_dish": "Childhood Empanadas",
+    "technical_rank": 5,
+    "showstopper_dish": "Stars and Stripes Éclairs",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e07_s05_martha",
+    "baker_id": "s05_martha",
+    "episode_id": "s05e07",
+    "signature_dish": "Mini Beef Wellingtons",
+    "technical_rank": 3,
+    "showstopper_dish": "Rhubarb and Custard & Maple Syrup and Bacon Éclairs",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e07_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e07",
+    "signature_dish": "Spicy Duck Pasties",
+    "technical_rank": 2,
+    "showstopper_dish": "Smoked Salmon and Horseradish & Raspberry Ripple Éclairs",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e07_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e07",
+    "signature_dish": "Minted Lamb Pasties",
+    "technical_rank": 1,
+    "showstopper_dish": "Stair of Éclairs",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e08_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e08",
+    "signature_dish": "Date and Walnut Swirl Bread",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate Mousse Filled Doughnuts Braided Doughnuts",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e08_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e08",
+    "signature_dish": "Black Forest Cherry Tree",
+    "technical_rank": 2,
+    "showstopper_dish": "Cocktail Doughnuts",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e08_s05_martha",
+    "baker_id": "s05_martha",
+    "episode_id": "s05e08",
+    "signature_dish": "Spiced Plum Iced Bread Swirl",
+    "technical_rank": 5,
+    "showstopper_dish": "Glazed Lemon & Poppyseed Doughnuts Chocolate & Passion Fruit Doughnuts",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e08_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e08",
+    "signature_dish": "Lincolnshire Plum Braid",
+    "technical_rank": 3,
+    "showstopper_dish": "Doughnut Family Tree",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e08_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e08",
+    "signature_dish": "Fruit Swedish Tea Ring",
+    "technical_rank": 4,
+    "showstopper_dish": "Rhubarb and Custard and Toffee Apple Doughnuts",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e09_s05_chetna",
+    "baker_id": "s05_chetna",
+    "episode_id": "s05e09",
+    "signature_dish": "Chocolate Orange Baklava Masala Chai Baklava",
+    "technical_rank": 4,
+    "showstopper_dish": "Chocolate, Orange & Nut Entremets Cappuccino Entremets",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e09_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e09",
+    "signature_dish": "Indian Rose Baklava Halwa Baklava Rolls",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate Mousse & Cherry Entremets Pomegranate, Fig & Pistachio Sponge",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e09_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e09",
+    "signature_dish": "Coffee and Chocolate Baklava Breakfast Baklava",
+    "technical_rank": 3,
+    "showstopper_dish": "Raspberry Nonnettes Lime and Passion Fruit Entremets",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e09_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e09",
+    "signature_dish": "Rose and Pistachio Baklava Walnut and Almond Baklava",
+    "technical_rank": 2,
+    "showstopper_dish": "Hazelnut Mocha Entremets Pink Grapefruit Entremets",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e10_s05_luis",
+    "baker_id": "s05_luis",
+    "episode_id": "s05e10",
+    "signature_dish": "Apple, Walnut, Raisin and Cheshire Cheese Chaussons Pain au Chocolat Blanc with Raspberries and Cream Cheese",
+    "technical_rank": 2,
+    "showstopper_dish": "Village in Chocolate",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e10_s05_nancy",
+    "baker_id": "s05_nancy",
+    "episode_id": "s05e10",
+    "signature_dish": "Apple and Lemon Kites Raspberry and Almond Croissants",
+    "technical_rank": 1,
+    "showstopper_dish": "Red Windmill",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s05e10_s05_richard",
+    "baker_id": "s05_richard",
+    "episode_id": "s05e10",
+    "signature_dish": "Pear Pain au Chocolat Pain au Lait",
+    "technical_rank": 3,
+    "showstopper_dish": "Mill on the Hill",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

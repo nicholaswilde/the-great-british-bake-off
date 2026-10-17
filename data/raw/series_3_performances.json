@@ -1,0 +1,762 @@
+[
+  {
+    "performance_id": "s03e01_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e01",
+    "signature_dish": "Plum, Sour Cherry & Walnut Upside Down Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "St. Patrick's Day Cake with Hidden Irish Flag*",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_cathryn",
+    "baker_id": "s03_cathryn",
+    "episode_id": "s03e01",
+    "signature_dish": "Apple, Hazelnut and Calvados Upside Down Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "Hidden Cupcake Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e01",
+    "signature_dish": "Plum, Ginger & Orange Upside Down Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "Nectar Cake with Hidden Beehive*",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e01",
+    "signature_dish": "Parsnip, Pear and Pecan Upside Down Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "\"Simmer Dim\" Sunset Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e01",
+    "signature_dish": "Toffee Apple Upside Down Cake*",
+    "technical_rank": 11,
+    "showstopper_dish": "Hidden Pink Hearts Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_manisha",
+    "baker_id": "s03_manisha",
+    "episode_id": "s03e01",
+    "signature_dish": "Vanilla, Peach and Raspberry Upside Down Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "White Chocolate Cake with a Red Velvet and White Chocolate Mousse Heart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_natasha",
+    "baker_id": "s03_natasha",
+    "episode_id": "s03e01",
+    "signature_dish": "Pineapple & Passion Fruit Upside Down Cake",
+    "technical_rank": 12,
+    "showstopper_dish": "Mother's Day Layered Rose Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_peter",
+    "baker_id": "s03_peter",
+    "episode_id": "s03e01",
+    "signature_dish": "Pear, Muscat & Chocolate Upside Down Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "Jubilee Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_ryan",
+    "baker_id": "s03_ryan",
+    "episode_id": "s03e01",
+    "signature_dish": "Kumquat and Orange Polenta Upside Down Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "Hidden Flowerbed Mousse Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_sarahjane",
+    "baker_id": "s03_sarahjane",
+    "episode_id": "s03e01",
+    "signature_dish": "Pear, Chocolate and Hazelnut Upside Down Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Hidden Crown Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_stuart",
+    "baker_id": "s03_stuart",
+    "episode_id": "s03e01",
+    "signature_dish": "Tomato and Ginger Upside Down Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "Lemon and Pistachio Union Flag Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e01_s03_victoria",
+    "baker_id": "s03_victoria",
+    "episode_id": "s03e01",
+    "signature_dish": "Pear and Pecan Upside Down Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Blackbird Pie Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e02",
+    "signature_dish": "Middle Eastern Taboon Bread Indian Roti",
+    "technical_rank": 4,
+    "showstopper_dish": "Chocolate and Vanilla Bagels Cumin and Gruyere Bagels",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_cathryn",
+    "baker_id": "s03_cathryn",
+    "episode_id": "s03e02",
+    "signature_dish": "Spiced Mango Naan Lime, Coriander and Chilli Tortillas",
+    "technical_rank": 8,
+    "showstopper_dish": "Cranberry and Orange Bagels Chipotle, Chilli, and Smoked Cheddar Bagels",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e02",
+    "signature_dish": "Lime Coriander and Coconut Tortillas Zaatar Naan with Dukkah",
+    "technical_rank": 3,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e02",
+    "signature_dish": "Tomato, Garlic, and Parmesan Flatbreads Tattie Scones",
+    "technical_rank": 2,
+    "showstopper_dish": "Orange, Mint and Chocolate Bagels 'Millers' Sourdough Bagels",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e02",
+    "signature_dish": "Coriander and Chilli Rotis Garlic, Pomegranate and Potato Pitas",
+    "technical_rank": 1,
+    "showstopper_dish": "Fig, Walnut and Gruyere Bagels Blueberry and White Chocolate Bagels",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_manisha",
+    "baker_id": "s03_manisha",
+    "episode_id": "s03e02",
+    "signature_dish": "Indian Flatbreads Italian Flatbreads",
+    "technical_rank": 6,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_peter",
+    "baker_id": "s03_peter",
+    "episode_id": "s03e02",
+    "signature_dish": "Fennel and Nigella Seed Naan Bannock Bread",
+    "technical_rank": 11,
+    "showstopper_dish": "Rosemary and Sea Salt Bagels Apple and Cinnamon Bagels",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_ryan",
+    "baker_id": "s03_ryan",
+    "episode_id": "s03e02",
+    "signature_dish": "Shanghai Spring Onion Flatbread Garlic and Coriander Naan",
+    "technical_rank": 5,
+    "showstopper_dish": "Cinnamon and Date Bagels Tarragon and Rosemary Bagels",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_sarahjane",
+    "baker_id": "s03_sarahjane",
+    "episode_id": "s03e02",
+    "signature_dish": "Coconut Roti Oatcakes",
+    "technical_rank": 10,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_stuart",
+    "baker_id": "s03_stuart",
+    "episode_id": "s03e02",
+    "signature_dish": "Bombay Bread Chorizo and Spring Onion Naan",
+    "technical_rank": 9,
+    "showstopper_dish": "Cinnamon and Cranberry Bagels Tomato and Thyme Bagels",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e02_s03_victoria",
+    "baker_id": "s03_victoria",
+    "episode_id": "s03e02",
+    "signature_dish": "Coriander and Lemon Naan Garlic and Parsnip Chapatis",
+    "technical_rank": 7,
+    "showstopper_dish": "Saffron and Golden Raisin Bagels Porcini Bagels",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e03",
+    "signature_dish": "Apple and Ginger Tarte Tatin",
+    "technical_rank": 9,
+    "showstopper_dish": "Blackberry, Nectarine and Dragon Fruit Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_cathryn",
+    "baker_id": "s03_cathryn",
+    "episode_id": "s03e03",
+    "signature_dish": "Plum, Cherry and Five Spice Tarte Tatin",
+    "technical_rank": 3,
+    "showstopper_dish": "Raspberry, Pistachio and Lemon Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e03",
+    "signature_dish": "Savoury Pear and Roquefort Tarte Tatin",
+    "technical_rank": 2,
+    "showstopper_dish": "Pineapple, Coconut and Frangipane Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e03",
+    "signature_dish": "Apple and Lavender Tarte Tatin",
+    "technical_rank": 1,
+    "showstopper_dish": "Rose, Lychee and Raspberry Fruit Tart",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e03",
+    "signature_dish": "Apple and Vanilla Tarte Tatin with Walnut Praline",
+    "technical_rank": 6,
+    "showstopper_dish": "Berries, Grapes, Pomegranate, and Dragon Fruit Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_manisha",
+    "baker_id": "s03_manisha",
+    "episode_id": "s03e03",
+    "signature_dish": "Cinnamon, Apple and Pear Tarte Tatin",
+    "technical_rank": 10,
+    "showstopper_dish": "Rum and Tropical Fruit Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_ryan",
+    "baker_id": "s03_ryan",
+    "episode_id": "s03e03",
+    "signature_dish": "Spiced Pear Tarte Tatin",
+    "technical_rank": 5,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_sarahjane",
+    "baker_id": "s03_sarahjane",
+    "episode_id": "s03e03",
+    "signature_dish": "Caramelised Banana Tarte Tatin",
+    "technical_rank": 8,
+    "showstopper_dish": "French Apple Tart with Blackberry and Cassis Jam",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_stuart",
+    "baker_id": "s03_stuart",
+    "episode_id": "s03e03",
+    "signature_dish": "Pear and Almond Tarte Tatin",
+    "technical_rank": 7,
+    "showstopper_dish": "Raspberry Triple Chocolate Layered Tart",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e03_s03_victoria",
+    "baker_id": "s03_victoria",
+    "episode_id": "s03e03",
+    "signature_dish": "Fig, Walnut and Pink Peppercorn Tarte Tatin",
+    "technical_rank": 4,
+    "showstopper_dish": "Tropical Fruit Tart with Black Pepper Crust",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e04",
+    "signature_dish": "Clementine and Chestnut Torte",
+    "technical_rank": 1,
+    "showstopper_dish": "Pear, Chocolate and Hazelnut Dacquoise",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_cathryn",
+    "baker_id": "s03_cathryn",
+    "episode_id": "s03e04",
+    "signature_dish": "White Chocolate, Macadamia and Coffee Torte",
+    "technical_rank": 3,
+    "showstopper_dish": "Gooseberry, Almond and Honey Meringue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e04",
+    "signature_dish": "Blackberry, White Chocolate, Lemon and Elderflower Torte",
+    "technical_rank": 2,
+    "showstopper_dish": "'Monte Bianco' Chestnut, Chocolate and Coffee Dacquoise",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e04",
+    "signature_dish": "Hazelnut, Chocolate and Passionfruit Torte",
+    "technical_rank": 5,
+    "showstopper_dish": "Fig, Chestnut, Cherry and Chocolate Layered Meringue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e04",
+    "signature_dish": "'Torte Noir' Black Forest Torte with Boozy Cream",
+    "technical_rank": 6,
+    "showstopper_dish": "Elderflower and Bramble Berry Pavlova",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_manisha",
+    "baker_id": "s03_manisha",
+    "episode_id": "s03e04",
+    "signature_dish": "Almond, Chocolate and Cherry Torte",
+    "technical_rank": 9,
+    "showstopper_dish": "Tiramisu Layered Meringue Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_ryan",
+    "baker_id": "s03_ryan",
+    "episode_id": "s03e04",
+    "signature_dish": "Green Tea Opera Torte",
+    "technical_rank": 7,
+    "showstopper_dish": "Strawberry, Rose and Pistachio Meringue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_sarahjane",
+    "baker_id": "s03_sarahjane",
+    "episode_id": "s03e04",
+    "signature_dish": "Chocolate and Almond Truffle Torte",
+    "technical_rank": 4,
+    "showstopper_dish": "Hazelnut Tiramisu Layered Meringue",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e04_s03_stuart",
+    "baker_id": "s03_stuart",
+    "episode_id": "s03e04",
+    "signature_dish": "Black Forest Torte",
+    "technical_rank": 8,
+    "showstopper_dish": "Choca Blocka Mocha Meringue",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e05_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e05",
+    "signature_dish": "Salmon Coulibiac in a Scandinavian Pastry",
+    "technical_rank": 3,
+    "showstopper_dish": "All American Chiffon Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e05_s03_cathryn",
+    "baker_id": "s03_cathryn",
+    "episode_id": "s03e05",
+    "signature_dish": "Full English Wellington",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate and Peanut Butter Pumpkin Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e05_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e05",
+    "signature_dish": "Chickpea, Spinach & Mushroom Wellington",
+    "technical_rank": 7,
+    "showstopper_dish": "Trick or Treat Pumpkin Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e05_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e05",
+    "signature_dish": "Four Pig Wellington",
+    "technical_rank": 6,
+    "showstopper_dish": "Sweet Potato Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e05_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e05",
+    "signature_dish": "Venison and Haggis Wellington",
+    "technical_rank": 2,
+    "showstopper_dish": "Star Spangled Pecan Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e05_s03_manisha",
+    "baker_id": "s03_manisha",
+    "episode_id": "s03e05",
+    "signature_dish": "Lamb Wellington with Rosemary and Mint",
+    "technical_rank": 5,
+    "showstopper_dish": "Banana Scotch Pie",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e05_s03_ryan",
+    "baker_id": "s03_ryan",
+    "episode_id": "s03e05",
+    "signature_dish": "Curry Spiced Seabass Wellington",
+    "technical_rank": 8,
+    "showstopper_dish": "Key Lime Pie",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e05_s03_sarahjane",
+    "baker_id": "s03_sarahjane",
+    "episode_id": "s03e05",
+    "signature_dish": "Beef Wellington with Parma Ham and Gorgonzola Cheese",
+    "technical_rank": 4,
+    "showstopper_dish": "Chocolate and Banana Cream Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e06_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e06",
+    "signature_dish": "Rhubarb, Strawberry and Ginger Puddings Sticky Toffee Puddings",
+    "technical_rank": 1,
+    "showstopper_dish": "Spinach, Cheese and Walnut Strudel",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e06_s03_cathryn",
+    "baker_id": "s03_cathryn",
+    "episode_id": "s03e06",
+    "signature_dish": "Chocolate Walnut Whip Puddings Elderflower Sponges",
+    "technical_rank": 3,
+    "showstopper_dish": "Roasted Vegetable Couscous and Sheep Cheese Strudel",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e06_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e06",
+    "signature_dish": "Banoffee Puddings with Walnut Butterscotch Sauce Jubilee Chocolate Fondants",
+    "technical_rank": 2,
+    "showstopper_dish": "Leek, Potato, Pistachio and Gruyère Strudel",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e06_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e06",
+    "signature_dish": "Banana and Clove Puddings Clootie Dumplings",
+    "technical_rank": 7,
+    "showstopper_dish": "Strawberry, Rhubarb and Ginger Strudel",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e06_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e06",
+    "signature_dish": "Spicy Toffee Puddings Raspberry and White Chocolate Puddings",
+    "technical_rank": 5,
+    "showstopper_dish": "Did not complete due to injury",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e06_s03_ryan",
+    "baker_id": "s03_ryan",
+    "episode_id": "s03e06",
+    "signature_dish": "Chocolate Fondants Sticky Ginger and Date Puddings",
+    "technical_rank": 6,
+    "showstopper_dish": "Apple, Sour Cherry, Raisin and Mixed Nuts Strudel",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e06_s03_sarahjane",
+    "baker_id": "s03_sarahjane",
+    "episode_id": "s03e06",
+    "signature_dish": "Sticky Toffee Puddings Granny's Saucy Lemon Puddings",
+    "technical_rank": 4,
+    "showstopper_dish": "Sweet Strudel with Sour Cherries",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e07_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e07",
+    "signature_dish": "Chelsea Bunskis",
+    "technical_rank": 4,
+    "showstopper_dish": "Black Forest Christmas Stollen",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e07_s03_cathryn",
+    "baker_id": "s03_cathryn",
+    "episode_id": "s03e07",
+    "signature_dish": "Lady Arundel's Manchet Buns",
+    "technical_rank": 5,
+    "showstopper_dish": "Bonfire Night Tear 'N' Share Brioche",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e07_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e07",
+    "signature_dish": "Bakewell Chelsea Buns",
+    "technical_rank": 2,
+    "showstopper_dish": "European Christmas Wreath",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e07_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e07",
+    "signature_dish": "Easter Chelsea Buns",
+    "technical_rank": 1,
+    "showstopper_dish": "Whisky Kugelhopf-Brioche Baba",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e07_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e07",
+    "signature_dish": "Cherry and Almond Saffron Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "Marzipan Stollen",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e07_s03_ryan",
+    "baker_id": "s03_ryan",
+    "episode_id": "s03e07",
+    "signature_dish": "Lardy Cakes",
+    "technical_rank": 6,
+    "showstopper_dish": "Char Siu Bao",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e07_s03_sarahjane",
+    "baker_id": "s03_sarahjane",
+    "episode_id": "s03e07",
+    "signature_dish": "Orange, Nutmeg and Saffron Buns",
+    "technical_rank": 7,
+    "showstopper_dish": "Sour Cherry and Dark Chocolate Christmas Plait",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e08_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e08",
+    "signature_dish": "Multi-Seed Savoury Crackers",
+    "technical_rank": 2,
+    "showstopper_dish": "Fantasy Gingerbread Bird House",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e08_s03_cathryn",
+    "baker_id": "s03_cathryn",
+    "episode_id": "s03e08",
+    "signature_dish": "Cheese and Pickle Crackers",
+    "technical_rank": 5,
+    "showstopper_dish": "Gingerbread Buckingham Palace",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e08_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e08",
+    "signature_dish": "Spiced Almond Drinks Crackers",
+    "technical_rank": 4,
+    "showstopper_dish": "Gingerbread Big Ben",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e08_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e08",
+    "signature_dish": "Smoky Cayenne, Cumin and Chilli Crackers",
+    "technical_rank": 1,
+    "showstopper_dish": "Gingerbread Barn",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e08_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e08",
+    "signature_dish": "Asian Spice Crackers",
+    "technical_rank": 3,
+    "showstopper_dish": "Gingerbread Roman Coliseum",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e09_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e09",
+    "signature_dish": "Coffee Meringue and Hazelnut Creams Apricot and Pistachio Friands Lime Curd Choux Pastry Cygnets",
+    "technical_rank": 3,
+    "showstopper_dish": "Gateau St. Honoré",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e09_s03_danny",
+    "baker_id": "s03_danny",
+    "episode_id": "s03e09",
+    "signature_dish": "Blackberry and Peppermint Macarons Miniature Raspberry and Basil Financiers Orange and White Chocolate Langues de Chat",
+    "technical_rank": 4,
+    "showstopper_dish": "Rosewater and Lychee Gateau St. Honoré",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e09_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e09",
+    "signature_dish": "Lemon and Rhubarb Tartlets Chocolate Indulgence Petits Fours Chilli, Lime and Raspberry Macarons",
+    "technical_rank": 1,
+    "showstopper_dish": "Coffee, Caramel and Hazelnut Paris–Brest",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e09_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e09",
+    "signature_dish": "Lemon Madeleines White Chocolate and Raspberry Tartlets Dark Chocolate and Cherry Macarons",
+    "technical_rank": 2,
+    "showstopper_dish": "Gateau St. Honoré a la Passion",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e10_s03_brendan",
+    "baker_id": "s03_brendan",
+    "episode_id": "s03e10",
+    "signature_dish": "Potato and Pepper Pithivier",
+    "technical_rank": 3,
+    "showstopper_dish": "Family Reunion Chiffon Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e10_s03_james",
+    "baker_id": "s03_james",
+    "episode_id": "s03e10",
+    "signature_dish": "Spanish Pithivier with Chorizo and Red Pepper",
+    "technical_rank": 1,
+    "showstopper_dish": "United Chiffon Cakes",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s03e10_s03_john",
+    "baker_id": "s03_john",
+    "episode_id": "s03e10",
+    "signature_dish": "Italian Sausage and Roasted Vegetable Pithivier",
+    "technical_rank": 2,
+    "showstopper_dish": "Heaven and Hell Chiffon Cake",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  }
+]

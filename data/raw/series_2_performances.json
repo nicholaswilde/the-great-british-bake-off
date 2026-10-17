@@ -1,0 +1,602 @@
+[
+  {
+    "performance_id": "s02e01_s02_ben",
+    "baker_id": "s02_ben",
+    "episode_id": "s02e01",
+    "signature_dish": "Rhubarb and Custard Cupcakes After Dinner Cupcakes",
+    "technical_rank": 2,
+    "showstopper_dish": "Vanilla Sponge with White Chocolate and Raspberry Buttercream",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_holly",
+    "baker_id": "s02_holly",
+    "episode_id": "s02e01",
+    "signature_dish": "Cherry Bakewell Inspired Cupcakes Ginger Cupcakes with Fig Truffle",
+    "technical_rank": 1,
+    "showstopper_dish": "Novelty Farm Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_ian",
+    "baker_id": "s02_ian",
+    "episode_id": "s02e01",
+    "signature_dish": "Apple and Cinnamon Cupcakes",
+    "technical_rank": 10,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_janet",
+    "baker_id": "s02_janet",
+    "episode_id": "s02e01",
+    "signature_dish": "Raspberry and Cream Cupcakes",
+    "technical_rank": 8,
+    "showstopper_dish": "Chocolate Marble Cake with Dark and White Chocolate Truffles",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_jason",
+    "baker_id": "s02_jason",
+    "episode_id": "s02e01",
+    "signature_dish": "Lemon Meringue Cupcakes Apple and Cinnamon Cupcakes",
+    "technical_rank": 6,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_jo",
+    "baker_id": "s02_jo",
+    "episode_id": "s02e01",
+    "signature_dish": "Chocolate and Orange Cupcakes Orange and Cardamom Cupcakes",
+    "technical_rank": 11,
+    "showstopper_dish": "Chocolate and Strawberry Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_keith",
+    "baker_id": "s02_keith",
+    "episode_id": "s02e01",
+    "signature_dish": "Earl Grey Cupcakes",
+    "technical_rank": 12,
+    "showstopper_dish": "Chocolate and Sour Cream Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_maryanne",
+    "baker_id": "s02_maryanne",
+    "episode_id": "s02e01",
+    "signature_dish": "Banoffee Cupcakes",
+    "technical_rank": 4,
+    "showstopper_dish": "Chocolate and Raspberry Opera Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_robert",
+    "baker_id": "s02_robert",
+    "episode_id": "s02e01",
+    "signature_dish": "Blackberry and Vanilla Cupcakes with Liquorice Frosting",
+    "technical_rank": 3,
+    "showstopper_dish": "Genoise Layered Mousse Cake with Chocolate Ganache",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_simon",
+    "baker_id": "s02_simon",
+    "episode_id": "s02e01",
+    "signature_dish": "Guinness and Chocolate Cupcakes",
+    "technical_rank": 9,
+    "showstopper_dish": "Two-Tiered Chocolate Courgette Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_urvashi",
+    "baker_id": "s02_urvashi",
+    "episode_id": "s02e01",
+    "signature_dish": "Cherry Blossom Cupcakes Japanese Lime Cupcakes",
+    "technical_rank": 7,
+    "showstopper_dish": "Orange Blossom Celebration Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e01_s02_yasmin",
+    "baker_id": "s02_yasmin",
+    "episode_id": "s02e01",
+    "signature_dish": "Cardamom and Pomegranate Cupcakes Lemon Meringue Cupcakes",
+    "technical_rank": 5,
+    "showstopper_dish": "Three Tier Passion Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_ben",
+    "baker_id": "s02_ben",
+    "episode_id": "s02e02",
+    "signature_dish": "Chorizo, Pepper and Gruyere Quiche",
+    "technical_rank": 1,
+    "showstopper_dish": "Lemon Meringue Tarts",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_holly",
+    "baker_id": "s02_holly",
+    "episode_id": "s02e02",
+    "signature_dish": "Pesto Quiche",
+    "technical_rank": 4,
+    "showstopper_dish": "Milk Chocolate and Pistachio Tarts Trifle Tarts",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_ian",
+    "baker_id": "s02_ian",
+    "episode_id": "s02e02",
+    "signature_dish": "Stilton, Spinach and New Potato Quiche with Paprika and Walnut Pastry",
+    "technical_rank": 2,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_janet",
+    "baker_id": "s02_janet",
+    "episode_id": "s02e02",
+    "signature_dish": "Quiche Printanière",
+    "technical_rank": 8,
+    "showstopper_dish": "Red Fruit Tarts Chocolate and Cherry Tarts",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_jason",
+    "baker_id": "s02_jason",
+    "episode_id": "s02e02",
+    "signature_dish": "Salmon and Pak Choi Quiche",
+    "technical_rank": 3,
+    "showstopper_dish": "Mint Chocolate Tarts Blueberry Bakewell Tarts",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_jo",
+    "baker_id": "s02_jo",
+    "episode_id": "s02e02",
+    "signature_dish": "Caramelised Onion, Gruyere and Thyme Quiche",
+    "technical_rank": 10,
+    "showstopper_dish": "Raspberry and Mascarpone Tarts with Lemon and Almond Pastry Honey and Almond Tarts with Sweetcrust",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_maryanne",
+    "baker_id": "s02_maryanne",
+    "episode_id": "s02e02",
+    "signature_dish": "Roasted Cauliflower, Cheese and Caramelised Onion Quiche",
+    "technical_rank": 9,
+    "showstopper_dish": "Butterscotch Brulée Tarts in Pecan Pastry Apple Rose Tarts",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_robert",
+    "baker_id": "s02_robert",
+    "episode_id": "s02e02",
+    "signature_dish": "Smoked Bacon and Kale Quiche",
+    "technical_rank": 5,
+    "showstopper_dish": "Chocolate, Fennel and Ginger Tarts Creme Patisserie and Poached Pear Tarts in Almond Pastry",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_simon",
+    "baker_id": "s02_simon",
+    "episode_id": "s02e02",
+    "signature_dish": "Smoked Haddock and Watercress Quiche",
+    "technical_rank": 11,
+    "showstopper_dish": "Passion Fruit and Ricotta Tarts Salted Chocolate, Stem Ginger and Mascarpone Cream Tarts",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_urvashi",
+    "baker_id": "s02_urvashi",
+    "episode_id": "s02e02",
+    "signature_dish": "Crab, Coriander and Coconut Quiche",
+    "technical_rank": 7,
+    "showstopper_dish": "Strawberry and Basil Tarts Elderflower and Honeycomb Tarts",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e02_s02_yasmin",
+    "baker_id": "s02_yasmin",
+    "episode_id": "s02e02",
+    "signature_dish": "Smoked Haddock and Watercress Quiche",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate and Orange Tarts in Cinnamon-Orange Pastry Blueberry and Hazelnut Tarts in Hazelnut Pastry",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_ben",
+    "baker_id": "s02_ben",
+    "episode_id": "s02e03",
+    "signature_dish": "Walnut, Raisin and Rosemary Loaf",
+    "technical_rank": 3,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_holly",
+    "baker_id": "s02_holly",
+    "episode_id": "s02e03",
+    "signature_dish": "Picnic Loaf",
+    "technical_rank": 6,
+    "showstopper_dish": "Stilton and Walnut Rolls",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_ian",
+    "baker_id": "s02_ian",
+    "episode_id": "s02e03",
+    "signature_dish": "Courgette, Caerphilly Cheese and Thyme Loaf",
+    "technical_rank": 10,
+    "showstopper_dish": "Walnut and Raisin Rolls Cracked Wheat Logs",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_janet",
+    "baker_id": "s02_janet",
+    "episode_id": "s02e03",
+    "signature_dish": "Zupfe Loaf with Gruyère Cheese",
+    "technical_rank": 8,
+    "showstopper_dish": "Apple and Walnut Granary Rolls Red Onion Cottage Rolls",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_jason",
+    "baker_id": "s02_jason",
+    "episode_id": "s02e03",
+    "signature_dish": "Cheese and Onion Tear and Share Loaf",
+    "technical_rank": 7,
+    "showstopper_dish": "UNKNOWN",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_jo",
+    "baker_id": "s02_jo",
+    "episode_id": "s02e03",
+    "signature_dish": "Stromboli Flavoured with Mozarella, Ham, and Picante Pepper",
+    "technical_rank": 1,
+    "showstopper_dish": "Spiced Orange Rolls Pumpkin Seed Rolls",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_maryanne",
+    "baker_id": "s02_maryanne",
+    "episode_id": "s02e03",
+    "signature_dish": "Ploughman's Loaf",
+    "technical_rank": 5,
+    "showstopper_dish": "Herb and Walnut Breads Chocolate and Chilli Buns",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_robert",
+    "baker_id": "s02_robert",
+    "episode_id": "s02e03",
+    "signature_dish": "Rye and Coriander Seed Loaf",
+    "technical_rank": 4,
+    "showstopper_dish": "Blueberry Brioche Rolls Lemon and Poppy Seed Rolls",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_urvashi",
+    "baker_id": "s02_urvashi",
+    "episode_id": "s02e03",
+    "signature_dish": "Salt and Peppercorn Loaf",
+    "technical_rank": 9,
+    "showstopper_dish": "Chilli and Halloumi Rolls Lemon and Coriander Mini Loaves",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e03_s02_yasmin",
+    "baker_id": "s02_yasmin",
+    "episode_id": "s02e03",
+    "signature_dish": "Egyptian Dukkah Loaf with Mixed Spices",
+    "technical_rank": 2,
+    "showstopper_dish": "Pesto Bread Sweet Coconut Rolls",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e04_s02_ben",
+    "baker_id": "s02_ben",
+    "episode_id": "s02e04",
+    "signature_dish": "Stem Ginger Nuts",
+    "technical_rank": 5,
+    "showstopper_dish": "Chocolate and Almond Macarons Pine Nut Macarons Pistachio Macarons",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e04_s02_holly",
+    "baker_id": "s02_holly",
+    "episode_id": "s02e04",
+    "signature_dish": "Strawberry and Custard Melts",
+    "technical_rank": 3,
+    "showstopper_dish": "'Chocolate bars of my youth' (Caramel Macarons, Mint Chocolate Macarons and Chocolate Orange Macarons)",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e04_s02_janet",
+    "baker_id": "s02_janet",
+    "episode_id": "s02e04",
+    "signature_dish": "Christmas Marzipan Biscuits",
+    "technical_rank": 4,
+    "showstopper_dish": "Raspberry Macarons Blackcurrant Macarons Almond Macarons",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e04_s02_jason",
+    "baker_id": "s02_jason",
+    "episode_id": "s02e04",
+    "signature_dish": "Lebkuchen",
+    "technical_rank": 1,
+    "showstopper_dish": "Mocktail Macarons (Mojito, Cranberry Cooler, and Piña Colada)",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e04_s02_jo",
+    "baker_id": "s02_jo",
+    "episode_id": "s02e04",
+    "signature_dish": "Lavender Biscuits",
+    "technical_rank": 8,
+    "showstopper_dish": "Blueberry Macarons Coconut Macarons Strawberry Macarons",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e04_s02_maryanne",
+    "baker_id": "s02_maryanne",
+    "episode_id": "s02e04",
+    "signature_dish": "Melting Moments",
+    "technical_rank": 2,
+    "showstopper_dish": "Blackcurrant and Mint Macarons Gooseberry and Elderflower Macarons Hazelnut Macarons",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e04_s02_robert",
+    "baker_id": "s02_robert",
+    "episode_id": "s02e04",
+    "signature_dish": "Chocolate and Ginger Oat Biscuits",
+    "technical_rank": 7,
+    "showstopper_dish": "Strawberry and Lime Macarons Lemon Macarons Chocolate and Cardamom Macarons",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e04_s02_yasmin",
+    "baker_id": "s02_yasmin",
+    "episode_id": "s02e04",
+    "signature_dish": "Chocolate Chip and Pistachio Biscotti",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate and Lime Macarons Coffee and Walnut Macarons Pineapple and Coconut Macarons",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e05_s02_holly",
+    "baker_id": "s02_holly",
+    "episode_id": "s02e05",
+    "signature_dish": "Stilton, Potato and Caramelised Onion Pie",
+    "technical_rank": 4,
+    "showstopper_dish": "Lime Meringue Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e05_s02_janet",
+    "baker_id": "s02_janet",
+    "episode_id": "s02e05",
+    "signature_dish": "Chicken and Chestnut Pie",
+    "technical_rank": 1,
+    "showstopper_dish": "Rhubarb Meringue Pie",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e05_s02_jason",
+    "baker_id": "s02_jason",
+    "episode_id": "s02e05",
+    "signature_dish": "Brown Down Chicken Pie",
+    "technical_rank": 7,
+    "showstopper_dish": "Plum Meringue Pie",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e05_s02_jo",
+    "baker_id": "s02_jo",
+    "episode_id": "s02e05",
+    "signature_dish": "Salmon and Asparagus Pie",
+    "technical_rank": 6,
+    "showstopper_dish": "Apple and Raspberry Meringue Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e05_s02_maryanne",
+    "baker_id": "s02_maryanne",
+    "episode_id": "s02e05",
+    "signature_dish": "Chicken and Bacon Pie",
+    "technical_rank": 2,
+    "showstopper_dish": "Midnight Meringue Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e05_s02_robert",
+    "baker_id": "s02_robert",
+    "episode_id": "s02e05",
+    "signature_dish": "Chicken and Mushroom Pie",
+    "technical_rank": 3,
+    "showstopper_dish": "Rhubarb & Custard Meringue Pie",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e05_s02_yasmin",
+    "baker_id": "s02_yasmin",
+    "episode_id": "s02e05",
+    "signature_dish": "Family Fish Pie",
+    "technical_rank": 5,
+    "showstopper_dish": "Peach and Raspberry Meringue Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e06_s02_holly",
+    "baker_id": "s02_holly",
+    "episode_id": "s02e06",
+    "signature_dish": "Father Christmas' Baked Cheesecake",
+    "technical_rank": 3,
+    "showstopper_dish": "Hansel and Gretel's Croquembouche",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e06_s02_janet",
+    "baker_id": "s02_janet",
+    "episode_id": "s02e06",
+    "signature_dish": "Rhubarb and Ginger Baked Cheesecake",
+    "technical_rank": 5,
+    "showstopper_dish": "Orange and Nougatine Croquembouche",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e06_s02_jo",
+    "baker_id": "s02_jo",
+    "episode_id": "s02e06",
+    "signature_dish": "Rum and Raisin Baked Cheesecake",
+    "technical_rank": 1,
+    "showstopper_dish": "Limoncello and White Chocolate Croquembouche",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e06_s02_maryanne",
+    "baker_id": "s02_maryanne",
+    "episode_id": "s02e06",
+    "signature_dish": "Tutti Frutti Curd Baked Cheesecake",
+    "technical_rank": 4,
+    "showstopper_dish": "Orange and Praline Croquembouche with Cardamom Caramel",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e06_s02_yasmin",
+    "baker_id": "s02_yasmin",
+    "episode_id": "s02e06",
+    "signature_dish": "Baked Amaretto Cheesecake",
+    "technical_rank": 2,
+    "showstopper_dish": "Rose Croquembouche",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e07_s02_holly",
+    "baker_id": "s02_holly",
+    "episode_id": "s02e07",
+    "signature_dish": "White Chocolate, Hazelnut and Raspberry Génoise Mousse Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Apricot, Macadamia and White Chocolate Pinwheels Almond Croissants Apple, Raisin and Cinnamon Plaits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e07_s02_janet",
+    "baker_id": "s02_janet",
+    "episode_id": "s02e07",
+    "signature_dish": "Chocolate Amaretto Mousse Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Pain Aux Raisin Plain Croissant Pain Au Chocolat",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e07_s02_jo",
+    "baker_id": "s02_jo",
+    "episode_id": "s02e07",
+    "signature_dish": "Raspberry & Strawberry Mousse Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "Pain Aux Raisin Chocolate Twists Banana and Raisin Pastries",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e07_s02_maryanne",
+    "baker_id": "s02_maryanne",
+    "episode_id": "s02e07",
+    "signature_dish": "Chocolate and Orange Mousse Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "Raspberry Rose Danishes Praline Spirals Alsatian Plaited Danishes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e08_s02_holly",
+    "baker_id": "s02_holly",
+    "episode_id": "s02e08",
+    "signature_dish": "Banoffee Inspired Mille Feuille",
+    "technical_rank": 2,
+    "showstopper_dish": "Strawberry and Cream Meringue Nest Gooseberry and Elderflower 'Bakewell' Tarts Neapolitan Ice-Cream Sandwich",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e08_s02_jo",
+    "baker_id": "s02_jo",
+    "episode_id": "s02e08",
+    "signature_dish": "Raspberry and Blueberry Mille Feuille",
+    "technical_rank": 1,
+    "showstopper_dish": "Mini Victoria Sandwiches Raspberry, White Chocolate and Pistachio Mini Meringues Mini Banoffee Pie with Banana Mousse",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s02e08_s02_maryanne",
+    "baker_id": "s02_maryanne",
+    "episode_id": "s02e08",
+    "signature_dish": "Lemon and Ginger Mille Feuille",
+    "technical_rank": 3,
+    "showstopper_dish": "Fruit Tarts with Elderflower Custard Strawberry and Rhubarb Cheesecakes Black Fruit Meringue with Everlasting Syllabub",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

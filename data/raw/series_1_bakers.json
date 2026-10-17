@@ -1,0 +1,102 @@
+[
+  {
+    "baker_id": "s01_lea",
+    "series_number": 1,
+    "name": "Lea Harris",
+    "age": 51,
+    "occupation": "Retired",
+    "hometown": "Midlothian",
+    "overall_placement": 9,
+    "raw_placement_text": "9th (tie)"
+  },
+  {
+    "baker_id": "s01_mark",
+    "series_number": 1,
+    "name": "Mark Whithers",
+    "age": 48,
+    "occupation": "Bus Driver",
+    "hometown": "South Wales",
+    "overall_placement": 9,
+    "raw_placement_text": "9th (tie)"
+  },
+  {
+    "baker_id": "s01_annetha",
+    "series_number": 1,
+    "name": "Annetha Mills",
+    "age": 30,
+    "occupation": "Midwife",
+    "hometown": "Essex",
+    "overall_placement": 7,
+    "raw_placement_text": "7th (tie)"
+  },
+  {
+    "baker_id": "s01_louise",
+    "series_number": 1,
+    "name": "Louise Brimelow",
+    "age": 44,
+    "occupation": "Police Officer",
+    "hometown": "Manchester",
+    "overall_placement": 7,
+    "raw_placement_text": "7th (tie)"
+  },
+  {
+    "baker_id": "s01_jonathan",
+    "series_number": 1,
+    "name": "Jonathan Shepherd",
+    "age": 25,
+    "occupation": "Research Analyst",
+    "hometown": "St Albans",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s01_david",
+    "series_number": 1,
+    "name": "David Chambers",
+    "age": 31,
+    "occupation": "Entrepreneur",
+    "hometown": "Milton Keynes",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s01_jasminder",
+    "series_number": 1,
+    "name": "Jasminder \"Jas\" Randhawa",
+    "age": 45,
+    "occupation": "Assistant Credit Control Manager",
+    "hometown": "Birmingham",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s01_miranda",
+    "series_number": 1,
+    "name": "Miranda Gore Browne",
+    "age": 37,
+    "occupation": "Food buyer for Marks & Spencer",
+    "hometown": "Midhurst",
+    "overall_placement": 3,
+    "raw_placement_text": "3rd"
+  },
+  {
+    "baker_id": "s01_ruth",
+    "series_number": 1,
+    "name": "Ruth Clemens",
+    "age": 31,
+    "occupation": "Retail manager/Housewife",
+    "hometown": "Pointon",
+    "overall_placement": 2,
+    "raw_placement_text": "2nd"
+  },
+  {
+    "baker_id": "s01_edward",
+    "series_number": 1,
+    "name": "Edward 'Edd' Kimber",
+    "age": 24,
+    "occupation": "Debt collector for Yorkshire Bank",
+    "hometown": "Bradford",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

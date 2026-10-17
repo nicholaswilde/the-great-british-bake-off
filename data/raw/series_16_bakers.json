@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s16_hassan",
+    "series_number": 16,
+    "name": "Hassan Islam",
+    "age": 30,
+    "occupation": "Analytical research & development scientist",
+    "hometown": "Rotherham, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s16_leighton",
+    "series_number": 16,
+    "name": "Leighton Morgan",
+    "age": 59,
+    "occupation": "Software delivery manager",
+    "hometown": "Surrey, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s16_carol",
+    "series_number": 16,
+    "name": "Carol 'Pui Man' Li",
+    "age": 51,
+    "occupation": "Bridal designer",
+    "hometown": "Essex, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s16_jessika",
+    "series_number": 16,
+    "name": "Jessika Trassel",
+    "age": 32,
+    "occupation": "Service designer",
+    "hometown": "London, England",
+    "overall_placement": 9,
+    "raw_placement_text": "9th"
+  },
+  {
+    "baker_id": "s16_nadia",
+    "series_number": 16,
+    "name": "Nadia Mercuri",
+    "age": 41,
+    "occupation": "Hairdresser",
+    "hometown": "Liverpool, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s16_nataliia",
+    "series_number": 16,
+    "name": "Nataliia Richardson",
+    "age": 32,
+    "occupation": "Office assistant",
+    "hometown": "East Yorkshire, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s16_lesley",
+    "series_number": 16,
+    "name": "Lesley Holloway",
+    "age": 59,
+    "occupation": "Hairdresser",
+    "hometown": "Kent, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s16_iain",
+    "series_number": 16,
+    "name": "Iain Ross",
+    "age": 29,
+    "occupation": "Software engineer",
+    "hometown": "Belfast, Northern Ireland",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s16_toby",
+    "series_number": 16,
+    "name": "Toby Littlewood",
+    "age": 29,
+    "occupation": "Business development executive",
+    "hometown": "Warwickshire, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s16_aaron",
+    "series_number": 16,
+    "name": "Aaron Mountford-Myles",
+    "age": 38,
+    "occupation": "Senior systems architect",
+    "hometown": "Stoke-on-Trent, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s16_thomas",
+    "series_number": 16,
+    "name": "Thomas \"Tom\" Arden",
+    "age": 31,
+    "occupation": "Creative entrepreneur",
+    "hometown": "London, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s16_jasmine",
+    "series_number": 16,
+    "name": "Jasmine Mitchell",
+    "age": 23,
+    "occupation": "Medical student",
+    "hometown": "London, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

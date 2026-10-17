@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s06e01",
+    "series_number": 6,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2015-08-05"
+  },
+  {
+    "episode_id": "s06e02",
+    "series_number": 6,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2015-08-12"
+  },
+  {
+    "episode_id": "s06e03",
+    "series_number": 6,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2015-08-19"
+  },
+  {
+    "episode_id": "s06e04",
+    "series_number": 6,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2015-08-26"
+  },
+  {
+    "episode_id": "s06e05",
+    "series_number": 6,
+    "episode_number": 5,
+    "theme": "Alternative Ingredients",
+    "air_date": "2015-09-02"
+  },
+  {
+    "episode_id": "s06e06",
+    "series_number": 6,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2015-09-09"
+  },
+  {
+    "episode_id": "s06e07",
+    "series_number": 6,
+    "episode_number": 7,
+    "theme": "Victorian",
+    "air_date": "2015-09-16"
+  },
+  {
+    "episode_id": "s06e08",
+    "series_number": 6,
+    "episode_number": 8,
+    "theme": "Pâtisserie (Quarterfinals)",
+    "air_date": "2015-09-23"
+  },
+  {
+    "episode_id": "s06e09",
+    "series_number": 6,
+    "episode_number": 9,
+    "theme": "Chocolate (Semifinals)",
+    "air_date": "2015-09-30"
+  },
+  {
+    "episode_id": "s06e10",
+    "series_number": 6,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2015-10-07"
+  }
+]

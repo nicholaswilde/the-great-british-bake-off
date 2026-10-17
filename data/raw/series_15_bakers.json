@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s15_jeff",
+    "series_number": 15,
+    "name": "Jeff Thomas",
+    "age": 67,
+    "occupation": "Retired university lecturer",
+    "hometown": "West Yorkshire, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th (quit)"
+  },
+  {
+    "baker_id": "s15_hazel",
+    "series_number": 15,
+    "name": "Hazel Vaughan",
+    "age": 71,
+    "occupation": "Retired nail technician",
+    "hometown": "Kent, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s15_john",
+    "series_number": 15,
+    "name": "John Mincher",
+    "age": 37,
+    "occupation": "Directorate support manager",
+    "hometown": "West Midlands, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s15_mike",
+    "series_number": 15,
+    "name": "Mike Wilkins",
+    "age": 29,
+    "occupation": "Farm manager",
+    "hometown": "Wiltshire, England",
+    "overall_placement": 9,
+    "raw_placement_text": "9th"
+  },
+  {
+    "baker_id": "s15_andy",
+    "series_number": 15,
+    "name": "Andy Ryan",
+    "age": 44,
+    "occupation": "Car mechanic",
+    "hometown": "Romford, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s15_nelly",
+    "series_number": 15,
+    "name": "Nelly Ghaffar",
+    "age": 44,
+    "occupation": "Palliative care assistant",
+    "hometown": "Dorset, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s15_sumayah",
+    "series_number": 15,
+    "name": "Sumayah Kazi",
+    "age": 18,
+    "occupation": "Gap Year student",
+    "hometown": "Lancashire, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s15_illiyin",
+    "series_number": 15,
+    "name": "Illiyin Morrison",
+    "age": 31,
+    "occupation": "Birth trauma specialist midwife",
+    "hometown": "Norfolk, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s15_gill",
+    "series_number": 15,
+    "name": "Gill Howard",
+    "age": 53,
+    "occupation": "Senior category manager",
+    "hometown": "Lancashire, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s15_christiaan",
+    "series_number": 15,
+    "name": "Christiaan de Vries",
+    "age": 33,
+    "occupation": "Menswear designer",
+    "hometown": "London, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s15_dylan",
+    "series_number": 15,
+    "name": "Dylan Bachelet",
+    "age": 20,
+    "occupation": "Retail assistant",
+    "hometown": "Aylesbury, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s15_georgie",
+    "series_number": 15,
+    "name": "Georgie Grasso",
+    "age": 34,
+    "occupation": "Paediatric nurse",
+    "hometown": "Carmarthen, Wales",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

@@ -1,0 +1,52 @@
+[files]
+extend-exclude = [
+  ".git/",
+  ".venv/",
+  ".pytest_cache/",
+  ".ruff_cache/",
+  ".codegraph/",
+  ".serena/",
+  "data/**",
+  "htmlcov/",
+  "uv.lock",
+  "*.parquet",
+  "*.db",
+]
+
+[default.extend-words]
+# GBBO domain terms and baking terms
+"gbbo" = "gbbo"
+"GBBO" = "GBBO"
+"gbbs" = "gbbs"
+"GBBS" = "GBBS"
+"baker" = "baker"
+"showstopper" = "showstopper"
+"Showstopper" = "Showstopper"
+"Prue" = "Prue"
+"choux" = "choux"
+"focaccia" = "focaccia"
+"marzipan" = "marzipan"
+"ciabatta" = "ciabatta"
+"macaron" = "macaron"
+"macarons" = "macarons"
+"paves" = "paves"
+"bavois" = "bavois"
+"pasticceria" = "pasticceria"
+"cannoli" = "cannoli"
+
+# Tech stack, tools, libraries, and users
+"codegraph" = "codegraph"
+"CodeGraph" = "CodeGraph"
+"parquet" = "parquet"
+"Parquet" = "Parquet"
+"pydantic" = "pydantic"
+"Pydantic" = "Pydantic"
+"pytest" = "pytest"
+"Pytest" = "Pytest"
+"serena" = "serena"
+"Serena" = "Serena"
+"tidytuesday" = "tidytuesday"
+"TidyTuesday" = "TidyTuesday"
+"RayofData" = "RayofData"
+"Christiaan" = "Christiaan"
+"christiaan" = "christiaan"

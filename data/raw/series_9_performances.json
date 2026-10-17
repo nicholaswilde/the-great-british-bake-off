@@ -1,0 +1,762 @@
+[
+  {
+    "performance_id": "s09e01_s09_antony",
+    "baker_id": "s09_antony",
+    "episode_id": "s09e01",
+    "signature_dish": "Turmeric and Caraway Goosnargh Cakes",
+    "technical_rank": 12,
+    "showstopper_dish": "\"Kilimanjaro Selfie\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e01",
+    "signature_dish": "Apple Cider Empire Biscuits",
+    "technical_rank": 2,
+    "showstopper_dish": "\"Bristol Biscuit Selfie\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_dan",
+    "baker_id": "s09_dan",
+    "episode_id": "s09e01",
+    "signature_dish": "Lemon and Strawberry Shrewsburys",
+    "technical_rank": 4,
+    "showstopper_dish": "\"New Dad in Palm Springs\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_imelda",
+    "baker_id": "s09_imelda",
+    "episode_id": "s09e01",
+    "signature_dish": "Cherry and White Chocolate Oatmeal Biscuits",
+    "technical_rank": 11,
+    "showstopper_dish": "\"Seaside Selfie\"",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_jon",
+    "baker_id": "s09_jon",
+    "episode_id": "s09e01",
+    "signature_dish": "Aberffraw 'Creams'",
+    "technical_rank": 5,
+    "showstopper_dish": "\"A Sailing Selfie by the Sea\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_karen",
+    "baker_id": "s09_karen",
+    "episode_id": "s09e01",
+    "signature_dish": "Yorkshire Perkins",
+    "technical_rank": 6,
+    "showstopper_dish": "Rosewater and Cardamom \"Holiday Selfie\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e01",
+    "signature_dish": "Orange Blossom York Biscuits",
+    "technical_rank": 10,
+    "showstopper_dish": "\"Me at Miyajima Shrine\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_luke",
+    "baker_id": "s09_luke",
+    "episode_id": "s09e01",
+    "signature_dish": "Yorkshire Gingernuts",
+    "technical_rank": 8,
+    "showstopper_dish": "\"What Happens In Vegas...!\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_manon",
+    "baker_id": "s09_manon",
+    "episode_id": "s09e01",
+    "signature_dish": "Hazelnut Cornish Shortbread",
+    "technical_rank": 3,
+    "showstopper_dish": "Matcha and White Chocolate Ganache Japanese Selfie",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e01",
+    "signature_dish": "Fennel and Coconut Pitcaithly Bannock",
+    "technical_rank": 7,
+    "showstopper_dish": "\"First Spring in the UK\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e01",
+    "signature_dish": "Masala Chai Devon Flats",
+    "technical_rank": 1,
+    "showstopper_dish": "\"Gingerbread Marathon Selfie\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e01_s09_terry",
+    "baker_id": "s09_terry",
+    "episode_id": "s09e01",
+    "signature_dish": "Lake District Ginger Shortbread",
+    "technical_rank": 9,
+    "showstopper_dish": "\"Brandy Snap Selfie\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_antony",
+    "baker_id": "s09_antony",
+    "episode_id": "s09e02",
+    "signature_dish": "Cardamom and Coconut Burfi Traybake",
+    "technical_rank": 9,
+    "showstopper_dish": "Pistachio, Saffron and Rose Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e02",
+    "signature_dish": "Turron and Orange Traybake",
+    "technical_rank": 5,
+    "showstopper_dish": "Chocolate Fudge and Salted Caramel Creation",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_dan",
+    "baker_id": "s09_dan",
+    "episode_id": "s09e02",
+    "signature_dish": "Black Forest Slice",
+    "technical_rank": 3,
+    "showstopper_dish": "Dark Chocolate and Raspberry Birthday Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_jon",
+    "baker_id": "s09_jon",
+    "episode_id": "s09e02",
+    "signature_dish": "Lemon Meringue Traybake",
+    "technical_rank": 1,
+    "showstopper_dish": "Hawaiian Shirt Pina Colada Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_karen",
+    "baker_id": "s09_karen",
+    "episode_id": "s09e02",
+    "signature_dish": "Almond and Marzipan Traybake with Rhubarb Jam",
+    "technical_rank": 11,
+    "showstopper_dish": "Strawberry Fayre Chocolate Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e02",
+    "signature_dish": "Pandan Chiffon Cake with Palm Sugar Cream",
+    "technical_rank": 4,
+    "showstopper_dish": "Yuzu and Raspberry Genoise Cat Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_luke",
+    "baker_id": "s09_luke",
+    "episode_id": "s09e02",
+    "signature_dish": "Lemon and Poppy Seed Traybake",
+    "technical_rank": 7,
+    "showstopper_dish": "Raspberry and White Chocolate Collar Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_manon",
+    "baker_id": "s09_manon",
+    "episode_id": "s09e02",
+    "signature_dish": "Rosemary and Honey Traybake",
+    "technical_rank": 6,
+    "showstopper_dish": "Almond Princess Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e02",
+    "signature_dish": "Lemon and Cardamom Traybake",
+    "technical_rank": 2,
+    "showstopper_dish": "Chocolate Orange Layer Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e02",
+    "signature_dish": "Boozy Black Forest Traybake",
+    "technical_rank": 10,
+    "showstopper_dish": "Chocolate Orange \"Jackson Pollock\" Collar Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e02_s09_terry",
+    "baker_id": "s09_terry",
+    "episode_id": "s09e02",
+    "signature_dish": "Rum and Raisin Traybake",
+    "technical_rank": 8,
+    "showstopper_dish": "Champagne and Strawberries Eiffel Tower Collar Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_antony",
+    "baker_id": "s09_antony",
+    "episode_id": "s09e03",
+    "signature_dish": "Decadent Breakfast Chelsea Buns",
+    "technical_rank": 8,
+    "showstopper_dish": "Chocolate and Orange Adventure Korovai",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e03",
+    "signature_dish": "Balsamic Strawberry Chelsea Buns",
+    "technical_rank": 9,
+    "showstopper_dish": "Happily Ever After Korovai",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_dan",
+    "baker_id": "s09_dan",
+    "episode_id": "s09e03",
+    "signature_dish": "Sticky Spiced Orange Chelsea Buns",
+    "technical_rank": 6,
+    "showstopper_dish": "Wedding Korovai",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_jon",
+    "baker_id": "s09_jon",
+    "episode_id": "s09e03",
+    "signature_dish": "Cardiff City vs Chelsea Buns",
+    "technical_rank": 2,
+    "showstopper_dish": "Korovai Dydd Dewi Sant",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_karen",
+    "baker_id": "s09_karen",
+    "episode_id": "s09e03",
+    "signature_dish": "Peak District Christmas Chelsea Buns",
+    "technical_rank": 5,
+    "showstopper_dish": "French Breakfast Wedding Korovai",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e03",
+    "signature_dish": "Pistachio and Cardamom Tangzhong Chelsea Buns",
+    "technical_rank": 10,
+    "showstopper_dish": "Orange, Cinnamon and Cranberry 'Kit-ovai'",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_manon",
+    "baker_id": "s09_manon",
+    "episode_id": "s09e03",
+    "signature_dish": "Apricot, Cranberry and Marzipan Chai Chelsea Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "Fabergé Inspired Traditional Korovai",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e03",
+    "signature_dish": "Mango and Cranberry Chelsea Buns",
+    "technical_rank": 4,
+    "showstopper_dish": "Garden Wedding Korovai",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e03",
+    "signature_dish": "Gujarela Chelsea Buns with Dates, Almonds and Raisins",
+    "technical_rank": 7,
+    "showstopper_dish": "Mama and Papa's Belated Wedding Korovai",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e03_s09_terry",
+    "baker_id": "s09_terry",
+    "episode_id": "s09e03",
+    "signature_dish": "Tangy Citrus Sticky Chelsea Buns",
+    "technical_rank": 1,
+    "showstopper_dish": "Garden Korovai",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e04",
+    "signature_dish": "Treacle Tart Roulade",
+    "technical_rank": 5,
+    "showstopper_dish": "Blood Orange & Amaretto Sticky Toffee Sphere",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_dan",
+    "baker_id": "s09_dan",
+    "episode_id": "s09e04",
+    "signature_dish": "Florida Roulade",
+    "technical_rank": 1,
+    "showstopper_dish": "Dan and the Giant Peach",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_jon",
+    "baker_id": "s09_jon",
+    "episode_id": "s09e04",
+    "signature_dish": "Mango and Passion Fruit Roulade",
+    "technical_rank": 3,
+    "showstopper_dish": "Lucy and Hannah's Ballet Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_karen",
+    "baker_id": "s09_karen",
+    "episode_id": "s09e04",
+    "signature_dish": "Coffee Cream and Praline Roulade",
+    "technical_rank": 7,
+    "showstopper_dish": "Chateau Du Chambord Framboise",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e04",
+    "signature_dish": "'Sweet Dreams' Roulade",
+    "technical_rank": 6,
+    "showstopper_dish": "Melting Chocolate Galaxy",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_manon",
+    "baker_id": "s09_manon",
+    "episode_id": "s09e04",
+    "signature_dish": "Amarene and Kirsch Cherry Roulade",
+    "technical_rank": 8,
+    "showstopper_dish": "White Chocolate Renaissance Surprise",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e04",
+    "signature_dish": "Rhubarb and Custard Roulade",
+    "technical_rank": 4,
+    "showstopper_dish": "Opera Cake with Kalash Inspired Dome",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e04",
+    "signature_dish": "Pina Colada Roulade",
+    "technical_rank": 2,
+    "showstopper_dish": "Chocolate Egg",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e04_s09_terry",
+    "baker_id": "s09_terry",
+    "episode_id": "s09e04",
+    "signature_dish": "Did not compete",
+    "technical_rank": null,
+    "showstopper_dish": "Did not compete",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e05",
+    "signature_dish": "Honey and Apricot Ginger Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "Turmeric Latte Chandelier",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_dan",
+    "baker_id": "s09_dan",
+    "episode_id": "s09e05",
+    "signature_dish": "Ginger and Lemon Drip Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "Birthday Kaleidoscope for Constance",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_jon",
+    "baker_id": "s09_jon",
+    "episode_id": "s09e05",
+    "signature_dish": "Family Christmas Ginger Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "Birthday Chandelier for Emily's 21st",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_karen",
+    "baker_id": "s09_karen",
+    "episode_id": "s09e05",
+    "signature_dish": "Bonfire Night Ginger Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "Pontefract Girls' School Reunion",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e05",
+    "signature_dish": "Stem Ginger Cake with Poached Pears",
+    "technical_rank": 4,
+    "showstopper_dish": "Christmas Spiced Ice Chandelier",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_manon",
+    "baker_id": "s09_manon",
+    "episode_id": "s09e05",
+    "signature_dish": "Italian Meringue Ginger Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "Art Deco Spiced Biscuit Chandelier",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e05",
+    "signature_dish": "Bonfire Night Caramel Ginger Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "Durga Puja Cardamom Chandelier",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e05",
+    "signature_dish": "Jamaican Me Crazy Ginger Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Peacock Chandelier",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e05_s09_terry",
+    "baker_id": "s09_terry",
+    "episode_id": "s09e05",
+    "signature_dish": "Caramelised Pear and Stem Ginger Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "12 Days of Christmas Chandelier",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e06_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e06",
+    "signature_dish": "Home Comforts",
+    "technical_rank": 1,
+    "showstopper_dish": "\"Down the Rabbit Hole\" Banquet Pie",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e06_s09_dan",
+    "baker_id": "s09_dan",
+    "episode_id": "s09e06",
+    "signature_dish": "Festive Samosas",
+    "technical_rank": 6,
+    "showstopper_dish": "Salmon Coulibiac",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e06_s09_jon",
+    "baker_id": "s09_jon",
+    "episode_id": "s09e06",
+    "signature_dish": "A Romantic Dinner For Two, Samosa Style",
+    "technical_rank": 2,
+    "showstopper_dish": "Welsh Dragon Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e06_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e06",
+    "signature_dish": "Flavours of India",
+    "technical_rank": 5,
+    "showstopper_dish": "Silke the Vegetarian Mermaid",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e06_s09_manon",
+    "baker_id": "s09_manon",
+    "episode_id": "s09e06",
+    "signature_dish": "Samosas for Mum",
+    "technical_rank": 4,
+    "showstopper_dish": "\"What Has Poppy Eaten?\"",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e06_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e06",
+    "signature_dish": "Paneer Singara and Misti Singara",
+    "technical_rank": 3,
+    "showstopper_dish": "Butterfly Pie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e06_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e06",
+    "signature_dish": "Traditional Samosas",
+    "technical_rank": 7,
+    "showstopper_dish": "Kohinoor Crown",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e07_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e07",
+    "signature_dish": "French Onion Tartlets Celeriac & Apple Tartlets",
+    "technical_rank": 5,
+    "showstopper_dish": "Hazelnut Mocha Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e07_s09_jon",
+    "baker_id": "s09_jon",
+    "episode_id": "s09e07",
+    "signature_dish": "Garlic Mushroom Tartlets Falafel & Hummus Tartlets",
+    "technical_rank": 4,
+    "showstopper_dish": "Only Fools Eat Horses Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e07_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e07",
+    "signature_dish": "Broccoli & Tomato Quiches Mascarpone Squirrel Tartlets",
+    "technical_rank": 6,
+    "showstopper_dish": "Lavender & Lemon Fox Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e07_s09_manon",
+    "baker_id": "s09_manon",
+    "episode_id": "s09e07",
+    "signature_dish": "Summer & Winter Tartlets",
+    "technical_rank": 2,
+    "showstopper_dish": "Spiced Apple Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e07_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e07",
+    "signature_dish": "Coriander Posto & Veg Tartlets Ghugni Chaat Tartlets",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate & Coconut Layer Cake with Raspberry Jam",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e07_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e07",
+    "signature_dish": "Sage & Butternut Tartlets 'Cheesy Greens' Tartlets",
+    "technical_rank": 3,
+    "showstopper_dish": "Chocolate, Lemon & Coconut Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e08_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e08",
+    "signature_dish": "Spanish & West Country Smørrebrød",
+    "technical_rank": 1,
+    "showstopper_dish": "Nana Pat Kagekone",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e08_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e08",
+    "signature_dish": "Bumblebee Eggs & Fish Smørrebrød",
+    "technical_rank": 2,
+    "showstopper_dish": "Off to the Opera Kagekone",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e08_s09_manon",
+    "baker_id": "s09_manon",
+    "episode_id": "s09e08",
+    "signature_dish": "Cheese and Fruit Smørrebrød",
+    "technical_rank": 4,
+    "showstopper_dish": "Birthday Girl Kagekone",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e08_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e08",
+    "signature_dish": "Smoked Salmon & Roasted Vegetable Smørrebrød",
+    "technical_rank": 5,
+    "showstopper_dish": "Indian King Kagemand",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e08_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e08",
+    "signature_dish": "Post-Gym Smørrebrød",
+    "technical_rank": 3,
+    "showstopper_dish": "Sister Kagekone",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e09_s09_briony",
+    "baker_id": "s09_briony",
+    "episode_id": "s09e09",
+    "signature_dish": "Mojito Madeleines Espresso Martini Madeleines",
+    "technical_rank": 3,
+    "showstopper_dish": "British Tea to French Pâtisserie Window",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e09_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e09",
+    "signature_dish": "Ginger and Lemon Madeleines Orange Bunny Madeleines",
+    "technical_rank": 2,
+    "showstopper_dish": "Flavourite Flavours Window Display",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e09_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e09",
+    "signature_dish": "Lemon and Raspberry Madeleines Orange Curd Madeleines",
+    "technical_rank": 4,
+    "showstopper_dish": "Classic Tribute to Pâtisserie Window",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e09_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e09",
+    "signature_dish": "Pick Your Own Madeleines",
+    "technical_rank": 1,
+    "showstopper_dish": "Parisian Un Bouquet de Fleurs Window Display",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e10_s09_kimjoy",
+    "baker_id": "s09_kimjoy",
+    "episode_id": "s09e10",
+    "signature_dish": "Amaretto Diplomat Filled Doughnuts Lemon Ring Doughnuts",
+    "technical_rank": 1,
+    "showstopper_dish": "Lost City of Atlantis Dessert Landscape",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e10_s09_rahul",
+    "baker_id": "s09_rahul",
+    "episode_id": "s09e10",
+    "signature_dish": "Mango Créme Pâtissière Filled Doughnuts Spiced Orange Ring Doughnuts",
+    "technical_rank": 2,
+    "showstopper_dish": "Edible Rock Garden",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s09e10_s09_ruby",
+    "baker_id": "s09_ruby",
+    "episode_id": "s09e10",
+    "signature_dish": "Dulce De Leche Filled Doughnuts Raspberry and Cardamom Ring Doughnuts",
+    "technical_rank": 3,
+    "showstopper_dish": "Magical Edible Landscape",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

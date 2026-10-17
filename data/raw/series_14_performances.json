@@ -1,0 +1,762 @@
+[
+  {
+    "performance_id": "s14e01_s14_abbi",
+    "baker_id": "s14_abbi",
+    "episode_id": "s14e01",
+    "signature_dish": "Foraged Poppy Seed, Lemon & Blackcurrant Vertical Layer Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "'Herbert the Herdwick' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_amos",
+    "baker_id": "s14_amos",
+    "episode_id": "s14e01",
+    "signature_dish": "Blood Orange & Dark Chocolate Vertical Layer Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "'Orca on a Wave' Cake",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_cristy",
+    "baker_id": "s14_cristy",
+    "episode_id": "s14e01",
+    "signature_dish": "'Lemon Meringue' Vertical Layer Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "'Raspberry Ripple' Duck Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e01",
+    "signature_dish": "Rhubarb & Custard Vertical Layer Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "'Bruno' Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_dana",
+    "baker_id": "s14_dana",
+    "episode_id": "s14e01",
+    "signature_dish": "'Salted Caramel Latte' Vertical Layer Cake",
+    "technical_rank": 12,
+    "showstopper_dish": "'My Amazing Gracie' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e01",
+    "signature_dish": "'Tropical' Vertical Layer Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "'Mum's Highland Cow' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_keith",
+    "baker_id": "s14_keith",
+    "episode_id": "s14e01",
+    "signature_dish": "'Dad's Chocolate Orange' Vertical Layer Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "'Maisie' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e01",
+    "signature_dish": "'Tiramisu' Vertical Layer Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "'Marty the Cocker Spaniel' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_nicky",
+    "baker_id": "s14_nicky",
+    "episode_id": "s14e01",
+    "signature_dish": "'St. Clements' Vertical Layer Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "'Always Beavering Around' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_rowan",
+    "baker_id": "s14_rowan",
+    "episode_id": "s14e01",
+    "signature_dish": "Chocolate & Raspberry Vertical Layer Cake",
+    "technical_rank": 9,
+    "showstopper_dish": "'Cosmopolitan Lobster' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_saku",
+    "baker_id": "s14_saku",
+    "episode_id": "s14e01",
+    "signature_dish": "Chaminda's Favourite Vertical Layer Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "'Tikiri the Turtle' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e01_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e01",
+    "signature_dish": "Black Sesame & Yuzu Vertical Layer Cake",
+    "technical_rank": 11,
+    "showstopper_dish": "Robin Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_abbi",
+    "baker_id": "s14_abbi",
+    "episode_id": "s14e02",
+    "signature_dish": "'Flavours of Tunisia' Marshmallow Biscuits",
+    "technical_rank": 1,
+    "showstopper_dish": "'Dim Sum Brunch' Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_cristy",
+    "baker_id": "s14_cristy",
+    "episode_id": "s14e02",
+    "signature_dish": "'Nanny June's' Marshmallow Biscuits",
+    "technical_rank": 9,
+    "showstopper_dish": "'Family Charcuterie Board' Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e02",
+    "signature_dish": "'Waterwheel' Marshmallow Biscuits",
+    "technical_rank": 2,
+    "showstopper_dish": "'Cheese & Onion Pie' Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_dana",
+    "baker_id": "s14_dana",
+    "episode_id": "s14e02",
+    "signature_dish": "'Mallow-Dramatic' Marshmallow Biscuits",
+    "technical_rank": 7,
+    "showstopper_dish": "'Friday Night Takeaway' Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e02",
+    "signature_dish": "'Black Forest' Marshmallow Biscuits",
+    "technical_rank": 6,
+    "showstopper_dish": "'JJ's Burger & Fries' Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_keith",
+    "baker_id": "s14_keith",
+    "episode_id": "s14e02",
+    "signature_dish": "'Letter from America' Marshmallow Biscuits",
+    "technical_rank": 11,
+    "showstopper_dish": "'Seaside Meal Deal' Illusion Biscuits",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e02",
+    "signature_dish": "'Half-Time' Marshmallow Biscuits",
+    "technical_rank": 5,
+    "showstopper_dish": "'Cheeseboard' Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_nicky",
+    "baker_id": "s14_nicky",
+    "episode_id": "s14e02",
+    "signature_dish": "'Tasty Teatime Treat' Marshmallow Biscuits",
+    "technical_rank": 4,
+    "showstopper_dish": "'A Home from Home Steak Pie' Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_rowan",
+    "baker_id": "s14_rowan",
+    "episode_id": "s14e02",
+    "signature_dish": "Lemon, Rosemary & Violet Marshmallow Biscuits",
+    "technical_rank": 3,
+    "showstopper_dish": "‘Charcuterie Board’ Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_saku",
+    "baker_id": "s14_saku",
+    "episode_id": "s14e02",
+    "signature_dish": "Pistachio & Raspberry Marshmallow Biscuits",
+    "technical_rank": 10,
+    "showstopper_dish": "'Sri Lankan Breakfast Feast' Illusion Biscuits",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e02_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e02",
+    "signature_dish": "'After-School Treat' Marshmallow Biscuits",
+    "technical_rank": 8,
+    "showstopper_dish": "'Japanese Katsu & Matcha' Illusion Biscuits",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_abbi",
+    "baker_id": "s14_abbi",
+    "episode_id": "s14e03",
+    "signature_dish": "'Country Kitchen' Cottage Loaf",
+    "technical_rank": 8,
+    "showstopper_dish": "'My Favourite Tree' Plaited Centrepiece",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_cristy",
+    "baker_id": "s14_cristy",
+    "episode_id": "s14e03",
+    "signature_dish": "Cranberry, Rosemary & Walnut Cottage Loaf",
+    "technical_rank": 6,
+    "showstopper_dish": "Honey & Chocolate Plaited Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e03",
+    "signature_dish": "Wild Garlic Cottage Loaf",
+    "technical_rank": 10,
+    "showstopper_dish": "'Stuffed Crust Pizza' Plaited Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_dana",
+    "baker_id": "s14_dana",
+    "episode_id": "s14e03",
+    "signature_dish": "'Bread-ley Cooper' Cottage Loaf",
+    "technical_rank": 3,
+    "showstopper_dish": "'Tea Beside the Sea' Plaited Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e03",
+    "signature_dish": "'Nduja' Pizza Cottage Loaf",
+    "technical_rank": 4,
+    "showstopper_dish": "'Tiger Mascot' Plaited Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e03",
+    "signature_dish": "Olive & Tomato Cottage Loaf",
+    "technical_rank": 7,
+    "showstopper_dish": "'The Hammers' Plaited Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_nicky",
+    "baker_id": "s14_nicky",
+    "episode_id": "s14e03",
+    "signature_dish": "Roast Garlic & Rosemary Cottage Loaf",
+    "technical_rank": 5,
+    "showstopper_dish": "'Angus the Highland Cow' Plaited Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_rowan",
+    "baker_id": "s14_rowan",
+    "episode_id": "s14e03",
+    "signature_dish": "Olive & Tomato Cottage Loaf",
+    "technical_rank": 9,
+    "showstopper_dish": "'A Bread Rowan Tree' Plaited Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_saku",
+    "baker_id": "s14_saku",
+    "episode_id": "s14e03",
+    "signature_dish": "Cinnamon & Orange Cottage Loaf",
+    "technical_rank": 1,
+    "showstopper_dish": "'Peacock on a Branch' Plaited Centrepiece",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e03_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e03",
+    "signature_dish": "Roast Garlic and Rosemary Malted Cottage Loaf",
+    "technical_rank": 2,
+    "showstopper_dish": "'Medusa' Plaited Centrepiece",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_cristy",
+    "baker_id": "s14_cristy",
+    "episode_id": "s14e04",
+    "signature_dish": "Cherry & Chocolate Torte",
+    "technical_rank": 7,
+    "showstopper_dish": "'For Love' Chocolate Box Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e04",
+    "signature_dish": "Chilli and Chocolate Torte",
+    "technical_rank": 1,
+    "showstopper_dish": "'A Treasure Chest of Delight' Chocolate Box Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_dana",
+    "baker_id": "s14_dana",
+    "episode_id": "s14e04",
+    "signature_dish": "'I Cherry-ish You' Chocolate Torte",
+    "technical_rank": 5,
+    "showstopper_dish": "'Once Upon a Time' Chocolate Box Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e04",
+    "signature_dish": "Raspberry & Chocolate Torte",
+    "technical_rank": 6,
+    "showstopper_dish": "'Chemistry Centenary' Chocolate Box Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e04",
+    "signature_dish": "Hazelnut & Chocolate Torte",
+    "technical_rank": 2,
+    "showstopper_dish": "Chocolate Box Cake",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_nicky",
+    "baker_id": "s14_nicky",
+    "episode_id": "s14e04",
+    "signature_dish": "'Dreamy' Chocolate Torte",
+    "technical_rank": 4,
+    "showstopper_dish": "'This is No Ordinary Chocolate Box' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_rowan",
+    "baker_id": "s14_rowan",
+    "episode_id": "s14e04",
+    "signature_dish": "'Mocha' Chocolate Torte",
+    "technical_rank": 3,
+    "showstopper_dish": "'Grandpa's Paints' Chocolate Box Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_saku",
+    "baker_id": "s14_saku",
+    "episode_id": "s14e04",
+    "signature_dish": "Chocolate & Raspberry Torte",
+    "technical_rank": 8,
+    "showstopper_dish": "'Time for Cricket' Chocolate Box Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e04_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e04",
+    "signature_dish": "Ginger, Almond & Dark Chocolate Torte",
+    "technical_rank": null,
+    "showstopper_dish": "Did not compete",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_cristy",
+    "baker_id": "s14_cristy",
+    "episode_id": "s14e05",
+    "signature_dish": "Creamy Mushroom & Leek Picnic Pies",
+    "technical_rank": 5,
+    "showstopper_dish": "'Autumnal Lattice' Decorative Pies",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e05",
+    "signature_dish": "Lamb Keema Picnic Pies",
+    "technical_rank": 1,
+    "showstopper_dish": "'Journey Around South America' Decorative Pies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_dana",
+    "baker_id": "s14_dana",
+    "episode_id": "s14e05",
+    "signature_dish": "'Spud-tacular' Picnic Pies",
+    "technical_rank": 2,
+    "showstopper_dish": "'The Apple of my Pie' Decorative Pies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e05",
+    "signature_dish": "'Post-Match'’ Picnic Pies",
+    "technical_rank": 8,
+    "showstopper_dish": "'From Flour to Flower' Decorative Pies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e05",
+    "signature_dish": "'Spanakopità' Picnic Pies",
+    "technical_rank": 7,
+    "showstopper_dish": "'Ski Trip' Decorative Pies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_nicky",
+    "baker_id": "s14_nicky",
+    "episode_id": "s14e05",
+    "signature_dish": "Pork & Cheese Picnic Pies",
+    "technical_rank": 9,
+    "showstopper_dish": "'Gran's Garden Trio' Decorative Pies",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_rowan",
+    "baker_id": "s14_rowan",
+    "episode_id": "s14e05",
+    "signature_dish": "Pork & Sweet Potato Picnic Pies",
+    "technical_rank": 4,
+    "showstopper_dish": "'Lattice Fabulous' Decorative Pies",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_saku",
+    "baker_id": "s14_saku",
+    "episode_id": "s14e05",
+    "signature_dish": "Spicy Tuna Picnic Pies",
+    "technical_rank": 6,
+    "showstopper_dish": "'Pie Chart' Decorative Pies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e05_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e05",
+    "signature_dish": "Sausage, Apple & Cranberry Picnic Pies",
+    "technical_rank": 3,
+    "showstopper_dish": "'Sea or Ski?' Decorative Pies",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e06_s14_cristy",
+    "baker_id": "s14_cristy",
+    "episode_id": "s14e06",
+    "signature_dish": "Maple, Pecan & Cinnamon Spiced Buns",
+    "technical_rank": 1,
+    "showstopper_dish": "Elderflower, Strawberry & Rhubarb Floral Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e06_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e06",
+    "signature_dish": "'Dreaming of Greece' Spiced Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "'Sunny Meadows' Floral Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e06_s14_dana",
+    "baker_id": "s14_dana",
+    "episode_id": "s14e06",
+    "signature_dish": "'Bun in a Million' Spiced Buns",
+    "technical_rank": 6,
+    "showstopper_dish": "'Stop and Smell the Rosé' Floral Dessert",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e06_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e06",
+    "signature_dish": "Lemon & Blueberry Spiced Buns",
+    "technical_rank": 2,
+    "showstopper_dish": "Rhubarb, Raspberry & Hibiscus Floral Dessert",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e06_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e06",
+    "signature_dish": "'Rum Drunk' Spiced Buns",
+    "technical_rank": 4,
+    "showstopper_dish": "Blackberry & Elderflower Floral Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e06_s14_saku",
+    "baker_id": "s14_saku",
+    "episode_id": "s14e06",
+    "signature_dish": "Swedish Cinnamon Spiced Buns",
+    "technical_rank": 5,
+    "showstopper_dish": "Earl Grey & Hibiscus Floral Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e06_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e06",
+    "signature_dish": "'Yultide' Spiced Buns",
+    "technical_rank": 7,
+    "showstopper_dish": "Elderflower & Hibiscus Floral Dessert",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e07_s14_cristy",
+    "baker_id": "s14_cristy",
+    "episode_id": "s14e07",
+    "signature_dish": "Orange Crème Caramels",
+    "technical_rank": 4,
+    "showstopper_dish": "'Croquembouche' Meringue Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e07_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e07",
+    "signature_dish": "'Thai Green Curry' Crème Caramels",
+    "technical_rank": 2,
+    "showstopper_dish": "'Pale Blue Dot' Meringue Bombe",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e07_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e07",
+    "signature_dish": "'Nan's Favourite' Crème Caramels",
+    "technical_rank": 3,
+    "showstopper_dish": "'Game, Set and Match' Meringue Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e07_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e07",
+    "signature_dish": "Chai Crème Caramels",
+    "technical_rank": 6,
+    "showstopper_dish": "'English Italian Summer' Meringue Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e07_s14_saku",
+    "baker_id": "s14_saku",
+    "episode_id": "s14e07",
+    "signature_dish": "'Mini Watalappan' Crème Caramels",
+    "technical_rank": 5,
+    "showstopper_dish": "'Flowers for my Bee' Meringue Bombe",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e07_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e07",
+    "signature_dish": "Fig, Honey and Rosemary Crème Caramels",
+    "technical_rank": 1,
+    "showstopper_dish": "Plum and Ginger Meringue Bombe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e08_s14_cristy",
+    "baker_id": "s14_cristy",
+    "episode_id": "s14e08",
+    "signature_dish": "Cranberry & Sage Sausage Rolls",
+    "technical_rank": 2,
+    "showstopper_dish": "'Marvellous Sweet Factory' Buffet",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e08_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e08",
+    "signature_dish": "'Dumplings in Disguise' Sausage Rolls",
+    "technical_rank": 5,
+    "showstopper_dish": "'Prehistoric Party Poopers' Buffet",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e08_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e08",
+    "signature_dish": "Turkey & Cranberry ‘Christmas’ Sausage Rolls",
+    "technical_rank": 4,
+    "showstopper_dish": "'It's Christmas!!!' Buffet",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e08_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e08",
+    "signature_dish": "'Classic' Sausage Rolls",
+    "technical_rank": 3,
+    "showstopper_dish": "'Sports' Buffet",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e08_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e08",
+    "signature_dish": "'Cider in the Park' Sausage Rolls",
+    "technical_rank": 1,
+    "showstopper_dish": "'Birthdays on the Farm' Buffet",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e09_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e09",
+    "signature_dish": "Fancy Financiers",
+    "technical_rank": 3,
+    "showstopper_dish": "'Hypersonic' Millefoglie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e09_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e09",
+    "signature_dish": "Perfect Pudding Financiers",
+    "technical_rank": 1,
+    "showstopper_dish": "Lemon, Blackberry & Blackcurrant Millefoglie",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e09_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e09",
+    "signature_dish": "'Pick Me Up' Financiers",
+    "technical_rank": 2,
+    "showstopper_dish": "'Taste of Italy' Millefoglie",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e09_s14_tasha",
+    "baker_id": "s14_tasha",
+    "episode_id": "s14e09",
+    "signature_dish": "'Fancy Fruit & Nut' Financiers",
+    "technical_rank": 4,
+    "showstopper_dish": "'Mango Mojito' Millefoglie",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e10_s14_dan",
+    "baker_id": "s14_dan",
+    "episode_id": "s14e10",
+    "signature_dish": "'He Who Dares, Éclairs!'",
+    "technical_rank": 2,
+    "showstopper_dish": "'Lemon Drizzle Memory Lane' Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e10_s14_josh",
+    "baker_id": "s14_josh",
+    "episode_id": "s14e10",
+    "signature_dish": "Tropical and Mocha Éclairs",
+    "technical_rank": 1,
+    "showstopper_dish": "'A Slice For All Seasons' Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s14e10_s14_matty",
+    "baker_id": "s14_matty",
+    "episode_id": "s14e10",
+    "signature_dish": "Black Forest and Banoffee Éclairs",
+    "technical_rank": 3,
+    "showstopper_dish": "'Final Celebration' Cake",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  }
+]

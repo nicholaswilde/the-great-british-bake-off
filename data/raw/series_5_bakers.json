@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s05_chetna",
+    "series_number": 5,
+    "name": "Chetna Makan",
+    "age": 35,
+    "occupation": "Fashion Designer",
+    "hometown": "Broadstairs, Kent",
+    "overall_placement": 4,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_claire",
+    "series_number": 5,
+    "name": "Claire Goodwin",
+    "age": 31,
+    "occupation": "Speech Therapist",
+    "hometown": "Ashton upon Mersey, Trafford",
+    "overall_placement": 12,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_diana",
+    "series_number": 5,
+    "name": "Diana Beard",
+    "age": 69,
+    "occupation": "Women's Institute (WI) Judge",
+    "hometown": "Alkington, Shropshire",
+    "overall_placement": 8,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_enwezor",
+    "series_number": 5,
+    "name": "Enwezor Nzegwu",
+    "age": 39,
+    "occupation": "Business Consultant",
+    "hometown": "Portsmouth, Hampshire",
+    "overall_placement": 11,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_iain",
+    "series_number": 5,
+    "name": "Iain Watters",
+    "age": 31,
+    "occupation": "Construction Engineer",
+    "hometown": "London/Belfast",
+    "overall_placement": 9,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_jordan",
+    "series_number": 5,
+    "name": "Jordan Cox",
+    "age": 32,
+    "occupation": "IT Manager",
+    "hometown": "Sneinton, Nottingham",
+    "overall_placement": 10,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_kate",
+    "series_number": 5,
+    "name": "Kate Henry",
+    "age": 41,
+    "occupation": "Furniture Restorer",
+    "hometown": "Brighton, East Sussex",
+    "overall_placement": 6,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_luis",
+    "series_number": 5,
+    "name": "Luis Troyano",
+    "age": 42,
+    "occupation": "Graphic Designer",
+    "hometown": "Poynton, Cheshire",
+    "overall_placement": 2,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_martha",
+    "series_number": 5,
+    "name": "Martha Collison",
+    "age": 17,
+    "occupation": "Student",
+    "hometown": "Ascot, Berkshire",
+    "overall_placement": 5,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_nancy",
+    "series_number": 5,
+    "name": "Nancy Birtwhistle",
+    "age": 60,
+    "occupation": "Retired Practice Manager",
+    "hometown": "Barton-upon-Humber, Lincolnshire",
+    "overall_placement": 1,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_norman",
+    "series_number": 5,
+    "name": "Norman Calder",
+    "age": 66,
+    "occupation": "Retired Naval Officer",
+    "hometown": "Portknockie, Moray",
+    "overall_placement": 7,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s05_richard",
+    "series_number": 5,
+    "name": "Richard Burr",
+    "age": 38,
+    "occupation": "Builder",
+    "hometown": "Mill Hill, London",
+    "overall_placement": 2,
+    "raw_placement_text": null
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s11e01",
+    "series_number": 11,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2020-09-22"
+  },
+  {
+    "episode_id": "s11e02",
+    "series_number": 11,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2020-09-29"
+  },
+  {
+    "episode_id": "s11e03",
+    "series_number": 11,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2020-10-06"
+  },
+  {
+    "episode_id": "s11e04",
+    "series_number": 11,
+    "episode_number": 4,
+    "theme": "Chocolate",
+    "air_date": "2020-10-13"
+  },
+  {
+    "episode_id": "s11e05",
+    "series_number": 11,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2020-10-20"
+  },
+  {
+    "episode_id": "s11e06",
+    "series_number": 11,
+    "episode_number": 6,
+    "theme": "Japanese",
+    "air_date": "2020-10-27"
+  },
+  {
+    "episode_id": "s11e07",
+    "series_number": 11,
+    "episode_number": 7,
+    "theme": "The '80s",
+    "air_date": "2020-11-03"
+  },
+  {
+    "episode_id": "s11e08",
+    "series_number": 11,
+    "episode_number": 8,
+    "theme": "Desserts (Quarterfinals)",
+    "air_date": "2020-11-10"
+  },
+  {
+    "episode_id": "s11e09",
+    "series_number": 11,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinals)",
+    "air_date": "2020-11-17"
+  },
+  {
+    "episode_id": "s11e10",
+    "series_number": 11,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2020-11-24"
+  }
+]

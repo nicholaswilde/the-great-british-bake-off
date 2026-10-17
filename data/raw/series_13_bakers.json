@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s13_will",
+    "series_number": 13,
+    "name": "Will Hawkins",
+    "age": 45,
+    "occupation": "Former charity director",
+    "hometown": "London, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s13_maisam",
+    "series_number": 13,
+    "name": "Maisam Algirgeet",
+    "age": 18,
+    "occupation": "Student and sales assistant",
+    "hometown": "Manchester, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s13_james",
+    "series_number": 13,
+    "name": "James Dewar",
+    "age": 25,
+    "occupation": "Nuclear scientist",
+    "hometown": "Cumbria, England",
+    "overall_placement": 9,
+    "raw_placement_text": "9th (tie)"
+  },
+  {
+    "baker_id": "s13_rebecca",
+    "series_number": 13,
+    "name": "Rebecca 'Rebs' Lightbody",
+    "age": 23,
+    "occupation": "Masters student",
+    "hometown": "County Antrim, Northern Ireland",
+    "overall_placement": 9,
+    "raw_placement_text": "9th (tie)"
+  },
+  {
+    "baker_id": "s13_carole",
+    "series_number": 13,
+    "name": "Carole Edwards",
+    "age": 59,
+    "occupation": "Supermarket cashier",
+    "hometown": "Dorset, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s13_dawn",
+    "series_number": 13,
+    "name": "Dawn Hollyoak",
+    "age": 60,
+    "occupation": "IT manager",
+    "hometown": "Bedfordshire, England",
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s13_kevin",
+    "series_number": 13,
+    "name": "Kevin Flynn",
+    "age": 33,
+    "occupation": "Music teacher",
+    "hometown": "Lanarkshire, Scotland",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
+  },
+  {
+    "baker_id": "s13_marietherese",
+    "series_number": 13,
+    "name": "Marie-Therese 'Maxy' Maligisa",
+    "age": 29,
+    "occupation": "Architectural assistant",
+    "hometown": "London, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s13_janusz",
+    "series_number": 13,
+    "name": "Janusz Domagala",
+    "age": 34,
+    "occupation": "Personal assistant to head teacher",
+    "hometown": "East Sussex, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s13_abdul",
+    "series_number": 13,
+    "name": "Abdul Rehman Sharif",
+    "age": 29,
+    "occupation": "Electronics engineer",
+    "hometown": "London, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s13_nelsandro",
+    "series_number": 13,
+    "name": "Nelsandro \"Sandro\" Farmhouse",
+    "age": 30,
+    "occupation": "Nanny",
+    "hometown": "London, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s13_syabira",
+    "series_number": 13,
+    "name": "Syabira Yusoff",
+    "age": 32,
+    "occupation": "Cardiovascular research associate",
+    "hometown": "London, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

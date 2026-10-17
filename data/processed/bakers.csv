@@ -1,0 +1,205 @@
+baker_id,series_number,name,age,gender,occupation,hometown,overall_placement,image_url
+s01_edward,1,Edward 'Edd' Kimber,24,M,Debt collector for Yorkshire Bank,Bradford,1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_4_450-450x450.jpg
+s01_ruth,1,Ruth Clemens,31,F,Retail manager/Housewife,Pointon,2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_6_450-450x450.jpg
+s01_miranda,1,Miranda Gore Browne,37,F,Food buyer for Marks & Spencer,Midhurst,3.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_5_450-450x450.jpg
+s01_jasminder,1,"Jasminder ""Jas"" Randhawa",45,F,Assistant Credit Control Manager,Birmingham,4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_2_450-450x450.jpg
+s01_david,1,David Chambers,31,M,Entrepreneur,Milton Keynes,5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_10_450-450x450.jpg
+s01_jonathan,1,Jonathan Shepherd,25,M,Research Analyst,St Albans,6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_3_450-450x450.jpg
+s01_annetha,1,Annetha Mills,30,F,Midwife,Essex,7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_8_450-450x450.jpg
+s01_louise,1,Louise Brimelow,44,F,Police Officer,Manchester,7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_7_450-450x450.jpg
+s01_lea,1,Lea Harris,51,F,Retired,Midlothian,9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_9_450-450x450.jpg
+s01_mark,1,Mark Whithers,48,M,Bus Driver,South Wales,9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s1_1_450-450x450.jpg
+s02_joanne,2,"Joanne ""Jo"" Wheatley",41,F,Housewife,Ongar,1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/joanne-detail-370x299.jpg
+s02_holly,2,Holly Bell,31,F,Advertising executive,Leicester,2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/holly-detail-370x299.jpg
+s02_maryanne,2,Mary-Anne Boermans,45,F,Housewife,Kidderminster,2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/mary-anne-detail-370x299.jpg
+s02_janet,2,Janet Basu,63,F,Teacher of Modern Languages,Formby,4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/janet-detail-370x299.jpg
+s02_yasmin,2,Yasmin Limbert,43,F,Childminder,West Kirby,5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/yasmin-detail-370x299.jpg
+s02_jason,2,Jason White,19,M,Civil Engineering Student,Croydon,6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/jason-detail-370x299.jpg
+s02_robert,2,Robert Billington,25,M,Photographer,London,6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/robert-detail-370x299.jpg
+s02_ben,2,Ben Frazer,31,M,Graphic Designer,Northampton,8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ben-detail-370x299.jpg
+s02_ian,2,Ian Vallance,40,M,Fundraiser for English Heritage,Dunstable,9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ian-detail-370x299.jpg
+s02_urvashi,2,Urvashi Roe,40,F,Head of Marketing,Enfield,9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/urvashi-detail-370x299.jpg
+s02_simon,2,Simon Blackwell,31,M,Rugby Coach,Norfolk,11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/simon-detail-370x299.jpg
+s02_keith,2,Keith Batsford,31,M,House husband,Arlesey,12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/keith-detail-370x299.jpg
+s03_john,3,John Whaite,22,M,Law student,"Wigan, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/john-large1-370x300.jpg
+s03_brendan,3,Brendan Lynch,63,M,Recruitment consultant,"Sutton Coldfield, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/brendan-large1-370x300.jpg
+s03_james,3,James Morton,21,M,Medical student,"Hillswick, Scotland",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/james-large1-370x300.jpg
+s03_danny,3,Danny Bryden,45,F,Intensive care consultant,"Sheffield, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/danny-large1-370x300.jpg
+s03_cathryn,3,Cathryn Dresser,27,F,Shop assistant,"Pease Pottage, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/cathryn-large1-370x300.jpg
+s03_ryan,3,Ryan Chong,38,M,Photographer,"Bristol, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/ryan-large1-370x300.jpg
+s03_sarahjane,3,Sarah-Jane Willis,28,F,Vicar's wife,"Bewbush, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/sarah-large1-370x300.jpg
+s03_manisha,3,Manisha Parmar,27,F,Nursery nurse,"Leicester, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/manisha-large1-370x300.jpg
+s03_stuart,3,Stuart Marston-Smith,26,M,PE teacher,"Lichfield, England",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/stuart-large1-370x300.jpg
+s03_victoria,3,Victoria Chester,50,F,CEO of the charity Plantlife,"Somerset, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/victoria-large1-370x300.jpg
+s03_peter,3,Peter Maloney,43,M,Sales manager,"Windsor, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/peter-large1-370x300.jpg
+s03_natasha,3,Natasha Stringer,36,F,Midwife,"Tamworth, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/natasha-large1-370x300.jpg
+s04_frances,4,Frances Quinn,31,F,Children's Clothes Designer,"Market Harborough, Leicestershire",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_11_450-1-450x450.jpg
+s04_kimberley,4,Kimberley Wilson,30,F,Psychologist,London,2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_6_450-450x450.jpg
+s04_ruby,4,Ruby Tandoh,20,F,History of Art and Philosophy Student,"Southend, Essex",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_9_450-450x450.jpg
+s04_beca,4,Beca Lyne-Pirkis,31,F,Military Wives' Choir Singer,"Aldershot, Hampshire",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_2_450-450x450.jpg
+s04_christine,4,Christine Wallace,66,F,Director of an engraving company,"Didcot, Oxfordshire",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_3_450-450x450.jpg
+s04_glenn,4,Glenn Cosby,37,M,English Teacher,"Teignmouth, Devon",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_1_450-450x450.jpg
+s04_howard,4,Howard Middleton,51,M,Council Worker,Sheffield,7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_13_450-450x450.jpg
+s04_robert,4,Robert Smart,54,M,Space Satellite Designer,"Melbourn, Cambridgeshire",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_12_450-450x450.jpg
+s04_ali,4,Ali Imdad,25,M,Charity worker,"Saltley, Birmingham",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_5_450-450x450.jpg
+s04_deborah,4,Deborah Manger,51,F,Dentist,Peterborough,10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_4_450-450x450.jpg
+s04_mark,4,Mark Onley,37,M,Carpenter and Kitchen Fitter,Milton Keynes,11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_10_450-450x450.jpg
+s04_lucy,4,Lucy Bellamy,38,F,Horticulturist,"Grimsby, Lincolnshire",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_7_450-450x450.jpg
+s04_toby,4,Toby Waterworth,30,M,Web Programmer,"Reading, Berkshire",13.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/s4_8_450-450x450.jpg
+s05_nancy,5,Nancy Birtwhistle,60,F,Retired Practice Manager,"Barton-upon-Humber, Lincolnshire",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/NANCY-320-370x304.jpg
+s05_luis,5,Luis Troyano,42,M,Graphic Designer,"Poynton, Cheshire",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/LUIS-320-370x304.jpg
+s05_richard,5,Richard Burr,38,M,Builder,"Mill Hill, London",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/RICHARD-320-370x304.jpg
+s05_chetna,5,Chetna Makan,35,F,Fashion Designer,"Broadstairs, Kent",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/CHETNA-320-370x304.jpg
+s05_martha,5,Martha Collison,17,F,Student,"Ascot, Berkshire",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2013/08/MARTHA-320-370x304.jpg
+s05_kate,5,Kate Henry,41,F,Furniture Restorer,"Brighton, East Sussex",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/KATE-320-370x304.jpg
+s05_norman,5,Norman Calder,66,M,Retired Naval Officer,"Portknockie, Moray",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/NORMAN-320-370x307.jpg
+s05_diana,5,Diana Beard,69,F,Women's Institute (WI) Judge,"Alkington, Shropshire",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/DIANA%E2%80%93320-370x304.jpg
+s05_iain,5,Iain Watters,31,M,Construction Engineer,London/Belfast,9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/IAIN-320-370x304.jpg
+s05_jordan,5,Jordan Cox,32,M,IT Manager,"Sneinton, Nottingham",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/JORDAN-320-370x304.jpg
+s05_enwezor,5,Enwezor Nzegwu,39,M,Business Consultant,"Portsmouth, Hampshire",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/ENWEZOR-320-370x304.jpg
+s05_claire,5,Claire Goodwin,31,F,Speech Therapist,"Ashton upon Mersey, Trafford",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2014/07/CLAIRE-320-370x304.jpg
+s06_nadiya,6,Nadiya Hussain,30,F,Full-time Mother,Leeds / Luton,1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_12_450-370x370.jpg
+s06_ian,6,Ian Cumming,41,M,Travel Photographer,"Great Wilbraham, Cambridgeshire",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_9_450-370x370.jpg
+s06_tamal,6,Tamal Ray,29,M,Trainee Anaesthetist,Manchester,2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_3_450-370x370.jpg
+s06_flora,6,Flora Shedden,19,F,Art Gallery Assistant,"Dunkeld, Perth and Kinross",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_8_450-370x370.jpg
+s06_paul,6,Paul Jagger,49,M,Prison Governor,"Swansea, Wales",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_6_450-370x370.jpg
+s06_mat,6,Mat Riley,37,M,Firefighter,London,6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_11_450-370x370.jpg
+s06_alvin,6,Alvin Magallanes,37,M,Nurse,"Bracknell, Berkshire",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_1_450-370x370.jpg
+s06_ugn,6,Ugnė Bubnaityte,32,F,PA and Administrator,"Woodford, London / Vilkaviškis, Lithuania",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_2_450-370x370.jpg
+s06_sandy,6,Sandy Docherty,49,F,Child Welfare Officer,"Yeadon, West Yorkshire",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_5_450-370x370.jpg
+s06_dorret,6,Dorret Conway,53,F,Accountant,"Penwortham, Lancashire",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_7_450-370x370.jpg
+s06_marie,6,Marie Campbell,66,F,Retired,"Auchterarder, Perthshire",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_10_450-370x370.jpg
+s06_stu,6,Stu Henshall,35,M,Professional Musician,"Guildford, Surrey",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2015/07/s6_4_450-1-370x370.jpg
+s07_candice,7,Candice Brown,31,F,PE teacher,"Barton-Le-Clay, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/candace-450x450.jpg
+s07_andrew,7,Andrew Smyth,25,M,Aerospace engineer,"Holywood, Northern Ireland",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/andrew-450x450.jpg
+s07_jane,7,Jane Beedle,61,F,Garden designer,"Beckenham, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/jane-450x450.jpg
+s07_selasi,7,Selasi Gbormittah,30,M,Client service associate,"London, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/selasi-450x450.jpg
+s07_benjamina,7,Benjamina Ebuehi,23,F,Teaching assistant,"South London, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/benjamina-450x450.jpg
+s07_tom,7,Tom Gilliford,26,M,Project engagement manager,"Rochdale, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/tom-450x450.jpg
+s07_rav,7,Rav Bansal,28,M,Student support,"Erith, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/rav-450x450.jpg
+s07_valerie,7,"Valerie ""Val"" Stones",66,F,"Semi-retired, Substitute teacher","Yeovil, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/val-450x450.jpg
+s07_kate,7,Kate Barmby,37,F,Nurse,"Brooke, England",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/kate-450x450.jpg
+s07_michael,7,Michael Georgiou,20,M,Student,"Durham, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/michael-450x450.jpg
+s07_louise,7,Louise Williams,46,F,Hairdresser,"Cardiff, Wales",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/louise-450x450.jpg
+s07_lee,7,Lee Banfield,67,M,Pastor,"Bolton, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/lee-450x450.jpg
+s08_sophie,8,Sophie Faldo,33,F,Former Army Officer and Trainee Stunt Woman,"West Molesey, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Sophie-1162_l-450x450.jpg
+s08_kate,8,Kate Lyon,29,F,Health and Safety Inspector,"Merseyside, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Kate-1135_l-450x450.jpg
+s08_steven,8,Steven Carter-Bailey,34,M,Marketer,"Watford, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Steven-987_l-450x450.jpg
+s08_stacey,8,Stacey Hart,42,F,Former School Teacher,"Radlett, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Stacey-1201_l-450x450.jpg
+s08_liam,8,Liam Charles,19,M,Student,"North London, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Liam-959_l-450x450.jpg
+s08_chuenyan,8,"Chuen-Yan ""Yan"" Tsou",46,F,Laboratory Research Scientist,"North London, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Yan-928_l-450x450.jpg
+s08_julia,8,Julia Chernogorova,21,F,Aviation Broker,"Crawley, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Julia-860_l-450x450.jpg
+s08_james,8,James Hillery,46,M,Banker,"Brentwood, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-James-1045_l-450x450.jpg
+s08_tom,8,Tom Hetherington,29,M,Architect,"Edinburgh, Scotland",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Tom-890_l-450x450.jpg
+s08_flo,8,Flo Atkins,71,F,Retired,"Merseyside, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Flo-1074_l-450x450.jpg
+s08_chris,8,Chris Geiger,50,M,Software Developer,"Bristol, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Chris-1105_l-450x450.jpg
+s08_peter,8,Peter Abatan,52,M,IT Programme Manager,"Southend, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2016/08/GBBO8-Baker-Portrait-Peter-1016_l-450x450.jpg
+s09_rahul,9,Rahul Mandal,30,M,Research scientist,"Rotherham, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-10-370x370.jpg
+s09_kimjoy,9,Kim-Joy Hewlett,27,F,Mental health specialist,"Leeds, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-6-370x370.jpg
+s09_ruby,9,Ruby Bhogal,29,F,Project manager,"London, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-370x370.jpg
+s09_briony,9,Briony Williams,33,F,Stay at home parent,"Bristol, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-5-370x370.jpg
+s09_manon,9,Manon Lagrève,26,F,Software project manager,"London, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-3-370x370.jpg
+s09_jon,9,Jon Jenkins,47,M,Blood courier,"Newport, Wales",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-8-370x370.jpg
+s09_dan,9,Dan Beasley-Harling,36,M,Stay at home parent,"London, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-7-370x370.jpg
+s09_karen,9,Karen Wright,60,F,In-store sampling assistant,"Wakefield, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-9-370x370.jpg
+s09_terry,9,Terry Hartill,56,M,Retired air steward,"West Midlands, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-11-370x370.jpg
+s09_antony,9,Antony Amourdoux,30,M,Banker,"London, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-4-370x370.jpg
+s09_luke,9,Luke Thompson,30,M,Civil servant/house and techno DJ,"Sheffield, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-1-370x370.jpg
+s09_imelda,9,Imelda McCarron,33,F,Countryside recreation officer,"County Tyrone, Northern Ireland",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2018/08/New-Project-2-370x370.jpg
+s10_david,10,David Atherton,36,M,International health adviser,"Whitby, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-David-1080-450x450.jpg
+s10_alice,10,Alice Fevronia,28,F,Geography teacher,"Essex, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Alice-1080-450x450.jpg
+s10_steph,10,Steph Blackwell,28,F,Shop assistant,"Chester, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Steph-1080-450x450.jpg
+s10_rosie,10,Rosie Brandreth-Poynter,28,F,Veterinary surgeon,"Somerset, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Rosie-1080-450x450.jpg
+s10_henry,10,Henry Bird,20,M,Student,"Durham, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10_Henry-1080-450x450.jpg
+s10_michael,10,Michael Chakraverty,26,M,Theatre manager/fitness instructor,"Stratford-upon-Avon, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Michael-1080-450x450.jpg
+s10_priya,10,Priya O'Shea,34,F,Marketing consultant,"Leicester, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Priya-1080-450x450.jpg
+s10_helena,10,Helena Garcia,40,F,Online project manager,"Leeds, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Helena-1080-450x450.jpg
+s10_michelle,10,Michelle Evans-Fecci,35,F,Print shop administrator,"Tenby, Wales",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Michelle-1080-450x450.jpg
+s10_phil,10,Phil Thorne,56,M,HGV driver,"Rainham, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Phil-1080-450x450.jpg
+s10_amelia,10,Amelia Le Bruin,24,F,Fashion designer,"Halifax, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Amelia-1080-450x450.jpg
+s10_jamie,10,Jamie Finn,20,M,Part-time waiter,"Surrey, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Jamie-1080-450x450.jpg
+s10_dan,10,Dan Chambers,32,M,Support worker,"Rotherham, England",13.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2019/08/GBBO-Bakers-S10-Dan-1080-450x450.jpg
+s11_peter,11,Peter Sawkins,20,M,Accounting & finance student,"Edinburgh, Scotland",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Peter-450x450.jpg
+s11_dave,11,Dave Friday,30,M,Armoured security guard,"Waterlooville, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Dave-450x450.jpg
+s11_laura,11,Laura Adlington,31,F,Digital manager,"Gravesend, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Laura-450x450.jpg
+s11_hermine,11,Hermine Dossou,39,F,Accountant,"London, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Hermine-450x450.jpg
+s11_marc,11,Marc Elliott,51,M,Bronze resin sculptor,"St Eval, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Marc-450x450.jpg
+s11_lottie,11,Lottie Bedlow,31,F,Pantomime producer,"West Sussex, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Lottie1-450x450.jpg
+s11_mark,11,Mark Lutton,32,M,Project manager,"Portadown, Northern Ireland",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Mark-450x450.jpg
+s11_linda,11,Linda Rayfield,61,F,Retirement living team leader,"Bexhill-on-Sea, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Linda-450x450.jpg
+s11_sura,11,Sura Mitib,31,F,Hospital pharmacy dispenser,"London, England",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Sura-450x450.jpg
+s11_rowan,11,Rowan Williams,55,M,Music teacher,"Pershore, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Rowan-450x450.jpg
+s11_makbul,11,"Makbul ""Mak"" Patel",51,M,Accountant,"Manchester, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Mak-450x450.jpg
+s11_loriea,11,Loriea Campbell-Clarey,27,F,Diagnostic radiographer,"Durham, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2020/09/Loriea-450x450.jpg
+s12_giuseppe,12,Giuseppe Dell'Anno,45,M,Chief engineer,"Bristol, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/GUISEPPE-450x450.jpg
+s12_chigs,12,Chigs Parmar,40,M,Sales manager,"Leicester, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/CHIGS-450x450.jpg
+s12_crystelle,12,Crystelle Pereira,26,F,Client relationship manager,"London, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/CRYSTELLE-450x450.jpg
+s12_jrgen,12,Jürgen Krauss,56,M,Physicist,"Brighton, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/JURGEN-450x450.jpg
+s12_lizzie,12,Lizzie Acker,28,F,Car production operative,"Liverpool, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/LIZZIE-450x450.jpg
+s12_george,12,George Aristidou,34,M,Shared lives coordinator,"London, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/GEORGE-450x450.jpg
+s12_amanda,12,Amanda Georgiou,56,F,Metropolitan Police detective,"London, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/AMANDA-450x450.jpg
+s12_freya,12,Freya Cox,19,F,Student,"Scarborough, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/FREYA-450x450.jpg
+s12_maggie,12,Maggie Richardson,70,F,Retired nurse and midwife,"Poole, England",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/MAGGIE-450x450.jpg
+s12_rochica,12,Rochica Copeland,27,F,Junior HR business partner,"Birmingham, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/ROCHICA-450x450.jpg
+s12_jairzinho,12,Jairzinho Parris,51,M,Head of Finance,"London, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/JAIRZENO-450x450.jpg
+s12_tom,12,Tom Fletcher,28,M,Software developer,"Maidstone, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2021/09/TOM-450x450.jpg
+s13_syabira,13,Syabira Yusoff,32,F,Cardiovascular research associate,"London, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-370x370.jpg
+s13_abdul,13,Abdul Rehman Sharif,29,M,Electronics engineer,"London, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-24-scaled-450x450-1.jpg
+s13_nelsandro,13,"Nelsandro ""Sandro"" Farmhouse",30,M,Nanny,"London, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-35-450x450-1.jpg
+s13_janusz,13,Janusz Domagala,34,M,Personal assistant to head teacher,"East Sussex, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-75-450x450-1.jpg
+s13_marietherese,13,Marie-Therese 'Maxy' Maligisa,29,F,Architectural assistant,"London, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-12-450x450-1.jpg
+s13_kevin,13,Kevin Flynn,33,M,Music teacher,"Lanarkshire, Scotland",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-38-450x450-1.jpg
+s13_dawn,13,Dawn Hollyoak,60,F,IT manager,"Bedfordshire, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-28-450x450-1.jpg
+s13_carole,13,Carole Edwards,59,F,Supermarket cashier,"Dorset, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-40-450x450-1.jpg
+s13_james,13,James Dewar,25,M,Nuclear scientist,"Cumbria, England",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-65-450x450-1.jpg
+s13_rebecca,13,Rebecca 'Rebs' Lightbody,23,F,Masters student,"County Antrim, Northern Ireland",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-22-450x450-1.jpg
+s13_maisam,13,Maisam Algirgeet,18,F,Student and sales assistant,"Manchester, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-92-450x450-1.jpg
+s13_will,13,Will Hawkins,45,M,Former charity director,"London, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2022/09/74086_S6_The-Great-British-Bake-Off-S6-15-450x450-1.jpg
+s14_matty,14,Matty Edgell,28,M,PE and science teacher,"Cambridgeshire, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3160-scaled-450x450-1.jpg
+s14_dan,14,Dan Hunter,42,M,Civil engineering resource planner,"Cheshire, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3110-scaled-450x450-1.jpg
+s14_josh,14,Josh Smalley,27,M,Chemical biology post-doctoral research associate,"Leicestershire, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3373-scaled-450x450-1.jpg
+s14_tasha,14,Tasha Stones,27,F,Children's charity participation officer,"Bristol, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3191-scaled-450x450-1.jpg
+s14_cristy,14,Cristy Sharp,33,F,Personal assistant,"London, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3407-scaled-450x450-1.jpg
+s14_saku,14,Saku Chandrasekara,50,F,Intelligence analyst,"Herefordshire, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3448-Large-450x450-1.jpeg
+s14_dana,14,Dana Conway,25,F,Database administrator,"Essex, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3278-Large-450x450-1.jpeg
+s14_nicky,14,Nicky Laceby,52,F,Retired cabin crew and pet-therapy charity volunteer,"Shropshire, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3246-scaled-450x450-1.jpg
+s14_rowan,14,Rowan Claughton,21,M,English literature student,"West Yorkshire, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3221-scaled-450x450-1.jpg
+s14_abbi,14,Abbi Lawson,27,F,Delivery driver,"Cumbria, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3144-scaled-450x450-1.jpg
+s14_keith,14,Keith Barron,60,M,Chartered accountant,"Hampshire, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3342-scaled-450x450-1.jpg
+s14_amos,14,Amos Lilley,43,M,Deli and grocery manager,"London, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2023/09/BakersStudio_3312-scaled-450x450-1.jpg
+s15_georgie,15,Georgie Grasso,34,F,Paediatric nurse,"Carmarthen, Wales",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-georgie-450x450-1.jpg
+s15_christiaan,15,Christiaan de Vries,33,M,Menswear designer,"London, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-christiaan-450x450-1.jpg
+s15_dylan,15,Dylan Bachelet,20,M,Retail assistant,"Aylesbury, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-dylan-450x450-1.jpg
+s15_gill,15,Gill Howard,53,F,Senior category manager,"Lancashire, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-gill-450x450-1.jpg
+s15_illiyin,15,Illiyin Morrison,31,F,Birth trauma specialist midwife,"Norfolk, England",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-illiyin-450x450-1.jpg
+s15_sumayah,15,Sumayah Kazi,18,F,Gap Year student,"Lancashire, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-sumayah-450x450-1.jpg
+s15_nelly,15,Nelly Ghaffar,44,F,Palliative care assistant,"Dorset, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-nelly-450x450-1.jpg
+s15_andy,15,Andy Ryan,44,M,Car mechanic,"Romford, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-andy-450x450-1.jpg
+s15_mike,15,Mike Wilkins,29,M,Farm manager,"Wiltshire, England",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-mike-450x450-1.jpg
+s15_john,15,John Mincher,37,M,Directorate support manager,"West Midlands, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-john-450x450-1.jpg
+s15_hazel,15,Hazel Vaughan,71,F,Retired nail technician,"Kent, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-hazel-450x450-1.jpg
+s15_jeff,15,Jeff Thomas,67,M,Retired university lecturer,"West Yorkshire, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2024/09/s15-jeff-450x450-1.jpg
+s16_jasmine,16,Jasmine Mitchell,23,F,Medical student,"London, England",1.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ja.jpg
+s16_aaron,16,Aaron Mountford-Myles,38,M,Senior systems architect,"Stoke-on-Trent, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Aa.jpg
+s16_thomas,16,"Thomas ""Tom"" Arden",31,M,Creative entrepreneur,"London, England",2.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Tom.jpg
+s16_toby,16,Toby Littlewood,29,M,Business development executive,"Warwickshire, England",4.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Tob.jpg
+s16_iain,16,Iain Ross,29,M,Software engineer,"Belfast, Northern Ireland",5.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ia.jpg
+s16_lesley,16,Lesley Holloway,59,F,Hairdresser,"Kent, England",6.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Les.jpg
+s16_nataliia,16,Nataliia Richardson,32,F,Office assistant,"East Yorkshire, England",7.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Nat.jpg
+s16_nadia,16,Nadia Mercuri,41,F,Hairdresser,"Liverpool, England",8.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Nad.jpg
+s16_jessika,16,Jessika Trassel,32,F,Service designer,"London, England",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Je.jpg
+s16_carol,16,Carol 'Pui Man' Li,51,F,Bridal designer,"Essex, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Pui.jpg
+s16_leighton,16,Leighton Morgan,59,M,Software delivery manager,"Surrey, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Lei.jpg
+s16_hassan,16,Hassan Islam,30,M,Analytical research & development scientist,"Rotherham, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2025/08/78357_S16_Ha.jpg
+s17_nikki,17,Nikki,50,F,Advertising post-producer,"London, England",9.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/NIKKI-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_molly,17,Molly Chauhan,31,F,Accessibility coordinator,"London, England",10.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MOLLY-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_shannon,17,Shannon Amy,29,F,Project planner & scheduler,"Gloucestershire, England",11.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/SHANNON-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_danni,17,Danni,25,NB,HGV service centre administrator,"Dorset, England",12.0,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/DANNI-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_clara,17,Clara Satchell-Silva,24,F,Marketing graduate,"Hertfordshire, England",,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_yannis,17,Dr. Yannis Ali,28,M,Paediatric doctor,"London, England",,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/YANNIS-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_elizabeth,17,Elizabeth 'Connie' Lewis,63,F,NHS hospital discharge lead,"London, England",,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_gabe,17,Gabe Capes,32,M,Artist & drag king,"West Midlands, England",,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GABE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_gary,17,Gary Harding,67,M,Retired garment technologist,"Nottinghamshire, England",,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GARY-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_mo,17,Mo Mahir,21,M,Law student,"West Midlands, England",,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MO-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_moyin,17,Moyin Odeniran,22,M,Political economy student,"Essex, England",,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MOYIN-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg
+s17_tom,17,Tom Whittaker,25,M,Hairdresser,"Halifax, West Yorkshire, England",,https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/TOM-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg

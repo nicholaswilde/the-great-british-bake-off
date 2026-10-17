@@ -1,0 +1,30 @@
+[
+  {
+    "episode_id": "s17e01",
+    "series_number": 17,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2026-09-22"
+  },
+  {
+    "episode_id": "s17e02",
+    "series_number": 17,
+    "episode_number": 2,
+    "theme": "Biscuit",
+    "air_date": "2026-09-29"
+  },
+  {
+    "episode_id": "s17e03",
+    "series_number": 17,
+    "episode_number": 3,
+    "theme": "Audience Choice",
+    "air_date": "2026-10-06"
+  },
+  {
+    "episode_id": "s17e04",
+    "series_number": 17,
+    "episode_number": 4,
+    "theme": "Bread",
+    "air_date": "2026-10-13"
+  }
+]

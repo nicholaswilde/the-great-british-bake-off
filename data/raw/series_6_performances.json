@@ -1,0 +1,752 @@
+[
+  {
+    "performance_id": "s06e01_s06_alvin",
+    "baker_id": "s06_alvin",
+    "episode_id": "s06e01",
+    "signature_dish": "Orange Vanilla and Fig Madeira Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "Black Forest Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_dorret",
+    "baker_id": "s06_dorret",
+    "episode_id": "s06e01",
+    "signature_dish": "Madeira Cake with Candied Lemons",
+    "technical_rank": 5,
+    "showstopper_dish": "Enchanted Forest Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e01",
+    "signature_dish": "Blood Orange Madeira Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "Black Forest Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e01",
+    "signature_dish": "Somewhere West of Madeira Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "Black Forest Cherry Tree",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_marie",
+    "baker_id": "s06_marie",
+    "episode_id": "s06e01",
+    "signature_dish": "Zingy Citrus Madeira Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "A Walk in the Black Forest",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_mat",
+    "baker_id": "s06_mat",
+    "episode_id": "s06e01",
+    "signature_dish": "Gin and Tonic Madeira Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "Black Forest Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e01",
+    "signature_dish": "Orange and Green Cardamom Madeira Cake",
+    "technical_rank": 12,
+    "showstopper_dish": "Quadruple Chocolate Black Forest Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_paul",
+    "baker_id": "s06_paul",
+    "episode_id": "s06e01",
+    "signature_dish": "Lemon, Ginger and Caraway Seed Madeira Cake",
+    "technical_rank": 10,
+    "showstopper_dish": "Black Forest Chocolate Creation",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_sandy",
+    "baker_id": "s06_sandy",
+    "episode_id": "s06e01",
+    "signature_dish": "Madeira Cake with Almond Liqueur and Chopped Apricots",
+    "technical_rank": 9,
+    "showstopper_dish": "Black Forest Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_stu",
+    "baker_id": "s06_stu",
+    "episode_id": "s06e01",
+    "signature_dish": "Marley Madeira Cake",
+    "technical_rank": 11,
+    "showstopper_dish": "Purple Forest Gateau",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e01",
+    "signature_dish": "Pistachio and Rose Madeira Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Black Forest Gateau in a Chocolate Shell",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e01_s06_ugn",
+    "baker_id": "s06_ugn",
+    "episode_id": "s06e01",
+    "signature_dish": "Lemon and Thyme Madeira Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Falling Cup Gateau",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_alvin",
+    "baker_id": "s06_alvin",
+    "episode_id": "s06e02",
+    "signature_dish": "Jackfruit, Pistachio and Macadamia Biscotti",
+    "technical_rank": 6,
+    "showstopper_dish": "Gingerbread Box filled with Brandy Snaps",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_dorret",
+    "baker_id": "s06_dorret",
+    "episode_id": "s06e02",
+    "signature_dish": "Almond and Apricot Biscotti with Amber Sugar Crystals",
+    "technical_rank": 1,
+    "showstopper_dish": "Box of Frogs",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e02",
+    "signature_dish": "Wedding Biscotti",
+    "technical_rank": 2,
+    "showstopper_dish": "Honey and Earl Grey Tea Box",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e02",
+    "signature_dish": "Orange, Rosemary and Almond Biscotti",
+    "technical_rank": 3,
+    "showstopper_dish": "Sandwich de la Confiture",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_marie",
+    "baker_id": "s06_marie",
+    "episode_id": "s06e02",
+    "signature_dish": "Biscotti Italiano",
+    "technical_rank": 11,
+    "showstopper_dish": "Russian Box",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_mat",
+    "baker_id": "s06_mat",
+    "episode_id": "s06e02",
+    "signature_dish": "Pistachio, Cranberry and White Chocolate Biscotti",
+    "technical_rank": 5,
+    "showstopper_dish": "Gingerbread Fire Engine",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e02",
+    "signature_dish": "Coconut, Fennel and Pistachio Biscotti",
+    "technical_rank": 9,
+    "showstopper_dish": "Box of Fortunes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_paul",
+    "baker_id": "s06_paul",
+    "episode_id": "s06e02",
+    "signature_dish": "Chocolate, Hazelnut and Fig Biscotti",
+    "technical_rank": 10,
+    "showstopper_dish": "Memory Box",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_sandy",
+    "baker_id": "s06_sandy",
+    "episode_id": "s06e02",
+    "signature_dish": "Chocolate Chunk and Hazelnut Biscotti",
+    "technical_rank": 4,
+    "showstopper_dish": "Sundried Tomato Cheese Biscuit Box",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e02",
+    "signature_dish": "Cinnamon, Maple and Cranberry Biscotti",
+    "technical_rank": 8,
+    "showstopper_dish": "Chessboard Box",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e02_s06_ugn",
+    "baker_id": "s06_ugn",
+    "episode_id": "s06e02",
+    "signature_dish": "White Wine Biscotti",
+    "technical_rank": 7,
+    "showstopper_dish": "Baby Climbing into the Cookie Box",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_alvin",
+    "baker_id": "s06_alvin",
+    "episode_id": "s06e03",
+    "signature_dish": "Prosciutto, Manchego and Balsamic Onion Soda Breads",
+    "technical_rank": 4,
+    "showstopper_dish": "Cornucopia",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_dorret",
+    "baker_id": "s06_dorret",
+    "episode_id": "s06e03",
+    "signature_dish": "Walnut and Stilton Soda Breads",
+    "technical_rank": 6,
+    "showstopper_dish": "Unmade Bread",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e03",
+    "signature_dish": "Fig and Hazelnut Rye Breads",
+    "technical_rank": 2,
+    "showstopper_dish": "Herb Couture",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e03",
+    "signature_dish": "Wild Garlic Pesto Soda Breads",
+    "technical_rank": 1,
+    "showstopper_dish": "Flour Power",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_mat",
+    "baker_id": "s06_mat",
+    "episode_id": "s06e03",
+    "signature_dish": "Jalapeño, Mexican Cheddar and Smoked Salt Soda Breads",
+    "technical_rank": 8,
+    "showstopper_dish": "Curry Inspired Brighton Pavilion",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e03",
+    "signature_dish": "Mexican Bread with Warm Tomato Salsa",
+    "technical_rank": 9,
+    "showstopper_dish": "Snake Charmer's Basket",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_paul",
+    "baker_id": "s06_paul",
+    "episode_id": "s06e03",
+    "signature_dish": "Cranberry and Orange Sweet Soda Breads",
+    "technical_rank": 10,
+    "showstopper_dish": "King of the Jungle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_sandy",
+    "baker_id": "s06_sandy",
+    "episode_id": "s06e03",
+    "signature_dish": "Soda Breads with Smoked Bacon and Onion",
+    "technical_rank": 7,
+    "showstopper_dish": "Basket of Bread Flowers with a Walnut and Blue Cheese Centre",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e03",
+    "signature_dish": "Fig, Cheese and Walnut Breads",
+    "technical_rank": 3,
+    "showstopper_dish": "Breadcycle",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e03_s06_ugn",
+    "baker_id": "s06_ugn",
+    "episode_id": "s06e03",
+    "signature_dish": "Chocolate Quick Breads with Salted Caramel Sauce",
+    "technical_rank": 5,
+    "showstopper_dish": "Easter Basket",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_alvin",
+    "baker_id": "s06_alvin",
+    "episode_id": "s06e04",
+    "signature_dish": "Blackberry Crème Brûlées",
+    "technical_rank": 9,
+    "showstopper_dish": "Tower of Fruits Cheesecakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e04",
+    "signature_dish": "Rhubarb and Ginger Crème Brûlées",
+    "technical_rank": 3,
+    "showstopper_dish": "Elderflower and Granola Cheesecakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e04",
+    "signature_dish": "Pomegranate Two Ways Crème Brûlées",
+    "technical_rank": 4,
+    "showstopper_dish": "Trio of Spicy and Herby Baked Cheesecakes",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_mat",
+    "baker_id": "s06_mat",
+    "episode_id": "s06e04",
+    "signature_dish": "Coconut Crème Brûlées",
+    "technical_rank": 7,
+    "showstopper_dish": "Chocolate Bar Cheesecakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e04",
+    "signature_dish": "Cinnamon Tea Crème Brûlées",
+    "technical_rank": 8,
+    "showstopper_dish": "Fizzy Pop Cheesecakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_paul",
+    "baker_id": "s06_paul",
+    "episode_id": "s06e04",
+    "signature_dish": "Almond Crème Brûlées",
+    "technical_rank": 1,
+    "showstopper_dish": "Berry Cheesecake Tower",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_sandy",
+    "baker_id": "s06_sandy",
+    "episode_id": "s06e04",
+    "signature_dish": "Pontefract Crème Brûlées",
+    "technical_rank": 6,
+    "showstopper_dish": "Cassata, Whisky and Orange & Apple Pie Cheesecakes",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e04",
+    "signature_dish": "Rhubarb and Ginger Crème Brûlées",
+    "technical_rank": 5,
+    "showstopper_dish": "Mango, Hazelnut and Rosemary Cheesecake Trio",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e04_s06_ugn",
+    "baker_id": "s06_ugn",
+    "episode_id": "s06e04",
+    "signature_dish": "Marula Fruit and Coffee Liqueur Crème Brûlées",
+    "technical_rank": 2,
+    "showstopper_dish": "Lime, Coconut and Hazelnut Cheesecakes",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e05_s06_alvin",
+    "baker_id": "s06_alvin",
+    "episode_id": "s06e05",
+    "signature_dish": "Pineapple Upside Down Cake",
+    "technical_rank": 8,
+    "showstopper_dish": "Buko Pandan, Mango and Passion Fruit Ice Cream Roll",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e05_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e05",
+    "signature_dish": "Pistachio, Apple and Cardamom Madeleine Cake",
+    "technical_rank": 3,
+    "showstopper_dish": "Chocolate and Pear Bûche",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e05_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e05",
+    "signature_dish": "Honey and Flowers Cake",
+    "technical_rank": 5,
+    "showstopper_dish": "Dessert Island",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e05_s06_mat",
+    "baker_id": "s06_mat",
+    "episode_id": "s06e05",
+    "signature_dish": "Sugar Free Carrot Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "Raspberry & Coconut Ice Cream Roll",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e05_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e05",
+    "signature_dish": "Naked Blueberry and Caraway Crunch Cake",
+    "technical_rank": 1,
+    "showstopper_dish": "Chocolate and Strawberry Lime Ice Cream Roll",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e05_s06_paul",
+    "baker_id": "s06_paul",
+    "episode_id": "s06e05",
+    "signature_dish": "Carrot & Pecan Cake",
+    "technical_rank": 2,
+    "showstopper_dish": "Dessert Island Getaway",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e05_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e05",
+    "signature_dish": "Honey and Grapefruit Polenta Cake",
+    "technical_rank": 7,
+    "showstopper_dish": "Passion Fruit and Pineapple Ice Cream Roll",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e05_s06_ugn",
+    "baker_id": "s06_ugn",
+    "episode_id": "s06e05",
+    "signature_dish": "Chocolate and Hazelnut Sugar-Free Cake",
+    "technical_rank": 6,
+    "showstopper_dish": "Chocolate, Peanut Butter and Grape Jam Roll",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e06_s06_alvin",
+    "baker_id": "s06_alvin",
+    "episode_id": "s06e06",
+    "signature_dish": "Plum Frangipane Tart",
+    "technical_rank": 6,
+    "showstopper_dish": "Smoked Salmon En Croûte and Vermouth Chicken à la King vol-au-vents",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e06_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e06",
+    "signature_dish": "Apricot and Rosemary Frangipane Tart",
+    "technical_rank": 2,
+    "showstopper_dish": "Asparagus and Parma Ham and Praline and Chocolate vol-au-vents",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e06_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e06",
+    "signature_dish": "Pear and Raspberry Frangipane Tart",
+    "technical_rank": 3,
+    "showstopper_dish": "vol-au-vents Terre et Mer",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e06_s06_mat",
+    "baker_id": "s06_mat",
+    "episode_id": "s06e06",
+    "signature_dish": "Piña Colada Frangipane Tart",
+    "technical_rank": 1,
+    "showstopper_dish": "His 'n' Hers vol-au-vents",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e06_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e06",
+    "signature_dish": "Bay Leaf, Rong Tea and Pear Tart",
+    "technical_rank": 4,
+    "showstopper_dish": "Bengali Korma and Clementine with Cod vol-au-vents",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e06_s06_paul",
+    "baker_id": "s06_paul",
+    "episode_id": "s06e06",
+    "signature_dish": "Christmas Frangipane Tart",
+    "technical_rank": 5,
+    "showstopper_dish": "Savoury and Sweet Bouchées",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e06_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e06",
+    "signature_dish": "Spiced Pear Frangipane Tart",
+    "technical_rank": 7,
+    "showstopper_dish": "Fennel and Rosemary Pulled Pork and Chicken and Coriander vol-au-vents",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e07_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e07",
+    "signature_dish": "Game Pie with Shallot and Apple Chutney",
+    "technical_rank": 4,
+    "showstopper_dish": "Raspberry, Pomegranate and Champagne Charlotte Russe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e07_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e07",
+    "signature_dish": "Roadkill Pie",
+    "technical_rank": 5,
+    "showstopper_dish": "Victoria's Crown Charlotte Russe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e07_s06_mat",
+    "baker_id": "s06_mat",
+    "episode_id": "s06e07",
+    "signature_dish": "Raised Venison and Pigeon Pie",
+    "technical_rank": 6,
+    "showstopper_dish": "Strawberry Charlotte Russe",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e07_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e07",
+    "signature_dish": "Aromatic Raised Game Pie",
+    "technical_rank": 1,
+    "showstopper_dish": "Mango and Raspberry Charlotte Russe",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e07_s06_paul",
+    "baker_id": "s06_paul",
+    "episode_id": "s06e07",
+    "signature_dish": "Not a Boaring Pie",
+    "technical_rank": 2,
+    "showstopper_dish": "Charlotte Rose",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e07_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e07",
+    "signature_dish": "Middle Eastern Game Pie",
+    "technical_rank": 3,
+    "showstopper_dish": "Spiced Blackberry, Raspberry and Cardamom Charlotte Russe",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e08_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e08",
+    "signature_dish": "Peach & Lemon Thyme and Smoked Almond & Butterscotch Cream Horns",
+    "technical_rank": 3,
+    "showstopper_dish": "Lime & Basil and Coconut & White Chocolate Religieuse à l'ancienne",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e08_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e08",
+    "signature_dish": "Mont Blanc & Black Forest Gâteau Horns",
+    "technical_rank": 2,
+    "showstopper_dish": "Nun with Hidden Passions",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e08_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e08",
+    "signature_dish": "Rose Pistachio and Mocha Hazelnut Horns",
+    "technical_rank": 1,
+    "showstopper_dish": "Bubble Gum and Peppermint Cream Religieuse à l'ancienne",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e08_s06_paul",
+    "baker_id": "s06_paul",
+    "episode_id": "s06e08",
+    "signature_dish": "Café Tipple & Banana Crunch-away Horns",
+    "technical_rank": 5,
+    "showstopper_dish": "Religieuse à l'ancienne",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e08_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e08",
+    "signature_dish": "Lime & Mascarpone and Malt Cream Horns",
+    "technical_rank": 4,
+    "showstopper_dish": "Passionfruit & Mango and Pistachio & Raspberry Religieuse à l'ancienne",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e09_s06_flora",
+    "baker_id": "s06_flora",
+    "episode_id": "s06e09",
+    "signature_dish": "Passion Fruit and Chocolate Tart",
+    "technical_rank": 1,
+    "showstopper_dish": "Cocoa Carousel",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e09_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e09",
+    "signature_dish": "Chocolate and Bay Tart",
+    "technical_rank": 3,
+    "showstopper_dish": "Chocolate Well",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e09_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e09",
+    "signature_dish": "Peanut Salted Caramel and Chocolate Tart",
+    "technical_rank": 4,
+    "showstopper_dish": "Peacock in Nan's Door",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e09_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e09",
+    "signature_dish": "Chocolate New York Pie",
+    "technical_rank": 2,
+    "showstopper_dish": "Chocolate Bell Tower",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e10_s06_ian",
+    "baker_id": "s06_ian",
+    "episode_id": "s06e10",
+    "signature_dish": "Elderflower and Lemon & Spiced Buns",
+    "technical_rank": 2,
+    "showstopper_dish": "Colossal Curvy Carrot Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e10_s06_nadiya",
+    "baker_id": "s06_nadiya",
+    "episode_id": "s06e10",
+    "signature_dish": "Cardamom and Almond Buns & Nutmeg and Sour Cherry Fingers",
+    "technical_rank": 1,
+    "showstopper_dish": "My Big Fat British Wedding Cake",
+    "result": "WINNER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s06e10_s06_tamal",
+    "baker_id": "s06_tamal",
+    "episode_id": "s06e10",
+    "signature_dish": "Cinnamon and Apple & Toffee and Marmalade Iced Buns",
+    "technical_rank": 3,
+    "showstopper_dish": "Sticky Toffee Pudding Cake",
+    "result": "RUNNER_UP",
+    "hollywood_handshake": false
+  }
+]

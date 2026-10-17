@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s03_natasha",
+    "series_number": 3,
+    "name": "Natasha Stringer",
+    "age": 36,
+    "occupation": "Midwife",
+    "hometown": "Tamworth, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s03_peter",
+    "series_number": 3,
+    "name": "Peter Maloney",
+    "age": 43,
+    "occupation": "Sales manager",
+    "hometown": "Windsor, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s03_victoria",
+    "series_number": 3,
+    "name": "Victoria Chester",
+    "age": 50,
+    "occupation": "CEO of the charity Plantlife",
+    "hometown": "Somerset, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s03_stuart",
+    "series_number": 3,
+    "name": "Stuart Marston-Smith",
+    "age": 26,
+    "occupation": "PE teacher",
+    "hometown": "Lichfield, England",
+    "overall_placement": 9,
+    "raw_placement_text": "9th"
+  },
+  {
+    "baker_id": "s03_manisha",
+    "series_number": 3,
+    "name": "Manisha Parmar",
+    "age": 27,
+    "occupation": "Nursery nurse",
+    "hometown": "Leicester, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
+    "baker_id": "s03_sarahjane",
+    "series_number": 3,
+    "name": "Sarah-Jane Willis",
+    "age": 28,
+    "occupation": "Vicar's wife",
+    "hometown": "Bewbush, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th (tie)"
+  },
+  {
+    "baker_id": "s03_ryan",
+    "series_number": 3,
+    "name": "Ryan Chong",
+    "age": 38,
+    "occupation": "Photographer",
+    "hometown": "Bristol, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th (tie)"
+  },
+  {
+    "baker_id": "s03_cathryn",
+    "series_number": 3,
+    "name": "Cathryn Dresser",
+    "age": 27,
+    "occupation": "Shop assistant",
+    "hometown": "Pease Pottage, England",
+    "overall_placement": 5,
+    "raw_placement_text": "5th"
+  },
+  {
+    "baker_id": "s03_danny",
+    "series_number": 3,
+    "name": "Danny Bryden",
+    "age": 45,
+    "occupation": "Intensive care consultant",
+    "hometown": "Sheffield, England",
+    "overall_placement": 4,
+    "raw_placement_text": "4th"
+  },
+  {
+    "baker_id": "s03_brendan",
+    "series_number": 3,
+    "name": "Brendan Lynch",
+    "age": 63,
+    "occupation": "Recruitment consultant",
+    "hometown": "Sutton Coldfield, England",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s03_james",
+    "series_number": 3,
+    "name": "James Morton",
+    "age": 21,
+    "occupation": "Medical student",
+    "hometown": "Hillswick, Scotland",
+    "overall_placement": 2,
+    "raw_placement_text": "Runner-up"
+  },
+  {
+    "baker_id": "s03_john",
+    "series_number": 3,
+    "name": "John Whaite",
+    "age": 22,
+    "occupation": "Law student",
+    "hometown": "Wigan, England",
+    "overall_placement": 1,
+    "raw_placement_text": "1st"
+  }
+]

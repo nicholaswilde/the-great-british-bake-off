@@ -1,0 +1,308 @@
+[
+  {
+    "series_number": 1,
+    "year": 2010,
+    "winner": "Edd",
+    "hosts": [
+      "Mel Giedroyc",
+      "Sue Perkins"
+    ],
+    "judges": [
+      "Mary Berry",
+      "Paul Hollywood"
+    ],
+    "network": "BBC Two",
+    "pbs_season": null,
+    "netflix_collection": null,
+    "roku_season": 1,
+    "location": "Various"
+  },
+  {
+    "series_number": 2,
+    "year": 2011,
+    "winner": "Jo",
+    "hosts": [
+      "Mel Giedroyc",
+      "Sue Perkins"
+    ],
+    "judges": [
+      "Mary Berry",
+      "Paul Hollywood"
+    ],
+    "network": "BBC Two",
+    "pbs_season": null,
+    "netflix_collection": null,
+    "roku_season": 2,
+    "location": "Valentines Mansion, London, UK"
+  },
+  {
+    "series_number": 3,
+    "year": 2012,
+    "winner": "John",
+    "hosts": [
+      "Mel Giedroyc",
+      "Sue Perkins"
+    ],
+    "judges": [
+      "Mary Berry",
+      "Paul Hollywood"
+    ],
+    "network": "BBC Two",
+    "pbs_season": 5,
+    "netflix_collection": null,
+    "roku_season": 3,
+    "location": "Harptree Court, Bristol, UK"
+  },
+  {
+    "series_number": 4,
+    "year": 2013,
+    "winner": "Frances",
+    "hosts": [
+      "Mel Giedroyc",
+      "Sue Perkins"
+    ],
+    "judges": [
+      "Mary Berry",
+      "Paul Hollywood"
+    ],
+    "network": "BBC Two",
+    "pbs_season": 2,
+    "netflix_collection": null,
+    "roku_season": 4,
+    "location": "Harptree Court, Bristol, UK"
+  },
+  {
+    "series_number": 5,
+    "year": 2014,
+    "winner": "Nancy",
+    "hosts": [
+      "Mel Giedroyc",
+      "Sue Perkins"
+    ],
+    "judges": [
+      "Mary Berry",
+      "Paul Hollywood"
+    ],
+    "network": "BBC One",
+    "pbs_season": 1,
+    "netflix_collection": null,
+    "roku_season": 5,
+    "location": "Welford Park, Newbury, UK"
+  },
+  {
+    "series_number": 6,
+    "year": 2015,
+    "winner": "Nadiya",
+    "hosts": [
+      "Mel Giedroyc",
+      "Sue Perkins"
+    ],
+    "judges": [
+      "Mary Berry",
+      "Paul Hollywood"
+    ],
+    "network": "BBC One",
+    "pbs_season": 3,
+    "netflix_collection": null,
+    "roku_season": 6,
+    "location": "Welford Park, Newbury, UK"
+  },
+  {
+    "series_number": 7,
+    "year": 2016,
+    "winner": "Candice",
+    "hosts": [
+      "Mel Giedroyc",
+      "Sue Perkins"
+    ],
+    "judges": [
+      "Mary Berry",
+      "Paul Hollywood"
+    ],
+    "network": "BBC One",
+    "pbs_season": 4,
+    "netflix_collection": null,
+    "roku_season": 7,
+    "location": "Welford Park, Newbury, UK"
+  },
+  {
+    "series_number": 8,
+    "year": 2017,
+    "winner": "Sophie",
+    "hosts": [
+      "Noel Fielding",
+      "Sandi Toksvig"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 5,
+    "roku_season": null,
+    "location": "Welford Park, Newbury, UK"
+  },
+  {
+    "series_number": 9,
+    "year": 2018,
+    "winner": "Rahul",
+    "hosts": [
+      "Noel Fielding",
+      "Sandi Toksvig"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 6,
+    "roku_season": null,
+    "location": "Welford Park, Newbury, UK"
+  },
+  {
+    "series_number": 10,
+    "year": 2019,
+    "winner": "DavidA",
+    "hosts": [
+      "Noel Fielding",
+      "Sandi Toksvig"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 7,
+    "roku_season": null,
+    "location": "Welford Park, Newbury, UK"
+  },
+  {
+    "series_number": 11,
+    "year": 2020,
+    "winner": "PeterS",
+    "hosts": [
+      "Matt Lucas",
+      "Noel Fielding"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 8,
+    "roku_season": null,
+    "location": "Down Hall, Bishop's Stortford, UK"
+  },
+  {
+    "series_number": 12,
+    "year": 2021,
+    "winner": "Giuseppe",
+    "hosts": [
+      "Matt Lucas",
+      "Noel Fielding"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 9,
+    "roku_season": null,
+    "location": "Down Hall, Bishop's Stortford, UK"
+  },
+  {
+    "series_number": 13,
+    "year": 2022,
+    "winner": "Syabira",
+    "hosts": [
+      "Matt Lucas",
+      "Noel Fielding"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 10,
+    "roku_season": null,
+    "location": "Welford Park, Newbury, UK"
+  },
+  {
+    "series_number": 14,
+    "year": 2023,
+    "winner": "Matty",
+    "hosts": [
+      "Alison Hammond",
+      "Noel Fielding"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 11,
+    "roku_season": null,
+    "location": "Welford Park, Newbury, UK"
+  },
+  {
+    "series_number": 15,
+    "year": 2024,
+    "winner": "Georgie Grasso",
+    "hosts": [
+      "Alison Hammond",
+      "Noel Fielding"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 12,
+    "roku_season": null,
+    "location": "Welford Park, Berkshire"
+  },
+  {
+    "series_number": 16,
+    "year": 2025,
+    "winner": "Jasmine Mitchell",
+    "hosts": [
+      "Alison Hammond",
+      "Noel Fielding"
+    ],
+    "judges": [
+      "Paul Hollywood",
+      "Prue Leith"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": 13,
+    "roku_season": null,
+    "location": "Welford Park, Berkshire"
+  },
+  {
+    "series_number": 17,
+    "year": 2026,
+    "winner": null,
+    "hosts": [
+      "Alison Hammond",
+      "Noel Fielding"
+    ],
+    "judges": [
+      "Nigella Lawson",
+      "Paul Hollywood"
+    ],
+    "network": "Channel 4",
+    "pbs_season": null,
+    "netflix_collection": null,
+    "roku_season": null,
+    "location": "Welford Park, Berkshire"
+  }
+]

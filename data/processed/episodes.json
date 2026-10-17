@@ -1,0 +1,1582 @@
+[
+  {
+    "episode_id": "s01e01",
+    "series_number": 1,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2010-08-17",
+    "signature_time_min": 180,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s01e02",
+    "series_number": 1,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2010-08-24",
+    "signature_time_min": 120,
+    "technical_time_min": 60,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s01e03",
+    "series_number": 1,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2010-08-31",
+    "signature_time_min": 210,
+    "technical_time_min": 150,
+    "showstopper_time_min": 360
+  },
+  {
+    "episode_id": "s01e04",
+    "series_number": 1,
+    "episode_number": 4,
+    "theme": "Puddings",
+    "air_date": "2010-09-07",
+    "signature_time_min": 150,
+    "technical_time_min": 40,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s01e05",
+    "series_number": 1,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2010-09-14",
+    "signature_time_min": 150,
+    "technical_time_min": 90,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s01e06",
+    "series_number": 1,
+    "episode_number": 6,
+    "theme": "Tea Party (Final)",
+    "air_date": "2010-09-21",
+    "signature_time_min": 150,
+    "technical_time_min": null,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s02e01",
+    "series_number": 2,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2011-08-16",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s02e02",
+    "series_number": 2,
+    "episode_number": 2,
+    "theme": "Tarts",
+    "air_date": "2011-08-23",
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s02e03",
+    "series_number": 2,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2011-08-30",
+    "signature_time_min": 195,
+    "technical_time_min": 210,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s02e04",
+    "series_number": 2,
+    "episode_number": 4,
+    "theme": "Biscuits",
+    "air_date": "2011-09-06",
+    "signature_time_min": 90,
+    "technical_time_min": 90,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s02e05",
+    "series_number": 2,
+    "episode_number": 5,
+    "theme": "Pies",
+    "air_date": "2011-09-13",
+    "signature_time_min": 150,
+    "technical_time_min": 150,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s02e06",
+    "series_number": 2,
+    "episode_number": 6,
+    "theme": "Desserts (Quarterfinals)",
+    "air_date": "2011-09-20",
+    "signature_time_min": 150,
+    "technical_time_min": 105,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s02e07",
+    "series_number": 2,
+    "episode_number": 7,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2011-09-27",
+    "signature_time_min": 120,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s02e08",
+    "series_number": 2,
+    "episode_number": 8,
+    "theme": "Final",
+    "air_date": "2011-10-04",
+    "signature_time_min": 150,
+    "technical_time_min": 160,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s03e01",
+    "series_number": 3,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2012-08-14",
+    "signature_time_min": 120,
+    "technical_time_min": 180,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s03e02",
+    "series_number": 3,
+    "episode_number": 2,
+    "theme": "Bread",
+    "air_date": "2012-08-21",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s03e03",
+    "series_number": 3,
+    "episode_number": 3,
+    "theme": "Tarts",
+    "air_date": "2012-08-28",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 180
+  },
+  {
+    "episode_id": "s03e04",
+    "series_number": 3,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2012-09-04",
+    "signature_time_min": 180,
+    "technical_time_min": 165,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s03e05",
+    "series_number": 3,
+    "episode_number": 5,
+    "theme": "Pies",
+    "air_date": "2012-09-11",
+    "signature_time_min": 180,
+    "technical_time_min": 135,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s03e06",
+    "series_number": 3,
+    "episode_number": 6,
+    "theme": "Puddings",
+    "air_date": "2012-09-18",
+    "signature_time_min": 120,
+    "technical_time_min": null,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s03e07",
+    "series_number": 3,
+    "episode_number": 7,
+    "theme": "Sweet Dough",
+    "air_date": "2012-09-25",
+    "signature_time_min": 180,
+    "technical_time_min": 150,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s03e08",
+    "series_number": 3,
+    "episode_number": 8,
+    "theme": "Biscuits",
+    "air_date": "2012-10-02",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s03e09",
+    "series_number": 3,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinal)",
+    "air_date": "2012-10-09",
+    "signature_time_min": null,
+    "technical_time_min": 150,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s03e10",
+    "series_number": 3,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2012-10-16",
+    "signature_time_min": 150,
+    "technical_time_min": 150,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s04e01",
+    "series_number": 4,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2013-08-20",
+    "signature_time_min": 120,
+    "technical_time_min": 150,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s04e02",
+    "series_number": 4,
+    "episode_number": 2,
+    "theme": "Bread",
+    "air_date": "2013-08-27",
+    "signature_time_min": 120,
+    "technical_time_min": 165,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s04e03",
+    "series_number": 4,
+    "episode_number": 3,
+    "theme": "Desserts",
+    "air_date": "2013-09-03",
+    "signature_time_min": 180,
+    "technical_time_min": 90,
+    "showstopper_time_min": 180
+  },
+  {
+    "episode_id": "s04e04",
+    "series_number": 4,
+    "episode_number": 4,
+    "theme": "Pies and Tarts",
+    "air_date": "2013-09-10",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s04e05",
+    "series_number": 4,
+    "episode_number": 5,
+    "theme": "Biscuits and Traybakes",
+    "air_date": "2013-09-17",
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s04e06",
+    "series_number": 4,
+    "episode_number": 6,
+    "theme": "Sweet Dough",
+    "air_date": "2013-09-24",
+    "signature_time_min": 180,
+    "technical_time_min": 165,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s04e07",
+    "series_number": 4,
+    "episode_number": 7,
+    "theme": "Pastry",
+    "air_date": "2013-10-01",
+    "signature_time_min": 180,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s04e08",
+    "series_number": 4,
+    "episode_number": 8,
+    "theme": "Alternative Ingredients (Quarterfinals)",
+    "air_date": "2013-10-08",
+    "signature_time_min": 180,
+    "technical_time_min": 165,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s04e09",
+    "series_number": 4,
+    "episode_number": 9,
+    "theme": "French week (Semi-final)",
+    "air_date": "2013-10-15",
+    "signature_time_min": 150,
+    "technical_time_min": 150,
+    "showstopper_time_min": 150
+  },
+  {
+    "episode_id": "s04e10",
+    "series_number": 4,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2013-10-22",
+    "signature_time_min": 180,
+    "technical_time_min": 150,
+    "showstopper_time_min": 400
+  },
+  {
+    "episode_id": "s05e01",
+    "series_number": 5,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2014-08-06",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s05e02",
+    "series_number": 5,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2014-08-13",
+    "signature_time_min": 120,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s05e03",
+    "series_number": 5,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2014-08-20",
+    "signature_time_min": 210,
+    "technical_time_min": 180,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s05e04",
+    "series_number": 5,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2014-08-27",
+    "signature_time_min": 120,
+    "technical_time_min": 150,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s05e05",
+    "series_number": 5,
+    "episode_number": 5,
+    "theme": "Pies and Tarts",
+    "air_date": "2014-09-03",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s05e06",
+    "series_number": 5,
+    "episode_number": 6,
+    "theme": "European Cakes",
+    "air_date": "2014-09-10",
+    "signature_time_min": 180,
+    "technical_time_min": 135,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s05e07",
+    "series_number": 5,
+    "episode_number": 7,
+    "theme": "Pastry",
+    "air_date": "2014-09-17",
+    "signature_time_min": 105,
+    "technical_time_min": 210,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s05e08",
+    "series_number": 5,
+    "episode_number": 8,
+    "theme": "Advanced Dough (Quarterfinals)",
+    "air_date": "2014-09-24",
+    "signature_time_min": 150,
+    "technical_time_min": 150,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s05e09",
+    "series_number": 5,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2014-10-01",
+    "signature_time_min": 210,
+    "technical_time_min": 120,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s05e10",
+    "series_number": 5,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2014-10-08",
+    "signature_time_min": 210,
+    "technical_time_min": 120,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s06e01",
+    "series_number": 6,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2015-08-05",
+    "signature_time_min": 120,
+    "technical_time_min": 105,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s06e02",
+    "series_number": 6,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2015-08-12",
+    "signature_time_min": 120,
+    "technical_time_min": 150,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s06e03",
+    "series_number": 6,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2015-08-19",
+    "signature_time_min": 90,
+    "technical_time_min": 150,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s06e04",
+    "series_number": 6,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2015-08-26",
+    "signature_time_min": 120,
+    "technical_time_min": 240,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s06e05",
+    "series_number": 6,
+    "episode_number": 5,
+    "theme": "Alternative Ingredients",
+    "air_date": "2015-09-02",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s06e06",
+    "series_number": 6,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2015-09-09",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 225
+  },
+  {
+    "episode_id": "s06e07",
+    "series_number": 6,
+    "episode_number": 7,
+    "theme": "Victorian",
+    "air_date": "2015-09-16",
+    "signature_time_min": 180,
+    "technical_time_min": 180,
+    "showstopper_time_min": 330
+  },
+  {
+    "episode_id": "s06e08",
+    "series_number": 6,
+    "episode_number": 8,
+    "theme": "Pâtisserie (Quarterfinals)",
+    "air_date": "2015-09-23",
+    "signature_time_min": 210,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s06e09",
+    "series_number": 6,
+    "episode_number": 9,
+    "theme": "Chocolate (Semifinals)",
+    "air_date": "2015-09-30",
+    "signature_time_min": 150,
+    "technical_time_min": 75,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s06e10",
+    "series_number": 6,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2015-10-07",
+    "signature_time_min": 180,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s07e01",
+    "series_number": 7,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2016-08-24",
+    "signature_time_min": 120,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s07e02",
+    "series_number": 7,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2016-08-31",
+    "signature_time_min": 150,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s07e03",
+    "series_number": 7,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2016-09-07",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s07e04",
+    "series_number": 7,
+    "episode_number": 4,
+    "theme": "Batter",
+    "air_date": "2016-09-14",
+    "signature_time_min": 120,
+    "technical_time_min": 60,
+    "showstopper_time_min": 180
+  },
+  {
+    "episode_id": "s07e05",
+    "series_number": 7,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2016-09-21",
+    "signature_time_min": 210,
+    "technical_time_min": 150,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s07e06",
+    "series_number": 7,
+    "episode_number": 6,
+    "theme": "Botanical",
+    "air_date": "2016-09-28",
+    "signature_time_min": 120,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s07e07",
+    "series_number": 7,
+    "episode_number": 7,
+    "theme": "Desserts",
+    "air_date": "2016-10-05",
+    "signature_time_min": 90,
+    "technical_time_min": 180,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s07e08",
+    "series_number": 7,
+    "episode_number": 8,
+    "theme": "Tudor (Quarterfinals)",
+    "air_date": "2016-10-12",
+    "signature_time_min": 180,
+    "technical_time_min": 90,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s07e09",
+    "series_number": 7,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2016-10-19",
+    "signature_time_min": 180,
+    "technical_time_min": 150,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s07e10",
+    "series_number": 7,
+    "episode_number": 10,
+    "theme": "Royal Picnic (Final)",
+    "air_date": "2016-10-26",
+    "signature_time_min": 180,
+    "technical_time_min": 90,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s08e01",
+    "series_number": 8,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2017-08-29",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s08e02",
+    "series_number": 8,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2017-09-05",
+    "signature_time_min": 135,
+    "technical_time_min": 120,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s08e03",
+    "series_number": 8,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2017-09-12",
+    "signature_time_min": 165,
+    "technical_time_min": 150,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s08e04",
+    "series_number": 8,
+    "episode_number": 4,
+    "theme": "Caramel",
+    "air_date": "2017-09-19",
+    "signature_time_min": 135,
+    "technical_time_min": 105,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s08e05",
+    "series_number": 8,
+    "episode_number": 5,
+    "theme": "Puddings",
+    "air_date": "2017-09-26",
+    "signature_time_min": 180,
+    "technical_time_min": 60,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s08e06",
+    "series_number": 8,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2017-10-03",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s08e07",
+    "series_number": 8,
+    "episode_number": 7,
+    "theme": "Italian",
+    "air_date": "2017-10-10",
+    "signature_time_min": 150,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s08e08",
+    "series_number": 8,
+    "episode_number": 8,
+    "theme": "Forgotten Bakes (Quarterfinals)",
+    "air_date": "2017-10-17",
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s08e09",
+    "series_number": 8,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2017-10-24",
+    "signature_time_min": 150,
+    "technical_time_min": 180,
+    "showstopper_time_min": 285
+  },
+  {
+    "episode_id": "s08e10",
+    "series_number": 8,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2017-10-31",
+    "signature_time_min": 180,
+    "technical_time_min": 150,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s09e01",
+    "series_number": 9,
+    "episode_number": 1,
+    "theme": "Biscuits",
+    "air_date": "2018-08-28",
+    "signature_time_min": 120,
+    "technical_time_min": 135,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s09e02",
+    "series_number": 9,
+    "episode_number": 2,
+    "theme": "Cakes",
+    "air_date": "2018-09-04",
+    "signature_time_min": 120,
+    "technical_time_min": 135,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s09e03",
+    "series_number": 9,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2018-09-11",
+    "signature_time_min": 180,
+    "technical_time_min": 60,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s09e04",
+    "series_number": 9,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2018-09-18",
+    "signature_time_min": 105,
+    "technical_time_min": 150,
+    "showstopper_time_min": 180
+  },
+  {
+    "episode_id": "s09e05",
+    "series_number": 9,
+    "episode_number": 5,
+    "theme": "Spice",
+    "air_date": "2018-09-25",
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s09e06",
+    "series_number": 9,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2018-10-02",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s09e07",
+    "series_number": 9,
+    "episode_number": 7,
+    "theme": "Vegan",
+    "air_date": "2018-10-09",
+    "signature_time_min": 120,
+    "technical_time_min": 150,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s09e08",
+    "series_number": 9,
+    "episode_number": 8,
+    "theme": "Danish (Quarterfinals)",
+    "air_date": "2018-10-16",
+    "signature_time_min": 210,
+    "technical_time_min": 60,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s09e09",
+    "series_number": 9,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2018-10-23",
+    "signature_time_min": 90,
+    "technical_time_min": 270,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s09e10",
+    "series_number": 9,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2018-10-30",
+    "signature_time_min": 180,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s10e01",
+    "series_number": 10,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2019-08-27",
+    "signature_time_min": 150,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s10e02",
+    "series_number": 10,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2019-09-03",
+    "signature_time_min": 150,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s10e03",
+    "series_number": 10,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2019-09-10",
+    "signature_time_min": 180,
+    "technical_time_min": 150,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s10e04",
+    "series_number": 10,
+    "episode_number": 4,
+    "theme": "Dairy",
+    "air_date": "2019-09-17",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s10e05",
+    "series_number": 10,
+    "episode_number": 5,
+    "theme": "The Roaring Twenties",
+    "air_date": "2019-09-24",
+    "signature_time_min": 150,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s10e06",
+    "series_number": 10,
+    "episode_number": 6,
+    "theme": "Desserts",
+    "air_date": "2019-10-01",
+    "signature_time_min": 165,
+    "technical_time_min": 150,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s10e07",
+    "series_number": 10,
+    "episode_number": 7,
+    "theme": "Festivals",
+    "air_date": "2019-10-08",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s10e08",
+    "series_number": 10,
+    "episode_number": 8,
+    "theme": "Pastry (Quarterfinals)",
+    "air_date": "2019-10-15",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s10e09",
+    "series_number": 10,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinal)",
+    "air_date": "2019-10-22",
+    "signature_time_min": 150,
+    "technical_time_min": 210,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s10e10",
+    "series_number": 10,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2019-10-29",
+    "signature_time_min": 120,
+    "technical_time_min": 70,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s11e01",
+    "series_number": 11,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2020-09-22",
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s11e02",
+    "series_number": 11,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2020-09-29",
+    "signature_time_min": 120,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s11e03",
+    "series_number": 11,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2020-10-06",
+    "signature_time_min": 105,
+    "technical_time_min": 165,
+    "showstopper_time_min": 210
+  },
+  {
+    "episode_id": "s11e04",
+    "series_number": 11,
+    "episode_number": 4,
+    "theme": "Chocolate",
+    "air_date": "2020-10-13",
+    "signature_time_min": 90,
+    "technical_time_min": 150,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s11e05",
+    "series_number": 11,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2020-10-20",
+    "signature_time_min": 120,
+    "technical_time_min": 135,
+    "showstopper_time_min": 225
+  },
+  {
+    "episode_id": "s11e06",
+    "series_number": 11,
+    "episode_number": 6,
+    "theme": "Japanese",
+    "air_date": "2020-10-27",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s11e07",
+    "series_number": 11,
+    "episode_number": 7,
+    "theme": "The '80s",
+    "air_date": "2020-11-03",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s11e08",
+    "series_number": 11,
+    "episode_number": 8,
+    "theme": "Desserts (Quarterfinals)",
+    "air_date": "2020-11-10",
+    "signature_time_min": 150,
+    "technical_time_min": 150,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s11e09",
+    "series_number": 11,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinals)",
+    "air_date": "2020-11-17",
+    "signature_time_min": 165,
+    "technical_time_min": 135,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s11e10",
+    "series_number": 11,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2020-11-24",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s12e01",
+    "series_number": 12,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2021-09-21",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s12e02",
+    "series_number": 12,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2021-09-28",
+    "signature_time_min": 120,
+    "technical_time_min": 105,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s12e03",
+    "series_number": 12,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2021-10-05",
+    "signature_time_min": 165,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s12e04",
+    "series_number": 12,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2021-10-12",
+    "signature_time_min": 165,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s12e05",
+    "series_number": 12,
+    "episode_number": 5,
+    "theme": "German",
+    "air_date": "2021-10-19",
+    "signature_time_min": 135,
+    "technical_time_min": 165,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s12e06",
+    "series_number": 12,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2021-10-26",
+    "signature_time_min": null,
+    "technical_time_min": 165,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s12e07",
+    "series_number": 12,
+    "episode_number": 7,
+    "theme": "Caramel",
+    "air_date": "2021-11-02",
+    "signature_time_min": 150,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s12e08",
+    "series_number": 12,
+    "episode_number": 8,
+    "theme": "Free-from (Quarterfinals)",
+    "air_date": "2021-11-09",
+    "signature_time_min": 180,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s12e09",
+    "series_number": 12,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinals)",
+    "air_date": "2021-11-16",
+    "signature_time_min": 180,
+    "technical_time_min": 165,
+    "showstopper_time_min": 300
+  },
+  {
+    "episode_id": "s12e10",
+    "series_number": 12,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2021-11-23",
+    "signature_time_min": 135,
+    "technical_time_min": 150,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s13e01",
+    "series_number": 13,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2022-09-13",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s13e02",
+    "series_number": 13,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2022-09-20",
+    "signature_time_min": 120,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s13e03",
+    "series_number": 13,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2022-09-27",
+    "signature_time_min": 120,
+    "technical_time_min": 165,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s13e04",
+    "series_number": 13,
+    "episode_number": 4,
+    "theme": "Mexican",
+    "air_date": "2022-10-04",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s13e05",
+    "series_number": 13,
+    "episode_number": 5,
+    "theme": "Desserts",
+    "air_date": "2022-10-11",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s13e06",
+    "series_number": 13,
+    "episode_number": 6,
+    "theme": "Halloween",
+    "air_date": "2022-10-18",
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s13e07",
+    "series_number": 13,
+    "episode_number": 7,
+    "theme": "Custard",
+    "air_date": "2022-10-25",
+    "signature_time_min": 90,
+    "technical_time_min": 165,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s13e08",
+    "series_number": 13,
+    "episode_number": 8,
+    "theme": "Pastry (Quarterfinals)",
+    "air_date": "2022-11-01",
+    "signature_time_min": 120,
+    "technical_time_min": 80,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s13e09",
+    "series_number": 13,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semi-final)",
+    "air_date": "2022-11-08",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s13e10",
+    "series_number": 13,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2022-11-15",
+    "signature_time_min": 180,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s14e01",
+    "series_number": 14,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2023-09-26",
+    "signature_time_min": null,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s14e02",
+    "series_number": 14,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2023-10-03",
+    "signature_time_min": null,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s14e03",
+    "series_number": 14,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2023-10-10",
+    "signature_time_min": 120,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s14e04",
+    "series_number": 14,
+    "episode_number": 4,
+    "theme": "Chocolate",
+    "air_date": "2023-10-18",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s14e05",
+    "series_number": 14,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2023-10-24",
+    "signature_time_min": null,
+    "technical_time_min": 165,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s14e06",
+    "series_number": 14,
+    "episode_number": 6,
+    "theme": "Botanical",
+    "air_date": "2023-10-31",
+    "signature_time_min": 165,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s14e07",
+    "series_number": 14,
+    "episode_number": 7,
+    "theme": "Desserts",
+    "air_date": "2023-11-07",
+    "signature_time_min": 165,
+    "technical_time_min": 90,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s14e08",
+    "series_number": 14,
+    "episode_number": 8,
+    "theme": "Party (Quarterfinals)",
+    "air_date": "2023-11-14",
+    "signature_time_min": 150,
+    "technical_time_min": 150,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s14e09",
+    "series_number": 14,
+    "episode_number": 9,
+    "theme": "Patisserie (Semifinal)",
+    "air_date": "2023-11-21",
+    "signature_time_min": 120,
+    "technical_time_min": 150,
+    "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s14e10",
+    "series_number": 14,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2023-11-28",
+    "signature_time_min": 135,
+    "technical_time_min": 180,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s15e01",
+    "series_number": 15,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2024-09-24",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e02",
+    "series_number": 15,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2024-10-01",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e03",
+    "series_number": 15,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2024-10-08",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e04",
+    "series_number": 15,
+    "episode_number": 4,
+    "theme": "Caramel",
+    "air_date": "2024-10-15",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e05",
+    "series_number": 15,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2024-10-22",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e06",
+    "series_number": 15,
+    "episode_number": 6,
+    "theme": "Autumn",
+    "air_date": "2024-10-29",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e07",
+    "series_number": 15,
+    "episode_number": 7,
+    "theme": "Desserts",
+    "air_date": "2024-11-05",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e08",
+    "series_number": 15,
+    "episode_number": 8,
+    "theme": "The '70s (Quarterfinals)",
+    "air_date": "2024-11-12",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e09",
+    "series_number": 15,
+    "episode_number": 9,
+    "theme": "Patisserie (Semifinal)",
+    "air_date": "2024-11-19",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s15e10",
+    "series_number": 15,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2024-11-26",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e01",
+    "series_number": 16,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2025-09-02",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e02",
+    "series_number": 16,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2025-09-09",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e03",
+    "series_number": 16,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2025-09-16",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e04",
+    "series_number": 16,
+    "episode_number": 4,
+    "theme": "Back To School",
+    "air_date": "2025-09-23",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e05",
+    "series_number": 16,
+    "episode_number": 5,
+    "theme": "Chocolate",
+    "air_date": "2025-09-30",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e06",
+    "series_number": 16,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2025-10-07",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e07",
+    "series_number": 16,
+    "episode_number": 7,
+    "theme": "Meringue",
+    "air_date": "2025-10-14",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e08",
+    "series_number": 16,
+    "episode_number": 8,
+    "theme": "Desserts (Quarterfinals)",
+    "air_date": "2025-10-21",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e09",
+    "series_number": 16,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinal)",
+    "air_date": "2025-10-28",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s16e10",
+    "series_number": 16,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2025-11-04",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s17e01",
+    "series_number": 17,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2026-09-22",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s17e02",
+    "series_number": 17,
+    "episode_number": 2,
+    "theme": "Biscuit",
+    "air_date": "2026-09-29",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s17e03",
+    "series_number": 17,
+    "episode_number": 3,
+    "theme": "Audience Choice",
+    "air_date": "2026-10-06",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s17e04",
+    "series_number": 17,
+    "episode_number": 4,
+    "theme": "Bread",
+    "air_date": "2026-10-13",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  }
+]

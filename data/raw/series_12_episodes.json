@@ -1,0 +1,72 @@
+[
+  {
+    "episode_id": "s12e01",
+    "series_number": 12,
+    "episode_number": 1,
+    "theme": "Cake",
+    "air_date": "2021-09-21"
+  },
+  {
+    "episode_id": "s12e02",
+    "series_number": 12,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2021-09-28"
+  },
+  {
+    "episode_id": "s12e03",
+    "series_number": 12,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2021-10-05"
+  },
+  {
+    "episode_id": "s12e04",
+    "series_number": 12,
+    "episode_number": 4,
+    "theme": "Desserts",
+    "air_date": "2021-10-12"
+  },
+  {
+    "episode_id": "s12e05",
+    "series_number": 12,
+    "episode_number": 5,
+    "theme": "German",
+    "air_date": "2021-10-19"
+  },
+  {
+    "episode_id": "s12e06",
+    "series_number": 12,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2021-10-26"
+  },
+  {
+    "episode_id": "s12e07",
+    "series_number": 12,
+    "episode_number": 7,
+    "theme": "Caramel",
+    "air_date": "2021-11-02"
+  },
+  {
+    "episode_id": "s12e08",
+    "series_number": 12,
+    "episode_number": 8,
+    "theme": "Free-from (Quarterfinals)",
+    "air_date": "2021-11-09"
+  },
+  {
+    "episode_id": "s12e09",
+    "series_number": 12,
+    "episode_number": 9,
+    "theme": "Pâtisserie (Semifinals)",
+    "air_date": "2021-11-16"
+  },
+  {
+    "episode_id": "s12e10",
+    "series_number": 12,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2021-11-23"
+  }
+]

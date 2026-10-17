@@ -1,0 +1,44 @@
+[
+  {
+    "episode_id": "s01e01",
+    "series_number": 1,
+    "episode_number": 1,
+    "theme": "Cakes",
+    "air_date": "2010-08-17"
+  },
+  {
+    "episode_id": "s01e02",
+    "series_number": 1,
+    "episode_number": 2,
+    "theme": "Biscuits",
+    "air_date": "2010-08-24"
+  },
+  {
+    "episode_id": "s01e03",
+    "series_number": 1,
+    "episode_number": 3,
+    "theme": "Bread",
+    "air_date": "2010-08-31"
+  },
+  {
+    "episode_id": "s01e04",
+    "series_number": 1,
+    "episode_number": 4,
+    "theme": "Puddings",
+    "air_date": "2010-09-07"
+  },
+  {
+    "episode_id": "s01e05",
+    "series_number": 1,
+    "episode_number": 5,
+    "theme": "Pastry",
+    "air_date": "2010-09-14"
+  },
+  {
+    "episode_id": "s01e06",
+    "series_number": 1,
+    "episode_number": 6,
+    "theme": "Tea Party (Final)",
+    "air_date": "2010-09-21"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s06_alvin",
+    "series_number": 6,
+    "name": "Alvin Magallanes",
+    "age": 37,
+    "occupation": "Nurse",
+    "hometown": "Bracknell, Berkshire",
+    "overall_placement": 7,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_dorret",
+    "series_number": 6,
+    "name": "Dorret Conway",
+    "age": 53,
+    "occupation": "Accountant",
+    "hometown": "Penwortham, Lancashire",
+    "overall_placement": 10,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_flora",
+    "series_number": 6,
+    "name": "Flora Shedden",
+    "age": 19,
+    "occupation": "Art Gallery Assistant",
+    "hometown": "Dunkeld, Perth and Kinross",
+    "overall_placement": 4,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_ian",
+    "series_number": 6,
+    "name": "Ian Cumming",
+    "age": 41,
+    "occupation": "Travel Photographer",
+    "hometown": "Great Wilbraham, Cambridgeshire",
+    "overall_placement": 2,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_marie",
+    "series_number": 6,
+    "name": "Marie Campbell",
+    "age": 66,
+    "occupation": "Retired",
+    "hometown": "Auchterarder, Perthshire",
+    "overall_placement": 11,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_mat",
+    "series_number": 6,
+    "name": "Mat Riley",
+    "age": 37,
+    "occupation": "Firefighter",
+    "hometown": "London",
+    "overall_placement": 6,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_nadiya",
+    "series_number": 6,
+    "name": "Nadiya Hussain",
+    "age": 30,
+    "occupation": "Full-time Mother",
+    "hometown": "Leeds / Luton",
+    "overall_placement": 1,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_paul",
+    "series_number": 6,
+    "name": "Paul Jagger",
+    "age": 49,
+    "occupation": "Prison Governor",
+    "hometown": "Swansea, Wales",
+    "overall_placement": 5,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_sandy",
+    "series_number": 6,
+    "name": "Sandy Docherty",
+    "age": 49,
+    "occupation": "Child Welfare Officer",
+    "hometown": "Yeadon, West Yorkshire",
+    "overall_placement": 9,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_stu",
+    "series_number": 6,
+    "name": "Stu Henshall",
+    "age": 35,
+    "occupation": "Professional Musician",
+    "hometown": "Guildford, Surrey",
+    "overall_placement": 12,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_tamal",
+    "series_number": 6,
+    "name": "Tamal Ray",
+    "age": 29,
+    "occupation": "Trainee Anaesthetist",
+    "hometown": "Manchester",
+    "overall_placement": 2,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s06_ugn",
+    "series_number": 6,
+    "name": "Ugnė Bubnaityte",
+    "age": 32,
+    "occupation": "PA and Administrator",
+    "hometown": "Woodford, London / Vilkaviškis, Lithuania",
+    "overall_placement": 8,
+    "raw_placement_text": null
+  }
+]

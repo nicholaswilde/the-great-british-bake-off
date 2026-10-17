@@ -1,0 +1,122 @@
+[
+  {
+    "baker_id": "s17_danni",
+    "series_number": 17,
+    "name": "Danni",
+    "age": 25,
+    "occupation": "HGV service centre administrator",
+    "hometown": "Dorset, England",
+    "overall_placement": 12,
+    "raw_placement_text": "12th"
+  },
+  {
+    "baker_id": "s17_shannon",
+    "series_number": 17,
+    "name": "Shannon Amy",
+    "age": 29,
+    "occupation": "Project planner & scheduler",
+    "hometown": "Gloucestershire, England",
+    "overall_placement": 11,
+    "raw_placement_text": "11th"
+  },
+  {
+    "baker_id": "s17_molly",
+    "series_number": 17,
+    "name": "Molly Chauhan",
+    "age": 31,
+    "occupation": "Accessibility coordinator",
+    "hometown": "London, England",
+    "overall_placement": 10,
+    "raw_placement_text": "10th"
+  },
+  {
+    "baker_id": "s17_nikki",
+    "series_number": 17,
+    "name": "Nikki",
+    "age": 50,
+    "occupation": "Advertising post-producer",
+    "hometown": "London, England",
+    "overall_placement": 9,
+    "raw_placement_text": "9th (withdrew)"
+  },
+  {
+    "baker_id": "s17_clara",
+    "series_number": 17,
+    "name": "Clara Satchell-Silva",
+    "age": 24,
+    "occupation": "Marketing graduate",
+    "hometown": "Hertfordshire, England",
+    "overall_placement": null,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s17_elizabeth",
+    "series_number": 17,
+    "name": "Elizabeth 'Connie' Lewis",
+    "age": 63,
+    "occupation": "NHS hospital discharge lead",
+    "hometown": "London, England",
+    "overall_placement": null,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s17_gabe",
+    "series_number": 17,
+    "name": "Gabe Capes",
+    "age": 32,
+    "occupation": "Artist & drag king",
+    "hometown": "West Midlands, England",
+    "overall_placement": null,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s17_gary",
+    "series_number": 17,
+    "name": "Gary Harding",
+    "age": 67,
+    "occupation": "Retired garment technologist",
+    "hometown": "Nottinghamshire, England",
+    "overall_placement": null,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s17_mo",
+    "series_number": 17,
+    "name": "Mo Mahir",
+    "age": 21,
+    "occupation": "Law student",
+    "hometown": "West Midlands, England",
+    "overall_placement": null,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s17_moyin",
+    "series_number": 17,
+    "name": "Moyin Odeniran",
+    "age": 22,
+    "occupation": "Political economy student",
+    "hometown": "Essex, England",
+    "overall_placement": null,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s17_tom",
+    "series_number": 17,
+    "name": "Tom Whittaker",
+    "age": 25,
+    "occupation": "Hairdresser",
+    "hometown": "Halifax, West Yorkshire, England",
+    "overall_placement": null,
+    "raw_placement_text": null
+  },
+  {
+    "baker_id": "s17_yannis",
+    "series_number": 17,
+    "name": "Dr. Yannis Ali",
+    "age": 28,
+    "occupation": "Paediatric doctor",
+    "hometown": "London, England",
+    "overall_placement": null,
+    "raw_placement_text": null
+  }
+]
