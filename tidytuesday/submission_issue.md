@@ -40,6 +40,10 @@ bakers <- read_csv(paste0(base_url, "bakers.csv"), show_col_types = FALSE) |>
     name = as.character(name),
     age = as.integer(age),
     gender = as.character(gender),
+    latitude = as.numeric(latitude),
+    longitude = as.numeric(longitude),
+    country = as.character(country),
+    county_region = as.character(county_region),
     overall_placement = as.integer(overall_placement)
   )
 
@@ -94,6 +98,10 @@ performances <- read_csv(paste0(base_url, "performances.csv"), show_col_types = 
 | `gender` | character | Gender identity (`M`, `F`, `NB`) |
 | `occupation` | character | Occupation / profession |
 | `hometown` | character | Hometown / residence |
+| `latitude` | numeric | Hometown latitude coordinate (WGS84) |
+| `longitude` | numeric | Hometown longitude coordinate (WGS84) |
+| `country` | character | Constituent country or nation |
+| `county_region` | character | County or administrative region |
 | `overall_placement` | integer | Final placement rank (1 = Winner) |
 | `image_url` | character | Headshot photo URL |
 

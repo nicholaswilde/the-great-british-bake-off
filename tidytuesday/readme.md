@@ -83,6 +83,10 @@ Understanding the rules and cultural nuances of the tent helps frame compelling 
 | `gender` | character | Gender identity (`M`, `F`, `NB`) |
 | `occupation` | character | Profession / job |
 | `hometown` | character | Residence / hometown |
+| `latitude` | numeric | Hometown latitude coordinate (WGS84) |
+| `longitude` | numeric | Hometown longitude coordinate (WGS84) |
+| `country` | character | Constituent country or nation |
+| `county_region` | character | County or administrative region |
 | `overall_placement` | integer | Final placement rank (`1` = Winner) |
 | `image_url` | character | Headshot photo URL |
 

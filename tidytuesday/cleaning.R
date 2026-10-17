@@ -57,6 +57,10 @@ bakers <- raw_bakers |>
     gender = as.character(gender),
     occupation = as.character(occupation),
     hometown = as.character(hometown),
+    latitude = as.numeric(latitude),
+    longitude = as.numeric(longitude),
+    country = as.character(country),
+    county_region = as.character(county_region),
     overall_placement = as.integer(overall_placement)
   ) |>
   arrange(series_number, overall_placement, name)

@@ -1,5 +1,6 @@
 # :cake: The Great British Bake Off Dataset & AI Training Corpus :pie: <img src="dev/images/thegreatbritishbakeoff hex.png" align="right" height="240" alt="thegreatbritishbakeoff hex sticker" />
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14000000.svg)](https://doi.org/10.5281/zenodo.14000000)
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-great-british-bake-off/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-great-british-bake-off/actions/workflows/ci.yml)
 [![Task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -364,11 +365,13 @@ If you use this dataset, companion R package, or AI training corpus in your rese
   title        = {The Great British Bake Off Dataset & AI Training Corpus},
   year         = {2026},
   version      = {0.1.0},
-  url          = {https://github.com/nicholaswilde/the-great-british-bake-off}
+  doi          = {10.5281/zenodo.14000000},
+  publisher    = {Zenodo},
+  url          = {https://doi.org/10.5281/zenodo.14000000}
 }
 ```
 
-Or see [`CITATION.cff`](CITATION.cff) and [`.zenodo.json`](.zenodo.json).
+Or see [`CITATION.cff`](CITATION.cff), [`.zenodo.json`](.zenodo.json), and [`docs/zenodo.md`](docs/zenodo.md).
 
 ---
 

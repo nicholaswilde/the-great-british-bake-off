@@ -118,3 +118,44 @@ def test_cli_package_components(tmp_path: Path) -> None:
     )
     assert result.exit_code == 0
     assert (out_dir / "checksums.txt").exists()
+
+
+def test_zenodo_and_tidytuesday_assets() -> None:
+    """Verify Zenodo metadata and TidyTuesday submission files."""
+    repo_root = Path(__file__).parent.parent
+
+    # 1. Verify .zenodo.json
+    zenodo_path = repo_root / ".zenodo.json"
+    assert zenodo_path.exists()
+    import json
+
+    with open(zenodo_path, encoding="utf-8") as f:
+        zenodo_data = json.load(f)
+    assert zenodo_data["upload_type"] == "dataset"
+    assert "creators" in zenodo_data
+    assert "keywords" in zenodo_data
+    assert "license" in zenodo_data
+
+    # 2. Verify CITATION.cff has DOI
+    cff_path = repo_root / "CITATION.cff"
+    assert cff_path.exists()
+    cff_text = cff_path.read_text(encoding="utf-8")
+    assert "doi: " in cff_text
+    assert "10.5281/zenodo" in cff_text
+
+    # 3. Verify TidyTuesday submission files
+    tt_dir = repo_root / "tidytuesday"
+    assert (tt_dir / "readme.md").exists()
+    assert (tt_dir / "cleaning.R").exists()
+    assert (tt_dir / "exploration.R").exists()
+    assert (tt_dir / "submission_issue.md").exists()
+
+    cleaning_text = (tt_dir / "cleaning.R").read_text(encoding="utf-8")
+    assert "latitude" in cleaning_text
+    assert "county_region" in cleaning_text
+
+    sub_issue_text = (tt_dir / "submission_issue.md").read_text(encoding="utf-8")
+    assert "- [x]" in sub_issue_text
+    assert (
+        "https://github.com/nicholaswilde/the-great-british-bake-off" in sub_issue_text
+    )

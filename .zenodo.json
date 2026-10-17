@@ -1,6 +1,6 @@
 {
   "title": "The Great British Bake Off Dataset & AI Training Corpus",
-  "description": "<p>A comprehensive tidy dataset and AI training corpus for the television series <strong>The Great British Bake Off</strong> (broadcast as <em>The Great British Baking Show</em> in North America). Contains structured, relational datasets in tidy format across 17 UK series (in CSV, Apache Parquet, SQLite, Apache Arrow, and R formats), alongside multi-turn conversational instruction-tuning and RAG JSONL corpora.</p>",
+  "description": "<p>A comprehensive tidy dataset and AI training corpus for the television series <strong>The Great British Bake Off</strong> (broadcast as <em>The Great British Baking Show</em> in North America). Contains structured, relational datasets in tidy format across 17 UK series (in CSV, Apache Parquet, SQLite, Apache Arrow, GeoJSON, and R formats), alongside multi-turn conversational instruction-tuning and RAG JSONL corpora.</p>",
   "upload_type": "dataset",
   "publication_date": "2026-10-17",
   "creators": [
@@ -23,7 +23,11 @@
     "AI training corpus",
     "instruction tuning",
     "RAG",
-    "benchmark"
+    "benchmark",
+    "geocoding",
+    "GeoJSON",
+    "natural language processing",
+    "flavor profiles"
   ],
   "related_identifiers": [
     {

@@ -5,6 +5,11 @@ abstract: "A comprehensive tidy dataset and AI training corpus for the televisio
 type: dataset
 version: 0.1.0
 date-released: "2026-10-17"
+doi: "10.5281/zenodo.14000000"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.14000000"
+    description: "The Concept DOI representing all versions of The Great British Bake Off Dataset."
 license: Apache-2.0
 repository-code: "https://github.com/nicholaswilde/the-great-british-bake-off"
 url: "https://github.com/nicholaswilde/the-great-british-bake-off"
