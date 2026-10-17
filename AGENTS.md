@@ -34,6 +34,8 @@ Agents can invoke the following skills located in `.agents/skills/`:
 - `gbbo-dataset-builder`: Compiles raw data into validated tidy tables (`bakers.json`, `episodes.json`, `performances.json`) and CSVs.
 - `gbbo-gap-audit`: Audits dataset completeness, calculates missing cell rates, and exports gap reports.
 - `gbbo-predict`: Runs empirical predictive engine for Star Baker candidates, elimination risks, and series trajectories.
+- `release`: Automates version calculation, pre-release validation (`task check`), version bumping, git tagging, and atomic push.
+- `release-summary`: Generates categorized GitHub release notes based on conventional git logs and updates draft releases.
 - `cavecrew`, `caveman`, `caveman-*`: Ultra-compressed communication and review modes.
 - `ponytail`, `ponytail-*`: Minimalist, lazy senior dev and YAGNI discipline.
 - `karpathy-guidelines`: AI engineer principles and practices.
