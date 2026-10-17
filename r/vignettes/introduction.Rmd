@@ -1,0 +1,57 @@
+---
+title: "Introduction to gbbo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to gbbo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Overview
+
+The `gbbo` package provides comprehensive tidy datasets for **The Great British Bake Off** (broadcast in the US as *The Great British Baking Show*).
+
+The data is structured into four relational tables:
+1. `seasons`: Series summaries, broadcast years, hosts, judges, and winners.
+2. `bakers`: Contestant demographics, ages, hometowns, occupations, and placements.
+3. `episodes`: Weekly episode themes, air dates, and challenge time allocations.
+4. `performances`: Individual baker challenge bakes, technical ranks, Hollywood Handshakes, and outcomes.
+
+## Setup and Data Inspection
+
+```{r setup, eval = FALSE}
+library(gbbo)
+library(dplyr)
+library(ggplot2)
+
+data(seasons)
+data(bakers)
+data(episodes)
+data(performances)
+```
+
+## Analysis 1: Hollywood Handshakes Over Time
+
+```{r handshakes, eval = FALSE}
+handshake_counts <- performances |>
+  filter(hollywood_handshake) |>
+  count(episode_id, sort = TRUE)
+
+head(handshake_counts)
+```
+
+## Analysis 2: Technical Challenge Rankings vs Final Outcome
+
+```{r technical-analysis, eval = FALSE}
+performances |>
+  filter(!is.na(technical_rank)) |>
+  group_by(result) |>
+  summarize(avg_tech_rank = mean(technical_rank, na.rm = TRUE))
+```

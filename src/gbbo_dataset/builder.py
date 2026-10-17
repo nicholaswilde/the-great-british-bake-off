@@ -18,6 +18,15 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+BAKER_ID_ALIASES: dict[str, str] = {
+    "s01_edd": "s01_edward",
+    "s02_jo": "s02_joanne",
+    "s07_val": "s07_valerie",
+    "s08_yan": "s08_chuenyan",
+    "s12_jairzeno": "s12_jairzinho",
+}
+
+
 def load_json(filepath: Path) -> list[dict[str, Any]]:
     """Safely load JSON list from file."""
     try:
@@ -73,6 +82,10 @@ def build_datasets(
     for pf in perf_files:
         items = load_json(pf)
         for raw in items:
+            baker_id = raw.get("baker_id", "")
+            if baker_id in BAKER_ID_ALIASES:
+                raw["baker_id"] = BAKER_ID_ALIASES[baker_id]
+                raw["performance_id"] = f"{raw.get('episode_id')}_{raw['baker_id']}"
             try:
                 perf = Performance.model_validate(raw)
                 performances_map[perf.performance_id] = perf
@@ -107,14 +120,24 @@ def build_datasets(
     with open(performances_json_path, "w", encoding="utf-8") as f:
         json.dump(performances_list, f, indent=2, ensure_ascii=False)
 
-    # Write CSV files
+    # Write CSV & Parquet files
     if bakers_list:
-        pd.DataFrame(bakers_list).to_csv(processed_dir / "bakers.csv", index=False)
+        df_bakers = pd.DataFrame(bakers_list)
+        df_bakers.to_csv(processed_dir / "bakers.csv", index=False)
+        df_bakers.to_parquet(processed_dir / "bakers.parquet", index=False)
     if episodes_list:
-        pd.DataFrame(episodes_list).to_csv(processed_dir / "episodes.csv", index=False)
+        df_episodes = pd.DataFrame(episodes_list)
+        df_episodes.to_csv(processed_dir / "episodes.csv", index=False)
+        df_episodes.to_parquet(processed_dir / "episodes.parquet", index=False)
     if performances_list:
-        pd.DataFrame(performances_list).to_csv(
-            processed_dir / "performances.csv", index=False
+        df_performances = pd.DataFrame(performances_list)
+        df_performances.to_csv(processed_dir / "performances.csv", index=False)
+        df_performances.to_parquet(processed_dir / "performances.parquet", index=False)
+
+    seasons_csv = processed_dir / "seasons.csv"
+    if seasons_csv.exists():
+        pd.read_csv(seasons_csv).to_parquet(
+            processed_dir / "seasons.parquet", index=False
         )
 
     logger.info(

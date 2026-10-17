@@ -521,7 +521,9 @@ def run_enrichment(
         validated_bakers = [Baker.model_validate(b).model_dump() for b in bakers]
         with open(bakers_path, "w", encoding="utf-8") as f:
             json.dump(validated_bakers, f, indent=2, ensure_ascii=False)
-        pd.DataFrame(validated_bakers).to_csv(processed_dir / "bakers.csv", index=False)
+        df_bakers = pd.DataFrame(validated_bakers)
+        df_bakers.to_csv(processed_dir / "bakers.csv", index=False)
+        df_bakers.to_parquet(processed_dir / "bakers.parquet", index=False)
         logger.info("Enriched %d bakers with demographics & photos", b_count)
 
     # 2. Episodes
@@ -530,9 +532,9 @@ def run_enrichment(
         validated_episodes = [Episode.model_validate(e).model_dump() for e in episodes]
         with open(episodes_path, "w", encoding="utf-8") as f:
             json.dump(validated_episodes, f, indent=2, ensure_ascii=False)
-        pd.DataFrame(validated_episodes).to_csv(
-            processed_dir / "episodes.csv", index=False
-        )
+        df_episodes = pd.DataFrame(validated_episodes)
+        df_episodes.to_csv(processed_dir / "episodes.csv", index=False)
+        df_episodes.to_parquet(processed_dir / "episodes.parquet", index=False)
         logger.info("Enriched %d episodes with challenge durations", ep_count)
 
     # 3. Performances
@@ -545,9 +547,9 @@ def run_enrichment(
         ]
         with open(performances_path, "w", encoding="utf-8") as f:
             json.dump(validated_performances, f, indent=2, ensure_ascii=False)
-        pd.DataFrame(validated_performances).to_csv(
-            processed_dir / "performances.csv", index=False
-        )
+        df_perf = pd.DataFrame(validated_performances)
+        df_perf.to_csv(processed_dir / "performances.csv", index=False)
+        df_perf.to_parquet(processed_dir / "performances.parquet", index=False)
         logger.info("Enriched performances (%d handshakes confirmed)", hs_count)
 
     # 4. Seasons Table
@@ -556,7 +558,9 @@ def run_enrichment(
         seasons_path = processed_dir / "seasons.json"
         with open(seasons_path, "w", encoding="utf-8") as f:
             json.dump(seasons, f, indent=2, ensure_ascii=False)
-        pd.DataFrame(seasons).to_csv(processed_dir / "seasons.csv", index=False)
+        df_seasons = pd.DataFrame(seasons)
+        df_seasons.to_csv(processed_dir / "seasons.csv", index=False)
+        df_seasons.to_parquet(processed_dir / "seasons.parquet", index=False)
         logger.info(
             "Exported %d seasons with streaming & filming locations to %s",
             len(seasons),

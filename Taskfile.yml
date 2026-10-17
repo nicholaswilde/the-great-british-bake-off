@@ -73,6 +73,46 @@ tasks:
     cmds:
       - uv run gbbo stats {{.CLI_ARGS}}
 
+  # Multi-Format Serialization & Exports
+  export:sqlite:
+    desc: Export processed tables into a unified SQLite database (data/processed/gbbo.db)
+    cmds:
+      - uv run gbbo export-sqlite {{.CLI_ARGS}}
+
+  export:arrow:
+    desc: Export tables to Apache Arrow IPC files and Parquet tables
+    cmds:
+      - uv run gbbo export-arrow {{.CLI_ARGS}}
+
+  export:r:
+    desc: Export datasets to native R formats (.rds, .rda) and companion R package (r/)
+    cmds:
+      - uv run gbbo export-r {{.CLI_ARGS}}
+
+  export:ai:
+    desc: Export datasets into AI training formats (Chat SFT JSONL, RAG corpus, and benchmark suite)
+    cmds:
+      - uv run gbbo export-ai {{.CLI_ARGS}}
+
+  export:all:
+    desc: Export datasets across all formats (SQLite, Arrow IPC, Parquet, R, AI corpora)
+    cmds:
+      - task: export:sqlite
+      - task: export:arrow
+      - task: export:r
+      - task: export:ai
+
+  eval:benchmark:
+    desc: Run evaluation on The Great British Bake Off AI benchmark suite
+    cmds:
+      - uv run gbbo eval-benchmark {{.CLI_ARGS}}
+
+  publish:hf:
+    desc: Publish and synchronize datasets and AI corpora to Hugging Face Hub
+    cmds:
+      - uv run gbbo publish-hf {{.CLI_ARGS}}
+
+
   # Testing & Coverage
   test:
     desc: Run pytest test suite

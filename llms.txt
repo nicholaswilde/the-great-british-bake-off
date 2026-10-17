@@ -1,0 +1,51 @@
+# The Great British Bake Off Dataset & AI Training Corpus
+
+> A comprehensive tidy relational dataset and AI training corpus for the television competition series The Great British Bake Off (broadcast as The Great British Baking Show in North America).
+
+The Great British Bake Off (GBBO) dataset provides structured, relational tables adhering to tidy data principles across 15+ UK series. The dataset is exported in CSV, Apache Parquet, SQLite (`gbbo.db`), Apache Arrow IPC, and native R (`.rds`, `.rda`) formats, alongside fine-tuning JSONL, retrieval-augmented generation (RAG) knowledge corpora, and evaluation benchmarks.
+
+For complete zero-hop documentation in a single prompt-ready file, see [llms-full.txt](https://raw.githubusercontent.com/nicholaswilde/the-great-british-bake-off/main/llms-full.txt).
+
+## Core Relational Tables
+
+The dataset consists of 4 normalized relational tables linked by explicit foreign keys:
+
+- [seasons](https://github.com/nicholaswilde/the-great-british-bake-off/blob/main/data/processed/seasons.csv): Series-level summaries including winner, series year, judges, presenters/hosts, UK broadcast network, filming location, and North American streaming collections (PBS, Netflix, The Roku Channel).
+- [bakers](https://github.com/nicholaswilde/the-great-british-bake-off/blob/main/data/processed/bakers.csv): Contestant demographics including baker name, series number, age, occupation, hometown, overall finish placement, and official headshot image URLs.
+- [episodes](https://github.com/nicholaswilde/the-great-british-bake-off/blob/main/data/processed/episodes.csv): Episode-level metadata including episode ID (`sXXeYY`), theme week (e.g. Cakes, Bread, Pastry), original broadcast air date, and challenge time allowances.
+- [performances](https://github.com/nicholaswilde/the-great-british-bake-off/blob/main/data/processed/performances.csv): Granular challenge outcomes per baker and episode, recording signature bakes, technical challenge rankings, showstopper bakes, elimination/star baker results, and Hollywood Handshakes.
+
+## AI Training Corpora & Benchmarks
+
+The dataset provides structured LLM training and evaluation assets in `data/ai/`:
+
+- [gbbo_qa_finetuning.jsonl](https://github.com/nicholaswilde/the-great-british-bake-off/blob/main/data/ai/gbbo_qa_finetuning.jsonl): 1,900+ multi-turn chat instruction pairs formatted for OpenAI and Gemini SFT fine-tuning. Covers winners, challenge dishes, technical ranks, star bakers, and eliminations.
+- [gbbo_knowledge_corpus.jsonl](https://github.com/nicholaswilde/the-great-british-bake-off/blob/main/data/ai/gbbo_knowledge_corpus.jsonl): 370+ chunked narrative knowledge documents for vector databases and RAG retrieval pipelines (series overviews, episode narratives, baker profiles).
+- [gbbo_benchmark_suite.jsonl](https://github.com/nicholaswilde/the-great-british-bake-off/blob/main/data/ai/gbbo_benchmark_suite.jsonl): 45 curated evaluation questions covering trivia, multi-hop reasoning, show rules, and Hollywood Handshake accolades with keyword verification rubrics.
+
+## Multi-Format Distribution
+
+- **CSV (`data/processed/*.csv`)**: Standard comma-separated tables.
+- **Apache Parquet (`data/processed/*.parquet`)**: Columnar storage preserving strict data types.
+- **Apache Arrow IPC (`data/processed/arrow/*.arrow`)**: Zero-copy in-memory streaming.
+- **SQLite (`data/processed/gbbo.db`)**: Self-contained SQL relational database with indexed primary and foreign keys.
+- **R Package (`r/`)**: Native `.rds` and `.rda` binaries with roxygen2 documentation for tidyverse and RStudio users.
+
+## Quickstart CLI & Tasks
+
+```bash
+# Export all datasets and AI corpora
+task export:all
+# Or via CLI
+uv run gbbo export-ai
+
+# Run AI evaluation benchmark
+task eval:benchmark
+# Or via CLI
+uv run gbbo eval-benchmark
+
+# Publish or dry-run Hugging Face sync
+task publish:hf -- --dry-run
+# Or via CLI
+uv run gbbo publish-hf --dry-run
+```

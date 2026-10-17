@@ -1,0 +1,252 @@
+# The Great British Bake Off Dataset & AI Training Corpus: Full Reference (llms-full.txt)
+
+> A comprehensive, unified reference guide for The Great British Bake Off (GBBO) tidy dataset, AI training corpora, relational database schema, CLI tooling, and developer workflows.
+
+---
+
+## 1. Project Overview & Architecture
+
+**The Great British Bake Off (GBBO)** dataset is a multi-format, tidy relational database and AI instruction-tuning corpus covering 15+ series of the British television baking competition *The Great British Bake Off* (broadcast in North America as *The Great British Baking Show*).
+
+Inspired by tidy data packages like `bakeoff`, `alone`, and `survivoR`, this repository structures every series, episode, baker, challenge bake, technical ranking, Star Baker award, and Hollywood Handshake into 4 normalized relational tables.
+
+### Data Storage & Distribution Formats
+- **CSV (`data/processed/*.csv`)**: Universal comma-separated tables with header rows.
+- **Apache Parquet (`data/processed/*.parquet`)**: High-performance columnar files preserving strict data types and dictionary encodings.
+- **Apache Arrow IPC (`data/processed/arrow/*.arrow`)**: Zero-copy streaming format for ML feature stores and model pipelines.
+- **SQLite (`data/processed/gbbo.db`)**: Self-contained relational database with explicit foreign key constraints and covering indexes.
+- **Native R (`data/processed/r/*.rds`, `r/data/*.rda`)**: Serialized data frames and companion R package (`r/`) with full roxygen2 documentation.
+- **AI Corpora (`data/ai/*.jsonl`)**: Instruction-tuning Chat SFT pairs, RAG knowledge chunks, and evaluation benchmarks.
+
+---
+
+## 2. Relational Schema & Complete Data Dictionary
+
+The database consists of 4 primary tables connected via foreign key references:
+
+```
+seasons (series_number)
+   ├── bakers (series_number, baker_id)
+   │      └── performances (baker_id)
+   └── episodes (series_number, episode_id)
+          └── performances (episode_id)
+```
+
+### Table 1: `seasons`
+- **Primary Key**: `series_number` (Integer)
+- **Description**: High-level metadata for each broadcast series.
+- **Row Count**: 17 series records.
+
+| Column | Type | Nullable | Description | Example |
+| :--- | :--- | :--- | :--- | :--- |
+| `series_number` | Integer | No | UK broadcast series number (1 to 17). | `5` |
+| `year` | Integer | No | Original UK calendar broadcast year. | `2014` |
+| `winner` | String | No | Full name of the series champion. | `"Nancy Birtwhistle"` |
+| `hosts` | List/String | No | Presenters / comedy hosts. | `"Mel Giedroyc and Sue Perkins"` |
+| `judges` | List/String | No | Expert culinary judges. | `"Mary Berry and Paul Hollywood"` |
+| `network` | String | No | Original broadcast network in the UK. | `"BBC One"` |
+| `pbs_season` | Float/String | Yes | Corresponding PBS broadcast season in North America. | `1.0` |
+| `netflix_collection` | Float/String | Yes | Netflix Collection release number. | `1.0` |
+| `roku_season` | Float/String | Yes | The Roku Channel streaming season index. | `1.0` |
+| `location` | String | Yes | Physical marquee tent filming grounds. | `"Welford Park, Berkshire"` |
+
+### Table 2: `bakers`
+- **Primary Key**: `baker_id` (String)
+- **Foreign Key**: `series_number` -> `seasons(series_number)`
+- **Description**: Biographical demographics and series placement for each contestant.
+- **Row Count**: 204 baker records.
+
+| Column | Type | Nullable | Description | Example |
+| :--- | :--- | :--- | :--- | :--- |
+| `baker_id` | String | No | Unique normalized baker identifier (`sXX_<slug>`). | `"s05_nancy"` |
+| `series_number` | Integer | No | Series in which the baker competed. | `5` |
+| `name` | String | No | Full contestant name. | `"Nancy Birtwhistle"` |
+| `age` | Integer | Yes | Age at time of filming. | `60` |
+| `gender` | String | Yes | Baker gender identifier (`F`, `M`). | `"F"` |
+| `occupation` | String | Yes | Profession or occupation outside baking. | `"Retired Practice Manager"` |
+| `hometown` | String | Yes | Hometown or origin city/region. | `"Barton-upon-Humber, Lincolnshire"` |
+| `overall_placement` | Integer | Yes | Final finishing placement (1 = Winner, 2 = Runner-up). | `1` |
+| `image_url` | String | Yes | URL to the baker's official portrait or headshot. | `"https://..."` |
+
+### Table 3: `episodes`
+- **Primary Key**: `episode_id` (String)
+- **Foreign Key**: `series_number` -> `seasons(series_number)`
+- **Description**: Episode-level themes, broadcast air dates, and challenge timing.
+- **Row Count**: 158 episode records.
+
+| Column | Type | Nullable | Description | Example |
+| :--- | :--- | :--- | :--- | :--- |
+| `episode_id` | String | No | Unique episode identifier (`sXXeYY`). | `"s05e04"` |
+| `series_number` | Integer | No | UK broadcast series number. | `5` |
+| `episode_number` | Integer | No | Episode index within the series (1 to 10). | `4` |
+| `theme` | String | No | Challenge theme week. | `"Desserts"` |
+| `air_date` | Date/String | Yes | Original UK television broadcast date (`YYYY-MM-DD`). | `"2014-08-27"` |
+| `signature_time_min` | Float | Yes | Time allocated for the Signature challenge in minutes. | `150.0` |
+| `technical_time_min` | Float | Yes | Time allocated for the Technical challenge in minutes. | `105.0` |
+| `showstopper_time_min` | Float | Yes | Time allocated for the Showstopper challenge in minutes. | `270.0` |
+
+### Table 4: `performances`
+- **Primary Key**: `performance_id` (String)
+- **Foreign Keys**: `baker_id` -> `bakers(baker_id)`, `episode_id` -> `episodes(episode_id)`
+- **Description**: Individual challenge bakes, technical rankings, and weekly outcomes.
+- **Row Count**: 1,203 performance records.
+
+| Column | Type | Nullable | Description | Example |
+| :--- | :--- | :--- | :--- | :--- |
+| `performance_id` | String | No | Unique composite ID (`<episode_id>_<baker_id>`). | `"s05e04_s05_nancy"` |
+| `baker_id` | String | No | Reference to the competing baker. | `"s05_nancy"` |
+| `episode_id` | String | No | Reference to the episode. | `"s05e04"` |
+| `signature_dish` | String | Yes | Description of the baker's signature challenge bake. | `"Coffee and Brandy Saucy Sponge"` |
+| `technical_rank` | Integer | Yes | Finishing position in the blind technical challenge (1 = Best). | `4` |
+| `showstopper_dish` | String | Yes | Description of the baker's showstopper challenge bake. | `"Summer Pudding Baked Alaska"` |
+| `result` | String | No | Official episode outcome (`SAFE`, `STAR_BAKER`, `ELIMINATED`, `WINNER`, `RUNNER_UP`, `WITHDREW`). | `"SAFE"` |
+| `hollywood_handshake` | Boolean | No | Whether Paul Hollywood awarded a handshake for this episode. | `False` |
+| `did_well` | Boolean | Yes | Flag indicating the baker was commended in the top group. | `True` |
+| `at_risk` | Boolean | Yes | Flag indicating the baker was in danger of elimination. | `False` |
+| `absent` | Boolean | Yes | Flag indicating the baker was excused due to illness. | `False` |
+
+---
+
+## 3. Summary Statistics & Historical Metrics
+
+- **Total Series**: 17
+- **Total Contestants**: 204 bakers
+- **Total Episodes**: 158 episodes
+- **Total Performances**: 1,203 baker-episode appearances
+- **Total Recorded Hollywood Handshakes**: 60 handshakes
+- **Youngest Winner**: Peter Sawkins (Series 11, age 20)
+- **Oldest Winner**: Nancy Birtwhistle (Series 5, age 60)
+- **Most Star Bakers in a Single Series**: Richard Burr (Series 5, 5 awards)
+- **Winner without Star Baker**: David Atherton (Series 10, won finale with 0 regular Star Bakers)
+- **Same-Episode Handshake & Elimination**: Ryan Chong (Series 3, Episode 7, Sweet Dough Week)
+
+---
+
+## 4. AI Training Datasets & Evaluation Benchmark
+
+### Chat SFT Dataset (`data/ai/gbbo_qa_finetuning.jsonl`)
+Formatted multi-turn conversations adhering to OpenAI / Gemini fine-tuning schemas:
+```json
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an expert encyclopedia and baking analyst for the television competition series The Great British Bake Off..."
+    },
+    {
+      "role": "user",
+      "content": "Who won Series 6 of The Great British Bake Off?"
+    },
+    {
+      "role": "assistant",
+      "content": "The winner of Series 6 of The Great British Bake Off (2015) was Nadiya Hussain."
+    }
+  ],
+  "metadata": {
+    "category": "winners",
+    "series_number": 6
+  }
+}
+```
+
+### RAG Knowledge Corpus (`data/ai/gbbo_knowledge_corpus.jsonl`)
+Structured narrative documents partitioned into 3 semantic document types:
+- `series_overview`: Comprehensive season context, judges, presenters, locations, and roster.
+- `episode_narrative`: Theme details, time limits, Star Baker, elimination, and dishes prepared.
+- `baker_profile`: Biographical background, career highlights, and complete challenge bakes.
+
+### Evaluation Benchmark Suite (`data/ai/gbbo_benchmark_suite.jsonl`)
+Curated prompt set with 45 questions across 4 categories:
+1. `trivia` (19 items): Historical milestones, winners, hosts, judges, and networks.
+2. `challenge_reasoning` (10 items): Multi-hop deduction and episode-specific events.
+3. `baking_rules` (10 items): Challenge structures, blind tasting rules, and terminology.
+4. `handshakes_and_accolades` (6 items): Hollywood Handshake recipients and Star Baker records.
+
+Scoring harness evaluates responses against key fact keywords with threshold rubrics.
+
+---
+
+## 5. Command-Line Interface & Taskfile Reference
+
+The `gbbo` CLI and `go-task` task runner manage all lifecycle commands:
+
+| Command | Task | Description |
+| :--- | :--- | :--- |
+| `gbbo scrape --series N` | `task scrape` | Scrape Wikipedia tables for bakers and episodes. |
+| `gbbo build` | `task build` | Aggregate and validate raw series data into processed datasets. |
+| `gbbo enrich` | `task enrich:ray` | Enrich datasets with Demographics, handshakes, and challenge times from RayofData. |
+| `gbbo gaps` | `task gaps` | Audit dataset completeness and print missing cell metrics. |
+| `gbbo stats` | `task stats` | Display table row counts and file sizes across processed tables. |
+| `gbbo export-sqlite` | `task export:sqlite` | Export tables into a unified SQLite database (`gbbo.db`). |
+| `gbbo export-arrow` | `task export:arrow` | Export tables to Apache Arrow IPC files and Parquet tables. |
+| `gbbo export-r` | `task export:r` | Export datasets to native R formats (`.rds`, `.rda`) and scaffold companion package (`r/`). |
+| `gbbo export-ai` | `task export:ai` | Export Chat SFT JSONL, RAG knowledge corpus, and benchmark suite. |
+| `gbbo eval-benchmark` | `task eval:benchmark` | Run evaluation benchmark against ground truth rubrics. |
+| `gbbo publish-hf` | `task publish:hf` | Publish and synchronize datasets and AI corpora to Hugging Face Hub. |
+| - | `task export:all` | Export datasets across all formats (SQLite, Arrow IPC, Parquet, R, AI). |
+| - | `task check` | Run complete verification suite (format check, lint, spellcheck, tests). |
+
+---
+
+## 6. Code Examples & Analytical Query Recipes
+
+### Python (Pandas)
+```python
+import pandas as pd
+
+# Load relational tables
+bakers = pd.read_parquet("data/processed/bakers.parquet")
+performances = pd.read_parquet("data/processed/performances.parquet")
+
+# Find all Hollywood Handshake recipients
+hs_bakers = (
+    performances[performances["hollywood_handshake"] == True]
+    .merge(bakers, on="baker_id")
+    .groupby(["series_number", "name"])
+    .size()
+    .reset_index(name="handshakes_received")
+    .sort_values(by="handshakes_received", ascending=False)
+)
+print(hs_bakers.head(10))
+```
+
+### SQLite
+```sql
+-- Bakers who won Star Baker 3 or more times
+SELECT 
+    b.series_number,
+    b.name,
+    COUNT(*) AS star_baker_count
+FROM performances p
+JOIN bakers b ON p.baker_id = b.baker_id
+WHERE p.result = 'STAR_BAKER'
+GROUP BY b.series_number, b.name
+HAVING COUNT(*) >= 3
+ORDER BY star_baker_count DESC;
+```
+
+### Hugging Face `datasets`
+```python
+from datasets import load_dataset
+
+# Load Chat SFT training dataset
+qa_dataset = load_dataset("nicholaswilde/the-great-british-bake-off", "qa_finetuning", split="train")
+print(f"Loaded {len(qa_dataset)} fine-tuning conversations.")
+```
+
+---
+
+## 7. Citation & License
+
+- **License**: Apache 2.0
+- **Authors**: Nicholas Wilde
+- **Citation**:
+```bibtex
+@misc{wilde_gbbo_2026,
+  author       = {Nicholas Wilde},
+  title        = {The Great British Bake Off Dataset & AI Training Corpus},
+  year         = {2026},
+  publisher    = {Hugging Face},
+  howpublished = {\url{https://huggingface.co/datasets/nicholaswilde/the-great-british-bake-off}}
+}
+```

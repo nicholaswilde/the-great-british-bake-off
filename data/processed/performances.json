@@ -26,8 +26,8 @@
     "absent": false
   },
   {
-    "performance_id": "s01e01_s01_edd",
-    "baker_id": "s01_edd",
+    "performance_id": "s01e01_s01_edward",
+    "baker_id": "s01_edward",
     "episode_id": "s01e01",
     "signature_dish": "Caramel Cinnamon and Banana Cake",
     "technical_rank": 1,
@@ -156,15 +156,15 @@
     "absent": false
   },
   {
-    "performance_id": "s01e02_s01_edd",
-    "baker_id": "s01_edd",
+    "performance_id": "s01e02_s01_edward",
+    "baker_id": "s01_edward",
     "episode_id": "s01e02",
     "signature_dish": "Oatmeal Raisin Cookies",
     "technical_rank": 6,
     "showstopper_dish": "Pink Macarons Passion Fruit Meringues",
     "result": "SAFE",
     "hollywood_handshake": false,
-    "did_well": false,
+    "did_well": true,
     "at_risk": false,
     "absent": false
   },
@@ -247,15 +247,15 @@
     "absent": false
   },
   {
-    "performance_id": "s01e03_s01_edd",
-    "baker_id": "s01_edd",
+    "performance_id": "s01e03_s01_edward",
+    "baker_id": "s01_edward",
     "episode_id": "s01e03",
     "signature_dish": "Olive Bread",
     "technical_rank": 1,
     "showstopper_dish": "Tomato, Mozzarella, and Chorizo Rolls Chelsea Buns Hot Cross Buns",
     "result": "SAFE",
     "hollywood_handshake": false,
-    "did_well": false,
+    "did_well": true,
     "at_risk": false,
     "absent": false
   },
@@ -325,8 +325,8 @@
     "absent": false
   },
   {
-    "performance_id": "s01e04_s01_edd",
-    "baker_id": "s01_edd",
+    "performance_id": "s01e04_s01_edward",
+    "baker_id": "s01_edward",
     "episode_id": "s01e04",
     "signature_dish": "Apple and Plum Pudding",
     "technical_rank": 3,
@@ -334,7 +334,7 @@
     "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
-    "at_risk": false,
+    "at_risk": true,
     "absent": false
   },
   {
@@ -377,15 +377,15 @@
     "absent": false
   },
   {
-    "performance_id": "s01e05_s01_edd",
-    "baker_id": "s01_edd",
+    "performance_id": "s01e05_s01_edward",
+    "baker_id": "s01_edward",
     "episode_id": "s01e05",
     "signature_dish": "Chicken, Ham, Leek and Tarragon Pie",
     "technical_rank": 2,
     "showstopper_dish": "Almond Sweet Tart with Ginger and Chocolate Yorkshire Curd Tart Chickpea and Salami Pâté Red and Yellow Pepper Tart Asparagus Gruyere Quiche",
     "result": "SAFE",
     "hollywood_handshake": false,
-    "did_well": false,
+    "did_well": true,
     "at_risk": false,
     "absent": false
   },
@@ -429,8 +429,8 @@
     "absent": false
   },
   {
-    "performance_id": "s01e06_s01_edd",
-    "baker_id": "s01_edd",
+    "performance_id": "s01e06_s01_edward",
+    "baker_id": "s01_edward",
     "episode_id": "s01e06",
     "signature_dish": "Cinnamon and Banana Cakes",
     "technical_rank": null,
@@ -533,15 +533,15 @@
     "absent": false
   },
   {
-    "performance_id": "s02e01_s02_jo",
-    "baker_id": "s02_jo",
+    "performance_id": "s02e01_s02_joanne",
+    "baker_id": "s02_joanne",
     "episode_id": "s02e01",
     "signature_dish": "Chocolate and Orange Cupcakes Orange and Cardamom Cupcakes",
     "technical_rank": 11,
     "showstopper_dish": "Chocolate and Strawberry Cake",
     "result": "SAFE",
     "hollywood_handshake": false,
-    "did_well": false,
+    "did_well": true,
     "at_risk": false,
     "absent": false
   },
@@ -689,8 +689,8 @@
     "absent": false
   },
   {
-    "performance_id": "s02e02_s02_jo",
-    "baker_id": "s02_jo",
+    "performance_id": "s02e02_s02_joanne",
+    "baker_id": "s02_joanne",
     "episode_id": "s02e02",
     "signature_dish": "Caramelised Onion, Gruyere and Thyme Quiche",
     "technical_rank": 10,
@@ -698,7 +698,7 @@
     "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
-    "at_risk": false,
+    "at_risk": true,
     "absent": false
   },
   {
@@ -832,8 +832,8 @@
     "absent": false
   },
   {
-    "performance_id": "s02e03_s02_jo",
-    "baker_id": "s02_jo",
+    "performance_id": "s02e03_s02_joanne",
+    "baker_id": "s02_joanne",
     "episode_id": "s02e03",
     "signature_dish": "Stromboli Flavoured with Mozarella, Ham, and Picante Pepper",
     "technical_rank": 1,
@@ -949,8 +949,8 @@
     "absent": false
   },
   {
-    "performance_id": "s02e04_s02_jo",
-    "baker_id": "s02_jo",
+    "performance_id": "s02e04_s02_joanne",
+    "baker_id": "s02_joanne",
     "episode_id": "s02e04",
     "signature_dish": "Lavender Biscuits",
     "technical_rank": 8,
@@ -1040,8 +1040,8 @@
     "absent": false
   },
   {
-    "performance_id": "s02e05_s02_jo",
-    "baker_id": "s02_jo",
+    "performance_id": "s02e05_s02_joanne",
+    "baker_id": "s02_joanne",
     "episode_id": "s02e05",
     "signature_dish": "Salmon and Asparagus Pie",
     "technical_rank": 6,
@@ -1118,8 +1118,8 @@
     "absent": false
   },
   {
-    "performance_id": "s02e06_s02_jo",
-    "baker_id": "s02_jo",
+    "performance_id": "s02e06_s02_joanne",
+    "baker_id": "s02_joanne",
     "episode_id": "s02e06",
     "signature_dish": "Rum and Raisin Baked Cheesecake",
     "technical_rank": 1,
@@ -1183,15 +1183,15 @@
     "absent": false
   },
   {
-    "performance_id": "s02e07_s02_jo",
-    "baker_id": "s02_jo",
+    "performance_id": "s02e07_s02_joanne",
+    "baker_id": "s02_joanne",
     "episode_id": "s02e07",
     "signature_dish": "Raspberry & Strawberry Mousse Cake",
     "technical_rank": 3,
     "showstopper_dish": "Pain Aux Raisin Chocolate Twists Banana and Raisin Pastries",
     "result": "SAFE",
     "hollywood_handshake": false,
-    "did_well": false,
+    "did_well": true,
     "at_risk": false,
     "absent": false
   },
@@ -1222,8 +1222,8 @@
     "absent": false
   },
   {
-    "performance_id": "s02e08_s02_jo",
-    "baker_id": "s02_jo",
+    "performance_id": "s02e08_s02_joanne",
+    "baker_id": "s02_joanne",
     "episode_id": "s02e08",
     "signature_dish": "Raspberry and Blueberry Mille Feuille",
     "technical_rank": 1,
@@ -5330,8 +5330,8 @@
     "absent": false
   },
   {
-    "performance_id": "s07e01_s07_val",
-    "baker_id": "s07_val",
+    "performance_id": "s07e01_s07_valerie",
+    "baker_id": "s07_valerie",
     "episode_id": "s07e01",
     "signature_dish": "Mum's Orange and Lemon Drizzle",
     "technical_rank": 10,
@@ -5339,7 +5339,7 @@
     "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
-    "at_risk": false,
+    "at_risk": true,
     "absent": false
   },
   {
@@ -5473,8 +5473,8 @@
     "absent": false
   },
   {
-    "performance_id": "s07e02_s07_val",
-    "baker_id": "s07_val",
+    "performance_id": "s07e02_s07_valerie",
+    "baker_id": "s07_valerie",
     "episode_id": "s07e02",
     "signature_dish": "Sunday Treat Iced Ice Cream Cone Biscuits",
     "technical_rank": 5,
@@ -5482,7 +5482,7 @@
     "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
-    "at_risk": false,
+    "at_risk": true,
     "absent": false
   },
   {
@@ -5603,8 +5603,8 @@
     "absent": false
   },
   {
-    "performance_id": "s07e03_s07_val",
-    "baker_id": "s07_val",
+    "performance_id": "s07e03_s07_valerie",
+    "baker_id": "s07_valerie",
     "episode_id": "s07e03",
     "signature_dish": "Double Chocolate Cinnamon Twist Loaf",
     "technical_rank": 1,
@@ -5612,7 +5612,7 @@
     "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
-    "at_risk": false,
+    "at_risk": true,
     "absent": false
   },
   {
@@ -5720,8 +5720,8 @@
     "absent": false
   },
   {
-    "performance_id": "s07e04_s07_val",
-    "baker_id": "s07_val",
+    "performance_id": "s07e04_s07_valerie",
+    "baker_id": "s07_valerie",
     "episode_id": "s07e04",
     "signature_dish": "Mum's Chilli Yorkshire Puddings",
     "technical_rank": 6,
@@ -5824,8 +5824,8 @@
     "absent": false
   },
   {
-    "performance_id": "s07e05_s07_val",
-    "baker_id": "s07_val",
+    "performance_id": "s07e05_s07_valerie",
+    "baker_id": "s07_valerie",
     "episode_id": "s07e05",
     "signature_dish": "Pecan and Maple Syrup Pinwheels Apple, Sultana and Cinnamon Swirls",
     "technical_rank": 7,
@@ -6175,6 +6175,19 @@
     "absent": false
   },
   {
+    "performance_id": "s08e01_s08_chuenyan",
+    "baker_id": "s08_chuenyan",
+    "episode_id": "s08e01",
+    "signature_dish": "Windfall Apple Crumble Cake",
+    "technical_rank": 4,
+    "showstopper_dish": "'Banana-ramen' Cake",
+    "result": "SAFE",
+    "hollywood_handshake": false,
+    "did_well": false,
+    "at_risk": false,
+    "absent": false
+  },
+  {
     "performance_id": "s08e01_s08_flo",
     "baker_id": "s08_flo",
     "episode_id": "s08e01",
@@ -6305,19 +6318,6 @@
     "absent": false
   },
   {
-    "performance_id": "s08e01_s08_yan",
-    "baker_id": "s08_yan",
-    "episode_id": "s08e01",
-    "signature_dish": "Windfall Apple Crumble Cake",
-    "technical_rank": 4,
-    "showstopper_dish": "'Banana-ramen' Cake",
-    "result": "SAFE",
-    "hollywood_handshake": false,
-    "did_well": false,
-    "at_risk": false,
-    "absent": false
-  },
-  {
     "performance_id": "s08e02_s08_chris",
     "baker_id": "s08_chris",
     "episode_id": "s08e02",
@@ -6325,6 +6325,19 @@
     "technical_rank": 11,
     "showstopper_dish": "'The Great British Sail Off' Game",
     "result": "ELIMINATED",
+    "hollywood_handshake": false,
+    "did_well": false,
+    "at_risk": false,
+    "absent": false
+  },
+  {
+    "performance_id": "s08e02_s08_chuenyan",
+    "baker_id": "s08_chuenyan",
+    "episode_id": "s08e02",
+    "signature_dish": "'Mrs. Marian's PB 'n' B' Biscuits",
+    "technical_rank": 1,
+    "showstopper_dish": "'Adventures in Bakeland' Game",
+    "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
     "at_risk": false,
@@ -6448,12 +6461,12 @@
     "absent": false
   },
   {
-    "performance_id": "s08e02_s08_yan",
-    "baker_id": "s08_yan",
-    "episode_id": "s08e02",
-    "signature_dish": "'Mrs. Marian's PB 'n' B' Biscuits",
-    "technical_rank": 1,
-    "showstopper_dish": "'Adventures in Bakeland' Game",
+    "performance_id": "s08e03_s08_chuenyan",
+    "baker_id": "s08_chuenyan",
+    "episode_id": "s08e03",
+    "signature_dish": "'Mrs P's' Masala Chai Spiced Teacakes",
+    "technical_rank": 8,
+    "showstopper_dish": "'Basil the Vegetarian Dragon with his Pumpkin Hoard' Bread Sculpture",
     "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
@@ -6578,12 +6591,12 @@
     "absent": false
   },
   {
-    "performance_id": "s08e03_s08_yan",
-    "baker_id": "s08_yan",
-    "episode_id": "s08e03",
-    "signature_dish": "'Mrs P's' Masala Chai Spiced Teacakes",
+    "performance_id": "s08e04_s08_chuenyan",
+    "baker_id": "s08_chuenyan",
+    "episode_id": "s08e04",
+    "signature_dish": "'Lil' Red's Ginger and Nuts' Millionaire Shortbreads",
     "technical_rank": 8,
-    "showstopper_dish": "'Basil the Vegetarian Dragon with his Pumpkin Hoard' Bread Sculpture",
+    "showstopper_dish": "Animals of the Rainforest Caramel Cake",
     "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
@@ -6695,14 +6708,14 @@
     "absent": false
   },
   {
-    "performance_id": "s08e04_s08_yan",
-    "baker_id": "s08_yan",
-    "episode_id": "s08e04",
-    "signature_dish": "'Lil' Red's Ginger and Nuts' Millionaire Shortbreads",
-    "technical_rank": 8,
-    "showstopper_dish": "Animals of the Rainforest Caramel Cake",
+    "performance_id": "s08e05_s08_chuenyan",
+    "baker_id": "s08_chuenyan",
+    "episode_id": "s08e05",
+    "signature_dish": "Mango Fruit Hat Steamed School Pudding",
+    "technical_rank": 6,
+    "showstopper_dish": "'Heart of a Hero' Trifle Terrine",
     "result": "SAFE",
-    "hollywood_handshake": false,
+    "hollywood_handshake": true,
     "did_well": false,
     "at_risk": false,
     "absent": false
@@ -6799,15 +6812,15 @@
     "absent": false
   },
   {
-    "performance_id": "s08e05_s08_yan",
-    "baker_id": "s08_yan",
-    "episode_id": "s08e05",
-    "signature_dish": "Mango Fruit Hat Steamed School Pudding",
-    "technical_rank": 6,
-    "showstopper_dish": "'Heart of a Hero' Trifle Terrine",
+    "performance_id": "s08e06_s08_chuenyan",
+    "baker_id": "s08_chuenyan",
+    "episode_id": "s08e06",
+    "signature_dish": "'πr2' Decorative Pies",
+    "technical_rank": 1,
+    "showstopper_dish": "Chequerboard Pie",
     "result": "SAFE",
     "hollywood_handshake": false,
-    "did_well": false,
+    "did_well": true,
     "at_risk": false,
     "absent": false
   },
@@ -6890,13 +6903,13 @@
     "absent": false
   },
   {
-    "performance_id": "s08e06_s08_yan",
-    "baker_id": "s08_yan",
-    "episode_id": "s08e06",
-    "signature_dish": "'πr2' Decorative Pies",
-    "technical_rank": 1,
-    "showstopper_dish": "Chequerboard Pie",
-    "result": "SAFE",
+    "performance_id": "s08e07_s08_chuenyan",
+    "baker_id": "s08_chuenyan",
+    "episode_id": "s08e07",
+    "signature_dish": "Cannoli Cocktails",
+    "technical_rank": 5,
+    "showstopper_dish": "Canadian Style Sfogliatelle",
+    "result": "ELIMINATED",
     "hollywood_handshake": false,
     "did_well": false,
     "at_risk": false,
@@ -6962,19 +6975,6 @@
     "technical_rank": 1,
     "showstopper_dish": "'Sicilian-style' Sfogliatelle",
     "result": "STAR_BAKER",
-    "hollywood_handshake": false,
-    "did_well": false,
-    "at_risk": false,
-    "absent": false
-  },
-  {
-    "performance_id": "s08e07_s08_yan",
-    "baker_id": "s08_yan",
-    "episode_id": "s08e07",
-    "signature_dish": "Cannoli Cocktails",
-    "technical_rank": 5,
-    "showstopper_dish": "Canadian Style Sfogliatelle",
-    "result": "ELIMINATED",
     "hollywood_handshake": false,
     "did_well": false,
     "at_risk": false,
@@ -10218,8 +10218,8 @@
     "absent": false
   },
   {
-    "performance_id": "s12e01_s12_jairzeno",
-    "baker_id": "s12_jairzeno",
+    "performance_id": "s12e01_s12_jairzinho",
+    "baker_id": "s12_jairzinho",
     "episode_id": "s12e01",
     "signature_dish": "Lime & Passion Fruit Mini Rolls",
     "technical_rank": 9,
@@ -10227,7 +10227,7 @@
     "result": "SAFE",
     "hollywood_handshake": false,
     "did_well": false,
-    "at_risk": false,
+    "at_risk": true,
     "absent": false
   },
   {
@@ -10374,8 +10374,8 @@
     "absent": false
   },
   {
-    "performance_id": "s12e02_s12_jairzeno",
-    "baker_id": "s12_jairzeno",
+    "performance_id": "s12e02_s12_jairzinho",
+    "baker_id": "s12_jairzinho",
     "episode_id": "s12e02",
     "signature_dish": "Chocolate, Passion Fruit & Pineapple Brandy Snaps",
     "technical_rank": 9,

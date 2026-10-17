@@ -12,6 +12,14 @@ from rich.table import Table
 
 from gbbo_dataset import __version__
 from gbbo_dataset.builder import build_datasets
+from gbbo_dataset.exports import (
+    BenchmarkSuite,
+    export_ai,
+    export_arrow,
+    export_to_r,
+    export_to_sqlite,
+    publish_to_hf,
+)
 from gbbo_dataset.gap_auditor import DatasetGapAuditor
 from gbbo_dataset.importers.rayofdata import (
     DEFAULT_RAY_DATA_DIR,
@@ -222,6 +230,187 @@ def stats(
         t.add_row(tbl, rows, cols, json_size, csv_size)
 
     console.print(t)
+
+
+@app.command("export-sqlite")
+def export_sqlite_cmd(
+    processed_dir: Path = typer.Option(
+        Path("data/processed"),
+        "--processed-dir",
+        "-p",
+        help="Directory with processed Parquet/CSV tables",
+    ),
+    db_path: Path = typer.Option(
+        Path("data/processed/gbbo.db"),
+        "--db-path",
+        "-d",
+        help="Path to write SQLite database",
+    ),
+) -> None:
+    """Export processed tables into a unified SQLite database with foreign keys."""
+    console.print(f"[bold blue]Exporting tables to SQLite ({db_path})...[/bold blue]")
+    out = export_to_sqlite(processed_dir=processed_dir, db_path=db_path)
+    console.print(f"[green]✓ Successfully exported SQLite database to {out}[/green]")
+
+
+@app.command("export-arrow")
+def export_arrow_cmd(
+    processed_dir: Path = typer.Option(
+        Path("data/processed"),
+        "--processed-dir",
+        "-p",
+        help="Processed tables directory",
+    ),
+    arrow_dir: Path = typer.Option(
+        Path("data/processed/arrow"),
+        "--arrow-dir",
+        "-a",
+        help="Arrow IPC output directory",
+    ),
+) -> None:
+    """Export tables to Apache Arrow IPC files and Parquet tables."""
+    console.print(
+        "[bold blue]Exporting Apache Arrow IPC & Parquet datasets...[/bold blue]"
+    )
+    results = export_arrow(processed_dir=processed_dir, arrow_dir=arrow_dir)
+    parquet_tables = results.get("parquet", {})
+    arrow_tables = results.get("arrow", {})
+    console.print(
+        f"[green]✓ Exported {len(parquet_tables)} tables to Parquet (.parquet)[/green]"
+    )
+    console.print(
+        f"[green]✓ Exported {len(arrow_tables)} tables to Apache Arrow IPC (.arrow)[/green]"
+    )
+
+
+@app.command("export-r")
+def export_r_cmd(
+    processed_dir: Path = typer.Option(
+        Path("data/processed"),
+        "--processed-dir",
+        "-p",
+        help="Processed tables directory",
+    ),
+    r_dir: Path = typer.Option(
+        Path("data/processed/r"),
+        "--r-dir",
+        "-r",
+        help="Directory to output .rds and .rda files",
+    ),
+    pkg_dir: Path = typer.Option(
+        Path("r"),
+        "--pkg-dir",
+        help="Companion R package directory",
+    ),
+) -> None:
+    """Export processed tables to native R formats (.rds, .rda) and scaffold companion R package."""
+    console.print(
+        "[bold blue]Exporting GBBO datasets to R formats and companion package...[/bold blue]"
+    )
+    results = export_to_r(
+        processed_dir=processed_dir,
+        r_output_dir=r_dir,
+        r_pkg_dir=pkg_dir,
+    )
+    rds_tables = results.get("rds", {})
+    rda_tables = results.get("rda", {})
+
+    console.print(f"[green]✓ Exported {len(rds_tables)} RDS tables to {r_dir}[/green]")
+    console.print(
+        f"[green]✓ Exported {len(rda_tables)} RDA package tables to {Path(pkg_dir) / 'data'}[/green]"
+    )
+    console.print(
+        f"[green]✓ Scaffolding and roxygen2 docs complete in {pkg_dir}/[/green]"
+    )
+
+
+@app.command("export-ai")
+def export_ai_cmd(
+    processed_dir: Path = typer.Option(
+        Path("data/processed"),
+        "--processed-dir",
+        "-p",
+        help="Directory with processed tables",
+    ),
+    ai_dir: Path = typer.Option(
+        Path("data/ai"),
+        "--ai-dir",
+        "-a",
+        help="Target AI export directory",
+    ),
+) -> None:
+    """Export processed datasets into AI training formats (Chat SFT JSONL, RAG corpus, and benchmark suite)."""
+    console.print(
+        f"[bold blue]Exporting AI fine-tuning datasets and RAG corpus to {ai_dir}...[/bold blue]"
+    )
+    results = export_ai(processed_dir=processed_dir, ai_dir=ai_dir)
+    for name, path in results.items():
+        console.print(f"  [green]✓ {name}: {path}[/green]")
+    console.print("[bold green]✓ AI training corpora export complete.[/bold green]")
+
+
+@app.command("eval-benchmark")
+def eval_benchmark_cmd(
+    benchmark_file: Path = typer.Option(
+        Path("data/ai/gbbo_benchmark_suite.jsonl"),
+        "--benchmark-file",
+        "-b",
+        help="Path to benchmark JSONL file",
+    ),
+) -> None:
+    """Run evaluation benchmark against ground truth rubrics and print score summary."""
+    console.print(
+        f"[bold blue]Evaluating GBBO benchmark suite ({benchmark_file})...[/bold blue]"
+    )
+    suite = BenchmarkSuite(benchmark_file=benchmark_file)
+    summary = suite.evaluate_benchmark()
+    suite.render_summary(summary)
+    console.print(
+        f"[bold green]✓ Benchmark complete: {summary['total_passed']}/{summary['total_questions']} "
+        f"passed ({summary['pass_rate'] * 100:.1f}%), avg score: {summary['average_score'] * 100:.1f}%[/bold green]"
+    )
+
+
+@app.command("publish-hf")
+def publish_hf_cmd(
+    repo_id: str | None = typer.Option(
+        None,
+        "--repo-id",
+        "-r",
+        help="Hugging Face repository ID (e.g. user/the-great-british-bake-off)",
+    ),
+    token: str | None = typer.Option(
+        None, "--token", "-t", help="Hugging Face API token"
+    ),
+    dry_run: bool = typer.Option(
+        False,
+        "--dry-run",
+        help="Stage files locally without uploading to Hugging Face Hub",
+    ),
+    staging_dir: Path | None = typer.Option(
+        None, "--staging-dir", "-s", help="Custom staging directory"
+    ),
+) -> None:
+    """Publish and synchronize datasets and AI corpora to the Hugging Face Hub."""
+    console.print("[bold blue]Preparing Hugging Face dataset release...[/bold blue]")
+    try:
+        res = publish_to_hf(
+            repo_id=repo_id,
+            token=token,
+            dry_run=dry_run,
+            staging_dir=staging_dir,
+        )
+        if dry_run:
+            console.print(
+                f"[green]✓ Dry-run complete: staged {res.get('files_count', 0)} files in {res.get('staging_dir')}[/green]"
+            )
+        else:
+            console.print(
+                f"[bold green]✓ Successfully published {res.get('files_count', 0)} files to {res.get('url')}[/bold green]"
+            )
+    except Exception as e:
+        console.print(f"[red]✗ Hugging Face publishing failed: {e}[/red]")
+        raise typer.Exit(code=1) from e
 
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 performance_id,baker_id,episode_id,signature_dish,technical_rank,showstopper_dish,result,hollywood_handshake,did_well,at_risk,absent
 s01e01_s01_annetha,s01_annetha,s01e01,Light Jamaican Black Cake with Strawberries and Cream,2.0,"Chocolate Cake with Cigarellos, Fresh Fruit, and Cream",SAFE,False,True,False,False
 s01e01_s01_david,s01_david,s01e01,Chocolate Orange Cake,3.0,"Black Forest Floor Gateau with Chocolate Leaves, Fallen Fruit, and Chocolate Mushrooms",SAFE,False,False,True,False
-s01e01_s01_edd,s01_edd,s01e01,Caramel Cinnamon and Banana Cake,1.0,UNKNOWN,SAFE,False,False,False,False
+s01e01_s01_edward,s01_edward,s01e01,Caramel Cinnamon and Banana Cake,1.0,UNKNOWN,SAFE,False,False,False,False
 s01e01_s01_jasminder,s01_jasminder,s01e01,Fresh Mango and Passion Fruit Hummingbird Cake,,UNKNOWN,SAFE,False,False,False,False
 s01e01_s01_jonathan,s01_jonathan,s01e01,Carrot Cake with Lime and Cream Cheese Icing,9.0,Three Tiered Chocolate Cake with Almond and Cherry,SAFE,False,False,False,False
 s01e01_s01_lea,s01_lea,s01e01,Cranberry and Pistachio Cake with Orange Flower Water Icing,10.0,Raspberries and Cream Chocolate Cake with Chocolate-Dipped Fresh Fruit,ELIMINATED,False,False,False,False
@@ -11,28 +11,28 @@ s01e01_s01_miranda,s01_miranda,s01e01,Triple Layered Brownie Meringue Cake with 
 s01e01_s01_ruth,s01_ruth,s01e01,Lemon Drizzle Cake with Fresh Cream and freshly made Lemon Curd,,Classic Chocolate Sponge wrapped in a Chocolate Collar topped with Handmade White and Dark Chocolate Truffles,SAFE,False,True,False,False
 s01e02_s01_annetha,s01_annetha,s01e02,Rose Petal Shortbread,7.0,Pink Swirl Macarons Eclairs,ELIMINATED,False,False,False,False
 s01e02_s01_david,s01_david,s01e02,Cheddar Cheese and Fresh Rosemary Biscuits,8.0,Choux Pastry Swans Plain Meringues,SAFE,False,False,True,False
-s01e02_s01_edd,s01_edd,s01e02,Oatmeal Raisin Cookies,6.0,Pink Macarons Passion Fruit Meringues,SAFE,False,False,False,False
+s01e02_s01_edward,s01_edward,s01e02,Oatmeal Raisin Cookies,6.0,Pink Macarons Passion Fruit Meringues,SAFE,False,True,False,False
 s01e02_s01_jasminder,s01_jasminder,s01e02,Millionaires' Shortbread,2.0,Meringues with Chocolate and Space Dust Coffee Flavoured Eclairs,SAFE,False,False,False,False
 s01e02_s01_jonathan,s01_jonathan,s01e02,Honey and Candied Ginger Cookies,1.0,Meringues with Whiskey Cream and Chocolate,SAFE,False,True,False,False
 s01e02_s01_louise,s01_louise,s01e02,Stained Glass Window Shortbread,4.0,"Strawberry, Mint, and Cream Meringue Baskets Chocolate Eclairs Orange, Yellow and Pink Macarons",ELIMINATED,False,False,False,False
 s01e02_s01_miranda,s01_miranda,s01e02,Fresh Vanilla Biscuits with Royal Icing,3.0,Pistachio Macarons,SAFE,False,True,False,False
 s01e02_s01_ruth,s01_ruth,s01e02,Peanut Shortbread with Salted Peanut Caramel,5.0,Almond Macaron with Violet Buttercream Raspberries and Cream Eclairs,SAFE,False,False,False,False
 s01e03_s01_david,s01_david,s01e03,Chilli Bread,4.0,Walnut and Seed Roll Red Berry and Almond Bun Tomato and Herb Rolls,SAFE,False,False,True,False
-s01e03_s01_edd,s01_edd,s01e03,Olive Bread,1.0,"Tomato, Mozzarella, and Chorizo Rolls Chelsea Buns Hot Cross Buns",SAFE,False,False,False,False
+s01e03_s01_edward,s01_edward,s01e03,Olive Bread,1.0,"Tomato, Mozzarella, and Chorizo Rolls Chelsea Buns Hot Cross Buns",SAFE,False,True,False,False
 s01e03_s01_jasminder,s01_jasminder,s01e03,Focaccia,5.0,Mango and Sultana Buns Pain au Chocolat with Mars Bars Tutti Frutti Wheels with Jelly Tots Tomato and Cheese Rolls,SAFE,False,False,True,False
 s01e03_s01_jonathan,s01_jonathan,s01e03,"Anchovy, Sweet Paprika and Oregano Bread",6.0,"Sticky Lemon Honey Buns Olive and Anchovy Rolls Sun-Dried Tomato and Fresh Herb Rolls Stilton, Walnut and Braeburn Apple Rolls Cinnamon, Cardamom, and Sultana Chelsea Buns with Icing",ELIMINATED,False,False,False,False
 s01e03_s01_miranda,s01_miranda,s01e03,Walnut and Apricot Bread,3.0,Lemon Iced Buns Chocolate and Orange Buns Cranberry Buns with Icing Sugar,SAFE,False,False,False,False
 s01e03_s01_ruth,s01_ruth,s01e03,Maple and Pecan Bread,2.0,Chocolate and Orange Panettone Cranberry Bagels,SAFE,False,True,False,False
 s01e04_s01_david,s01_david,s01e04,Pear and Walnut Pudding,5.0,Apple and Blackberry Crumble Rhubarb and Orange Betty Suet Pear,ELIMINATED,False,False,False,False
-s01e04_s01_edd,s01_edd,s01e04,Apple and Plum Pudding,3.0,Apple and Cinnamon Crumble Nutella Banana Brioche Bread Pudding Rhubarb and Strawberry Suet Layer,SAFE,False,False,False,False
+s01e04_s01_edward,s01_edward,s01e04,Apple and Plum Pudding,3.0,Apple and Cinnamon Crumble Nutella Banana Brioche Bread Pudding Rhubarb and Strawberry Suet Layer,SAFE,False,False,True,False
 s01e04_s01_jasminder,s01_jasminder,s01e04,Sticky Toffee Pudding,2.0,Bread and Butter Pudding Treacle Suet Pudding with Fresh Fruit Apple and Pineapple Crumble,SAFE,False,True,False,False
 s01e04_s01_miranda,s01_miranda,s01e04,Sticky Toffee Pudding,1.0,Queen of Puddings Chocolate Pear Roly Poly Strawberry and Rhubarb Crumble,SAFE,False,True,False,False
 s01e04_s01_ruth,s01_ruth,s01e04,Peach and Blueberry Boy Bait,4.0,Apple and Ginger Crumble Rhubarb Suet Pudding Cherry Queen of Puddings,SAFE,False,True,False,False
-s01e05_s01_edd,s01_edd,s01e05,"Chicken, Ham, Leek and Tarragon Pie",2.0,Almond Sweet Tart with Ginger and Chocolate Yorkshire Curd Tart Chickpea and Salami Pâté Red and Yellow Pepper Tart Asparagus Gruyere Quiche,SAFE,False,False,False,False
+s01e05_s01_edward,s01_edward,s01e05,"Chicken, Ham, Leek and Tarragon Pie",2.0,Almond Sweet Tart with Ginger and Chocolate Yorkshire Curd Tart Chickpea and Salami Pâté Red and Yellow Pepper Tart Asparagus Gruyere Quiche,SAFE,False,True,False,False
 s01e05_s01_jasminder,s01_jasminder,s01e05,Chicken and Mushroom Pie,4.0,Jaggery Tart Fruit and Custard Tart Thai Chili and Red Onion Canapés Duck in Plum Sauce Canapés Salmon and Prawn Canapés,ELIMINATED,False,False,False,False
 s01e05_s01_miranda,s01_miranda,s01e05,"Summery Salmon, Cod and Prawn Fish Pie",1.0,Chocolate Pastry filled with Orange Cheesecake Chocolate Pastry filled with Milk Chocolate Ganache Strawberry Tart with Red Currant Glaze Cheesy Crab Bites Broad Bean and Tomato Pastry Hearts Pancetta and Leek Risotto Canapés,SAFE,False,False,True,False
 s01e05_s01_ruth,s01_ruth,s01e05,Minced Beef Pie,3.0,Raspberry and Dark Chocolate Tart Creme Patisserie and Cherry Tart Citrus Curd Tart with Creme Brulee Top Roasted Tomato Canapés Asparagus Pastry Twirls,SAFE,False,True,False,False
-s01e06_s01_edd,s01_edd,s01e06,Cinnamon and Banana Cakes,,Chocolate and Ginger Tarts Lemon Scones with Passion Fruit Curd Raspberry Choux Buns Finger Sandwiches,WINNER,False,False,False,False
+s01e06_s01_edward,s01_edward,s01e06,Cinnamon and Banana Cakes,,Chocolate and Ginger Tarts Lemon Scones with Passion Fruit Curd Raspberry Choux Buns Finger Sandwiches,WINNER,False,False,False,False
 s01e06_s01_miranda,s01_miranda,s01e06,Lemon Cupcakes,,—N/a,ELIMINATED,False,False,False,False
 s01e06_s01_ruth,s01_ruth,s01e06,"Mint, Ginger and Blackberry Cakes",,Red Pepper and Cheese Quiche Tarts Sultana Scones Vanilla and Lemon Choux Buns Finger Sandwiches,RUNNER_UP,False,False,False,False
 s02e01_s02_ben,s02_ben,s02e01,Rhubarb and Custard Cupcakes After Dinner Cupcakes,2.0,Vanilla Sponge with White Chocolate and Raspberry Buttercream,SAFE,False,False,False,False
@@ -40,7 +40,7 @@ s02e01_s02_holly,s02_holly,s02e01,Cherry Bakewell Inspired Cupcakes Ginger Cupca
 s02e01_s02_ian,s02_ian,s02e01,Apple and Cinnamon Cupcakes,10.0,UNKNOWN,SAFE,False,False,False,False
 s02e01_s02_janet,s02_janet,s02e01,Raspberry and Cream Cupcakes,8.0,Chocolate Marble Cake with Dark and White Chocolate Truffles,SAFE,False,False,False,False
 s02e01_s02_jason,s02_jason,s02e01,Lemon Meringue Cupcakes Apple and Cinnamon Cupcakes,6.0,UNKNOWN,SAFE,False,False,False,False
-s02e01_s02_jo,s02_jo,s02e01,Chocolate and Orange Cupcakes Orange and Cardamom Cupcakes,11.0,Chocolate and Strawberry Cake,SAFE,False,False,False,False
+s02e01_s02_joanne,s02_joanne,s02e01,Chocolate and Orange Cupcakes Orange and Cardamom Cupcakes,11.0,Chocolate and Strawberry Cake,SAFE,False,True,False,False
 s02e01_s02_keith,s02_keith,s02e01,Earl Grey Cupcakes,12.0,Chocolate and Sour Cream Cake,ELIMINATED,False,False,False,False
 s02e01_s02_maryanne,s02_maryanne,s02e01,Banoffee Cupcakes,4.0,Chocolate and Raspberry Opera Cake,SAFE,False,False,False,False
 s02e01_s02_robert,s02_robert,s02e01,Blackberry and Vanilla Cupcakes with Liquorice Frosting,3.0,Genoise Layered Mousse Cake with Chocolate Ganache,SAFE,False,False,True,False
@@ -52,7 +52,7 @@ s02e02_s02_holly,s02_holly,s02e02,Pesto Quiche,4.0,Milk Chocolate and Pistachio 
 s02e02_s02_ian,s02_ian,s02e02,"Stilton, Spinach and New Potato Quiche with Paprika and Walnut Pastry",2.0,UNKNOWN,SAFE,False,True,False,False
 s02e02_s02_janet,s02_janet,s02e02,Quiche Printanière,8.0,Red Fruit Tarts Chocolate and Cherry Tarts,SAFE,False,False,False,False
 s02e02_s02_jason,s02_jason,s02e02,Salmon and Pak Choi Quiche,3.0,Mint Chocolate Tarts Blueberry Bakewell Tarts,STAR_BAKER,False,False,False,False
-s02e02_s02_jo,s02_jo,s02e02,"Caramelised Onion, Gruyere and Thyme Quiche",10.0,Raspberry and Mascarpone Tarts with Lemon and Almond Pastry Honey and Almond Tarts with Sweetcrust,SAFE,False,False,False,False
+s02e02_s02_joanne,s02_joanne,s02e02,"Caramelised Onion, Gruyere and Thyme Quiche",10.0,Raspberry and Mascarpone Tarts with Lemon and Almond Pastry Honey and Almond Tarts with Sweetcrust,SAFE,False,False,True,False
 s02e02_s02_maryanne,s02_maryanne,s02e02,"Roasted Cauliflower, Cheese and Caramelised Onion Quiche",9.0,Butterscotch Brulée Tarts in Pecan Pastry Apple Rose Tarts,SAFE,False,False,False,False
 s02e02_s02_robert,s02_robert,s02e02,Smoked Bacon and Kale Quiche,5.0,"Chocolate, Fennel and Ginger Tarts Creme Patisserie and Poached Pear Tarts in Almond Pastry",SAFE,False,False,True,False
 s02e02_s02_simon,s02_simon,s02e02,Smoked Haddock and Watercress Quiche,11.0,"Passion Fruit and Ricotta Tarts Salted Chocolate, Stem Ginger and Mascarpone Cream Tarts",ELIMINATED,False,False,False,False
@@ -63,7 +63,7 @@ s02e03_s02_holly,s02_holly,s02e03,Picnic Loaf,6.0,Stilton and Walnut Rolls,SAFE,
 s02e03_s02_ian,s02_ian,s02e03,"Courgette, Caerphilly Cheese and Thyme Loaf",10.0,Walnut and Raisin Rolls Cracked Wheat Logs,ELIMINATED,False,False,False,False
 s02e03_s02_janet,s02_janet,s02e03,Zupfe Loaf with Gruyère Cheese,8.0,Apple and Walnut Granary Rolls Red Onion Cottage Rolls,SAFE,False,False,True,False
 s02e03_s02_jason,s02_jason,s02e03,Cheese and Onion Tear and Share Loaf,7.0,UNKNOWN,SAFE,False,False,False,False
-s02e03_s02_jo,s02_jo,s02e03,"Stromboli Flavoured with Mozarella, Ham, and Picante Pepper",1.0,Spiced Orange Rolls Pumpkin Seed Rolls,SAFE,False,False,False,False
+s02e03_s02_joanne,s02_joanne,s02e03,"Stromboli Flavoured with Mozarella, Ham, and Picante Pepper",1.0,Spiced Orange Rolls Pumpkin Seed Rolls,SAFE,False,False,False,False
 s02e03_s02_maryanne,s02_maryanne,s02e03,Ploughman's Loaf,5.0,Herb and Walnut Breads Chocolate and Chilli Buns,SAFE,False,True,False,False
 s02e03_s02_robert,s02_robert,s02e03,Rye and Coriander Seed Loaf,4.0,Blueberry Brioche Rolls Lemon and Poppy Seed Rolls,SAFE,False,False,True,False
 s02e03_s02_urvashi,s02_urvashi,s02e03,Salt and Peppercorn Loaf,9.0,Chilli and Halloumi Rolls Lemon and Coriander Mini Loaves,ELIMINATED,False,False,False,False
@@ -72,28 +72,28 @@ s02e04_s02_ben,s02_ben,s02e04,Stem Ginger Nuts,5.0,Chocolate and Almond Macarons
 s02e04_s02_holly,s02_holly,s02e04,Strawberry and Custard Melts,3.0,"'Chocolate bars of my youth' (Caramel Macarons, Mint Chocolate Macarons and Chocolate Orange Macarons)",STAR_BAKER,False,False,False,False
 s02e04_s02_janet,s02_janet,s02e04,Christmas Marzipan Biscuits,4.0,Raspberry Macarons Blackcurrant Macarons Almond Macarons,SAFE,False,False,False,False
 s02e04_s02_jason,s02_jason,s02e04,Lebkuchen,1.0,"Mocktail Macarons (Mojito, Cranberry Cooler, and Piña Colada)",STAR_BAKER,False,False,False,False
-s02e04_s02_jo,s02_jo,s02e04,Lavender Biscuits,8.0,Blueberry Macarons Coconut Macarons Strawberry Macarons,SAFE,False,False,False,False
+s02e04_s02_joanne,s02_joanne,s02e04,Lavender Biscuits,8.0,Blueberry Macarons Coconut Macarons Strawberry Macarons,SAFE,False,False,False,False
 s02e04_s02_maryanne,s02_maryanne,s02e04,Melting Moments,2.0,Blackcurrant and Mint Macarons Gooseberry and Elderflower Macarons Hazelnut Macarons,SAFE,False,True,False,False
 s02e04_s02_robert,s02_robert,s02e04,Chocolate and Ginger Oat Biscuits,7.0,Strawberry and Lime Macarons Lemon Macarons Chocolate and Cardamom Macarons,SAFE,False,False,False,False
 s02e04_s02_yasmin,s02_yasmin,s02e04,Chocolate Chip and Pistachio Biscotti,6.0,Chocolate and Lime Macarons Coffee and Walnut Macarons Pineapple and Coconut Macarons,SAFE,False,False,True,False
 s02e05_s02_holly,s02_holly,s02e05,"Stilton, Potato and Caramelised Onion Pie",4.0,Lime Meringue Pie,SAFE,False,False,False,False
 s02e05_s02_janet,s02_janet,s02e05,Chicken and Chestnut Pie,1.0,Rhubarb Meringue Pie,STAR_BAKER,False,False,False,False
 s02e05_s02_jason,s02_jason,s02e05,Brown Down Chicken Pie,7.0,Plum Meringue Pie,ELIMINATED,False,False,False,False
-s02e05_s02_jo,s02_jo,s02e05,Salmon and Asparagus Pie,6.0,Apple and Raspberry Meringue Pie,SAFE,False,False,False,False
+s02e05_s02_joanne,s02_joanne,s02e05,Salmon and Asparagus Pie,6.0,Apple and Raspberry Meringue Pie,SAFE,False,False,False,False
 s02e05_s02_maryanne,s02_maryanne,s02e05,Chicken and Bacon Pie,2.0,Midnight Meringue Pie,SAFE,False,True,False,False
 s02e05_s02_robert,s02_robert,s02e05,Chicken and Mushroom Pie,3.0,Rhubarb & Custard Meringue Pie,ELIMINATED,False,False,False,False
 s02e05_s02_yasmin,s02_yasmin,s02e05,Family Fish Pie,5.0,Peach and Raspberry Meringue Pie,SAFE,False,False,True,False
 s02e06_s02_holly,s02_holly,s02e06,Father Christmas' Baked Cheesecake,3.0,Hansel and Gretel's Croquembouche,SAFE,False,False,True,False
 s02e06_s02_janet,s02_janet,s02e06,Rhubarb and Ginger Baked Cheesecake,5.0,Orange and Nougatine Croquembouche,SAFE,False,True,False,False
-s02e06_s02_jo,s02_jo,s02e06,Rum and Raisin Baked Cheesecake,1.0,Limoncello and White Chocolate Croquembouche,STAR_BAKER,False,False,False,False
+s02e06_s02_joanne,s02_joanne,s02e06,Rum and Raisin Baked Cheesecake,1.0,Limoncello and White Chocolate Croquembouche,STAR_BAKER,False,False,False,False
 s02e06_s02_maryanne,s02_maryanne,s02e06,Tutti Frutti Curd Baked Cheesecake,4.0,Orange and Praline Croquembouche with Cardamom Caramel,SAFE,False,True,False,False
 s02e06_s02_yasmin,s02_yasmin,s02e06,Baked Amaretto Cheesecake,2.0,Rose Croquembouche,ELIMINATED,False,False,False,False
 s02e07_s02_holly,s02_holly,s02e07,"White Chocolate, Hazelnut and Raspberry Génoise Mousse Cake",1.0,"Apricot, Macadamia and White Chocolate Pinwheels Almond Croissants Apple, Raisin and Cinnamon Plaits",SAFE,False,True,False,False
 s02e07_s02_janet,s02_janet,s02e07,Chocolate Amaretto Mousse Cake,4.0,Pain Aux Raisin Plain Croissant Pain Au Chocolat,ELIMINATED,False,False,False,False
-s02e07_s02_jo,s02_jo,s02e07,Raspberry & Strawberry Mousse Cake,3.0,Pain Aux Raisin Chocolate Twists Banana and Raisin Pastries,SAFE,False,False,False,False
+s02e07_s02_joanne,s02_joanne,s02e07,Raspberry & Strawberry Mousse Cake,3.0,Pain Aux Raisin Chocolate Twists Banana and Raisin Pastries,SAFE,False,True,False,False
 s02e07_s02_maryanne,s02_maryanne,s02e07,Chocolate and Orange Mousse Cake,2.0,Raspberry Rose Danishes Praline Spirals Alsatian Plaited Danishes,SAFE,False,False,True,False
 s02e08_s02_holly,s02_holly,s02e08,Banoffee Inspired Mille Feuille,2.0,Strawberry and Cream Meringue Nest Gooseberry and Elderflower 'Bakewell' Tarts Neapolitan Ice-Cream Sandwich,RUNNER_UP,False,False,False,False
-s02e08_s02_jo,s02_jo,s02e08,Raspberry and Blueberry Mille Feuille,1.0,"Mini Victoria Sandwiches Raspberry, White Chocolate and Pistachio Mini Meringues Mini Banoffee Pie with Banana Mousse",WINNER,False,False,False,False
+s02e08_s02_joanne,s02_joanne,s02e08,Raspberry and Blueberry Mille Feuille,1.0,"Mini Victoria Sandwiches Raspberry, White Chocolate and Pistachio Mini Meringues Mini Banoffee Pie with Banana Mousse",WINNER,False,False,False,False
 s02e08_s02_maryanne,s02_maryanne,s02e08,Lemon and Ginger Mille Feuille,3.0,Fruit Tarts with Elderflower Custard Strawberry and Rhubarb Cheesecakes Black Fruit Meringue with Everlasting Syllabub,RUNNER_UP,False,False,False,False
 s03e01_s03_brendan,s03_brendan,s03e01,"Plum, Sour Cherry & Walnut Upside Down Cake",10.0,St. Patrick's Day Cake with Hidden Irish Flag*,SAFE,False,False,False,False
 s03e01_s03_cathryn,s03_cathryn,s03e01,"Apple, Hazelnut and Calvados Upside Down Cake",5.0,Hidden Cupcake Cake,SAFE,False,True,False,False
@@ -409,7 +409,7 @@ s07e01_s07_michael,s07_michael,s07e01,"Lime, Ginger and Honey Drizzle Cake",3.0,
 s07e01_s07_rav,s07_rav,s07e01,Ginger Spice Yuzu Drizzle Cake,8.0,Colombian Mocha Mirror Glaze Cake,SAFE,False,False,False,False
 s07e01_s07_selasi,s07_selasi,s07e01,Citrus and Spice Drizzle Cake,1.0,"Raspberry, Sloe and White Chocolate Mirror Glaze Cake",SAFE,False,True,False,False
 s07e01_s07_tom,s07_tom,s07e01,G&T Drizzle Cake,2.0,Black Forest Broken Mirror,SAFE,False,False,False,False
-s07e01_s07_val,s07_val,s07e01,Mum's Orange and Lemon Drizzle,10.0,Chocolate Sponge with Four Fruit Frosting,SAFE,False,False,False,False
+s07e01_s07_valerie,s07_valerie,s07e01,Mum's Orange and Lemon Drizzle,10.0,Chocolate Sponge with Four Fruit Frosting,SAFE,False,False,True,False
 s07e02_s07_andrew,s07_andrew,s07e02,Beehive Biscuits,4.0,Punting in Cambridge,SAFE,False,True,False,False
 s07e02_s07_benjamina,s07_benjamina,s07e02,Bouquet Biscuits,3.0,"New York, New York",SAFE,False,False,False,False
 s07e02_s07_candice,s07_candice,s07e02,"Salted Caramel, Chocolate Iced Shiny Hearts",8.0,Gingerbread Pub with Sticky Ginger Carpet,STAR_BAKER,False,False,False,False
@@ -420,7 +420,7 @@ s07e02_s07_michael,s07_michael,s07e02,"Malt, Chocolate and Orange Iced ""Beer"" 
 s07e02_s07_rav,s07_rav,s07e02,Union Jack Bunting Biscuits,6.0,Gingerbread Christmas Fairground,SAFE,False,False,False,False
 s07e02_s07_selasi,s07_selasi,s07e02,"""Wheelie Hot Iced Biscuits""",11.0,Stained Glass Window Gingerbread Church,SAFE,False,False,False,False
 s07e02_s07_tom,s07_tom,s07e02,Chai Frappelatteccino Biscuits,7.0,Tom and Pod's Near Death Experience,SAFE,True,False,False,False
-s07e02_s07_val,s07_val,s07e02,Sunday Treat Iced Ice Cream Cone Biscuits,5.0,From Holland to New York via Yorkshire,SAFE,False,False,False,False
+s07e02_s07_valerie,s07_valerie,s07e02,Sunday Treat Iced Ice Cream Cone Biscuits,5.0,From Holland to New York via Yorkshire,SAFE,False,False,True,False
 s07e03_s07_andrew,s07_andrew,s07e03,Chocolate Barmbrack Bread,2.0,Braided Harvest Bread Basket,SAFE,False,True,False,False
 s07e03_s07_benjamina,s07_benjamina,s07e03,"Chocolate, Tahini and Almond Babka",6.0,Braided Bread Heart,SAFE,False,False,False,False
 s07e03_s07_candice,s07_candice,s07e03,"Chocolate, Salted Caramel & Pecan Brittle Brioche Bread",3.0,Italian Light and Dark Rye Twist,SAFE,False,False,True,False
@@ -430,7 +430,7 @@ s07e03_s07_michael,s07_michael,s07e03,Chocolate and Chilli Swirl Plait,7.0,Cypri
 s07e03_s07_rav,s07_rav,s07e03,"Chocolate, Cardamom and Hazelnut Loaf",10.0,Three Tier Diwali Bread Centrepiece,SAFE,False,False,False,False
 s07e03_s07_selasi,s07_selasi,s07e03,"Chocolate, Orange and Cinnamon Bread",5.0,Bedouin Escape Tear and Share Bread,SAFE,False,False,False,False
 s07e03_s07_tom,s07_tom,s07e03,Chocolate Orange and Chilli Swirl Bread,4.0,Jörmungandr and Mjölnir,STAR_BAKER,False,False,False,False
-s07e03_s07_val,s07_val,s07e03,Double Chocolate Cinnamon Twist Loaf,1.0,"""And They All Went Into The Ark To Get Out Of The Rain""",SAFE,False,False,False,False
+s07e03_s07_valerie,s07_valerie,s07e03,Double Chocolate Cinnamon Twist Loaf,1.0,"""And They All Went Into The Ark To Get Out Of The Rain""",SAFE,False,False,True,False
 s07e04_s07_andrew,s07_andrew,s07e04,Yorkshire 'Tapas' Puddings,4.0,Churros Window Box,SAFE,False,True,False,False
 s07e04_s07_benjamina,s07_benjamina,s07e04,"Red Onion Chutney, Brie and Bacon Yorkshire Puddings",1.0,Tropical Churros,STAR_BAKER,False,False,False,False
 s07e04_s07_candice,s07_candice,s07e04,Yorkshire Wellingtons,2.0,Two-Way Peanut Butter Churros,SAFE,False,False,False,False
@@ -439,7 +439,7 @@ s07e04_s07_kate,s07_kate,s07e04,Christmas Dinner Compromise,7.0,Hot Cross Bunny 
 s07e04_s07_rav,s07_rav,s07e04,Thai Tofu Panang Yorkshires,9.0,Three Dip Matcha Pistachio Churros,SAFE,False,False,True,False
 s07e04_s07_selasi,s07_selasi,s07e04,Perfect Sunday Roast Accompaniment,8.0,Lemon and Anise Churros,SAFE,True,False,False,False
 s07e04_s07_tom,s07_tom,s07e04,West Yorkshire Fusion Puddings,5.0,Fennel Churros Snake In The Grass,SAFE,False,False,True,False
-s07e04_s07_val,s07_val,s07e04,Mum's Chilli Yorkshire Puddings,6.0,Orange Chocolate Churros,SAFE,False,False,False,False
+s07e04_s07_valerie,s07_valerie,s07e04,Mum's Chilli Yorkshire Puddings,6.0,Orange Chocolate Churros,SAFE,False,False,False,False
 s07e05_s07_andrew,s07_andrew,s07e05,Mum and Dad's Breakfast Pastries,6.0,Spicy Chorizo Squash Parcels Baklava Bites,SAFE,False,False,False,False
 s07e05_s07_benjamina,s07_benjamina,s07e05,'Good Morning America' Swirls Peanut Butter and Banana Pinwheels,5.0,Plantain and Spinach Samosas Chai Pear Cups,SAFE,False,False,False,False
 s07e05_s07_candice,s07_candice,s07e05,"Danish Pastry Croque Monsieur Kites Cinnamon Apple, Vanilla Crème Rose Danish",2.0,"Sausage, Black Pudding and Apple Rounds Banoffee Whiskey Cups",STAR_BAKER,False,False,False,False
@@ -447,7 +447,7 @@ s07e05_s07_jane,s07_jane,s07e05,"Orange Pain au Raisin Raspberry, Chocolate and 
 s07e05_s07_rav,s07_rav,s07e05,"Cinnamon Swirls Pecan, Walnut and Maple Plaits",8.0,Chinese Style Prawn Filo Tartlets Spiced White Chocolate and Hazelnut Samosas,SAFE,False,False,False,False
 s07e05_s07_selasi,s07_selasi,s07e05,"Rhubarb, Mango and Ginger Plait Pineapple and Coconut Pinwheels",3.0,"Parma Ham, Asparagus and Cheese Filo Cigars Coffee Cream Filo Cups",SAFE,False,False,False,False
 s07e05_s07_tom,s07_tom,s07e05,Mega Breakfast Bonanzas (Granola Spirals and Wheat Foldovers),4.0,Yin and Yang Amuse-bouche,SAFE,False,False,True,False
-s07e05_s07_val,s07_val,s07e05,"Pecan and Maple Syrup Pinwheels Apple, Sultana and Cinnamon Swirls",7.0,"Caramelised Red Onion, Goats Cheese Tartlets Mincemeat and Apple Spiced Parcels",ELIMINATED,False,False,False,False
+s07e05_s07_valerie,s07_valerie,s07e05,"Pecan and Maple Syrup Pinwheels Apple, Sultana and Cinnamon Swirls",7.0,"Caramelised Red Onion, Goats Cheese Tartlets Mincemeat and Apple Spiced Parcels",ELIMINATED,False,False,False,False
 s07e06_s07_andrew,s07_andrew,s07e06,Tangy Lime and Ginger Meringue Pie,6.0,Spring Elderflower Trio,SAFE,False,False,True,False
 s07e06_s07_benjamina,s07_benjamina,s07e06,Grapefruit and Ginger Meringue Pie,2.0,Floral Tea Cake,SAFE,False,False,False,False
 s07e06_s07_candice,s07_candice,s07e06,"Lime, Coconut and Lemongrass Sugar Meringue Pie",5.0,Four Seasons Cake,SAFE,False,True,False,False
@@ -474,6 +474,7 @@ s07e10_s07_andrew,s07_andrew,s07e10,Crunchy Caramel Cassis Crown,1.0,Family and 
 s07e10_s07_candice,s07_candice,s07e10,Queen Victoria's Mango and Strawberry Crown,2.0,Picnic for Pearly Kings and Queens,WINNER,False,False,False,False
 s07e10_s07_jane,s07_jane,s07e10,"Red, White and Blue Meringue Crown",3.0,Family Favourites Feast,RUNNER_UP,False,False,False,False
 s08e01_s08_chris,s08_chris,s08e01,Tropical Fresh Fruit Cake,12.0,'Raised Pork Pie and Egg Surprise' Cake,SAFE,False,False,True,False
+s08e01_s08_chuenyan,s08_chuenyan,s08e01,Windfall Apple Crumble Cake,4.0,'Banana-ramen' Cake,SAFE,False,False,False,False
 s08e01_s08_flo,s08_flo,s08e01,Citrus Layer Cake,9.0,'One in a Melon' Cake,SAFE,False,True,False,False
 s08e01_s08_james,s08_james,s08e01,"Orange, Rhubarb & Ginger Crumble Cake",2.0,'Mock-accino and Croissant' Cake,SAFE,False,False,False,False
 s08e01_s08_julia,s08_julia,s08e01,Courgette and Lemon Cake,3.0,'Russian Doll' Cake,SAFE,False,False,False,False
@@ -484,8 +485,8 @@ s08e01_s08_sophie,s08_sophie,s08e01,Pineapple and Coconut Sandwich Cake,5.0,'Cha
 s08e01_s08_stacey,s08_stacey,s08e01,Granny Smith Apple and Walnut Cake,11.0,'Black Evening Clutch Bag' Cake,SAFE,False,False,True,False
 s08e01_s08_steven,s08_steven,s08e01,Bonfire Night Cake,6.0,'A Baker's Lunch' Cake,STAR_BAKER,True,False,False,False
 s08e01_s08_tom,s08_tom,s08e01,Gilded Pear and Cardamom Cake,7.0,'Stack of Books' Cake,SAFE,False,False,False,False
-s08e01_s08_yan,s08_yan,s08e01,Windfall Apple Crumble Cake,4.0,'Banana-ramen' Cake,SAFE,False,False,False,False
 s08e02_s08_chris,s08_chris,s08e02,Chocolate Chia Seed Biscuits with Whisky Caramel Filling,11.0,'The Great British Sail Off' Game,ELIMINATED,False,False,False,False
+s08e02_s08_chuenyan,s08_chuenyan,s08e02,'Mrs. Marian's PB 'n' B' Biscuits,1.0,'Adventures in Bakeland' Game,SAFE,False,False,False,False
 s08e02_s08_flo,s08_flo,s08e02,Gin Jam Butties,10.0,'Pick My Bones' Game,SAFE,False,False,True,False
 s08e02_s08_james,s08_james,s08e02,Rhubarb and Custard Whirls,3.0,'Coppit' Game,SAFE,False,False,False,False
 s08e02_s08_julia,s08_julia,s08e02,Middle Eastern Delight Sandwich Biscuits,4.0,'A British Baking' Game,SAFE,False,False,False,False
@@ -495,7 +496,7 @@ s08e02_s08_sophie,s08_sophie,s08e02,Lemon Limoncino Sandwich Biscuits,2.0,'Snake
 s08e02_s08_stacey,s08_stacey,s08e02,Sparkly Chocolate and Marshmallow Fluff Cookies,9.0,'Get to School' Game,SAFE,False,False,True,False
 s08e02_s08_steven,s08_steven,s08e02,Amarpressi Biscuits,6.0,'Check Bake' Game,STAR_BAKER,False,False,False,False
 s08e02_s08_tom,s08_tom,s08e02,Coffee and Amaretto Kisses,5.0,'Drain Pipes and Ladders' Game,SAFE,False,True,False,False
-s08e02_s08_yan,s08_yan,s08e02,'Mrs. Marian's PB 'n' B' Biscuits,1.0,'Adventures in Bakeland' Game,SAFE,False,False,False,False
+s08e03_s08_chuenyan,s08_chuenyan,s08e03,'Mrs P's' Masala Chai Spiced Teacakes,8.0,'Basil the Vegetarian Dragon with his Pumpkin Hoard' Bread Sculpture,SAFE,False,False,False,False
 s08e03_s08_flo,s08_flo,s08e03,Cinnamon and Orange Teacakes,7.0,'Davy Jones' Locker' Bread Sculpture,ELIMINATED,False,False,False,False
 s08e03_s08_james,s08_james,s08e03,Nordic Teacakes,9.0,'Owl in the Woods' Bread Sculpture,SAFE,False,False,False,False
 s08e03_s08_julia,s08_julia,s08e03,Earl Grey Dried Fruit Teacakes,2.0,'The Snail Under a Mushroom' Bread Sculpture,STAR_BAKER,False,False,False,False
@@ -505,7 +506,7 @@ s08e03_s08_sophie,s08_sophie,s08e03,Tagine Teacakes,6.0,'Picnic Basket' Bread Sc
 s08e03_s08_stacey,s08_stacey,s08e03,Cranberry and Cinnamon Teacakes,1.0,'Ascot Hat' Bread Sculpture,SAFE,False,False,False,False
 s08e03_s08_steven,s08_steven,s08e03,Madras Cocktail Teacakes,3.0,'The Bag I Knead' Bread Sculpture,SAFE,False,True,False,False
 s08e03_s08_tom,s08_tom,s08e03,Orange and Cranberry Teacakes,4.0,'Pink & Yellow Rose Centrepiece' Bread Sculpture,SAFE,False,False,False,False
-s08e03_s08_yan,s08_yan,s08e03,'Mrs P's' Masala Chai Spiced Teacakes,8.0,'Basil the Vegetarian Dragon with his Pumpkin Hoard' Bread Sculpture,SAFE,False,False,False,False
+s08e04_s08_chuenyan,s08_chuenyan,s08e04,'Lil' Red's Ginger and Nuts' Millionaire Shortbreads,8.0,Animals of the Rainforest Caramel Cake,SAFE,False,False,False,False
 s08e04_s08_james,s08_james,s08e04,'Windy City' Millionaire Shortbreads,2.0,Nutty Caramel Cake,SAFE,False,False,True,False
 s08e04_s08_julia,s08_julia,s08e04,Pecan Salted Caramel Millionaire Shortbreads,9.0,Poppy Seed Caramel Cake,SAFE,False,False,False,False
 s08e04_s08_kate,s08_kate,s08e04,Salted Bay Caramel Millionaire Shortbreads,6.0,Sticky Toffee Apple Caramel Cake,STAR_BAKER,False,False,False,False
@@ -514,7 +515,7 @@ s08e04_s08_sophie,s08_sophie,s08e04,Jaffa Millionaire Shortbreads,4.0,Bird's Nes
 s08e04_s08_stacey,s08_stacey,s08e04,Rum Salted Caramel Millionaire Shortbreads,1.0,Chocolate and Coffee Caramel Cake,SAFE,False,False,False,False
 s08e04_s08_steven,s08_steven,s08e04,Orange Macadamia Nut Millionaire Shortbreads,7.0,Caramel Crown Cake,SAFE,False,False,False,False
 s08e04_s08_tom,s08_tom,s08e04,Stem Ginger Caramel Shortbreads,5.0,Hummingbird Cake,ELIMINATED,False,False,False,False
-s08e04_s08_yan,s08_yan,s08e04,'Lil' Red's Ginger and Nuts' Millionaire Shortbreads,8.0,Animals of the Rainforest Caramel Cake,SAFE,False,False,False,False
+s08e05_s08_chuenyan,s08_chuenyan,s08e05,Mango Fruit Hat Steamed School Pudding,6.0,'Heart of a Hero' Trifle Terrine,SAFE,True,False,False,False
 s08e05_s08_james,s08_james,s08e05,Orange and Ginger Steamed School Pudding,7.0,'The Missed Silver Jubilee' Trifle Terrine,ELIMINATED,False,False,False,False
 s08e05_s08_julia,s08_julia,s08e05,Orange & Treacle Steamed School Pudding,3.0,'Opulent Ornament' Trifle Terrine,SAFE,False,False,True,False
 s08e05_s08_kate,s08_kate,s08e05,'Mr Darcy's Steamy Lake Scene' Steamed School Pudding,8.0,'My Great Great Nan's' Raspberry Trifle Terrine,SAFE,False,False,False,False
@@ -522,20 +523,19 @@ s08e05_s08_liam,s08_liam,s08e05,Cherries & Lemons that are 'Baked Well',2.0,'Che
 s08e05_s08_sophie,s08_sophie,s08e05,"Ginger, Fig and Honey Steamed School Pudding",1.0,"Raspberry, Yuzu & White Chocolate Bûche Trifle Terrine",STAR_BAKER,False,False,False,False
 s08e05_s08_stacey,s08_stacey,s08e05,Bakewell Tart Steamed School Pudding,4.0,Tropical Trifle Terrine,SAFE,True,True,False,False
 s08e05_s08_steven,s08_steven,s08e05,Lemon & Blackcurrant Drizzle Steamed School Pudding,5.0,'From Across the Jelly Pond' Trifle Terrine,SAFE,True,False,False,False
-s08e05_s08_yan,s08_yan,s08e05,Mango Fruit Hat Steamed School Pudding,6.0,'Heart of a Hero' Trifle Terrine,SAFE,False,False,False,False
+s08e06_s08_chuenyan,s08_chuenyan,s08e06,'πr2' Decorative Pies,1.0,Chequerboard Pie,SAFE,False,True,False,False
 s08e06_s08_julia,s08_julia,s08e06,'Pies from the Tree' Decorative Pies,7.0,'Special Occasion' Pie,ELIMINATED,False,False,False,False
 s08e06_s08_kate,s08_kate,s08e06,'Vegetarian Pie Faces' Decorative Pies,5.0,Potato Curry Pie with Mango & Chilli Glaze,SAFE,False,False,False,False
 s08e06_s08_liam,s08_liam,s08e06,'Standard FC' Decorative Pies,4.0,'Nan's Sunday Dinner' Pie,STAR_BAKER,False,False,False,False
 s08e06_s08_sophie,s08_sophie,s08e06,'The Four Seasons' Decorative Pies,2.0,Game Pie with Glazed Forest Fruits,SAFE,False,True,False,False
 s08e06_s08_stacey,s08_stacey,s08e06,'Love Theme' Decorative Pies,6.0,Indian Hand Raised Pie with Mango,SAFE,False,False,True,False
 s08e06_s08_steven,s08_steven,s08e06,'Fleetwood Mac' Decorative Pies,3.0,Christmas Pie,SAFE,False,False,False,False
-s08e06_s08_yan,s08_yan,s08e06,'πr2' Decorative Pies,1.0,Chequerboard Pie,SAFE,False,False,False,False
+s08e07_s08_chuenyan,s08_chuenyan,s08e07,Cannoli Cocktails,5.0,Canadian Style Sfogliatelle,ELIMINATED,False,False,False,False
 s08e07_s08_kate,s08_kate,s08e07,'Happy Hour' Cocktail Cannoli,6.0,'Flavour Fusion' Sfogliatelle,SAFE,False,False,True,False
 s08e07_s08_liam,s08_liam,s08e07,'Just Doing Me' Cannoli,2.0,'Morning Delivery' Sfogliatelle,SAFE,False,True,False,False
 s08e07_s08_sophie,s08_sophie,s08e07,'Classics with a Twist' Cannoli,3.0,'Classics' Sfogliatelle,SAFE,False,True,False,False
 s08e07_s08_stacey,s08_stacey,s08e07,My All Time Favourite Desserts,4.0,Pastry Surprise,SAFE,False,False,True,False
 s08e07_s08_steven,s08_steven,s08e07,Italian Style Cannoli,1.0,'Sicilian-style' Sfogliatelle,STAR_BAKER,False,False,False,False
-s08e07_s08_yan,s08_yan,s08e07,Cannoli Cocktails,5.0,Canadian Style Sfogliatelle,ELIMINATED,False,False,False,False
 s08e08_s08_kate,s08_kate,s08e08,Burrito Bedfordshire Clangers,2.0,'Liver Building Turret' Savoy Cake,SAFE,False,False,True,False
 s08e08_s08_liam,s08_liam,s08e08,'Take Out' Bedfordshire Clangers,5.0,'Fort Wizardore' Savoy Cake,ELIMINATED,False,False,False,False
 s08e08_s08_sophie,s08_sophie,s08e08,Char Siu & Banana Praline Bedfordshire Clangers,4.0,Citrus with Green Apple Croquembouche Savoy Cake,SAFE,False,False,False,False
@@ -785,7 +785,7 @@ s12e01_s12_crystelle,s12_crystelle,s12e01,'Chai and Chai Again' Mini Rolls,8.0,'
 s12e01_s12_freya,s12_freya,s12e01,Vegan Lemon & Raspberry Mini Rolls,2.0,'Flower Potty',SAFE,False,False,False,False
 s12e01_s12_george,s12_george,s12e01,Chocolate & Hazelnut Mini Rolls,3.0,Greek Table,SAFE,False,False,True,False
 s12e01_s12_giuseppe,s12_giuseppe,s12e01,Easter Mini Rolls,10.0,'Jack and The Beanstalk',SAFE,False,True,False,False
-s12e01_s12_jairzeno,s12_jairzeno,s12e01,Lime & Passion Fruit Mini Rolls,9.0,'Kick the Can' Cake,SAFE,False,False,False,False
+s12e01_s12_jairzinho,s12_jairzinho,s12e01,Lime & Passion Fruit Mini Rolls,9.0,'Kick the Can' Cake,SAFE,False,False,True,False
 s12e01_s12_jrgen,s12_jrgen,s12e01,Schwarzwald Mini Rolls,6.0,'Night Time Reading',STAR_BAKER,False,False,False,False
 s12e01_s12_lizzie,s12_lizzie,s12e01,Zoo Mini Rolls,4.0,Nana's Peaches & Cream,SAFE,False,False,False,False
 s12e01_s12_maggie,s12_maggie,s12e01,'Knit & Natter' Mini Rolls,1.0,Ice-cream Cornet,SAFE,False,False,False,False
@@ -797,7 +797,7 @@ s12e02_s12_crystelle,s12_crystelle,s12e02,'Apple of My P-eye' Brandy Snaps,10.0,
 s12e02_s12_freya,s12_freya,s12e02,'Brandy Snapuccinos',3.0,'Winnie',SAFE,False,False,False,False
 s12e02_s12_george,s12_george,s12e02,Cypriot Brandy Snaps,8.0,'Paul & Prue Airlines',SAFE,False,True,False,False
 s12e02_s12_giuseppe,s12_giuseppe,s12e02,Gianduja Snaps,2.0,Reversi Board Game,SAFE,False,True,False,False
-s12e02_s12_jairzeno,s12_jairzeno,s12e02,"Chocolate, Passion Fruit & Pineapple Brandy Snaps",9.0,Tall Ship,ELIMINATED,False,False,False,False
+s12e02_s12_jairzinho,s12_jairzinho,s12e02,"Chocolate, Passion Fruit & Pineapple Brandy Snaps",9.0,Tall Ship,ELIMINATED,False,False,False,False
 s12e02_s12_jrgen,s12_jrgen,s12e02,'A Cup of Chai' Brandy Snaps,1.0,'Grandpa's Windmill',STAR_BAKER,False,False,False,False
 s12e02_s12_lizzie,s12_lizzie,s12e02,Fast-Food Apple Pie Brandy Snaps,6.0,'Paint a Truck',SAFE,False,False,False,False
 s12e02_s12_maggie,s12_maggie,s12e02,Blackcurrant Brandy Snaps,5.0,Beach Playset,SAFE,False,False,True,False

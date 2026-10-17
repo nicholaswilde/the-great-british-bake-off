@@ -18,3 +18,4 @@ def test_build_datasets_runs(tmp_path: Path):
     assert results["bakers"] > 0
     assert (processed_dir / "bakers.json").exists()
     assert (processed_dir / "bakers.csv").exists()
+    assert (processed_dir / "bakers.parquet").exists()
