@@ -14,6 +14,7 @@ from gbbo_dataset.dashboard.views.baker_profiles import render_baker_profiles
 from gbbo_dataset.dashboard.views.challenge_analytics import render_challenge_analytics
 from gbbo_dataset.dashboard.views.handshake_tracker import render_handshake_tracker
 from gbbo_dataset.dashboard.views.overview import render_overview
+from gbbo_dataset.dashboard.views.predictor_view import render_predictor_view
 
 runner = CliRunner()
 
@@ -170,6 +171,80 @@ def test_render_handshake_tracker_view():
         render_handshake_tracker(mock_data)
 
 
+def test_render_predictor_view_series_forecast():
+    """Test predictor view renders series forecast mode."""
+    mock_data = _get_mock_datasets()
+    mock_pred_results = {
+        "series": 1,
+        "current_episode": 1,
+        "next_episode": 2,
+        "total_bakers": 1,
+        "active_bakers_count": 1,
+        "eliminated_bakers_count": 0,
+        "rankings": [
+            {
+                "baker_id": "s01_edd",
+                "name": "Edd Kimber",
+                "age": 24,
+                "status": "Active",
+                "is_active": True,
+                "is_eliminated": False,
+                "is_withdrew": False,
+                "episodes_competed": 1,
+                "avg_technical_pct": 1.0,
+                "last_technical_rank": 1,
+                "last_technical_pct": 1.0,
+                "star_baker_count": 1,
+                "handshake_count": 1,
+                "did_well_count": 0,
+                "at_risk_count": 0,
+                "last_star_baker": True,
+                "last_did_well": False,
+                "last_at_risk": False,
+                "last_handshake": True,
+                "age_score": 0.95,
+                "star_baker_prob": 75.0,
+                "elimination_risk": 5.0,
+                "win_probability": 65.0,
+                "top3_probability": 95.0,
+            }
+        ],
+        "completed_episodes": ["s01e01"],
+        "historical_baselines": {},
+    }
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.radio", return_value="🏆 Series Forecast"),
+        patch("streamlit.selectbox", return_value=1),
+        patch(
+            "gbbo_dataset.dashboard.views.predictor_view.SeriesPredictor"
+        ) as mock_predictor_cls,
+    ):
+        mock_predictor = MagicMock()
+        mock_predictor.predict_series.return_value = mock_pred_results
+        mock_predictor_cls.return_value = mock_predictor
+        render_predictor_view(mock_data)
+
+
+def test_render_predictor_view_custom_simulator():
+    """Test predictor view renders custom what-if simulator mode."""
+    mock_data = _get_mock_datasets()
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.radio", return_value="🧪 Custom Baker 'What-If' Simulator"),
+        patch("streamlit.slider", side_effect=[30, 4, 0.65]),
+        patch("streamlit.number_input", side_effect=[1, 1, 0, 1]),
+        patch("streamlit.checkbox", return_value=False),
+        patch(
+            "gbbo_dataset.dashboard.views.predictor_view.SeriesPredictor"
+        ) as mock_predictor_cls,
+    ):
+        mock_predictor = MagicMock()
+        mock_predictor.baselines = {"winner_mean_age": 32.5, "winner_std_age": 9.89}
+        mock_predictor_cls.return_value = mock_predictor
+        render_predictor_view(mock_data)
+
+
 def test_dashboard_main_router():
     """Test main router function renders views."""
     from gbbo_dataset.dashboard.app import main
@@ -208,6 +283,16 @@ def test_dashboard_main_router():
     ):
         main()
         mock_handshakes.assert_called_once_with(mock_data)
+
+    with (
+        patch("gbbo_dataset.dashboard.app.load_all_datasets", return_value=mock_data),
+        patch("streamlit.sidebar.radio", return_value="Predictions & Forecasting"),
+        patch(
+            "gbbo_dataset.dashboard.app.render_predictor_view"
+        ) as mock_predictor_view,
+    ):
+        main()
+        mock_predictor_view.assert_called_once_with(mock_data)
 
 
 def test_cli_dashboard_command():

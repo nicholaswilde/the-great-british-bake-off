@@ -20,7 +20,7 @@ A comprehensive tidy dataset and AI training corpus for the television series **
 - **Multi-Format Serialization:** Exportable to JSON, CSV, Apache Parquet, Apache Arrow IPC, unified SQLite (`gbbo.db`), and native R formats (`.rds`, `.rda`).
 - **AI Training Corpora:** Pre-formatted conversational instruction tuning datasets (Chat SFT JSONL), RAG knowledge corpus, and evaluation benchmark suite.
 - **Empirical Predictive Modeling:** Data-driven probabilistic forecasts for weekly Star Baker contenders, elimination risks, and overall series winners calibrated across 16 historical series.
-- **Interactive Web Dashboard:** Streamlit application for exploratory data analysis, contestant trajectory tracking, and challenge analytics.
+- **Interactive Web Dashboard:** Streamlit application for exploratory data analysis, contestant trajectory tracking, challenge analytics, and empirical outcome predictions & forecasting.
 
 ---
 
@@ -154,9 +154,12 @@ task export:ai
 
 ### 8. Interactive Streamlit Dashboard
 
+Launch the interactive Streamlit dashboard to explore series summaries, baker profiles, challenge analytics, Hollywood Handshake tracking, and real-time predictions & what-if forecasting:
+
 ```bash
 task dashboard
 ```
+
 
 ### 9. Run Quality Checks & Tests
 
