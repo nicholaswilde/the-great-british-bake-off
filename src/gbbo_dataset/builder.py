@@ -50,12 +50,39 @@ def build_datasets(
 
     validation_errors = 0
 
+    # Load existing processed files to preserve enriched attributes (e.g. RayofData demographics, times, handshakes)
+    existing_bakers: dict[str, dict[str, Any]] = {}
+    bakers_json_path = processed_dir / "bakers.json"
+    if bakers_json_path.exists():
+        for b in load_json(bakers_json_path):
+            if isinstance(b, dict) and "baker_id" in b:
+                existing_bakers[b["baker_id"]] = b
+
+    existing_episodes: dict[str, dict[str, Any]] = {}
+    episodes_json_path = processed_dir / "episodes.json"
+    if episodes_json_path.exists():
+        for ep in load_json(episodes_json_path):
+            if isinstance(ep, dict) and "episode_id" in ep:
+                existing_episodes[ep["episode_id"]] = ep
+
+    existing_performances: dict[str, dict[str, Any]] = {}
+    performances_json_path = processed_dir / "performances.json"
+    if performances_json_path.exists():
+        for perf in load_json(performances_json_path):
+            if isinstance(perf, dict) and "performance_id" in perf:
+                existing_performances[perf["performance_id"]] = perf
+
     # 1. Process Bakers
     baker_files = sorted(raw_dir.glob("series_*_bakers.json"))
     logger.info("Found %d baker file(s) in %s", len(baker_files), raw_dir)
     for bf in baker_files:
         items = load_json(bf)
         for raw in items:
+            b_id = raw.get("baker_id", "")
+            if b_id in existing_bakers:
+                for k in ["gender", "image_url"]:
+                    if raw.get(k) is None and existing_bakers[b_id].get(k) is not None:
+                        raw[k] = existing_bakers[b_id][k]
             try:
                 baker = Baker.model_validate(raw)
                 bakers_map[baker.baker_id] = baker
@@ -69,6 +96,18 @@ def build_datasets(
     for ef in episode_files:
         items = load_json(ef)
         for raw in items:
+            e_id = raw.get("episode_id", "")
+            if e_id in existing_episodes:
+                for k in [
+                    "signature_time_min",
+                    "technical_time_min",
+                    "showstopper_time_min",
+                ]:
+                    if (
+                        raw.get(k) is None
+                        and existing_episodes[e_id].get(k) is not None
+                    ):
+                        raw[k] = existing_episodes[e_id][k]
             try:
                 ep = Episode.model_validate(raw)
                 episodes_map[ep.episode_id] = ep
@@ -86,6 +125,22 @@ def build_datasets(
             if baker_id in BAKER_ID_ALIASES:
                 raw["baker_id"] = BAKER_ID_ALIASES[baker_id]
                 raw["performance_id"] = f"{raw.get('episode_id')}_{raw['baker_id']}"
+            p_id = raw.get("performance_id", "")
+            if p_id in existing_performances:
+                if not raw.get("hollywood_handshake") and existing_performances[
+                    p_id
+                ].get("hollywood_handshake"):
+                    raw["hollywood_handshake"] = True
+                if not raw.get("did_well") and existing_performances[p_id].get(
+                    "did_well"
+                ):
+                    raw["did_well"] = True
+                if not raw.get("at_risk") and existing_performances[p_id].get(
+                    "at_risk"
+                ):
+                    raw["at_risk"] = True
+                if not raw.get("absent") and existing_performances[p_id].get("absent"):
+                    raw["absent"] = True
             try:
                 perf = Performance.model_validate(raw)
                 performances_map[perf.performance_id] = perf
@@ -134,8 +189,15 @@ def build_datasets(
         df_performances.to_csv(processed_dir / "performances.csv", index=False)
         df_performances.to_parquet(processed_dir / "performances.parquet", index=False)
 
+    seasons_json = processed_dir / "seasons.json"
     seasons_csv = processed_dir / "seasons.csv"
-    if seasons_csv.exists():
+    if seasons_json.exists():
+        s_list = load_json(seasons_json)
+        if s_list:
+            pd.DataFrame(s_list).to_parquet(
+                processed_dir / "seasons.parquet", index=False
+            )
+    elif seasons_csv.exists():
         pd.read_csv(seasons_csv).to_parquet(
             processed_dir / "seasons.parquet", index=False
         )

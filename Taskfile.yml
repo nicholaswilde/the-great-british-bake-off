@@ -46,10 +46,13 @@ tasks:
       - uv run gbbo enrich {{.CLI_ARGS}}
 
   pipeline:
-    desc: Run scraper, build dataset, and run verification checks
+    desc: Rebuild all tidy tables, SQLite, Arrow, HuggingFace datasets, and AI corpora
     cmds:
-      - task: scrape
       - task: build
+      - task: export:arrow
+      - task: export:r
+      - task: export:ai
+      - task: eval:benchmark
       - task: check
 
   # Dataset Completeness & Gap Auditing
@@ -140,6 +143,11 @@ tasks:
     cmds:
       - uv run --extra dev pytest --cov=gbbo_dataset --cov-report=html
 
+  coverage:upload:
+    desc: Upload test coverage results to Coveralls.io
+    cmds:
+      - uv run --extra dev coveralls
+
   # Code Quality & Formatting
   lint:
     desc: Lint Python code with ruff and check spelling with typos
@@ -189,12 +197,18 @@ tasks:
       - typos {{.FILE}}
 
   # Complete Pre-commit Verification
+  validate:
+    desc: Validate processed datasets for schema and relational integrity
+    cmds:
+      - uv run gbbo validate
+
   check:
-    desc: Run complete verification suite (format check, lint, spellcheck, and tests)
+    desc: Run complete verification suite (format check, lint, spellcheck, tests, and validation)
     cmds:
       - task: format:check
       - task: lint
       - task: test
+      - task: validate
 
   # Interactive Web Dashboard & Containerization
   dashboard:
@@ -221,4 +235,61 @@ tasks:
     desc: Stop the GBBO dashboard service using Docker Compose
     cmds:
       - docker compose down
+
+  # Release & Distribution Packaging
+  package:
+    desc: Build all release bundles (CSV, Parquet, AI, SQLite, R, Python, and checksums)
+    cmds:
+      - uv run gbbo package {{.CLI_ARGS}}
+
+  package:csv:
+    desc: Build tidy CSV release bundle (gbbo-dataset-csv.zip)
+    cmds:
+      - uv run gbbo package --component csv {{.CLI_ARGS}}
+
+  package:parquet:
+    desc: Build columnar Parquet release bundle (gbbo-dataset-parquet.zip)
+    cmds:
+      - uv run gbbo package --component parquet {{.CLI_ARGS}}
+
+  package:ai:
+    desc: Build AI training datasets release bundle (gbbo-dataset-ai.zip)
+    cmds:
+      - uv run gbbo package --component ai {{.CLI_ARGS}}
+
+  package:sqlite:
+    desc: Build SQLite database release bundle (gbbo-dataset-sqlite.zip)
+    cmds:
+      - uv run gbbo package --component sqlite {{.CLI_ARGS}}
+
+  package:r:
+    desc: Build R companion source package tarball (gbbo_*.tar.gz)
+    cmds:
+      - uv run gbbo package --component r {{.CLI_ARGS}}
+
+  package:python:
+    desc: Build Python distribution wheels and source archive
+    cmds:
+      - uv run gbbo package --component python {{.CLI_ARGS}}
+
+  package:tidytuesday:
+    desc: Build R4DS TidyTuesday intake package bundle (gbbo-dataset-tidytuesday-*.zip)
+    cmds:
+      - uv run gbbo package --component tidytuesday {{.CLI_ARGS}}
+
+  package:checksums:
+    desc: Generate SHA-256 checksums file for release assets
+    cmds:
+      - uv run gbbo package --component checksums {{.CLI_ARGS}}
+
+  release:
+    desc: Automated release tagging, validation, and version bump (./scripts/release.sh)
+    cmds:
+      - ./scripts/release.sh {{.CLI_ARGS}}
+
+  release:summary:
+    desc: Generate categorized release notes and update draft release (./scripts/release_summary.py)
+    cmds:
+      - ./scripts/release_summary.py {{.CLI_ARGS}}
+
 

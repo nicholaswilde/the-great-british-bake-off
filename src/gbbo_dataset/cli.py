@@ -20,6 +20,7 @@ from gbbo_dataset.exports import (
     export_to_sqlite,
     publish_to_hf,
 )
+from gbbo_dataset.exports.packaging import ReleasePackager
 from gbbo_dataset.gap_auditor import DatasetGapAuditor
 from gbbo_dataset.importers.rayofdata import (
     DEFAULT_RAY_DATA_DIR,
@@ -27,6 +28,7 @@ from gbbo_dataset.importers.rayofdata import (
 )
 from gbbo_dataset.predictor import run_predict_cli
 from gbbo_dataset.scraper import scrape_series
+from gbbo_dataset.validator import DatasetValidator
 
 app = typer.Typer(
     name="gbbo",
@@ -489,6 +491,145 @@ def dashboard(
         subprocess.run(cmd, check=True)
     except KeyboardInterrupt:
         console.print("\n[yellow]Dashboard stopped.[/yellow]")
+
+
+@app.command("validate")
+def validate_cmd(
+    processed_dir: Path = typer.Option(
+        Path("data/processed"),
+        "--processed-dir",
+        help="Directory with processed tables",
+    ),
+) -> None:
+    """Run data integrity, relational constraints, and quality checks."""
+    console.print("[bold blue]Running GBBO data validation checks...[/bold blue]")
+    validator = DatasetValidator(processed_dir=processed_dir)
+    report = validator.validate()
+
+    color = (
+        "green"
+        if report["status"] == "PASS"
+        else ("yellow" if report["status"] == "WARNING" else "red")
+    )
+    console.print(f"Validation Status: [{color}]{report['status']}[/{color}]")
+
+    table = Table(title="Processed GBBO Tables Summary")
+    table.add_column("Table", style="cyan")
+    table.add_column("Row Count", style="magenta")
+
+    for tbl, count in report.get("row_counts", {}).items():
+        table.add_row(tbl, str(count))
+    console.print(table)
+
+    if report.get("issues"):
+        console.print("[bold red]Issues / Warnings found:[/bold red]")
+        for issue in report["issues"]:
+            console.print(f"  - {issue}")
+    if report["status"] == "FAIL":
+        raise typer.Exit(code=1)
+
+
+@app.command("package")
+def package_cmd(
+    output_dir: Path = typer.Option(
+        Path("dist/release"),
+        "--output-dir",
+        "-o",
+        help="Target directory for release bundles and checksums",
+    ),
+    version: str | None = typer.Option(
+        None,
+        "--version",
+        "-v",
+        help="Release version string (e.g. 0.1.0 or v0.1.0; defaults to pyproject.toml)",
+    ),
+    component: str = typer.Option(
+        "all",
+        "--component",
+        "-c",
+        help="Component to package: all, csv, parquet, ai, sqlite, r, python, tidytuesday, manifest, checksums",
+    ),
+) -> None:
+    """Package segmented release archives for CSV, Parquet, AI JSONL, R, Python, and generate checksums."""
+    console.print(
+        f"[bold blue]Packaging release distribution assets (version: {version or 'auto'})...[/bold blue]"
+    )
+    packager = ReleasePackager(output_dir=output_dir, version=version)
+
+    comp = component.lower()
+    if comp == "all":
+        results = packager.package_all()
+    elif comp == "csv":
+        results = {
+            "csv": packager.package_csv(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "parquet":
+        results = {
+            "parquet": packager.package_parquet(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "ai":
+        results = {
+            "ai": packager.package_ai(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "sqlite":
+        pkg = packager.package_sqlite()
+        results = ({"sqlite": pkg} if pkg else {}) | {
+            "checksums": packager.generate_checksums()
+        }
+    elif comp == "r":
+        results = {
+            "r": packager.package_r(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "python":
+        results = {
+            "python": packager.package_python(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "tidytuesday":
+        results = {
+            "tidytuesday": packager.package_tidytuesday(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "manifest":
+        results = {
+            "manifest": packager.generate_manifest(),
+            "checksums": packager.generate_checksums(),
+        }
+    elif comp == "checksums":
+        results = {"checksums": packager.generate_checksums()}
+    else:
+        console.print(
+            f"[bold red]Unknown component '{component}'.[/bold red] Choose from: all, csv, parquet, ai, sqlite, r, python, tidytuesday, manifest, checksums."
+        )
+        raise typer.Exit(code=1)
+
+    table = Table(title=f"Release Distribution Assets ({packager.tag_version})")
+    table.add_column("Category", style="bold cyan")
+    table.add_column("Asset File", style="bold white")
+    table.add_column("Size", justify="right", style="green")
+
+    for cat, item in results.items():
+        if item is None:
+            continue
+        items_list = item if isinstance(item, list) else [item]
+        for p in items_list:
+            if isinstance(p, Path) and p.exists():
+                size_kb = p.stat().st_size / 1024
+                size_str = (
+                    f"{size_kb / 1024:.2f} MB"
+                    if size_kb >= 1024
+                    else f"{size_kb:.1f} KB"
+                )
+                table.add_row(cat, p.name, size_str)
+
+    console.print(table)
+    console.print(
+        f"[bold green]✓ Successfully packaged assets in {output_dir}[/bold green]"
+    )
 
 
 if __name__ == "__main__":

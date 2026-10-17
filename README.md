@@ -1,5 +1,6 @@
 # :cake: The Great British Bake Off Dataset & AI Training Corpus :pie:
 
+[![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-great-british-bake-off/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-great-british-bake-off/actions/workflows/ci.yml)
 [![Task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![uv](https://img.shields.io/badge/uv-Managed-purple?style=for-the-badge&logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
@@ -40,6 +41,7 @@ the-great-british-bake-off/
 ├── .agents/
 │   ├── rules/          # Workspace rules (RTK, Serena, GBBO terminology, etc.)
 │   └── skills/         # Workspace skills (gbbo-scrape-wiki, gbbo-dataset-builder, gbbo-predict, etc.)
+├── .github/            # GitHub Actions CI/CD workflows and community health files
 ├── data/
 │   ├── raw/            # Scraped Wikipedia series JSON files
 │   ├── processed/      # Validated master datasets (bakers, episodes, performances, seasons)

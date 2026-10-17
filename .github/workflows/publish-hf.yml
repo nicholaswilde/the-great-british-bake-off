@@ -1,0 +1,59 @@
+name: Publish to Hugging Face Hub
+
+on:
+  workflow_dispatch:
+    inputs:
+      private:
+        description: 'Publish as private repository'
+        type: boolean
+        default: false
+      repo_id:
+        description: 'Target Hugging Face repository ID (leave blank for default: <username>/the-great-british-bake-off)'
+        type: string
+        default: ''
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    name: Sync to Hugging Face Hub
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install Task
+        uses: arduino/setup-task@v2
+        with:
+          version: 3.x
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install dependencies
+        run: task sync
+
+      - name: Publish Dataset and AI Corpora
+        run: |
+          FLAGS=""
+          if [ "${{ github.event.inputs.private }}" = "true" ]; then
+            FLAGS="${FLAGS} --private"
+          fi
+          if [ -n "${{ github.event.inputs.repo_id }}" ]; then
+            FLAGS="${FLAGS} --repo-id ${{ github.event.inputs.repo_id }}"
+          fi
+          task publish:hf -- ${FLAGS}
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
