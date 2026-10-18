@@ -303,6 +303,12 @@ class HuggingFacePublisher:
             except Exception as e:
                 logger.debug("Could not retrieve stored Hugging Face token: %s", e)
 
+        if not auth_token:
+            raise ValueError(
+                "Hugging Face API token is required to publish to the Hub. "
+                "Set the HF_TOKEN environment variable, pass --token, or specify --dry-run."
+            )
+
         api = HfApi(token=auth_token)
 
         target_repo = repo_id or os.environ.get("HF_REPO_ID")

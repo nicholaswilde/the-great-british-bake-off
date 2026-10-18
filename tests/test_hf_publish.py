@@ -5,6 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 import pandas as pd
+import pytest
 
 from gbbo_dataset.exports.hf_publish import (
     HuggingFacePublisher,
@@ -95,3 +96,20 @@ def test_publish_dry_run(tmp_path: Path):
     assert res["dry_run"] is True
     assert res["files_count"] > 0
     assert "README.md" in res["staged_files"]
+
+
+def test_publish_missing_token_raises(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    """Verify ValueError is raised when publishing without an auth token."""
+    monkeypatch.delenv("HF_TOKEN", raising=False)
+    monkeypatch.delenv("HUGGING_FACE_HUB_TOKEN", raising=False)
+    monkeypatch.delenv("HF_REPO_ID", raising=False)
+
+    import huggingface_hub
+
+    monkeypatch.setattr(huggingface_hub, "get_token", lambda: None)
+
+    publisher = HuggingFacePublisher(repo_root=tmp_path)
+    stage_dir = tmp_path / "stage_missing_token"
+
+    with pytest.raises(ValueError, match="Hugging Face API token is required"):
+        publisher.publish(dry_run=False, staging_dir=stage_dir, token=None)

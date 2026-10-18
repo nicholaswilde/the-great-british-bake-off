@@ -1,8 +1,15 @@
 name: Publish to Hugging Face Hub
 
 on:
+  push:
+    tags:
+      - 'v*.*.*'
   workflow_dispatch:
     inputs:
+      dry_run:
+        description: 'Dry run staging without uploading'
+        type: boolean
+        default: false
       private:
         description: 'Publish as private repository'
         type: boolean
@@ -45,9 +52,30 @@ jobs:
       - name: Install dependencies
         run: task sync
 
+      - name: Verify Hugging Face Credentials
+        id: check_auth
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "skip_upload=false" >> "$GITHUB_OUTPUT"
+            echo "Dry run requested; credential check skipped."
+          elif [ -n "${{ secrets.HF_TOKEN }}" ]; then
+            echo "skip_upload=false" >> "$GITHUB_OUTPUT"
+            echo "Hugging Face token detected in repository secrets."
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "::error title=Missing HF_TOKEN::Repository secret HF_TOKEN is not configured or empty. Configure HF_TOKEN under Settings -> Secrets and variables -> Actions, or run with dry_run: true."
+            exit 1
+          else
+            echo "skip_upload=true" >> "$GITHUB_OUTPUT"
+            echo "::warning title=Missing HF_TOKEN::Tag push triggered Hugging Face sync, but repository secret HF_TOKEN is not configured. Skipping upload."
+          fi
+
       - name: Publish Dataset and AI Corpora
+        if: steps.check_auth.outputs.skip_upload != 'true'
         run: |
           FLAGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            FLAGS="${FLAGS} --dry-run"
+          fi
           if [ "${{ github.event.inputs.private }}" = "true" ]; then
             FLAGS="${FLAGS} --private"
           fi
