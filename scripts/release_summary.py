@@ -60,13 +60,26 @@ def main() -> None:
 
         type_str, scope, msg = match.groups()
         msg = msg.strip()
-        msg = msg[0].upper() + msg[1:] if msg else msg
 
-        if scope:
-            scope_clean = scope[1:-1]
-            entry = f"- `{scope_clean}`: {msg}"
+        if r"\n" in msg:
+            parts = [p.strip() for p in msg.split(r"\n") if p.strip()]
+            main_msg = parts[0]
+            sub_items = [p.lstrip("- ") for p in parts[1:]]
+            main_msg = main_msg[0].upper() + main_msg[1:] if main_msg else main_msg
+            if scope:
+                scope_clean = scope[1:-1]
+                entry = f"- `{scope_clean}`: {main_msg}"
+            else:
+                entry = f"- {main_msg}"
+            for sub in sub_items:
+                entry += f"\n  - {sub}"
         else:
-            entry = f"- {msg}"
+            msg = msg[0].upper() + msg[1:] if msg else msg
+            if scope:
+                scope_clean = scope[1:-1]
+                entry = f"- `{scope_clean}`: {msg}"
+            else:
+                entry = f"- {msg}"
 
         if type_str == "feat":
             if any(
