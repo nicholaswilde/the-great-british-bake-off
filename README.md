@@ -3,6 +3,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23449224-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23449224)
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-great-british-bake-off/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-great-british-bake-off/actions/workflows/ci.yml)
 [![Task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://the-great-british-bake-off.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![uv](https://img.shields.io/badge/uv-Managed-purple?style=for-the-badge&logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge&logo=apache)](LICENSE)
@@ -22,7 +23,7 @@ A comprehensive tidy dataset and AI training corpus for the television series **
 - **AI Training Corpora:** Pre-formatted conversational instruction tuning datasets (Chat SFT JSONL), RAG knowledge corpus, and evaluation benchmark suite.
 - **Geographic Intelligence:** Geocoded WGS84 coordinates and UK administrative regions across all 204 bakers with interactive map visualizations and GeoJSON export.
 - **Empirical Predictive Modeling:** Data-driven probabilistic forecasts for weekly Star Baker contenders, elimination risks, and overall series winners calibrated across 16 historical series.
-- **Interactive Web Dashboard:** Streamlit application for exploratory data analysis, contestant trajectory tracking, challenge analytics, UK baker geography, and empirical outcome predictions & forecasting.
+- **Interactive Web Dashboard:** Streamlit application for exploratory data analysis, contestant trajectory tracking, challenge analytics, UK baker geography, and empirical outcome predictions & forecasting ([try the live app](https://the-great-british-bake-off.streamlit.app/)).
 
 
 ---
@@ -185,7 +186,9 @@ task export:geojson
 
 ### 10. Interactive Streamlit Dashboard
 
-Launch the interactive Streamlit dashboard to explore series summaries, baker profiles, challenge analytics, Hollywood Handshake tracking, and real-time predictions & what-if forecasting:
+A live deployment is hosted on Streamlit Community Cloud at **[https://the-great-british-bake-off.streamlit.app/](https://the-great-british-bake-off.streamlit.app/)**.
+
+Or launch locally via:
 
 ```bash
 task dashboard
