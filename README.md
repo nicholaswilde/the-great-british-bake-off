@@ -1,6 +1,6 @@
 # :cake: The Great British Bake Off Dataset & AI Training Corpus :pie: <img src="dev/images/thegreatbritishbakeoff hex.png" align="right" height="240" alt="thegreatbritishbakeoff hex sticker" />
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23449224.svg)](https://doi.org/10.5281/zenodo.23449224)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23449224-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.23449224)
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-great-british-bake-off/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-great-british-bake-off/actions/workflows/ci.yml)
 [![Task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
