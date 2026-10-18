@@ -8,12 +8,12 @@ This guide details the integration of **Zenodo** (operated by CERN) for persiste
 
 Zenodo provides two complementary persistent identifiers for GitHub repositories:
 
-1. **Concept DOI (`10.5281/zenodo.14000000`)**:
+1. **Concept DOI (`10.5281/zenodo.23449224`)**:
    - Persistently identifies the dataset across **all versions** and releases.
    - Automatically redirects citations and visitors to the most recent published release.
    - Ideal for inclusion in `README.md` badges, paper references, and syllabi.
 
-2. **Version DOI (`10.5281/zenodo.<version_id>`)**:
+2. **Version DOI (`10.5281/zenodo.23449225`)**:
    - Identifies an immutable snapshot of an exact release (e.g. `v0.1.0`).
    - Ensures strict reproducibility for academic benchmarks and empirical papers.
 
@@ -64,12 +64,12 @@ The `.zenodo.json` file in the repository root configures Zenodo record metadata
   author       = {Nicholas Wilde},
   title        = {The Great British Bake Off Dataset & AI Training Corpus},
   year         = {2026},
-  version      = {0.1.0},
-  doi          = {10.5281/zenodo.14000000},
+  version      = {0.1.1},
+  doi          = {10.5281/zenodo.23449224},
   publisher    = {Zenodo},
-  url          = {https://doi.org/10.5281/zenodo.14000000}
+  url          = {https://doi.org/10.5281/zenodo.23449224}
 }
 ```
 
 ### APA
-> Wilde, N. (2026). *The Great British Bake Off Dataset & AI Training Corpus* (Version 0.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14000000
+> Wilde, N. (2026). *The Great British Bake Off Dataset & AI Training Corpus* (Version 0.1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23449224
