@@ -4,6 +4,7 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-great-british-bake-off/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-great-british-bake-off/actions/workflows/ci.yml)
 [![Task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://the-great-british-bake-off.streamlit.app/)
+[![R-universe](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fnicholaswilde.r-universe.dev%2Fapi%2Fpackages%2Fgbbo&query=%24.Version&label=r-universe&style=for-the-badge&logo=r&logoColor=white&color=blue)](https://nicholaswilde.r-universe.dev/gbbo)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![uv](https://img.shields.io/badge/uv-Managed-purple?style=for-the-badge&logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge&logo=apache)](LICENSE)
@@ -62,6 +63,7 @@ the-great-british-bake-off/
 │       └── cli.py          # Unified CLI dispatcher (gbbo)
 ├── notebooks/          # Exploratory Jupyter starter notebooks
 ├── tidytuesday/        # R4DS TidyTuesday data cleaning & exploration kit
+├── r/                  # Companion R package (gbbo)
 ├── scripts/            # Backward-compatible script shims
 ├── tests/              # Pytest test suite
 ├── docs/               # Data dictionary, gap reports, and predictions ledger
@@ -184,7 +186,21 @@ task export:ai
 task export:geojson
 ```
 
-### 10. Interactive Streamlit Dashboard
+### 10. Companion R Package (`gbbo`)
+
+Install the companion R package directly from personal R-universe:
+
+```r
+# Install from personal R-universe
+install.packages("gbbo", repos = "https://nicholaswilde.r-universe.dev")
+
+# Or install development version from GitHub
+remotes::install_github("nicholaswilde/the-great-british-bake-off/r")
+```
+
+See [`r/README.md`](r/README.md) for full R documentation and sample queries.
+
+### 11. Interactive Streamlit Dashboard
 
 A live deployment is hosted on Streamlit Community Cloud at **[https://the-great-british-bake-off.streamlit.app/](https://the-great-british-bake-off.streamlit.app/)**.
 
@@ -194,7 +210,7 @@ Or launch locally via:
 task dashboard
 ```
 
-### 11. Run Quality Checks & Tests
+### 12. Run Quality Checks & Tests
 
 ```bash
 # Run pytest test suite
