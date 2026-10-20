@@ -4,6 +4,7 @@
 [![CI](https://img.shields.io/github/actions/workflow/status/nicholaswilde/the-great-british-bake-off/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white&label=CI)](https://github.com/nicholaswilde/the-great-british-bake-off/actions/workflows/ci.yml)
 [![Task](https://img.shields.io/badge/Task-Enabled-brightgreen?style=for-the-badge&logo=task&logoColor=white)](https://taskfile.dev/#/)
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://the-great-british-bake-off.streamlit.app/)
+[![Coverage](https://img.shields.io/coveralls/github/nicholaswilde/the-great-british-bake-off/main?style=for-the-badge&logo=coveralls)](https://coveralls.io/github/nicholaswilde/the-great-british-bake-off?branch=main)
 [![R-universe](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fnicholaswilde.r-universe.dev%2Fapi%2Fpackages%2Fgbbo&query=%24.Version&label=r-universe&style=for-the-badge&logo=r&logoColor=white&color=blue)](https://nicholaswilde.r-universe.dev/gbbo)
 [![Python](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![uv](https://img.shields.io/badge/uv-Managed-purple?style=for-the-badge&logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
@@ -203,6 +204,14 @@ See [`r/README.md`](r/README.md) for full R documentation and sample queries.
 ### 11. Interactive Streamlit Dashboard
 
 A live deployment is hosted on Streamlit Community Cloud at **[https://the-great-british-bake-off.streamlit.app/](https://the-great-british-bake-off.streamlit.app/)**.
+
+The dashboard includes dedicated analytical and exploratory views:
+- **🍰 Series Overview:** Comprehensive series summaries, broadcast history, judges/hosts lineups, and winner cards.
+- **👤 Baker Profiles:** Deep dive into individual contestant trajectories, radar metrics, challenge bakes, and interactive UK baker geography.
+- **⚖️ Challenge Analytics:** Historical theme frequencies, allocated challenge time limits, technical rank distributions, and 1,200+ dish recipe search.
+- **🤝 Hollywood Handshakes:** Accolade milestone counters, era inflation analysis, and the complete Hollywood Handshake registry.
+- **🔮 Predictions & Forecasting:** Live empirical outcome forecasting, Star Baker probabilities, elimination risks, and custom baker "What-If" simulation.
+- **📈 Exploratory Analysis & Strategic Visualizations:** Cross-series empirical analysis covering Kaplan-Meier baker survival trajectories, Star Baker championship conversion paths and the Week 1 "Star Baker Curse", Hollywood Handshake era escalation (BBC vs. Channel 4), Technical Challenge bottom-2 mortality hazards, and flavor co-occurrence NLP dynamics.
 
 Or launch locally via:
 

@@ -254,7 +254,7 @@ tasks:
   docker:build:
     desc: Build the GBBO dashboard Docker container image
     cmds:
-      - docker build -t the-great-british-bake-off:latest .
+      - docker build --load -t the-great-british-bake-off:latest .
 
   docker:run:
     desc: Run the GBBO dashboard Docker container

@@ -4,12 +4,15 @@ FROM python:3.12-slim
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     HOME=/home/appuser \
-    PATH="/home/appuser/.local/bin:$PATH"
+    PATH="/home/appuser/.local/bin:$PATH" \
+    STREAMLIT_BROWSER_GATHER_USAGE_STATS=false \
+    STREAMLIT_SERVER_HEADLESS=true
 
-# Install curl for container HEALTHCHECK
+# Install curl for container HEALTHCHECK and emoji font support
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     ca-certificates \
+    fonts-noto-color-emoji \
     && rm -rf /var/lib/apt/lists/*
 
 # Run as dedicated non-root user

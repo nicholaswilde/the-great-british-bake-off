@@ -9,9 +9,17 @@ import pandas as pd
 from typer.testing import CliRunner
 
 from gbbo_dataset.cli import app
-from gbbo_dataset.dashboard.data import _get_data_dir, load_all_datasets, load_table
+from gbbo_dataset.dashboard.data import (
+    _get_data_dir,
+    load_all_datasets,
+    load_empirical_bake_metrics,
+    load_table,
+)
 from gbbo_dataset.dashboard.views.baker_profiles import render_baker_profiles
 from gbbo_dataset.dashboard.views.challenge_analytics import render_challenge_analytics
+from gbbo_dataset.dashboard.views.exploratory_analysis import (
+    render_exploratory_analysis,
+)
 from gbbo_dataset.dashboard.views.handshake_tracker import render_handshake_tracker
 from gbbo_dataset.dashboard.views.overview import render_overview
 from gbbo_dataset.dashboard.views.predictor_view import render_predictor_view
@@ -264,13 +272,13 @@ def test_render_predictor_view_custom_simulator():
 
 
 def test_dashboard_main_router():
-    """Test main router function renders views."""
+    """Test main router function renders views with emoji-prefixed and plain names."""
     from gbbo_dataset.dashboard.app import main
 
     mock_data = _get_mock_datasets()
     with (
         patch("gbbo_dataset.dashboard.app.load_all_datasets", return_value=mock_data),
-        patch("streamlit.sidebar.radio", return_value="Series Overview"),
+        patch("streamlit.sidebar.radio", return_value="🍰 Series Overview"),
         patch("gbbo_dataset.dashboard.app.render_overview") as mock_overview,
     ):
         main()
@@ -278,7 +286,7 @@ def test_dashboard_main_router():
 
     with (
         patch("gbbo_dataset.dashboard.app.load_all_datasets", return_value=mock_data),
-        patch("streamlit.sidebar.radio", return_value="Baker Profiles"),
+        patch("streamlit.sidebar.radio", return_value="👤 Baker Profiles"),
         patch("gbbo_dataset.dashboard.app.render_baker_profiles") as mock_bakers,
     ):
         main()
@@ -286,7 +294,7 @@ def test_dashboard_main_router():
 
     with (
         patch("gbbo_dataset.dashboard.app.load_all_datasets", return_value=mock_data),
-        patch("streamlit.sidebar.radio", return_value="Challenge Analytics"),
+        patch("streamlit.sidebar.radio", return_value="⚖️ Challenge Analytics"),
         patch(
             "gbbo_dataset.dashboard.app.render_challenge_analytics"
         ) as mock_challenges,
@@ -296,7 +304,7 @@ def test_dashboard_main_router():
 
     with (
         patch("gbbo_dataset.dashboard.app.load_all_datasets", return_value=mock_data),
-        patch("streamlit.sidebar.radio", return_value="Hollywood Handshakes"),
+        patch("streamlit.sidebar.radio", return_value="🤝 Hollywood Handshakes"),
         patch("gbbo_dataset.dashboard.app.render_handshake_tracker") as mock_handshakes,
     ):
         main()
@@ -304,13 +312,63 @@ def test_dashboard_main_router():
 
     with (
         patch("gbbo_dataset.dashboard.app.load_all_datasets", return_value=mock_data),
-        patch("streamlit.sidebar.radio", return_value="Predictions & Forecasting"),
+        patch("streamlit.sidebar.radio", return_value="🔮 Predictions & Forecasting"),
         patch(
             "gbbo_dataset.dashboard.app.render_predictor_view"
         ) as mock_predictor_view,
     ):
         main()
         mock_predictor_view.assert_called_once_with(mock_data)
+
+    with (
+        patch("gbbo_dataset.dashboard.app.load_all_datasets", return_value=mock_data),
+        patch("streamlit.sidebar.radio", return_value="📈 Exploratory Analysis"),
+        patch(
+            "gbbo_dataset.dashboard.app.render_exploratory_analysis"
+        ) as mock_exploratory,
+    ):
+        main()
+        mock_exploratory.assert_called_once_with(mock_data)
+
+
+def test_render_exploratory_analysis_view():
+    """Test Exploratory Analysis view rendering, metrics computation, and empty handling."""
+    with patch("streamlit.warning") as mock_warning:
+        render_exploratory_analysis({})
+        mock_warning.assert_called_once()
+
+    # Test empirical bake metrics computation
+    metrics_all = load_empirical_bake_metrics(era="ALL")
+    assert "survival_curve" in metrics_all
+    assert "age_summary" in metrics_all
+    assert "star_baker_conversion" in metrics_all
+    assert "week1_star_bakers" in metrics_all
+    assert "handshake_total" in metrics_all
+    assert "tech_bottom2_hazard_pct" in metrics_all
+    assert "theme_hazards" in metrics_all
+    assert metrics_all["handshake_total"] == 60
+    assert metrics_all["tech_bottom2_hazard_pct"] > 20.0
+
+    # Test BBC vs Channel 4 era filtering
+    metrics_bbc = load_empirical_bake_metrics(era="BBC Era (S1–S7)")
+    metrics_c4 = load_empirical_bake_metrics(era="Channel 4 Era (S8+)")
+    assert metrics_bbc["handshake_total"] == 9
+    assert metrics_c4["handshake_total"] == 51
+
+    # Test rendering with real datasets
+    real_data = load_all_datasets()
+    mock_tab = MagicMock()
+    mock_tab.__enter__.return_value = mock_tab
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.selectbox", return_value="ALL"),
+        patch("streamlit.tabs", return_value=[mock_tab] * 5),
+        patch("streamlit.altair_chart") as mock_chart,
+        patch("streamlit.dataframe") as mock_df,
+    ):
+        render_exploratory_analysis(real_data)
+        assert mock_chart.call_count >= 5
+        assert mock_df.call_count >= 1
 
 
 def test_cli_dashboard_command():
