@@ -3,25 +3,31 @@
   "subreddit": "GreatBritishBakeOff",
   "discussions": [
     {
-      "thread_id": "s11e01_greatbritishbakeoff",
+      "thread_id": "s11e09_greatbritishbakeoff",
       "subreddit": "GreatBritishBakeOff",
       "series_number": 11,
-      "episode_number": 1,
-      "title": "[Episode Discussion] Series 11 Episode 1",
-      "author": "bakeoff_community",
-      "score": 250,
-      "upvote_ratio": 0.98,
-      "num_comments": 120,
-      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s11e01_disc/",
+      "episode_number": 9,
+      "title": "[Episode Discussion] Series 11 Episode 9: Patisserie Week (Hermine Exit)",
+      "author": "pastry_critic",
+      "score": 1150,
+      "upvote_ratio": 0.89,
+      "num_comments": 780,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s11e09_semifinal/",
       "top_comments": [
         {
-          "comment_id": "c_s11e01_1",
-          "author": "baker_fan",
-          "score": 45,
-          "body": "Great start to Series 11! The tent feels wonderful as always."
+          "comment_id": "c_s11e09_1",
+          "author": "hermine_justice",
+          "score": 340,
+          "body": "Hermine was front-runner all season with 2 Star Bakers. Sending her home right before the final is a travesty!"
+        },
+        {
+          "comment_id": "c_s11e09_2",
+          "author": "baking_rules",
+          "score": 210,
+          "body": "Judges judged strictly on the weekend, but Laura was in the bottom 4 times. System feels broken."
         }
       ],
-      "sentiment_label": "Positive"
+      "sentiment_label": "Critical"
     }
   ]
 }

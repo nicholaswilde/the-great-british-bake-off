@@ -693,6 +693,7 @@ def render_exploratory_analysis(
             "🤝 Hollywood Handshakes",
             "🎯 Technical Crucible",
             "🍓 Flavors & Theme Hazards",
+            "💬 Reception & Controversy",
         ]
     )
 
@@ -710,3 +711,288 @@ def render_exploratory_analysis(
 
     with tabs[4]:
         _render_flavor_theme_tab(metrics_bundle, selected_era)
+
+    with tabs[5]:
+        _render_social_reception_tab(metrics_bundle, selected_era)
+
+
+def _render_social_reception_tab(metrics_bundle: dict[str, Any], era: str) -> None:
+    """Render community reception, controversy index, and shock elimination dynamics."""
+    st.markdown("### 💬 Social Sentiment, Fan Reception & Controversy Index")
+    st.caption(
+        f"Longitudinal analysis of community discussion threads, comment volume, upvote ratios, "
+        f"and fan controversy spikes around unexpected eliminations ({era})."
+    )
+
+    social_df = metrics_bundle.get("social_discussions", pd.DataFrame())
+    summary = metrics_bundle.get("social_summary", {})
+    host_era_df = metrics_bundle.get("host_era_sentiment", pd.DataFrame())
+
+    if social_df.empty:
+        st.info("No social reception discussions available for the selected era.")
+        return
+
+    # 1. Headline KPI Cards
+    col1, col2, col3, col4 = st.columns(4)
+    with col1:
+        st.metric(
+            "Tracked Discussions", f"{summary.get('total_threads', len(social_df))}"
+        )
+    with col2:
+        st.metric("Total Fan Comments", f"{summary.get('total_comments', 0):,}")
+    with col3:
+        avg_up = summary.get("avg_upvote_ratio", 1.0) * 100.0
+        st.metric("Mean Upvote Ratio", f"{avg_up:.1f}%")
+    with col4:
+        st.metric(
+            "Peak Controversy Episode",
+            f"{summary.get('most_controversial_ep', 'N/A')}",
+            f"Score: {summary.get('peak_controversy', 0):.0f}",
+        )
+
+    st.markdown("---")
+
+    # 2. Episode Controversy & Fan Reaction Spikes
+    col_chart, col_callouts = st.columns([7, 5])
+
+    with col_chart:
+        st.markdown("#### Episode Controversy & Comment Spikes")
+        st.caption(
+            "Bubble size = comment intensity. Y-axis = Controversy Index (comments × downvote share × sentiment penalty × upset bonus)."
+        )
+
+        chart_df = social_df.copy()
+        chart_df["episode_label"] = (
+            chart_df["episode_code"] + " " + chart_df["theme"].fillna("")
+        )
+
+        color_scale = alt.Scale(
+            domain=["Positive", "Mixed", "Critical"],
+            range=[
+                CATPPUCCIN_COLORS["green"],
+                CATPPUCCIN_COLORS["peach"],
+                CATPPUCCIN_COLORS["red"],
+            ],
+        )
+
+        bubble_chart = (
+            alt.Chart(chart_df)
+            .mark_circle(stroke="#11111b", strokeWidth=1, opacity=0.85)
+            .encode(
+                x=alt.X(
+                    "series_number:O",
+                    title="Series Number",
+                    axis=alt.Axis(labelAngle=0),
+                ),
+                y=alt.Y(
+                    "controversy_index:Q",
+                    title="Controversy Index Score",
+                    scale=alt.Scale(zero=True),
+                ),
+                size=alt.Size(
+                    "num_comments:Q",
+                    title="Comment Volume",
+                    scale=alt.Scale(range=[100, 800]),
+                ),
+                color=alt.Color(
+                    "sentiment_label:N",
+                    title="Fan Sentiment",
+                    scale=color_scale,
+                ),
+                tooltip=[
+                    alt.Tooltip("episode_code:N", title="Episode"),
+                    alt.Tooltip("theme:N", title="Theme"),
+                    alt.Tooltip("title:N", title="Reddit Title"),
+                    alt.Tooltip(
+                        "controversy_index:Q", title="Controversy Index", format=".1f"
+                    ),
+                    alt.Tooltip("num_comments:Q", title="Comments"),
+                    alt.Tooltip("upvote_ratio:Q", title="Upvote Ratio", format=".1%"),
+                    alt.Tooltip("sentiment_label:N", title="Sentiment"),
+                    alt.Tooltip("star_baker:N", title="Star Baker"),
+                    alt.Tooltip("eliminated_baker:N", title="Eliminated"),
+                    alt.Tooltip("upset_reason:N", title="Upset Factor"),
+                ],
+            )
+            .properties(height=360)
+        )
+
+        threshold = (
+            alt.Chart(pd.DataFrame({"y": [500]}))
+            .mark_rule(
+                color=CATPPUCCIN_COLORS["subtext0"],
+                strokeDash=[4, 4],
+                strokeWidth=1.5,
+            )
+            .encode(y="y:Q")
+        )
+
+        st.altair_chart(bubble_chart + threshold, use_container_width=True)
+
+    with col_callouts:
+        st.markdown("#### 🚨 Historical Landmark Controversies")
+        top_controversies = social_df.sort_values(
+            by="controversy_index", ascending=False
+        ).head(4)
+        for _, row in top_controversies.iterrows():
+            ep_code = row["episode_code"]
+            theme = row.get("theme", "Episode")
+            c_score = row["controversy_index"]
+            sent = row.get("sentiment_label", "Positive")
+            elim = row.get("eliminated_baker") or "No Elimination"
+            sb = row.get("star_baker") or "None"
+            reason = row.get("upset_reason")
+
+            st.markdown(
+                f"**{ep_code} — {theme}** ({sent})  \n"
+                f"`Score: {c_score:.1f}` • `Comments: {row.get('num_comments', 0):,}` • `Upvotes: {row.get('upvote_ratio', 1.0):.0%}`  \n"
+                f"• **Eliminated:** {elim}  \n"
+                f"• **Star Baker:** {sb}  \n"
+                f"• **Dynamic:** {reason}"
+            )
+
+    st.markdown("---")
+
+    # 3. Sentiment vs Elimination Upset & Host Era Stability
+    col_upset, col_host = st.columns(2)
+
+    with col_upset:
+        st.markdown("#### Sentiment vs. Elimination Upset Dynamics")
+        st.caption(
+            "Comparing discussion volume & controversy between shock exits (prior Star Bakers/high technicals) vs expected exits."
+        )
+        if "is_upset" in social_df.columns:
+            upset_chart_df = (
+                social_df.groupby(["is_upset", "sentiment_label"])
+                .agg(
+                    episode_count=("thread_id", "count"),
+                    avg_controversy=("controversy_index", "mean"),
+                    avg_comments=("num_comments", "mean"),
+                )
+                .reset_index()
+            )
+            upset_chart_df["upset_category"] = upset_chart_df["is_upset"].map(
+                {
+                    True: "🚨 Shock / Upset Exit",
+                    False: "✅ Expected Elimination / Finale",
+                }
+            )
+            upset_chart_df["avg_controversy"] = upset_chart_df["avg_controversy"].round(
+                1
+            )
+
+            upset_chart = (
+                alt.Chart(upset_chart_df)
+                .mark_bar(cornerRadiusTopLeft=4, cornerRadiusTopRight=4)
+                .encode(
+                    x=alt.X(
+                        "upset_category:N",
+                        title=None,
+                        axis=alt.Axis(labelAngle=0),
+                    ),
+                    y=alt.Y(
+                        "avg_controversy:Q",
+                        title="Mean Controversy Index",
+                    ),
+                    color=alt.Color(
+                        "sentiment_label:N",
+                        title="Sentiment",
+                        scale=color_scale,
+                    ),
+                    tooltip=[
+                        alt.Tooltip("upset_category:N", title="Category"),
+                        alt.Tooltip("sentiment_label:N", title="Sentiment"),
+                        alt.Tooltip("episode_count:Q", title="Episodes"),
+                        alt.Tooltip("avg_controversy:Q", title="Mean Controversy"),
+                        alt.Tooltip(
+                            "avg_comments:Q", title="Mean Comments", format=".0f"
+                        ),
+                    ],
+                )
+                .properties(height=300)
+            )
+            st.altair_chart(upset_chart, use_container_width=True)
+
+    with col_host:
+        st.markdown("#### Host Duo Reception Stability")
+        st.caption(
+            "Community reception stability across hosting duos and broadcasting eras."
+        )
+        if not host_era_df.empty:
+            host_chart = (
+                alt.Chart(host_era_df)
+                .mark_bar(
+                    cornerRadiusTopLeft=4,
+                    cornerRadiusTopRight=4,
+                    color=CATPPUCCIN_COLORS["mauve"],
+                )
+                .encode(
+                    x=alt.X(
+                        "host_duo:N",
+                        title=None,
+                        axis=alt.Axis(labelAngle=-15),
+                    ),
+                    y=alt.Y(
+                        "avg_upvote_ratio:Q",
+                        title="Mean Upvote Ratio",
+                        scale=alt.Scale(domain=[0.80, 1.0]),
+                    ),
+                    tooltip=[
+                        alt.Tooltip("host_duo:N", title="Hosts"),
+                        alt.Tooltip("thread_count:Q", title="Discussions"),
+                        alt.Tooltip(
+                            "avg_upvote_ratio:Q",
+                            title="Mean Upvote Ratio",
+                            format=".1%",
+                        ),
+                        alt.Tooltip("avg_comments:Q", title="Avg Comments"),
+                        alt.Tooltip("critical_count:Q", title="Critical Spikes"),
+                    ],
+                )
+                .properties(height=300)
+            )
+            st.altair_chart(host_chart, use_container_width=True)
+
+    st.markdown("---")
+
+    # 4. Curated Fan Comments & Lore Registry
+    st.markdown("#### 📜 Curated Discussion Registry & Notable Fan Comments")
+    filter_cols = st.columns([3, 3, 6])
+    with filter_cols[0]:
+        sent_filter = st.selectbox(
+            "Filter by Sentiment",
+            options=["ALL", "Positive", "Mixed", "Critical"],
+            index=0,
+            key="social_sent_filter",
+        )
+    with filter_cols[1]:
+        upset_only = st.checkbox(
+            "Show Only Shock Upsets", value=False, key="social_upset_filter"
+        )
+
+    display_df = social_df.copy()
+    if sent_filter != "ALL":
+        display_df = display_df[
+            display_df["sentiment_label"].str.lower() == sent_filter.lower()
+        ]
+    if upset_only:
+        display_df = display_df[display_df["is_upset"] == True]
+
+    cols_to_show = [
+        "episode_code",
+        "theme",
+        "title",
+        "sentiment_label",
+        "controversy_index",
+        "num_comments",
+        "upvote_ratio",
+        "star_baker",
+        "eliminated_baker",
+        "upset_reason",
+    ]
+    cols_present = [c for c in cols_to_show if c in display_df.columns]
+    st.dataframe(
+        display_df[cols_present].sort_values(by="controversy_index", ascending=False),
+        use_container_width=True,
+        hide_index=True,
+    )

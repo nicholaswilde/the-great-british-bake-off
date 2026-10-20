@@ -3,25 +3,31 @@
   "subreddit": "GreatBritishBakeOff",
   "discussions": [
     {
-      "thread_id": "s13e01_greatbritishbakeoff",
+      "thread_id": "s13e04_greatbritishbakeoff",
       "subreddit": "GreatBritishBakeOff",
       "series_number": 13,
-      "episode_number": 1,
-      "title": "[Episode Discussion] Series 13 Episode 1",
-      "author": "bakeoff_community",
-      "score": 250,
-      "upvote_ratio": 0.98,
-      "num_comments": 120,
-      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s13e01_disc/",
+      "episode_number": 4,
+      "title": "[Episode Discussion] Series 13 Episode 4: Mexican Week Backlash",
+      "author": "bakeoff_reviewer",
+      "score": 950,
+      "upvote_ratio": 0.87,
+      "num_comments": 640,
+      "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s13e04_mexican_week/",
       "top_comments": [
         {
-          "comment_id": "c_s13e01_1",
-          "author": "baker_fan",
-          "score": 45,
-          "body": "Great start to Series 13! The tent feels wonderful as always."
+          "comment_id": "c_s13e04_1",
+          "author": "taco_purist",
+          "score": 290,
+          "body": "Peeling an avocado like an apple? The cultural execution here was embarrassing."
+        },
+        {
+          "comment_id": "c_s13e04_2",
+          "author": "bring_back_classics",
+          "score": 175,
+          "body": "Can we please stick to actual traditional baking instead of gimmick national weeks?"
         }
       ],
-      "sentiment_label": "Positive"
+      "sentiment_label": "Critical"
     }
   ]
 }

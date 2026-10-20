@@ -471,14 +471,21 @@ def test_render_exploratory_analysis_view():
     assert "handshake_total" in metrics_all
     assert "tech_bottom2_hazard_pct" in metrics_all
     assert "theme_hazards" in metrics_all
+    assert "social_discussions" in metrics_all
+    assert "social_summary" in metrics_all
+    assert "host_era_sentiment" in metrics_all
     assert metrics_all["handshake_total"] == 60
     assert metrics_all["tech_bottom2_hazard_pct"] > 20.0
+    assert metrics_all["social_summary"]["total_threads"] >= 16
+    assert metrics_all["social_summary"]["peak_controversy"] > 500
 
     # Test BBC vs Channel 4 era filtering
     metrics_bbc = load_empirical_bake_metrics(era="BBC Era (S1–S7)")
     metrics_c4 = load_empirical_bake_metrics(era="Channel 4 Era (S8+)")
     assert metrics_bbc["handshake_total"] == 9
     assert metrics_c4["handshake_total"] == 51
+    assert len(metrics_bbc["social_discussions"]) > 0
+    assert len(metrics_c4["social_discussions"]) > 0
 
     # Test rendering with real datasets
     real_data = load_all_datasets()
@@ -487,12 +494,109 @@ def test_render_exploratory_analysis_view():
     with (
         patch("streamlit.columns", side_effect=_mock_columns),
         patch("streamlit.selectbox", return_value="ALL"),
-        patch("streamlit.tabs", return_value=[mock_tab] * 5),
+        patch("streamlit.tabs", return_value=[mock_tab] * 6),
         patch("streamlit.altair_chart") as mock_chart,
         patch("streamlit.dataframe") as mock_df,
     ):
         render_exploratory_analysis(real_data)
-        assert mock_chart.call_count >= 5
+        assert mock_chart.call_count >= 6
+        assert mock_df.call_count >= 1
+
+
+def test_compute_social_sentiment_metrics_and_render_tab():
+    """Verify compute_social_sentiment_metrics edge cases and _render_social_reception_tab."""
+    from gbbo_dataset.dashboard.data import compute_social_sentiment_metrics
+    from gbbo_dataset.dashboard.views.exploratory_analysis import (
+        _render_social_reception_tab,
+    )
+
+    # Empty raw data
+    res_empty = compute_social_sentiment_metrics({})
+    assert res_empty["social_discussions"].empty
+    assert res_empty["social_summary"]["total_threads"] == 0
+
+    # Populated mock data
+    mock_reddit = pd.DataFrame(
+        [
+            {
+                "thread_id": "s05e04_disc",
+                "subreddit": "GreatBritishBakeOff",
+                "series_number": 5,
+                "episode_number": 4,
+                "title": "Bingate Discussion",
+                "score": 1200,
+                "upvote_ratio": 0.94,
+                "num_comments": 500,
+                "sentiment_label": "Critical",
+            }
+        ]
+    )
+    mock_seasons = pd.DataFrame(
+        [
+            {
+                "series_number": 5,
+                "hosts": "Mel Giedroyc, Sue Perkins",
+                "judges": "Mary Berry, Paul Hollywood",
+                "network": "BBC One",
+                "year": 2014,
+            }
+        ]
+    )
+    mock_episodes = pd.DataFrame(
+        [
+            {
+                "episode_id": "s05e04",
+                "series_number": 5,
+                "episode_number": 4,
+                "theme": "Desserts",
+            }
+        ]
+    )
+    mock_perf = pd.DataFrame(
+        [
+            {
+                "performance_id": "s05e04_iain",
+                "baker_id": "s05_iain",
+                "episode_id": "s05e04",
+                "result": "WITHDREW",
+            }
+        ]
+    )
+    mock_bakers = pd.DataFrame(
+        [
+            {
+                "baker_id": "s05_iain",
+                "name": "Iain Watters",
+                "series_number": 5,
+            }
+        ]
+    )
+    raw = {
+        "reddit_discussions": mock_reddit,
+        "seasons": mock_seasons,
+        "episodes": mock_episodes,
+        "performances": mock_perf,
+        "bakers": mock_bakers,
+    }
+    res = compute_social_sentiment_metrics(raw, era="ALL")
+    assert not res["social_discussions"].empty
+    assert res["social_summary"]["total_threads"] == 1
+    assert res["social_summary"]["peak_controversy"] > 0
+    assert "Mel Giedroyc & Sue Perkins" in res["host_era_sentiment"]["host_duo"].values
+
+    # Test rendering tab with empty bundle
+    with patch("streamlit.info") as mock_info:
+        _render_social_reception_tab({}, era="ALL")
+        mock_info.assert_called_once()
+
+    # Test rendering tab with populated bundle
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.altair_chart") as mock_chart,
+        patch("streamlit.dataframe") as mock_df,
+    ):
+        _render_social_reception_tab(res, era="ALL")
+        assert mock_chart.call_count >= 2
         assert mock_df.call_count >= 1
 
 

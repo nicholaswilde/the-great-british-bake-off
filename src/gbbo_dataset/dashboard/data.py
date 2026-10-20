@@ -638,6 +638,7 @@ def load_empirical_bake_metrics(
         ].sort_values(by="eliminations", ascending=False)
 
     flavor_bundle = calculate_flavor_statistics(nlp_df if not nlp_df.empty else p)
+    social_bundle = compute_social_sentiment_metrics(raw_data=raw_data, era=era)
 
     return {
         "era": era,
@@ -665,4 +666,238 @@ def load_empirical_bake_metrics(
         "tech_tiers": tech_tiers_df,
         "theme_hazards": theme_hazards_df,
         "flavor_stats": flavor_bundle,
+        "social_discussions": social_bundle["social_discussions"],
+        "social_summary": social_bundle["social_summary"],
+        "host_era_sentiment": social_bundle["host_era_sentiment"],
+    }
+
+
+def compute_social_sentiment_metrics(
+    raw_data: dict[str, pd.DataFrame],
+    era: str = "ALL",
+) -> dict[str, Any]:
+    """Compute Reddit reception, controversy index, and host/judge era metrics."""
+    reddit = raw_data.get("reddit_discussions", pd.DataFrame())
+    episodes = raw_data.get("episodes", pd.DataFrame())
+    seasons = raw_data.get("seasons", pd.DataFrame())
+    performances = raw_data.get("performances", pd.DataFrame())
+    bakers = raw_data.get("bakers", pd.DataFrame())
+    lore = raw_data.get("fandom_lore", pd.DataFrame())
+
+    empty_res: dict[str, Any] = {
+        "social_discussions": pd.DataFrame(),
+        "social_summary": {
+            "total_threads": 0,
+            "total_comments": 0,
+            "avg_upvote_ratio": 1.0,
+            "peak_controversy": 0.0,
+            "most_controversial_ep": "None",
+            "upset_count": 0,
+        },
+        "host_era_sentiment": pd.DataFrame(),
+    }
+
+    if reddit is None or reddit.empty or not isinstance(reddit, pd.DataFrame):
+        return empty_res
+
+    m = reddit.copy()
+
+    # Filter by era if applicable
+    s = seasons.copy() if seasons is not None and not seasons.empty else pd.DataFrame()
+    era_clean = str(era).strip().upper()
+    if not s.empty and "network" in s.columns:
+        if "BBC" in era_clean:
+            s = s[s["network"].str.contains("BBC", case=False, na=False)]
+        elif "CHANNEL" in era_clean or "C4" in era_clean:
+            s = s[s["network"].str.contains("Channel 4", case=False, na=False)]
+
+        valid_series = set(s["series_number"].unique())
+        if valid_series and "series_number" in m.columns:
+            m = m[m["series_number"].isin(valid_series)]
+
+    if m.empty:
+        return empty_res
+
+    if not s.empty and "series_number" in s.columns:
+        m = m.merge(
+            s[["series_number", "hosts", "judges", "network", "year"]],
+            on="series_number",
+            how="left",
+        )
+
+    if (
+        episodes is not None
+        and not episodes.empty
+        and {"series_number", "episode_number"}.issubset(episodes.columns)
+    ):
+        ep_cols = [
+            c
+            for c in ["series_number", "episode_number", "episode_id", "theme"]
+            if c in episodes.columns
+        ]
+        m = m.merge(
+            episodes[ep_cols], on=["series_number", "episode_number"], how="left"
+        )
+
+    if (
+        performances is not None
+        and not performances.empty
+        and bakers is not None
+        and not bakers.empty
+        and "baker_id" in performances.columns
+    ):
+        perf_b = performances.merge(
+            bakers[["baker_id", "name"]], on="baker_id", how="left"
+        )
+        if "result" in perf_b.columns and "episode_id" in perf_b.columns:
+            sb_names = (
+                perf_b[perf_b["result"] == "STAR_BAKER"]
+                .groupby("episode_id")["name"]
+                .apply(lambda x: ", ".join(x))
+                .reset_index()
+                .rename(columns={"name": "star_baker"})
+            )
+            elim_b = (
+                perf_b[perf_b["result"].isin(["ELIMINATED", "WITHDREW"])]
+                .groupby("episode_id")[["name", "baker_id"]]
+                .agg({"name": lambda x: ", ".join(x), "baker_id": list})
+                .reset_index()
+                .rename(columns={"name": "eliminated_baker"})
+            )
+            m = m.merge(sb_names, on="episode_id", how="left")
+            m = m.merge(elim_b, on="episode_id", how="left")
+
+            def check_upset(row: Any) -> tuple[bool, str]:
+                b_ids = row.get("baker_id")
+                if not isinstance(b_ids, list) or not b_ids:
+                    return False, "Normal elimination"
+                ep_id = str(row.get("episode_id", ""))
+                is_u = False
+                reasons: list[str] = []
+                for b_id in b_ids:
+                    prior_p = perf_b[
+                        (perf_b["baker_id"] == b_id) & (perf_b["episode_id"] < ep_id)
+                    ]
+                    p_sb = (prior_p["result"] == "STAR_BAKER").sum()
+                    if p_sb > 0:
+                        is_u = True
+                        reasons.append(f"{p_sb} prior Star Baker(s)")
+                    if "technical_rank" in prior_p.columns:
+                        prior_tech = prior_p["technical_rank"].dropna()
+                        if len(prior_tech) > 0 and prior_tech.mean() <= 2.5:
+                            is_u = True
+                            reasons.append(f"Avg Tech Rank {prior_tech.mean():.1f}")
+                return is_u, "; ".join(reasons) if reasons else "Expected outcome"
+
+            upsets = m.apply(check_upset, axis=1)
+            m["is_upset"] = [u[0] for u in upsets]
+            m["upset_reason"] = [u[1] for u in upsets]
+
+    if "is_upset" not in m.columns:
+        m["is_upset"] = False
+        m["upset_reason"] = ""
+    if "star_baker" not in m.columns:
+        m["star_baker"] = ""
+    if "eliminated_baker" not in m.columns:
+        m["eliminated_baker"] = ""
+
+    # Calculate Controversy Score
+    def calc_controversy(row: Any) -> float:
+        comments = row.get("num_comments", 0)
+        ratio = row.get("upvote_ratio", 1.0)
+        sent = str(row.get("sentiment_label", "")).lower()
+        sent_mult = 1.6 if sent == "critical" else (1.25 if sent == "mixed" else 1.0)
+        upset_mult = 1.3 if row.get("is_upset") else 1.0
+        return round(
+            comments * max(1.0 - ratio, 0.01) * 10.0 * sent_mult * upset_mult, 1
+        )
+
+    m["controversy_index"] = m.apply(calc_controversy, axis=1)
+
+    if (
+        lore is not None
+        and not lore.empty
+        and {"series_number", "episode_number"}.issubset(lore.columns)
+    ):
+        l_cols = [
+            c
+            for c in [
+                "series_number",
+                "episode_number",
+                "notable_moments",
+                "famous_quotes",
+            ]
+            if c in lore.columns
+        ]
+        m = m.merge(lore[l_cols], on=["series_number", "episode_number"], how="left")
+
+    m["episode_code"] = m.apply(
+        lambda r: f"S{int(r['series_number']):02d}E{int(r['episode_number']):02d}",
+        axis=1,
+    )
+
+    # Host & era sentiment
+    host_era_df = pd.DataFrame()
+    if "hosts" in m.columns:
+
+        def _clean_host(h: Any) -> str:
+            h_str = str(h)
+            if "Mel" in h_str:
+                return "Mel Giedroyc & Sue Perkins"
+            if "Sandi" in h_str:
+                return "Noel Fielding & Sandi Toksvig"
+            if "Lucas" in h_str:
+                return "Noel Fielding & Matt Lucas"
+            if "Alison" in h_str:
+                return "Noel Fielding & Alison Hammond"
+            return h_str
+
+        m["host_duo"] = m["hosts"].apply(_clean_host)
+        host_era_df = (
+            m.groupby("host_duo")
+            .agg(
+                thread_count=("thread_id", "count"),
+                avg_comments=("num_comments", "mean"),
+                avg_upvote_ratio=("upvote_ratio", "mean"),
+                mean_controversy=("controversy_index", "mean"),
+                critical_count=(
+                    "sentiment_label",
+                    lambda s: (s.str.lower() == "critical").sum(),
+                ),
+            )
+            .reset_index()
+        )
+        host_era_df["avg_comments"] = host_era_df["avg_comments"].round(1)
+        host_era_df["avg_upvote_ratio"] = host_era_df["avg_upvote_ratio"].round(3)
+        host_era_df["mean_controversy"] = host_era_df["mean_controversy"].round(1)
+
+    most_controversial = (
+        m.sort_values(by="controversy_index", ascending=False).iloc[0]
+        if not m.empty
+        else None
+    )
+
+    social_summary = {
+        "total_threads": len(m),
+        "total_comments": int(m["num_comments"].sum())
+        if "num_comments" in m.columns
+        else 0,
+        "avg_upvote_ratio": float(m["upvote_ratio"].mean())
+        if "upvote_ratio" in m.columns
+        else 1.0,
+        "peak_controversy": float(most_controversial["controversy_index"])
+        if most_controversial is not None
+        else 0.0,
+        "most_controversial_ep": (
+            f"{most_controversial['episode_code']} ({most_controversial.get('theme', 'Episode')})"
+            if most_controversial is not None
+            else "None"
+        ),
+        "upset_count": int(m["is_upset"].sum()) if "is_upset" in m.columns else 0,
+    }
+
+    return {
+        "social_discussions": m,
+        "social_summary": social_summary,
+        "host_era_sentiment": host_era_df,
     }

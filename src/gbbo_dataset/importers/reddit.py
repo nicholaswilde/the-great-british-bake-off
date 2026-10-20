@@ -125,7 +125,83 @@ CURATED_REDDIT_DISCUSSIONS: dict[int, list[dict[str, Any]]] = {
             ],
         }
     ],
+    10: [
+        {
+            "episode_number": 10,
+            "title": "[Episode Discussion] Series 10 Episode 10: The Final",
+            "author": "bakeoff_community",
+            "score": 890,
+            "upvote_ratio": 0.96,
+            "num_comments": 430,
+            "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s10e10_final/",
+            "sentiment": "Positive",
+            "top_comments": [
+                {
+                    "comment_id": "c_s10e10_1",
+                    "author": "underdog_fan",
+                    "score": 195,
+                    "body": "David winning the entire series without a single Star Baker award! The calmest baker in the tent.",
+                },
+                {
+                    "comment_id": "c_s10e10_2",
+                    "author": "steph_supporter",
+                    "score": 140,
+                    "body": "Gutted for Steph after winning Star Baker 4 times, but David kept his composure when it mattered most.",
+                },
+            ],
+        }
+    ],
+    11: [
+        {
+            "episode_number": 9,
+            "title": "[Episode Discussion] Series 11 Episode 9: Patisserie Week (Hermine Exit)",
+            "author": "pastry_critic",
+            "score": 1150,
+            "upvote_ratio": 0.89,
+            "num_comments": 780,
+            "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s11e09_semifinal/",
+            "sentiment": "Critical",
+            "top_comments": [
+                {
+                    "comment_id": "c_s11e09_1",
+                    "author": "hermine_justice",
+                    "score": 340,
+                    "body": "Hermine was front-runner all season with 2 Star Bakers. Sending her home right before the final is a travesty!",
+                },
+                {
+                    "comment_id": "c_s11e09_2",
+                    "author": "baking_rules",
+                    "score": 210,
+                    "body": "Judges judged strictly on the weekend, but Laura was in the bottom 4 times. System feels broken.",
+                },
+            ],
+        }
+    ],
     12: [
+        {
+            "episode_number": 9,
+            "title": "[Episode Discussion] Series 12 Episode 9: Patisserie Week (Jürgen Shock Exit)",
+            "author": "flour_power",
+            "score": 1260,
+            "upvote_ratio": 0.88,
+            "num_comments": 890,
+            "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s12e09_semifinal/",
+            "sentiment": "Critical",
+            "top_comments": [
+                {
+                    "comment_id": "c_s12e09_1",
+                    "author": "jurgenator_army",
+                    "score": 420,
+                    "body": "Jürgen won the technical, got a handshake in the signature, and STILL got sent home! Absolute robbery.",
+                },
+                {
+                    "comment_id": "c_s12e09_2",
+                    "author": "tent_heartbroken",
+                    "score": 280,
+                    "body": "The Great German Bake Off dream is over. Paul Hollywood leaving Jürgen out of the final 3 hurts.",
+                },
+            ],
+        },
         {
             "episode_number": 10,
             "title": "[Episode Discussion] Series 12 Episode 10: The Final",
@@ -147,6 +223,58 @@ CURATED_REDDIT_DISCUSSIONS: dict[int, list[dict[str, Any]]] = {
                     "author": "chigs_journey",
                     "score": 140,
                     "body": "Chigs only started baking in lockdown and reached the final! Incredible talent.",
+                },
+            ],
+        },
+    ],
+    13: [
+        {
+            "episode_number": 4,
+            "title": "[Episode Discussion] Series 13 Episode 4: Mexican Week Backlash",
+            "author": "bakeoff_reviewer",
+            "score": 950,
+            "upvote_ratio": 0.87,
+            "num_comments": 640,
+            "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s13e04_mexican_week/",
+            "sentiment": "Critical",
+            "top_comments": [
+                {
+                    "comment_id": "c_s13e04_1",
+                    "author": "taco_purist",
+                    "score": 290,
+                    "body": "Peeling an avocado like an apple? The cultural execution here was embarrassing.",
+                },
+                {
+                    "comment_id": "c_s13e04_2",
+                    "author": "bring_back_classics",
+                    "score": 175,
+                    "body": "Can we please stick to actual traditional baking instead of gimmick national weeks?",
+                },
+            ],
+        }
+    ],
+    14: [
+        {
+            "episode_number": 1,
+            "title": "[Episode Discussion] Series 14 Episode 1: Cake Week (Alison Debut)",
+            "author": "tent_veteran",
+            "score": 710,
+            "upvote_ratio": 0.99,
+            "num_comments": 310,
+            "permalink": "https://reddit.com/r/GreatBritishBakeOff/comments/s14e01_cake_week/",
+            "sentiment": "Positive",
+            "top_comments": [
+                {
+                    "comment_id": "c_s14e01_1",
+                    "author": "alison_cheers",
+                    "score": 220,
+                    "body": "Alison Hammond is a breath of fresh air! Warm, hysterical, and instantly bonded with the bakers.",
+                },
+                {
+                    "comment_id": "c_s14e01_2",
+                    "author": "cake_connoisseur",
+                    "score": 110,
+                    "body": "Back to classic British baking. No bizarre themes, just proper cakes and lovely bakers.",
                 },
             ],
         }
@@ -328,7 +456,7 @@ def scrape_reddit_series(
 def scrape_all_reddit(
     raw_dir: Path = Path("data/raw/reddit"),
     processed_dir: Path = Path("data/processed"),
-    series_range: tuple[int, int] = (1, 15),
+    series_range: tuple[int, int] = (1, 16),
     subreddit: str = "GreatBritishBakeOff",
     offline: bool = False,
 ) -> dict[str, int]:
