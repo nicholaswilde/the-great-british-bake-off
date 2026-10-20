@@ -303,6 +303,10 @@ class DatasetGapAuditor:
                     )
                 console.print(detail_table)
 
+    def print_detail(self, results: dict[str, list[ColumnGap]]) -> None:
+        """Display column-level gap breakdown."""
+        self.print_summary(results, detail=True)
+
     def export_markdown(
         self, results: dict[str, list[ColumnGap]], output_path: Path
     ) -> None:

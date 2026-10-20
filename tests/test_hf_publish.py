@@ -113,3 +113,118 @@ def test_publish_missing_token_raises(tmp_path: Path, monkeypatch: pytest.Monkey
 
     with pytest.raises(ValueError, match="Hugging Face API token is required"):
         publisher.publish(dry_run=False, staging_dir=stage_dir, token=None)
+
+
+def test_publish_dry_run_tempdir(monkeypatch: pytest.MonkeyPatch):
+    """Test publish with dry_run and no explicit staging_dir creates tempdir."""
+    res = publish_to_hf(dry_run=True, staging_dir=None)
+    assert res["dry_run"] is True
+    assert "gbbo_hf_stage_" in res["staging_dir"]
+
+
+def test_prepare_staging_jsonl_corrupt(tmp_path: Path):
+    """Test handling of corrupt JSONL file during parquet conversion."""
+    ai_dir = tmp_path / "ai"
+    ai_dir.mkdir()
+    (ai_dir / "gbbo_qa_finetuning.jsonl").write_text(
+        "NOT VALID JSON\n", encoding="utf-8"
+    )
+
+    publisher = HuggingFacePublisher(
+        repo_root=".",
+        processed_dir=tmp_path / "proc",
+        ai_dir=ai_dir,
+    )
+    stage_dir = tmp_path / "stage_corrupt"
+    staged = publisher.prepare_staging_directory(stage_dir)
+    assert staged.exists()
+    assert not (stage_dir / "data" / "qa_finetuning.parquet").exists()
+
+
+def test_publish_full_workflow_mocked(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    """Test full Hugging Face publishing workflow with mocked HfApi."""
+    import huggingface_hub
+
+    calls = []
+
+    class MockHfApi:
+        def __init__(self, token=None):
+            self.token = token
+
+        def whoami(self, token=None):
+            return {"name": "testbaker"}
+
+        def create_repo(self, repo_id, repo_type, exist_ok, private):
+            calls.append(("create_repo", repo_id, repo_type, exist_ok, private))
+
+        def upload_folder(self, folder_path, repo_id, repo_type, commit_message):
+            calls.append(("upload_folder", folder_path, repo_id, commit_message))
+
+        def create_tag(self, repo_id, repo_type, tag, tag_message, exist_ok):
+            calls.append(("create_tag", repo_id, tag))
+
+    monkeypatch.setattr(huggingface_hub, "HfApi", MockHfApi)
+
+    publisher = HuggingFacePublisher(repo_root=tmp_path)
+    stage_dir = tmp_path / "stage_publish"
+
+    # 1. With full repo_id
+    res1 = publisher.publish(
+        repo_id="custom_user/custom_repo",
+        token="hf_secret_123",
+        staging_dir=stage_dir,
+        private=True,
+        commit_message="Initial dataset release",
+    )
+    assert res1["repo_id"] == "custom_user/custom_repo"
+    assert res1["private"] is True
+    assert "https://huggingface.co/datasets/custom_user/custom_repo" in res1["url"]
+
+    # 2. With partial repo_id (prepends whoami username)
+    res2 = publisher.publish(
+        repo_id="only-name",
+        token="hf_secret_123",
+        staging_dir=stage_dir,
+    )
+    assert res2["repo_id"] == "testbaker/only-name"
+
+    # 3. With no repo_id (defaults to username/the-great-british-bake-off)
+    res3 = publisher.publish(
+        repo_id=None,
+        token="hf_secret_123",
+        staging_dir=stage_dir,
+    )
+    assert res3["repo_id"] == "testbaker/the-great-british-bake-off"
+
+
+def test_publish_hf_exceptions(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
+    """Test whoami failure fallback and tag failure handling."""
+    import huggingface_hub
+
+    class FailingHfApi:
+        def __init__(self, token=None):
+            pass
+
+        def whoami(self, token=None):
+            raise RuntimeError("network failure")
+
+        def create_repo(self, **kwargs):
+            pass
+
+        def upload_folder(self, **kwargs):
+            pass
+
+        def create_tag(self, **kwargs):
+            raise RuntimeError("tag already exists")
+
+    monkeypatch.setattr(huggingface_hub, "HfApi", FailingHfApi)
+
+    publisher = HuggingFacePublisher(repo_root=tmp_path)
+    stage_dir = tmp_path / "stage_err"
+
+    res = publisher.publish(
+        repo_id=None,
+        token="token123",
+        staging_dir=stage_dir,
+    )
+    assert res["repo_id"] == "nicholaswilde/the-great-british-bake-off"

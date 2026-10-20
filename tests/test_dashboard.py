@@ -200,6 +200,8 @@ def test_render_handshake_tracker_view():
 def test_render_predictor_view_series_forecast():
     """Test predictor view renders series forecast mode."""
     mock_data = _get_mock_datasets()
+    # Mark winner as None to exercise in-progress formatting branch
+    mock_data["seasons"].loc[0, "winner"] = None
     mock_pred_results = {
         "series": 1,
         "current_episode": 1,
@@ -250,6 +252,129 @@ def test_render_predictor_view_series_forecast():
         mock_predictor.predict_series.return_value = mock_pred_results
         mock_predictor_cls.return_value = mock_predictor
         render_predictor_view(mock_data)
+
+
+def test_predictor_diagnostics_and_empty():
+    """Verify _compute_diagnostics extracts strengths and risks across branches."""
+    from gbbo_dataset.dashboard.views.predictor_view import _compute_diagnostics
+
+    # Strengths heavy baker
+    strong_baker = {
+        "star_baker_count": 2,
+        "handshake_count": 2,
+        "avg_technical_pct": 0.85,
+        "last_star_baker": True,
+        "last_handshake": True,
+        "age": 28,
+        "age_score": 0.9,
+        "episodes_competed": 4,
+        "at_risk_count": 0,
+        "did_well_count": 3,
+    }
+    strengths, risks = _compute_diagnostics(strong_baker)
+    assert len(strengths) >= 6
+    assert len(risks) == 0
+
+    # Risk heavy baker
+    risky_baker = {
+        "star_baker_count": 0,
+        "handshake_count": 0,
+        "avg_technical_pct": 0.25,
+        "last_star_baker": False,
+        "last_handshake": False,
+        "last_at_risk": True,
+        "episodes_competed": 5,
+        "at_risk_count": 3,
+        "did_well_count": 0,
+    }
+    strengths, risks = _compute_diagnostics(risky_baker)
+    assert len(strengths) == 0
+    assert len(risks) >= 5
+
+    # Empty seasons branch
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.radio", return_value="🏆 Series Forecast"),
+        patch("streamlit.selectbox", return_value=1),
+    ):
+        render_predictor_view({})
+
+
+def test_render_predictor_view_branches():
+    """Test predictor view error branches, slider time-travel, and empty rankings."""
+    # 1. Prediction throws error
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.radio", return_value="🏆 Series Forecast"),
+        patch("streamlit.selectbox", return_value=1),
+        patch("streamlit.error") as mock_err,
+        patch(
+            "gbbo_dataset.dashboard.views.predictor_view.SeriesPredictor"
+        ) as mock_cls,
+    ):
+        mock_cls.return_value.predict_series.side_effect = RuntimeError(
+            "Prediction fail"
+        )
+        render_predictor_view({})
+        mock_err.assert_called_once()
+
+    # 2. Rankings empty
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.radio", return_value="🏆 Series Forecast"),
+        patch("streamlit.selectbox", return_value=1),
+        patch("streamlit.warning") as mock_warn,
+        patch(
+            "gbbo_dataset.dashboard.views.predictor_view.SeriesPredictor"
+        ) as mock_cls,
+    ):
+        mock_cls.return_value.predict_series.return_value = {
+            "current_episode": 1,
+            "rankings": [],
+        }
+        render_predictor_view({})
+        mock_warn.assert_called_once()
+
+    # 3. Slider time-travel (selected_ep != max_ep) and baker diagnostics
+    dummy_rankings = [
+        {
+            "name": "Baker A",
+            "age": 30,
+            "win_probability": 0.45,
+            "star_baker_prob": 0.50,
+            "elimination_risk": 0.05,
+            "predicted_rank": 1,
+            "momentum_score": 12.5,
+            "status": "Active",
+            "star_baker_count": 2,
+            "handshake_count": 1,
+            "avg_technical_pct": 0.85,
+            "last_star_baker": True,
+            "last_handshake": False,
+            "last_at_risk": False,
+            "episodes_competed": 4,
+            "at_risk_count": 0,
+            "did_well_count": 3,
+        }
+    ]
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.radio", return_value="🏆 Series Forecast"),
+        patch("streamlit.selectbox", side_effect=[1, "Baker A"]),
+        patch("streamlit.slider", return_value=2),
+        patch("streamlit.tabs", return_value=[MagicMock(), MagicMock(), MagicMock()]),
+        patch(
+            "gbbo_dataset.dashboard.views.predictor_view.SeriesPredictor"
+        ) as mock_cls,
+    ):
+        mock_inst = MagicMock()
+        mock_inst.predict_series.side_effect = [
+            {"current_episode": 4, "total_bakers": 12, "rankings": dummy_rankings},
+            {"current_episode": 2, "total_bakers": 12, "rankings": dummy_rankings},
+        ]
+        mock_cls.return_value = mock_inst
+        render_predictor_view({})
+        assert mock_inst.predict_series.call_count == 2
 
 
 def test_render_predictor_view_custom_simulator():

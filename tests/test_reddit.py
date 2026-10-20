@@ -9,6 +9,7 @@ from typer.testing import CliRunner
 
 from gbbo_dataset.cli import app
 from gbbo_dataset.importers.reddit import (
+    fetch_live_reddit_threads,
     scrape_all_reddit,
     scrape_reddit_series,
 )
@@ -65,6 +66,72 @@ def test_scrape_reddit_series(tmp_path: Path):
         data = json.load(f)
     assert data["series_number"] == 5
     assert any("Bingate" in d["title"] for d in data["discussions"])
+
+
+def test_fetch_live_reddit_threads(monkeypatch):
+    """Test fetch_live_reddit_threads with mocked responses."""
+    import requests
+
+    class MockResponse:
+        def __init__(self, status_code, data):
+            self.status_code = status_code
+            self._data = data
+
+        def json(self):
+            return self._data
+
+    # 200 OK
+    sample_data = {
+        "data": {
+            "children": [
+                {"data": {"id": "t1", "title": "Series 1 Discussion", "score": 150}},
+                "not_a_dict",
+            ]
+        }
+    }
+    monkeypatch.setattr(
+        requests, "get", lambda *args, **kwargs: MockResponse(200, sample_data)
+    )
+    res = fetch_live_reddit_threads("GreatBritishBakeOff", "query")
+    assert len(res) == 1
+    assert res[0]["id"] == "t1"
+
+    # 500 error
+    monkeypatch.setattr(requests, "get", lambda *args, **kwargs: MockResponse(500, {}))
+    assert fetch_live_reddit_threads("GreatBritishBakeOff", "query") == []
+
+    # Exception
+    def raise_err(*args, **kwargs):
+        raise requests.RequestException("boom")
+
+    monkeypatch.setattr(requests, "get", raise_err)
+    assert fetch_live_reddit_threads("GreatBritishBakeOff", "query") == []
+
+
+def test_scrape_reddit_series_live(tmp_path: Path, monkeypatch):
+    """Test scrape_reddit_series when live items are returned."""
+    mock_items = [
+        {"id": "t_high", "title": "High score ep", "score": 150, "author": "alice"},
+        {"id": "t_low", "title": "Low score ep", "score": 50, "author": "bob"},
+    ]
+    monkeypatch.setattr(
+        "gbbo_dataset.importers.reddit.fetch_live_reddit_threads",
+        lambda *args, **kwargs: mock_items,
+    )
+    raw_dir = tmp_path / "raw_live"
+    res = scrape_reddit_series(series_number=1, raw_dir=raw_dir, offline=False)
+    assert len(res["discussions"]) == 2
+    assert res["discussions"][0]["sentiment_label"] == "Positive"
+    assert res["discussions"][1]["sentiment_label"] == "Mixed"
+
+
+def test_scrape_reddit_series_default_curated(tmp_path: Path):
+    """Test series without specific curated entries falls back to default."""
+    raw_dir = tmp_path / "raw_default"
+    res = scrape_reddit_series(series_number=99, raw_dir=raw_dir, offline=True)
+    assert res["series_number"] == 99
+    assert len(res["discussions"]) == 1
+    assert "Series 99 Episode 1" in res["discussions"][0]["title"]
 
 
 def test_scrape_all_reddit(tmp_path: Path):

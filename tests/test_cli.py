@@ -1,5 +1,8 @@
 """Unit tests for gbbo CLI."""
 
+from pathlib import Path
+from unittest.mock import patch
+
 from typer.testing import CliRunner
 
 from gbbo_dataset import __version__
@@ -138,3 +141,211 @@ def test_cli_ai_and_hf_commands(tmp_path):
     assert res_hf.exit_code == 0
     assert "Dry-run complete" in res_hf.stdout
     assert (stage_dir / "README.md").exists()
+
+
+def test_cli_validate_and_predict(tmp_path):
+    """Verify validate, predict, and extract-flavors CLI commands."""
+    res_val = runner.invoke(app, ["validate", "--processed-dir", "data/processed"])
+    assert res_val.exit_code == 0
+    assert "Validation Status: PASS" in res_val.stdout
+
+    res_pred = runner.invoke(app, ["predict", "--series", "17"])
+    assert res_pred.exit_code == 0
+    assert "Series 17" in res_pred.stdout
+
+    flavors_out = "test_flavors.json"
+    res_flavors = runner.invoke(
+        app,
+        [
+            "extract-flavors",
+            "--processed-dir",
+            "data/processed",
+            "--output",
+            flavors_out,
+        ],
+    )
+    assert res_flavors.exit_code == 0
+    test_out = Path("data/processed") / flavors_out
+    if test_out.exists():
+        test_out.unlink()
+    test_csv = Path("data/processed") / "test_flavors.csv"
+    if test_csv.exists():
+        test_csv.unlink()
+
+
+def test_cli_mocked_pipelines(tmp_path):
+    """Verify scrape, build, enrich, scrape-fandom, and package CLI commands."""
+    with patch("gbbo_dataset.cli.scrape_series") as mock_scrape:
+        res = runner.invoke(
+            app, ["scrape", "--series", "1", "--raw-dir", str(tmp_path / "raw")]
+        )
+        assert res.exit_code == 0
+        mock_scrape.assert_called_once()
+
+    with patch("gbbo_dataset.cli.build_datasets") as mock_build:
+        mock_build.return_value = {
+            "bakers": 10,
+            "episodes": 5,
+            "performances": 20,
+            "errors": 0,
+        }
+        res = runner.invoke(
+            app,
+            [
+                "build",
+                "--raw-dir",
+                str(tmp_path / "raw"),
+                "--processed-dir",
+                str(tmp_path / "proc"),
+            ],
+        )
+        assert res.exit_code == 0
+        mock_build.assert_called_once()
+
+    with patch("gbbo_dataset.cli.run_enrichment") as mock_enrich:
+        mock_enrich.return_value = {
+            "bakers_enriched": 10,
+            "episodes_enriched": 5,
+            "handshakes_confirmed": 2,
+            "seasons_created": 1,
+        }
+        res = runner.invoke(
+            app,
+            ["enrich", "--processed-dir", str(tmp_path / "proc")],
+        )
+        assert res.exit_code == 0
+        mock_enrich.assert_called_once()
+
+    with patch("gbbo_dataset.cli.scrape_all_fandom") as mock_fandom:
+        mock_fandom.return_value = {"lore_count": 5, "recipe_count": 5}
+        res = runner.invoke(
+            app,
+            ["scrape-fandom", "--offline", "--raw-dir", str(tmp_path / "raw_fandom")],
+        )
+        assert res.exit_code == 0
+        mock_fandom.assert_called_once()
+
+    with patch("gbbo_dataset.cli.scrape_all_reddit") as mock_reddit:
+        mock_reddit.return_value = {"discussion_count": 10}
+        res = runner.invoke(
+            app,
+            ["scrape-reddit", "--offline", "--raw-dir", str(tmp_path / "raw_reddit")],
+        )
+        assert res.exit_code == 0
+        mock_reddit.assert_called_once()
+
+    res_pkg = runner.invoke(
+        app,
+        ["package", "--component", "csv", "--output-dir", str(tmp_path / "dist")],
+    )
+    assert res_pkg.exit_code == 0
+    assert len(list((tmp_path / "dist").glob("gbbo-dataset-csv-*.zip"))) == 1
+
+
+def test_cli_scrape_ranges_and_errors(tmp_path):
+    """Verify scrape range logic and error exit codes."""
+    with patch("gbbo_dataset.cli.scrape_series") as mock_scrape:
+        mock_scrape.return_value = {"bakers": 10, "episodes": 5, "performances": 20}
+        res_range = runner.invoke(
+            app,
+            [
+                "scrape",
+                "--start",
+                "1",
+                "--end",
+                "2",
+                "--raw-dir",
+                str(tmp_path / "raw"),
+            ],
+        )
+        assert res_range.exit_code == 0
+        assert mock_scrape.call_count == 2
+
+    with patch("gbbo_dataset.cli.scrape_series") as mock_scrape:
+        mock_scrape.side_effect = RuntimeError("Failed scrape")
+        res_err = runner.invoke(
+            app, ["scrape", "--series", "1", "--raw-dir", str(tmp_path / "raw")]
+        )
+        assert res_err.exit_code == 1
+
+    with patch("gbbo_dataset.cli.scrape_series") as mock_scrape:
+        mock_scrape.side_effect = [RuntimeError("Failed s1"), {"bakers": 10}]
+        res_range_fail = runner.invoke(
+            app,
+            [
+                "scrape",
+                "--start",
+                "1",
+                "--end",
+                "2",
+                "--raw-dir",
+                str(tmp_path / "raw"),
+            ],
+        )
+        assert res_range_fail.exit_code == 0
+        assert "skipped/failed" in res_range_fail.stdout
+
+
+def test_cli_fandom_and_reddit_errors(tmp_path):
+    """Verify scrape-fandom and scrape-reddit error exit codes."""
+    with patch("gbbo_dataset.cli.scrape_fandom_series") as mock_f:
+        mock_f.side_effect = RuntimeError("Fandom error")
+        res_f = runner.invoke(
+            app, ["scrape-fandom", "--series", "1", "--raw-dir", str(tmp_path / "raw")]
+        )
+        assert res_f.exit_code == 1
+
+    with patch("gbbo_dataset.cli.scrape_reddit_series") as mock_r:
+        mock_r.side_effect = RuntimeError("Reddit error")
+        res_r = runner.invoke(
+            app, ["scrape-reddit", "--series", "1", "--raw-dir", str(tmp_path / "raw")]
+        )
+        assert res_r.exit_code == 1
+
+
+def test_cli_validate_failure(tmp_path):
+    """Verify validate command exits with 1 on invalid or missing data."""
+    res = runner.invoke(app, ["validate", "--processed-dir", str(tmp_path / "empty")])
+    assert res.exit_code == 1
+    assert "FAIL" in res.stdout
+
+
+def test_cli_gaps_detail_and_export(tmp_path):
+    """Verify gaps command with --detail and --export-md options."""
+    md_file = tmp_path / "gaps.md"
+    res = runner.invoke(app, ["gaps", "--detail", "--export-md", str(md_file)])
+    assert res.exit_code == 0
+    assert md_file.exists()
+
+
+def test_cli_package_components_and_invalid(tmp_path):
+    """Verify package command options and invalid component handling."""
+    dist_dir = tmp_path / "dist_comp"
+
+    # Valid component
+    res_parquet = runner.invoke(
+        app,
+        ["package", "--component", "parquet", "--output-dir", str(dist_dir)],
+    )
+    assert res_parquet.exit_code == 0
+
+    # Invalid component
+    res_inv = runner.invoke(
+        app,
+        ["package", "--component", "unknown_comp", "--output-dir", str(dist_dir)],
+    )
+    assert res_inv.exit_code == 1
+    assert "Unknown component" in res_inv.stdout
+
+
+def test_cli_dashboard_mocked():
+    """Verify dashboard CLI invokes streamlit subprocess and handles interrupt."""
+    with patch("subprocess.run") as mock_sub:
+        res = runner.invoke(app, ["dashboard", "--no-browser", "--port", "8502"])
+        assert res.exit_code == 0
+        mock_sub.assert_called_once()
+
+    with patch("subprocess.run", side_effect=KeyboardInterrupt):
+        res_int = runner.invoke(app, ["dashboard", "--browser", "--port", "8502"])
+        assert res_int.exit_code == 0
+        assert "Dashboard stopped" in res_int.stdout

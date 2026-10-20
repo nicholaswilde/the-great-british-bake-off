@@ -9,6 +9,7 @@ from typer.testing import CliRunner
 
 from gbbo_dataset.cli import app
 from gbbo_dataset.importers.fandom import (
+    fetch_fandom_page_wikitext,
     parse_fandom_quotes,
     scrape_all_fandom,
     scrape_fandom_series,
@@ -52,11 +53,66 @@ def test_fandom_models():
 def test_parse_fandom_quotes():
     """Test extracting quotes from wikitext."""
     sample_wikitext = (
-        'Paul commented "No one likes a soggy bottom" during the technical.'
+        'Paul commented "No one likes a soggy bottom" during the technical. '
+        'Ignored: "This is a random sentence without baking keywords here."'
     )
     quotes = parse_fandom_quotes(sample_wikitext)
     assert len(quotes) == 1
     assert "soggy bottom" in quotes[0]
+
+
+def test_fetch_fandom_page_wikitext(monkeypatch):
+    """Test fetching wikitext with mocked HTTP response."""
+    import requests
+
+    class DummyResponse:
+        def __init__(self, status_code, data):
+            self.status_code = status_code
+            self._data = data
+
+        def json(self):
+            return self._data
+
+    # Success case
+    monkeypatch.setattr(
+        requests,
+        "get",
+        lambda *args, **kwargs: DummyResponse(
+            200, {"parse": {"wikitext": {"*": "sample wikitext"}}}
+        ),
+    )
+    text = fetch_fandom_page_wikitext("Series 1")
+    assert text == "sample wikitext"
+
+    # Status 404 case
+    monkeypatch.setattr(
+        requests,
+        "get",
+        lambda *args, **kwargs: DummyResponse(404, {}),
+    )
+    assert fetch_fandom_page_wikitext("Series 1") is None
+
+    # Exception case
+    def raise_err(*args, **kwargs):
+        raise requests.RequestException("connection error")
+
+    monkeypatch.setattr(requests, "get", raise_err)
+    assert fetch_fandom_page_wikitext("Series 1") is None
+
+
+def test_scrape_fandom_series_online(tmp_path: Path, monkeypatch):
+    """Test scrape_fandom_series with mocked online wikitext."""
+    monkeypatch.setattr(
+        "gbbo_dataset.importers.fandom.fetch_fandom_page_wikitext",
+        lambda title, timeout=10: (
+            'Mary said "This is a truly wonderful bake overall" to the tent.'
+        ),
+    )
+    raw_dir = tmp_path / "raw_online"
+    res = scrape_fandom_series(series_number=1, raw_dir=raw_dir, offline=False)
+    assert res["series_number"] == 1
+    all_quotes = [q for lore in res["lore"] for q in lore["famous_quotes"]]
+    assert any("truly wonderful bake overall" in q for q in all_quotes)
 
 
 def test_scrape_fandom_series(tmp_path: Path):
