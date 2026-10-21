@@ -11,13 +11,22 @@ from typer.testing import CliRunner
 from gbbo_dataset.cli import app
 from gbbo_dataset.dashboard.data import (
     _get_data_dir,
+    classify_occupation,
+    compute_baker_skills,
+    compute_champion_benchmark,
+    compute_occupational_metrics,
     load_all_datasets,
     load_empirical_bake_metrics,
     load_table,
 )
-from gbbo_dataset.dashboard.views.baker_profiles import render_baker_profiles
+from gbbo_dataset.dashboard.views.baker_profiles import (
+    _render_individual_baker,
+    generate_radar_svg,
+    render_baker_profiles,
+)
 from gbbo_dataset.dashboard.views.challenge_analytics import render_challenge_analytics
 from gbbo_dataset.dashboard.views.exploratory_analysis import (
+    _render_demographics_tab,
     render_exploratory_analysis,
 )
 from gbbo_dataset.dashboard.views.handshake_tracker import render_handshake_tracker
@@ -615,3 +624,236 @@ def test_cli_dashboard_command():
         assert "--server.address" in args
         assert "127.0.0.1" in args
         assert "--server.headless" in args
+
+
+def test_occupational_classification_and_metrics():
+    """Test occupation categorization and archetype performance calculations."""
+    # Test classifier mappings
+    assert classify_occupation("Aerospace Engineer") == "STEM & Engineering"
+    assert classify_occupation("Software developer") == "STEM & Engineering"
+    assert classify_occupation("Doctor") == "Healthcare & Medicine"
+    assert classify_occupation("Veterinary surgeon") == "Healthcare & Medicine"
+    assert classify_occupation("High school teacher") == "Education & Academia"
+    assert classify_occupation("Accountant") == "Finance, Law & Corporate"
+    assert classify_occupation("Graphic Designer") == "Creative, Arts & Media"
+    assert classify_occupation("Builder") == "Public Service & Trades"
+    assert classify_occupation("University student") == "Students & Homemakers"
+    assert classify_occupation("Housewife") == "Students & Homemakers"
+    assert classify_occupation(None) == "Other & Unclassified"
+    assert classify_occupation("") == "Other & Unclassified"
+
+    # Test empty inputs
+    empty_res = compute_occupational_metrics(pd.DataFrame(), pd.DataFrame())
+    assert empty_res.empty
+
+    # Test mock dataframe calculation
+    mock_bakers = pd.DataFrame(
+        [
+            {
+                "baker_id": "b1",
+                "name": "Alice STEM",
+                "occupation": "Software Engineer",
+                "overall_placement": 1,
+            },
+            {
+                "baker_id": "b2",
+                "name": "Bob STEM",
+                "occupation": "Chemist",
+                "overall_placement": 2,
+            },
+            {
+                "baker_id": "b3",
+                "name": "Charlie Arts",
+                "occupation": "Artist",
+                "overall_placement": 5,
+            },
+        ]
+    )
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "baker_id": "b1",
+                "episode_id": "e1",
+                "technical_rank": 1,
+                "result": "STAR_BAKER",
+                "hollywood_handshake": 1,
+            },
+            {
+                "baker_id": "b2",
+                "episode_id": "e1",
+                "technical_rank": 2,
+                "result": "SAFE",
+                "hollywood_handshake": 0,
+            },
+            {
+                "baker_id": "b3",
+                "episode_id": "e1",
+                "technical_rank": 4,
+                "result": "SAFE",
+                "hollywood_handshake": 0,
+            },
+        ]
+    )
+    occ_df = compute_occupational_metrics(mock_bakers, mock_perfs)
+    assert not occ_df.empty
+    assert "STEM & Engineering" in occ_df["cluster"].values
+    stem_row = occ_df[occ_df["cluster"] == "STEM & Engineering"].iloc[0]
+    assert stem_row["total_bakers"] == 2
+    assert stem_row["champions"] == 1
+    assert stem_row["win_rate"] == 50.0
+    assert stem_row["finalists"] == 2
+    assert stem_row["finalist_rate"] == 100.0
+    assert stem_row["star_bakers"] == 1
+    assert stem_row["handshakes"] == 1
+
+
+def test_baker_skills_and_benchmark():
+    """Test 5-axis baker skill calculation, champion benchmark, and SVG generator."""
+    # Test fallback on empty data
+    empty_skills = compute_baker_skills("unknown", pd.DataFrame())
+    assert len(empty_skills) == 5
+    assert empty_skills["Technical Mastery"] == 50.0
+
+    # Test fallback benchmark
+    empty_bench = compute_champion_benchmark(pd.DataFrame(), pd.DataFrame())
+    assert len(empty_bench) == 5
+    assert "Technical Mastery" in empty_bench
+
+    # Test with mock performances
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "baker_id": "b1",
+                "episode_id": "e1",
+                "technical_rank": 1,
+                "result": "STAR_BAKER",
+                "hollywood_handshake": 1,
+                "at_risk": False,
+                "did_well": True,
+            },
+            {
+                "baker_id": "b1",
+                "episode_id": "e2",
+                "technical_rank": 2,
+                "result": "SAFE",
+                "hollywood_handshake": 0,
+                "at_risk": False,
+                "did_well": False,
+            },
+            {
+                "baker_id": "b1",
+                "episode_id": "e3",
+                "technical_rank": 3,
+                "result": "SAFE",
+                "hollywood_handshake": 1,
+                "at_risk": False,
+                "did_well": True,
+            },
+        ]
+    )
+    b1_skills = compute_baker_skills("b1", mock_perfs)
+    assert 0.0 <= b1_skills["Technical Mastery"] <= 100.0
+    assert 0.0 <= b1_skills["Star Baker Clout"] <= 100.0
+    assert 0.0 <= b1_skills["Handshake Conversion"] <= 100.0
+    assert 0.0 <= b1_skills["Risk Avoidance"] <= 100.0
+    assert 0.0 <= b1_skills["Showstopper Consistency"] <= 100.0
+
+    mock_bakers = pd.DataFrame(
+        [
+            {"baker_id": "b1", "overall_placement": 1},
+        ]
+    )
+    bench = compute_champion_benchmark(mock_bakers, mock_perfs)
+    assert len(bench) == 5
+
+    # Test SVG generator
+    svg = generate_radar_svg("Alice", b1_skills, bench)
+    assert "<svg" in svg
+    assert "</svg>" in svg
+    assert "Alice" in svg
+    assert "Technical Mastery" in svg
+    assert "Champion Avg" in svg
+
+
+def test_occupational_views_rendering():
+    """Test demographics occupational archetype section and individual baker radar rendering."""
+    mock_bakers = pd.DataFrame(
+        [
+            {
+                "baker_id": "s01_edd",
+                "series_number": 1,
+                "name": "Edd Kimber",
+                "age": 24,
+                "occupation": "Debt collector",
+                "hometown": "Bradford",
+                "overall_placement": 1,
+            }
+        ]
+    )
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "baker_id": "s01_edd",
+                "episode_id": "s01e01",
+                "signature_dish": "Lemon Tart",
+                "showstopper_dish": "Chocolate Tier",
+                "technical_rank": 1,
+                "result": "STAR_BAKER",
+                "hollywood_handshake": 1,
+                "at_risk": False,
+                "did_well": True,
+            }
+        ]
+    )
+    mock_episodes = pd.DataFrame(
+        [
+            {
+                "episode_id": "s01e01",
+                "series_number": 1,
+                "episode_number": 1,
+                "theme": "Cake",
+            }
+        ]
+    )
+    occ_df = compute_occupational_metrics(mock_bakers, mock_perfs)
+    metrics_bundle = {
+        "total_bakers": 1,
+        "survival_curve": pd.DataFrame([{"episode_number": 1, "survival_pct": 100}]),
+        "age_summary": pd.DataFrame(),
+        "gender_summary": pd.DataFrame(),
+        "region_summary": pd.DataFrame(),
+        "occupation_summary": occ_df,
+    }
+    raw_datasets = {
+        "bakers": mock_bakers,
+        "performances": mock_perfs,
+        "episodes": mock_episodes,
+    }
+
+    # Test _render_demographics_tab with populated occupational metrics
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.altair_chart") as mock_chart,
+        patch("streamlit.dataframe") as mock_df,
+        patch("streamlit.info") as mock_info,
+    ):
+        _render_demographics_tab(raw_datasets, metrics_bundle, era="ALL")
+        assert mock_chart.call_count >= 1
+        assert mock_df.call_count >= 1
+        assert mock_info.call_count >= 1
+
+    # Test _render_individual_baker with radar chart
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.selectbox", side_effect=[1, "Edd Kimber"]),
+        patch("streamlit.markdown") as mock_md,
+        patch("streamlit.metric"),
+    ):
+        _render_individual_baker(mock_bakers, mock_perfs, mock_episodes)
+        # Verify radar SVG was rendered via st.markdown(unsafe_allow_html=True)
+        radar_rendered = any(
+            "<svg" in str(call.args[0])
+            for call in mock_md.call_args_list
+            if call.args and isinstance(call.args[0], str)
+        )
+        assert radar_rendered

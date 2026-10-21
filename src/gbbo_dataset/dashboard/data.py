@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 from pathlib import Path
 from typing import Any
 
@@ -639,6 +640,7 @@ def load_empirical_bake_metrics(
 
     flavor_bundle = calculate_flavor_statistics(nlp_df if not nlp_df.empty else p)
     social_bundle = compute_social_sentiment_metrics(raw_data=raw_data, era=era)
+    occ_summary = compute_occupational_metrics(bakers=b, performances=p, era=era)
 
     return {
         "era": era,
@@ -649,6 +651,7 @@ def load_empirical_bake_metrics(
         "age_summary": age_summary,
         "gender_summary": gender_summary,
         "region_summary": region_summary,
+        "occupation_summary": occ_summary,
         "star_baker_conversion": sb_summary,
         "star_baker_records": sb_records,
         "week1_star_bakers": week1_df,
@@ -901,3 +904,372 @@ def compute_social_sentiment_metrics(
         "social_summary": social_summary,
         "host_era_sentiment": host_era_df,
     }
+
+
+OCCUPATION_CLUSTERS: dict[str, list[str]] = {
+    "STEM & Engineering": [
+        r"engineer",
+        r"software",
+        r"developer",
+        r"scientist",
+        r"research",
+        r"chemist",
+        r"physic",
+        r"biolog",
+        r"data",
+        r"architect",
+        r"technologist",
+        r"technology",
+        r"optometrist",
+        r"programmer",
+    ],
+    "Healthcare & Medicine": [
+        r"doctor",
+        r"gp\b",
+        r"nurse",
+        r"midwife",
+        r"vet",
+        r"medic",
+        r"radiograph",
+        r"physio",
+        r"paramedic",
+        r"clinical",
+        r"health",
+        r"dental",
+        r"dentist",
+        r"pharmac",
+        r"anaesthet",
+        r"therapist",
+        r"psycholog",
+        r"palliative",
+        r"nhs",
+        r"hospital",
+        r"retirement",
+    ],
+    "Education & Academia": [
+        r"teacher",
+        r"tutor",
+        r"lecturer",
+        r"professor",
+        r"headteacher",
+        r"teaching",
+        r"school",
+        r"academic",
+        r"coach",
+    ],
+    "Finance, Law & Corporate": [
+        r"accountant",
+        r"finance",
+        r"bank",
+        r"lawyer",
+        r"solicitor",
+        r"consultant",
+        r"manager",
+        r"market",
+        r"project manager",
+        r"sales",
+        r"analyst",
+        r"debt",
+        r"auditor",
+        r"director",
+        r"administrator",
+        r"business",
+        r"hr\b",
+        r"executive",
+        r"entrepreneur",
+        r"buyer",
+        r"broker",
+        r"client",
+        r"office",
+        r"retail",
+        r"cashier",
+        r"shop",
+        r"assistant",
+        r"planner",
+    ],
+    "Creative, Arts & Media": [
+        r"designer",
+        r"photograph",
+        r"artist",
+        r"writer",
+        r"author",
+        r"illustrat",
+        r"actor",
+        r"theatre",
+        r"music",
+        r"fashion",
+        r"producer",
+        r"animat",
+        r"graphic",
+        r"sculpt",
+        r"gallery",
+        r"restorer",
+    ],
+    "Public Service & Trades": [
+        r"builder",
+        r"carpenter",
+        r"mechanic",
+        r"police",
+        r"civil servant",
+        r"gardener",
+        r"landscape",
+        r"driver",
+        r"postal",
+        r"courier",
+        r"military",
+        r"army",
+        r"navy",
+        r"raf\b",
+        r"fire",
+        r"chef",
+        r"baker",
+        r"hair",
+        r"barber",
+        r"security",
+        r"council",
+        r"prison",
+        r"pastor",
+        r"vicar",
+        r"priest",
+        r"officer",
+        r"charity",
+        r"fundrais",
+        r"operative",
+        r"horticultur",
+        r"countryside",
+        r"waiter",
+        r"support worker",
+        r"coordinator",
+    ],
+    "Students & Homemakers": [
+        r"student",
+        r"homemaker",
+        r"retired",
+        r"stay-at-home",
+        r"mother",
+        r"parent",
+        r"unemployed",
+        r"graduate",
+        r"housewife",
+        r"house husband",
+        r"childminder",
+        r"nanny",
+        r"wife",
+        r"women's institute",
+    ],
+}
+
+
+def classify_occupation(occ: str | None) -> str:
+    """Classify a baker's occupation into a standardized demographic archetype."""
+    if not occ or pd.isna(occ):
+        return "Other & Unclassified"
+    text = str(occ).lower()
+    for cat, patterns in OCCUPATION_CLUSTERS.items():
+        if any(re.search(p, text) for p in patterns):
+            return cat
+    return "Other & Unclassified"
+
+
+def compute_occupational_metrics(
+    bakers: pd.DataFrame,
+    performances: pd.DataFrame,
+    era: str = "ALL",
+) -> pd.DataFrame:
+    """Compute empirical performance statistics aggregated by occupational archetype."""
+    if bakers.empty or "occupation" not in bakers.columns:
+        return pd.DataFrame()
+
+    b_df = bakers.copy()
+    b_df["cluster"] = b_df["occupation"].apply(classify_occupation)
+
+    p_df = (
+        performances.copy()
+        if not performances.empty
+        else pd.DataFrame(columns=["baker_id", "technical_rank", "result"])
+    )
+
+    merged = p_df.merge(
+        b_df[["baker_id", "cluster", "overall_placement", "name"]],
+        on="baker_id",
+        how="left",
+    )
+
+    rows: list[dict[str, Any]] = []
+    for cluster, grp in b_df.groupby("cluster"):
+        c_perfs = (
+            merged[merged["cluster"] == cluster] if not merged.empty else pd.DataFrame()
+        )
+        total_bakers = len(grp)
+        champions = (
+            int((grp["overall_placement"] == 1).sum())
+            if "overall_placement" in grp.columns
+            else 0
+        )
+        finalists = (
+            int((grp["overall_placement"] <= 3).sum())
+            if "overall_placement" in grp.columns
+            else 0
+        )
+        win_rate = round(champions / total_bakers * 100, 1) if total_bakers > 0 else 0.0
+        finalist_rate = (
+            round(finalists / total_bakers * 100, 1) if total_bakers > 0 else 0.0
+        )
+
+        med_tech = 0.0
+        mean_tech = 0.0
+        if not c_perfs.empty and "technical_rank" in c_perfs.columns:
+            valid_t = c_perfs["technical_rank"].dropna()
+            if not valid_t.empty:
+                med_tech = round(float(valid_t.median()), 1)
+                mean_tech = round(float(valid_t.mean()), 2)
+
+        avg_ep = 0.0
+        if not c_perfs.empty and "episode_id" in c_perfs.columns:
+            ep_counts = c_perfs.groupby("baker_id")["episode_id"].nunique()
+            if not ep_counts.empty:
+                avg_ep = round(float(ep_counts.mean()), 1)
+
+        star_bakers = (
+            int((c_perfs["result"] == "STAR_BAKER").sum())
+            if not c_perfs.empty and "result" in c_perfs.columns
+            else 0
+        )
+        handshakes = (
+            int(c_perfs["hollywood_handshake"].sum())
+            if not c_perfs.empty and "hollywood_handshake" in c_perfs.columns
+            else 0
+        )
+
+        notable_names: list[str] = []
+        if "overall_placement" in grp.columns and "name" in grp.columns:
+            top_b = (
+                grp.sort_values(by="overall_placement")
+                .dropna(subset=["overall_placement"])
+                .head(3)
+            )
+            notable_names = top_b["name"].tolist()
+
+        rows.append(
+            {
+                "cluster": cluster,
+                "total_bakers": total_bakers,
+                "champions": champions,
+                "win_rate": win_rate,
+                "finalists": finalists,
+                "finalist_rate": finalist_rate,
+                "median_technical_rank": med_tech,
+                "mean_technical_rank": mean_tech,
+                "avg_episodes": avg_ep,
+                "star_bakers": star_bakers,
+                "handshakes": handshakes,
+                "notable_bakers": (
+                    ", ".join(notable_names) if notable_names else "N/A"
+                ),
+            }
+        )
+
+    if not rows:
+        return pd.DataFrame()
+
+    res_df = pd.DataFrame(rows).sort_values(
+        by=["win_rate", "finalist_rate"], ascending=False
+    )
+    return res_df.reset_index(drop=True)
+
+
+def compute_baker_skills(
+    baker_id: str,
+    performances: pd.DataFrame,
+) -> dict[str, float]:
+    """Calculate 5 normalized skill metrics (0-100) for a given baker."""
+    default_skills = {
+        "Technical Mastery": 50.0,
+        "Star Baker Clout": 0.0,
+        "Handshake Conversion": 0.0,
+        "Risk Avoidance": 50.0,
+        "Showstopper Consistency": 50.0,
+    }
+    if performances.empty or "baker_id" not in performances.columns:
+        return default_skills
+
+    bp = performances[performances["baker_id"] == baker_id]
+    if bp.empty:
+        return default_skills
+
+    eps = len(bp)
+
+    # 1. Technical Mastery (scale: rank 1 = 100, rank 6 = 50, rank 11 = 0)
+    tech_ranks = (
+        bp["technical_rank"].dropna()
+        if "technical_rank" in bp.columns
+        else pd.Series(dtype=float)
+    )
+    mean_tech = float(tech_ranks.mean()) if not tech_ranks.empty else 6.0
+    tech_score = round(max(0.0, min(100.0, 110.0 - mean_tech * 10.0)), 1)
+
+    # 2. Star Baker Clout (scaled such that 40% win rate = 100)
+    sb_count = (
+        int((bp["result"] == "STAR_BAKER").sum()) if "result" in bp.columns else 0
+    )
+    sb_score = round(min(100.0, (sb_count / eps) * 250.0), 1)
+
+    # 3. Handshake Conversion (scale: 3+ handshakes = 100)
+    hs_count = (
+        int(bp["hollywood_handshake"].sum())
+        if "hollywood_handshake" in bp.columns
+        else 0
+    )
+    hs_score = round(min(100.0, hs_count * 35.0), 1)
+
+    # 4. Risk Avoidance (percentage of episodes avoiding jeopardy or elimination)
+    at_r = 0
+    if "at_risk" in bp.columns and "result" in bp.columns:
+        at_r = int(((bp["at_risk"] == True) | (bp["result"] == "ELIMINATED")).sum())
+    elif "result" in bp.columns:
+        at_r = int((bp["result"] == "ELIMINATED").sum())
+    risk_score = round(max(0.0, 100.0 - (at_r / eps) * 100.0), 1)
+
+    # 5. Showstopper Consistency (frequency of Star Baker, Did Well, or top honors)
+    high_perf = 0
+    if "result" in bp.columns and "did_well" in bp.columns:
+        high_perf = int(
+            ((bp["result"] == "STAR_BAKER") | (bp["did_well"] == True)).sum()
+        )
+    elif "result" in bp.columns:
+        high_perf = int(
+            (bp["result"].isin(["STAR_BAKER", "WINNER", "RUNNER_UP"])).sum()
+        )
+    showstopper_score = round(min(100.0, (high_perf / eps) * 125.0), 1)
+
+    return {
+        "Technical Mastery": tech_score,
+        "Star Baker Clout": sb_score,
+        "Handshake Conversion": hs_score,
+        "Risk Avoidance": risk_score,
+        "Showstopper Consistency": showstopper_score,
+    }
+
+
+def compute_champion_benchmark(
+    bakers: pd.DataFrame,
+    performances: pd.DataFrame,
+) -> dict[str, float]:
+    """Compute average 5-axis skill profile across all GBBO Series Champions."""
+    default_benchmark = {
+        "Technical Mastery": 74.2,
+        "Star Baker Clout": 45.7,
+        "Handshake Conversion": 28.1,
+        "Risk Avoidance": 86.9,
+        "Showstopper Consistency": 58.4,
+    }
+    if bakers.empty or performances.empty or "overall_placement" not in bakers.columns:
+        return default_benchmark
+
+    champs = bakers[bakers["overall_placement"] == 1]["baker_id"].dropna().tolist()
+    if not champs:
+        return default_benchmark
+
+    profiles = [compute_baker_skills(cid, performances) for cid in champs]
+    df = pd.DataFrame(profiles)
+    return {col: round(float(df[col].mean()), 1) for col in df.columns}
