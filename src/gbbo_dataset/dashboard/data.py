@@ -653,6 +653,13 @@ def load_empirical_bake_metrics(
         performances=p,
         seasons=raw_data.get("seasons", pd.DataFrame()),
     )
+    recipe_diff_bundle = compute_recipe_difficulty_and_sentiment_metrics(
+        recipes=raw_data.get("fandom_recipes", pd.DataFrame()),
+        lore=raw_data.get("fandom_lore", pd.DataFrame()),
+        performances=p,
+        bakes_nlp=nlp_df,
+        episodes=raw_data.get("episodes", pd.DataFrame()),
+    )
 
     return {
         "era": era,
@@ -666,6 +673,7 @@ def load_empirical_bake_metrics(
         "occupation_summary": occ_summary,
         "time_pressure": time_pressure_bundle,
         "underdog_metrics": underdog_bundle,
+        "recipe_difficulty": recipe_diff_bundle,
         "star_baker_conversion": sb_summary,
         "star_baker_records": sb_records,
         "week1_star_bakers": week1_df,
@@ -1762,4 +1770,411 @@ def compute_underdog_and_upset_metrics(
         "theme_upset_rates": theme_stats,
         "iconic_underdog_comparisons": case_df,
         "underdog_summary": underdog_summary,
+    }
+
+
+def compute_recipe_difficulty_and_sentiment_metrics(
+    recipes: pd.DataFrame,
+    lore: pd.DataFrame | None = None,
+    performances: pd.DataFrame | None = None,
+    bakes_nlp: pd.DataFrame | None = None,
+    episodes: pd.DataFrame | None = None,
+) -> dict[str, Any]:
+    """Analyze recipe difficulty, judging sentiment polarity, and bake ambition outcomes."""
+    empty_res: dict[str, Any] = {
+        "difficulty_sentiment": pd.DataFrame(),
+        "difficulty_tier_summary": pd.DataFrame(),
+        "challenge_type_complexity": pd.DataFrame(),
+        "ambition_outcomes": pd.DataFrame(),
+        "recipe_summary": {
+            "most_difficult_recipe": "N/A",
+            "easiest_recipe": "N/A",
+            "avg_sentiment_easy": 0.0,
+            "avg_sentiment_extreme": 0.0,
+            "high_ambition_star_baker_rate": 0.0,
+            "high_ambition_elimination_rate": 0.0,
+            "moderate_ambition_elimination_rate": 0.0,
+        },
+    }
+
+    if recipes.empty or "difficulty" not in recipes.columns:
+        return empty_res
+
+    diff_map = {
+        "Easy": 1,
+        "Moderate": 2,
+        "Hard": 3,
+        "Very Hard": 4,
+        "Extreme": 5,
+    }
+
+    pos_keywords = [
+        "even rise",
+        "light sponge",
+        "golden crust",
+        "soft crumb",
+        "height",
+        "clean snap",
+        "immaculate",
+        "glossy",
+        "feather-light",
+        "defies gravity",
+        "pure",
+        "handshake",
+        "triumph",
+        "star baker",
+        "precision",
+        "crunch",
+        "character",
+        "silky",
+        "delicious",
+        "perfection",
+        "beautiful",
+        "sublime",
+        "stunning",
+        "well baked",
+        "light",
+    ]
+
+    neg_keywords = [
+        "underproved",
+        "overbaked",
+        "soggy",
+        "soggy bottom",
+        "melted",
+        "failed",
+        "failure",
+        "style over substance",
+        "burnt",
+        "clumsy",
+        "raw",
+        "dense",
+        "curdled",
+        "tough",
+        "pale",
+        "mess",
+        "collapsed",
+        "overworked",
+        "bland",
+        "rubbery",
+        "flat",
+    ]
+
+    # Merge lore quotes if available
+    r_df = recipes.copy()
+    if (
+        lore is not None
+        and not lore.empty
+        and "series_number" in lore.columns
+        and "episode_number" in lore.columns
+    ):
+        l_cols = [
+            c
+            for c in ["series_number", "episode_number", "famous_quotes"]
+            if c in lore.columns
+        ]
+        r_df = r_df.merge(
+            lore[l_cols], on=["series_number", "episode_number"], how="left"
+        )
+
+    def parse_quotes(val: Any) -> list[str]:
+        if not val or pd.isna(val):
+            return []
+        if isinstance(val, list):
+            return [str(x) for x in val]
+        import ast
+        import contextlib
+
+        with contextlib.suppress(ValueError, SyntaxError):
+            res = ast.literal_eval(str(val))
+            if isinstance(res, list):
+                return [str(x) for x in res]
+        return [str(val)]
+
+    records: list[dict[str, Any]] = []
+    for _, row in r_df.iterrows():
+        notes = str(row.get("judging_notes", "")).strip()
+        quotes = parse_quotes(row.get("famous_quotes"))
+        critique = f"{notes} {' '.join(quotes)}".strip()
+        c_lower = critique.lower()
+
+        pos_hits = [k for k in pos_keywords if k in c_lower]
+        neg_hits = [k for k in neg_keywords if k in c_lower]
+        tot = len(pos_hits) + len(neg_hits)
+        polarity = round((len(pos_hits) - len(neg_hits)) / tot, 2) if tot > 0 else 0.0
+        label = (
+            "Positive"
+            if polarity > 0.15
+            else ("Critical" if polarity < -0.15 else "Neutral")
+        )
+
+        diff_str = str(row.get("difficulty", "Moderate")).strip()
+        diff_num = diff_map.get(diff_str, 2)
+
+        records.append(
+            {
+                "recipe_id": str(row.get("recipe_id", "")),
+                "series_number": int(row.get("series_number", 0)),
+                "episode_number": int(row.get("episode_number", 0)),
+                "challenge_type": str(row.get("challenge_type", "Technical")),
+                "dish_name": str(row.get("dish_name", "Unknown")),
+                "difficulty": diff_str,
+                "difficulty_num": diff_num,
+                "judging_notes": notes,
+                "critique_text": critique,
+                "sentiment_score": polarity,
+                "sentiment_label": label,
+                "positive_indicators": ", ".join(pos_hits) if pos_hits else "-",
+                "critical_indicators": ", ".join(neg_hits) if neg_hits else "-",
+                "recipe_url": str(row.get("recipe_url", "")),
+            }
+        )
+
+    diff_sent_df = pd.DataFrame(records)
+
+    # 1. Tier summary
+    tier_summary = (
+        diff_sent_df.groupby("difficulty")
+        .agg(
+            recipe_count=("recipe_id", "count"),
+            avg_sentiment=("sentiment_score", "mean"),
+            positive_count=("sentiment_label", lambda s: (s == "Positive").sum()),
+            critical_count=("sentiment_label", lambda s: (s == "Critical").sum()),
+        )
+        .reset_index()
+    )
+    tier_summary["difficulty_num"] = (
+        tier_summary["difficulty"].map(diff_map).fillna(2).astype(int)
+    )
+    tier_summary = tier_summary.sort_values(by="difficulty_num").reset_index(drop=True)
+    tier_summary["avg_sentiment"] = tier_summary["avg_sentiment"].round(2)
+    tier_summary["positive_share"] = (
+        tier_summary["positive_count"] / tier_summary["recipe_count"] * 100
+    ).round(1)
+    tier_summary["critical_share"] = (
+        tier_summary["critical_count"] / tier_summary["recipe_count"] * 100
+    ).round(1)
+
+    # 2. Challenge type complexity
+    complexity_df = (
+        diff_sent_df.groupby(["challenge_type", "difficulty"])
+        .size()
+        .reset_index(name="recipe_count")
+    )
+    complexity_df["difficulty_num"] = (
+        complexity_df["difficulty"].map(diff_map).fillna(2).astype(int)
+    )
+    tot_recipes = len(diff_sent_df)
+    complexity_df["share_pct"] = (
+        complexity_df["recipe_count"] / max(tot_recipes, 1) * 100
+    ).round(1)
+    complexity_df = complexity_df.sort_values(
+        by=["challenge_type", "difficulty_num"]
+    ).reset_index(drop=True)
+
+    # 3. Ambition vs Outcome
+    technique_keywords = [
+        "choux",
+        "macaron",
+        "mirror",
+        "glaze",
+        "sugar",
+        "tempered",
+        "chocolate",
+        "croquembouche",
+        "meringue",
+        "puff",
+        "laminated",
+        "filo",
+        "mousse",
+        "entremet",
+        "illusion",
+        "caramel",
+        "brioche",
+        "sculpture",
+        "tiered",
+        "lattice",
+        "praline",
+        "ganache",
+        "tuile",
+        "fondant",
+        "layered",
+    ]
+
+    ambition_outcomes = pd.DataFrame()
+    if performances is not None and not performances.empty:
+        p_df = performances.copy()
+        if (
+            bakes_nlp is not None
+            and not bakes_nlp.empty
+            and "performance_id" in bakes_nlp.columns
+        ):
+            cols = [
+                c
+                for c in ["performance_id", "all_flavors", "all_styles"]
+                if c in bakes_nlp.columns
+            ]
+            p_df = p_df.merge(bakes_nlp[cols], on="performance_id", how="left")
+
+        def calc_ambition(row: Any) -> int:
+            score = 1
+            dish_text = f"{row.get('signature_dish', '')} {row.get('showstopper_dish', '')}".lower()
+            flavors = (
+                str(row.get("all_flavors", "")).split(",")
+                if pd.notna(row.get("all_flavors"))
+                else []
+            )
+            flavors = [f.strip() for f in flavors if f.strip() and f.strip() != "nan"]
+            score += min(len(flavors), 2)
+            styles = (
+                str(row.get("all_styles", "")).split(",")
+                if pd.notna(row.get("all_styles"))
+                else []
+            )
+            styles = [s.strip() for s in styles if s.strip() and s.strip() != "nan"]
+            score += min(len(styles), 2)
+            tech_hits = [k for k in technique_keywords if k in dish_text]
+            score += min(len(tech_hits), 3)
+            return score
+
+        p_df["ambition_score"] = p_df.apply(calc_ambition, axis=1)
+
+        def get_ambition_tier(s: int) -> str:
+            if s <= 2:
+                return "1. Low Ambition"
+            elif s <= 4:
+                return "2. Moderate Ambition"
+            elif s <= 6:
+                return "3. High Ambition"
+            return "4. Extreme Ambition"
+
+        p_df["ambition_tier"] = p_df["ambition_score"].apply(get_ambition_tier)
+
+        amb_grouped = (
+            p_df.groupby("ambition_tier")
+            .agg(
+                total_bakes=("performance_id", "count"),
+                handshakes=(
+                    "hollywood_handshake",
+                    lambda s: (
+                        (s == True).sum()
+                        if "hollywood_handshake" in p_df.columns
+                        else 0
+                    ),
+                ),
+                star_bakers=(
+                    "result",
+                    lambda s: (
+                        (s == "STAR_BAKER").sum() if "result" in p_df.columns else 0
+                    ),
+                ),
+                eliminations=(
+                    "result",
+                    lambda s: (
+                        (s == "ELIMINATED").sum() if "result" in p_df.columns else 0
+                    ),
+                ),
+                at_risk=(
+                    "at_risk",
+                    lambda s: (s == True).sum() if "at_risk" in p_df.columns else 0,
+                ),
+                did_well=(
+                    "did_well",
+                    lambda s: (s == True).sum() if "did_well" in p_df.columns else 0,
+                ),
+            )
+            .reset_index()
+        )
+
+        amb_grouped["handshake_rate"] = (
+            amb_grouped["handshakes"] / amb_grouped["total_bakes"] * 100
+        ).round(1)
+        amb_grouped["star_baker_rate"] = (
+            amb_grouped["star_bakers"] / amb_grouped["total_bakes"] * 100
+        ).round(1)
+        amb_grouped["elimination_rate"] = (
+            amb_grouped["eliminations"] / amb_grouped["total_bakes"] * 100
+        ).round(1)
+        amb_grouped["at_risk_rate"] = (
+            amb_grouped["at_risk"] / amb_grouped["total_bakes"] * 100
+        ).round(1)
+        amb_grouped["did_well_rate"] = (
+            amb_grouped["did_well"] / amb_grouped["total_bakes"] * 100
+        ).round(1)
+        ambition_outcomes = amb_grouped
+
+    easy_rows = diff_sent_df[diff_sent_df["difficulty"] == "Easy"]
+    extreme_rows = diff_sent_df[diff_sent_df["difficulty"] == "Extreme"]
+    most_diff = (
+        extreme_rows.iloc[0]["dish_name"]
+        if not extreme_rows.empty
+        else (
+            diff_sent_df.sort_values(by="difficulty_num", ascending=False).iloc[0][
+                "dish_name"
+            ]
+            if not diff_sent_df.empty
+            else "N/A"
+        )
+    )
+    easiest = (
+        easy_rows.iloc[0]["dish_name"]
+        if not easy_rows.empty
+        else (
+            diff_sent_df.sort_values(by="difficulty_num").iloc[0]["dish_name"]
+            if not diff_sent_df.empty
+            else "N/A"
+        )
+    )
+
+    recipe_summary = {
+        "most_difficult_recipe": most_diff,
+        "easiest_recipe": easiest,
+        "avg_sentiment_easy": (
+            round(float(easy_rows["sentiment_score"].mean()), 2)
+            if not easy_rows.empty
+            else 0.0
+        ),
+        "avg_sentiment_extreme": (
+            round(float(extreme_rows["sentiment_score"].mean()), 2)
+            if not extreme_rows.empty
+            else 0.0
+        ),
+        "high_ambition_star_baker_rate": (
+            float(
+                ambition_outcomes[
+                    ambition_outcomes["ambition_tier"].str.contains("Extreme")
+                ]["star_baker_rate"].iloc[0]
+            )
+            if not ambition_outcomes.empty
+            and any("Extreme" in str(x) for x in ambition_outcomes["ambition_tier"])
+            else 0.0
+        ),
+        "high_ambition_elimination_rate": (
+            float(
+                ambition_outcomes[
+                    ambition_outcomes["ambition_tier"].str.contains("Extreme")
+                ]["elimination_rate"].iloc[0]
+            )
+            if not ambition_outcomes.empty
+            and any("Extreme" in str(x) for x in ambition_outcomes["ambition_tier"])
+            else 0.0
+        ),
+        "moderate_ambition_elimination_rate": (
+            float(
+                ambition_outcomes[
+                    ambition_outcomes["ambition_tier"].str.contains("Moderate")
+                ]["elimination_rate"].iloc[0]
+            )
+            if not ambition_outcomes.empty
+            and any("Moderate" in str(x) for x in ambition_outcomes["ambition_tier"])
+            else 0.0
+        ),
+    }
+
+    return {
+        "difficulty_sentiment": diff_sent_df,
+        "difficulty_tier_summary": tier_summary,
+        "challenge_type_complexity": complexity_df,
+        "ambition_outcomes": ambition_outcomes,
+        "recipe_summary": recipe_summary,
     }

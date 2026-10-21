@@ -15,6 +15,7 @@ from gbbo_dataset.dashboard.data import (
     compute_baker_skills,
     compute_champion_benchmark,
     compute_occupational_metrics,
+    compute_recipe_difficulty_and_sentiment_metrics,
     compute_time_pressure_metrics,
     compute_underdog_and_upset_metrics,
     load_all_datasets,
@@ -1215,3 +1216,213 @@ def test_underdog_views_rendering():
     ):
         render_predictor_view(mock_datasets)
         assert mock_chart.call_count >= 1
+
+
+def test_recipe_difficulty_and_sentiment_metrics():
+    """Test recipe difficulty, judging sentiment polarity, and ambition metrics."""
+    # Test empty fallback
+    empty_res = compute_recipe_difficulty_and_sentiment_metrics(pd.DataFrame())
+    assert empty_res["difficulty_sentiment"].empty
+    assert empty_res["difficulty_tier_summary"].empty
+    assert empty_res["recipe_summary"]["most_difficult_recipe"] == "N/A"
+
+    # Test with populated mock data
+    mock_recipes = pd.DataFrame(
+        [
+            {
+                "recipe_id": "r1",
+                "series_number": 1,
+                "episode_number": 1,
+                "challenge_type": "Technical",
+                "dish_name": "Scones",
+                "difficulty": "Easy",
+                "judging_notes": "Judged for golden crust, soft crumb, and height.",
+                "recipe_url": "https://example.com/scones",
+            },
+            {
+                "recipe_id": "r2",
+                "series_number": 1,
+                "episode_number": 2,
+                "challenge_type": "Showstopper",
+                "dish_name": "Baked Alaska",
+                "difficulty": "Extreme",
+                "judging_notes": "Completely melted and collapsed.",
+                "recipe_url": "https://example.com/alaska",
+            },
+        ]
+    )
+    mock_lore = pd.DataFrame(
+        [
+            {
+                "series_number": 1,
+                "episode_number": 1,
+                "famous_quotes": "['A good biscuit must have a clean snap.']",
+            },
+            {
+                "series_number": 1,
+                "episode_number": 2,
+                "famous_quotes": "['No one likes a soggy bottom.']",
+            },
+        ]
+    )
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "performance_id": "p1",
+                "baker_id": "b1",
+                "signature_dish": "Apple Tart",
+                "showstopper_dish": "Choux Macaron Entremet Tower",
+                "result": "STAR_BAKER",
+                "hollywood_handshake": True,
+                "did_well": True,
+                "at_risk": False,
+            },
+            {
+                "performance_id": "p2",
+                "baker_id": "b2",
+                "signature_dish": "Simple Bread",
+                "showstopper_dish": "Plain Cake",
+                "result": "ELIMINATED",
+                "hollywood_handshake": False,
+                "did_well": False,
+                "at_risk": True,
+            },
+        ]
+    )
+    mock_nlp = pd.DataFrame(
+        [
+            {
+                "performance_id": "p1",
+                "all_flavors": "apple, caramel, chocolate",
+                "all_styles": "pastry_choux, entremet",
+            },
+            {
+                "performance_id": "p2",
+                "all_flavors": "vanilla",
+                "all_styles": "cake_sponge",
+            },
+        ]
+    )
+
+    res = compute_recipe_difficulty_and_sentiment_metrics(
+        recipes=mock_recipes,
+        lore=mock_lore,
+        performances=mock_perfs,
+        bakes_nlp=mock_nlp,
+    )
+
+    assert not res["difficulty_sentiment"].empty
+    assert len(res["difficulty_sentiment"]) == 2
+    # Easy recipe should have positive sentiment
+    easy_row = res["difficulty_sentiment"][
+        res["difficulty_sentiment"]["difficulty"] == "Easy"
+    ].iloc[0]
+    assert easy_row["sentiment_score"] > 0
+    assert easy_row["sentiment_label"] == "Positive"
+
+    # Extreme recipe should have critical sentiment
+    ext_row = res["difficulty_sentiment"][
+        res["difficulty_sentiment"]["difficulty"] == "Extreme"
+    ].iloc[0]
+    assert ext_row["sentiment_score"] < 0
+    assert ext_row["sentiment_label"] == "Critical"
+
+    assert not res["difficulty_tier_summary"].empty
+    assert not res["challenge_type_complexity"].empty
+    assert not res["ambition_outcomes"].empty
+    assert res["recipe_summary"]["most_difficult_recipe"] == "Baked Alaska"
+
+
+def test_challenge_analytics_with_recipe_difficulty():
+    """Test challenge analytics rendering with recipe difficulty and ambition sections."""
+    mock_recipes = pd.DataFrame(
+        [
+            {
+                "recipe_id": "r1",
+                "series_number": 1,
+                "episode_number": 1,
+                "challenge_type": "Technical",
+                "dish_name": "Scones",
+                "difficulty": "Easy",
+                "judging_notes": "Golden crust and soft crumb.",
+                "recipe_url": "https://example.com/scones",
+            },
+            {
+                "recipe_id": "r2",
+                "series_number": 1,
+                "episode_number": 2,
+                "challenge_type": "Showstopper",
+                "dish_name": "Baked Alaska",
+                "difficulty": "Extreme",
+                "judging_notes": "Soggy bottom and melted.",
+                "recipe_url": "https://example.com/alaska",
+            },
+        ]
+    )
+    mock_lore = pd.DataFrame(
+        [
+            {
+                "series_number": 1,
+                "episode_number": 1,
+                "famous_quotes": "['A good biscuit must have a clean snap.']",
+            }
+        ]
+    )
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "performance_id": "p1",
+                "baker_id": "b1",
+                "episode_id": "s01e01",
+                "signature_dish": "Choux Macaron Sculpture",
+                "showstopper_dish": "Tiered Chocolate Entremet",
+                "result": "STAR_BAKER",
+                "hollywood_handshake": True,
+                "did_well": True,
+                "at_risk": False,
+            }
+        ]
+    )
+    mock_episodes = pd.DataFrame(
+        [
+            {
+                "episode_id": "s01e01",
+                "series_number": 1,
+                "episode_number": 1,
+                "theme": "Cake",
+                "signature_time_min": 120,
+                "technical_time_min": 90,
+                "showstopper_time_min": 240,
+            }
+        ]
+    )
+    mock_nlp = pd.DataFrame(
+        [
+            {
+                "performance_id": "p1",
+                "all_flavors": "chocolate, vanilla",
+                "all_styles": "pastry_choux",
+            }
+        ]
+    )
+
+    data = {
+        "fandom_recipes": mock_recipes,
+        "fandom_lore": mock_lore,
+        "performances": mock_perfs,
+        "episodes": mock_episodes,
+        "bakes_nlp": mock_nlp,
+        "bakers": pd.DataFrame(),
+        "seasons": pd.DataFrame(),
+    }
+
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.altair_chart") as mock_chart,
+        patch("streamlit.dataframe"),
+        patch("streamlit.selectbox", return_value="All"),
+        patch("streamlit.text_input", return_value="chocolate"),
+        patch("streamlit.info"),
+    ):
+        render_challenge_analytics(data)
+        assert mock_chart.call_count >= 2
