@@ -16,6 +16,7 @@ from gbbo_dataset.dashboard.data import (
     compute_champion_benchmark,
     compute_occupational_metrics,
     compute_time_pressure_metrics,
+    compute_underdog_and_upset_metrics,
     load_all_datasets,
     load_empirical_bake_metrics,
     load_table,
@@ -28,6 +29,7 @@ from gbbo_dataset.dashboard.views.baker_profiles import (
 from gbbo_dataset.dashboard.views.challenge_analytics import render_challenge_analytics
 from gbbo_dataset.dashboard.views.exploratory_analysis import (
     _render_demographics_tab,
+    _render_star_baker_tab,
     _render_technical_tab,
     render_exploratory_analysis,
 )
@@ -1007,3 +1009,209 @@ def test_time_pressure_views_rendering():
     ):
         render_challenge_analytics(mock_datasets)
         assert mock_chart.call_count >= 2
+
+
+def test_underdog_and_upset_metrics():
+    """Test underdog dynamics, zero-SB champions, and theme upset rates."""
+    # Test empty fallback
+    empty_res = compute_underdog_and_upset_metrics(
+        pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
+    )
+    assert empty_res["cohort_trajectories"].empty
+    assert empty_res["multi_sb_losers"].empty
+    assert empty_res["underdog_summary"]["zero_sb_champion"] == "N/A"
+
+    # Test with populated mock data
+    mock_bakers = pd.DataFrame(
+        [
+            {"baker_id": "b1", "name": "Underdog Winner", "overall_placement": 1},
+            {"baker_id": "b2", "name": "Star Baker Runner-up", "overall_placement": 2},
+            {"baker_id": "b3", "name": "Early Departed", "overall_placement": 8},
+        ]
+    )
+    mock_episodes = pd.DataFrame(
+        [
+            {
+                "episode_id": "s01e01",
+                "series_number": 1,
+                "episode_number": 1,
+                "theme": "Cake",
+            },
+            {
+                "episode_id": "s01e02",
+                "series_number": 1,
+                "episode_number": 2,
+                "theme": "Pâtisserie",
+            },
+        ]
+    )
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "performance_id": "p1",
+                "baker_id": "b1",
+                "episode_id": "s01e01",
+                "result": "SAFE",
+                "technical_rank": 2,
+            },
+            {
+                "performance_id": "p2",
+                "baker_id": "b2",
+                "episode_id": "s01e01",
+                "result": "STAR_BAKER",
+                "technical_rank": 1,
+            },
+            {
+                "performance_id": "p3",
+                "baker_id": "b3",
+                "episode_id": "s01e01",
+                "result": "SAFE",
+                "technical_rank": 3,
+            },
+            {
+                "performance_id": "p4",
+                "baker_id": "b1",
+                "episode_id": "s01e02",
+                "result": "WINNER",
+                "technical_rank": 1,
+            },
+            {
+                "performance_id": "p5",
+                "baker_id": "b2",
+                "episode_id": "s01e02",
+                "result": "RUNNER_UP",
+                "technical_rank": 2,
+            },
+            {
+                "performance_id": "p6",
+                "baker_id": "b3",
+                "episode_id": "s01e02",
+                "result": "ELIMINATED",
+                "technical_rank": 3,
+            },
+        ]
+    )
+
+    res = compute_underdog_and_upset_metrics(mock_bakers, mock_episodes, mock_perfs)
+    assert not res["cohort_trajectories"].empty
+    assert "1. Champions" in res["cohort_trajectories"]["cohort"].values
+    assert not res["theme_upset_rates"].empty
+
+
+def test_underdog_views_rendering():
+    """Test rendering of underdog arc section in star baker tab and predictor view."""
+    mock_bakers = pd.DataFrame(
+        [
+            {
+                "baker_id": "b1",
+                "name": "Baker 1",
+                "series_number": 1,
+                "overall_placement": 1,
+                "age": 28,
+            },
+            {
+                "baker_id": "b2",
+                "name": "Baker 2",
+                "series_number": 1,
+                "overall_placement": 2,
+                "age": 34,
+            },
+        ]
+    )
+    mock_episodes = pd.DataFrame(
+        [
+            {
+                "episode_id": "s01e01",
+                "series_number": 1,
+                "episode_number": 1,
+                "theme": "Cake",
+            },
+            {
+                "episode_id": "s01e02",
+                "series_number": 1,
+                "episode_number": 2,
+                "theme": "Pâtisserie",
+            },
+        ]
+    )
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "performance_id": "p1",
+                "baker_id": "b1",
+                "episode_id": "s01e01",
+                "result": "SAFE",
+                "technical_rank": 1,
+                "signature_dish": "Cake 1",
+                "showstopper_dish": "Cake 2",
+            },
+            {
+                "performance_id": "p2",
+                "baker_id": "b2",
+                "episode_id": "s01e01",
+                "result": "STAR_BAKER",
+                "technical_rank": 2,
+                "signature_dish": "Cake 3",
+                "showstopper_dish": "Cake 4",
+            },
+            {
+                "performance_id": "p3",
+                "baker_id": "b1",
+                "episode_id": "s01e02",
+                "result": "WINNER",
+                "technical_rank": 1,
+                "signature_dish": "Tart 1",
+                "showstopper_dish": "Tart 2",
+            },
+            {
+                "performance_id": "p4",
+                "baker_id": "b2",
+                "episode_id": "s01e02",
+                "result": "RUNNER_UP",
+                "technical_rank": 2,
+                "signature_dish": "Tart 3",
+                "showstopper_dish": "Tart 4",
+            },
+        ]
+    )
+    mock_seasons = pd.DataFrame([{"series_number": 1, "network": "BBC Two"}])
+
+    ud_metrics = compute_underdog_and_upset_metrics(
+        mock_bakers, mock_episodes, mock_perfs, mock_seasons
+    )
+    metrics_bundle = {
+        "star_baker_conversion": pd.DataFrame(
+            [{"star_bakers": 1, "win_rate": 50.0, "finalist_rate": 100.0}]
+        ),
+        "week1_star_bakers": pd.DataFrame(),
+        "star_baker_records": pd.DataFrame(),
+        "underdog_metrics": ud_metrics,
+    }
+
+    # Test _render_star_baker_tab with underdog arc section
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.altair_chart") as mock_chart,
+        patch("streamlit.dataframe"),
+        patch("streamlit.info") as mock_info,
+    ):
+        _render_star_baker_tab(metrics_bundle, era="ALL")
+        assert mock_chart.call_count >= 1
+        assert mock_info.call_count >= 1
+
+    # Test render_predictor_view with theme upset risk
+    mock_datasets = {
+        "bakers": mock_bakers,
+        "episodes": mock_episodes,
+        "performances": mock_perfs,
+        "seasons": mock_seasons,
+    }
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.altair_chart") as mock_chart,
+        patch("streamlit.radio", return_value="🏆 Series Forecast"),
+        patch("streamlit.selectbox", return_value=1),
+        patch("streamlit.dataframe"),
+    ):
+        render_predictor_view(mock_datasets)
+        assert mock_chart.call_count >= 1

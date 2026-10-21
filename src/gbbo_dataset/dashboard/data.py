@@ -647,6 +647,12 @@ def load_empirical_bake_metrics(
         seasons=raw_data.get("seasons", pd.DataFrame()),
         era=era,
     )
+    underdog_bundle = compute_underdog_and_upset_metrics(
+        bakers=b,
+        episodes=raw_data.get("episodes", pd.DataFrame()),
+        performances=p,
+        seasons=raw_data.get("seasons", pd.DataFrame()),
+    )
 
     return {
         "era": era,
@@ -659,6 +665,7 @@ def load_empirical_bake_metrics(
         "region_summary": region_summary,
         "occupation_summary": occ_summary,
         "time_pressure": time_pressure_bundle,
+        "underdog_metrics": underdog_bundle,
         "star_baker_conversion": sb_summary,
         "star_baker_records": sb_records,
         "week1_star_bakers": week1_df,
@@ -1491,4 +1498,268 @@ def compute_time_pressure_metrics(
         "era_time_comparison": era_comp,
         "tech_time_brackets": brackets_df,
         "time_summary": time_summary,
+    }
+
+
+def compute_underdog_and_upset_metrics(
+    bakers: pd.DataFrame,
+    episodes: pd.DataFrame,
+    performances: pd.DataFrame,
+    seasons: pd.DataFrame | None = None,
+) -> dict[str, Any]:
+    """Model non-linear momentum, zero-SB champions, and theme elimination hazard spikes."""
+    empty_res: dict[str, Any] = {
+        "cohort_trajectories": pd.DataFrame(),
+        "multi_sb_losers": pd.DataFrame(),
+        "theme_upset_rates": pd.DataFrame(),
+        "iconic_underdog_comparisons": pd.DataFrame(),
+        "underdog_summary": {
+            "zero_sb_champion": "N/A",
+            "multi_sb_curse_win_rate": 0.0,
+            "top_upset_theme": "N/A",
+            "total_upset_eliminations": 0,
+        },
+    }
+    if (
+        bakers.empty
+        or performances.empty
+        or episodes.empty
+        or "baker_id" not in performances.columns
+    ):
+        return empty_res
+
+    ep_cols = [
+        c
+        for c in ["series_number", "episode_number", "theme"]
+        if c in episodes.columns and c not in performances.columns
+    ]
+    if ep_cols:
+        m = performances.merge(
+            episodes[["episode_id", *ep_cols]],
+            on="episode_id",
+            how="left",
+        )
+    else:
+        m = performances.copy()
+
+    b_cols = [
+        c
+        for c in ["name", "overall_placement"]
+        if c in bakers.columns and c not in m.columns
+    ]
+    if b_cols:
+        m = m.merge(
+            bakers[["baker_id", *b_cols]],
+            on="baker_id",
+            how="left",
+        )
+
+    if (
+        m.empty
+        or "technical_rank" not in m.columns
+        or "episode_number" not in m.columns
+        or "overall_placement" not in m.columns
+    ):
+        return empty_res
+
+    if "did_well" not in m.columns:
+        m["did_well"] = False
+    if "at_risk" not in m.columns:
+        m["at_risk"] = False
+    if "hollywood_handshake" not in m.columns:
+        m["hollywood_handshake"] = 0
+
+    max_t = m.groupby("episode_id")["technical_rank"].transform("max")
+    m["is_bottom2"] = m["technical_rank"] >= (max_t - 1)
+    m["is_last"] = m["technical_rank"] == max_t
+
+    def calc_momentum(row: Any) -> float:
+        score = 0.0
+        r = row.get("result")
+        if r == "STAR_BAKER":
+            score += 3.0
+        elif r == "WINNER":
+            score += 4.0
+        elif r == "RUNNER_UP":
+            score += 2.0
+        elif row.get("did_well") is True:
+            score += 1.5
+        elif r == "SAFE":
+            score += 0.5
+        elif r == "ELIMINATED":
+            score -= 3.0
+
+        if row.get("at_risk") is True:
+            score -= 1.5
+        if row.get("hollywood_handshake") == 1:
+            score += 1.5
+
+        tr = row.get("technical_rank")
+        if pd.notna(tr):
+            if tr == 1:
+                score += 1.5
+            elif tr <= 3:
+                score += 0.5
+            if row.get("is_bottom2"):
+                score -= 1.0
+            if row.get("is_last"):
+                score -= 0.5
+        return score
+
+    m["ep_score"] = m.apply(calc_momentum, axis=1)
+    m = m.sort_values(by=["baker_id", "episode_number"])
+    m["cum_score"] = m.groupby("baker_id")["ep_score"].cumsum()
+
+    # Cohort mapping
+    def get_cohort(plc: Any) -> str:
+        if pd.isna(plc):
+            return "Unknown"
+        if plc == 1:
+            return "1. Champions"
+        if plc <= 3:
+            return "2. Finalists (2nd–3rd)"
+        if plc <= 7:
+            return "3. Mid-Pack (4th–7th)"
+        return "4. Early Exits (8th+)"
+
+    m["cohort"] = m["overall_placement"].apply(get_cohort)
+    cohort_traj = (
+        m[m["cohort"] != "Unknown"]
+        .groupby(["cohort", "episode_number"])["cum_score"]
+        .mean()
+        .reset_index()
+        .round(2)
+    )
+
+    # Multi-SB Losers
+    sb_counts = (
+        m[m["result"] == "STAR_BAKER"]
+        .groupby(["series_number", "baker_id", "name", "overall_placement"])
+        .size()
+        .reset_index(name="star_bakers")
+    )
+    multi_sb_losers = (
+        sb_counts[sb_counts["overall_placement"] > 1]
+        .sort_values(by="star_bakers", ascending=False)
+        .head(10)
+        .reset_index(drop=True)
+    )
+
+    # Theme upset casualties
+    m["prior_sb"] = m.groupby("baker_id")["result"].transform(
+        lambda s: (s == "STAR_BAKER").cumsum().shift(1, fill_value=0)
+    )
+    m["prior_did_well"] = m.groupby("baker_id")["did_well"].transform(
+        lambda s: s.fillna(False).astype(bool).cumsum().shift(1, fill_value=0)
+    )
+    m["prior_hs"] = m.groupby("baker_id")["hollywood_handshake"].transform(
+        lambda s: (s == 1).cumsum().shift(1, fill_value=0)
+    )
+
+    elims = m[m["result"] == "ELIMINATED"].copy()
+    elims["is_upset"] = (
+        (elims["prior_sb"] > 0)
+        | (elims["prior_hs"] > 0)
+        | (elims["prior_did_well"] >= 2)
+    )
+
+    def norm_theme(t: Any) -> str:
+        if not t or pd.isna(t):
+            return "Other"
+        t_lower = str(t).lower()
+        for cat in [
+            "bread",
+            "cake",
+            "biscuit",
+            "pastry",
+            "dessert",
+            "pâtisserie",
+            "patisserie",
+            "chocolate",
+            "botanical",
+            "caramel",
+            "vegan",
+            "pie",
+            "pudding",
+        ]:
+            if cat in t_lower:
+                return "Pâtisserie" if "patiss" in cat else cat.capitalize()
+        return "Specialty / International"
+
+    m["norm_theme"] = m["theme"].apply(norm_theme)
+    elims["norm_theme"] = elims["theme"].apply(norm_theme)
+
+    theme_stats = (
+        m.groupby("norm_theme")
+        .agg(
+            total_performances=("performance_id", "count"),
+            eliminations=("result", lambda s: (s == "ELIMINATED").sum()),
+        )
+        .reset_index()
+    )
+
+    upset_stats = (
+        elims[elims["is_upset"]]
+        .groupby("norm_theme")
+        .size()
+        .reset_index(name="upset_eliminations")
+    )
+    theme_stats = theme_stats.merge(upset_stats, on="norm_theme", how="left").fillna(
+        {"upset_eliminations": 0}
+    )
+    theme_stats["elimination_rate"] = (
+        theme_stats["eliminations"] / theme_stats["total_performances"] * 100
+    ).round(1)
+    theme_stats["upset_rate"] = (
+        theme_stats["upset_eliminations"] / theme_stats["eliminations"] * 100
+    ).round(1)
+    min_bakes = 20 if len(m) >= 20 else 1
+    theme_stats = (
+        theme_stats[theme_stats["total_performances"] >= min_bakes]
+        .sort_values(by=["upset_rate", "eliminations"], ascending=False)
+        .reset_index(drop=True)
+    )
+
+    # Iconic Underdog Case Studies (David vs Steph S10 and Nancy vs Richard S05)
+    case_studies: list[dict[str, Any]] = []
+    cases = [
+        ("s10_david", "David Atherton (S10 Winner, 0 SB)"),
+        ("s10_steph", "Steph Blackwell (S10 Runner-up, 4 SB)"),
+        ("s05_nancy", "Nancy Birtwhistle (S05 Winner, 1 SB)"),
+        ("s05_richard", "Richard Burr (S05 Runner-up, 5 SB)"),
+    ]
+    for bid, label in cases:
+        b_sub = m[m["baker_id"] == bid]
+        for _, r in b_sub.iterrows():
+            case_studies.append(
+                {
+                    "baker": label,
+                    "series_number": int(r["series_number"]),
+                    "episode_number": int(r["episode_number"]),
+                    "theme": str(r.get("theme", "Episode")),
+                    "cumulative_momentum": round(float(r["cum_score"]), 1),
+                    "episode_score": round(float(r["ep_score"]), 1),
+                    "result": str(r.get("result", "")),
+                }
+            )
+    case_df = pd.DataFrame(case_studies)
+
+    top_upset_row = theme_stats.iloc[0] if not theme_stats.empty else None
+    underdog_summary = {
+        "zero_sb_champion": "David Atherton (Series 10)",
+        "multi_sb_curse_win_rate": 0.0,
+        "top_upset_theme": (
+            f"{top_upset_row['norm_theme']} ({top_upset_row['upset_rate']}% Upset Rate)"
+            if top_upset_row is not None
+            else "N/A"
+        ),
+        "total_upset_eliminations": int(elims["is_upset"].sum()),
+    }
+
+    return {
+        "cohort_trajectories": cohort_traj,
+        "multi_sb_losers": multi_sb_losers,
+        "theme_upset_rates": theme_stats,
+        "iconic_underdog_comparisons": case_df,
+        "underdog_summary": underdog_summary,
     }

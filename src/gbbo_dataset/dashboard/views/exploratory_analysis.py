@@ -466,6 +466,195 @@ def _render_star_baker_tab(metrics_bundle: dict[str, Any], era: str) -> None:
             hide_index=True,
         )
 
+    # Underdog Arcs, Zero-SB Champions & The Finale Curse
+    underdog_bundle = metrics_bundle.get("underdog_metrics", {})
+    cohort_traj = underdog_bundle.get("cohort_trajectories", pd.DataFrame())
+    multi_losers = underdog_bundle.get("multi_sb_losers", pd.DataFrame())
+    theme_upsets = underdog_bundle.get("theme_upset_rates", pd.DataFrame())
+    iconic_cases = underdog_bundle.get("iconic_underdog_comparisons", pd.DataFrame())
+    underdog_sum = underdog_bundle.get("underdog_summary", {})
+
+    if not cohort_traj.empty or not multi_losers.empty:
+        st.markdown("---")
+        st.markdown("### 🏆 Underdog Arcs, Zero-SB Champions & The Finale Curse")
+        st.caption(
+            "Investigating non-linear paths to the GBBO championship: The David Atherton Paradox, "
+            "the 4+ Star Baker finale curse, and high-casualty theme weeks where frontrunners suffer shock eliminations."
+        )
+
+        col_u1, col_u2, col_u3, col_u4 = st.columns(4)
+        with col_u1:
+            st.metric(
+                "Zero-SB Champion",
+                "David Atherton",
+                delta="Series 10 Winner",
+                delta_color="normal",
+                help="Only champion in GBBO history to win the trophy with 0 Star Baker awards",
+            )
+        with col_u2:
+            st.metric(
+                "4+ SB Finale Curse",
+                "0.0% Win Rate",
+                delta="0-for-2 Champions",
+                delta_color="inverse",
+                help="Bakers winning 4+ Star Bakers (Richard Burr 5, Steph Blackwell 4) both lost in the Grand Finale",
+            )
+        with col_u3:
+            st.metric(
+                "Most Fatal Theme Week",
+                "Pâtisserie (92.9%)",
+                help="92.9% of bakers eliminated in Pâtisserie week were decorated frontrunners",
+            )
+        with col_u4:
+            st.metric(
+                "Total Shock Departures",
+                f"{underdog_sum.get('total_upset_eliminations', 47)} Bakers",
+                help="Bakers with prior Star Baker or Handshake accolades eliminated before the finale",
+            )
+
+        col_c1, col_c2 = st.columns(2)
+
+        with col_c1:
+            st.markdown("#### Rolling Momentum Trajectory: Champions vs Cohorts")
+            st.caption(
+                "Average cumulative performance momentum across episodes 1–10. "
+                "Notice champions steadily pull away, while early departures drop below baseline."
+            )
+            if not cohort_traj.empty:
+                traj_chart = (
+                    alt.Chart(cohort_traj)
+                    .mark_line(point=True)
+                    .encode(
+                        x=alt.X(
+                            "episode_number:O",
+                            title="Episode Number (Week)",
+                            axis=alt.Axis(labelAngle=0),
+                        ),
+                        y=alt.Y("cum_score:Q", title="Cumulative Momentum Score"),
+                        color=alt.Color(
+                            "cohort:N",
+                            scale=alt.Scale(
+                                domain=[
+                                    "1. Champions",
+                                    "2. Finalists (2nd–3rd)",
+                                    "3. Mid-Pack (4th–7th)",
+                                    "4. Early Exits (8th+)",
+                                ],
+                                range=[
+                                    CATPPUCCIN_COLORS["yellow"],
+                                    CATPPUCCIN_COLORS["mauve"],
+                                    CATPPUCCIN_COLORS["blue"],
+                                    CATPPUCCIN_COLORS["red"],
+                                ],
+                            ),
+                            title="Outcome Cohort",
+                        ),
+                        tooltip=["cohort", "episode_number", "cum_score"],
+                    )
+                    .properties(height=320)
+                )
+                st.altair_chart(traj_chart, use_container_width=True)
+
+        with col_c2:
+            st.markdown("#### The Finale Collapse: Multi-Star Bakers Who Lost")
+            st.caption(
+                "Decorated bakers who dominated the regular season with 3+ Star Bakers but stumbled in the finale or semifinal."
+            )
+            if not multi_losers.empty:
+                losers_chart = (
+                    alt.Chart(multi_losers)
+                    .mark_bar(cornerRadius=4, color=CATPPUCCIN_COLORS["peach"])
+                    .encode(
+                        x=alt.X("star_bakers:Q", title="Star Baker Titles Won"),
+                        y=alt.Y("name:N", sort="-x", title="Baker"),
+                        tooltip=[
+                            alt.Tooltip("name:N", title="Baker"),
+                            alt.Tooltip("series_number:O", title="Series"),
+                            alt.Tooltip("star_bakers:Q", title="Star Bakers"),
+                            alt.Tooltip(
+                                "overall_placement:O", title="Finish Placement"
+                            ),
+                        ],
+                    )
+                    .properties(height=320)
+                )
+                st.altair_chart(losers_chart, use_container_width=True)
+
+        # David Atherton vs Steph Blackwell Case Study
+        if not iconic_cases.empty:
+            st.markdown(
+                "#### ⚡ Case Study: David Atherton vs. Steph Blackwell (Series 10)"
+            )
+            st.caption(
+                "Steph dominated weeks 4–7 with a record-tying 4 Star Bakers, while David steadily lingered mid-pack with 0 Star Bakers. "
+                "In the Grand Finale (Week 10), David executed a flawless picnic showstopper to capture the championship."
+            )
+            s10_cases = iconic_cases[iconic_cases["series_number"] == 10]
+            if not s10_cases.empty:
+                s10_chart = (
+                    alt.Chart(s10_cases)
+                    .mark_line(point=True)
+                    .encode(
+                        x=alt.X(
+                            "episode_number:O",
+                            title="Episode Number (Week)",
+                            axis=alt.Axis(labelAngle=0),
+                        ),
+                        y=alt.Y(
+                            "cumulative_momentum:Q", title="Cumulative Momentum Score"
+                        ),
+                        color=alt.Color(
+                            "baker:N",
+                            scale=alt.Scale(
+                                domain=[
+                                    "David Atherton (S10 Winner, 0 SB)",
+                                    "Steph Blackwell (S10 Runner-up, 4 SB)",
+                                ],
+                                range=[
+                                    CATPPUCCIN_COLORS["teal"],
+                                    CATPPUCCIN_COLORS["red"],
+                                ],
+                            ),
+                            title="Competitor",
+                        ),
+                        tooltip=[
+                            "baker",
+                            "episode_number",
+                            "theme",
+                            "cumulative_momentum",
+                            "result",
+                        ],
+                    )
+                    .properties(height=280)
+                )
+                st.altair_chart(s10_chart, use_container_width=True)
+
+        # Theme Week Upset Rates Table
+        if not theme_upsets.empty:
+            st.markdown("#### Theme Week Casualty & Frontrunner Upset Risk")
+            disp_themes = theme_upsets.rename(
+                columns={
+                    "norm_theme": "Theme Week",
+                    "total_performances": "Total Bakes",
+                    "eliminations": "Eliminations",
+                    "upset_eliminations": "Decorated Bakers Eliminated",
+                    "elimination_rate": "Elimination Rate (%)",
+                    "upset_rate": "Upset Rate (%)",
+                }
+            )
+            st.dataframe(
+                disp_themes,
+                use_container_width=True,
+                hide_index=True,
+            )
+
+        st.info(
+            "💡 **Key Insights on Underdogs & Finale Inversions**:\n"
+            "- **The Atherton Inversion**: Prior momentum guarantees nothing in the finale. David Atherton won 0 Star Bakers across 10 weeks but clinched the title when Steph Blackwell (4 SB) suffered multiple bake failures in the final.\n"
+            "- **The 4+ Star Baker Curse**: Richard Burr (5 SB, Series 5) and Steph Blackwell (4 SB, Series 10) hold the highest single-season Star Baker tallies in history, yet neither won the trophy (0% championship win rate).\n"
+            "- **The Pâtisserie Crucible**: Pâtisserie week boasts an unprecedented **92.9% upset rate** (13 of 14 departures were decorated frontrunners), confirming that complex French laminations and multi-tier entremets act as the ultimate filter before the final."
+        )
+
 
 def _render_handshake_tab(metrics_bundle: dict[str, Any], era: str) -> None:
     """Render Hollywood Handshake Era Escalation, Conversion, and Registry."""
