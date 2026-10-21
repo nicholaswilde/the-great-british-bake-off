@@ -15,6 +15,7 @@ from gbbo_dataset.dashboard.data import (
     compute_baker_skills,
     compute_champion_benchmark,
     compute_occupational_metrics,
+    compute_time_pressure_metrics,
     load_all_datasets,
     load_empirical_bake_metrics,
     load_table,
@@ -27,6 +28,7 @@ from gbbo_dataset.dashboard.views.baker_profiles import (
 from gbbo_dataset.dashboard.views.challenge_analytics import render_challenge_analytics
 from gbbo_dataset.dashboard.views.exploratory_analysis import (
     _render_demographics_tab,
+    _render_technical_tab,
     render_exploratory_analysis,
 )
 from gbbo_dataset.dashboard.views.handshake_tracker import render_handshake_tracker
@@ -857,3 +859,151 @@ def test_occupational_views_rendering():
             if call.args and isinstance(call.args[0], str)
         )
         assert radar_rendered
+
+
+def test_time_pressure_metrics():
+    """Test challenge duration squeeze and time pressure calculations."""
+    # Test empty fallback
+    empty_res = compute_time_pressure_metrics(
+        pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
+    )
+    assert empty_res["series_time_trajectory"].empty
+    assert empty_res["era_time_comparison"].empty
+    assert empty_res["time_summary"]["shortest_technical"] == "N/A"
+
+    # Test with mock data
+    mock_episodes = pd.DataFrame(
+        [
+            {
+                "episode_id": "s01e01",
+                "series_number": 1,
+                "episode_number": 1,
+                "theme": "Cake",
+                "signature_time_min": 150.0,
+                "technical_time_min": 90.0,
+                "showstopper_time_min": 240.0,
+            },
+            {
+                "episode_id": "s08e01",
+                "series_number": 8,
+                "episode_number": 1,
+                "theme": "Cake",
+                "signature_time_min": 120.0,
+                "technical_time_min": 120.0,
+                "showstopper_time_min": 240.0,
+            },
+        ]
+    )
+    mock_seasons = pd.DataFrame(
+        [
+            {"series_number": 1, "network": "BBC Two"},
+            {"series_number": 8, "network": "Channel 4"},
+        ]
+    )
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "baker_id": "b1",
+                "episode_id": "s01e01",
+                "technical_rank": 1,
+                "result": "STAR_BAKER",
+            },
+            {
+                "baker_id": "b2",
+                "episode_id": "s01e01",
+                "technical_rank": 2,
+                "result": "ELIMINATED",
+            },
+            {
+                "baker_id": "b3",
+                "episode_id": "s08e01",
+                "technical_rank": 1,
+                "result": "SAFE",
+            },
+            {
+                "baker_id": "b4",
+                "episode_id": "s08e01",
+                "technical_rank": 2,
+                "result": "ELIMINATED",
+            },
+        ]
+    )
+
+    res = compute_time_pressure_metrics(mock_episodes, mock_perfs, mock_seasons)
+    assert not res["series_time_trajectory"].empty
+    assert not res["era_time_comparison"].empty
+    assert len(res["era_time_comparison"]) == 2
+    assert res["time_summary"]["shortest_technical"] == "Cake (90m, S01E01)"
+    assert res["time_summary"]["longest_technical"] == "Cake (120m, S08E01)"
+    assert res["time_summary"]["bbc_avg_total"] == 480.0
+    assert res["time_summary"]["c4_avg_total"] == 480.0
+    assert not res["tech_time_brackets"].empty
+
+
+def test_time_pressure_views_rendering():
+    """Test rendering of technical tab with time pressure and challenge analytics."""
+    mock_episodes = pd.DataFrame(
+        [
+            {
+                "episode_id": "s01e01",
+                "series_number": 1,
+                "episode_number": 1,
+                "theme": "Cake",
+                "signature_time_min": 150.0,
+                "technical_time_min": 90.0,
+                "showstopper_time_min": 240.0,
+            }
+        ]
+    )
+    mock_seasons = pd.DataFrame([{"series_number": 1, "network": "BBC Two"}])
+    mock_perfs = pd.DataFrame(
+        [
+            {
+                "baker_id": "b1",
+                "episode_id": "s01e01",
+                "signature_dish": "Lemon Tart",
+                "showstopper_dish": "Chocolate Tier",
+                "technical_rank": 1,
+                "result": "STAR_BAKER",
+            }
+        ]
+    )
+    tp_res = compute_time_pressure_metrics(mock_episodes, mock_perfs, mock_seasons)
+    metrics_bundle = {
+        "tech_bottom2_hazard_pct": 25.0,
+        "tech_other_hazard_pct": 5.0,
+        "tech_rank1_to_sb_pct": 33.3,
+        "tech_cohorts": pd.DataFrame([{"cohort": "1st Place", "elim_rate": 0.0}]),
+        "tech_tiers": pd.DataFrame(
+            [{"tier": "1. Champion", "avg_tech_percentile": 75.0}]
+        ),
+        "time_pressure": tp_res,
+    }
+
+    # Test _render_technical_tab with time pressure section
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.altair_chart") as mock_chart,
+        patch("streamlit.dataframe") as mock_df,
+        patch("streamlit.info") as mock_info,
+    ):
+        _render_technical_tab(metrics_bundle, era="ALL")
+        assert mock_chart.call_count >= 2
+        assert mock_df.call_count >= 1
+        assert mock_info.call_count >= 1
+
+    # Test render_challenge_analytics with time pressure
+    mock_datasets = {
+        "episodes": mock_episodes,
+        "performances": mock_perfs,
+        "seasons": mock_seasons,
+        "bakers": pd.DataFrame(
+            [{"baker_id": "b1", "name": "Baker 1", "series_number": 1}]
+        ),
+    }
+    with (
+        patch("streamlit.columns", side_effect=_mock_columns),
+        patch("streamlit.altair_chart") as mock_chart,
+    ):
+        render_challenge_analytics(mock_datasets)
+        assert mock_chart.call_count >= 2

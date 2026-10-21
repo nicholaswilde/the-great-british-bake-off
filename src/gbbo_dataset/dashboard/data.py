@@ -641,6 +641,12 @@ def load_empirical_bake_metrics(
     flavor_bundle = calculate_flavor_statistics(nlp_df if not nlp_df.empty else p)
     social_bundle = compute_social_sentiment_metrics(raw_data=raw_data, era=era)
     occ_summary = compute_occupational_metrics(bakers=b, performances=p, era=era)
+    time_pressure_bundle = compute_time_pressure_metrics(
+        episodes=raw_data.get("episodes", pd.DataFrame()),
+        performances=raw_data.get("performances", pd.DataFrame()),
+        seasons=raw_data.get("seasons", pd.DataFrame()),
+        era=era,
+    )
 
     return {
         "era": era,
@@ -652,6 +658,7 @@ def load_empirical_bake_metrics(
         "gender_summary": gender_summary,
         "region_summary": region_summary,
         "occupation_summary": occ_summary,
+        "time_pressure": time_pressure_bundle,
         "star_baker_conversion": sb_summary,
         "star_baker_records": sb_records,
         "week1_star_bakers": week1_df,
@@ -1273,3 +1280,215 @@ def compute_champion_benchmark(
     profiles = [compute_baker_skills(cid, performances) for cid in champs]
     df = pd.DataFrame(profiles)
     return {col: round(float(df[col].mean()), 1) for col in df.columns}
+
+
+def compute_time_pressure_metrics(
+    episodes: pd.DataFrame,
+    performances: pd.DataFrame,
+    seasons: pd.DataFrame,
+    era: str = "ALL",
+) -> dict[str, Any]:
+    """Analyze challenge time allotments, broadcasting era squeeze, and disaster rates."""
+    empty_res: dict[str, Any] = {
+        "series_time_trajectory": pd.DataFrame(),
+        "era_time_comparison": pd.DataFrame(),
+        "tech_time_brackets": pd.DataFrame(),
+        "time_summary": {
+            "bbc_avg_total": 0.0,
+            "c4_avg_total": 0.0,
+            "total_time_squeeze_min": 0.0,
+            "shortest_technical": "N/A",
+            "longest_technical": "N/A",
+            "fast_bracket_hazard": 0.0,
+        },
+    }
+    if episodes.empty or "signature_time_min" not in episodes.columns:
+        return empty_res
+
+    e = episodes.copy()
+    s = seasons.copy() if seasons is not None and not seasons.empty else pd.DataFrame()
+    p = (
+        performances.copy()
+        if performances is not None and not performances.empty
+        else pd.DataFrame()
+    )
+
+    if not s.empty and "series_number" in s.columns:
+        e = e.merge(s[["series_number", "network"]], on="series_number", how="left")
+    else:
+        e["network"] = "Unknown"
+
+    e["broadcasting_era"] = e["network"].apply(
+        lambda n: (
+            "BBC Era"
+            if "BBC" in str(n)
+            else ("Channel 4 Era" if "Channel 4" in str(n) else "Unknown")
+        )
+    )
+
+    e["total_bake_time_min"] = (
+        e["signature_time_min"] + e["technical_time_min"] + e["showstopper_time_min"]
+    )
+
+    # Era comparison table across all valid episodes with total time
+    era_comp = (
+        e[
+            e["broadcasting_era"].isin(["BBC Era", "Channel 4 Era"])
+            & e["total_bake_time_min"].notna()
+        ]
+        .groupby("broadcasting_era")
+        .agg(
+            episodes=("episode_id", "count"),
+            avg_signature=("signature_time_min", "mean"),
+            avg_technical=("technical_time_min", "mean"),
+            avg_showstopper=("showstopper_time_min", "mean"),
+            avg_total=("total_bake_time_min", "mean"),
+        )
+        .reset_index()
+        .round(1)
+    )
+
+    # Filter by era if requested
+    era_clean = str(era).strip().upper()
+    if "BBC" in era_clean:
+        e_filtered = e[e["broadcasting_era"] == "BBC Era"]
+    elif "CHANNEL" in era_clean or "C4" in era_clean:
+        e_filtered = e[e["broadcasting_era"] == "Channel 4 Era"]
+    else:
+        e_filtered = e
+
+    # Series longitudinal trajectory
+    series_traj = (
+        e_filtered.groupby(["series_number", "broadcasting_era"])
+        .agg(
+            signature_time=("signature_time_min", "mean"),
+            technical_time=("technical_time_min", "mean"),
+            showstopper_time=("showstopper_time_min", "mean"),
+            total_time=("total_bake_time_min", "mean"),
+            episodes=("episode_id", "count"),
+        )
+        .reset_index()
+    )
+    series_traj = series_traj.dropna(
+        subset=["signature_time", "technical_time", "showstopper_time"]
+    )
+    series_traj = series_traj.round(1)
+
+    # Technical brackets and hazard analysis
+    brackets_df = pd.DataFrame()
+    if not p.empty and "technical_rank" in p.columns:
+        m = p.merge(e_filtered, on="episode_id", how="left")
+        m_valid = m.dropna(subset=["technical_time_min", "technical_rank"]).copy()
+        if not m_valid.empty:
+            max_t = m_valid.groupby("episode_id")["technical_rank"].transform("max")
+            m_valid["is_bottom2"] = m_valid["technical_rank"] >= (max_t - 1)
+            m_valid["is_rank1"] = m_valid["technical_rank"] == 1
+            m_valid["is_elim"] = m_valid["result"] == "ELIMINATED"
+            m_valid["is_sb"] = m_valid["result"] == "STAR_BAKER"
+
+            m_valid["bracket"] = pd.cut(
+                m_valid["technical_time_min"],
+                bins=[0, 90, 120, 150, 999],
+                labels=[
+                    "Ultra-Fast (≤90m)",
+                    "Fast (91–120m)",
+                    "Standard (121–150m)",
+                    "Generous (>150m)",
+                ],
+            )
+
+            bracket_rows = []
+            for b_name, grp in m_valid.groupby("bracket", observed=False):
+                eps_cnt = grp["episode_id"].nunique()
+                mean_t = (
+                    round(float(grp["technical_time_min"].mean()), 1)
+                    if not grp.empty
+                    else 0.0
+                )
+                b2_sub = grp[grp["is_bottom2"]]
+                b2_hazard = (
+                    round(float(b2_sub["is_elim"].mean() * 100), 1)
+                    if not b2_sub.empty
+                    else 0.0
+                )
+                r1_sub = grp[grp["is_rank1"]]
+                r1_sb_conv = (
+                    round(float(r1_sub["is_sb"].mean() * 100), 1)
+                    if not r1_sub.empty
+                    else 0.0
+                )
+                bracket_rows.append(
+                    {
+                        "bracket": str(b_name),
+                        "episodes": eps_cnt,
+                        "mean_time_min": mean_t,
+                        "bottom2_hazard_pct": b2_hazard,
+                        "rank1_to_sb_pct": r1_sb_conv,
+                    }
+                )
+            brackets_df = pd.DataFrame(bracket_rows)
+
+    shortest_tech = (
+        e.dropna(subset=["technical_time_min"])
+        .sort_values("technical_time_min")
+        .iloc[0]
+        if not e.dropna(subset=["technical_time_min"]).empty
+        else None
+    )
+    longest_tech = (
+        e.dropna(subset=["technical_time_min"])
+        .sort_values("technical_time_min")
+        .iloc[-1]
+        if not e.dropna(subset=["technical_time_min"]).empty
+        else None
+    )
+
+    bbc_total = (
+        float(era_comp[era_comp["broadcasting_era"] == "BBC Era"]["avg_total"].iloc[0])
+        if not era_comp.empty and "BBC Era" in era_comp["broadcasting_era"].values
+        else 0.0
+    )
+    c4_total = (
+        float(
+            era_comp[era_comp["broadcasting_era"] == "Channel 4 Era"]["avg_total"].iloc[
+                0
+            ]
+        )
+        if not era_comp.empty and "Channel 4 Era" in era_comp["broadcasting_era"].values
+        else 0.0
+    )
+
+    fast_hazard = (
+        float(
+            brackets_df[brackets_df["bracket"] == "Ultra-Fast (≤90m)"][
+                "bottom2_hazard_pct"
+            ].iloc[0]
+        )
+        if not brackets_df.empty
+        and "Ultra-Fast (≤90m)" in brackets_df["bracket"].values
+        else 0.0
+    )
+
+    time_summary = {
+        "bbc_avg_total": bbc_total,
+        "c4_avg_total": c4_total,
+        "total_time_squeeze_min": round(bbc_total - c4_total, 1),
+        "shortest_technical": (
+            f"{shortest_tech['theme']} ({int(shortest_tech['technical_time_min'])}m, S{shortest_tech['series_number']:02d}E{shortest_tech['episode_number']:02d})"
+            if shortest_tech is not None
+            else "N/A"
+        ),
+        "longest_technical": (
+            f"{longest_tech['theme']} ({int(longest_tech['technical_time_min'])}m, S{longest_tech['series_number']:02d}E{longest_tech['episode_number']:02d})"
+            if longest_tech is not None
+            else "N/A"
+        ),
+        "fast_bracket_hazard": fast_hazard,
+    }
+
+    return {
+        "series_time_trajectory": series_traj,
+        "era_time_comparison": era_comp,
+        "tech_time_brackets": brackets_df,
+        "time_summary": time_summary,
+    }

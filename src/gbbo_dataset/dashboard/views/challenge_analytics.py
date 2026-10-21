@@ -6,6 +6,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+from gbbo_dataset.dashboard.data import compute_time_pressure_metrics
 from gbbo_dataset.nlp_flavors import calculate_flavor_statistics
 
 
@@ -20,6 +21,7 @@ def render_challenge_analytics(data: dict[str, pd.DataFrame]) -> None:
     episodes = data.get("episodes", pd.DataFrame())
     performances = data.get("performances", pd.DataFrame())
     bakers = data.get("bakers", pd.DataFrame())
+    seasons = data.get("seasons", pd.DataFrame())
 
     # 1. Historical Theme Frequency
     col_t1, col_t2 = st.columns([1, 1])
@@ -47,8 +49,45 @@ def render_challenge_analytics(data: dict[str, pd.DataFrame]) -> None:
             st.altair_chart(theme_chart, use_container_width=True)
 
     with col_t2:
-        st.subheader("⏱️ Average Challenge Time Limits")
-        if not episodes.empty:
+        st.subheader("⏱️ Challenge Time Allotments & Era Squeeze")
+        tp_data = compute_time_pressure_metrics(episodes, performances, seasons)
+        era_df = tp_data.get("era_time_comparison", pd.DataFrame())
+
+        if not era_df.empty:
+            melted_era = era_df.melt(
+                id_vars=["broadcasting_era"],
+                value_vars=["avg_signature", "avg_technical", "avg_showstopper"],
+                var_name="Challenge",
+                value_name="Minutes",
+            )
+            melted_era["Challenge"] = melted_era["Challenge"].map(
+                {
+                    "avg_signature": "Signature",
+                    "avg_technical": "Technical",
+                    "avg_showstopper": "Showstopper",
+                }
+            )
+            time_chart = (
+                alt.Chart(melted_era)
+                .mark_bar(cornerRadius=4)
+                .encode(
+                    x=alt.X("Challenge:N", sort=None),
+                    y=alt.Y("Minutes:Q", title="Average Minutes"),
+                    color=alt.Color(
+                        "broadcasting_era:N",
+                        scale=alt.Scale(
+                            domain=["BBC Era", "Channel 4 Era"],
+                            range=["#cba6f7", "#fab387"],
+                        ),
+                        title="Broadcasting Era",
+                    ),
+                    xOffset="broadcasting_era:N",
+                    tooltip=["Challenge", "broadcasting_era", "Minutes"],
+                )
+                .properties(height=300)
+            )
+            st.altair_chart(time_chart, use_container_width=True)
+        elif not episodes.empty:
             time_cols = [
                 c
                 for c in [
