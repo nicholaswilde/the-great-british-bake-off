@@ -10,10 +10,16 @@ from typer.testing import CliRunner
 
 from gbbo_dataset.cli import app
 from gbbo_dataset.nlp_flavors import (
+    calculate_category_evolution,
+    calculate_cooccurrence_affinity,
+    calculate_family_risk_matrix,
     calculate_flavor_statistics,
+    calculate_ingredient_risk_matrix,
+    calculate_technique_evolution,
     enrich_performances_with_nlp,
     extract_bake_styles,
     extract_flavors,
+    extract_techniques,
     run_nlp_flavor_pipeline,
 )
 
@@ -182,3 +188,90 @@ def test_cli_extract_flavors(tmp_path: Path):
     assert result.exit_code == 0
     assert "Top 10 Flavor Families" in result.output
     assert (tmp_path / "cli_bakes_nlp.json").exists()
+
+
+def test_extract_techniques():
+    """Verify detection of modern showstopper techniques."""
+    assert extract_techniques(None) == []
+    assert extract_techniques("") == []
+
+    dish = "Mirror Glaze Triple Tiered Cake"
+    techs = extract_techniques(dish)
+    assert "Mirror Glaze" in techs
+    assert "Geometric / Tiered" in techs
+
+    dish2 = "Vegan and Gluten-Free Chocolate Illusion Bust"
+    techs2 = extract_techniques(dish2)
+    assert "Vegan / Plant-Based" in techs2
+    assert "Gluten-Free" in techs2
+    assert "Illusion / 3D" in techs2
+
+
+def test_risk_matrices_and_evolutions():
+    """Verify ingredient risk matrices, co-occurrence affinity, and evolutions."""
+    # Test empty dataframe handling
+    empty_df = pd.DataFrame()
+    assert calculate_ingredient_risk_matrix(empty_df) == []
+    assert calculate_family_risk_matrix(empty_df) == []
+    assert calculate_cooccurrence_affinity(empty_df) == []
+    assert calculate_technique_evolution(empty_df) == []
+    assert calculate_category_evolution(empty_df) == []
+
+    # Populated test dataset
+    mock_df = pd.DataFrame(
+        [
+            {
+                "episode_id": "s07e01",
+                "signature_dish": "Rosewater and Raspberry Tart",
+                "showstopper_dish": "Mirror Glaze Illusion Cake",
+                "result": "ELIMINATED",
+                "at_risk": True,
+                "hollywood_handshake": False,
+            },
+            {
+                "episode_id": "s07e01",
+                "signature_dish": "Cardamom and Orange Brioche",
+                "showstopper_dish": "Caramel and Hazelnut Entremet",
+                "result": "STAR_BAKER",
+                "at_risk": False,
+                "hollywood_handshake": True,
+            },
+            {
+                "episode_id": "s07e02",
+                "signature_dish": "Rosewater Brioche",
+                "showstopper_dish": "Strawberry Tart",
+                "result": "ELIMINATED",
+                "at_risk": True,
+                "hollywood_handshake": False,
+            },
+            {
+                "episode_id": "s07e02",
+                "signature_dish": "Rosewater Bun",
+                "showstopper_dish": "Pistachio Cake",
+                "result": "SAFE",
+                "at_risk": False,
+                "hollywood_handshake": False,
+            },
+        ]
+    )
+
+    ing_matrix = calculate_ingredient_risk_matrix(mock_df, min_bakes=2)
+    assert len(ing_matrix) >= 1
+    rose_entry = next(item for item in ing_matrix if item["ingredient"] == "Rose")
+    assert rose_entry["bakes_count"] == 3
+    assert rose_entry["danger_count"] == 2
+    assert rose_entry["risk_tier"] == "🚨 High Risk"
+
+    fam_matrix = calculate_family_risk_matrix(mock_df, min_bakes=1)
+    assert len(fam_matrix) >= 1
+
+    affinity = calculate_cooccurrence_affinity(mock_df, min_pairs=1)
+    assert len(affinity) >= 1
+
+    tech_evo = calculate_technique_evolution(mock_df)
+    assert len(tech_evo) >= 5
+    mirror_glaze = next(t for t in tech_evo if t["technique"] == "Mirror Glaze")
+    assert mirror_glaze["bakes_count"] == 1
+
+    cat_evo = calculate_category_evolution(mock_df)
+    assert len(cat_evo) >= 6

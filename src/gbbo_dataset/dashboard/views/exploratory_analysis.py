@@ -562,63 +562,208 @@ def _render_technical_tab(metrics_bundle: dict[str, Any], era: str) -> None:
 
 
 def _render_flavor_theme_tab(metrics_bundle: dict[str, Any], era: str) -> None:
-    """Render Flavor NLP distributions and Theme Hazards."""
-    st.markdown("### Flavor Profiles & Theme Hazards")
+    """Render Flavor NLP distributions, Risk Index, Affinity, and Technique Evolution."""
+    st.markdown("### 🍓 Flavor Risk Index, Co-Occurrence & Bake Style Evolution")
+    st.caption(
+        f"NLP-extracted flavor profiles, botanical danger zones, Star Baker pairing affinities, "
+        f"and longitudinal bake technique evolution across series ({era})."
+    )
+
     hazards_df = metrics_bundle.get("theme_hazards", pd.DataFrame())
     flavor_bundle = metrics_bundle.get("flavor_stats", {})
-    flavor_counts = flavor_bundle.get("flavor_counts", {})
-    co_pairs = flavor_bundle.get("co_occurring_pairs", [])
+    ing_matrix = flavor_bundle.get("ingredient_risk_matrix", [])
+    family_matrix = flavor_bundle.get("family_risk_matrix", [])
+    affinity_pairs = flavor_bundle.get("cooccurrence_affinity", [])
+    tech_evolution = flavor_bundle.get("technique_evolution", [])
+    cat_evolution = flavor_bundle.get("category_evolution", [])
 
+    # 1. Headline KPI Cards
     col_m1, col_m2, col_m3, col_m4 = st.columns(4)
     with col_m1:
         st.metric("Unique Bakes Analyzed", "1,200+")
     with col_m2:
         st.metric(
-            "Bread Week Mortality",
-            "10.0%",
-            help="Bread Week features intense dough fermentation and kneading technical pitfalls",
+            "Highest Risk Botanical",
+            "Rose / Saffron",
+            "40.7% – 57.1% Danger",
+            help="Bakers using floral rosewater or delicate saffron suffer high elimination and at-risk rates.",
         )
     with col_m3:
         st.metric(
-            "Top Flavor Category",
-            "Chocolate",
-            help="Present in over 260 distinct challenges",
+            "Top Safe Haven Staple",
+            "Caramel / Yuzu / Peanut",
+            "< 16% Danger",
+            help="High crowd-pleasing staples that judges consistently reward with handshakes and safety.",
         )
     with col_m4:
         st.metric(
-            "Elite Flavor Pairing",
-            "Berry & Citrus",
-            help="High-performing flavor harmony",
+            "Modern Technique Boom",
+            "Illusion / 3D Cakes",
+            "81+ Bakes",
+            help="Surge in sculptural 3D illusions and puppet theatres in modern Channel 4 series.",
         )
 
     st.markdown("---")
 
-    col_left, col_right = st.columns(2)
+    # 2. High-Risk vs. Safe-Haven Flavor Matrix (Scatter Plot)
+    st.markdown("#### 🎯 High-Risk vs. Safe-Haven Flavor Matrix")
+    st.caption(
+        "Evaluating ingredient mortality: Y-axis = Danger Rate (% of bakes leading to Elimination or At-Risk), "
+        "X-axis = Total Challenge Usage, Bubble Size = Hollywood Handshake Rate."
+    )
 
-    with col_left:
-        st.markdown("#### Most Frequent Flavor Profiles")
-        st.caption(
-            "Extracted from signature and showstopper recipe titles across 17 series."
+    matrix_type = st.radio(
+        "Matrix Aggregation Level",
+        options=["Granular Ingredients", "Broad Flavor Families"],
+        horizontal=True,
+        key="flavor_matrix_toggle",
+    )
+
+    matrix_data = ing_matrix if matrix_type == "Granular Ingredients" else family_matrix
+    if matrix_data:
+        m_df = pd.DataFrame(matrix_data)
+        label_col = "ingredient" if "ingredient" in m_df.columns else "flavor_family"
+
+        tier_colors = alt.Scale(
+            domain=["🚨 High Risk", "⚠️ Moderate Risk", "✅ Safe Haven"],
+            range=[
+                CATPPUCCIN_COLORS["red"],
+                CATPPUCCIN_COLORS["peach"],
+                CATPPUCCIN_COLORS["green"],
+            ],
         )
-        if flavor_counts:
-            sorted_flavors = sorted(
-                flavor_counts.items(), key=lambda x: x[1], reverse=True
-            )[:12]
-            f_df = pd.DataFrame(sorted_flavors, columns=["Flavor", "Occurrences"])
-            f_chart = (
-                alt.Chart(f_df)
-                .mark_bar(cornerRadius=4, color=CATPPUCCIN_COLORS["peach"])
+
+        col_scatter, col_cards = st.columns([7, 5])
+        with col_scatter:
+            tooltip_cols = [
+                alt.Tooltip(f"{label_col}:N", title="Flavor / Ingredient"),
+                alt.Tooltip("bakes_count:Q", title="Total Bakes"),
+                alt.Tooltip(
+                    "danger_rate_pct:Q",
+                    title="Danger Rate (%)",
+                    format=".1f",
+                ),
+                alt.Tooltip(
+                    "elim_rate_pct:Q",
+                    title="Elimination Rate (%)",
+                    format=".1f",
+                ),
+                alt.Tooltip(
+                    "star_baker_pct:Q",
+                    title="Star Baker Rate (%)",
+                    format=".1f",
+                ),
+                alt.Tooltip(
+                    "handshake_pct:Q",
+                    title="Handshake Rate (%)",
+                    format=".1f",
+                ),
+                alt.Tooltip("risk_tier:N", title="Risk Classification"),
+            ]
+            if "category" in m_df.columns:
+                tooltip_cols.insert(1, alt.Tooltip("category:N", title="Category"))
+
+            scatter_chart = (
+                alt.Chart(m_df)
+                .mark_circle(stroke="#11111b", strokeWidth=1, opacity=0.85)
                 .encode(
-                    x=alt.X("Occurrences:Q", title="Total Appearances"),
-                    y=alt.Y("Flavor:N", sort="-x", title="Flavor Category"),
-                    tooltip=["Flavor", "Occurrences"],
+                    x=alt.X(
+                        "bakes_count:Q",
+                        title="Total Challenge Usage (Occurrences)",
+                        scale=alt.Scale(zero=False),
+                    ),
+                    y=alt.Y(
+                        "danger_rate_pct:Q",
+                        title="Danger Rate: Eliminated or At-Risk (%)",
+                        scale=alt.Scale(domain=[0, 65]),
+                    ),
+                    size=alt.Size(
+                        "handshake_pct:Q",
+                        title="Handshake Rate (%)",
+                        scale=alt.Scale(range=[80, 500]),
+                    ),
+                    color=alt.Color(
+                        "risk_tier:N",
+                        title="Risk Classification",
+                        scale=tier_colors,
+                    ),
+                    tooltip=tooltip_cols,
+                )
+                .properties(height=360)
+            )
+
+            # Benchmark line for average danger rate ~28%
+            danger_rule = (
+                alt.Chart(pd.DataFrame({"y": [28.0]}))
+                .mark_rule(
+                    color=CATPPUCCIN_COLORS["subtext0"],
+                    strokeDash=[4, 4],
+                    strokeWidth=1.5,
+                )
+                .encode(y="y:Q")
+            )
+
+            st.altair_chart(scatter_chart + danger_rule, use_container_width=True)
+
+        with col_cards:
+            st.markdown("##### ☠️ The 'Kiss of Death' Ingredients")
+            st.markdown(
+                "- **Rosewater & Floral Notes** (40.7% Danger, 25.9% Elim): Easy to overpower bakes ('tastes like soap / perfume').\n"
+                "- **Saffron** (57.1% Danger): Pungent spice frequently leading to medicinal critique.\n"
+                "- **Banana & Passion Fruit** (40.6%–44.4% Danger): High moisture causes soggy bottoms and setting failures."
+            )
+            st.markdown("##### 🛡️ The 'Safe Haven' Staples")
+            st.markdown(
+                "- **Caramel & Chocolate** (High Volume, Stable): Reliable crowd-pleasers with high Star Baker conversion.\n"
+                "- **Yuzu & Cardamom** (0%–15% Danger): Sophisticated acidity and aromatic warmth favored by judges.\n"
+                "- **Hazelnut & Almond** (Nutty Backbone): Structural moisture absorption protects against sogginess."
+            )
+
+    st.markdown("---")
+
+    # 3. Interactive Flavor Co-Occurrence & Affinity
+    col_cooccur, col_theme = st.columns(2)
+
+    with col_cooccur:
+        st.markdown("#### 🍒 Flavor Harmony & Outcome Affinity")
+        st.caption("Comparing pairing rates in Star Baker wins vs. Elimination traps.")
+        if affinity_pairs:
+            aff_df = pd.DataFrame(affinity_pairs[:10])
+            aff_melt = aff_df.melt(
+                id_vars=["pair", "total_bakes", "outcome_affinity"],
+                value_vars=["star_rate_pct", "elim_rate_pct"],
+                var_name="Outcome",
+                value_name="Rate",
+            )
+            aff_melt["Outcome"] = aff_melt["Outcome"].map(
+                {"star_rate_pct": "Star Baker %", "elim_rate_pct": "Elimination %"}
+            )
+            outcome_scale = alt.Scale(
+                domain=["Star Baker %", "Elimination %"],
+                range=[CATPPUCCIN_COLORS["green"], CATPPUCCIN_COLORS["red"]],
+            )
+
+            aff_chart = (
+                alt.Chart(aff_melt)
+                .mark_bar(cornerRadius=3)
+                .encode(
+                    y=alt.Y("pair:N", sort=None, title="Flavor Pairing"),
+                    x=alt.X("Rate:Q", title="Rate (%)"),
+                    color=alt.Color("Outcome:N", scale=outcome_scale),
+                    tooltip=[
+                        alt.Tooltip("pair:N", title="Pairing"),
+                        alt.Tooltip("Outcome:N", title="Metric"),
+                        alt.Tooltip("Rate:Q", title="Rate (%)", format=".1f"),
+                        alt.Tooltip("total_bakes:Q", title="Total Bakes"),
+                        alt.Tooltip("outcome_affinity:N", title="Affinity"),
+                    ],
                 )
                 .properties(height=320)
             )
-            st.altair_chart(f_chart, use_container_width=True)
+            st.altair_chart(aff_chart, use_container_width=True)
 
-    with col_right:
-        st.markdown("#### Challenge Theme Hazard & Volume")
+    with col_theme:
+        st.markdown("#### ⚖️ Challenge Theme Hazard & Volume")
         st.caption(
             "Theme-by-theme breakdown of competitive pressure and elimination volume."
         )
@@ -640,18 +785,113 @@ def _render_flavor_theme_tab(metrics_bundle: dict[str, Any], era: str) -> None:
             )
             st.altair_chart(theme_chart, use_container_width=True)
 
-    # Co-occurring pairs table
-    if co_pairs:
-        st.markdown("#### 🍒 Top Co-Occurring Flavor Pairings")
-        top_pairs = pd.DataFrame(co_pairs[:10])
-        disp_pairs = top_pairs.rename(
+    st.markdown("---")
+
+    # 4. Bake Style & Technique Evolution Streamgraph
+    st.markdown("#### 🌊 Longitudinal Bake Style & Technique Evolution")
+    st.caption(
+        "Tracking how contestant baking styles and modern decorative techniques evolved over 17 series."
+    )
+
+    style_view_choice = st.radio(
+        "Evolution Streamgraph Perspective",
+        options=["Modern Showstopper Techniques", "Canonical Bake Categories"],
+        horizontal=True,
+        key="streamgraph_perspective_toggle",
+    )
+
+    if style_view_choice == "Modern Showstopper Techniques" and tech_evolution:
+        evo_df = pd.DataFrame(tech_evolution)
+        y_col = "technique"
+        color_scheme = alt.Scale(
+            domain=[
+                "Illusion / 3D",
+                "Geometric / Tiered",
+                "Mirror Glaze",
+                "Gluten-Free",
+                "Vegan / Plant-Based",
+            ],
+            range=[
+                CATPPUCCIN_COLORS["mauve"],
+                CATPPUCCIN_COLORS["blue"],
+                CATPPUCCIN_COLORS["sapphire"],
+                CATPPUCCIN_COLORS["yellow"],
+                CATPPUCCIN_COLORS["green"],
+            ],
+        )
+    elif cat_evolution:
+        evo_df = pd.DataFrame(cat_evolution)
+        y_col = "category"
+        color_scheme = alt.Scale(
+            domain=[
+                "Cake & Sponge",
+                "Bread",
+                "Tart & Pie",
+                "Biscuit & Cookie",
+                "Pastry",
+                "Dessert & Meringue",
+            ],
+            range=[
+                CATPPUCCIN_COLORS["peach"],
+                CATPPUCCIN_COLORS["yellow"],
+                CATPPUCCIN_COLORS["red"],
+                CATPPUCCIN_COLORS["mauve"],
+                CATPPUCCIN_COLORS["blue"],
+                CATPPUCCIN_COLORS["teal"],
+            ],
+        )
+    else:
+        evo_df = pd.DataFrame()
+        y_col = "technique"
+        color_scheme = alt.Scale()
+
+    if not evo_df.empty:
+        stream_chart = (
+            alt.Chart(evo_df)
+            .mark_area(opacity=0.8)
+            .encode(
+                x=alt.X(
+                    "series_number:O",
+                    title="Series Number",
+                    axis=alt.Axis(labelAngle=0),
+                ),
+                y=alt.Y(
+                    "bakes_count:Q",
+                    title="Tagged Challenge Bakes Count",
+                    stack="zero",
+                ),
+                color=alt.Color(
+                    f"{y_col}:N",
+                    title="Bake Technique / Category",
+                    scale=color_scheme,
+                ),
+                tooltip=[
+                    alt.Tooltip("series_number:O", title="Series"),
+                    alt.Tooltip(f"{y_col}:N", title="Technique / Category"),
+                    alt.Tooltip("bakes_count:Q", title="Bakes Tagged"),
+                ],
+            )
+            .properties(height=320)
+        )
+        st.altair_chart(stream_chart, use_container_width=True)
+
+    # Co-occurring pairs & risk matrix registry table
+    if affinity_pairs:
+        st.markdown("#### 📜 Complete Flavor Co-Occurrence & Outcome Affinity Registry")
+        aff_table = pd.DataFrame(affinity_pairs)
+        disp_aff = aff_table.rename(
             columns={
                 "pair": "Flavor Pairing",
-                "count": "Co-occurrence Count",
+                "total_bakes": "Total Challenges",
+                "star_baker_bakes": "Star Baker Wins",
+                "eliminated_bakes": "Eliminated / At-Risk",
+                "star_rate_pct": "Star Baker %",
+                "elim_rate_pct": "Elimination %",
+                "outcome_affinity": "Outcome Affinity",
             }
         )
         st.dataframe(
-            disp_pairs,
+            disp_aff,
             use_container_width=True,
             hide_index=True,
         )

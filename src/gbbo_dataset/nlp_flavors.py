@@ -272,6 +272,92 @@ BAKE_STYLE_TAXONOMY: dict[str, list[str]] = {
     ],
 }
 
+# Modern structural and technique taxonomy
+TECHNIQUE_STYLE_TAXONOMY: dict[str, list[str]] = {
+    "Illusion / 3D": [
+        r"\billusion\b",
+        r"\b(?:sculpted|sculpture|sculpt)\b",
+        r"\b3d\b",
+        r"\blandscape\b",
+        r"\bportrait\b",
+        r"\bbust\b",
+        r"\bpuppet\b",
+        r"\btheatre\b",
+    ],
+    "Geometric / Tiered": [
+        r"\bgeometric\b",
+        r"\btower\b",
+        r"\btiered\b",
+        r"\btiers\b",
+        r"\bconstruction\b",
+        r"\barchitectur(?:e|al)\b",
+    ],
+    "Mirror Glaze": [
+        r"\bmirror\s*glaze\b",
+        r"\bglac[eé]\b",
+    ],
+    "Gluten-Free": [
+        r"\bgluten-?free\b",
+        r"\bwheat-?free\b",
+        r"\bflourless\b",
+    ],
+    "Vegan / Plant-Based": [
+        r"\bvegan\b",
+        r"\bplant-?based\b",
+        r"\bdairy-?free\b",
+        r"\begg-?free\b",
+        r"\baquafaba\b",
+    ],
+}
+
+# Granular ingredient keywords and categories for risk indexing
+INGREDIENT_KEYWORD_TAXONOMY: dict[str, tuple[str, str]] = {
+    "Rose": (r"\brose(?:water)?\b", "Botanical & Floral"),
+    "Lavender": (r"\blavender\b", "Botanical & Floral"),
+    "Matcha": (r"\bmatcha\b", "Tea & Botanical"),
+    "Elderflower": (r"\belderflower\b", "Botanical & Floral"),
+    "Orange Blossom": (r"\borange blossom\b", "Botanical & Floral"),
+    "Lemon": (r"\blemon\b", "Citrus"),
+    "Lime": (r"\blime\b", "Citrus"),
+    "Orange": (r"\borange\b", "Citrus"),
+    "Grapefruit": (r"\bgrapefruit\b", "Citrus"),
+    "Yuzu": (r"\byuzu\b", "Citrus"),
+    "Raspberry": (r"\braspberr(?:y|ies)\b", "Berry"),
+    "Strawberry": (r"\bstrawberr(?:y|ies)\b", "Berry"),
+    "Blackberry": (r"\bblackberr(?:y|ies)\b", "Berry"),
+    "Blueberry": (r"\bblueberr(?:y|ies)\b", "Berry"),
+    "Blackcurrant": (r"\bblackcurrant\b", "Berry"),
+    "Cardamom": (r"\bcardamom\b", "Warm Spice"),
+    "Cinnamon": (r"\bcinnamon\b", "Warm Spice"),
+    "Ginger": (r"\bginger\b", "Warm Spice"),
+    "Nutmeg": (r"\bnutmeg\b", "Warm Spice"),
+    "Saffron": (r"\bsaffron\b", "Warm Spice"),
+    "Chilli": (r"\bchilli?\b", "Spice"),
+    "Chocolate": (r"\bchocolate|cocoa|cacao|ganache\b", "Staple Sweet"),
+    "Caramel": (r"\bcaramel(?:i[sz]ed)?|toffee|butterscotch\b", "Staple Sweet"),
+    "Vanilla": (r"\bvanilla\b", "Staple Sweet"),
+    "Coffee": (r"\bcoffee|espresso|mocha\b", "Coffee & Tea"),
+    "Pistachio": (r"\bpistachio\b", "Nutty"),
+    "Almond": (r"\balmond|frangipane\b", "Nutty"),
+    "Hazelnut": (r"\bhazelnut|praline\b", "Nutty"),
+    "Pecan": (r"\bpecan\b", "Nutty"),
+    "Walnut": (r"\bwalnut\b", "Nutty"),
+    "Peanut Butter": (r"\bpeanut\b", "Nutty"),
+    "Passion Fruit": (r"\bpassion\s*fruit\b", "Tropical Fruit"),
+    "Mango": (r"\bmango\b", "Tropical Fruit"),
+    "Coconut": (r"\bcoconut\b", "Tropical Fruit"),
+    "Banana": (r"\bbanana\b", "Fruit"),
+    "Apple": (r"\bapple\b", "Orchard Fruit"),
+    "Pear": (r"\bpear\b", "Orchard Fruit"),
+    "Cherry": (r"\bcherr(?:y|ies)\b", "Orchard Fruit"),
+    "Fig": (r"\bfig\b", "Fruit"),
+    "Cheese": (r"\bcheese|cheddar|parmesan|feta|gouda\b", "Savory"),
+    "Bacon & Pork": (r"\bbacon|pork|pancetta|prosciutto|sausage\b", "Savory"),
+    "Rum": (r"\brum\b", "Alcohol"),
+    "Gin": (r"\bgin\b", "Alcohol"),
+    "Kirsch & Liqueur": (r"\bkirsch|amaretto|cointreau|liqueur\b", "Alcohol"),
+}
+
 
 def extract_flavors(text: str | None) -> list[str]:
     """Extract canonical flavor families from dish description text."""
@@ -349,6 +435,284 @@ def enrich_performances_with_nlp(df: pd.DataFrame) -> pd.DataFrame:
     return enriched
 
 
+def extract_techniques(text: str | None) -> list[str]:
+    """Extract modern bake techniques (illusion, mirror glaze, geometric, vegan, etc.)."""
+    if not text or not isinstance(text, str):
+        return []
+    t_lower = text.lower()
+    detected = []
+    for tech, patterns in TECHNIQUE_STYLE_TAXONOMY.items():
+        if any(re.search(pat, t_lower) for pat in patterns):
+            detected.append(tech)
+    return sorted(detected)
+
+
+def calculate_ingredient_risk_matrix(
+    performances: pd.DataFrame, min_bakes: int = 3
+) -> list[dict[str, Any]]:
+    """Compute risk matrix for individual key ingredients."""
+    if performances.empty:
+        return []
+
+    records: list[dict[str, Any]] = []
+    sig_col = performances.get("signature_dish", pd.Series(dtype=str)).fillna("")
+    show_col = performances.get("showstopper_dish", pd.Series(dtype=str)).fillna("")
+
+    res_col = performances.get("result", pd.Series(dtype=str)).astype(str).str.upper()
+    at_risk_col = (
+        performances.get("at_risk", pd.Series(dtype=bool)).fillna(False).astype(bool)
+    )
+    hs_col = (
+        performances.get("hollywood_handshake", pd.Series(dtype=bool))
+        .fillna(False)
+        .astype(bool)
+    )
+
+    is_danger = res_col.isin(["ELIMINATED", "WITHDREW"]) | at_risk_col
+    is_elim = res_col.isin(["ELIMINATED", "WITHDREW"])
+    is_star = res_col.isin(["STAR_BAKER", "WINNER"])
+
+    for ing, (pat, cat) in INGREDIENT_KEYWORD_TAXONOMY.items():
+        regex = re.compile(pat, re.IGNORECASE)
+        mask = sig_col.str.contains(regex) | show_col.str.contains(regex)
+        tot = int(mask.sum())
+        if tot >= min_bakes:
+            danger_cnt = int((mask & is_danger).sum())
+            elim_cnt = int((mask & is_elim).sum())
+            star_cnt = int((mask & is_star).sum())
+            hs_cnt = int((mask & hs_col).sum())
+
+            danger_rate = round(danger_cnt / tot * 100, 1)
+            tier = (
+                "🚨 High Risk"
+                if danger_rate >= 35.0
+                else ("⚠️ Moderate Risk" if danger_rate >= 25.0 else "✅ Safe Haven")
+            )
+            records.append(
+                {
+                    "ingredient": ing,
+                    "category": cat,
+                    "bakes_count": tot,
+                    "danger_count": danger_cnt,
+                    "danger_rate_pct": danger_rate,
+                    "elim_rate_pct": round(elim_cnt / tot * 100, 1),
+                    "star_baker_pct": round(star_cnt / tot * 100, 1),
+                    "handshake_pct": round(hs_cnt / tot * 100, 1),
+                    "risk_tier": tier,
+                }
+            )
+
+    return sorted(records, key=lambda x: x["danger_rate_pct"], reverse=True)
+
+
+def calculate_family_risk_matrix(
+    performances: pd.DataFrame, min_bakes: int = 5
+) -> list[dict[str, Any]]:
+    """Compute risk matrix for broad flavor families."""
+    if performances.empty:
+        return []
+
+    records: list[dict[str, Any]] = []
+    res_col = performances.get("result", pd.Series(dtype=str)).astype(str).str.upper()
+    at_risk_col = (
+        performances.get("at_risk", pd.Series(dtype=bool)).fillna(False).astype(bool)
+    )
+    hs_col = (
+        performances.get("hollywood_handshake", pd.Series(dtype=bool))
+        .fillna(False)
+        .astype(bool)
+    )
+
+    is_danger = res_col.isin(["ELIMINATED", "WITHDREW"]) | at_risk_col
+    is_elim = res_col.isin(["ELIMINATED", "WITHDREW"])
+    is_star = res_col.isin(["STAR_BAKER", "WINNER"])
+
+    all_flavors_per_row = [
+        set(extract_flavors(sig) + extract_flavors(show))
+        for sig, show in zip(
+            performances.get("signature_dish", []),
+            performances.get("showstopper_dish", []),
+            strict=False,
+        )
+    ]
+
+    for fam in FLAVOR_TAXONOMY:
+        mask = pd.Series(
+            [fam in flvs for flvs in all_flavors_per_row], index=performances.index
+        )
+        tot = int(mask.sum())
+        if tot >= min_bakes:
+            danger_cnt = int((mask & is_danger).sum())
+            elim_cnt = int((mask & is_elim).sum())
+            star_cnt = int((mask & is_star).sum())
+            hs_cnt = int((mask & hs_col).sum())
+
+            danger_rate = round(danger_cnt / tot * 100, 1)
+            tier = (
+                "🚨 High Risk"
+                if danger_rate >= 32.0
+                else ("⚠️ Moderate Risk" if danger_rate >= 27.0 else "✅ Safe Haven")
+            )
+            records.append(
+                {
+                    "flavor_family": fam.capitalize(),
+                    "bakes_count": tot,
+                    "danger_count": danger_cnt,
+                    "danger_rate_pct": danger_rate,
+                    "elim_rate_pct": round(elim_cnt / tot * 100, 1),
+                    "star_baker_pct": round(star_cnt / tot * 100, 1),
+                    "handshake_pct": round(hs_cnt / tot * 100, 1),
+                    "risk_tier": tier,
+                }
+            )
+
+    return sorted(records, key=lambda x: x["danger_rate_pct"], reverse=True)
+
+
+def calculate_cooccurrence_affinity(
+    performances: pd.DataFrame, min_pairs: int = 5
+) -> list[dict[str, Any]]:
+    """Compute co-occurrence pairing affinity comparing Star Baker vs Eliminated outcomes."""
+    if performances.empty:
+        return []
+
+    star_pairs: Counter[tuple[str, str]] = Counter()
+    elim_pairs: Counter[tuple[str, str]] = Counter()
+    all_pairs: Counter[tuple[str, str]] = Counter()
+
+    for _, row in performances.iterrows():
+        sig = row.get("signature_dish")
+        show = row.get("showstopper_dish")
+        flavors = sorted(set(extract_flavors(sig) + extract_flavors(show)))
+        if len(flavors) >= 2:
+            pairs = list(itertools.combinations(flavors, 2))
+            res = str(row.get("result", "")).upper()
+            is_star = res in ("STAR_BAKER", "WINNER")
+            is_elim = res in ("ELIMINATED", "WITHDREW") or bool(
+                row.get("at_risk", False)
+            )
+            for p in pairs:
+                all_pairs[p] += 1
+                if is_star:
+                    star_pairs[p] += 1
+                if is_elim:
+                    elim_pairs[p] += 1
+
+    records: list[dict[str, Any]] = []
+    for p, total in all_pairs.items():
+        if total >= min_pairs:
+            s_count = star_pairs[p]
+            e_count = elim_pairs[p]
+            affinity = (
+                "⭐️ Star Baker Favored"
+                if s_count > e_count
+                else (
+                    "🚨 Elimination Trap" if e_count > s_count else "⚖️ Balanced Harmony"
+                )
+            )
+            records.append(
+                {
+                    "pair": f"{p[0].capitalize()} + {p[1].capitalize()}",
+                    "total_bakes": total,
+                    "star_baker_bakes": s_count,
+                    "eliminated_bakes": e_count,
+                    "star_rate_pct": round(s_count / total * 100, 1),
+                    "elim_rate_pct": round(e_count / total * 100, 1),
+                    "outcome_affinity": affinity,
+                }
+            )
+
+    return sorted(records, key=lambda x: x["total_bakes"], reverse=True)
+
+
+def calculate_technique_evolution(
+    performances: pd.DataFrame,
+) -> list[dict[str, Any]]:
+    """Calculate longitudinal time series of modern baking techniques across series."""
+    if performances.empty:
+        return []
+
+    df = performances.copy()
+    if "episode_id" in df.columns:
+        series_s = df["episode_id"].astype(str).str.extract(r"s(\d+)e")[0]
+        df["series_number"] = (
+            pd.to_numeric(series_s, errors="coerce").fillna(1).astype(int)
+        )
+    elif "series_number" not in df.columns:
+        return []
+
+    sig_col = df.get("signature_dish", pd.Series(dtype=str)).fillna("")
+    show_col = df.get("showstopper_dish", pd.Series(dtype=str)).fillna("")
+
+    records: list[dict[str, Any]] = []
+    for s_num in sorted(df["series_number"].unique()):
+        s_mask = df["series_number"] == s_num
+        s_sig = sig_col[s_mask]
+        s_show = show_col[s_mask]
+        for tech, pats in TECHNIQUE_STYLE_TAXONOMY.items():
+            pat = "|".join(pats)
+            regex = re.compile(pat, re.IGNORECASE)
+            count = int((s_sig.str.contains(regex) | s_show.str.contains(regex)).sum())
+            records.append(
+                {
+                    "series_number": int(s_num),
+                    "series_label": f"Series {int(s_num)}",
+                    "technique": tech,
+                    "bakes_count": count,
+                }
+            )
+
+    return records
+
+
+def calculate_category_evolution(
+    performances: pd.DataFrame,
+) -> list[dict[str, Any]]:
+    """Calculate longitudinal time series of canonical bake styles across series."""
+    if performances.empty:
+        return []
+
+    df = performances.copy()
+    if "episode_id" in df.columns:
+        series_s = df["episode_id"].astype(str).str.extract(r"s(\d+)e")[0]
+        df["series_number"] = (
+            pd.to_numeric(series_s, errors="coerce").fillna(1).astype(int)
+        )
+    elif "series_number" not in df.columns:
+        return []
+
+    records: list[dict[str, Any]] = []
+    for s_num in sorted(df["series_number"].unique()):
+        s_df = df[df["series_number"] == s_num]
+        style_counts: Counter[str] = Counter()
+        for _, row in s_df.iterrows():
+            styles = set(
+                extract_bake_styles(row.get("signature_dish"))
+                + extract_bake_styles(row.get("showstopper_dish"))
+            )
+            for st in styles:
+                style_counts[st] += 1
+
+        for cat, display_name in [
+            ("cake_sponge", "Cake & Sponge"),
+            ("bread", "Bread"),
+            ("tart_pie", "Tart & Pie"),
+            ("biscuit_cookie", "Biscuit & Cookie"),
+            ("pastry", "Pastry"),
+            ("dessert_meringue", "Dessert & Meringue"),
+        ]:
+            records.append(
+                {
+                    "series_number": int(s_num),
+                    "series_label": f"Series {int(s_num)}",
+                    "category": display_name,
+                    "bakes_count": style_counts.get(cat, 0),
+                }
+            )
+
+    return records
+
+
 def calculate_flavor_statistics(performances: pd.DataFrame) -> dict[str, Any]:
     """Calculate frequency, co-occurrence, and outcome correlations for flavors."""
     if performances.empty:
@@ -358,6 +722,11 @@ def calculate_flavor_statistics(performances: pd.DataFrame) -> dict[str, Any]:
             "handshake_rates": {},
             "star_baker_rates": {},
             "co_occurring_pairs": [],
+            "ingredient_risk_matrix": [],
+            "family_risk_matrix": [],
+            "cooccurrence_affinity": [],
+            "technique_evolution": [],
+            "category_evolution": [],
         }
 
     flavor_counter: Counter[str] = Counter()
@@ -417,6 +786,11 @@ def calculate_flavor_statistics(performances: pd.DataFrame) -> dict[str, Any]:
             sorted(star_baker_rates.items(), key=lambda x: x[1], reverse=True)
         ),
         "co_occurring_pairs": top_pairs,
+        "ingredient_risk_matrix": calculate_ingredient_risk_matrix(performances),
+        "family_risk_matrix": calculate_family_risk_matrix(performances),
+        "cooccurrence_affinity": calculate_cooccurrence_affinity(performances),
+        "technique_evolution": calculate_technique_evolution(performances),
+        "category_evolution": calculate_category_evolution(performances),
     }
 
 

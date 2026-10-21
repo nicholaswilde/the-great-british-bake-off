@@ -113,5 +113,2366 @@
       "pair": "caramel + nutty",
       "count": 38
     }
+  ],
+  "ingredient_risk_matrix": [
+    {
+      "ingredient": "Saffron",
+      "category": "Warm Spice",
+      "bakes_count": 7,
+      "danger_count": 4,
+      "danger_rate_pct": 57.1,
+      "elim_rate_pct": 14.3,
+      "star_baker_pct": 28.6,
+      "handshake_pct": 0.0,
+      "risk_tier": "\ud83d\udea8 High Risk"
+    },
+    {
+      "ingredient": "Banana",
+      "category": "Fruit",
+      "bakes_count": 18,
+      "danger_count": 8,
+      "danger_rate_pct": 44.4,
+      "elim_rate_pct": 22.2,
+      "star_baker_pct": 11.1,
+      "handshake_pct": 0.0,
+      "risk_tier": "\ud83d\udea8 High Risk"
+    },
+    {
+      "ingredient": "Blackberry",
+      "category": "Berry",
+      "bakes_count": 22,
+      "danger_count": 9,
+      "danger_rate_pct": 40.9,
+      "elim_rate_pct": 9.1,
+      "star_baker_pct": 13.6,
+      "handshake_pct": 4.5,
+      "risk_tier": "\ud83d\udea8 High Risk"
+    },
+    {
+      "ingredient": "Rose",
+      "category": "Botanical & Floral",
+      "bakes_count": 27,
+      "danger_count": 11,
+      "danger_rate_pct": 40.7,
+      "elim_rate_pct": 25.9,
+      "star_baker_pct": 18.5,
+      "handshake_pct": 0.0,
+      "risk_tier": "\ud83d\udea8 High Risk"
+    },
+    {
+      "ingredient": "Passion Fruit",
+      "category": "Tropical Fruit",
+      "bakes_count": 32,
+      "danger_count": 13,
+      "danger_rate_pct": 40.6,
+      "elim_rate_pct": 25.0,
+      "star_baker_pct": 12.5,
+      "handshake_pct": 3.1,
+      "risk_tier": "\ud83d\udea8 High Risk"
+    },
+    {
+      "ingredient": "Bacon & Pork",
+      "category": "Savory",
+      "bakes_count": 31,
+      "danger_count": 11,
+      "danger_rate_pct": 35.5,
+      "elim_rate_pct": 12.9,
+      "star_baker_pct": 19.4,
+      "handshake_pct": 3.2,
+      "risk_tier": "\ud83d\udea8 High Risk"
+    },
+    {
+      "ingredient": "Rum",
+      "category": "Alcohol",
+      "bakes_count": 12,
+      "danger_count": 4,
+      "danger_rate_pct": 33.3,
+      "elim_rate_pct": 8.3,
+      "star_baker_pct": 8.3,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Lime",
+      "category": "Citrus",
+      "bakes_count": 37,
+      "danger_count": 12,
+      "danger_rate_pct": 32.4,
+      "elim_rate_pct": 8.1,
+      "star_baker_pct": 13.5,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Cheese",
+      "category": "Savory",
+      "bakes_count": 90,
+      "danger_count": 29,
+      "danger_rate_pct": 32.2,
+      "elim_rate_pct": 14.4,
+      "star_baker_pct": 11.1,
+      "handshake_pct": 2.2,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Strawberry",
+      "category": "Berry",
+      "bakes_count": 50,
+      "danger_count": 16,
+      "danger_rate_pct": 32.0,
+      "elim_rate_pct": 16.0,
+      "star_baker_pct": 16.0,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Ginger",
+      "category": "Warm Spice",
+      "bakes_count": 66,
+      "danger_count": 21,
+      "danger_rate_pct": 31.8,
+      "elim_rate_pct": 15.2,
+      "star_baker_pct": 9.1,
+      "handshake_pct": 6.1,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Pear",
+      "category": "Orchard Fruit",
+      "bakes_count": 26,
+      "danger_count": 8,
+      "danger_rate_pct": 30.8,
+      "elim_rate_pct": 11.5,
+      "star_baker_pct": 7.7,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Cherry",
+      "category": "Orchard Fruit",
+      "bakes_count": 52,
+      "danger_count": 16,
+      "danger_rate_pct": 30.8,
+      "elim_rate_pct": 9.6,
+      "star_baker_pct": 11.5,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Lemon",
+      "category": "Citrus",
+      "bakes_count": 108,
+      "danger_count": 33,
+      "danger_rate_pct": 30.6,
+      "elim_rate_pct": 12.0,
+      "star_baker_pct": 11.1,
+      "handshake_pct": 5.6,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Caramel",
+      "category": "Staple Sweet",
+      "bakes_count": 99,
+      "danger_count": 30,
+      "danger_rate_pct": 30.3,
+      "elim_rate_pct": 13.1,
+      "star_baker_pct": 17.2,
+      "handshake_pct": 4.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Orange",
+      "category": "Citrus",
+      "bakes_count": 101,
+      "danger_count": 30,
+      "danger_rate_pct": 29.7,
+      "elim_rate_pct": 14.9,
+      "star_baker_pct": 13.9,
+      "handshake_pct": 6.9,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Coffee",
+      "category": "Coffee & Tea",
+      "bakes_count": 49,
+      "danger_count": 14,
+      "danger_rate_pct": 28.6,
+      "elim_rate_pct": 16.3,
+      "star_baker_pct": 12.2,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Chocolate",
+      "category": "Staple Sweet",
+      "bakes_count": 265,
+      "danger_count": 74,
+      "danger_rate_pct": 27.9,
+      "elim_rate_pct": 12.8,
+      "star_baker_pct": 12.8,
+      "handshake_pct": 3.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Chilli",
+      "category": "Spice",
+      "bakes_count": 18,
+      "danger_count": 5,
+      "danger_rate_pct": 27.8,
+      "elim_rate_pct": 11.1,
+      "star_baker_pct": 22.2,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Walnut",
+      "category": "Nutty",
+      "bakes_count": 40,
+      "danger_count": 11,
+      "danger_rate_pct": 27.5,
+      "elim_rate_pct": 17.5,
+      "star_baker_pct": 10.0,
+      "handshake_pct": 2.5,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Vanilla",
+      "category": "Staple Sweet",
+      "bakes_count": 19,
+      "danger_count": 5,
+      "danger_rate_pct": 26.3,
+      "elim_rate_pct": 5.3,
+      "star_baker_pct": 10.5,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Almond",
+      "category": "Nutty",
+      "bakes_count": 65,
+      "danger_count": 17,
+      "danger_rate_pct": 26.2,
+      "elim_rate_pct": 6.2,
+      "star_baker_pct": 12.3,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Raspberry",
+      "category": "Berry",
+      "bakes_count": 99,
+      "danger_count": 25,
+      "danger_rate_pct": 25.3,
+      "elim_rate_pct": 10.1,
+      "star_baker_pct": 13.1,
+      "handshake_pct": 3.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Lavender",
+      "category": "Botanical & Floral",
+      "bakes_count": 4,
+      "danger_count": 1,
+      "danger_rate_pct": 25.0,
+      "elim_rate_pct": 25.0,
+      "star_baker_pct": 50.0,
+      "handshake_pct": 25.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Kirsch & Liqueur",
+      "category": "Alcohol",
+      "bakes_count": 12,
+      "danger_count": 3,
+      "danger_rate_pct": 25.0,
+      "elim_rate_pct": 16.7,
+      "star_baker_pct": 8.3,
+      "handshake_pct": 8.3,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Pistachio",
+      "category": "Nutty",
+      "bakes_count": 53,
+      "danger_count": 13,
+      "danger_rate_pct": 24.5,
+      "elim_rate_pct": 5.7,
+      "star_baker_pct": 17.0,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Apple",
+      "category": "Orchard Fruit",
+      "bakes_count": 82,
+      "danger_count": 19,
+      "danger_rate_pct": 23.2,
+      "elim_rate_pct": 9.8,
+      "star_baker_pct": 14.6,
+      "handshake_pct": 4.9,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Cinnamon",
+      "category": "Warm Spice",
+      "bakes_count": 35,
+      "danger_count": 8,
+      "danger_rate_pct": 22.9,
+      "elim_rate_pct": 11.4,
+      "star_baker_pct": 8.6,
+      "handshake_pct": 2.9,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Pecan",
+      "category": "Nutty",
+      "bakes_count": 23,
+      "danger_count": 5,
+      "danger_rate_pct": 21.7,
+      "elim_rate_pct": 8.7,
+      "star_baker_pct": 17.4,
+      "handshake_pct": 4.3,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Blueberry",
+      "category": "Berry",
+      "bakes_count": 20,
+      "danger_count": 4,
+      "danger_rate_pct": 20.0,
+      "elim_rate_pct": 10.0,
+      "star_baker_pct": 40.0,
+      "handshake_pct": 5.0,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Elderflower",
+      "category": "Botanical & Floral",
+      "bakes_count": 16,
+      "danger_count": 3,
+      "danger_rate_pct": 18.8,
+      "elim_rate_pct": 0.0,
+      "star_baker_pct": 6.2,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Matcha",
+      "category": "Tea & Botanical",
+      "bakes_count": 6,
+      "danger_count": 1,
+      "danger_rate_pct": 16.7,
+      "elim_rate_pct": 0.0,
+      "star_baker_pct": 33.3,
+      "handshake_pct": 16.7,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Fig",
+      "category": "Fruit",
+      "bakes_count": 18,
+      "danger_count": 3,
+      "danger_rate_pct": 16.7,
+      "elim_rate_pct": 5.6,
+      "star_baker_pct": 16.7,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Hazelnut",
+      "category": "Nutty",
+      "bakes_count": 51,
+      "danger_count": 8,
+      "danger_rate_pct": 15.7,
+      "elim_rate_pct": 3.9,
+      "star_baker_pct": 17.6,
+      "handshake_pct": 3.9,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Mango",
+      "category": "Tropical Fruit",
+      "bakes_count": 32,
+      "danger_count": 5,
+      "danger_rate_pct": 15.6,
+      "elim_rate_pct": 9.4,
+      "star_baker_pct": 25.0,
+      "handshake_pct": 9.4,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Cardamom",
+      "category": "Warm Spice",
+      "bakes_count": 26,
+      "danger_count": 4,
+      "danger_rate_pct": 15.4,
+      "elim_rate_pct": 7.7,
+      "star_baker_pct": 11.5,
+      "handshake_pct": 11.5,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Blackcurrant",
+      "category": "Berry",
+      "bakes_count": 7,
+      "danger_count": 1,
+      "danger_rate_pct": 14.3,
+      "elim_rate_pct": 0.0,
+      "star_baker_pct": 14.3,
+      "handshake_pct": 14.3,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Coconut",
+      "category": "Tropical Fruit",
+      "bakes_count": 44,
+      "danger_count": 6,
+      "danger_rate_pct": 13.6,
+      "elim_rate_pct": 4.5,
+      "star_baker_pct": 9.1,
+      "handshake_pct": 6.8,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Peanut Butter",
+      "category": "Nutty",
+      "bakes_count": 12,
+      "danger_count": 1,
+      "danger_rate_pct": 8.3,
+      "elim_rate_pct": 8.3,
+      "star_baker_pct": 25.0,
+      "handshake_pct": 16.7,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Grapefruit",
+      "category": "Citrus",
+      "bakes_count": 6,
+      "danger_count": 0,
+      "danger_rate_pct": 0.0,
+      "elim_rate_pct": 0.0,
+      "star_baker_pct": 16.7,
+      "handshake_pct": 0.0,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "ingredient": "Yuzu",
+      "category": "Citrus",
+      "bakes_count": 7,
+      "danger_count": 0,
+      "danger_rate_pct": 0.0,
+      "elim_rate_pct": 0.0,
+      "star_baker_pct": 28.6,
+      "handshake_pct": 14.3,
+      "risk_tier": "\u2705 Safe Haven"
+    }
+  ],
+  "family_risk_matrix": [
+    {
+      "flavor_family": "Alcohol",
+      "bakes_count": 48,
+      "danger_count": 16,
+      "danger_rate_pct": 33.3,
+      "elim_rate_pct": 14.6,
+      "star_baker_pct": 8.3,
+      "handshake_pct": 4.2,
+      "risk_tier": "\ud83d\udea8 High Risk"
+    },
+    {
+      "flavor_family": "Savory",
+      "bakes_count": 159,
+      "danger_count": 51,
+      "danger_rate_pct": 32.1,
+      "elim_rate_pct": 13.8,
+      "star_baker_pct": 13.8,
+      "handshake_pct": 3.8,
+      "risk_tier": "\ud83d\udea8 High Risk"
+    },
+    {
+      "flavor_family": "Floral",
+      "bakes_count": 53,
+      "danger_count": 16,
+      "danger_rate_pct": 30.2,
+      "elim_rate_pct": 15.1,
+      "star_baker_pct": 15.1,
+      "handshake_pct": 1.9,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "flavor_family": "Coffee_tea",
+      "bakes_count": 60,
+      "danger_count": 18,
+      "danger_rate_pct": 30.0,
+      "elim_rate_pct": 15.0,
+      "star_baker_pct": 15.0,
+      "handshake_pct": 1.7,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "flavor_family": "Citrus",
+      "bakes_count": 238,
+      "danger_count": 71,
+      "danger_rate_pct": 29.8,
+      "elim_rate_pct": 12.6,
+      "star_baker_pct": 13.0,
+      "handshake_pct": 5.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "flavor_family": "Vanilla_dairy",
+      "bakes_count": 57,
+      "danger_count": 17,
+      "danger_rate_pct": 29.8,
+      "elim_rate_pct": 12.3,
+      "star_baker_pct": 17.5,
+      "handshake_pct": 1.8,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "flavor_family": "Orchard_fruit",
+      "bakes_count": 196,
+      "danger_count": 57,
+      "danger_rate_pct": 29.1,
+      "elim_rate_pct": 11.2,
+      "star_baker_pct": 11.7,
+      "handshake_pct": 2.6,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "flavor_family": "Caramel",
+      "bakes_count": 114,
+      "danger_count": 33,
+      "danger_rate_pct": 28.9,
+      "elim_rate_pct": 10.5,
+      "star_baker_pct": 14.9,
+      "handshake_pct": 4.4,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "flavor_family": "Chocolate",
+      "bakes_count": 266,
+      "danger_count": 74,
+      "danger_rate_pct": 27.8,
+      "elim_rate_pct": 12.8,
+      "star_baker_pct": 12.8,
+      "handshake_pct": 3.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "flavor_family": "Tropical",
+      "bakes_count": 122,
+      "danger_count": 33,
+      "danger_rate_pct": 27.0,
+      "elim_rate_pct": 13.9,
+      "star_baker_pct": 13.9,
+      "handshake_pct": 4.9,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "flavor_family": "Berry",
+      "bakes_count": 207,
+      "danger_count": 55,
+      "danger_rate_pct": 26.6,
+      "elim_rate_pct": 10.1,
+      "star_baker_pct": 14.0,
+      "handshake_pct": 2.9,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "flavor_family": "Spice",
+      "bakes_count": 170,
+      "danger_count": 45,
+      "danger_rate_pct": 26.5,
+      "elim_rate_pct": 12.4,
+      "star_baker_pct": 10.6,
+      "handshake_pct": 5.3,
+      "risk_tier": "\u2705 Safe Haven"
+    },
+    {
+      "flavor_family": "Nutty",
+      "bakes_count": 220,
+      "danger_count": 51,
+      "danger_rate_pct": 23.2,
+      "elim_rate_pct": 8.2,
+      "star_baker_pct": 15.9,
+      "handshake_pct": 2.7,
+      "risk_tier": "\u2705 Safe Haven"
+    }
+  ],
+  "cooccurrence_affinity": [
+    {
+      "pair": "Chocolate + Citrus",
+      "total_bakes": 84,
+      "star_baker_bakes": 13,
+      "eliminated_bakes": 27,
+      "star_rate_pct": 15.5,
+      "elim_rate_pct": 32.1,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Chocolate + Nutty",
+      "total_bakes": 84,
+      "star_baker_bakes": 13,
+      "eliminated_bakes": 18,
+      "star_rate_pct": 15.5,
+      "elim_rate_pct": 21.4,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Chocolate",
+      "total_bakes": 80,
+      "star_baker_bakes": 13,
+      "eliminated_bakes": 19,
+      "star_rate_pct": 16.2,
+      "elim_rate_pct": 23.8,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Citrus",
+      "total_bakes": 79,
+      "star_baker_bakes": 12,
+      "eliminated_bakes": 25,
+      "star_rate_pct": 15.2,
+      "elim_rate_pct": 31.6,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Nutty + Orchard_fruit",
+      "total_bakes": 71,
+      "star_baker_bakes": 8,
+      "eliminated_bakes": 21,
+      "star_rate_pct": 11.3,
+      "elim_rate_pct": 29.6,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Nutty",
+      "total_bakes": 60,
+      "star_baker_bakes": 12,
+      "eliminated_bakes": 9,
+      "star_rate_pct": 20.0,
+      "elim_rate_pct": 15.0,
+      "outcome_affinity": "\u2b50\ufe0f Star Baker Favored"
+    },
+    {
+      "pair": "Citrus + Spice",
+      "total_bakes": 56,
+      "star_baker_bakes": 6,
+      "eliminated_bakes": 12,
+      "star_rate_pct": 10.7,
+      "elim_rate_pct": 21.4,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Chocolate + Orchard_fruit",
+      "total_bakes": 54,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 18,
+      "star_rate_pct": 9.3,
+      "elim_rate_pct": 33.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Citrus + Nutty",
+      "total_bakes": 51,
+      "star_baker_bakes": 11,
+      "eliminated_bakes": 10,
+      "star_rate_pct": 21.6,
+      "elim_rate_pct": 19.6,
+      "outcome_affinity": "\u2b50\ufe0f Star Baker Favored"
+    },
+    {
+      "pair": "Chocolate + Spice",
+      "total_bakes": 46,
+      "star_baker_bakes": 8,
+      "eliminated_bakes": 12,
+      "star_rate_pct": 17.4,
+      "elim_rate_pct": 26.1,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Nutty + Spice",
+      "total_bakes": 42,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 12,
+      "star_rate_pct": 11.9,
+      "elim_rate_pct": 28.6,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Caramel + Chocolate",
+      "total_bakes": 42,
+      "star_baker_bakes": 9,
+      "eliminated_bakes": 11,
+      "star_rate_pct": 21.4,
+      "elim_rate_pct": 26.2,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Orchard_fruit + Spice",
+      "total_bakes": 41,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 15,
+      "star_rate_pct": 12.2,
+      "elim_rate_pct": 36.6,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Orchard_fruit",
+      "total_bakes": 39,
+      "star_baker_bakes": 7,
+      "eliminated_bakes": 8,
+      "star_rate_pct": 17.9,
+      "elim_rate_pct": 20.5,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Caramel + Nutty",
+      "total_bakes": 38,
+      "star_baker_bakes": 8,
+      "eliminated_bakes": 9,
+      "star_rate_pct": 21.1,
+      "elim_rate_pct": 23.7,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Nutty + Savory",
+      "total_bakes": 34,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 12,
+      "star_rate_pct": 14.7,
+      "elim_rate_pct": 35.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Chocolate + Tropical",
+      "total_bakes": 34,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 14,
+      "star_rate_pct": 14.7,
+      "elim_rate_pct": 41.2,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Citrus + Tropical",
+      "total_bakes": 33,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 8,
+      "star_rate_pct": 15.2,
+      "elim_rate_pct": 24.2,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Citrus + Savory",
+      "total_bakes": 32,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 12,
+      "star_rate_pct": 15.6,
+      "elim_rate_pct": 37.5,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Spice",
+      "total_bakes": 32,
+      "star_baker_bakes": 6,
+      "eliminated_bakes": 6,
+      "star_rate_pct": 18.8,
+      "elim_rate_pct": 18.8,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Citrus + Orchard_fruit",
+      "total_bakes": 31,
+      "star_baker_bakes": 4,
+      "eliminated_bakes": 14,
+      "star_rate_pct": 12.9,
+      "elim_rate_pct": 45.2,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Orchard_fruit + Savory",
+      "total_bakes": 31,
+      "star_baker_bakes": 4,
+      "eliminated_bakes": 9,
+      "star_rate_pct": 12.9,
+      "elim_rate_pct": 29.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Savory + Spice",
+      "total_bakes": 31,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 13,
+      "star_rate_pct": 9.7,
+      "elim_rate_pct": 41.9,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Tropical",
+      "total_bakes": 30,
+      "star_baker_bakes": 7,
+      "eliminated_bakes": 7,
+      "star_rate_pct": 23.3,
+      "elim_rate_pct": 23.3,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Caramel + Orchard_fruit",
+      "total_bakes": 29,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 9,
+      "star_rate_pct": 10.3,
+      "elim_rate_pct": 31.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Coffee_tea + Nutty",
+      "total_bakes": 28,
+      "star_baker_bakes": 7,
+      "eliminated_bakes": 6,
+      "star_rate_pct": 25.0,
+      "elim_rate_pct": 21.4,
+      "outcome_affinity": "\u2b50\ufe0f Star Baker Favored"
+    },
+    {
+      "pair": "Caramel + Spice",
+      "total_bakes": 26,
+      "star_baker_bakes": 4,
+      "eliminated_bakes": 6,
+      "star_rate_pct": 15.4,
+      "elim_rate_pct": 23.1,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Chocolate + Savory",
+      "total_bakes": 26,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 10,
+      "star_rate_pct": 3.8,
+      "elim_rate_pct": 38.5,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Savory",
+      "total_bakes": 24,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 7,
+      "star_rate_pct": 20.8,
+      "elim_rate_pct": 29.2,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Caramel",
+      "total_bakes": 23,
+      "star_baker_bakes": 4,
+      "eliminated_bakes": 5,
+      "star_rate_pct": 17.4,
+      "elim_rate_pct": 21.7,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Floral",
+      "total_bakes": 22,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 7,
+      "star_rate_pct": 13.6,
+      "elim_rate_pct": 31.8,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Chocolate + Coffee_tea",
+      "total_bakes": 21,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 7,
+      "star_rate_pct": 9.5,
+      "elim_rate_pct": 33.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Caramel + Citrus",
+      "total_bakes": 21,
+      "star_baker_bakes": 4,
+      "eliminated_bakes": 9,
+      "star_rate_pct": 19.0,
+      "elim_rate_pct": 42.9,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Nutty + Tropical",
+      "total_bakes": 20,
+      "star_baker_bakes": 4,
+      "eliminated_bakes": 7,
+      "star_rate_pct": 20.0,
+      "elim_rate_pct": 35.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Vanilla_dairy",
+      "total_bakes": 19,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 4,
+      "star_rate_pct": 10.5,
+      "elim_rate_pct": 21.1,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Spice + Tropical",
+      "total_bakes": 17,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 5,
+      "star_rate_pct": 5.9,
+      "elim_rate_pct": 29.4,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Floral + Nutty",
+      "total_bakes": 17,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 17.6,
+      "elim_rate_pct": 17.6,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Citrus + Floral",
+      "total_bakes": 17,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 5,
+      "star_rate_pct": 17.6,
+      "elim_rate_pct": 29.4,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Citrus + Coffee_tea",
+      "total_bakes": 17,
+      "star_baker_bakes": 4,
+      "eliminated_bakes": 5,
+      "star_rate_pct": 23.5,
+      "elim_rate_pct": 29.4,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Orchard_fruit + Tropical",
+      "total_bakes": 16,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 4,
+      "star_rate_pct": 12.5,
+      "elim_rate_pct": 25.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Citrus + Vanilla_dairy",
+      "total_bakes": 16,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 18.8,
+      "elim_rate_pct": 18.8,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Chocolate + Vanilla_dairy",
+      "total_bakes": 16,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 6,
+      "star_rate_pct": 6.2,
+      "elim_rate_pct": 37.5,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Caramel + Savory",
+      "total_bakes": 16,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 5,
+      "star_rate_pct": 18.8,
+      "elim_rate_pct": 31.2,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Caramel + Tropical",
+      "total_bakes": 15,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 13.3,
+      "elim_rate_pct": 20.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Alcohol + Chocolate",
+      "total_bakes": 14,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 14.3,
+      "elim_rate_pct": 21.4,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Savory + Tropical",
+      "total_bakes": 13,
+      "star_baker_bakes": 0,
+      "eliminated_bakes": 7,
+      "star_rate_pct": 0.0,
+      "elim_rate_pct": 53.8,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Orchard_fruit + Vanilla_dairy",
+      "total_bakes": 13,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 4,
+      "star_rate_pct": 23.1,
+      "elim_rate_pct": 30.8,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Chocolate + Floral",
+      "total_bakes": 13,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 5,
+      "star_rate_pct": 15.4,
+      "elim_rate_pct": 38.5,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Berry + Coffee_tea",
+      "total_bakes": 12,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 16.7,
+      "elim_rate_pct": 25.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Savory + Vanilla_dairy",
+      "total_bakes": 10,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 6,
+      "star_rate_pct": 20.0,
+      "elim_rate_pct": 60.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Nutty + Vanilla_dairy",
+      "total_bakes": 9,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 11.1,
+      "elim_rate_pct": 33.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Caramel + Vanilla_dairy",
+      "total_bakes": 9,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 22.2,
+      "elim_rate_pct": 33.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Floral + Spice",
+      "total_bakes": 9,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 11.1,
+      "elim_rate_pct": 33.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Coffee_tea + Spice",
+      "total_bakes": 9,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 2,
+      "star_rate_pct": 11.1,
+      "elim_rate_pct": 22.2,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Alcohol + Spice",
+      "total_bakes": 8,
+      "star_baker_bakes": 3,
+      "eliminated_bakes": 2,
+      "star_rate_pct": 37.5,
+      "elim_rate_pct": 25.0,
+      "outcome_affinity": "\u2b50\ufe0f Star Baker Favored"
+    },
+    {
+      "pair": "Spice + Vanilla_dairy",
+      "total_bakes": 8,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 12.5,
+      "elim_rate_pct": 37.5,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Floral + Orchard_fruit",
+      "total_bakes": 8,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 2,
+      "star_rate_pct": 25.0,
+      "elim_rate_pct": 25.0,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Floral + Tropical",
+      "total_bakes": 8,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 4,
+      "star_rate_pct": 12.5,
+      "elim_rate_pct": 50.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Alcohol + Orchard_fruit",
+      "total_bakes": 8,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 1,
+      "star_rate_pct": 12.5,
+      "elim_rate_pct": 12.5,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Caramel + Coffee_tea",
+      "total_bakes": 8,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 6,
+      "star_rate_pct": 12.5,
+      "elim_rate_pct": 75.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Alcohol + Citrus",
+      "total_bakes": 8,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 12.5,
+      "elim_rate_pct": 37.5,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Caramel + Floral",
+      "total_bakes": 7,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 1,
+      "star_rate_pct": 14.3,
+      "elim_rate_pct": 14.3,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Floral + Savory",
+      "total_bakes": 7,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 1,
+      "star_rate_pct": 28.6,
+      "elim_rate_pct": 14.3,
+      "outcome_affinity": "\u2b50\ufe0f Star Baker Favored"
+    },
+    {
+      "pair": "Tropical + Vanilla_dairy",
+      "total_bakes": 7,
+      "star_baker_bakes": 0,
+      "eliminated_bakes": 3,
+      "star_rate_pct": 0.0,
+      "elim_rate_pct": 42.9,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Alcohol + Nutty",
+      "total_bakes": 7,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 1,
+      "star_rate_pct": 14.3,
+      "elim_rate_pct": 14.3,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Coffee_tea + Tropical",
+      "total_bakes": 6,
+      "star_baker_bakes": 0,
+      "eliminated_bakes": 2,
+      "star_rate_pct": 0.0,
+      "elim_rate_pct": 33.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Alcohol + Caramel",
+      "total_bakes": 6,
+      "star_baker_bakes": 1,
+      "eliminated_bakes": 2,
+      "star_rate_pct": 16.7,
+      "elim_rate_pct": 33.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Alcohol + Tropical",
+      "total_bakes": 6,
+      "star_baker_bakes": 0,
+      "eliminated_bakes": 2,
+      "star_rate_pct": 0.0,
+      "elim_rate_pct": 33.3,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Coffee_tea + Floral",
+      "total_bakes": 5,
+      "star_baker_bakes": 2,
+      "eliminated_bakes": 2,
+      "star_rate_pct": 40.0,
+      "elim_rate_pct": 40.0,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Coffee_tea + Orchard_fruit",
+      "total_bakes": 5,
+      "star_baker_bakes": 0,
+      "eliminated_bakes": 1,
+      "star_rate_pct": 0.0,
+      "elim_rate_pct": 20.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
+      "pair": "Alcohol + Coffee_tea",
+      "total_bakes": 5,
+      "star_baker_bakes": 0,
+      "eliminated_bakes": 0,
+      "star_rate_pct": 0.0,
+      "elim_rate_pct": 0.0,
+      "outcome_affinity": "\u2696\ufe0f Balanced Harmony"
+    },
+    {
+      "pair": "Alcohol + Berry",
+      "total_bakes": 5,
+      "star_baker_bakes": 0,
+      "eliminated_bakes": 4,
+      "star_rate_pct": 0.0,
+      "elim_rate_pct": 80.0,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    }
+  ],
+  "technique_evolution": [
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "technique": "Illusion / 3D",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 2
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "technique": "Illusion / 3D",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "technique": "Illusion / 3D",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "technique": "Illusion / 3D",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 4
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "technique": "Illusion / 3D",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 5
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "technique": "Illusion / 3D",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 3
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "technique": "Illusion / 3D",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "technique": "Mirror Glaze",
+      "bakes_count": 6
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "technique": "Illusion / 3D",
+      "bakes_count": 10
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "technique": "Illusion / 3D",
+      "bakes_count": 2
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "technique": "Illusion / 3D",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "technique": "Illusion / 3D",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 2
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "technique": "Illusion / 3D",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "technique": "Gluten-Free",
+      "bakes_count": 5
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 2
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "technique": "Illusion / 3D",
+      "bakes_count": 3
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "technique": "Illusion / 3D",
+      "bakes_count": 11
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "technique": "Illusion / 3D",
+      "bakes_count": 24
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "technique": "Illusion / 3D",
+      "bakes_count": 19
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "technique": "Illusion / 3D",
+      "bakes_count": 11
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "technique": "Geometric / Tiered",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "technique": "Mirror Glaze",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "technique": "Gluten-Free",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "technique": "Vegan / Plant-Based",
+      "bakes_count": 0
+    }
+  ],
+  "category_evolution": [
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "category": "Cake & Sponge",
+      "bakes_count": 13
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "category": "Bread",
+      "bakes_count": 11
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "category": "Tart & Pie",
+      "bakes_count": 6
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 8
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "category": "Pastry",
+      "bakes_count": 9
+    },
+    {
+      "series_number": 1,
+      "series_label": "Series 1",
+      "category": "Dessert & Meringue",
+      "bakes_count": 12
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "category": "Cake & Sponge",
+      "bakes_count": 16
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "category": "Bread",
+      "bakes_count": 10
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "category": "Tart & Pie",
+      "bakes_count": 21
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 8
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "category": "Pastry",
+      "bakes_count": 7
+    },
+    {
+      "series_number": 2,
+      "series_label": "Series 2",
+      "category": "Dessert & Meringue",
+      "bakes_count": 24
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "category": "Cake & Sponge",
+      "bakes_count": 21
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "category": "Bread",
+      "bakes_count": 15
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "category": "Tart & Pie",
+      "bakes_count": 20
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 8
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "category": "Pastry",
+      "bakes_count": 2
+    },
+    {
+      "series_number": 3,
+      "series_label": "Series 3",
+      "category": "Dessert & Meringue",
+      "bakes_count": 17
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "category": "Cake & Sponge",
+      "bakes_count": 30
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "category": "Bread",
+      "bakes_count": 21
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "category": "Tart & Pie",
+      "bakes_count": 18
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 17
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "category": "Pastry",
+      "bakes_count": 17
+    },
+    {
+      "series_number": 4,
+      "series_label": "Series 4",
+      "category": "Dessert & Meringue",
+      "bakes_count": 12
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "category": "Cake & Sponge",
+      "bakes_count": 15
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "category": "Bread",
+      "bakes_count": 27
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "category": "Tart & Pie",
+      "bakes_count": 8
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 7
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "category": "Pastry",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 5,
+      "series_label": "Series 5",
+      "category": "Dessert & Meringue",
+      "bakes_count": 12
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "category": "Cake & Sponge",
+      "bakes_count": 24
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "category": "Bread",
+      "bakes_count": 12
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "category": "Tart & Pie",
+      "bakes_count": 18
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 11
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "category": "Pastry",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 6,
+      "series_label": "Series 6",
+      "category": "Dessert & Meringue",
+      "bakes_count": 10
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "category": "Cake & Sponge",
+      "bakes_count": 24
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "category": "Bread",
+      "bakes_count": 9
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "category": "Tart & Pie",
+      "bakes_count": 12
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 11
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "category": "Pastry",
+      "bakes_count": 4
+    },
+    {
+      "series_number": 7,
+      "series_label": "Series 7",
+      "category": "Dessert & Meringue",
+      "bakes_count": 18
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "category": "Cake & Sponge",
+      "bakes_count": 29
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "category": "Bread",
+      "bakes_count": 18
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "category": "Tart & Pie",
+      "bakes_count": 10
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 6
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "category": "Pastry",
+      "bakes_count": 6
+    },
+    {
+      "series_number": 8,
+      "series_label": "Series 8",
+      "category": "Dessert & Meringue",
+      "bakes_count": 12
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "category": "Cake & Sponge",
+      "bakes_count": 34
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "category": "Bread",
+      "bakes_count": 10
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "category": "Tart & Pie",
+      "bakes_count": 10
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 7
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "category": "Pastry",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 9,
+      "series_label": "Series 9",
+      "category": "Dessert & Meringue",
+      "bakes_count": 2
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "category": "Cake & Sponge",
+      "bakes_count": 41
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "category": "Bread",
+      "bakes_count": 10
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "category": "Tart & Pie",
+      "bakes_count": 16
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 7
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "category": "Pastry",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 10,
+      "series_label": "Series 10",
+      "category": "Dessert & Meringue",
+      "bakes_count": 6
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "category": "Cake & Sponge",
+      "bakes_count": 23
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "category": "Bread",
+      "bakes_count": 14
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "category": "Tart & Pie",
+      "bakes_count": 14
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "category": "Pastry",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 11,
+      "series_label": "Series 11",
+      "category": "Dessert & Meringue",
+      "bakes_count": 8
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "category": "Cake & Sponge",
+      "bakes_count": 16
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "category": "Bread",
+      "bakes_count": 23
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "category": "Tart & Pie",
+      "bakes_count": 11
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 3
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "category": "Pastry",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 12,
+      "series_label": "Series 12",
+      "category": "Dessert & Meringue",
+      "bakes_count": 8
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "category": "Cake & Sponge",
+      "bakes_count": 27
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "category": "Bread",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "category": "Tart & Pie",
+      "bakes_count": 5
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 3
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "category": "Pastry",
+      "bakes_count": 1
+    },
+    {
+      "series_number": 13,
+      "series_label": "Series 13",
+      "category": "Dessert & Meringue",
+      "bakes_count": 9
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "category": "Cake & Sponge",
+      "bakes_count": 23
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "category": "Bread",
+      "bakes_count": 22
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "category": "Tart & Pie",
+      "bakes_count": 11
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 11
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "category": "Pastry",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 14,
+      "series_label": "Series 14",
+      "category": "Dessert & Meringue",
+      "bakes_count": 9
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "category": "Cake & Sponge",
+      "bakes_count": 41
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "category": "Bread",
+      "bakes_count": 22
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "category": "Tart & Pie",
+      "bakes_count": 15
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 20
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "category": "Pastry",
+      "bakes_count": 7
+    },
+    {
+      "series_number": 15,
+      "series_label": "Series 15",
+      "category": "Dessert & Meringue",
+      "bakes_count": 16
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "category": "Cake & Sponge",
+      "bakes_count": 18
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "category": "Bread",
+      "bakes_count": 28
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "category": "Tart & Pie",
+      "bakes_count": 15
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 15
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "category": "Pastry",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 16,
+      "series_label": "Series 16",
+      "category": "Dessert & Meringue",
+      "bakes_count": 21
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "category": "Cake & Sponge",
+      "bakes_count": 12
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "category": "Bread",
+      "bakes_count": 10
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "category": "Tart & Pie",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "category": "Biscuit & Cookie",
+      "bakes_count": 12
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "category": "Pastry",
+      "bakes_count": 0
+    },
+    {
+      "series_number": 17,
+      "series_label": "Series 17",
+      "category": "Dessert & Meringue",
+      "bakes_count": 12
+    }
   ]
 }
