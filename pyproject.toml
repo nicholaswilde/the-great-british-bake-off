@@ -1,6 +1,6 @@
 [project]
 name = "the-great-british-bake-off"
-version = "0.1.2"
+version = "0.1.3"
 description = "A comprehensive tidy dataset and AI training corpus for The Great British Bake Off"
 readme = "README.md"
 requires-python = ">=3.12"
