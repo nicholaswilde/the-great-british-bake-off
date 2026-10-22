@@ -2880,6 +2880,21 @@
     "county_region": "South Yorkshire"
   },
   {
+    "baker_id": "s17_yannis",
+    "series_number": 17,
+    "name": "Dr. Yannis Ali",
+    "age": 28,
+    "gender": "M",
+    "occupation": "Paediatric doctor",
+    "hometown": "London, England",
+    "overall_placement": 8,
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/YANNIS-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
+  },
+  {
     "baker_id": "s17_nikki",
     "series_number": 17,
     "name": "Nikki",
@@ -2955,21 +2970,6 @@
     "county_region": "Hertfordshire"
   },
   {
-    "baker_id": "s17_yannis",
-    "series_number": 17,
-    "name": "Dr. Yannis Ali",
-    "age": 28,
-    "gender": "M",
-    "occupation": "Paediatric doctor",
-    "hometown": "London, England",
-    "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/YANNIS-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
-    "latitude": 51.5074,
-    "longitude": -0.1278,
-    "country": "England",
-    "county_region": "Greater London"
-  },
-  {
     "baker_id": "s17_elizabeth",
     "series_number": 17,
     "name": "Elizabeth 'Connie' Lewis",
@@ -3017,7 +3017,7 @@
   {
     "baker_id": "s17_mo",
     "series_number": 17,
-    "name": "Mo Mahir",
+    "name": "Mo Mahirr",
     "age": 21,
     "gender": "M",
     "occupation": "Law student",

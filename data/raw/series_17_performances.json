@@ -448,5 +448,155 @@
     "showstopper_dish": "\"Viennese Winter Market\" Bread Display",
     "result": "SAFE",
     "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e05_s17_clara",
+    "baker_id": "s17_clara",
+    "episode_id": "s17e05",
+    "signature_dish": "Dulce De Leche Puddings",
+    "technical_rank": 3,
+    "showstopper_dish": "\"Sugar Rush Express\" Dessert Trolley",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e05_s17_elizabeth",
+    "baker_id": "s17_elizabeth",
+    "episode_id": "s17e05",
+    "signature_dish": "Chocolate Orange Puddings",
+    "technical_rank": 2,
+    "showstopper_dish": "\"Retro\" Dessert Trolley",
+    "result": "STAR_BAKER",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e05_s17_gabe",
+    "baker_id": "s17_gabe",
+    "episode_id": "s17e05",
+    "signature_dish": "Boozy snoozy Self-saucing puddings",
+    "technical_rank": 4,
+    "showstopper_dish": "\"Puddings on Toast\" Dessert Trolley",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e05_s17_gary",
+    "baker_id": "s17_gary",
+    "episode_id": "s17e05",
+    "signature_dish": "Chocolate and Irish Cream Self Saucing Pudding",
+    "technical_rank": 1,
+    "showstopper_dish": "\"Baked Indulgence\" Dessert Trolley",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e05_s17_mo",
+    "baker_id": "s17_mo",
+    "episode_id": "s17e05",
+    "signature_dish": "Chocolate and Hazelnut Self-saucing Puddings",
+    "technical_rank": 6,
+    "showstopper_dish": "Dessert Trolley",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e05_s17_moyin",
+    "baker_id": "s17_moyin",
+    "episode_id": "s17e05",
+    "signature_dish": "Chocolate Orange Fondants",
+    "technical_rank": 8,
+    "showstopper_dish": "\"From Lagos to London\" Dessert Trolley",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e05_s17_tom",
+    "baker_id": "s17_tom",
+    "episode_id": "s17e05",
+    "signature_dish": "Apple Crumble Self-saucing puddings",
+    "technical_rank": 4,
+    "showstopper_dish": "\"Tipsy\" Dessert Trolley",
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e05_s17_yannis",
+    "baker_id": "s17_yannis",
+    "episode_id": "s17e05",
+    "signature_dish": "Apple Cinnamon and Raisin Self-saucing Pudding",
+    "technical_rank": 7,
+    "showstopper_dish": "\"British Nostalgia\" Dessert Trolley",
+    "result": "ELIMINATED",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e06_s17_clara",
+    "baker_id": "s17_clara",
+    "episode_id": "s17e06",
+    "signature_dish": null,
+    "technical_rank": null,
+    "showstopper_dish": null,
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e06_s17_elizabeth",
+    "baker_id": "s17_elizabeth",
+    "episode_id": "s17e06",
+    "signature_dish": null,
+    "technical_rank": null,
+    "showstopper_dish": null,
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e06_s17_gabe",
+    "baker_id": "s17_gabe",
+    "episode_id": "s17e06",
+    "signature_dish": null,
+    "technical_rank": null,
+    "showstopper_dish": null,
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e06_s17_gary",
+    "baker_id": "s17_gary",
+    "episode_id": "s17e06",
+    "signature_dish": null,
+    "technical_rank": null,
+    "showstopper_dish": null,
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e06_s17_mo",
+    "baker_id": "s17_mo",
+    "episode_id": "s17e06",
+    "signature_dish": null,
+    "technical_rank": null,
+    "showstopper_dish": null,
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e06_s17_moyin",
+    "baker_id": "s17_moyin",
+    "episode_id": "s17e06",
+    "signature_dish": null,
+    "technical_rank": null,
+    "showstopper_dish": null,
+    "result": "SAFE",
+    "hollywood_handshake": false
+  },
+  {
+    "performance_id": "s17e06_s17_tom",
+    "baker_id": "s17_tom",
+    "episode_id": "s17e06",
+    "signature_dish": null,
+    "technical_rank": null,
+    "showstopper_dish": null,
+    "result": "SAFE",
+    "hollywood_handshake": false
   }
 ]

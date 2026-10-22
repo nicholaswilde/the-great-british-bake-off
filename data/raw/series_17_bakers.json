@@ -40,6 +40,16 @@
     "raw_placement_text": "9th (withdrew)"
   },
   {
+    "baker_id": "s17_yannis",
+    "series_number": 17,
+    "name": "Dr. Yannis Ali",
+    "age": 28,
+    "occupation": "Paediatric doctor",
+    "hometown": "London, England",
+    "overall_placement": 8,
+    "raw_placement_text": "8th"
+  },
+  {
     "baker_id": "s17_clara",
     "series_number": 17,
     "name": "Clara Satchell-Silva",
@@ -82,7 +92,7 @@
   {
     "baker_id": "s17_mo",
     "series_number": 17,
-    "name": "Mo Mahir",
+    "name": "Mo Mahirr",
     "age": 21,
     "occupation": "Law student",
     "hometown": "West Midlands, England",
@@ -106,16 +116,6 @@
     "age": 25,
     "occupation": "Hairdresser",
     "hometown": "Halifax, West Yorkshire, England",
-    "overall_placement": null,
-    "raw_placement_text": null
-  },
-  {
-    "baker_id": "s17_yannis",
-    "series_number": 17,
-    "name": "Dr. Yannis Ali",
-    "age": 28,
-    "occupation": "Paediatric doctor",
-    "hometown": "London, England",
     "overall_placement": null,
     "raw_placement_text": null
   }
