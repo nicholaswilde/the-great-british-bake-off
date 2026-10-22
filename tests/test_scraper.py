@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import io
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import MagicMock, mock_open, patch
 
 import pandas as pd
 import pytest
@@ -283,6 +283,11 @@ def test_scrape_series_orchestration(tmp_path: Path):
         assert (tmp_path / "series_1_bakers.json").exists()
         assert (tmp_path / "series_1_episodes.json").exists()
         assert (tmp_path / "series_1_performances.json").exists()
+
+        # Also test default raw_dir
+        with patch("pathlib.Path.mkdir"), patch("builtins.open", mock_open()):
+            res_default = scrape_series(1)
+            assert res_default["series"] == 1
 
 
 def test_scraper_main_cli(tmp_path: Path):

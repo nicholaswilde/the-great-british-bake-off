@@ -124,10 +124,10 @@ def create_pr_or_commit(series: int, open_pr: bool = True) -> bool:
         )
 
         if open_pr:
-            run_cmd(f"git checkout -b {branch_name}", check=True)
+            run_cmd(f"git checkout -B {branch_name}", check=True)
             run_cmd("git add data/ docs/ README.md", check=True)
             run_cmd(["git", "commit", "-m", commit_msg], check=True)
-            run_cmd(f"git push -u origin {branch_name}", check=True)
+            run_cmd(f"git push -u origin {branch_name} --force", check=True)
 
             pr_title = f"data(ingest): update Series {series} data and predictions"
             pr_body = (
@@ -136,7 +136,7 @@ def create_pr_or_commit(series: int, open_pr: bool = True) -> bool:
                 f"- Rebuilt tidy relational datasets, SQLite, Arrow IPC, Parquet, R package, and AI corpora.\n"
                 f"- Recalibrated empirical predictive forecasts in `docs/predictions.md` and `README.md`.\n"
             )
-            run_cmd(
+            res = subprocess.run(
                 [
                     "gh",
                     "pr",
@@ -148,9 +148,18 @@ def create_pr_or_commit(series: int, open_pr: bool = True) -> bool:
                     "--base",
                     "main",
                 ],
-                check=True,
+                check=False,
+                capture_output=True,
+                text=True,
             )
-            logger.info("Opened Pull Request for %s", branch_name)
+            if res.returncode == 0:
+                logger.info("Opened Pull Request for %s", branch_name)
+            elif "already exists" in res.stderr.lower():
+                logger.info(
+                    "Pull request for %s already exists and was updated.", branch_name
+                )
+            else:
+                logger.warning("Could not create PR: %s", res.stderr.strip())
         else:
             run_cmd("git add data/ docs/ README.md", check=True)
             run_cmd(["git", "commit", "-m", commit_msg], check=True)
@@ -202,7 +211,7 @@ def main() -> int:
     try:
         from gbbo_dataset.scraper import scrape_series
 
-        scrape_series(target_series)
+        scrape_series(target_series, raw_dir=Path("data/raw"))
     except Exception as e:
         logger.error("Failed scraping Series %d: %s", target_series, e)
         if not args.force:

@@ -430,7 +430,7 @@ def extract_episodes_and_performances(
     return episodes, performances
 
 
-def scrape_series(series: int, raw_dir: Path) -> dict[str, Any]:
+def scrape_series(series: int, raw_dir: Path = Path("data/raw")) -> dict[str, Any]:
     """Execute scraping pipeline for one series and write raw JSON output."""
     raw_dir.mkdir(parents=True, exist_ok=True)
     html = fetch_series_html(series)

@@ -126,18 +126,20 @@ def test_predict_series_17():
     results = predictor.predict_series(series=17)
 
     assert results["series"] == 17
-    assert results["current_episode"] == 4
-    assert results["next_episode"] == 5
+    assert results["current_episode"] >= 1
+    assert results["next_episode"] == results["current_episode"] + 1
     assert results["total_bakers"] == 12
-    assert results["active_bakers_count"] == 8
-    assert results["eliminated_bakers_count"] == 4
+    assert (
+        results["active_bakers_count"] + results["eliminated_bakers_count"]
+        == results["total_bakers"]
+    )
 
     rankings = results["rankings"]
     active = [b for b in rankings if b["is_active"]]
     inactive = [b for b in rankings if not b["is_active"]]
 
-    assert len(active) == 8
-    assert len(inactive) == 4
+    assert len(active) == results["active_bakers_count"]
+    assert len(inactive) == results["eliminated_bakers_count"]
 
     # Win probabilities across active bakers should sum to ~100%
     active_win_sum = sum(b["win_probability"] for b in active)
@@ -171,6 +173,12 @@ def test_predict_series_as_of_episode():
     assert res_ep2["current_episode"] == 2
     assert res_ep2["next_episode"] == 3
     assert res_ep2["active_bakers_count"] == 11
+
+    res_ep4 = predictor.predict_series(series=17, as_of_episode=4)
+    assert res_ep4["current_episode"] == 4
+    assert res_ep4["next_episode"] == 5
+    assert res_ep4["active_bakers_count"] == 8
+    assert res_ep4["eliminated_bakers_count"] == 4
 
 
 def test_predict_series_invalid():
