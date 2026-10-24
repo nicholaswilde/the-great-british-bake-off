@@ -1,6 +1,6 @@
 Package: gbbo
 Title: The Great British Bake Off Tidy Datasets
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: person("Nicholas", "Wilde", email = "nicholas@nicholaswilde.io", role = c("aut", "cre"))
 Description: Comprehensive tidy datasets for the television series The
     Great British Bake Off (broadcast as The Great British Baking Show in
