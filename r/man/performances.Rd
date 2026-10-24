@@ -5,7 +5,7 @@
 \alias{performances}
 \title{Baker Episode Performances in The Great British Bake Off}
 \format{
-A data frame with 1203 rows and 11 variables:
+A data frame with 1218 rows and 11 variables:
 \describe{
   \item{performance_id}{Unique performance identifier (format: s{series}e{episode}_{baker_id})}
   \item{baker_id}{Foreign key reference to baker identifier}

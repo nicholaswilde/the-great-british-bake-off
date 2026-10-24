@@ -48,7 +48,7 @@
 #'
 #' Episode-level broadcast metadata, themes, air dates, and challenge time limits.
 #'
-#' @format A data frame with 158 rows and 8 variables:
+#' @format A data frame with 160 rows and 8 variables:
 #' \describe{
 #'   \item{episode_id}{Unique episode identifier (format: s{series}e{episode})}
 #'   \item{series_number}{Series number (integer)}
@@ -66,7 +66,7 @@
 #'
 #' Individual baker challenge bakes, technical rankings, judges' evaluations, Hollywood Handshakes, and weekly outcomes.
 #'
-#' @format A data frame with 1203 rows and 11 variables:
+#' @format A data frame with 1218 rows and 11 variables:
 #' \describe{
 #'   \item{performance_id}{Unique performance identifier (format: s{series}e{episode}_{baker_id})}
 #'   \item{baker_id}{Foreign key reference to baker identifier}

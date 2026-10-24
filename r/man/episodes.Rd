@@ -5,7 +5,7 @@
 \alias{episodes}
 \title{Episodes in The Great British Bake Off}
 \format{
-A data frame with 158 rows and 8 variables:
+A data frame with 160 rows and 8 variables:
 \describe{
   \item{episode_id}{Unique episode identifier (format: s{series}e{episode})}
   \item{series_number}{Series number (integer)}
