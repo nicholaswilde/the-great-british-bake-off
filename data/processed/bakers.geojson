@@ -4626,6 +4626,30 @@
         ]
       },
       "properties": {
+        "baker_id": "s17_yannis",
+        "name": "Dr. Yannis Ali",
+        "series_number": 17,
+        "age": 28,
+        "gender": "M",
+        "occupation": "Paediatric doctor",
+        "hometown": "London, England",
+        "country": "England",
+        "county_region": "Greater London",
+        "overall_placement": 8,
+        "is_winner": false,
+        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/YANNIS-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1278,
+          51.5074
+        ]
+      },
+      "properties": {
         "baker_id": "s17_nikki",
         "name": "Nikki",
         "series_number": 17,
@@ -4699,7 +4723,7 @@
       },
       "properties": {
         "baker_id": "s17_danni",
-        "name": "Danni",
+        "name": "Danni Noke",
         "series_number": 17,
         "age": 25,
         "gender": "NB",
@@ -4734,30 +4758,6 @@
         "overall_placement": null,
         "is_winner": false,
         "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1278,
-          51.5074
-        ]
-      },
-      "properties": {
-        "baker_id": "s17_yannis",
-        "name": "Dr. Yannis Ali",
-        "series_number": 17,
-        "age": 28,
-        "gender": "M",
-        "occupation": "Paediatric doctor",
-        "hometown": "London, England",
-        "country": "England",
-        "county_region": "Greater London",
-        "overall_placement": null,
-        "is_winner": false,
-        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/YANNIS-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
       }
     },
     {
@@ -4843,7 +4843,7 @@
       },
       "properties": {
         "baker_id": "s17_mo",
-        "name": "Mo Mahir",
+        "name": "Mo Mahirr",
         "series_number": 17,
         "age": 21,
         "gender": "M",

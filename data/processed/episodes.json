@@ -1578,5 +1578,25 @@
     "signature_time_min": null,
     "technical_time_min": null,
     "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s17e05",
+    "series_number": 17,
+    "episode_number": 5,
+    "theme": "Dessert",
+    "air_date": "2026-10-20",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
+  },
+  {
+    "episode_id": "s17e06",
+    "series_number": 17,
+    "episode_number": 6,
+    "theme": "Pastry",
+    "air_date": "2026-10-27",
+    "signature_time_min": null,
+    "technical_time_min": null,
+    "showstopper_time_min": null
   }
 ]
