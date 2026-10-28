@@ -4,9 +4,9 @@
     "citrus": 240,
     "nutty": 221,
     "berry": 207,
-    "orchard_fruit": 198,
-    "spice": 171,
-    "savory": 159,
+    "orchard_fruit": 199,
+    "spice": 172,
+    "savory": 161,
     "tropical": 122,
     "caramel": 115,
     "coffee_tea": 60,
@@ -17,18 +17,18 @@
   "style_counts": {
     "cake_sponge": 407,
     "bread": 263,
+    "tart_pie": 217,
     "dessert_meringue": 215,
-    "tart_pie": 210,
     "biscuit_cookie": 155,
     "pastry": 54
   },
   "handshake_rates": {
-    "spice": 5.3,
+    "spice": 5.2,
     "citrus": 5.0,
     "tropical": 4.9,
     "caramel": 4.3,
     "alcohol": 4.2,
-    "savory": 3.8,
+    "savory": 3.7,
     "chocolate": 3.0,
     "berry": 2.9,
     "nutty": 2.7,
@@ -45,7 +45,7 @@
     "caramel": 14.8,
     "berry": 14.0,
     "tropical": 13.9,
-    "savory": 13.8,
+    "savory": 13.7,
     "citrus": 13.3,
     "chocolate": 13.0,
     "orchard_fruit": 11.6,
@@ -94,11 +94,11 @@
       "count": 46
     },
     {
-      "pair": "nutty + spice",
-      "count": 42
+      "pair": "orchard_fruit + spice",
+      "count": 43
     },
     {
-      "pair": "orchard_fruit + spice",
+      "pair": "nutty + spice",
       "count": 42
     },
     {
@@ -173,13 +173,13 @@
     {
       "ingredient": "Bacon & Pork",
       "category": "Savory",
-      "bakes_count": 31,
+      "bakes_count": 32,
       "danger_count": 11,
-      "danger_rate_pct": 35.5,
-      "elim_rate_pct": 12.9,
-      "star_baker_pct": 19.4,
-      "handshake_pct": 3.2,
-      "risk_tier": "\ud83d\udea8 High Risk"
+      "danger_rate_pct": 34.4,
+      "elim_rate_pct": 12.5,
+      "star_baker_pct": 18.8,
+      "handshake_pct": 3.1,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
     },
     {
       "ingredient": "Rum",
@@ -237,17 +237,6 @@
       "risk_tier": "\u26a0\ufe0f Moderate Risk"
     },
     {
-      "ingredient": "Pear",
-      "category": "Orchard Fruit",
-      "bakes_count": 26,
-      "danger_count": 8,
-      "danger_rate_pct": 30.8,
-      "elim_rate_pct": 11.5,
-      "star_baker_pct": 7.7,
-      "handshake_pct": 0.0,
-      "risk_tier": "\u26a0\ufe0f Moderate Risk"
-    },
-    {
       "ingredient": "Cherry",
       "category": "Orchard Fruit",
       "bakes_count": 52,
@@ -278,6 +267,17 @@
       "elim_rate_pct": 13.1,
       "star_baker_pct": 17.2,
       "handshake_pct": 4.0,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
+    },
+    {
+      "ingredient": "Pear",
+      "category": "Orchard Fruit",
+      "bakes_count": 27,
+      "danger_count": 8,
+      "danger_rate_pct": 29.6,
+      "elim_rate_pct": 11.1,
+      "star_baker_pct": 7.4,
+      "handshake_pct": 0.0,
       "risk_tier": "\u26a0\ufe0f Moderate Risk"
     },
     {
@@ -580,13 +580,13 @@
     },
     {
       "flavor_family": "Savory",
-      "bakes_count": 159,
+      "bakes_count": 161,
       "danger_count": 51,
-      "danger_rate_pct": 32.1,
-      "elim_rate_pct": 13.8,
-      "star_baker_pct": 13.8,
-      "handshake_pct": 3.8,
-      "risk_tier": "\ud83d\udea8 High Risk"
+      "danger_rate_pct": 31.7,
+      "elim_rate_pct": 13.7,
+      "star_baker_pct": 13.7,
+      "handshake_pct": 3.7,
+      "risk_tier": "\u26a0\ufe0f Moderate Risk"
     },
     {
       "flavor_family": "Floral",
@@ -630,9 +630,9 @@
     },
     {
       "flavor_family": "Orchard_fruit",
-      "bakes_count": 198,
+      "bakes_count": 199,
       "danger_count": 58,
-      "danger_rate_pct": 29.3,
+      "danger_rate_pct": 29.1,
       "elim_rate_pct": 11.6,
       "star_baker_pct": 11.6,
       "handshake_pct": 2.5,
@@ -670,12 +670,12 @@
     },
     {
       "flavor_family": "Spice",
-      "bakes_count": 171,
+      "bakes_count": 172,
       "danger_count": 46,
-      "danger_rate_pct": 26.9,
-      "elim_rate_pct": 12.9,
+      "danger_rate_pct": 26.7,
+      "elim_rate_pct": 12.8,
       "star_baker_pct": 10.5,
-      "handshake_pct": 5.3,
+      "handshake_pct": 5.2,
       "risk_tier": "\u2705 Safe Haven"
     },
     {
@@ -791,21 +791,21 @@
       "outcome_affinity": "\ud83d\udea8 Elimination Trap"
     },
     {
+      "pair": "Orchard_fruit + Spice",
+      "total_bakes": 43,
+      "star_baker_bakes": 5,
+      "eliminated_bakes": 16,
+      "star_rate_pct": 11.6,
+      "elim_rate_pct": 37.2,
+      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
+    },
+    {
       "pair": "Nutty + Spice",
       "total_bakes": 42,
       "star_baker_bakes": 5,
       "eliminated_bakes": 12,
       "star_rate_pct": 11.9,
       "elim_rate_pct": 28.6,
-      "outcome_affinity": "\ud83d\udea8 Elimination Trap"
-    },
-    {
-      "pair": "Orchard_fruit + Spice",
-      "total_bakes": 42,
-      "star_baker_bakes": 5,
-      "eliminated_bakes": 16,
-      "star_rate_pct": 11.9,
-      "elim_rate_pct": 38.1,
       "outcome_affinity": "\ud83d\udea8 Elimination Trap"
     },
     {
@@ -2454,7 +2454,7 @@
       "series_number": 17,
       "series_label": "Series 17",
       "category": "Tart & Pie",
-      "bakes_count": 0
+      "bakes_count": 7
     },
     {
       "series_number": 17,

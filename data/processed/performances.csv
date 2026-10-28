@@ -1210,10 +1210,10 @@ s17e05_s17_mo,s17_mo,s17e05,Chocolate and Hazelnut Self-saucing Puddings,6.0,Des
 s17e05_s17_moyin,s17_moyin,s17e05,Chocolate Orange Fondants,8.0,"""From Lagos to London"" Dessert Trolley",SAFE,False,False,False,False
 s17e05_s17_tom,s17_tom,s17e05,Apple Crumble Self-saucing puddings,5.0,"""Tipsy"" Dessert Trolley",SAFE,False,False,False,False
 s17e05_s17_yannis,s17_yannis,s17e05,Apple Cinnamon and Raisin Self-saucing Pudding,7.0,"""British Nostalgia"" Dessert Trolley",ELIMINATED,False,False,False,False
-s17e06_s17_clara,s17_clara,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_elizabeth,s17_elizabeth,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_gabe,s17_gabe,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_gary,s17_gary,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_mo,s17_mo,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_moyin,s17_moyin,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_tom,s17_tom,s17e06,,,,SAFE,False,False,False,False
+s17e06_s17_clara,s17_clara,s17e06,"""Drunken Deer"" Handheld Savoury Pies",7.0,"""Starry Bites"" Decorative Pie",ELIMINATED,False,False,False,False
+s17e06_s17_elizabeth,s17_elizabeth,s17e06,Jerk Chicken Handheld Savoury Pies,6.0,"""Curried Sweet Potato Snake"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_gabe,s17_gabe,s17e06,"""Bostin Brummie Balti"" Handheld Savoury Pies",3.0,"""Lincolnshire Sausage Dog"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_gary,s17_gary,s17e06,"Mince Beef, Onion, and Potato Handheld Savoury Pies",4.0,"""Mariner's"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_mo,s17_mo,s17e06,"""Creamy Chicken"" Handheld Savoury Pies",5.0,"""Chai Spiced Pear"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_moyin,s17_moyin,s17e06,"""Nigerian Meat"" Handheld Savoury Pies",1.0,"""Head of the Orchard"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_tom,s17_tom,s17e06,"""Banh Mi"" Handheld Savoury Pies",2.0,"""Stop-Motion Chicken"" Decorative Pie",STAR_BAKER,False,False,False,False

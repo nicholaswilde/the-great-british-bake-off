@@ -1564,7 +1564,7 @@
     "series_number": 17,
     "episode_number": 3,
     "theme": "Audience Choice",
-    "air_date": "2026-10-06",
+    "air_date": null,
     "signature_time_min": null,
     "technical_time_min": null,
     "showstopper_time_min": null
@@ -1574,7 +1574,7 @@
     "series_number": 17,
     "episode_number": 4,
     "theme": "Bread",
-    "air_date": "2026-10-13",
+    "air_date": null,
     "signature_time_min": null,
     "technical_time_min": null,
     "showstopper_time_min": null
@@ -1584,7 +1584,7 @@
     "series_number": 17,
     "episode_number": 5,
     "theme": "Dessert",
-    "air_date": "2026-10-20",
+    "air_date": null,
     "signature_time_min": null,
     "technical_time_min": null,
     "showstopper_time_min": null
@@ -1594,7 +1594,7 @@
     "series_number": 17,
     "episode_number": 6,
     "theme": "Pastry",
-    "air_date": "2026-10-27",
+    "air_date": null,
     "signature_time_min": null,
     "technical_time_min": null,
     "showstopper_time_min": null

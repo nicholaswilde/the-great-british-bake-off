@@ -2880,9 +2880,24 @@
     "county_region": "South Yorkshire"
   },
   {
+    "baker_id": "s17_clara",
+    "series_number": 17,
+    "name": "Clara Satchell-Silva",
+    "age": 24,
+    "gender": "F",
+    "occupation": "Marketing graduate",
+    "hometown": "Hertfordshire, England",
+    "overall_placement": 7,
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.8098,
+    "longitude": -0.2377,
+    "country": "England",
+    "county_region": "Hertfordshire"
+  },
+  {
     "baker_id": "s17_yannis",
     "series_number": 17,
-    "name": "Dr. Yannis Ali",
+    "name": "Yannis Ali",
     "age": 28,
     "gender": "M",
     "occupation": "Paediatric doctor",
@@ -2953,21 +2968,6 @@
     "longitude": -2.3381,
     "country": "England",
     "county_region": "Dorset"
-  },
-  {
-    "baker_id": "s17_clara",
-    "series_number": 17,
-    "name": "Clara Satchell-Silva",
-    "age": 24,
-    "gender": "F",
-    "occupation": "Marketing graduate",
-    "hometown": "Hertfordshire, England",
-    "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
-    "latitude": 51.8098,
-    "longitude": -0.2377,
-    "country": "England",
-    "county_region": "Hertfordshire"
   },
   {
     "baker_id": "s17_elizabeth",

@@ -4621,13 +4621,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.2377,
+          51.8098
+        ]
+      },
+      "properties": {
+        "baker_id": "s17_clara",
+        "name": "Clara Satchell-Silva",
+        "series_number": 17,
+        "age": 24,
+        "gender": "F",
+        "occupation": "Marketing graduate",
+        "hometown": "Hertfordshire, England",
+        "country": "England",
+        "county_region": "Hertfordshire",
+        "overall_placement": 7,
+        "is_winner": false,
+        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.1278,
           51.5074
         ]
       },
       "properties": {
         "baker_id": "s17_yannis",
-        "name": "Dr. Yannis Ali",
+        "name": "Yannis Ali",
         "series_number": 17,
         "age": 28,
         "gender": "M",
@@ -4734,30 +4758,6 @@
         "overall_placement": 12,
         "is_winner": false,
         "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/DANNI-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.2377,
-          51.8098
-        ]
-      },
-      "properties": {
-        "baker_id": "s17_clara",
-        "name": "Clara Satchell-Silva",
-        "series_number": 17,
-        "age": 24,
-        "gender": "F",
-        "occupation": "Marketing graduate",
-        "hometown": "Hertfordshire, England",
-        "country": "England",
-        "county_region": "Hertfordshire",
-        "overall_placement": null,
-        "is_winner": false,
-        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
       }
     },
     {

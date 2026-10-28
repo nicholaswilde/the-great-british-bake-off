@@ -42,7 +42,7 @@
   {
     "baker_id": "s17_yannis",
     "series_number": 17,
-    "name": "Dr. Yannis Ali",
+    "name": "Yannis Ali",
     "age": 28,
     "occupation": "Paediatric doctor",
     "hometown": "London, England",
@@ -56,8 +56,8 @@
     "age": 24,
     "occupation": "Marketing graduate",
     "hometown": "Hertfordshire, England",
-    "overall_placement": null,
-    "raw_placement_text": null
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
   },
   {
     "baker_id": "s17_elizabeth",

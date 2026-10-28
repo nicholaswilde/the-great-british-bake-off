@@ -354,13 +354,12 @@ Probabilistic forecasts computed via multi-factor empirical modeling calibrated 
 
 | Rank | Baker | Age | Avg Tech % | Handshakes | Star Bakers | Next Star Baker | Next Elim Risk | Win Prob | Finale Prob |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Tom Whittaker** | 25 | 65.4% | 0 | 2 | **18.5%** | 7.8% | **30.0%** | **85.1%** |
-| 2 | **Clara Satchell-Silva** | 24 | 58.7% | 0 | 1 | **16.3%** | 11.3% | **14.9%** | **47.5%** |
-| 3 | **Mo Mahirr** | 21 | 63.9% | 0 | 1 | **12.7%** | 14.2% | **14.9%** | **48.5%** |
-| 4 | **Elizabeth 'Connie' Lewis** | 63 | 68.1% | 0 | 1 | **17.5%** | 9.6% | **13.7%** | **46.5%** |
-| 5 | **Gabe Capes** | 32 | 78.7% | 0 | 0 | **14.0%** | 17.2% | **10.3%** | **40.5%** |
-| 6 | **Moyin Odeniran** | 22 | 47.0% | 1 | 0 | **8.5%** | 22.3% | **10.2%** | **33.9%** |
-| 7 | **Gary Harding** | 67 | 44.2% | 0 | 0 | **12.5%** | 17.8% | **5.9%** | **23.0%** |
+| 1 | **Tom Whittaker** | 25 | 68.4% | 0 | 3 | **42.2%** | 6.7% | **51.6%** | **95.0%** |
+| 2 | **Mo Mahirr** | 21 | 58.8% | 0 | 1 | **11.3%** | 16.4% | **12.8%** | **42.5%** |
+| 3 | **Elizabeth 'Connie' Lewis** | 63 | 59.5% | 0 | 1 | **9.6%** | 18.1% | **11.4%** | **39.3%** |
+| 4 | **Moyin Odeniran** | 22 | 55.8% | 1 | 0 | **15.3%** | 12.6% | **9.9%** | **34.9%** |
+| 5 | **Gabe Capes** | 32 | 76.7% | 0 | 0 | **13.2%** | 18.8% | **9.1%** | **37.2%** |
+| 6 | **Gary Harding** | 67 | 45.2% | 0 | 0 | **8.3%** | 27.5% | **5.4%** | **22.0%** |
 
 > [!NOTE]
 > Predictions update automatically after each broadcast episode via `task predict:update` or `uv run gbbo predict --update-docs`. See [docs/predictions.md](docs/predictions.md) for all historical episode snapshots.
