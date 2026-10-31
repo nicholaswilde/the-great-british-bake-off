@@ -224,3 +224,7 @@ __marimo__/
 .serena/
 .rtk/*
 !.rtk/filters.toml
+.agents/*
+!.agents/skills/
+!.agents/rules/
+!.agents/skills_catalog.md
