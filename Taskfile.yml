@@ -67,6 +67,17 @@ tasks:
     cmds:
       - uv run gbbo extract-flavors {{.CLI_ARGS}}
 
+  # Scheduled Ingestion & Broadcast Tracking
+  ingest:check:
+    desc: Check if new broadcast series or episodes are available
+    cmds:
+      - ./scripts/schedule_ingest.py --check-only {{.CLI_ARGS}}
+
+  ingest:run:
+    desc: Ingest new series, recompile data pipeline, and update predictions
+    cmds:
+      - ./scripts/schedule_ingest.py {{.CLI_ARGS}}
+
   pipeline:
     desc: Rebuild all tidy tables, SQLite, Arrow, HuggingFace datasets, and AI corpora
     cmds:

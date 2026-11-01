@@ -13,6 +13,7 @@ Catalog of Antigravity agent skills available in `the-great-british-bake-off`.
 | [`caveman-stats`](skills/caveman-stats/SKILL.md) | Show real session token usage and estimated savings | `/caveman-stats` |
 | [`gbbo-dataset-builder`](skills/gbbo-dataset-builder/SKILL.md) | Aggregate, validate through Pydantic schemas, and export raw GBBO series files into master tables | `task build` / `uv run gbbo build` |
 | [`gbbo-gap-audit`](skills/gbbo-gap-audit/SKILL.md) | Audit dataset completeness, calculate missing cell rates, and backfill broadcast ratings or demographic gaps | `task audit:gaps` / `uv run python scripts/gap_audit.py` |
+| [`gbbo-ingest`](skills/gbbo-ingest/SKILL.md) | Automate checking for new broadcast episodes/series, execute pipeline, and update predictions | `task ingest:run` / `./scripts/schedule_ingest.py` |
 | [`gbbo-predict`](skills/gbbo-predict/SKILL.md) | Run empirical predictive engine to forecast Star Baker candidates, elimination risks, and winner trajectories | `task predict` / `uv run python scripts/predict.py` |
 | [`gbbo-scrape-wiki`](skills/gbbo-scrape-wiki/SKILL.md) | Scrape and extract GBBO series summaries, baker demographics, challenge bakes, technical rankings, and eliminations | `task scrape` / `uv run gbbo scrape` |
 | [`karpathy-guidelines`](skills/karpathy-guidelines/SKILL.md) | Behavioral guidelines to reduce common LLM coding mistakes | Guidelines reference |

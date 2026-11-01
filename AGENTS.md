@@ -142,7 +142,7 @@ This repository creates a comprehensive tidy dataset and AI training corpus for 
 - `tests/`: Pytest unit and integration test suite.
 - `.agents/`:
   - `rules/`: Workspace behavioral rules (`rtk-rules.md`, `serena.md`, `github-cli-rules.md`, `ripgrep-rules.md`, `no-secrets.md`, `caveman-rules.md`, `uv-rules.md`, `taplo-rules.md`, `domain-terminology-rules.md`).
-  - `skills/`: On-demand agent runbooks (`gbbo-scrape-wiki`, `gbbo-dataset-builder`, `gbbo-gap-audit`, `gbbo-predict`, release and stack skills).
+  - `skills/`: On-demand agent runbooks (`gbbo-scrape-wiki`, `gbbo-dataset-builder`, `gbbo-gap-audit`, `gbbo-ingest`, `gbbo-predict`, release and stack skills).
   - `skills_catalog.md`: Complete agent skills reference table.
 
 ## Available Workspace Skills
@@ -150,6 +150,7 @@ See [`.agents/skills_catalog.md`](.agents/skills_catalog.md) for full descriptio
 - `gbbo-scrape-wiki`: Scrapes Wikipedia for series summaries, bakers, challenge bakes, technical ranks, and eliminations.
 - `gbbo-dataset-builder`: Compiles raw data into validated tidy tables (`bakers.json`, `episodes.json`, `performances.json`) and CSVs.
 - `gbbo-gap-audit`: Audits dataset completeness, calculates missing cell rates, and exports gap reports.
+- `gbbo-ingest`: Automates checking for new broadcast episodes and series, pipeline execution, empirical prediction updating, and PR generation.
 - `gbbo-predict`: Runs empirical predictive engine for Star Baker candidates, elimination risks, and series trajectories.
 - `release`: Automates version calculation, pre-release validation (`task check`), version bumping, git tagging, and atomic push.
 - `release-summary`: Generates categorized GitHub release notes based on conventional git logs and updates draft releases.

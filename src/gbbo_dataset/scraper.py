@@ -50,8 +50,8 @@ def fetch_series_html(series: int) -> str:
     """Fetch HTML for a given GBBO series from Wikipedia."""
     headers = {"User-Agent": USER_AGENT}
     candidate_urls = [
-        f"https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_{series})",
         f"https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_series_{series}",
+        f"https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_{series})",
     ]
     for url in candidate_urls:
         logger.info("Fetching %s", url)
