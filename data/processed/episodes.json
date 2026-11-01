@@ -6,8 +6,8 @@
     "theme": "Cakes",
     "air_date": "2010-08-17",
     "signature_time_min": 180,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "technical_time_min": 90,
+    "showstopper_time_min": 300
   },
   {
     "episode_id": "s01e02",
@@ -77,7 +77,7 @@
     "air_date": "2011-08-23",
     "signature_time_min": 120,
     "technical_time_min": 90,
-    "showstopper_time_min": null
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s02e03",
@@ -126,8 +126,8 @@
     "theme": "Pâtisserie (Semi-final)",
     "air_date": "2011-09-27",
     "signature_time_min": 120,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s02e08",
@@ -177,7 +177,7 @@
     "air_date": "2012-09-04",
     "signature_time_min": 180,
     "technical_time_min": 165,
-    "showstopper_time_min": null
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s03e05",
@@ -196,7 +196,7 @@
     "theme": "Puddings",
     "air_date": "2012-09-18",
     "signature_time_min": 120,
-    "technical_time_min": null,
+    "technical_time_min": 105,
     "showstopper_time_min": 210
   },
   {
@@ -207,7 +207,7 @@
     "air_date": "2012-09-25",
     "signature_time_min": 180,
     "technical_time_min": 150,
-    "showstopper_time_min": null
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s03e08",
@@ -225,9 +225,9 @@
     "episode_number": 9,
     "theme": "Pâtisserie (Semifinal)",
     "air_date": "2012-10-09",
-    "signature_time_min": null,
+    "signature_time_min": 150,
     "technical_time_min": 150,
-    "showstopper_time_min": null
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s03e10",
@@ -546,8 +546,8 @@
     "theme": "Cake",
     "air_date": "2016-08-24",
     "signature_time_min": 120,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s07e02",
@@ -596,8 +596,8 @@
     "theme": "Botanical",
     "air_date": "2016-09-28",
     "signature_time_min": 120,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s07e07",
@@ -875,9 +875,9 @@
     "episode_number": 4,
     "theme": "Dairy",
     "air_date": "2019-09-17",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s10e05",
@@ -905,9 +905,9 @@
     "episode_number": 7,
     "theme": "Festivals",
     "air_date": "2019-10-08",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s10e08",
@@ -915,9 +915,9 @@
     "episode_number": 8,
     "theme": "Pastry (Quarterfinals)",
     "air_date": "2019-10-15",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s10e09",
@@ -1005,9 +1005,9 @@
     "episode_number": 7,
     "theme": "The '80s",
     "air_date": "2020-11-03",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s11e08",
@@ -1057,7 +1057,7 @@
     "air_date": "2021-09-28",
     "signature_time_min": 120,
     "technical_time_min": 105,
-    "showstopper_time_min": null
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s12e03",
@@ -1245,7 +1245,7 @@
     "episode_number": 1,
     "theme": "Cake",
     "air_date": "2023-09-26",
-    "signature_time_min": null,
+    "signature_time_min": 120,
     "technical_time_min": 120,
     "showstopper_time_min": 240
   },
@@ -1255,7 +1255,7 @@
     "episode_number": 2,
     "theme": "Biscuits",
     "air_date": "2023-10-03",
-    "signature_time_min": null,
+    "signature_time_min": 120,
     "technical_time_min": 90,
     "showstopper_time_min": 240
   },
@@ -1266,8 +1266,8 @@
     "theme": "Bread",
     "air_date": "2023-10-10",
     "signature_time_min": 120,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s14e04",
@@ -1275,9 +1275,9 @@
     "episode_number": 4,
     "theme": "Chocolate",
     "air_date": "2023-10-18",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s14e05",
@@ -1285,9 +1285,9 @@
     "episode_number": 5,
     "theme": "Pastry",
     "air_date": "2023-10-24",
-    "signature_time_min": null,
+    "signature_time_min": 120,
     "technical_time_min": 165,
-    "showstopper_time_min": null
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s14e06",
@@ -1307,7 +1307,7 @@
     "air_date": "2023-11-07",
     "signature_time_min": 165,
     "technical_time_min": 90,
-    "showstopper_time_min": null
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s14e08",
@@ -1345,9 +1345,9 @@
     "episode_number": 1,
     "theme": "Cake",
     "air_date": "2024-09-24",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 120,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s15e02",
@@ -1355,9 +1355,9 @@
     "episode_number": 2,
     "theme": "Biscuits",
     "air_date": "2024-10-01",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s15e03",
@@ -1365,9 +1365,9 @@
     "episode_number": 3,
     "theme": "Bread",
     "air_date": "2024-10-08",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 165,
+    "technical_time_min": 105,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s15e04",
@@ -1375,9 +1375,9 @@
     "episode_number": 4,
     "theme": "Caramel",
     "air_date": "2024-10-15",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s15e05",
@@ -1385,9 +1385,9 @@
     "episode_number": 5,
     "theme": "Pastry",
     "air_date": "2024-10-22",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s15e06",
@@ -1395,9 +1395,9 @@
     "episode_number": 6,
     "theme": "Autumn",
     "air_date": "2024-10-29",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s15e07",
@@ -1405,9 +1405,9 @@
     "episode_number": 7,
     "theme": "Desserts",
     "air_date": "2024-11-05",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s15e08",
@@ -1415,9 +1415,9 @@
     "episode_number": 8,
     "theme": "The '70s (Quarterfinals)",
     "air_date": "2024-11-12",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s15e09",
@@ -1425,9 +1425,9 @@
     "episode_number": 9,
     "theme": "Patisserie (Semifinal)",
     "air_date": "2024-11-19",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 165,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s15e10",
@@ -1435,9 +1435,9 @@
     "episode_number": 10,
     "theme": "Final",
     "air_date": "2024-11-26",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s16e01",
@@ -1445,9 +1445,9 @@
     "episode_number": 1,
     "theme": "Cake",
     "air_date": "2025-09-02",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s16e02",
@@ -1455,9 +1455,9 @@
     "episode_number": 2,
     "theme": "Biscuits",
     "air_date": "2025-09-09",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s16e03",
@@ -1465,9 +1465,9 @@
     "episode_number": 3,
     "theme": "Bread",
     "air_date": "2025-09-16",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 165,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s16e04",
@@ -1475,9 +1475,9 @@
     "episode_number": 4,
     "theme": "Back To School",
     "air_date": "2025-09-23",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s16e05",
@@ -1485,9 +1485,9 @@
     "episode_number": 5,
     "theme": "Chocolate",
     "air_date": "2025-09-30",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 105,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s16e06",
@@ -1495,9 +1495,9 @@
     "episode_number": 6,
     "theme": "Pastry",
     "air_date": "2025-10-07",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s16e07",
@@ -1505,9 +1505,9 @@
     "episode_number": 7,
     "theme": "Meringue",
     "air_date": "2025-10-14",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s16e08",
@@ -1515,9 +1515,9 @@
     "episode_number": 8,
     "theme": "Desserts (Quarterfinals)",
     "air_date": "2025-10-21",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s16e09",
@@ -1525,9 +1525,9 @@
     "episode_number": 9,
     "theme": "Pâtisserie (Semifinal)",
     "air_date": "2025-10-28",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 165,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s16e10",
@@ -1535,9 +1535,9 @@
     "episode_number": 10,
     "theme": "Final",
     "air_date": "2025-11-04",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s17e01",
@@ -1545,9 +1545,9 @@
     "episode_number": 1,
     "theme": "Cake",
     "air_date": "2026-09-22",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s17e02",
@@ -1555,9 +1555,9 @@
     "episode_number": 2,
     "theme": "Biscuit",
     "air_date": "2026-09-29",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s17e03",
@@ -1565,9 +1565,9 @@
     "episode_number": 3,
     "theme": "Audience Choice",
     "air_date": "2026-10-06",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 105,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s17e04",
@@ -1575,9 +1575,9 @@
     "episode_number": 4,
     "theme": "Bread",
     "air_date": "2026-10-13",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 165,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
   },
   {
     "episode_id": "s17e05",
@@ -1585,9 +1585,9 @@
     "episode_number": 5,
     "theme": "Dessert",
     "air_date": "2026-10-20",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   },
   {
     "episode_id": "s17e06",
@@ -1595,8 +1595,8 @@
     "episode_number": 6,
     "theme": "Pastry",
     "air_date": "2026-10-27",
-    "signature_time_min": null,
-    "technical_time_min": null,
-    "showstopper_time_min": null
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   }
 ]

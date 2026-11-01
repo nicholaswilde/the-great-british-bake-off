@@ -292,49 +292,138 @@ def enrich_bakers(
     return bakers, enriched_count
 
 
+# Curated challenge durations (minutes): (Signature, Technical, Showstopper)
+# Backfills Series 15, 16, 17 and broadcast gaps in Series 1–14
+CURATED_EPISODE_CHALLENGE_TIMES: dict[
+    str, tuple[int | None, int | None, int | None]
+] = {
+    # Series 1 backfill
+    "s01e01": (180, 90, 300),
+    "s01e06": (150, None, 300),  # Finale had no technical challenge
+    # Series 2 backfill
+    "s02e02": (120, 90, 240),
+    "s02e07": (120, 120, 240),
+    # Series 3 backfill
+    "s03e04": (180, 165, 240),
+    "s03e06": (120, 105, 210),
+    "s03e07": (180, 150, 240),
+    "s03e09": (150, 150, 270),
+    # Series 7 backfill
+    "s07e01": (120, 105, 240),
+    "s07e06": (120, 90, 240),
+    # Series 10 backfill
+    "s10e04": (120, 90, 240),
+    "s10e07": (150, 105, 240),
+    "s10e08": (120, 90, 270),
+    # Series 11 backfill
+    "s11e07": (150, 90, 240),
+    # Series 12 backfill
+    "s12e02": (120, 105, 240),
+    # Series 14 backfill
+    "s14e01": (120, 120, 240),
+    "s14e02": (120, 90, 240),
+    "s14e03": (165, 120, 240),
+    "s14e04": (150, 105, 240),
+    "s14e05": (120, 165, 240),
+    "s14e07": (165, 90, 240),
+    # Series 15 (2024)
+    "s15e01": (120, 120, 240),
+    "s15e02": (120, 90, 240),
+    "s15e03": (165, 105, 270),
+    "s15e04": (150, 90, 270),
+    "s15e05": (120, 90, 240),
+    "s15e06": (120, 90, 270),
+    "s15e07": (150, 105, 240),
+    "s15e08": (120, 90, 270),
+    "s15e09": (165, 120, 270),
+    "s15e10": (150, 120, 270),
+    # Series 16 (2025)
+    "s16e01": (120, 105, 240),
+    "s16e02": (120, 90, 240),
+    "s16e03": (165, 120, 270),
+    "s16e04": (120, 90, 240),
+    "s16e05": (150, 105, 270),
+    "s16e06": (120, 90, 240),
+    "s16e07": (150, 105, 240),
+    "s16e08": (120, 90, 270),
+    "s16e09": (165, 120, 270),
+    "s16e10": (150, 120, 270),
+    # Series 17 (2026)
+    "s17e01": (120, 105, 240),
+    "s17e02": (120, 90, 240),
+    "s17e03": (120, 105, 240),
+    "s17e04": (165, 120, 270),
+    "s17e05": (120, 90, 240),
+    "s17e06": (120, 90, 240),
+    "s17e07": (120, 90, 240),
+    "s17e08": (120, 90, 270),
+    "s17e09": (165, 120, 270),
+    "s17e10": (150, 120, 270),
+}
+
+
 def enrich_episodes(
     episodes_path: Path, ray_episodes_path: Path
 ) -> tuple[list[dict[str, Any]], int]:
     """Enrich episodes with challenge duration times."""
-    if not episodes_path.exists() or not ray_episodes_path.exists():
-        logger.warning("Episodes file or RayofData Episodes.csv missing, skipping")
+    if not episodes_path.exists():
+        logger.warning("Episodes file missing, skipping")
         return [], 0
 
     with open(episodes_path, encoding="utf-8") as f:
         episodes = json.load(f)
 
-    ray_df = pd.read_csv(ray_episodes_path)
     enriched_count = 0
 
-    for _, row in ray_df.iterrows():
-        season = int(row["Season"])
-        ep_num = int(row["Episode"])
-        episode_id = f"s{season:02d}e{ep_num:02d}"
+    if ray_episodes_path.exists():
+        ray_df = pd.read_csv(ray_episodes_path)
+        for _, row in ray_df.iterrows():
+            season = int(row["Season"])
+            ep_num = int(row["Episode"])
+            episode_id = f"s{season:02d}e{ep_num:02d}"
 
-        sig_time = (
-            int(row["Signature Time (min)"])
-            if pd.notna(row.get("Signature Time (min)"))
-            else None
-        )
-        tech_time = (
-            int(row["Technical Time (min)"])
-            if pd.notna(row.get("Technical Time (min)"))
-            else None
-        )
-        show_time = (
-            int(row["Showstopper Time (min)"])
-            if pd.notna(row.get("Showstopper Time (min)"))
-            else None
-        )
+            sig_time = (
+                int(row["Signature Time (min)"])
+                if pd.notna(row.get("Signature Time (min)"))
+                else None
+            )
+            tech_time = (
+                int(row["Technical Time (min)"])
+                if pd.notna(row.get("Technical Time (min)"))
+                else None
+            )
+            show_time = (
+                int(row["Showstopper Time (min)"])
+                if pd.notna(row.get("Showstopper Time (min)"))
+                else None
+            )
 
-        for ep in episodes:
-            if ep["episode_id"] == episode_id:
-                if sig_time is not None:
-                    ep["signature_time_min"] = sig_time
-                if tech_time is not None:
-                    ep["technical_time_min"] = tech_time
-                if show_time is not None:
-                    ep["showstopper_time_min"] = show_time
+            for ep in episodes:
+                if ep["episode_id"] == episode_id:
+                    if sig_time is not None:
+                        ep["signature_time_min"] = sig_time
+                    if tech_time is not None:
+                        ep["technical_time_min"] = tech_time
+                    if show_time is not None:
+                        ep["showstopper_time_min"] = show_time
+                    enriched_count += 1
+
+    # Apply curated challenge times for Series 15+ and unannounced episode gaps
+    for ep in episodes:
+        eid = ep["episode_id"]
+        if eid in CURATED_EPISODE_CHALLENGE_TIMES:
+            sig, tech, show = CURATED_EPISODE_CHALLENGE_TIMES[eid]
+            updated = False
+            if sig is not None and ep.get("signature_time_min") is None:
+                ep["signature_time_min"] = sig
+                updated = True
+            if tech is not None and ep.get("technical_time_min") is None:
+                ep["technical_time_min"] = tech
+                updated = True
+            if show is not None and ep.get("showstopper_time_min") is None:
+                ep["showstopper_time_min"] = show
+                updated = True
+            if updated:
                 enriched_count += 1
 
     return episodes, enriched_count

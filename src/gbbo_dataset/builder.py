@@ -118,6 +118,19 @@ def build_datasets(
                         and existing_episodes[e_id].get(k) is not None
                     ):
                         raw[k] = existing_episodes[e_id][k]
+
+            from gbbo_dataset.importers.rayofdata import (
+                CURATED_EPISODE_CHALLENGE_TIMES,
+            )
+
+            if e_id in CURATED_EPISODE_CHALLENGE_TIMES:
+                sig, tech, show = CURATED_EPISODE_CHALLENGE_TIMES[e_id]
+                if raw.get("signature_time_min") is None and sig is not None:
+                    raw["signature_time_min"] = sig
+                if raw.get("technical_time_min") is None and tech is not None:
+                    raw["technical_time_min"] = tech
+                if raw.get("showstopper_time_min") is None and show is not None:
+                    raw["showstopper_time_min"] = show
             try:
                 ep = Episode.model_validate(raw)
                 episodes_map[ep.episode_id] = ep

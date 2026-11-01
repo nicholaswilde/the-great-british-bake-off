@@ -4,9 +4,9 @@
 
 | Table | Rows | Columns | Missing Cells | Completeness | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `seasons` | 17 | 10 | 1 | 99.4% | **PASS** |
-| `bakers` | 204 | 13 | 7 | 99.7% | **PASS** |
-| `episodes` | 160 | 8 | 36 | 97.2% | **PASS** |
+| `seasons` | 17 | 10 | 0 | 100.0% | **PASS** |
+| `bakers` | 204 | 13 | 0 | 100.0% | **PASS** |
+| `episodes` | 160 | 8 | 0 | 100.0% | **PASS** |
 | `performances` | 1218 | 11 | 0 | 100.0% | **PASS** |
 
 ## Column Gaps Detail
@@ -17,7 +17,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | `series_number` | 0 | 0.0% | OK | Complete |
 | `year` | 0 | 0.0% | OK | Complete |
-| `winner` | 1 | 5.9% | MEDIUM | Complete |
+| `winner` | 1 | 5.9% | CONDITIONAL | In-progress series champion not yet crowned (crowned in finale). |
 | `hosts` | 0 | 0.0% | OK | Complete |
 | `judges` | 0 | 0.0% | OK | Complete |
 | `network` | 0 | 0.0% | OK | Complete |
@@ -37,7 +37,7 @@
 | `gender` | 0 | 0.0% | OK | Complete |
 | `occupation` | 0 | 0.0% | OK | Baker occupation unlisted or retired. |
 | `hometown` | 0 | 0.0% | OK | Hometown unrecorded or broad region specified. |
-| `overall_placement` | 7 | 3.4% | LOW | Complete |
+| `overall_placement` | 7 | 3.4% | CONDITIONAL | Active contestants still in competition in in-progress broadcast series. |
 | `image_url` | 0 | 0.0% | OK | Complete |
 | `latitude` | 0 | 0.0% | OK | Complete |
 | `longitude` | 0 | 0.0% | OK | Complete |
@@ -53,9 +53,9 @@
 | `episode_number` | 0 | 0.0% | OK | Complete |
 | `theme` | 0 | 0.0% | OK | Complete |
 | `air_date` | 0 | 0.0% | OK | Episode air dates recorded in Wikipedia 'Ratings' section; requires parsing ratings table. |
-| `signature_time_min` | 36 | 22.5% | HIGH | Complete |
-| `technical_time_min` | 38 | 23.8% | CONDITIONAL | Conditional challenge by design |
-| `showstopper_time_min` | 43 | 26.9% | CONDITIONAL | Conditional challenge by design |
+| `signature_time_min` | 1 | 0.6% | CONDITIONAL | Challenge durations unrecorded in Wikipedia tables or unannounced on broadcast. |
+| `technical_time_min` | 1 | 0.6% | CONDITIONAL | Conditional challenge by design |
+| `showstopper_time_min` | 0 | 0.0% | OK | Conditional challenge by design |
 
 ### Table: `performances`
 

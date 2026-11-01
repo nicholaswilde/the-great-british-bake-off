@@ -42,6 +42,15 @@ DIAGNOSIS_HINTS: dict[tuple[str, str], str] = {
     ),
     ("bakers", "occupation"): ("Baker occupation unlisted or retired."),
     ("bakers", "hometown"): ("Hometown unrecorded or broad region specified."),
+    ("bakers", "overall_placement"): (
+        "Active contestants still competing in an in-progress broadcast series have null placement."
+    ),
+    ("seasons", "winner"): (
+        "In-progress series champion not yet crowned (crowned in finale)."
+    ),
+    ("episodes", "signature_time_min"): (
+        "Challenge durations unrecorded in Wikipedia tables or unannounced on broadcast."
+    ),
 }
 
 # Columns conditionally populated by design (not considered data quality defects)
@@ -49,6 +58,7 @@ CONDITIONAL_COLUMNS: set[tuple[str, str]] = {
     ("performances", "technical_rank"),
     ("performances", "signature_dish"),
     ("performances", "showstopper_dish"),
+    ("episodes", "signature_time_min"),
     ("episodes", "technical_time_min"),
     ("episodes", "showstopper_time_min"),
     ("seasons", "pbs_season"),
@@ -69,6 +79,7 @@ class ColumnGap:
         affected_series: dict[int, int],
         sample_keys: list[str],
         diagnosis_hint: str = "",
+        is_conditional: bool | None = None,
     ) -> None:
         self.table_name = table_name
         self.column_name = column_name
@@ -78,10 +89,15 @@ class ColumnGap:
         self.affected_series = affected_series
         self.sample_keys = sample_keys
         self.diagnosis_hint = diagnosis_hint
+        self._is_conditional = (
+            is_conditional
+            if is_conditional is not None
+            else ((table_name, column_name) in CONDITIONAL_COLUMNS)
+        )
 
     @property
     def is_conditional(self) -> bool:
-        return (self.table_name, self.column_name) in CONDITIONAL_COLUMNS
+        return self._is_conditional
 
     @property
     def severity(self) -> str:
@@ -176,6 +192,18 @@ class DatasetGapAuditor:
                 sample_keys.append(key_id)
 
         hint = DIAGNOSIS_HINTS.get((table_name, column_name), "")
+        is_conditional = (table_name, column_name) in CONDITIONAL_COLUMNS
+
+        # In-progress series evaluation (e.g. active bakers or uncrowned winner)
+        if not is_conditional and affected_series and "series_number" in df.columns:
+            max_series = int(df["series_number"].max())
+            if set(affected_series.keys()) == {max_series}:
+                if (table_name, column_name) == ("bakers", "overall_placement"):
+                    is_conditional = True
+                    hint = "Active contestants still in competition in in-progress broadcast series."
+                elif (table_name, column_name) == ("seasons", "winner"):
+                    is_conditional = True
+                    hint = "In-progress series champion not yet crowned (crowned in finale)."
 
         return ColumnGap(
             table_name=table_name,
@@ -185,6 +213,7 @@ class DatasetGapAuditor:
             affected_series=affected_series,
             sample_keys=sample_keys,
             diagnosis_hint=hint,
+            is_conditional=is_conditional,
         )
 
     def audit_table(self, table_name: str) -> list[ColumnGap]:
