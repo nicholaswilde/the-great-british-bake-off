@@ -348,19 +348,17 @@ Career technical challenge rank percentile distributions and Star Baker honors f
 ## :crystal_ball: Empirical Series Predictions
 
 <!-- GBBO_PREDICTIONS_START -->
-### :trophy: Live Empirical Predictions (Series 17 - After Episode 6)
+### :trophy: Live Empirical Predictions (Series 17 - After Episode 7)
 
 Probabilistic forecasts computed via multi-factor empirical modeling calibrated against 16 historical GBBO series. See [docs/predictions.md](docs/predictions.md) for full weekly trajectory ledgers and outcome accuracy tracking.
 
 | Rank | Baker | Age | Avg Tech % | Handshakes | Star Bakers | Next Star Baker | Next Elim Risk | Win Prob | Finale Prob |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Tom Whittaker** | 25 | 65.4% | 0 | 2 | **18.5%** | 7.8% | **30.0%** | **85.1%** |
-| 2 | **Clara Satchell-Silva** | 24 | 58.7% | 0 | 1 | **16.3%** | 11.3% | **14.9%** | **47.5%** |
-| 3 | **Mo Mahirr** | 21 | 63.9% | 0 | 1 | **12.7%** | 14.2% | **14.9%** | **48.5%** |
-| 4 | **Elizabeth 'Connie' Lewis** | 63 | 68.1% | 0 | 1 | **17.5%** | 9.6% | **13.7%** | **46.5%** |
-| 5 | **Gabe Capes** | 32 | 78.7% | 0 | 0 | **14.0%** | 17.2% | **10.3%** | **40.5%** |
-| 6 | **Moyin Odeniran** | 22 | 47.0% | 1 | 0 | **8.5%** | 22.3% | **10.2%** | **33.9%** |
-| 7 | **Gary Harding** | 67 | 44.2% | 0 | 0 | **12.5%** | 17.8% | **5.9%** | **23.0%** |
+| 1 | **Tom Whittaker** | 25 | 72.9% | 0 | 3 | **35.4%** | 8.3% | **51.8%** | **95.0%** |
+| 2 | **Gabe Capes** | 32 | 77.2% | 0 | 1 | **30.1%** | 14.9% | **16.4%** | **54.8%** |
+| 3 | **Mo Mahirr** | 21 | 56.1% | 0 | 1 | **12.6%** | 23.0% | **12.1%** | **40.3%** |
+| 4 | **Elizabeth 'Connie' Lewis** | 63 | 51.0% | 0 | 1 | **8.9%** | 30.9% | **10.2%** | **34.7%** |
+| 5 | **Moyin Odeniran** | 22 | 56.4% | 1 | 0 | **13.1%** | 22.9% | **9.6%** | **34.3%** |
 
 > [!NOTE]
 > Predictions update automatically after each broadcast episode via `task predict:update` or `uv run gbbo predict --update-docs`. See [docs/predictions.md](docs/predictions.md) for all historical episode snapshots.

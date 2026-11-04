@@ -42,7 +42,7 @@
   {
     "baker_id": "s17_yannis",
     "series_number": 17,
-    "name": "Dr. Yannis Ali",
+    "name": "Yannis Ali",
     "age": 28,
     "occupation": "Paediatric doctor",
     "hometown": "London, England",
@@ -56,8 +56,18 @@
     "age": 24,
     "occupation": "Marketing graduate",
     "hometown": "Hertfordshire, England",
-    "overall_placement": null,
-    "raw_placement_text": null
+    "overall_placement": 7,
+    "raw_placement_text": "7th"
+  },
+  {
+    "baker_id": "s17_gary",
+    "series_number": 17,
+    "name": "Gary Harding",
+    "age": 67,
+    "occupation": "Retired garment technologist",
+    "hometown": "Nottinghamshire, England",
+    "overall_placement": 6,
+    "raw_placement_text": "6th"
   },
   {
     "baker_id": "s17_elizabeth",
@@ -76,16 +86,6 @@
     "age": 32,
     "occupation": "Artist & drag king",
     "hometown": "West Midlands, England",
-    "overall_placement": null,
-    "raw_placement_text": null
-  },
-  {
-    "baker_id": "s17_gary",
-    "series_number": 17,
-    "name": "Gary Harding",
-    "age": 67,
-    "occupation": "Retired garment technologist",
-    "hometown": "Nottinghamshire, England",
     "overall_placement": null,
     "raw_placement_text": null
   },

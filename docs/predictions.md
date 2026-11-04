@@ -6,19 +6,17 @@ Predictions are calculated using an empirical modeling engine calibrated on 16 h
 
 ---
 
-## 🎂 Latest Contender Rankings (After Episode 6)
+## 🎂 Latest Contender Rankings (After Episode 7)
 
-**Model Context**: Active Bakers: 7/12 | Calibrated Historical Sample: Series 1–16
+**Model Context**: Active Bakers: 5/12 | Calibrated Historical Sample: Series 1–16
 
 | Rank | Baker | Age | Avg Tech % | Handshakes | Star Bakers | Next Star Baker | Next Elim Risk | Win Prob | Finale Prob |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Tom Whittaker** | 25 | 65.4% | 0 | 2 | **18.5%** | 7.8% | **30.0%** | **85.1%** |
-| 2 | **Clara Satchell-Silva** | 24 | 58.7% | 0 | 1 | **16.3%** | 11.3% | **14.9%** | **47.5%** |
-| 3 | **Mo Mahirr** | 21 | 63.9% | 0 | 1 | **12.7%** | 14.2% | **14.9%** | **48.5%** |
-| 4 | **Elizabeth 'Connie' Lewis** | 63 | 68.1% | 0 | 1 | **17.5%** | 9.6% | **13.7%** | **46.5%** |
-| 5 | **Gabe Capes** | 32 | 78.7% | 0 | 0 | **14.0%** | 17.2% | **10.3%** | **40.5%** |
-| 6 | **Moyin Odeniran** | 22 | 47.0% | 1 | 0 | **8.5%** | 22.3% | **10.2%** | **33.9%** |
-| 7 | **Gary Harding** | 67 | 44.2% | 0 | 0 | **12.5%** | 17.8% | **5.9%** | **23.0%** |
+| 1 | **Tom Whittaker** | 25 | 72.9% | 0 | 3 | **35.4%** | 8.3% | **51.8%** | **95.0%** |
+| 2 | **Gabe Capes** | 32 | 77.2% | 0 | 1 | **30.1%** | 14.9% | **16.4%** | **54.8%** |
+| 3 | **Mo Mahirr** | 21 | 56.1% | 0 | 1 | **12.6%** | 23.0% | **12.1%** | **40.3%** |
+| 4 | **Elizabeth 'Connie' Lewis** | 63 | 51.0% | 0 | 1 | **8.9%** | 30.9% | **10.2%** | **34.7%** |
+| 5 | **Moyin Odeniran** | 22 | 56.4% | 1 | 0 | **13.1%** | 22.9% | **9.6%** | **34.3%** |
 
 ---
 
@@ -26,20 +24,20 @@ Predictions are calculated using an empirical modeling engine calibrated on 16 h
 
 Progression of calibrated series win probabilities across broadcast episodes:
 
-| Baker | Status | Episode 1 | Episode 2 | Episode 3 | Episode 4 | Episode 5 | Episode 6 |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Tom Whittaker** | Active | 11.9% | 19.9% | 17.0% | 30.6% | 30.0% | 30.0% |
-| **Clara Satchell-Silva** | Active | 6.7% | 6.0% | 13.0% | 14.1% | 14.9% | 14.9% |
-| **Mo Mahirr** | Active | 16.5% | 17.3% | 17.5% | 15.7% | 14.9% | 14.9% |
-| **Elizabeth 'Connie' Lewis** | Active | 6.7% | 7.8% | 7.2% | 6.8% | 13.7% | 13.7% |
-| **Gabe Capes** | Active | 10.8% | 9.3% | 10.1% | 10.5% | 10.3% | 10.3% |
-| **Moyin Odeniran** | Active | 6.0% | 7.1% | 10.5% | 11.0% | 10.2% | 10.2% |
-| **Gary Harding** | Active | 9.1% | 5.9% | 5.6% | 5.1% | 5.9% | 5.9% |
-| **Dr. Yannis Ali** | Eliminated | 7.7% | 7.1% | 6.6% | 6.3% | 0.0% | 0.0% |
-| **Nikki** | Withdrew | 7.6% | 6.2% | 6.6% | 0.0% | 0.0% | 0.0% |
-| **Molly Chauhan** | Eliminated | 5.3% | 6.2% | 5.9% | 0.0% | 0.0% | 0.0% |
-| **Shannon Amy** | Eliminated | 6.1% | 7.2% | 0.0% | 0.0% | 0.0% | 0.0% |
-| **Danni Noke** | Eliminated | 5.4% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| Baker | Status | Episode 1 | Episode 2 | Episode 3 | Episode 4 | Episode 5 | Episode 6 | Episode 7 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Tom Whittaker** | Active | 11.9% | 19.9% | 17.0% | 30.6% | 30.0% | 30.0% | 51.8% |
+| **Gabe Capes** | Active | 10.8% | 9.3% | 10.1% | 10.5% | 10.3% | 10.3% | 16.4% |
+| **Mo Mahirr** | Active | 16.5% | 17.3% | 17.5% | 15.7% | 14.9% | 14.9% | 12.1% |
+| **Elizabeth 'Connie' Lewis** | Active | 6.7% | 7.8% | 7.2% | 6.8% | 13.7% | 13.7% | 10.2% |
+| **Moyin Odeniran** | Active | 6.0% | 7.1% | 10.5% | 11.0% | 10.2% | 10.2% | 9.6% |
+| **Gary Harding** | Eliminated | 9.1% | 5.9% | 5.6% | 5.1% | 5.9% | 5.9% | 0.0% |
+| **Clara Satchell-Silva** | Eliminated | 6.7% | 6.0% | 13.0% | 14.1% | 14.9% | 14.9% | 0.0% |
+| **Yannis Ali** | Eliminated | 7.7% | 7.1% | 6.6% | 6.3% | 0.0% | 0.0% | 0.0% |
+| **Nikki** | Withdrew | 7.6% | 6.2% | 6.6% | 0.0% | 0.0% | 0.0% | 0.0% |
+| **Molly Chauhan** | Eliminated | 5.3% | 6.2% | 5.9% | 0.0% | 0.0% | 0.0% | 0.0% |
+| **Shannon Amy** | Eliminated | 6.1% | 7.2% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
+| **Danni Noke** | Eliminated | 5.4% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
 
 ---
 
@@ -53,11 +51,14 @@ Comparison of model forecasts against actual weekly judging results:
 | Episode 2 | **Tom Whittaker** | Tom Whittaker (22.8%) | **Danni Noke** | Clara Satchell-Silva (14.1%) |
 | Episode 3 | **Clara Satchell-Silva** | Clara Satchell-Silva (16.6%) | **Shannon Amy** | Molly Chauhan (19.6%) |
 | Episode 4 | **Tom Whittaker** | Tom Whittaker (26.7%) | **Molly Chauhan (Elim), Nikki (Withdrew)** | Gary Harding (25.4%) |
-| Episode 5 | **Elizabeth 'Connie' Lewis** | Elizabeth 'Connie' Lewis (24.1%) | **Dr. Yannis Ali** | Moyin Odeniran (22.3%) |
-| Episode 6 | **None** | Tom Whittaker (18.5%) | **—** | Moyin Odeniran (22.3%) |
+| Episode 5 | **Elizabeth 'Connie' Lewis** | Elizabeth 'Connie' Lewis (24.1%) | **Yannis Ali** | Moyin Odeniran (22.3%) |
+| Episode 6 | **Tom Whittaker** | Tom Whittaker (18.5%) | **Clara Satchell-Silva** | Moyin Odeniran (22.3%) |
+| Episode 7 | **Gabe Capes** | Tom Whittaker (35.4%) | **Gary Harding** | Elizabeth 'Connie' Lewis (30.9%) |
 
 ### Elimination & Baker Status Verification
-- **Dr. Yannis Ali**: Eliminated. Win & Star Baker probability correctly set to **0.0%**.
+- **Gary Harding**: Eliminated. Win & Star Baker probability correctly set to **0.0%**.
+- **Clara Satchell-Silva**: Eliminated. Win & Star Baker probability correctly set to **0.0%**.
+- **Yannis Ali**: Eliminated. Win & Star Baker probability correctly set to **0.0%**.
 - **Nikki**: Withdrew. Win & Star Baker probability correctly set to **0.0%**.
 - **Molly Chauhan**: Eliminated. Win & Star Baker probability correctly set to **0.0%**.
 - **Shannon Amy**: Eliminated. Win & Star Baker probability correctly set to **0.0%**.

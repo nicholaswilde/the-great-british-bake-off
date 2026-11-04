@@ -2880,9 +2880,39 @@
     "county_region": "South Yorkshire"
   },
   {
+    "baker_id": "s17_gary",
+    "series_number": 17,
+    "name": "Gary Harding",
+    "age": 67,
+    "gender": "M",
+    "occupation": "Retired garment technologist",
+    "hometown": "Nottinghamshire, England",
+    "overall_placement": 6,
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GARY-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 53.1,
+    "longitude": -1.0,
+    "country": "England",
+    "county_region": "Nottinghamshire"
+  },
+  {
+    "baker_id": "s17_clara",
+    "series_number": 17,
+    "name": "Clara Satchell-Silva",
+    "age": 24,
+    "gender": "F",
+    "occupation": "Marketing graduate",
+    "hometown": "Hertfordshire, England",
+    "overall_placement": 7,
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.8098,
+    "longitude": -0.2377,
+    "country": "England",
+    "county_region": "Hertfordshire"
+  },
+  {
     "baker_id": "s17_yannis",
     "series_number": 17,
-    "name": "Dr. Yannis Ali",
+    "name": "Yannis Ali",
     "age": 28,
     "gender": "M",
     "occupation": "Paediatric doctor",
@@ -2955,21 +2985,6 @@
     "county_region": "Dorset"
   },
   {
-    "baker_id": "s17_clara",
-    "series_number": 17,
-    "name": "Clara Satchell-Silva",
-    "age": 24,
-    "gender": "F",
-    "occupation": "Marketing graduate",
-    "hometown": "Hertfordshire, England",
-    "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CLARA-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
-    "latitude": 51.8098,
-    "longitude": -0.2377,
-    "country": "England",
-    "county_region": "Hertfordshire"
-  },
-  {
     "baker_id": "s17_elizabeth",
     "series_number": 17,
     "name": "Elizabeth 'Connie' Lewis",
@@ -2998,21 +3013,6 @@
     "longitude": -1.8904,
     "country": "England",
     "county_region": "West Midlands"
-  },
-  {
-    "baker_id": "s17_gary",
-    "series_number": 17,
-    "name": "Gary Harding",
-    "age": 67,
-    "gender": "M",
-    "occupation": "Retired garment technologist",
-    "hometown": "Nottinghamshire, England",
-    "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GARY-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
-    "latitude": 53.1,
-    "longitude": -1.0,
-    "country": "England",
-    "county_region": "Nottinghamshire"
   },
   {
     "baker_id": "s17_mo",
