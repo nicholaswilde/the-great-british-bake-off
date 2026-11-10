@@ -1598,5 +1598,15 @@
     "signature_time_min": 120,
     "technical_time_min": 90,
     "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s17e07",
+    "series_number": 17,
+    "episode_number": 7,
+    "theme": "Free-From Party",
+    "air_date": "2026-11-03",
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 240
   }
 ]

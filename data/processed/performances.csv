@@ -1158,7 +1158,7 @@ s16e10_s16_aaron,s16_aaron,s16e10,Pear & Rhubarb Iced Finger Buns,2.0,'Final Tea
 s16e10_s16_jasmine,s16_jasmine,s16e10,Apricot & Strawberry Iced Finger Buns,3.0,'Summer Celebration' Table Cake,WINNER,False,False,False,False
 s16e10_s16_thomas,s16_thomas,s16e10,Piña Colada & Hot Dog Iced Finger Buns,1.0,'All Roads Lead To The Tent' Table Cake,RUNNER_UP,False,False,False,False
 s17e01_s17_clara,s17_clara,s17e01,"""Taste of Two Homes"" Chocolate Stout Cake",8.0,"""Impression of Me"" Portrait Cake",SAFE,False,False,False,False
-s17e01_s17_danni,s17_danni,s17e01,"""I'm a Little Cakey, Port & Stout"" Chocolate Stout Cake",11.0,'Pixel Perfect Patch' Portrait Cake,SAFE,False,False,False,False
+s17e01_s17_danni,s17_danni,s17e01,"""I'm a Little Cakey, Port & Stout"" Chocolate Stout Cake",11.0,"""Pixel Perfect Patch"" Portrait Cake",SAFE,False,False,False,False
 s17e01_s17_elizabeth,s17_elizabeth,s17e01,"""Jamaican Dragon"" Chocolate Stout Cake",6.0,Chocolate & Berry Portrait Cake,SAFE,False,False,False,False
 s17e01_s17_gabe,s17_gabe,s17e01,"""Pint & Peanuts with Dad"" Chocolate Stout Cake",3.0,"""Blu Romantic"" Portrait Cake",SAFE,False,False,False,False
 s17e01_s17_gary,s17_gary,s17e01,"""My Uncle Guiness"" Chocolate Stout Cake",2.0,"""Home at the Stables"" Portrait Cake",SAFE,False,False,False,False
@@ -1181,17 +1181,17 @@ s17e02_s17_nikki,s17_nikki,s17e02,"""Tom's Favourite Chocolate Bar"" Cookies",9.
 s17e02_s17_shannon,s17_shannon,s17e02,"""Strawberries, Cream & Centre Court Dreams"" Cookies",5.0,"""Hidden Harvest Path"" Biscuit Mosaic",SAFE,False,False,False,False
 s17e02_s17_tom,s17_tom,s17e02,"""Nordic Crunch"" Cookies",3.0,"""Burn Book"" Biscuit Mosaic",STAR_BAKER,False,False,False,False
 s17e02_s17_yannis,s17_yannis,s17e02,"""Street Chai"" Cookies",8.0,"""Norfolk Broads Reflections"" Biscuit Mosaic",SAFE,False,False,False,False
-s17e03_s17_clara,s17_clara,s17e03,'Honky Tonk' Cheesecake,3.0,'Piña Couture Handbag' Showstopper,STAR_BAKER,False,False,False,False
-s17e03_s17_elizabeth,s17_elizabeth,s17e03,Ginger and Lemon Basque Cheesecake,6.0,'Mother of the Bride' Showstopper,SAFE,False,False,False,False
-s17e03_s17_gabe,s17_gabe,s17e03,'You're Coconuts' Cheesecake,1.0,'Crown It' Showstopper,SAFE,False,False,False,False
-s17e03_s17_gary,s17_gary,s17e03,'Cherry Lake' Cheesecake,8.0,'Bobilicious Hat' Showstopper,SAFE,False,False,False,False
-s17e03_s17_mo,s17_mo,s17e03,Cardamom & Strawberry Cheesecake,2.0,'Angel Wings' Showstopper,SAFE,False,False,False,False
-s17e03_s17_molly,s17_molly,s17e03,Raspberry Cheesecake,10.0,'Floral Blossom Cap' Showstopper,SAFE,False,False,False,False
-s17e03_s17_moyin,s17_moyin,s17e03,Orange Basque Cheesecake,5.0,'Lambeth Top Hat' Showstopper,SAFE,True,False,False,False
-s17e03_s17_nikki,s17_nikki,s17e03,'Cherry Bakewell' Cheesecake,4.0,'Mojito Sombrero' Showstopper,SAFE,False,False,False,False
-s17e03_s17_shannon,s17_shannon,s17e03,'The Naughty Bailey' Cheesecake,11.0,'The Fairy Wings of the Painted Brook' Showstopper,ELIMINATED,False,False,False,False
-s17e03_s17_tom,s17_tom,s17e03,'Alex's Fave Flavours' Cheesecake,7.0,'Serving Dolly's Wig' Showstopper,SAFE,False,False,False,False
-s17e03_s17_yannis,s17_yannis,s17e03,"Honey, Fig & Walnet Käsekuchen",9.0,'Bengali Groom's Crown' Showstopper,SAFE,False,False,False,False
+s17e03_s17_clara,s17_clara,s17e03,"""Honky Tonk"" Cheesecake",3.0,"""Piña Couture Handbag"" Showstopper",STAR_BAKER,False,False,False,False
+s17e03_s17_elizabeth,s17_elizabeth,s17e03,Ginger and Lemon Basque Cheesecake,6.0,"""Mother of the Bride"" Showstopper",SAFE,False,False,False,False
+s17e03_s17_gabe,s17_gabe,s17e03,"""You're Coconuts"" Cheesecake",1.0,"""Crown It"" Showstopper",SAFE,False,False,False,False
+s17e03_s17_gary,s17_gary,s17e03,"""Cherry Lake"" Cheesecake",8.0,"""Bobilicious Hat"" Showstopper",SAFE,False,False,False,False
+s17e03_s17_mo,s17_mo,s17e03,Cardamom & Strawberry Cheesecake,2.0,"""Angel Wings"" Showstopper",SAFE,False,False,False,False
+s17e03_s17_molly,s17_molly,s17e03,Raspberry Cheesecake,10.0,"""Floral Blossom Cap"" Showstopper",SAFE,False,False,False,False
+s17e03_s17_moyin,s17_moyin,s17e03,Orange Basque Cheesecake,5.0,"""Lambeth Top Hat"" Showstopper",SAFE,True,False,False,False
+s17e03_s17_nikki,s17_nikki,s17e03,"""Cherry Bakewell"" Cheesecake",4.0,"""Mojito Sombrero"" Showstopper",SAFE,False,False,False,False
+s17e03_s17_shannon,s17_shannon,s17e03,"""The Naughty Bailey"" Cheesecake",11.0,"""The Fairy Wings of the Painted Brook"" Showstopper",ELIMINATED,False,False,False,False
+s17e03_s17_tom,s17_tom,s17e03,"""Alex's Fave Flavours"" Cheesecake",7.0,"""Serving Dolly's Wig"" Showstopper",SAFE,False,False,False,False
+s17e03_s17_yannis,s17_yannis,s17e03,"Honey, Fig & Walnet Käsekuchen",9.0,"""Bengali Groom's Crown"" Showstopper",SAFE,False,False,False,False
 s17e04_s17_clara,s17_clara,s17e04,Thai Basil and Garlic Bread,2.0,"""Crowned in Fruit & Spice"" Bread Display",SAFE,False,False,False,False
 s17e04_s17_elizabeth,s17_elizabeth,s17e04,Garlic Star Bread,5.0,"""Easter Bread Basket"" Display",SAFE,False,False,False,False
 s17e04_s17_gabe,s17_gabe,s17e04,Monday Night Pizza Garlic Bread,1.0,"""Summer Solstice Party"" Bread Display",SAFE,False,False,False,False
@@ -1210,10 +1210,16 @@ s17e05_s17_mo,s17_mo,s17e05,Chocolate and Hazelnut Self-saucing Puddings,6.0,Des
 s17e05_s17_moyin,s17_moyin,s17e05,Chocolate Orange Fondants,8.0,"""From Lagos to London"" Dessert Trolley",SAFE,False,False,False,False
 s17e05_s17_tom,s17_tom,s17e05,Apple Crumble Self-saucing puddings,5.0,"""Tipsy"" Dessert Trolley",SAFE,False,False,False,False
 s17e05_s17_yannis,s17_yannis,s17e05,Apple Cinnamon and Raisin Self-saucing Pudding,7.0,"""British Nostalgia"" Dessert Trolley",ELIMINATED,False,False,False,False
-s17e06_s17_clara,s17_clara,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_elizabeth,s17_elizabeth,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_gabe,s17_gabe,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_gary,s17_gary,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_mo,s17_mo,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_moyin,s17_moyin,s17e06,,,,SAFE,False,False,False,False
-s17e06_s17_tom,s17_tom,s17e06,,,,SAFE,False,False,False,False
+s17e06_s17_clara,s17_clara,s17e06,"""Drunken Deer"" Handheld Savoury Pies",7.0,"""Starry Bites"" Decorative Pie",ELIMINATED,False,False,False,False
+s17e06_s17_elizabeth,s17_elizabeth,s17e06,Jerk Chicken Handheld Savoury Pies,6.0,"""Curried Sweet Potato Snake"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_gabe,s17_gabe,s17e06,"""Bostin Brummie Balti"" Handheld Savoury Pies",3.0,"""Lincolnshire Sausage Dog"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_gary,s17_gary,s17e06,"Mince Beef, Onion, and Potato Handheld Savoury Pies",4.0,"""Mariner's"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_mo,s17_mo,s17e06,"""Creamy Chicken"" Handheld Savoury Pies",5.0,"""Chai Spiced Pear"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_moyin,s17_moyin,s17e06,"""Nigerian Meat"" Handheld Savoury Pies",1.0,"""Head of the Orchard"" Decorative Pie",SAFE,False,False,False,False
+s17e06_s17_tom,s17_tom,s17e06,"""Banh Mi"" Handheld Savoury Pies",2.0,"""Stop-Motion Chicken"" Decorative Pie",STAR_BAKER,False,False,False,False
+s17e07_s17_elizabeth,s17_elizabeth,s17e07,"""Butterflies"" Gluten-Free Pastries",6.0,"""The Problem that Can't Be Solved"" Vegan Party Cake",SAFE,False,False,False,False
+s17e07_s17_gabe,s17_gabe,s17e07,"""Ladybird"" Gluten-Free Pastries",2.0,"""The Big Bug Hunt"" Gluten-Free Party Cake",STAR_BAKER,False,False,False,False
+s17e07_s17_gary,s17_gary,s17e07,"""Gazza the Caterpillar"" Gluten-Free Pastries",5.0,"""Birthday Brew"" Gluten-Free Party Cake",ELIMINATED,False,False,False,False
+s17e07_s17_mo,s17_mo,s17e07,"""Toaster Tarts"" Gluten-Free Pastries",4.0,Gluten-Free Vacuum Cake,SAFE,False,False,False,False
+s17e07_s17_moyin,s17_moyin,s17e07,"""Little Monster Eyes"" Gluten-Free Pastries",3.0,"""The Great Dino Dig"" Vegan Party Cake",SAFE,False,False,False,False
+s17e07_s17_tom,s17_tom,s17e07,"""Little Monsters"" Gluten-Free Pastries",1.0,"""Swampy Surprise"" Gluten-Free Party Cake",SAFE,False,False,False,False

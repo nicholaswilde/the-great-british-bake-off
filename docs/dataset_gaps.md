@@ -6,8 +6,8 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `seasons` | 17 | 10 | 0 | 100.0% | **PASS** |
 | `bakers` | 204 | 13 | 0 | 100.0% | **PASS** |
-| `episodes` | 160 | 8 | 0 | 100.0% | **PASS** |
-| `performances` | 1218 | 11 | 0 | 100.0% | **PASS** |
+| `episodes` | 161 | 8 | 0 | 100.0% | **PASS** |
+| `performances` | 1224 | 11 | 0 | 100.0% | **PASS** |
 
 ## Column Gaps Detail
 
@@ -37,7 +37,7 @@
 | `gender` | 0 | 0.0% | OK | Complete |
 | `occupation` | 0 | 0.0% | OK | Baker occupation unlisted or retired. |
 | `hometown` | 0 | 0.0% | OK | Hometown unrecorded or broad region specified. |
-| `overall_placement` | 7 | 3.4% | CONDITIONAL | Active contestants still in competition in in-progress broadcast series. |
+| `overall_placement` | 5 | 2.5% | CONDITIONAL | Active contestants still in competition in in-progress broadcast series. |
 | `image_url` | 0 | 0.0% | OK | Complete |
 | `latitude` | 0 | 0.0% | OK | Complete |
 | `longitude` | 0 | 0.0% | OK | Complete |
@@ -64,9 +64,9 @@
 | `performance_id` | 0 | 0.0% | OK | Complete |
 | `baker_id` | 0 | 0.0% | OK | Complete |
 | `episode_id` | 0 | 0.0% | OK | Complete |
-| `signature_dish` | 7 | 0.6% | CONDITIONAL | Conditional challenge by design |
-| `technical_rank` | 22 | 1.8% | CONDITIONAL | Some series finals (e.g. Series 1) omitted technical challenges, or judges only ranked top/bottom bakers. |
-| `showstopper_dish` | 7 | 0.6% | CONDITIONAL | Conditional challenge by design |
+| `signature_dish` | 0 | 0.0% | OK | Conditional challenge by design |
+| `technical_rank` | 15 | 1.2% | CONDITIONAL | Some series finals (e.g. Series 1) omitted technical challenges, or judges only ranked top/bottom bakers. |
+| `showstopper_dish` | 0 | 0.0% | OK | Conditional challenge by design |
 | `result` | 0 | 0.0% | OK | Complete |
 | `hollywood_handshake` | 0 | 0.0% | OK | Complete |
 | `did_well` | 0 | 0.0% | OK | Complete |

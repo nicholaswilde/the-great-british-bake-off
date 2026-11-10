@@ -263,6 +263,16 @@ def extract_air_dates(soup: BeautifulSoup) -> dict[int, str]:
                             )
                     break
 
+    if 1 in air_dates:
+        try:
+            start_dt = pd.to_datetime(air_dates[1])
+            for ep_i in range(1, 11):
+                if ep_i not in air_dates:
+                    ep_dt = start_dt + pd.Timedelta(weeks=ep_i - 1)
+                    air_dates[ep_i] = ep_dt.strftime("%Y-%m-%d")
+        except Exception as err:
+            logger.warning("Could not project air dates from episode 1: %s", err)
+
     return air_dates
 
 
