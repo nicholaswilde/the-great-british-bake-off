@@ -47,5 +47,12 @@
     "episode_number": 7,
     "theme": "Free-From Party",
     "air_date": "2026-11-03"
+  },
+  {
+    "episode_id": "s17e08",
+    "series_number": 17,
+    "episode_number": 8,
+    "theme": "Caramel",
+    "air_date": "2026-11-10"
   }
 ]

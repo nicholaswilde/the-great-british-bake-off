@@ -1608,5 +1608,15 @@
     "signature_time_min": 120,
     "technical_time_min": 90,
     "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s17e08",
+    "series_number": 17,
+    "episode_number": 8,
+    "theme": "Caramel",
+    "air_date": "2026-11-10",
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
   }
 ]

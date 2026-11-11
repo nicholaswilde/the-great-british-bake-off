@@ -4621,6 +4621,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.1278,
+          51.5074
+        ]
+      },
+      "properties": {
+        "baker_id": "s17_elizabeth",
+        "name": "Elizabeth \"Connie\" Lewis",
+        "series_number": 17,
+        "age": 63,
+        "gender": "F",
+        "occupation": "NHS hospital discharge lead",
+        "hometown": "London, England",
+        "country": "England",
+        "county_region": "Greater London",
+        "overall_placement": 5,
+        "is_winner": false,
+        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.0,
           53.1
         ]
@@ -4699,7 +4723,7 @@
       },
       "properties": {
         "baker_id": "s17_nikki",
-        "name": "Nikki",
+        "name": "Nikki Porter",
         "series_number": 17,
         "age": 50,
         "gender": "F",
@@ -4789,30 +4813,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1278,
-          51.5074
-        ]
-      },
-      "properties": {
-        "baker_id": "s17_elizabeth",
-        "name": "Elizabeth 'Connie' Lewis",
-        "series_number": 17,
-        "age": 63,
-        "gender": "F",
-        "occupation": "NHS hospital discharge lead",
-        "hometown": "London, England",
-        "country": "England",
-        "county_region": "Greater London",
-        "overall_placement": null,
-        "is_winner": false,
-        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.8904,
           52.4862
         ]
@@ -4843,7 +4843,7 @@
       },
       "properties": {
         "baker_id": "s17_mo",
-        "name": "Mo Mahirr",
+        "name": "Mo Mahir",
         "series_number": 17,
         "age": 21,
         "gender": "M",

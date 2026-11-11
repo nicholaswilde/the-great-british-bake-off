@@ -1223,3 +1223,8 @@ s17e07_s17_gary,s17_gary,s17e07,"""Gazza the Caterpillar"" Gluten-Free Pastries"
 s17e07_s17_mo,s17_mo,s17e07,"""Toaster Tarts"" Gluten-Free Pastries",4.0,Gluten-Free Vacuum Cake,SAFE,False,False,False,False
 s17e07_s17_moyin,s17_moyin,s17e07,"""Little Monster Eyes"" Gluten-Free Pastries",3.0,"""The Great Dino Dig"" Vegan Party Cake",SAFE,False,False,False,False
 s17e07_s17_tom,s17_tom,s17e07,"""Little Monsters"" Gluten-Free Pastries",1.0,"""Swampy Surprise"" Gluten-Free Party Cake",SAFE,False,False,False,False
+s17e08_s17_elizabeth,s17_elizabeth,s17e08,Classic Treacle Tart,4.0,"""Thank You Myke"" Nougatine Sculpture",ELIMINATED,False,False,False,False
+s17e08_s17_gabe,s17_gabe,s17e08,Almond & Orange Treacle Tart,3.0,"""Mighty Mariners"" Nougatine Sculpture",SAFE,False,False,False,False
+s17e08_s17_mo,s17_mo,s17e08,"""Apple Crumble"" Treacle Tart",5.0,"""Baby Shower"" Nougatine Sculpture",SAFE,False,False,False,False
+s17e08_s17_moyin,s17_moyin,s17e08,"""Sticky Toffee"" Treacle Tart",2.0,"""Omo Oba"" Nougatine Sculpture",STAR_BAKER,False,False,False,False
+s17e08_s17_tom,s17_tom,s17e08,"""PB & J"" Treacle Tart",1.0,"""Otley Run"" Nougatine Sculpture",SAFE,False,False,False,False

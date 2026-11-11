@@ -2880,6 +2880,21 @@
     "county_region": "South Yorkshire"
   },
   {
+    "baker_id": "s17_elizabeth",
+    "series_number": 17,
+    "name": "Elizabeth \"Connie\" Lewis",
+    "age": 63,
+    "gender": "F",
+    "occupation": "NHS hospital discharge lead",
+    "hometown": "London, England",
+    "overall_placement": 5,
+    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
+    "latitude": 51.5074,
+    "longitude": -0.1278,
+    "country": "England",
+    "county_region": "Greater London"
+  },
+  {
     "baker_id": "s17_gary",
     "series_number": 17,
     "name": "Gary Harding",
@@ -2927,7 +2942,7 @@
   {
     "baker_id": "s17_nikki",
     "series_number": 17,
-    "name": "Nikki",
+    "name": "Nikki Porter",
     "age": 50,
     "gender": "F",
     "occupation": "Advertising post-producer",
@@ -2985,21 +3000,6 @@
     "county_region": "Dorset"
   },
   {
-    "baker_id": "s17_elizabeth",
-    "series_number": 17,
-    "name": "Elizabeth 'Connie' Lewis",
-    "age": 63,
-    "gender": "F",
-    "occupation": "NHS hospital discharge lead",
-    "hometown": "London, England",
-    "overall_placement": null,
-    "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg",
-    "latitude": 51.5074,
-    "longitude": -0.1278,
-    "country": "England",
-    "county_region": "Greater London"
-  },
-  {
     "baker_id": "s17_gabe",
     "series_number": 17,
     "name": "Gabe Capes",
@@ -3017,7 +3017,7 @@
   {
     "baker_id": "s17_mo",
     "series_number": 17,
-    "name": "Mo Mahirr",
+    "name": "Mo Mahir",
     "age": 21,
     "gender": "M",
     "occupation": "Law student",
