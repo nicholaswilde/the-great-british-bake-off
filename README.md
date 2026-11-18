@@ -348,17 +348,15 @@ Career technical challenge rank percentile distributions and Star Baker honors f
 ## :crystal_ball: Empirical Series Predictions
 
 <!-- GBBO_PREDICTIONS_START -->
-### :trophy: Live Empirical Predictions (Series 17 - After Episode 7)
+### :trophy: Live Empirical Predictions (Series 17 - After Episode 9)
 
 Probabilistic forecasts computed via multi-factor empirical modeling calibrated against 16 historical GBBO series. See [docs/predictions.md](docs/predictions.md) for full weekly trajectory ledgers and outcome accuracy tracking.
 
 | Rank | Baker | Age | Avg Tech % | Handshakes | Star Bakers | Next Star Baker | Next Elim Risk | Win Prob | Finale Prob |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Tom Whittaker** | 25 | 72.9% | 0 | 3 | **35.4%** | 8.3% | **51.8%** | **95.0%** |
-| 2 | **Gabe Capes** | 32 | 77.2% | 0 | 1 | **30.1%** | 14.9% | **16.4%** | **54.8%** |
-| 3 | **Mo Mahirr** | 21 | 56.1% | 0 | 1 | **12.6%** | 23.0% | **12.1%** | **40.3%** |
-| 4 | **Elizabeth 'Connie' Lewis** | 63 | 51.0% | 0 | 1 | **8.9%** | 30.9% | **10.2%** | **34.7%** |
-| 5 | **Moyin Odeniran** | 22 | 56.4% | 1 | 0 | **13.1%** | 22.9% | **9.6%** | **34.3%** |
+| 1 | **Tom Whittaker** | 25 | 75.2% | 0 | 3 | **38.9%** | 24.5% | **57.2%** | **100.0%** |
+| 2 | **Mo Mahir** | 21 | 54.8% | 0 | 2 | **46.3%** | 23.8% | **24.1%** | **100.0%** |
+| 3 | **Moyin Odeniran** | 22 | 52.2% | 1 | 1 | **14.9%** | 51.6% | **18.6%** | **100.0%** |
 
 > [!NOTE]
 > Predictions update automatically after each broadcast episode via `task predict:update` or `uv run gbbo predict --update-docs`. See [docs/predictions.md](docs/predictions.md) for all historical episode snapshots.
