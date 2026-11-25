@@ -4621,6 +4621,126 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.4431,
+          51.7719
+        ]
+      },
+      "properties": {
+        "baker_id": "s17_moyin",
+        "name": "Moyin Odeniran",
+        "series_number": 17,
+        "age": 22,
+        "gender": "M",
+        "occupation": "Political economy student",
+        "hometown": "Essex, England",
+        "country": "England",
+        "county_region": "Essex",
+        "overall_placement": 1,
+        "is_winner": true,
+        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MOYIN-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8904,
+          52.4862
+        ]
+      },
+      "properties": {
+        "baker_id": "s17_mo",
+        "name": "Mo Mahir",
+        "series_number": 17,
+        "age": 21,
+        "gender": "M",
+        "occupation": "Law student",
+        "hometown": "West Midlands, England",
+        "country": "England",
+        "county_region": "West Midlands",
+        "overall_placement": 2,
+        "is_winner": false,
+        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MO-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8631,
+          53.7258
+        ]
+      },
+      "properties": {
+        "baker_id": "s17_tom",
+        "name": "Tom Whittaker",
+        "series_number": 17,
+        "age": 25,
+        "gender": "M",
+        "occupation": "Hairdresser",
+        "hometown": "Halifax, West Yorkshire, England",
+        "country": "England",
+        "county_region": "West Yorkshire",
+        "overall_placement": 2,
+        "is_winner": false,
+        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/TOM-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8904,
+          52.4862
+        ]
+      },
+      "properties": {
+        "baker_id": "s17_gabe",
+        "name": "Gabe Capes",
+        "series_number": 17,
+        "age": 32,
+        "gender": "M",
+        "occupation": "Artist & drag king",
+        "hometown": "West Midlands, England",
+        "country": "England",
+        "county_region": "West Midlands",
+        "overall_placement": 4,
+        "is_winner": false,
+        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GABE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1278,
+          51.5074
+        ]
+      },
+      "properties": {
+        "baker_id": "s17_elizabeth",
+        "name": "Elizabeth \"Connie\" Lewis",
+        "series_number": 17,
+        "age": 63,
+        "gender": "F",
+        "occupation": "NHS hospital discharge lead",
+        "hometown": "London, England",
+        "country": "England",
+        "county_region": "Greater London",
+        "overall_placement": 5,
+        "is_winner": false,
+        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.0,
           53.1
         ]
@@ -4699,7 +4819,7 @@
       },
       "properties": {
         "baker_id": "s17_nikki",
-        "name": "Nikki",
+        "name": "Nikki Porter",
         "series_number": 17,
         "age": 50,
         "gender": "F",
@@ -4782,126 +4902,6 @@
         "overall_placement": 12,
         "is_winner": false,
         "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/DANNI-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1278,
-          51.5074
-        ]
-      },
-      "properties": {
-        "baker_id": "s17_elizabeth",
-        "name": "Elizabeth 'Connie' Lewis",
-        "series_number": 17,
-        "age": 63,
-        "gender": "F",
-        "occupation": "NHS hospital discharge lead",
-        "hometown": "London, England",
-        "country": "England",
-        "county_region": "Greater London",
-        "overall_placement": null,
-        "is_winner": false,
-        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/CONNIE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8904,
-          52.4862
-        ]
-      },
-      "properties": {
-        "baker_id": "s17_gabe",
-        "name": "Gabe Capes",
-        "series_number": 17,
-        "age": 32,
-        "gender": "M",
-        "occupation": "Artist & drag king",
-        "hometown": "West Midlands, England",
-        "country": "England",
-        "county_region": "West Midlands",
-        "overall_placement": null,
-        "is_winner": false,
-        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/GABE-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8904,
-          52.4862
-        ]
-      },
-      "properties": {
-        "baker_id": "s17_mo",
-        "name": "Mo Mahirr",
-        "series_number": 17,
-        "age": 21,
-        "gender": "M",
-        "occupation": "Law student",
-        "hometown": "West Midlands, England",
-        "country": "England",
-        "county_region": "West Midlands",
-        "overall_placement": null,
-        "is_winner": false,
-        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MO-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.4431,
-          51.7719
-        ]
-      },
-      "properties": {
-        "baker_id": "s17_moyin",
-        "name": "Moyin Odeniran",
-        "series_number": 17,
-        "age": 22,
-        "gender": "M",
-        "occupation": "Political economy student",
-        "hometown": "Essex, England",
-        "country": "England",
-        "county_region": "Essex",
-        "overall_placement": null,
-        "is_winner": false,
-        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/MOYIN-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8631,
-          53.7258
-        ]
-      },
-      "properties": {
-        "baker_id": "s17_tom",
-        "name": "Tom Whittaker",
-        "series_number": 17,
-        "age": 25,
-        "gender": "M",
-        "occupation": "Hairdresser",
-        "hometown": "Halifax, West Yorkshire, England",
-        "country": "England",
-        "county_region": "West Yorkshire",
-        "overall_placement": null,
-        "is_winner": false,
-        "image_url": "https://thegreatbritishbakeoff.co.uk/wp-content/uploads/2026/09/TOM-Anno-CLEAN_GBBO_S17_PreTX_1x1.jpg"
       }
     }
   ]

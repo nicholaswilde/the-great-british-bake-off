@@ -1608,5 +1608,35 @@
     "signature_time_min": 120,
     "technical_time_min": 90,
     "showstopper_time_min": 240
+  },
+  {
+    "episode_id": "s17e08",
+    "series_number": 17,
+    "episode_number": 8,
+    "theme": "Caramel",
+    "air_date": "2026-11-10",
+    "signature_time_min": 120,
+    "technical_time_min": 90,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s17e09",
+    "series_number": 17,
+    "episode_number": 9,
+    "theme": "Patisserie",
+    "air_date": "2026-11-17",
+    "signature_time_min": 165,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
+  },
+  {
+    "episode_id": "s17e10",
+    "series_number": 17,
+    "episode_number": 10,
+    "theme": "Final",
+    "air_date": "2026-11-24",
+    "signature_time_min": 150,
+    "technical_time_min": 120,
+    "showstopper_time_min": 270
   }
 ]
